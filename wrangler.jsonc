@@ -1,0 +1,31 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // Static site: `npm run build` writes plain HTML to ./out, and wrangler uploads it as static assets.
+  // No server runtime / OpenNext adapter is needed.
+  "name": "ui-ux-agency",
+  // Tiny Worker in front of the static assets: canonical-host redirects, removed-page 301s and /api/lead (form → email).
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-09-26",
+  // Custom domains (ui-ux.agency + www) are attached in the Cloudflare dashboard:
+  // Worker → Settings → Domains & Routes. They are not declared here because the
+  // Workers Builds token can't manage zone DNS, which made deploys fail.
+  "workers_dev": true,
+  // Worker logs (Observability → Logs) show why a lead email failed.
+  "observability": { "enabled": true },
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    // true: every request passes the Worker first, so it can 301 http:// and www. to https://ui-ux.agency
+    "run_worker_first": true,
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  // Lead emails via Cloudflare Email Routing. Each address must be added and verified
+  // under Email → Email Routing → Destination addresses before mail is delivered.
+  "send_email": [
+    {
+      "name": "LEADS",
+      "allowed_destination_addresses": ["umar.sarwar@corp.tkxel.com", "rizwan.siddiqui@tkxel.com"]
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "note": "Structural fingerprint of every published post, so new posts never repeat the same pattern. The orchestrator appends one entry per shipped post.",
+  "fields": [],
+  "posts": [
+    {
+      "slug": "choose-ux-research-agency",
+      "hub": "ux-research-services",
+      "type": "Guide",
+      "funnel": "bofu",
+      "introStyle": "buyer scenario",
+      "h2Frames": [
+        "what/why",
+        "which criteria",
+        "how to check",
+        "questions to ask",
+        "red flags",
+        "compare proposals",
+        "contract terms",
+        "first 2 weeks",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "What decision should the research answer first?",
+        "How do you write a research brief agencies can quote?",
+        "Which 7 criteria separate a real research agency?",
+        "How do you test an agency's participant recruitment?",
+        "What should a sample research readout show you?",
+        "12 questions to ask on the pitch call",
+        "Red flags that mean you should walk away",
+        "How do you compare research proposals on price and scope?",
+        "Which contract terms protect your research data?",
+        "What should the first 2 weeks look like after signing?",
+        "FAQs"
+      ],
+      "visualTypes": [
+        "checklist",
+        "scorecard",
+        "red-flag map",
+        "proposal comparison",
+        "timeline"
+      ],
+      "ctaAngle": "send your research brief \u2192 free consultation + fixed-scope proposal",
+      "faqCount": 5,
+      "words": 2378,
+      "tableCount": 4,
+      "listStyle": "numbered steps + bullet criteria"
+    },
+    {
+      "slug": "saas-product-redesign",
+      "hub": "saas-ux-design",
+      "type": "Guide",
+      "funnel": "mofu",
+      "introStyle": "myth",
+      "h2Frames": [
+        "what/what not",
+        "which metrics",
+        "which scope",
+        "who is at risk",
+        "how to test",
+        "how to roll out",
+        "mistakes",
+        "FAQs"
+      ],
+      "visualTypes": [
+        "decision tree",
+        "2x2 risk matrix",
+        "before/after flow map"
+      ],
+      "ctaAngle": "send your funnel \u2192 free consultation + fixed-scope proposal",
+      "faqCount": 5,
+      "words": 2172
+    },
+    {
+      "slug": "ux-audit-agency-vs-freelancer",
+      "hub": "ux-audit-services",
+      "type": "Comparison",
+      "funnel": "bofu",
+      "introStyle": "data point with source",
+      "h2Frames": [
+        "vs",
+        "why",
+        "when (fit)",
+        "can (yes/no)",
+        "what catches/misses",
+        "when (agency)",
+        "how to judge",
+        "how to combine",
+        "what to send",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "UX audit agency vs freelancer: what actually changes?",
+        "Why do independent evaluators matter more than the logo?",
+        "When is a freelance UX auditor the right choice?",
+        "Can your in-house team audit its own product?",
+        "What can an AI UX audit tool catch and miss?",
+        "When does a UX audit need an agency team?",
+        "How do you judge audit quality before you pay?",
+        "How do you combine AI, your team and an expert audit?",
+        "What should you send before asking for a quote?",
+        "FAQs"
+      ],
+      "visualTypes": [
+        "comparison matrix",
+        "range-band chart",
+        "split card",
+        "one finding four ways",
+        "hybrid flow",
+        "scope sheet form"
+      ],
+      "ctaAngle": "send the same scope sheet to every provider \u2192 free consultation + fixed-scope proposal",
+      "faqCount": 5,
+      "words": 1874,
+      "tableCount": 1,
+      "listStyle": "reasoned bullets (situation + because) + numbered hybrid steps"
+    },
+    {
+      "slug": "design-system-roi",
+      "hub": "design-system-services",
+      "type": "Guide",
+      "funnel": "bofu",
+      "introStyle": "question",
+      "h2Frames": [
+        "what",
+        "which inputs",
+        "how to measure",
+        "worked example",
+        "which costs missed",
+        "when never",
+        "how to build case",
+        "which metrics",
+        "what to bring",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "What does design system ROI actually measure?",
+        "Which 5 inputs does the calculation need?",
+        "How do you measure a baseline before the build?",
+        "Worked example: payback for a 3-team product",
+        "Which costs do most ROI models leave out?",
+        "When does a design system never pay back?",
+        "How do you turn the numbers into a one-page business case?",
+        "Which metrics prove the ROI after launch?",
+        "What should you bring to a design system scoping call?",
+        "FAQs"
+      ],
+      "visualTypes": [
+        "formula anatomy",
+        "input worksheet",
+        "break-even line chart + tables",
+        "cost stack",
+        "zigzag decision tree",
+        "one-page business case document"
+      ],
+      "ctaAngle": "bring your baseline sheet \u2192 free consultation + fixed-scope proposal",
+      "faqCount": 5,
+      "words": 2179,
+      "tableCount": 4,
+      "listStyle": "worksheet tables + gated decision steps"
+    },
+    {
+      "slug": "web-app-design-rfp",
+      "hub": "web-app-design-services",
+      "type": "Checklist",
+      "funnel": "bofu",
+      "introStyle": "definition",
+      "h2Frames": [
+        "when",
+        "which sections",
+        "how to list",
+        "which in scope",
+        "what access",
+        "how to write criteria",
+        "what to leave out",
+        "how to state budget/weights",
+        "what happens after",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "When do you need a web app design RFP?",
+        "Which 9 sections does the RFP need?",
+        "How do you list user roles and workflows?",
+        "Which screen states and data belong in scope?",
+        "What research access should you promise?",
+        "How do you write acceptance criteria?",
+        "What should the RFP leave out?",
+        "How do you state budget, timeline and weights?",
+        "What happens after you send the RFP?",
+        "FAQs"
+      ],
+      "visualTypes": [
+        "two-column section map",
+        "role x workflow grid",
+        "one component six states",
+        "pass/fail acceptance card",
+        "weak-to-priceable rewrites",
+        "quality gate + scoring funnel"
+      ],
+      "ctaAngle": "send us your RFP \u2192 free consultation + fixed-scope proposal, compare with published range",
+      "faqCount": 5,
+      "words": 1957,
+      "tableCount": 3,
+      "listStyle": "fill-in template tables + pass/fail lines + numbered timeline"
+    },
+    {
+      "slug": "is-discovery-phase-worth-it",
+      "hub": "digital-product-design-services",
+      "type": "Article",
+      "funnel": "bofu",
+      "introStyle": "mini case (Nitro League)",
+      "h2Frames": [
+        "is (yes/no)",
+        "what hands",
+        "which first",
+        "when skip",
+        "what cost",
+        "what did cases settle",
+        "how long",
+        "what good contains",
+        "how to scope",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "Is a discovery phase worth it for a new product?",
+        "What does a discovery phase hand to your designers?",
+        "Which assumptions should discovery test first?",
+        "When can you skip a discovery phase?",
+        "What does skipping discovery cost you later?",
+        "What did discovery settle for Nitro, Vocable and Digno?",
+        "How long does discovery take inside an engagement?",
+        "What does a good discovery readout contain?",
+        "How do you scope discovery into a proposal?",
+        "FAQs"
+      ],
+      "visualTypes": [
+        "output stack",
+        "assumption ledger",
+        "scored skip-test flow",
+        "escalation ladder",
+        "readout checklist card"
+      ],
+      "ctaAngle": "send your three riskiest assumptions \u2192 free consultation + fixed-scope proposal",
+      "faqCount": 5,
+      "words": 2182,
+      "tableCount": 2,
+      "listStyle": "scored yes/no test + ledger table + rung ladder"
+    },
+    {
+      "slug": "mobile-app-design-agency-vs-freelancer",
+      "hub": "mobile-app-ui-ux-design-services",
+      "type": "Comparison",
+      "funnel": "bofu",
+      "introStyle": "contrarian take",
+      "h2Frames": [
+        "is (better)",
+        "what sits inside",
+        "can (yes/no)",
+        "who runs",
+        "what happens at",
+        "same app two plans",
+        "how to test on phone",
+        "when X when Y",
+        "how to compare quotes",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "Is a freelancer or an agency better for mobile app design?",
+        "What work sits inside a mobile app design project?",
+        "Can one freelance designer cover both iOS and Android?",
+        "Who runs user testing when a freelancer designs your app?",
+        "What happens at developer handoff and the first test build?",
+        "Same app, two plans: how do the timelines compare?",
+        "How do you test a mobile portfolio on your own phone?",
+        "When should you hire a freelancer, and when an agency?",
+        "How do you compare a freelancer's quote with an agency's?",
+        "FAQs"
+      ],
+      "visualTypes": [
+        "skill coverage map",
+        "iOS/Android wireframe pairs",
+        "twin timeline",
+        "phone checklist",
+        "decision tree",
+        "quote line-item sheet"
+      ],
+      "ctaAngle": "send us that quote or your flow list \u2192 free consultation + fixed-scope proposal",
+      "faqCount": 6,
+      "words": 1984,
+      "tableCount": 3,
+      "listStyle": "decision tree routing + quote line items + phone checks"
+    }
+  ]
+}
