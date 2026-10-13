@@ -38,7 +38,13 @@
       "image": {
         "src": "/images/services/saas-product-redesign.svg",
         "alt": "Roadmap of a SaaS product redesign in three phases: navigation and design system, core workflow, then settings and billing, each with a beta group before full release",
-        "caption": "Three release phases, each tested with a beta group before every customer sees it."
+        "caption": "Three release phases, each tested with a beta group before every customer sees it.",
+        "text": [
+          "Phase 1 — Navigation and design system, beta group first",
+          "Phase 2 — Core workflow, beta group first",
+          "Phase 3 — Settings and billing, beta group first",
+          "Ship in phases. Test each one. Keep customers productive."
+        ]
       }
     },
     {

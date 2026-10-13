@@ -44,31 +44,31 @@ We began with research on what parents want from an online community. Those find
 
 Parents watch short episodes that pair expert guidance with stories from other families.
 
-![Parents Connect video episode card "New Generation of Education" with a play button](/work/parent-connect/expert-episodes.webp "Video episodes with expert advice")
+![Parents Connect video episode card "New Generation of Education" with a play button](/work/parent-connect/expert-episodes.webp "Parents Connect video episode card with expert advice for parents")
 
 ### Parents from every country
 
 A parent in one city can discover and follow parents in any other.
 
-![Parents Connect member pop-up showing Maria Lopez from Tokyo with a Follow button and member avatars](/work/parent-connect/global-community.webp "Find and follow parents worldwide")
+![Parents Connect member pop-up showing Maria Lopez from Tokyo with a Follow button and member avatars](/work/parent-connect/global-community.webp "Parents Connect member pop-up for finding and following parents worldwide")
 
 ### Real-time chat for support
 
 We added live messaging so parents can help each other in private threads or in groups.
 
-![Parents Connect desktop chat screen with a conversation list, messages and a member profile panel](/work/parent-connect/chat-desktop.webp "Chat with parents worldwide")
+![Parents Connect desktop chat screen with a conversation list, messages and a member profile panel](/work/parent-connect/chat-desktop.webp "Parents Connect desktop chat for real-time support between parents")
 
 ### Articles written by parenting experts
 
 Experts post articles, and parents read them, react and talk them through.
 
-![Parents Connect mobile article "Turning kids into Entrepreneurs?" with tags and reactions](/work/parent-connect/expert-article.webp "Expert articles on parenting topics")
+![Parents Connect mobile article "Turning kids into Entrepreneurs?" with tags and reactions](/work/parent-connect/expert-article.webp "Parents Connect mobile expert article on parenting with tags and reactions")
 
 ### Comments on everything
 
 Reactions and comment threads make each article or webinar a discussion.
 
-![Parents Connect comment card with reactions and a comment input field](/work/parent-connect/share-thoughts.webp "Comments and reactions")
+![Parents Connect comment card with reactions and a comment input field](/work/parent-connect/share-thoughts.webp "Parents Connect comment card with reactions on an article")
 
 ## What we delivered
 
@@ -82,19 +82,21 @@ As a [product design agency](/services/startups/product-design-agency/), we deli
 
 The community feed shows posts, who is online, the members directory and chats in a single screen.
 
-![Parents Connect desktop community feed with posts, online members, a members directory map and chats](/work/parent-connect/community-feed.webp "Community feed")
+![Parents Connect desktop community feed with posts, online members, a members directory map and chats](/work/parent-connect/community-feed.webp "Parents Connect desktop community feed with posts, online members, members directory and chats")
 
 The members directory lets a parent find others close by, filtered by distance or interest.
 
-![Parents Connect members directory map with distance filters and a list of 16 search results](/work/parent-connect/member-directory.webp "Members directory")
+![Parents Connect members directory map with distance filters and a list of 16 search results](/work/parent-connect/member-directory.webp "Parents Connect members directory map with distance filters")
 
 Mobile users get the same core flows: the member map, expert articles and chat.
 
-![Three Parents Connect mobile screens: member map, expert article and chat](/work/parent-connect/mobile-screens.webp "Mobile app screens")
+![Three Parents Connect mobile screens: member map, expert article and chat](/work/parent-connect/mobile-screens.webp "Parents Connect mobile screens: member map, expert article and chat")
 
 ## The impact
 
 The design gave Parents Connect a live platform that matches its vision. Parents worldwide now turn to it for support, and families feel the change:
+
+Table: Parents Connect impact on parents
 
 | Metric | Result |
 |---|---|

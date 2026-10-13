@@ -26,7 +26,14 @@
       "image": {
         "src": "/images/services/chatbot-ui-design.svg",
         "alt": "Chat window layout with bot and user messages, a product answer card, three suggested reply chips and a message input with an attach button",
-        "caption": "Answer cards and suggested replies cut typing and keep the conversation on track."
+        "caption": "Answer cards and suggested replies cut typing and keep the conversation on track.",
+        "text": [
+          "Bot greeting: \"Hi! I can help with orders and returns.\"",
+          "User question: \"Where is my order #4821?\"",
+          "Answer card: Order #4821, out for delivery, with a Track live button",
+          "Suggested reply chips: Track order, Change size, Talk to a person",
+          "Message input: \"Type a message…\""
+        ]
       }
     },
     {

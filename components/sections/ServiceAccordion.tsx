@@ -15,10 +15,10 @@ export function ServiceAccordion({ id, heading, intro, services, overview }: { i
           {overview && <Link href={overview.href} className="svc-acc__link">{overview.label} →</Link>}
         </div>
         <div className="svc-acc">
-          {services.map((s, i) => {
+          {services.map((s) => {
             const name = cap(s.anchor ?? s.title);
             return (
-              <details key={s.slug} className="svc-acc__item" open={i === 0}>
+              <details key={s.slug} className="svc-acc__item" open>
                 <summary>
                   <h3>{name}</h3>
                   <span className="svc-acc__chev" aria-hidden="true" />

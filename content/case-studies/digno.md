@@ -28,8 +28,6 @@ Down the road, the same score may also support human resource pooling.
 
 **What we delivered:** idea to product, strategy and design, branding, marketing content, web app and website.
 
-![Digno product views: the marketing site, a task board, rewards, a leaderboard and employee evaluation](/work/digno/cover.webp "Digno at a glance")
-
 ## The problem leaders faced
 
 Leaders were juggling many tools and still had no single picture of their teams and projects. Digno set out to build a product that would:
@@ -46,31 +44,31 @@ We started with research: we collected requirements from stakeholders and end us
 
 A side-by-side chart lets managers line up scores and spot the top performer instantly.
 
-![Digno chart ranking four employees, the strongest one marked at 88%](/work/digno/employee-scores.webp "Who is leading")
+![Digno chart ranking four employees, the strongest one marked at 88%](/work/digno/employee-scores.webp "Digno employee scores chart comparing performance and marking the top performer")
 
 ### A single score for any industry
 
 One health score fits every kind of organization, and its bands, Poor through Pro, are easy to read.
 
-![The Digno mobile overview where a gauge reads 670.2 for company health, banded Poor through Pro](/work/digno/mobile-health-score.webp "Company health in your pocket")
+![The Digno mobile overview where a gauge reads 670.2 for company health, banded Poor through Pro](/work/digno/mobile-health-score.webp "Digno mobile company health score gauge, banded Poor through Pro")
 
 ### A brand that tells the goal management story
 
 Alongside the product, we created the Digno brand and its marketing content. Everything points to one message: goal management and employee evaluation in a single platform.
 
-![Digno brand assets: business cards, the logo, and two promo cards titled Employee Scoring made easy and All in One Solution for Organizations](/work/digno/brand.webp "Brand system")
+![Digno brand assets: business cards, the logo, and two promo cards titled Employee Scoring made easy and All in One Solution for Organizations](/work/digno/brand.webp "Digno brand assets: logo, business cards and promo cards for the goal management platform")
 
 ### Employees see their own score
 
 Every employee has a personal Digno score page that explains the factors behind the number and tracks it over time.
 
-![One employee's My Digno Score page, listing what drives the score and charting it over time](/work/digno/my-digno-score.webp "Personal score view")
+![One employee's My Digno Score page, listing what drives the score and charting it over time](/work/digno/my-digno-score.webp "My Digno Score page: the factors behind one employee's score and its trend over time")
 
 ### Goals and tasks on the go
 
 The Digno mobile app puts scores, tasks and goals in the pocket of every manager and employee.
 
-![The Digno app icon in a phone dock next to Messages and Safari](/work/digno/app-icon.webp "Mobile app icon")
+![The Digno app icon in a phone dock next to Messages and Safari](/work/digno/app-icon.webp "The Digno app icon on a phone, for scores, tasks and goals on the go")
 
 ## What we built
 
@@ -84,19 +82,21 @@ Making an AI-generated score feel fair and readable is the kind of challenge we 
 
 The organization dashboard puts the health score, leaderboard, department charts, employees and departments on one screen.
 
-![Company-level view in Digno: summary tiles, a leaderboard, a radar chart for health and a bar chart per department](/work/digno/org-dashboard.webp "Company-wide view")
+![Company-level view in Digno: summary tiles, a leaderboard, a radar chart for health and a bar chart per department](/work/digno/org-dashboard.webp "Digno company-level dashboard: health score, leaderboard and department charts")
 
 Each department page splits its score into factors and sums up goals assigned, completed and pending.
 
-![Development Department in Digno: health at 77.2, a percentage per factor and a summary of goals](/work/digno/department-score.webp "Team-level breakdown")
+![Development Department in Digno: health at 77.2, a percentage per factor and a summary of goals](/work/digno/department-score.webp "Digno department score: health, factor percentages and a summary of goals")
 
 The marketing site walks visitors through how Digno works and invites them to try it free.
 
-![Digno homepage headline Employee Scoring made Easy, followed by a How Digno works block](/work/digno/website.webp "Site that sells the product")
+![Digno homepage headline Employee Scoring made Easy, followed by a How Digno works block](/work/digno/website.webp "Digno homepage: Employee Scoring made Easy and how Digno works")
 
 ## The business results
 
 Digno adapts to organizations of any size and sector, and its growth shows it.
+
+Table: Digno business results
 
 | Metric | Result |
 |---|---|

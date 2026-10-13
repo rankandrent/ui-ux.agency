@@ -61,6 +61,10 @@ The table below compares owner, place, trigger, end point and scale.
 
 <details class="astext"><summary>Show as text</summary>
 
+This table sets user onboarding against customer onboarding, row by row.
+
+Table: User onboarding vs customer onboarding by owner, place, trigger, end point and scale
+
 | | User onboarding | Customer onboarding |
 |---|---|---|
 | Owner | Product and design team | Customer success manager |
@@ -102,6 +106,10 @@ The map below puts screens and messages on two rows, with the activation event a
 ![SaaS onboarding process flow in five stages with the activation event as the finish line and one metric per stage](/blog/saas-onboarding/saas-onboarding-process-flow.svg "The SaaS onboarding process flow, screens and messages, with one metric per stage")
 
 <details class="astext"><summary>Show as text</summary>
+
+This table lists each stage of the SaaS onboarding process flow with its message and metric.
+
+Table: SaaS onboarding process stages, messages and metrics
 
 | Stage | Message row | Metric |
 |---|---|---|
@@ -226,6 +234,8 @@ Now join your own product as an invited member. If you see the admin's setup wiz
 A fixed day-1, day-3, day-7 drip ignores where the user stopped. A behavior-triggered email fires on what the user did or didn't do, so it can open the exact step.
 
 The table below maps triggers to messages and target screens for the scheduling example.
+
+Table: Onboarding email triggers, messages and the screens they open
 
 | Trigger | Message | Opens on |
 |---|---|---|

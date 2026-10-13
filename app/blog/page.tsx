@@ -28,6 +28,7 @@ export default function BlogHub() {
       <section className="section section--light blog-list">
         <div className="container">
           <BlogNav />
+          <h2 className="list-h2">Latest UI UX design guides</h2>
           {lead ? (
             <>
               <PostTile p={lead} big />

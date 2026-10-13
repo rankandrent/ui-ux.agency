@@ -3,7 +3,7 @@ import { LeadForm } from "@/components/forms/LeadForm";
 import { Benefits, CardList, CtaBand, Faq, FinalCta, Resources, ServiceGrid } from "@/components/sections/Blocks";
 import { FormCard, PageHero, StatsRow } from "@/components/sections/PageHero";
 import { Process } from "@/components/sections/Process";
-import { Abstract, SemanticSections } from "@/components/sections/SemanticSections";
+import { SemanticSections } from "@/components/sections/SemanticSections";
 import { WorkRail } from "@/components/sections/WorkCards";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { formInterests, home } from "@/content/home";
@@ -53,6 +53,7 @@ export default async function IndustryPage({ params }: Props) {
         crumbs={[{ name: "Industries", path: routes.industries }, { name: i.title, path }]}
         eyebrow={i.hero.eyebrow ?? `${i.title} UI UX design`}
         h1={i.hero.h1}
+        summary={i.abstract}
         sub={i.hero.sub}
         trust
         aside={
@@ -61,8 +62,6 @@ export default async function IndustryPage({ params }: Props) {
           </FormCard>
         }
       />
-
-      <Abstract text={i.abstract} />
 
       {!!cases.length && (
         <section className="section section--light ind-work" aria-labelledby="ind-work-h">

@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { LeadForm } from "@/components/forms/LeadForm";
 import { CtaBand, Faq, FinalCta, LinkChips, ServiceGrid } from "@/components/sections/Blocks";
 import { FormCard, PageHero } from "@/components/sections/PageHero";
-import { Abstract, SemanticSections } from "@/components/sections/SemanticSections";
+import { SemanticSections } from "@/components/sections/SemanticSections";
 import { WorkGrid } from "@/components/sections/WorkCards";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { formInterests, home } from "@/content/home";
@@ -62,6 +62,7 @@ export default async function LocationPage({ params }: Props) {
         crumbs={[{ name: "Locations", path: routes.locations }, { name: cap(anchorOf(l)), path }]}
         eyebrow={l.hero.eyebrow ?? l.keyword}
         h1={l.hero.h1}
+        summary={l.abstract}
         sub={l.hero.sub}
         trust
         aside={
@@ -70,8 +71,6 @@ export default async function LocationPage({ params }: Props) {
           </FormCard>
         }
       />
-
-      <Abstract text={l.abstract} />
 
       {!!bodySections?.length && <SemanticSections sections={bodySections} price={l.priceRange} visual={visual} label={`${cap(anchorOf(l))} illustration`} />}
 

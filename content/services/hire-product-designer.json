@@ -27,7 +27,14 @@
       "image": {
         "src": "/images/services/hire-product-designer.svg",
         "alt": "Product designer workflow from business goal to user research, flows, screens, usability test and shipped feature, owned by one designer",
-        "caption": "One product designer owns the whole path from goal to shipped feature."
+        "caption": "One product designer owns the whole path from goal to shipped feature.",
+        "text": [
+          "What a product designer owns",
+          "Step 1 — Business goal, then Step 2 — User research",
+          "Step 3 — Flows, then Step 4 — Screens",
+          "Step 5 — Usability test, then Step 6 — Shipped feature",
+          "Owned end to end by one product designer"
+        ]
       }
     },
     {

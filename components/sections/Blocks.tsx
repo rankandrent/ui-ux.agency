@@ -263,14 +263,11 @@ export function Faq({
           </div>
         </div>
         <div className="faq__list">
-          {items.map((f, i) => (
-            <details key={f.q} className="faq__item" open={i === 0}>
-              <summary className="faq__question">
-                {f.q}
-                <span className="faq__toggle" aria-hidden="true">+</span>
-              </summary>
+          {items.map((f) => (
+            <div key={f.q} className="faq__item faq__item--open">
+              <h3 className="faq__question">{f.q}</h3>
               <Html className="faq__answer" html={f.a} />
-            </details>
+            </div>
           ))}
         </div>
       </div>

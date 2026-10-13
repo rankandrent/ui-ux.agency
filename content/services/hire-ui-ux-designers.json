@@ -31,7 +31,15 @@
       "image": {
         "src": "/images/services/hire-ui-ux-designers.svg",
         "alt": "Sprint board showing two dedicated designers from ui-ux.agency working alongside a client's product manager and three engineers",
-        "caption": "Dedicated designers sit inside your sprint, not outside it."
+        "caption": "Dedicated designers sit inside your sprint, not outside it.",
+        "text": [
+          "Sprint board columns: To do, In design, In build, Done",
+          "To do: Onboarding v2 and Billing page, both with a dedicated designer (D)",
+          "In design: Team settings, with a dedicated designer (D)",
+          "In build: Search filters, with your engineer (E)",
+          "Done: Dashboard and Invite flow, with your engineers (E)",
+          "Key: D = dedicated designer, E = your engineer"
+        ]
       }
     },
     {

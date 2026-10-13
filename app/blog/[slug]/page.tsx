@@ -48,7 +48,7 @@ function prepare(html: string) {
     const block = m[1];
     for (const q of block.matchAll(/<h3>([\s\S]*?)<\/h3>([\s\S]*?)(?=<h3>|$)/g)) faqs.push({ q: text(q[1]), a: q[2].trim() });
     if (faqs.length) {
-      const items = faqs.map((f) => `<details class="pfaq__item" name="faq"><summary>${f.q}<span aria-hidden="true">+</span></summary><div>${f.a}</div></details>`).join("");
+      const items = faqs.map((f) => `<div class="pfaq__item pfaq__item--open"><h3>${f.q}</h3><div>${f.a}</div></div>`).join("");
       out = out.replace(block, `<div class="pfaq">${items}</div>`);
     }
   }
@@ -170,8 +170,11 @@ export default async function PostPage({ params }: Props) {
       <div className="container">
         <div className={`pcover${p.image ? " pcover--img" : ""}`}>
           {p.image ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img src={p.image} alt={p.title} />
+            <figure>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={p.image} alt={`${p.title}: cover illustration`} />
+              <figcaption className="visually-hidden">{p.title}</figcaption>
+            </figure>
           ) : (
             <div className="pcover__art" aria-hidden="true">
               <span className="pcover__label">{hubName ?? cat?.name ?? "UI UX design"}</span>
@@ -204,7 +207,7 @@ export default async function PostPage({ params }: Props) {
           <article className="prose post-article">
             {!!p.takeaways.length && (
               <div className="ptake">
-                <p className="ptake__title">Key takeaways</p>
+                <h2 className="ptake__title" id="key-takeaways">Key takeaways</h2>
                 <ul>{p.takeaways.map((t) => <li key={t}>{t}</li>)}</ul>
               </div>
             )}

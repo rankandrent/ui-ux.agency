@@ -28,8 +28,6 @@ At the center sits a protected audience database of verified personally identifi
 
 **Scope of work:** user interviews; UI and UX design; information architecture (IA); web app and mobile app design; and a full product revamp.
 
-![The MMC web app with a 250M audience figure, a reach report, campaign planning, an audience chart and a list of products](/work/mass-media-co/cover.webp "Mass Media Co. platform overview")
-
 ## What was slowing MMC down
 
 MMC's order work was spread across tools that did not talk to each other, so every order took extra time and manual effort. That caused three problems:
@@ -50,31 +48,31 @@ That work led to an omnichannel platform covering every marketing touchpoint, or
 
 Sales reps sell social work, like Facebook marketing, as packaged products with clear goals, so each offer is simple to explain.
 
-![An MMC offer card titled Facebook Marketing Sales, tagged Footer and Free package, with an Explore More link](/work/mass-media-co/social-sales.webp "Packaged social media products")
+![An MMC offer card titled Facebook Marketing Sales, tagged Footer and Free package, with an Explore More link](/work/mass-media-co/social-sales.webp "MMC offer card selling Facebook marketing as a packaged social media product")
 
 ### Building and tracking campaign sales
 
 One card per campaign lists revenue, cost, total and number of orders. The team can judge any sale in seconds.
 
-![The MMC sales summary card: revenue of $125, cost of $98, 5,430 orders and a $2,000 total](/work/mass-media-co/campaign-sales.webp "Campaign sales summary card")
+![The MMC sales summary card: revenue of $125, cost of $98, 5,430 orders and a $2,000 total](/work/mass-media-co/campaign-sales.webp "MMC campaign sales summary card: revenue, cost, orders and total")
 
 ### Reporting on audience engagement
 
 Clients get reach broken out by channel, age group and device, which shows exactly who their campaign touched.
 
-![An MMC annual report splitting reach across mobile, desktop, tablet and social, with an audience chart grouped by age](/work/mass-media-co/audience-report.webp "Audience engagement reporting")
+![An MMC annual report splitting reach across mobile, desktop, tablet and social, with an audience chart grouped by age](/work/mass-media-co/audience-report.webp "MMC audience report showing reach by device, social and age group")
 
 ### Managing creative tasks
 
 Each creative task card names its owner, its due date and how far along it is, from in progress through to done.
 
-![Two MMC cards: D&M Email Creative at 70% in progress and Dunder Memorial Day at 99% completed](/work/mass-media-co/task-cards.webp "Creative task cards")
+![Two MMC cards: D&M Email Creative at 70% in progress and Dunder Memorial Day at 99% completed](/work/mass-media-co/task-cards.webp "MMC creative task cards showing progress from in progress to completed")
 
 ### Managing products and orders
 
 An order summary puts channels like H&V, video, audio and email side by side, so order takers see which channels drive volume.
 
-![An MMC bar chart summarizing orders by channel, from email and append to look-alike, video, audio and H&V](/work/mass-media-co/order-summary.webp "Orders by channel")
+![An MMC bar chart summarizing orders by channel, from email and append to look-alike, video, audio and H&V](/work/mass-media-co/order-summary.webp "MMC order summary chart comparing orders by channel")
 
 ## What the new platform does
 
@@ -89,15 +87,17 @@ Together they cut the effort behind every campaign and close the distance betwee
 
 A single dashboard now covers open tasks, sales operations, recent tasks and how work flows for each client.
 
-![The MMC task dashboard with counters, a chart of open tasks per client, a donut of task flow and a table of tasks](/work/mass-media-co/task-dashboard.webp "Task management dashboard")
+![The MMC task dashboard with counters, a chart of open tasks per client, a donut of task flow and a table of tasks](/work/mass-media-co/task-dashboard.webp "MMC task dashboard: open tasks per client, task flow and a table of tasks")
 
 In order management, the team combines data processing services, digital channels and data products into one order, and the estimated cost updates as items are added.
 
-![The MMC order screen for a Memorial Day order, listing products in rows next to a side panel for adding another product](/work/mass-media-co/order-management.webp "Order building screen")
+![The MMC order screen for a Memorial Day order, listing products in rows next to a side panel for adding another product](/work/mass-media-co/order-management.webp "MMC order management screen for building a Memorial Day order from products")
 
 ## The results for MMC
 
 Streamlined workflows, automated tasks and solid tracking made MMC's operations more efficient: order processing efficiency rose 30%, and the error rate fell from 25% to 2+. As a [SaaS design agency](/services/saas-products/saas-design-agency/), we measured the change across four metrics.
+
+Table: Mass Media Co. results after the platform revamp
 
 | Metric | Result |
 |---|---|

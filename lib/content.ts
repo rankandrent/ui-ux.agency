@@ -40,10 +40,26 @@ function figures(html: string) {
     .replace(/<img (?![^>]*loading=)/g, '<img loading="lazy" ');
 }
 
+/**
+ * Tables as complete blocks: a "Table: …" paragraph right before a table becomes its <caption>,
+ * header cells get scope="col", the first cell of every body row becomes a row header, and an
+ * empty corner cell gets a label, so each cell is tied to its row and column.
+ */
+function tables(html: string) {
+  return html
+    .replace(/<p>Table:\s*([\s\S]*?)<\/p>\s*<table>/g, (_, cap: string) => `<table><caption>${cap}</caption>`)
+    .replace(/<thead>([\s\S]*?)<\/thead>/g, (_, head: string) =>
+      `<thead>${head.replace(/<th(?![^>]*scope)([^>]*)>/g, '<th scope="col"$1>').replace(/(<th scope="col"[^>]*>)\s*(<\/th>)/, "$1Item$2")}</thead>`,
+    )
+    .replace(/<tbody>([\s\S]*?)<\/tbody>/g, (_, body: string) =>
+      `<tbody>${body.replace(/<tr>\s*<td([^>]*)>([\s\S]*?)<\/td>/g, '<tr><th scope="row"$1>$2</th>')}</tbody>`,
+    );
+}
+
 function readMarkdown(dir: string) {
   return files(dir, ".md").map(({ slug, file }) => {
     const { data, content } = matter(fs.readFileSync(file, "utf8"));
-    return { slug, data, html: figures(marked.parse(content, { async: false })) };
+    return { slug, data, html: tables(figures(marked.parse(content, { async: false }))) };
   });
 }
 

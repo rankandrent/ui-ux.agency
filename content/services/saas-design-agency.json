@@ -26,7 +26,12 @@
       "image": {
         "src": "/images/services/saas-design-agency.svg",
         "alt": "SaaS dashboard layout with a sidebar, an onboarding checklist at 3 of 5 steps, a usage chart and a plan upgrade card",
-        "caption": "An onboarding checklist and clear usage limits move trial users toward their first result."
+        "caption": "An onboarding checklist and clear usage limits move trial users toward their first result.",
+        "text": [
+          "Onboarding checklist: Get started, 3 of 5 steps done",
+          "Usage this month: a chart with the note \"You are close to your plan limit\"",
+          "Upgrade card: \"Upgrade to Team for unlimited projects\" with an Upgrade plan button"
+        ]
       }
     },
     {

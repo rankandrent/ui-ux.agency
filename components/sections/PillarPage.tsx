@@ -1,7 +1,7 @@
 import { LeadForm } from "@/components/forms/LeadForm";
 import { CtaBand, Faq, FinalCta, ServiceGrid } from "@/components/sections/Blocks";
 import { FormCard, PageHero } from "@/components/sections/PageHero";
-import { Abstract, SemanticSections } from "@/components/sections/SemanticSections";
+import { SemanticSections } from "@/components/sections/SemanticSections";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { formInterests, home } from "@/content/home";
 import type { Pillar } from "@/content/pillars";
@@ -19,6 +19,7 @@ export function PillarPage({ p }: { p: Pillar }) {
         crumbs={[{ name: "Services", path: routes.services }, { name: p.title, path }]}
         eyebrow={p.hero.eyebrow}
         h1={p.hero.h1}
+        summary={p.abstract}
         sub={p.hero.sub}
         trust
         aside={
@@ -27,8 +28,6 @@ export function PillarPage({ p }: { p: Pillar }) {
           </FormCard>
         }
       />
-
-      <Abstract text={p.abstract} />
 
       <SemanticSections sections={p.sections} category={p.category} label={`${cap(p.anchor)} illustration`} />
 

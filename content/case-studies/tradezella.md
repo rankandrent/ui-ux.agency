@@ -53,35 +53,35 @@ This [SaaS product redesign](/services/saas-products/saas-product-redesign/) reb
 
 One look tells a trader if a day made or lost money and which way the account is heading.
 
-![TradeZella Net Daily P&L bar chart with green profit and red loss days](/work/tradezella/net-daily-pnl.webp "Net daily P&L")
+![TradeZella Net Daily P&L bar chart with green profit and red loss days](/work/tradezella/net-daily-pnl.webp "TradeZella net daily P&L bar chart of profit and loss days")
 
-![TradeZella daily journal chart showing net P&L, total trades, win rate and gross P&L for a day](/work/tradezella/daily-journal-pnl.webp "Daily journal performance view")
+![TradeZella daily journal chart showing net P&L, total trades, win rate and gross P&L for a day](/work/tradezella/daily-journal-pnl.webp "TradeZella daily journal chart: net P&L, total trades, win rate and gross P&L")
 
 ### Analytics that help traders grow
 
 We pulled ratios such as win rate and profit factor into compact widgets that read in a second.
 
-![TradeZella profit factor gauge and win-rate ring widgets](/work/tradezella/profit-factor-win-rate.webp "Profit factor and win rate widgets")
+![TradeZella profit factor gauge and win-rate ring widgets](/work/tradezella/profit-factor-win-rate.webp "TradeZella profit factor and win rate widgets")
 
-![TradeZella analytics widgets: net P&L card, account leaderboard, Zella Score trend and candlestick chart](/work/tradezella/analytics-widgets.webp "Analytics widget set")
+![TradeZella analytics widgets: net P&L card, account leaderboard, Zella Score trend and candlestick chart](/work/tradezella/analytics-widgets.webp "TradeZella analytics widgets: net P&L, account leaderboard, Zella Score and candlestick chart")
 
 ### A journal built for coaching
 
 In mentor mode, a coach compares the cumulative P&L of every mentee in one view, so the advice they give can point to real numbers.
 
-![TradeZella mentor dashboard comparing mentees' daily net cumulative P&L](/work/tradezella/mentor-dashboard.webp "Mentor's dashboard")
+![TradeZella mentor dashboard comparing mentees' daily net cumulative P&L](/work/tradezella/mentor-dashboard.webp "TradeZella mentor dashboard comparing mentees' cumulative P&L")
 
 ### Positions and market activity in plain sight
 
 Recent trades and open positions are a single tap away, with green and red marking gains and losses.
 
-![TradeZella open positions table with dates, symbols and net P&L](/work/tradezella/open-positions.webp "Open positions and recent trades")
+![TradeZella open positions table with dates, symbols and net P&L](/work/tradezella/open-positions.webp "TradeZella open positions and recent trades table with net P&L")
 
 ### A dashboard each trader can shape
 
 Each trader picks and arranges the widgets that fit their style: the Zella Score, a P&L calendar, the account balance and more.
 
-![TradeZella Zella Score screen with score radar, performance chart, insights, account balance and P&L calendar](/work/tradezella/zella-score-screens.webp "Zella Score and customisable dashboard")
+![TradeZella Zella Score screen with score radar, performance chart, insights, account balance and P&L calendar](/work/tradezella/zella-score-screens.webp "TradeZella Zella Score screen and customisable dashboard widgets")
 
 ## How we got there
 
@@ -91,11 +91,13 @@ Next, we redrew the user flows around the widgets and features traders open most
 
 Finally, the visual design follows proven patterns for financial dashboards, and traders tested it before it went live.
 
-![TradeZella marketing website on a laptop: all-in-one trading journal and analytics tool](/work/tradezella/website-current-market.webp "Marketing website")
+![TradeZella marketing website on a laptop: all-in-one trading journal and analytics tool](/work/tradezella/website-current-market.webp "TradeZella marketing website for the all-in-one trading journal and analytics tool")
 
 ## The results
 
 Traders responded to the new dashboard with real enthusiasm. The redesigned product looked sharper, felt easier and gave the launch strong momentum:
+
+Table: TradeZella results after the dashboard redesign
 
 | Metric | Result |
 |---|---|

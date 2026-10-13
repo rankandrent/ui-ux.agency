@@ -26,7 +26,15 @@
       "image": {
         "src": "/images/services/saas-onboarding-design.svg",
         "alt": "SaaS onboarding flow from sign-up to workspace setup, a guided first task and a dashboard with real data, with drop-off shrinking at each step",
-        "caption": "Fewer steps and a guided first task shrink drop-off between sign-up and first value."
+        "caption": "Fewer steps and a guided first task shrink drop-off between sign-up and first value.",
+        "text": [
+          "Users left at each onboarding step",
+          "Step 1 — Sign up: 100%",
+          "Step 2 — Set up: 72%",
+          "Step 3 — First task: 60%",
+          "Step 4 — First value: 52%",
+          "Illustrative funnel: fewer steps keep more users"
+        ]
       }
     },
     {

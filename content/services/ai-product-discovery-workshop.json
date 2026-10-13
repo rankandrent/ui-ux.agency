@@ -25,8 +25,13 @@
       "body": "<p>Many teams start AI work from the model: a demo looks impressive, so it gets a button in the product. Users then ignore it because it solves no real task. The workshop starts from the other end. We map what users do today, where they lose time and where a wrong answer would hurt. Only then do we match AI capabilities to those tasks. The chosen concept moves straight into <a href=\"/services/ai-products/ai-ux-design-agency/\">AI UX design agency</a> work.</p>",
       "image": {
         "src": "/images/services/ai-product-discovery-workshop.svg",
-        "alt": "Workshop board with AI use cases plotted on a grid of user value against risk, with the top-right use case circled as the first one to build",
-        "caption": "Each AI use case is plotted by user value and risk; the best one moves to design."
+        "alt": "Workshop board with AI use cases plotted on a grid of user value against risk, with Smart search, high on user value and low on risk, circled as the first one to build",
+        "caption": "Each AI use case is plotted by user value and risk; the best one moves to design.",
+        "text": [
+          "Chart axes: user value (vertical) against risk of wrong answers, low to high (horizontal)",
+          "AI use cases plotted: auto-tagging, smart search, draft replies, forecasts and summaries",
+          "Build first: smart search, circled for high user value at lower risk"
+        ]
       }
     },
     {

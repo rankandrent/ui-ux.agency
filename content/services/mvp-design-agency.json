@@ -31,7 +31,13 @@
       "image": {
         "src": "/images/services/mvp-design-agency.svg",
         "alt": "Funnel showing a long feature wishlist narrowed to one core user flow of four screens, then a clickable prototype on a phone",
-        "caption": "MVP design cuts a long wishlist down to one flow users can test."
+        "caption": "MVP design cuts a long wishlist down to one flow users can test.",
+        "text": [
+          "Start: a feature wishlist of 40 ideas",
+          "Must-have: cut down to 4 screens and 1 core flow",
+          "Core flow: the one path the MVP is designed around",
+          "Try it: a clickable prototype on a phone"
+        ]
       }
     },
     {

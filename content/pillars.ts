@@ -54,6 +54,7 @@ export const pillars: Pillar[] = [
           src: "/images/services/ai-products.svg",
           alt: "AI product design path in three stages: discovery workshop, AI UX design and chatbot UI design, ending in a tested AI feature",
           caption: "Three services, one path: decide where AI helps, design it, then test it with real answers.",
+          text: ["Discovery workshop: 1–2 weeks to decide where AI helps", "AI UX design: 4–10 weeks to design the AI feature", "Chatbot UI design: 3–8 weeks for conversational products", "Together: decide where AI helps, design it, then test it with real answers"],
         },
       },
       {
@@ -131,6 +132,7 @@ export const pillars: Pillar[] = [
           src: "/images/services/saas-products.svg",
           alt: "SaaS customer lifecycle from trial and onboarding to daily use, upgrade and renewal, with the matching design service under each stage",
           caption: "Each SaaS product design service targets a different stage of the customer lifecycle.",
+          text: ["Trial and onboarding: SaaS onboarding design", "Daily use: SaaS design agency work", "Upgrade and renewal: SaaS product redesign", "Each SaaS product design service targets one stage of the customer lifecycle"],
         },
       },
       {
@@ -207,6 +209,7 @@ export const pillars: Pillar[] = [
           src: "/images/services/startups.svg",
           alt: "Startup product design timeline: a 5-day design sprint, then MVP design over 4 to 8 weeks, then ongoing product design after launch",
           caption: "Startup product design grows with the company: sprint, MVP, then product design.",
+          text: ["Design sprint: 5 days to test an idea", "MVP design: 4–8 weeks to a buildable first version", "Product design: ongoing work after launch", "Together: from a tested idea to a growing product"],
         },
       },
       {

@@ -26,7 +26,15 @@
       "image": {
         "src": "/images/services/design-sprint.svg",
         "alt": "Five-day design sprint calendar: Monday map, Tuesday sketch, Wednesday decide, Thursday prototype and Friday test with five users",
-        "caption": "Each day of the design sprint has one goal and one agreed result."
+        "caption": "Each day of the design sprint has one goal and one agreed result.",
+        "text": [
+          "Design sprint: 5 days, 1 question",
+          "Monday: map",
+          "Tuesday: sketch",
+          "Wednesday: decide",
+          "Thursday: prototype",
+          "Friday: test, as 5 target users try a realistic prototype"
+        ]
       }
     },
     {

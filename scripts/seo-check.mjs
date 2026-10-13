@@ -1,8 +1,12 @@
 // Audits the static export in ./out — run after `npm run build`:  npm run seo:check
 // Checks every indexable page for: one <h1>, title & description length, canonical,
-// og:image, img alt text, valid JSON-LD, and broken internal links / missing OG images.
+// og:image, img alt text, valid JSON-LD, and broken internal links / missing OG images,
+// plus the layout-aware block checks (Google patent US12393768B2) on content pages.
+// Noindex pages are included while SITE.launched is false, or with --include-noindex
+// (pages that are noindex by design — thank-you, 404, empty archives — stay out).
 import fs from "node:fs";
 import path from "node:path";
+import { shouldAudit, layoutChecks, INCLUDE_NOINDEX, SITE_LAUNCHED } from "./onpage-audit.mjs";
 
 const OUT = "out";
 const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? walk(path.join(d, e.name)) : [path.join(d, e.name)]));
@@ -12,14 +16,16 @@ const exists = (href) => {
 };
 
 const pages = walk(OUT).filter((f) => f.endsWith("index.html"));
-let errors = 0, warnings = 0;
+let errors = 0, warnings = 0, audited = 0;
+const layoutFails = {};
 const report = (lvl, file, msg) => { if (lvl === "error") errors++; else warnings++; console.log(`${lvl === "error" ? "✗" : "!"} ${file.replace(OUT, "") || "/"}  ${msg}`); };
 const titles = new Map(), descs = new Map();
 
 for (const file of pages) {
   const html = fs.readFileSync(file, "utf8");
-  if (/<meta name="robots" content="noindex/.test(html)) continue;
   const route = "/" + path.relative(OUT, path.dirname(file)).replace(/\\/g, "/");
+  if (!shouldAudit(route, html)) continue;
+  audited++;
   const title = html.match(/<title>([^<]*)<\/title>/)?.[1] ?? "";
   const desc = html.match(/<meta name="description" content="([^"]*)"/)?.[1] ?? "";
   const h1s = (html.match(/<h1[\s>]/g) || []).length;
@@ -40,6 +46,10 @@ for (const file of pages) {
   for (const [, href] of html.matchAll(/href="(\/[^"#?]*)/g)) {
     if (!href.startsWith("/_next") && !exists(href)) report("error", file, `broken link → ${href}`);
   }
+  // layout-aware blocks on content pages (same scope as onpage-audit's isContent); heading-skip is an error
+  if (route === "/" || /^\/(services\/([^/]+\/)?|industries\/|location\/|case-studies\/|blog\/)[^/]+$/.test(route) && !/^\/blog\/(author|category)$/.test(route) || route === "/about") {
+    for (const c of layoutChecks(html)) if (!c.ok) { layoutFails[c.id] = (layoutFails[c.id] ?? 0) + 1; report(c.id === "heading-skip" ? "error" : "warn", file, `[layout] ${c.id}: ${c.msg}`); }
+  }
   titles.set(title, [...(titles.get(title) || []), route]);
   descs.set(desc, [...(descs.get(desc) || []), route]);
 }
@@ -52,8 +62,8 @@ const thin = [], noImage = [], h2Patterns = new Map(), anchors = new Map();
 
 for (const file of pages) {
   const html = fs.readFileSync(file, "utf8");
-  if (/<meta name="robots" content="noindex/.test(html)) continue;
   const route = "/" + path.relative(OUT, path.dirname(file)).replace(/\\/g, "/") + "/";
+  if (!shouldAudit(route, html)) continue;
   const main = html.match(/<main[^>]*>([\s\S]*?)<\/main>/)?.[1] ?? "";
 
   // anchor text per internal target (short anchors only — cards wrap whole blocks)
@@ -145,5 +155,6 @@ for (const f of fs.readdirSync(SVC_DIR).filter((x) => x.endsWith(".json") && !x.
 }
 if (!lintCount) console.log("✓ writing rules: all service and industry pages pass");
 
-console.log(`\n${pages.length} pages checked · ${errors} errors · ${warnings} warnings`);
+if (Object.keys(layoutFails).length) console.log(`\nlayout checks failed (pages): ${Object.entries(layoutFails).sort((a, b) => b[1] - a[1]).map(([id, n]) => `${id} ${n}`).join(" · ")}`);
+console.log(`\n${audited} of ${pages.length} pages checked${INCLUDE_NOINDEX ? ` (noindex pages included${SITE_LAUNCHED ? "" : ": site not launched"})` : ""} · ${errors} errors · ${warnings} warnings`);
 process.exit(errors ? 1 : 0);

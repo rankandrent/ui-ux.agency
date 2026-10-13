@@ -209,7 +209,7 @@ as `## FAQs` with `### Question?` + answer. Images use
 Google can split a page into blocks by HTML tag, note each block's position, type (header, paragraph,
 list, table, image, caption) and text style (size, bold), and judge order and image–text fit. So:
 
-1. **Nothing important behind a click.** Only FAQs and navigation may collapse. Section detail text,
+1. **Nothing important behind a click.** Only navigation may collapse; since 2026-10-13 FAQ answers render open too. Section detail text,
    image text versions and definitions are always visible (`no-hidden-content`).
 2. **Right block types:** headings are `h2`/`h3`, steps are `ol`, items are `ul`, comparisons and costs
    are tables, every explanatory image is a `figure` with a `figcaption` (`figure-caption`).
@@ -223,6 +223,22 @@ list, table, image, caption) and text style (size, bold), and judge order and im
    text under each answer is 50–70 words (90 at most, `section-body-short`). Keep the named entities and
    attributes (places, industries, standards, user roles, tools) and the honesty lines (no local office);
    cut restatements of the answer, generic praise and repeated keyword phrases.
+
+**Source and checklist (owner, 2026-10-13).** The patent is US12393768B2 (Google, "Layout-aware
+multimodal pretraining for multimodal document understanding", granted 2025-08-19). It splits HTML into
+blocks (header, paragraph, list, table, image, caption), learns block order and how font size and bold
+signal importance, and matches each image to its neighbouring text and caption. Every page therefore:
+
+- **DOM order = reading order.** The summary or answer comes before forms, CTAs and widgets in the HTML.
+- **Every SVG infographic has an always-visible text version:** `image.text` (3–8 lines, only what the
+  SVG says) in service JSON, an `astext` panel in blogs.
+- **Captions repeat the alt's subject** (and the client's name in case studies), never a vague label.
+  A case study does not repeat its frontmatter cover as its first in-article figure.
+- **Every table has** an intro sentence, then a `Table: <caption>` line as its own paragraph directly
+  above it, and row headers in the first column.
+- **No hidden answers:** FAQ answers render open; no tabs or accordions hide content.
+- **`<strong>` marks only the one key sentence per block**, never styling or labels.
+- **Steps are ordered lists** (`ol`), and **headings never skip a level** (H2 → H3, no H2 → H4).
 
 ## Files each agent writes
 

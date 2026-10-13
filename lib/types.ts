@@ -9,7 +9,8 @@ export type SectionHeadings = Partial<
 >;
 
 export type Link = { anchor: string; to: string };
-export type Figure = { src: string; alt: string; caption?: string };
+/** `text`: always-visible text version of an infographic (what the SVG says), so image and words match */
+export type Figure = { src: string; alt: string; caption?: string; text?: string[] };
 
 /**
  * One H2 block of a page's heading vector (Koray-style content brief).

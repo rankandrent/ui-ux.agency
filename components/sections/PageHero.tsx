@@ -12,7 +12,7 @@ export function HeroTrust() {
   return (
     <div className="htrust">
       <div className="htrust__rating">
-        <span><strong>200+</strong> products designed · in business since {SITE.founded}</span>
+        <span><b>200+</b> products designed · in business since {SITE.founded}</span>
       </div>
       <div className="htrust__logos" aria-label="Clients">
         <span className="htrust__label">Trusted by teams at</span>
@@ -58,6 +58,7 @@ export function PageHero({
   eyebrow,
   h1,
   sub,
+  summary,
   meta,
   actions,
   aside,
@@ -70,6 +71,8 @@ export function PageHero({
   eyebrow?: string;
   h1: ReactNode;
   sub?: string;
+  /** "In short" summary: sits right after the H1 copy so the DOM reads H1 → summary → form */
+  summary?: string;
   meta?: ReactNode;
   actions?: ReactNode;
   aside?: ReactNode;
@@ -86,6 +89,12 @@ export function PageHero({
       {eyebrow && <span className="tk-eyebrow phero__eyebrow">{eyebrow}</span>}
       <h1>{h1}</h1>
       {sub && <p className="phero__sub">{sub}</p>}
+      {summary && (
+        <div className="phero__summary">
+          <p className="phero__summary-label">In short</p>
+          <p>{summary}</p>
+        </div>
+      )}
       {actions && <div className="hero__actions">{actions}</div>}
       {meta && <div className="phero__meta">{meta}</div>}
       <StatsRow items={stats} />

@@ -34,10 +34,10 @@ export function Capabilities() {
         <p className="cap__intro">{d.intro}</p>
         <div className="cap__list">
           {d.items.map((c, i) => (
-            <details key={c.title} className="cap__item" open={i === 0}>
+            <details key={c.title} className="cap__item" open>
               <summary>
                 <span className="cap__letter">{String(i + 1).padStart(2, "0")}</span>
-                <span className="cap__title">{c.title}</span>
+                <h3 className="cap__title">{c.title}</h3>
                 <span className="cap__toggle" aria-hidden="true">+</span>
               </summary>
               <Html className="cap__body" html={c.body} />
@@ -79,6 +79,7 @@ export function Compare() {
         <p className="cmp__intro">{d.intro}</p>
         <div className="cmp__wrap">
           <table className="cmp__table">
+            <caption className="semv__tcaption">Freelancer vs in-house designer vs ui-ux.agency, compared criterion by criterion</caption>
             <thead>
               <tr>
                 <th scope="col">Criterion</th>
@@ -158,10 +159,10 @@ export function Team({ heading }: { heading?: string } = {}) {
           id="team-rail"
           label="Team members"
           head={
-            <h2 id="team-heading" className="team2__headline">
-              <span>{d.headingMuted}</span>
-              {heading ?? d.heading}
-            </h2>
+            <>
+              <p className="team2__headline team2__kicker">{d.headingMuted}</p>
+              <h2 id="team-heading" className="team2__headline">{heading ?? d.heading}</h2>
+            </>
           }
         >
           {d.items.map((t) => (

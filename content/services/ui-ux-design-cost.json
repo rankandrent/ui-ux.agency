@@ -133,7 +133,14 @@
       "image": {
         "src": "/images/services/ui-ux-design-cost.svg",
         "alt": "Bar chart of UI UX design cost ranges for MVP design, AI UX design, SaaS design and SaaS product redesign, from $15,000 to $200,000",
-        "caption": "UI UX design cost ranges by engagement, from a focused MVP to a full redesign."
+        "caption": "UI UX design cost ranges by engagement, from a focused MVP to a full redesign.",
+        "text": [
+          "Price range per project, in US dollars",
+          "MVP design: $15k to $50k",
+          "AI UX design: $25k to $90k",
+          "SaaS design: $40k to $180k",
+          "SaaS redesign: $50k to $200k"
+        ]
       }
     },
     {

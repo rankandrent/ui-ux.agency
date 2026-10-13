@@ -11,7 +11,7 @@ import {
   Stats,
 } from "@/components/sections/Blocks";
 import { FormCard, PageHero } from "@/components/sections/PageHero";
-import { Abstract, SemanticSections } from "@/components/sections/SemanticSections";
+import { SemanticSections } from "@/components/sections/SemanticSections";
 import { Team } from "@/components/sections/HomeSections";
 import { Process } from "@/components/sections/Process";
 import { WorkGrid } from "@/components/sections/WorkCards";
@@ -76,6 +76,7 @@ export function ServiceView({ s }: { s: Service }) {
         crumbs={[{ name: "Services", path: routes.services }, ...(parent ? [{ name: parent.title, path: routes.service(parent.slug) }] : []), { name: s.title, path }]}
         eyebrow={s.hero.eyebrow ?? s.title}
         h1={s.hero.h1}
+        summary={s.abstract}
         sub={s.hero.sub}
         trust
         aside={
@@ -84,8 +85,6 @@ export function ServiceView({ s }: { s: Service }) {
           </FormCard>
         }
       />
-
-      <Abstract text={s.abstract} />
 
       {hasSections ? (
         <SemanticSections
@@ -105,6 +104,8 @@ export function ServiceView({ s }: { s: Service }) {
         </>
       )}
 
+      <Faq heading={faqSection?.h2 ?? h.faqs ?? `${cap(anchorOf(s))} FAQs`} intro={faqSection?.answer} items={allFaqs} />
+
       {b.ctaBand && <CtaBand {...(s.cta ?? home.ctaBand)} />}
 
       {b.industries && (
@@ -122,7 +123,6 @@ export function ServiceView({ s }: { s: Service }) {
         <LeadForm variant="full" interests={[s.title, ...formInterests]} source={`service final CTA: ${s.slug}`} submitLabel="Submit" />
       </FinalCta>
 
-      <Faq heading={faqSection?.h2 ?? h.faqs ?? `${cap(anchorOf(s))} FAQs`} intro={faqSection?.answer} items={allFaqs} />
 
       {b.posts && <Resources heading={h.posts ?? `${cap(anchorOf(s))} guides`} posts={posts} more={morePosts} tone="light" />}
 

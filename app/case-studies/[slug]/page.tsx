@@ -46,8 +46,11 @@ export default async function CaseStudyPage({ params }: Props) {
       {c.image && (
         <section className="cs-cover" aria-label="Project cover">
           <div className="container">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={c.image} alt={`${c.client ?? c.title} project cover`} fetchPriority="high" />
+            <figure>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={c.image} alt={`${c.client ?? c.title} project cover: ${c.title}`} fetchPriority="high" />
+              <figcaption className="cs-cover__cap">{c.title}</figcaption>
+            </figure>
           </div>
         </section>
       )}
@@ -55,14 +58,14 @@ export default async function CaseStudyPage({ params }: Props) {
       {!!c.results.length && (
         <section className="section section--light" style={{ paddingBottom: 0 }}>
           <div className="container">
-            <div className="results">
+            <ul className="results" role="list">
               {c.results.map((r) => (
-                <div key={r.label} className="results__item">
+                <li key={r.label} className="results__item">
                   <div className="results__value">{r.value}</div>
                   <div className="results__label">{r.label}</div>
-                </div>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         </section>
       )}

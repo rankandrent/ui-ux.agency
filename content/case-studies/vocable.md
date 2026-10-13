@@ -28,8 +28,6 @@ Writers stay in one place instead of hopping between apps, so their energy goes 
 
 **What we delivered:** idea to product, stakeholder interviews, MVP launch strategy, UI and UX design, web app, and product enhancements.
 
-![The Vocable workspace showing draft documents, a score of 72 for content, tone-of-voice sliders for the brand and a card inviting the user to start writing with AI](/work/vocable/cover.webp "Where a Vocable project starts")
-
 ## What was slowing content teams down
 
 Content marketers had to ship strong work fast and still hit strategy targets, and three tasks ate most of their week.
@@ -60,13 +58,13 @@ A built-in idea generator takes a short prompt, for example "headlines for a blo
 
 We charted the creator's path (planning, drafting, optimizing, publishing) and tied each screen to a pain point from our stakeholder interviews.
 
-![A set of Vocable desktop screens covering the dashboard, campaigns, content plan and the scored editor](/work/vocable/screens.webp "The creator journey, screen by screen")
+![A set of Vocable desktop screens covering the dashboard, campaigns, content plan and the scored editor](/work/vocable/screens.webp "Vocable desktop screens along the creator journey: dashboard, campaigns, content plan and scored editor")
 
 ### Templates for a faster first draft
 
 Templates are grouped into four tabs (emails, articles, press releases and descriptions). Formats such as a listicle or an opinion editorial mean no one starts from a blank page.
 
-![The Vocable template library showing How-to, Listicle and Opinion Editorial cards beneath tabs for Emails, Press release, Articles and Descriptions](/work/vocable/templates.webp "Ready-made formats")
+![The Vocable template library showing How-to, Listicle and Opinion Editorial cards beneath tabs for Emails, Press release, Articles and Descriptions](/work/vocable/templates.webp "Vocable template library with How-to, Listicle and Opinion Editorial formats")
 
 ### Keyword research without leaving the app
 
@@ -86,15 +84,17 @@ Each piece takes less time, so teams get hours back for strategy.
 
 On the dashboard, a user sees finished and in-progress documents, live campaigns and the content plan side by side.
 
-![The Vocable dashboard listing live campaigns, document counts and the planned content](/work/vocable/dashboard.webp "Campaigns and planning at a glance")
+![The Vocable dashboard listing live campaigns, document counts and the planned content](/work/vocable/dashboard.webp "Vocable dashboard with live campaigns, document counts and planned content")
 
 Inside the editor, readability, SEO checks and the content score sit beside the text while teammates edit the same file. Getting this kind of AI-assisted workspace right is the core of our work as an [AI UX design agency](/services/ai-products/ai-ux-design-agency/).
 
-![The Vocable editor showing an AI wearables draft, the faces of teammates editing it, and a health panel that scores the document at 72](/work/vocable/ai-editor.webp "Live document scoring")
+![The Vocable editor showing an AI wearables draft, the faces of teammates editing it, and a health panel that scores the document at 72](/work/vocable/ai-editor.webp "Vocable AI editor with live teammates and a document health score of 72")
 
 ## The numbers after launch
 
 Content teams got a repeatable way to ship, and the metrics followed.
+
+Table: Vocable results after launch
 
 | Metric | Result |
 |---|---|

@@ -32,8 +32,9 @@ export default function WorkPage() {
         sub="The research, the design decisions, and the numbers behind each product. Filter by industry or service."
         stats={home.hero.stats}
       />
-      <section className="section section--light" style={{ paddingTop: 24 }} aria-label="Case studies">
+      <section className="section section--light" style={{ paddingTop: 24 }} aria-labelledby="cs-all">
         <div className="container">
+          <h2 id="cs-all" className="list-h2">All UI UX design case studies</h2>
           {items.length ? (
             <WorkFilter industries={industries} services={services} keys={items.map((c) => [...c.industries, ...c.services])}>
               {items.map((c) => <WorkCard key={c.slug} c={c} />)}

@@ -60,8 +60,8 @@ function kindOf(s: Section, i: number): Kind {
 function Head({ s, kind, center }: { s: Section; kind: Kind; center?: boolean }) {
   const id = sectionId(s);
   return (
-    <div className={`semv__head${center ? " semv__head--c" : ""}`}>
-      <span className="tk-eyebrow semv__eyebrow">{EYEBROW[kind]}</span>
+    <div className={`semv__head${center ? " semv__head--c" : ""}`} data-eyebrow={EYEBROW[kind]}>
+      {/* decorative label drawn by CSS from data-eyebrow, so no off-topic text block sits before the H2 */}
       <h2 id={`${id}-h`}>{s.h2}</h2>
       {s.answer && <Html as="p" className="semv__answer" html={s.answer} />}
     </div>
@@ -134,9 +134,15 @@ export function SemanticSections({
                           <img src={(s.image ?? visual)!.src} alt={(s.image ?? visual)!.alt} loading="lazy" />
                         </div>
                         {(s.image ?? visual)!.caption && <figcaption className="semv__caption">{(s.image ?? visual)!.caption}</figcaption>}
+                        {!!s.image?.text?.length && (
+                          // text version of the infographic, always visible next to it
+                          <ul className="semv__imgtext img-text">
+                            {s.image.text.map((t) => <li key={t}>{t}</li>)}
+                          </ul>
+                        )}
                       </figure>
                     ) : (
-                      <div className="semv__visual">
+                      <div className="semv__visual" aria-hidden="true">
                         <UiMock category={category} label={label} />
                       </div>
                     )}
@@ -161,27 +167,28 @@ export function SemanticSections({
               {kind === "include" && (
                 <>
                   <Head s={s} kind={kind} center />
-                  <div className="semv__grid">
+                  <ul className="semv__grid" role="list">
                     {items.map((c, i) => (
-                      <div key={c.title} className="semv__card">
+                      <li key={c.title} className="semv__card">
                         <span className="semv__icon"><Icon name={ICONS[i % ICONS.length]} /></span>
                         <h3>{c.title.replace(/\.$/, "")}</h3>
                         {c.body && <Html as="p" html={c.body} />}
-                      </div>
+                      </li>
                     ))}
-                  </div>
+                  </ul>
                 </>
               )}
 
               {kind === "process" && (
                 <>
                   <ScrollRail id={`${id}-rail`} label={s.h2} head={<Head s={s} kind={kind} center />}>
+                    <ol className="semv__steps">
                     {items.map((c, i, all) => {
                       const kinds = stepKinds(all.map((x) => x.title.replace(/\s*\([^)]*\)\s*$/, "")));
                       const m = c.title.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
                       const name = m ? m[1] : c.title;
                       return (
-                        <article key={c.title} className="semv__step" aria-label={`Step ${i + 1}: ${name}`}>
+                        <li key={c.title} className="semv__step" aria-label={`Step ${i + 1}: ${name}`}>
                           <StepArt kind={kinds[i]} />
                           <div className="semv__step-top">
                             <span className="semv__step-n" aria-hidden="true">{String(i + 1).padStart(2, "0")}</span>
@@ -189,9 +196,10 @@ export function SemanticSections({
                           </div>
                           <h3>{name}</h3>
                           {c.body && <Html as="p" html={c.body} />}
-                        </article>
+                        </li>
                       );
                     })}
+                    </ol>
                   </ScrollRail>
                 </>
               )}
@@ -199,15 +207,15 @@ export function SemanticSections({
               {kind === "benefits" && (
                 <>
                   <Head s={s} kind={kind} center />
-                  <div className="semv__grid semv__grid--4">
+                  <ul className="semv__grid semv__grid--4" role="list">
                     {items.map((c, i) => (
-                      <div key={c.title} className="semv__card semv__card--dark">
+                      <li key={c.title} className="semv__card semv__card--dark">
                         <span className="semv__icon"><Icon name={ICONS[(i + 4) % ICONS.length]} /></span>
                         <h3>{c.title}</h3>
                         {c.body && <Html as="p" html={c.body} />}
-                      </div>
+                      </li>
                     ))}
-                  </div>
+                  </ul>
                 </>
               )}
 
@@ -216,7 +224,7 @@ export function SemanticSections({
                   <Head s={s} kind={kind} center />
                   <div className="semv__table">
                     <table>
-                      {s.caption && <caption className="visually-hidden">{s.caption}</caption>}
+                      {s.caption && <caption className="semv__tcaption">{s.caption}</caption>}
                       {!!s.columns?.length && (
                         <thead>
                           <tr>{s.columns.map((c, j) => <th key={c} scope="col" className={j === 1 ? "is-ours" : undefined}>{c}</th>)}</tr>
@@ -277,13 +285,10 @@ export function SemanticSections({
                   <Head s={s} kind={kind} />
                   <div className="faq__list" style={{ marginTop: 32 }}>
                     {s.faqs.map((f) => (
-                      <details key={f.q} className="faq__item">
-                        <summary className="faq__question">
-                          {f.q}
-                          <span className="faq__toggle" aria-hidden="true">+</span>
-                        </summary>
+                      <div key={f.q} className="faq__item faq__item--open">
+                        <h3 className="faq__question">{f.q}</h3>
                         <Html className="faq__answer" html={f.a} />
-                      </details>
+                      </div>
                     ))}
                   </div>
                 </>

@@ -19,9 +19,9 @@ export function Process({ id = "process", heading, steps }: { id?: string; headi
               ))}
             </div>
           </div>
-          <div className="process__accordion">
+          <ol className="process__accordion">
             {steps.map((s, i) => (
-              <div
+              <li
                 key={s.title}
                 className={`process__step${i === active ? " is-active" : ""}`}
                 tabIndex={0}
@@ -37,14 +37,14 @@ export function Process({ id = "process", heading, steps }: { id?: string; headi
                   <p dangerouslySetInnerHTML={{ __html: s.body }} />
                   {(s.deliverables || s.timeline) && (
                     <div className="process__meta">
-                      {s.deliverables && <span><strong>Deliverables:</strong> {s.deliverables}</span>}
-                      {s.timeline && <span><strong>Timeline:</strong> {s.timeline}</span>}
+                      {s.deliverables && <span><b className="process__label">Deliverables:</b> {s.deliverables}</span>}
+                      {s.timeline && <span><b className="process__label">Timeline:</b> {s.timeline}</span>}
                     </div>
                   )}
                 </div>
-              </div>
+              </li>
             ))}
-          </div>
+          </ol>
         </div>
       </div>
     </section>

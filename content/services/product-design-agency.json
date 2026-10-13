@@ -31,7 +31,14 @@
       "image": {
         "src": "/images/services/product-design-agency.svg",
         "alt": "Product design cycle with four stages: research, UX design, UI design and build support, connected in a loop around a product screen",
-        "caption": "Research, UX, UI and build support run as one loop, release after release."
+        "caption": "Research, UX, UI and build support run as one loop, release after release.",
+        "text": [
+          "Product design loop around a product screen",
+          "Stage 1 — Research",
+          "Stage 2 — UX design",
+          "Stage 3 — UI design",
+          "Stage 4 — Build support, then back to research"
+        ]
       }
     },
     {

@@ -29,7 +29,7 @@ function Mock({ c }: { c: CaseStudy }) {
       <div className="wcard__mock-stats">
         {(c.results.length ? c.results : [{ value: "", label: "" }]).slice(0, 2).map((r, i) => (
           <div key={i} className="wcard__mock-stat">
-            <strong>{r.value}</strong>
+            <b>{r.value}</b>
             <span>{r.label}</span>
           </div>
         ))}
@@ -48,10 +48,11 @@ export function WorkCard({ c, size = "grid" }: { c: CaseStudy; size?: "rail" | "
     <Link href={routes.caseStudy(c.slug)} className={cls} style={{ background: background(c.color) }}>
       {hasImage && (
         // eslint-disable-next-line @next/next/no-img-element
-        <img className="wcard__bg" src={c.image} alt="" loading="lazy" />
+        <img className="wcard__bg" src={c.image} alt={`${c.client ?? c.title} product screens`} loading="lazy" />
       )}
       {c.logo && <span className="wcard__logo">{c.logo}</span>}
-      <h3 className="wcard__title">{c.result}</h3>
+      {/* rail cards sit in the hero before any H2, so their titles are paragraphs, not H3s */}
+      {size === "rail" ? <p className="wcard__title">{c.result}</p> : <h3 className="wcard__title">{c.result}</h3>}
       {c.card === "quote" && c.quote ? (
         <blockquote className="wcard__quote">
           <p>{c.quote}</p>

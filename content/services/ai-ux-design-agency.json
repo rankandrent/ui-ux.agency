@@ -26,7 +26,12 @@
       "image": {
         "src": "/images/services/ai-ux-design-agency.svg",
         "alt": "Diagram of an AI product interface with a prompt field, a generated answer with source labels, and accept, edit and reject controls",
-        "caption": "Every AI answer gets a source, a confidence cue and a way to correct it."
+        "caption": "Every AI answer gets a source, a confidence cue and a way to correct it.",
+        "text": [
+          "Ask: the user types \"Summarize this contract and flag risky clauses\"",
+          "AI answer: shown with its source (p. 4) and a confidence label (high)",
+          "Controls on every answer: Accept, Edit or Reject"
+        ]
       }
     },
     {

@@ -6,7 +6,7 @@ export function PostThumb({ p, className = "pthumb" }: { p: Pick<Post, "image" |
     return (
       <span className={className}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={p.image} alt="" loading="lazy" />
+        <img src={p.image} alt={`${p.title}: cover illustration`} loading="lazy" />
       </span>
     );
   }
