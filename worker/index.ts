@@ -164,12 +164,29 @@ async function sendLead(body: Record<string, unknown>, env: Env) {
 
 /** Removed pages → permanent redirect. */
 const GONE_CASE_STUDIES: string[] = [];
-const REDIRECTS: Record<string, string> = Object.fromEntries(
-  GONE_CASE_STUDIES.flatMap((slug) => [
+/** Services that moved under a pillar (/services/<slug>/ → /services/<pillar>/<slug>/, 2026-10-13).
+ * Keep in step with content/pillars.ts when a service changes category. */
+const MOVED_SERVICES: Record<string, string> = {
+  "ai-ux-design-agency": "ai-products",
+  "chatbot-ui-design": "ai-products",
+  "ai-product-discovery-workshop": "ai-products",
+  "saas-design-agency": "saas-products",
+  "saas-product-redesign": "saas-products",
+  "saas-onboarding-design": "saas-products",
+  "mvp-design-agency": "startups",
+  "product-design-agency": "startups",
+  "design-sprint": "startups",
+};
+const REDIRECTS: Record<string, string> = Object.fromEntries([
+  ...GONE_CASE_STUDIES.flatMap((slug) => [
     [`/case-studies/${slug}`, "/case-studies/"],
     [`/case-studies/${slug}/`, "/case-studies/"],
   ]),
-);
+  ...Object.entries(MOVED_SERVICES).flatMap(([slug, pillar]) => [
+    [`/services/${slug}`, `/services/${pillar}/${slug}/`],
+    [`/services/${slug}/`, `/services/${pillar}/${slug}/`],
+  ]),
+]);
 
 const worker = {
   async fetch(request: Request, env: Env) {

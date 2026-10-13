@@ -22,7 +22,7 @@
       "h2": "What is a design sprint?",
       "format": "paragraph",
       "answer": "<strong>A design sprint compresses months of debate into 5 days: the team agrees on one question, designs an answer and tests it with real users by Friday.</strong>",
-      "body": "<p>The method was developed at Google Ventures and described in the book <em>Sprint</em> by Jake Knapp. It works because it forces decisions: each day has one goal and ends with an agreed result. Our designers facilitate the sessions and build the prototype, so your team only needs to bring knowledge of the business and the users. When the sprint confirms the idea, the next step is often a minimum viable product (MVP), designed in an <a href=\"/services/mvp-design-agency/\">MVP design agency</a> project.</p>",
+      "body": "<p>The method was developed at Google Ventures and described in the book <em>Sprint</em> by Jake Knapp. It works because it forces decisions: each day has one goal and ends with an agreed result. Our designers facilitate the sessions and build the prototype, so your team only needs to bring knowledge of the business and the users. When the sprint confirms the idea, the next step is often a minimum viable product (MVP), designed in an <a href=\"/services/startups/mvp-design-agency/\">MVP design agency</a> project.</p>",
       "image": {
         "src": "/images/services/design-sprint.svg",
         "alt": "Five-day design sprint calendar: Monday map, Tuesday sketch, Wednesday decide, Thursday prototype and Friday test with five users",
@@ -80,7 +80,7 @@
       "h2": "How much does a design sprint cost?",
       "format": "paragraph",
       "answer": "<strong>A design sprint with our team costs $12,000 to $25,000, including recruiting 5 test users.</strong> Remote sprints sit at the lower end; on-site sprints with travel sit at the upper end.",
-      "body": "<p>The price covers a facilitator, two designers, the prototype, user recruiting and a findings report. Teams that need ongoing design after the sprint work with our <a href=\"/services/product-design-agency/\">product design agency</a> team or <a href=\"/services/hire-ui-ux-designers/\">hire UI UX designers</a> monthly. All ranges sit in the <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide.</p>"
+      "body": "<p>The price covers a facilitator, two designers, the prototype, user recruiting and a findings report. Teams that need ongoing design after the sprint work with our <a href=\"/services/startups/product-design-agency/\">product design agency</a> team or <a href=\"/services/hire-ui-ux-designers/\">hire UI UX designers</a> monthly. All ranges sit in the <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide.</p>"
     },
     {
       "h2": "Design sprint FAQs",

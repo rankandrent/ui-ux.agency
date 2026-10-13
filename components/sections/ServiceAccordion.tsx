@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { routes, cap } from "@/lib/site";
+import { cap } from "@/lib/site";
 import type { Service } from "@/lib/types";
+import { servicePath } from "@/lib/content";
 
 /** Category block: title + intro on the left, accordion of services on the right */
 export function ServiceAccordion({ id, heading, intro, services, overview }: { id: string; heading: string; intro: string; services: Service[]; overview?: { href: string; label: string } }) {
@@ -29,7 +30,7 @@ export function ServiceAccordion({ id, heading, intro, services, overview }: { i
                       {s.tags.map((t) => <li key={t}>{t}</li>)}
                     </ul>
                   )}
-                  <Link href={routes.service(s.slug)} className="svc-acc__link">Explore {s.anchor ?? name} →</Link>
+                  <Link href={servicePath(s)} className="svc-acc__link">Explore {s.anchor ?? name} →</Link>
                 </div>
               </details>
             );

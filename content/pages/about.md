@@ -12,9 +12,9 @@ We focus on three kinds of work: products built on AI, subscription software, an
 
 ## What we design
 
-- **AI products:** we design how people ask an AI system for help, read its answers and correct it. See our [AI UX design agency](/services/ai-ux-design-agency/) and [chatbot UI design](/services/chatbot-ui-design/) pages.
-- **SaaS products:** onboarding, workflows, dashboards and billing for new software, and phased redesigns for software that already has customers. See [SaaS design agency](/services/saas-design-agency/) and [SaaS product redesign](/services/saas-product-redesign/).
-- **Startup products:** tested, clickable first versions, and product design support after launch. See [MVP design agency](/services/mvp-design-agency/) and [product design agency](/services/product-design-agency/).
+- **AI products:** we design how people ask an AI system for help, read its answers and correct it. See our [AI UX design agency](/services/ai-products/ai-ux-design-agency/) and [chatbot UI design](/services/ai-products/chatbot-ui-design/) pages.
+- **SaaS products:** onboarding, workflows, dashboards and billing for new software, and phased redesigns for software that already has customers. See [SaaS design agency](/services/saas-products/saas-design-agency/) and [SaaS product redesign](/services/saas-products/saas-product-redesign/).
+- **Startup products:** tested, clickable first versions, and product design support after launch. See [MVP design agency](/services/startups/mvp-design-agency/) and [product design agency](/services/startups/product-design-agency/).
 
 You can work with us on a fixed project or [hire UI UX designers](/services/hire-ui-ux-designers/) who join your team every month. Our [UI UX design cost](/services/ui-ux-design-cost/) guide lists every price range.
 

@@ -22,7 +22,7 @@
       "h2": "What is chatbot UI design?",
       "format": "paragraph",
       "answer": "<strong>Chatbot UI design decides how a conversation looks and behaves: where messages sit, how users type or tap, and how the bot shows results that plain text cannot hold.</strong> It covers the visual interface and the conversation flow together.",
-      "body": "<p>A good chatbot interface does more than show bubbles. It shows a product as a card with a price and a button, a booking as a calendar, and a long answer as short steps. It tells users what the bot can do before they type. Chatbot UI design is one part of the wider user experience (UX) of an AI product; the rest of that work sits with our <a href=\"/services/ai-ux-design-agency/\">AI UX design agency</a> team.</p>",
+      "body": "<p>A good chatbot interface does more than show bubbles. It shows a product as a card with a price and a button, a booking as a calendar, and a long answer as short steps. It tells users what the bot can do before they type. Chatbot UI design is one part of the wider user experience (UX) of an AI product; the rest of that work sits with our <a href=\"/services/ai-products/ai-ux-design-agency/\">AI UX design agency</a> team.</p>",
       "image": {
         "src": "/images/services/chatbot-ui-design.svg",
         "alt": "Chat window layout with bot and user messages, a product answer card, three suggested reply chips and a message input with an attach button",
@@ -82,7 +82,7 @@
       "h2": "How much does chatbot UI design cost?",
       "format": "paragraph",
       "answer": "<strong>Chatbot UI design costs $15,000 to $60,000 and takes 3 to 8 weeks.</strong> The range depends on the number of intents, channels and languages.",
-      "body": "<p>A support widget with 20 to 30 intents on one website sits near $15,000. An AI assistant inside a web app and a mobile app, with file uploads and rich answer cards, sits near $60,000. Chat often ships as part of a larger <a href=\"/services/saas-design-agency/\">SaaS design agency</a> project; see the <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide for full ranges.</p>"
+      "body": "<p>A support widget with 20 to 30 intents on one website sits near $15,000. An AI assistant inside a web app and a mobile app, with file uploads and rich answer cards, sits near $60,000. Chat often ships as part of a larger <a href=\"/services/saas-products/saas-design-agency/\">SaaS design agency</a> project; see the <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide for full ranges.</p>"
     },
     {
       "h2": "Chatbot UI design FAQs",

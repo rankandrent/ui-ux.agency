@@ -6,7 +6,7 @@ import { WorkGrid } from "@/components/sections/WorkCards";
 import { PageHero } from "@/components/sections/PageHero";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { formInterests, home } from "@/content/home";
-import { anchorOf, getCaseStudies, getCaseStudy, getIndustry, staticParams, getService, relatedCaseStudies, relatedPosts } from "@/lib/content";
+import { anchorOf, getCaseStudies, getCaseStudy, getIndustry, getService, relatedCaseStudies, relatedPosts, servicePath, staticParams } from "@/lib/content";
 import { articleLd, pageMetadata } from "@/lib/seo";
 import { cap, routes } from "@/lib/site";
 
@@ -37,7 +37,7 @@ export default async function CaseStudyPage({ params }: Props) {
         sub={c.description}
         meta={
           <>
-            {services.map((s) => <Link key={s.slug} href={routes.service(s.slug)} className="chip" style={{ color: "#fff", borderColor: "var(--border-d)" }}>{cap(anchorOf(s))}</Link>)}
+            {services.map((s) => <Link key={s.slug} href={servicePath(s)} className="chip" style={{ color: "#fff", borderColor: "var(--border-d)" }}>{cap(anchorOf(s))}</Link>)}
             {industries.map((i) => <Link key={i.slug} href={routes.industry(i.slug)} className="chip" style={{ color: "#fff", borderColor: "var(--border-d)" }}>{anchorOf(i)}</Link>)}
           </>
         }

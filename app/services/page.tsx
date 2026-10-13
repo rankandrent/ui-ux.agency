@@ -5,7 +5,7 @@ import { ServiceAccordion } from "@/components/sections/ServiceAccordion";
 import { PageHero } from "@/components/sections/PageHero";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { formInterests, home } from "@/content/home";
-import { anchorOf, pillarOf, servicesByCategory } from "@/lib/content";
+import { anchorOf, pillarOf, servicePath, servicesByCategory } from "@/lib/content";
 import { collectionLd, pageMetadata } from "@/lib/seo";
 import { cap, routes } from "@/lib/site";
 import type { ServiceCategory } from "@/lib/types";
@@ -67,7 +67,7 @@ export default function ServicesHub() {
           name: "UI UX design services",
           description: metadata.description as string,
           path: routes.services,
-          items: groups.flatMap((g) => g.services).map((s) => ({ name: cap(anchorOf(s)), path: routes.service(s.slug) })),
+          items: groups.flatMap((g) => g.services).map((s) => ({ name: cap(anchorOf(s)), path: servicePath(s) })),
         })}
       />
     </>

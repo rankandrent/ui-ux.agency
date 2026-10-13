@@ -5,7 +5,7 @@ import Script from "next/script";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { JsonLd } from "@/components/ui/JsonLd";
-import { anchorOf, getIndustries, servicesByCategory, locationCities, pillarOf } from "@/lib/content";
+import { anchorOf, getIndustries, locationCities, pillarOf, servicePath, servicesByCategory } from "@/lib/content";
 import { organizationLd } from "@/lib/seo";
 import { SITE, cap, routes } from "@/lib/site";
 import "./globals.css";
@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return {
       category: g.category,
       href: pillar && routes.service(pillar.slug),
-      items: g.services.map((s) => ({ title: cap(anchorOf(s)), href: routes.service(s.slug) })),
+      items: g.services.map((s) => ({ title: cap(anchorOf(s)), href: servicePath(s) })),
     };
   });
   const industries = getIndustries().map((i) => ({ title: i.title, href: routes.industry(i.slug) }));

@@ -4,7 +4,7 @@ import { BlogNav, EmptyBlog, PostGrid } from "@/components/blog/BlogParts";
 import { PageHero } from "@/components/sections/PageHero";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { blogRoutes, categories, getCategory, postsInCategory } from "@/lib/blog";
-import { anchorOf, getService, staticParams } from "@/lib/content";
+import { anchorOf, getService, servicePath, staticParams } from "@/lib/content";
 import { collectionLd, pageMetadata } from "@/lib/seo";
 import { cap, routes } from "@/lib/site";
 
@@ -39,7 +39,7 @@ export default async function CategoryPage({ params }: Props) {
             silos.filter((x) => x.posts.length).map(({ s, posts: list }) => (
               <div key={s.slug} className="silo">
                 <div className="silo__head">
-                  <h2><Link href={routes.service(s.slug)}>{cap(anchorOf(s))}</Link></h2>
+                  <h2><Link href={servicePath(s)}>{cap(anchorOf(s))}</Link></h2>
                   <span className="silo__count">{list.length} {list.length === 1 ? "guide" : "guides"}</span>
                 </div>
                 <PostGrid posts={list} />
@@ -50,7 +50,7 @@ export default async function CategoryPage({ params }: Props) {
           )}
           <div className="silo__services">
             <p>Services in this category</p>
-            <div className="chips">{silos.map(({ s }) => <Link key={s.slug} href={routes.service(s.slug)} className="chip">{cap(anchorOf(s))}</Link>)}</div>
+            <div className="chips">{silos.map(({ s }) => <Link key={s.slug} href={servicePath(s)} className="chip">{cap(anchorOf(s))}</Link>)}</div>
           </div>
         </div>
       </section>

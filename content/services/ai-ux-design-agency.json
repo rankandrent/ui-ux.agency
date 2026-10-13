@@ -22,7 +22,7 @@
       "h2": "What does an AI UX design agency do?",
       "format": "paragraph",
       "answer": "<strong>An AI UX design agency designs how people give instructions to an AI system, read its output, judge whether it is right and fix it when it is wrong.</strong> The work sits between the model team and the people who use the product every day.",
-      "body": "<p>A classic interface shows the same result for the same click. An AI feature returns a different answer each time, takes seconds to respond and is sometimes wrong with full confidence. Those three facts change the design brief. Our designers plan loading and streaming states, show where an answer came from, and give users a fast way to edit, retry or reject it. When the AI feature is a conversation, the work continues in <a href=\"/services/chatbot-ui-design/\">chatbot UI design</a>.</p>",
+      "body": "<p>A classic interface shows the same result for the same click. An AI feature returns a different answer each time, takes seconds to respond and is sometimes wrong with full confidence. Those three facts change the design brief. Our designers plan loading and streaming states, show where an answer came from, and give users a fast way to edit, retry or reject it. When the AI feature is a conversation, the work continues in <a href=\"/services/ai-products/chatbot-ui-design/\">chatbot UI design</a>.</p>",
       "image": {
         "src": "/images/services/ai-ux-design-agency.svg",
         "alt": "Diagram of an AI product interface with a prompt field, a generated answer with source labels, and accept, edit and reject controls",
@@ -71,7 +71,7 @@
       "format": "cards",
       "answer": "<strong>Our AI UX design agency designs 4 types of AI products:</strong> copilots inside existing software, AI-first SaaS tools, AI agents that act for the user, and internal AI tools for operations teams.",
       "items": [
-        { "title": "Copilots", "body": "An assistant panel inside an existing product that drafts, summarizes or explains. Often part of a <a href=\"/services/saas-product-redesign/\">SaaS product redesign</a>." },
+        { "title": "Copilots", "body": "An assistant panel inside an existing product that drafts, summarizes or explains. Often part of a <a href=\"/services/saas-products/saas-product-redesign/\">SaaS product redesign</a>." },
         { "title": "AI-first SaaS tools", "body": "Products where the model is the core feature, such as writing, analysis or search tools." },
         { "title": "AI agents", "body": "Systems that take actions for the user. We design approval steps, activity logs and an easy stop button." },
         { "title": "Internal AI tools", "body": "Tools that help support, finance or operations staff work through documents and tickets faster." }

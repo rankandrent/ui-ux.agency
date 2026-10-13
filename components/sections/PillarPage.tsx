@@ -5,7 +5,7 @@ import { Abstract, SemanticSections } from "@/components/sections/SemanticSectio
 import { JsonLd } from "@/components/ui/JsonLd";
 import { formInterests, home } from "@/content/home";
 import type { Pillar } from "@/content/pillars";
-import { anchorOf, servicesInPillar } from "@/lib/content";
+import { anchorOf, servicePath, servicesInPillar } from "@/lib/content";
 import { collectionLd, faqLd, webPageLd } from "@/lib/seo";
 import { cap, routes } from "@/lib/site";
 
@@ -57,7 +57,7 @@ export function PillarPage({ p }: { p: Pillar }) {
           name: cap(p.anchor),
           description: p.metaDescription,
           path,
-          items: services.map((s) => ({ name: cap(anchorOf(s)), path: routes.service(s.slug) })),
+          items: services.map((s) => ({ name: cap(anchorOf(s)), path: servicePath(s) })),
         })}
       />
       <JsonLd data={faqLd(p.faqs)} />

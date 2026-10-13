@@ -27,7 +27,7 @@
       "h2": "Why hire UI UX designers from an agency?",
       "format": "paragraph",
       "answer": "<strong>Companies hire UI UX designers from an agency to add senior design capacity in weeks instead of months, without the cost and risk of a permanent hire.</strong> The designers work as part of your team while the agency handles hiring, training and cover.",
-      "body": "<p>Recruiting one senior product designer takes 2 to 4 months and a recruiter fee. An agency team is ready in 1 to 2 weeks, brings research, UX and UI skills together, and keeps working when one person takes leave. It suits product teams with a growing roadmap, a launch date or a redesign that needs more hands than the current team has. For a fixed-scope project instead of ongoing capacity, see our <a href=\"/services/product-design-agency/\">product design agency</a> work.</p>",
+      "body": "<p>Recruiting one senior product designer takes 2 to 4 months and a recruiter fee. An agency team is ready in 1 to 2 weeks, brings research, UX and UI skills together, and keeps working when one person takes leave. It suits product teams with a growing roadmap, a launch date or a redesign that needs more hands than the current team has. For a fixed-scope project instead of ongoing capacity, see our <a href=\"/services/startups/product-design-agency/\">product design agency</a> work.</p>",
       "image": {
         "src": "/images/services/hire-ui-ux-designers.svg",
         "alt": "Sprint board showing two dedicated designers from ui-ux.agency working alongside a client's product manager and three engineers",
@@ -155,7 +155,7 @@
       "h2": "How much does it cost to hire UI UX designers?",
       "format": "paragraph",
       "answer": "<strong>Hiring a dedicated UI UX design team from us costs $15,000 to $40,000 per month for 2 to 5 designers.</strong> Team size and seniority set the monthly price.",
-      "body": "<p>A product designer and a UI designer working full time sit near $15,000 per month. A team with a design lead, a researcher and three designers for a large platform sits near $40,000 per month. Teams that need a one-off project instead, such as a <a href=\"/services/saas-product-redesign/\">SaaS product redesign</a>, get a fixed quote. Compare every option in the <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide.</p>"
+      "body": "<p>A product designer and a UI designer working full time sit near $15,000 per month. A team with a design lead, a researcher and three designers for a large platform sits near $40,000 per month. Teams that need a one-off project instead, such as a <a href=\"/services/saas-products/saas-product-redesign/\">SaaS product redesign</a>, get a fixed quote. Compare every option in the <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide.</p>"
     },
     {
       "h2": "Hire UI UX designers FAQs",

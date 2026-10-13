@@ -9,7 +9,7 @@ import { WorkGrid } from "@/components/sections/WorkCards";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { formInterests, home } from "@/content/home";
 import { authorOf, blogRoutes, categoryOf, contributorsOf, slugify } from "@/lib/blog";
-import { anchorOf, getPost, getPosts, getService, postsForService, relatedCaseStudies, relatedPosts, staticParams } from "@/lib/content";
+import { anchorOf, getPost, getPosts, getService, postsForService, relatedCaseStudies, relatedPosts, servicePath, staticParams } from "@/lib/content";
 import { articleLd, faqLd, pageMetadata } from "@/lib/seo";
 import { absoluteUrl, cap, routes } from "@/lib/site";
 import type { Faq } from "@/lib/types";
@@ -85,7 +85,7 @@ export default async function PostPage({ params }: Props) {
   const cases = relatedCaseStudies(p);
   const { html, toc, faqs } = prepare(p.html);
   const [first, rest] = splitAt3rdH2(html);
-  const crumbs = hub ? [{ name: hubName!, path: routes.service(hub.slug) }, { name: p.title, path }] : [{ name: "Blog", path: routes.blog }, { name: p.title, path }];
+  const crumbs = hub ? [{ name: hubName!, path: servicePath(hub) }, { name: p.title, path }] : [{ name: "Blog", path: routes.blog }, { name: p.title, path }];
 
   const inlineCta = hub && (p.funnel === "tofu" ? (
     <aside className="post-cta" aria-label="Free checklist">
@@ -112,7 +112,7 @@ export default async function PostPage({ params }: Props) {
         <a href="#cta-form" className="btn">Get a free consultation</a>
         {p.funnel === "mofu" && cases[0]
           ? <Link href={routes.caseStudy(cases[0].slug)} className="post-cta__link">Read the case study →</Link>
-          : <Link href={routes.service(hub.slug)} className="post-cta__link">{hubName} →</Link>}
+          : <Link href={servicePath(hub)} className="post-cta__link">{hubName} →</Link>}
       </div>
     </aside>
   ));
@@ -245,7 +245,7 @@ export default async function PostPage({ params }: Props) {
 
             {hub && (
               <nav className="post-silo" aria-label={`More on ${hubName}`}>
-                <p className="post-silo__title">Part of our <Link href={routes.service(hub.slug)}>{hubName}</Link> guides</p>
+                <p className="post-silo__title">Part of our <Link href={servicePath(hub)}>{hubName}</Link> guides</p>
                 {(prev || next) && (
                   <div className="post-silo__nav">
                     {prev && <Link href={routes.post(prev.slug)} rel="prev"><span>← Previous guide</span>{prev.title}</Link>}
@@ -255,7 +255,7 @@ export default async function PostPage({ params }: Props) {
                 {!!siblings.length && <ul>{siblings.map((x) => <li key={x.slug}><Link href={routes.post(x.slug)}>{x.title}</Link></li>)}</ul>}
                 {services.length > 1 && (
                   <div className="chips">
-                    {services.slice(1).map((x) => <Link key={x.slug} href={routes.service(x.slug)} className="chip">{cap(anchorOf(x))}</Link>)}
+                    {services.slice(1).map((x) => <Link key={x.slug} href={servicePath(x)} className="chip">{cap(anchorOf(x))}</Link>)}
                   </div>
                 )}
               </nav>

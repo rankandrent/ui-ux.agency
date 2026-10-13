@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { PostThumb } from "@/components/blog/PostThumb";
-import { anchorOf, getPosts, getService } from "@/lib/content";
+import { anchorOf, getPosts, getService, servicePath } from "@/lib/content";
 import { authorOf, blogRoutes, categories, categoryOf, postsInCategory, type Author } from "@/lib/blog";
 import { cap, routes } from "@/lib/site";
 import type { Post } from "@/lib/types";
@@ -39,7 +39,7 @@ export function PostTile({ p, big }: { p: Post; big?: boolean }) {
       <div className="ptile__foot">
         <Link href={blogRoutes.author(a.slug)}>{a.name}</Link>
         <span>{fmtDate(p.date)}</span>
-        {hub && <Link href={routes.service(hub.slug)} className="ptile__hub">{cap(anchorOf(hub))}</Link>}
+        {hub && <Link href={servicePath(hub)} className="ptile__hub">{cap(anchorOf(hub))}</Link>}
       </div>
     </article>
   );

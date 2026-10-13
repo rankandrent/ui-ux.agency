@@ -88,15 +88,15 @@
       "links": [
         {
           "anchor": "MVP design agency",
-          "to": "/services/mvp-design-agency/"
+          "to": "/services/startups/mvp-design-agency/"
         },
         {
           "anchor": "AI UX design agency",
-          "to": "/services/ai-ux-design-agency/"
+          "to": "/services/ai-products/ai-ux-design-agency/"
         },
         {
           "anchor": "SaaS design agency",
-          "to": "/services/saas-design-agency/"
+          "to": "/services/saas-products/saas-design-agency/"
         }
       ]
     },

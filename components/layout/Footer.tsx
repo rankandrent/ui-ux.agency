@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Logo } from "@/components/ui/Logo";
 import { SocialLinks } from "@/components/ui/SocialLinks";
-import { anchorOf, getIndustries, getLocations, servicesByCategory } from "@/lib/content";
+import { anchorOf, getIndustries, getLocations, servicePath, servicesByCategory } from "@/lib/content";
 import { SITE, addressLine, cap, routes } from "@/lib/site";
 
 export function Footer() {
@@ -11,7 +11,7 @@ export function Footer() {
   const cols = [
     {
       title: "Services",
-      links: [...services.map((s) => ({ label: cap(anchorOf(s)), href: routes.service(s.slug) })), { label: "All services", href: routes.services }],
+      links: [...services.map((s) => ({ label: cap(anchorOf(s)), href: servicePath(s) })), { label: "All services", href: routes.services }],
     },
     ...(industries.length
       ? [{ title: "Industries", links: [...industries.map((i) => ({ label: anchorOf(i), href: routes.industry(i.slug) })), { label: "All industries", href: routes.industries }] }]

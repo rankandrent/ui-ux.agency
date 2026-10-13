@@ -6,6 +6,7 @@ import { PostThumb } from "@/components/blog/PostThumb";
 import { Html } from "@/components/ui/Html";
 import { cap, routes } from "@/lib/site";
 import type { Card, Faq as FaqItem, Post, Service, Stat } from "@/lib/types";
+import { servicePath } from "@/lib/content";
 
 /* ---------- Clients strip: infinite right-to-left logo marquee ---------- */
 type ClientLogo = { name: string; logo?: string };
@@ -81,7 +82,7 @@ export function ServiceGrid({
   intro?: string;
   eyebrow?: string;
   heading: string;
-  services: Pick<Service, "slug" | "title" | "summary" | "tags" | "anchor">[];
+  services: Pick<Service, "slug" | "title" | "summary" | "tags" | "anchor" | "category">[];
   tone?: "warm" | "light";
   allHref?: string;
 }) {
@@ -94,7 +95,7 @@ export function ServiceGrid({
         {intro && <p className="cap__intro">{intro}</p>}
         <div className="cat__grid">
           {services.map((s, i) => (
-            <Link key={s.slug} href={routes.service(s.slug)} className="cat-card">
+            <Link key={s.slug} href={servicePath(s)} className="cat-card">
               <span className="cat-card__num">{String(i + 1).padStart(2, "0")}</span>
               <h3 className="cat-card__title">{cap(s.anchor ?? s.title)}</h3>
               <p className="cat-card__body">{s.summary}</p>

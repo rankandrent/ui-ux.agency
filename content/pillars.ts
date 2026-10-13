@@ -49,7 +49,7 @@ export const pillars: Pillar[] = [
         format: "paragraph",
         answer:
           "<strong>AI product design shapes a product around a model that writes, predicts or recommends, so that people get value from it without blind trust.</strong> It joins product strategy, interaction design and testing with real model output.",
-        body: '<p>A product with AI inside behaves differently from classic software. The same request returns different answers, responses take seconds, and the system is sometimes confidently wrong. AI product design plans for all three. It starts with the question most teams skip: which task should AI handle at all? The answer comes from an <a href="/services/ai-product-discovery-workshop/">AI product discovery workshop</a>. The interface work then follows in <a href="/services/ai-ux-design-agency/">AI UX design agency</a> projects and, for conversational products, in <a href="/services/chatbot-ui-design/">chatbot UI design</a>.</p>',
+        body: '<p>A product with AI inside behaves differently from classic software. The same request returns different answers, responses take seconds, and the system is sometimes confidently wrong. AI product design plans for all three. It starts with the question most teams skip: which task should AI handle at all? The answer comes from an <a href="/services/ai-products/ai-product-discovery-workshop/">AI product discovery workshop</a>. The interface work then follows in <a href="/services/ai-products/ai-ux-design-agency/">AI UX design agency</a> projects and, for conversational products, in <a href="/services/ai-products/chatbot-ui-design/">chatbot UI design</a>.</p>',
         image: {
           src: "/images/services/ai-products.svg",
           alt: "AI product design path in three stages: discovery workshop, AI UX design and chatbot UI design, ending in a tested AI feature",
@@ -126,7 +126,7 @@ export const pillars: Pillar[] = [
         format: "paragraph",
         answer:
           "<strong>SaaS product design is product design for software that earns revenue every month, so every screen is judged by whether customers activate, stay and upgrade.</strong>",
-        body: '<p>Subscription software has its own patterns: free trials, workspaces, seats, roles, usage limits, plan upgrades and invoices. Each pattern is a moment where customers either move forward or leave. SaaS product design treats those moments as one system. New products and large feature sets go to our <a href="/services/saas-design-agency/">SaaS design agency</a> team. Products that lose trial users in the first days get <a href="/services/saas-onboarding-design/">SaaS onboarding design</a>. Products with an aging interface get a <a href="/services/saas-product-redesign/">SaaS product redesign</a> in phases.</p>',
+        body: '<p>Subscription software has its own patterns: free trials, workspaces, seats, roles, usage limits, plan upgrades and invoices. Each pattern is a moment where customers either move forward or leave. SaaS product design treats those moments as one system. New products and large feature sets go to our <a href="/services/saas-products/saas-design-agency/">SaaS design agency</a> team. Products that lose trial users in the first days get <a href="/services/saas-products/saas-onboarding-design/">SaaS onboarding design</a>. Products with an aging interface get a <a href="/services/saas-products/saas-product-redesign/">SaaS product redesign</a> in phases.</p>',
         image: {
           src: "/images/services/saas-products.svg",
           alt: "SaaS customer lifecycle from trial and onboarding to daily use, upgrade and renewal, with the matching design service under each stage",
@@ -202,7 +202,7 @@ export const pillars: Pillar[] = [
         format: "paragraph",
         answer:
           "<strong>Startup product design turns an unproven idea into something people can try, then keeps the product simple while features pile up.</strong> Speed matters, but so does evidence.",
-        body: '<p>Early-stage teams face a choice every week: build the next feature or learn whether the last one worked. Startup product design keeps learning cheap. A <a href="/services/design-sprint/">design sprint</a> tests one risky idea with real users in five days. An <a href="/services/mvp-design-agency/">MVP design agency</a> project turns the winning idea into a tested, clickable first version. After launch, our <a href="/services/product-design-agency/">product design agency</a> team keeps research, UX and UI moving with the roadmap.</p>',
+        body: '<p>Early-stage teams face a choice every week: build the next feature or learn whether the last one worked. Startup product design keeps learning cheap. A <a href="/services/startups/design-sprint/">design sprint</a> tests one risky idea with real users in five days. An <a href="/services/startups/mvp-design-agency/">MVP design agency</a> project turns the winning idea into a tested, clickable first version. After launch, our <a href="/services/startups/product-design-agency/">product design agency</a> team keeps research, UX and UI moving with the roadmap.</p>',
         image: {
           src: "/images/services/startups.svg",
           alt: "Startup product design timeline: a 5-day design sprint, then MVP design over 4 to 8 weeks, then ongoing product design after launch",

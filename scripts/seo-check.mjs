@@ -64,7 +64,8 @@ for (const file of pages) {
     anchors.get(href).add(text);
   }
 
-  if (!/^\/(services|industries)\/[^/]+\/$/.test(route)) continue;
+  // service pages sit at /services/<slug>/ or, inside a pillar, /services/<pillar>/<slug>/
+  if (!/^\/(services\/([^/]+\/)?|industries\/)[^/]+\/$/.test(route)) continue;
   // main content = hero + abstract + semantic sections + FAQ (shared blocks excluded)
   const mainBits = [
     ...main.matchAll(/<section class="phero[\s\S]*?<\/section>/g),
@@ -77,7 +78,8 @@ for (const file of pages) {
   if (!/<img\b/.test(main)) noImage.push(route);
 
   // templated heading vectors: H2s with the page's own H1 words removed
-  const svcFile = /^\/(services|industries)\//.test(route) && path.join("content", route.replace(/\/$/, "") + ".json");
+  const [, dir, last] = route.match(/^\/(services|industries)\/(?:[^/]+\/)?([^/]+)\/$/) ?? [];
+  const svcFile = dir && path.join("content", dir, last + ".json");
   const svc = svcFile && fs.existsSync(svcFile) ? JSON.parse(fs.readFileSync(svcFile, "utf8")) : {};
   const h1Words = new Set(strip((html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1] ?? "") + " " + (svc.centralEntity ?? "") + " " + (svc.anchor ?? "")).toLowerCase().match(/[a-z0-9-]+/g) || []);
   for (const [, h] of main.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>/g)) {

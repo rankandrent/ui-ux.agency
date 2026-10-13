@@ -3,6 +3,7 @@ import path from "node:path";
 import matter from "gray-matter";
 import { marked } from "marked";
 import { pillars, type Pillar } from "@/content/pillars";
+import { routes } from "./site";
 import { SERVICE_CATEGORIES, type CaseStudy, type Industry, type Location, type Page, type Post, type Service } from "./types";
 
 const ROOT = path.join(process.cwd(), "content");
@@ -245,4 +246,9 @@ export const getPillars = () => pillars;
 export const getPillar = (slug: string) => pillars.find((p) => p.slug === slug);
 /** The pillar a service sits under, if its category has one */
 export const pillarOf = (s: Pick<Service, "category">): Pillar | undefined => pillars.find((p) => p.category === s.category);
+/** URL of a service page: nested under its pillar (/services/<pillar>/<slug>/) when it has one */
+export const servicePath = (s: Pick<Service, "slug" | "category">) => {
+  const p = pillarOf(s);
+  return p ? `${routes.service(p.slug)}${s.slug}/` : routes.service(s.slug);
+};
 export const servicesInPillar = (p: Pillar) => getServices().filter((s) => s.category === p.category);

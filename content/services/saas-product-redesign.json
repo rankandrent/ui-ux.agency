@@ -34,7 +34,7 @@
       "h2": "How does our SaaS product redesign avoid a big-bang launch?",
       "format": "paragraph",
       "answer": "<strong>Our SaaS product redesign ships in phases, starting with the screens that carry the most revenue or the most support load.</strong> Customers see steady improvement instead of one sudden change.",
-      "body": "<p>A big-bang redesign hides months of work and then surprises every customer on the same day. Power users lose shortcuts, saved views and habits, and support queues fill up. A phased redesign keeps the old and new interface side by side behind feature flags, invites a small group of customers to try each new area first and collects their feedback before a full rollout. The same approach works for products that started as a quick minimum viable product (MVP) build with an <a href=\"/services/mvp-design-agency/\">MVP design agency</a> and outgrew their first interface.</p>",
+      "body": "<p>A big-bang redesign hides months of work and then surprises every customer on the same day. Power users lose shortcuts, saved views and habits, and support queues fill up. A phased redesign keeps the old and new interface side by side behind feature flags, invites a small group of customers to try each new area first and collects their feedback before a full rollout. The same approach works for products that started as a quick minimum viable product (MVP) build with an <a href=\"/services/startups/mvp-design-agency/\">MVP design agency</a> and outgrew their first interface.</p>",
       "image": {
         "src": "/images/services/saas-product-redesign.svg",
         "alt": "Roadmap of a SaaS product redesign in three phases: navigation and design system, core workflow, then settings and billing, each with a beta group before full release",
@@ -82,7 +82,7 @@
       "h2": "How much does a SaaS product redesign cost?",
       "format": "paragraph",
       "answer": "<strong>A SaaS product redesign costs $50,000 to $200,000 and runs for 8 to 20 weeks.</strong> The number of screens, user roles and release phases decides where a project sits in that range.",
-      "body": "<p>A redesign of navigation, dashboard and one core workflow sits near $50,000. A full platform with an admin area, reporting, a design system and a mobile app sits near $200,000. Products that need a new feature set as well as a new interface work with our <a href=\"/services/saas-design-agency/\">SaaS design agency</a> team. All price factors are listed in the <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide.</p>"
+      "body": "<p>A redesign of navigation, dashboard and one core workflow sits near $50,000. A full platform with an admin area, reporting, a design system and a mobile app sits near $200,000. Products that need a new feature set as well as a new interface work with our <a href=\"/services/saas-products/saas-design-agency/\">SaaS design agency</a> team. All price factors are listed in the <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide.</p>"
     },
     {
       "h2": "SaaS product redesign FAQs",

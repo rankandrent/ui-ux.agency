@@ -80,19 +80,19 @@ export const home = {
     steps: [
       {
         title: "Discovery",
-        body: 'We interview users, read your analytics and map the jobs your product is hired for. Early-stage founders start with our <a href="/services/mvp-design-agency/">MVP design agency</a> package.',
+        body: 'We interview users, read your analytics and map the jobs your product is hired for. Early-stage founders start with our <a href="/services/startups/mvp-design-agency/">MVP design agency</a> package.',
         deliverables: "Research findings, priority list",
         timeline: "1–2 weeks",
       },
       {
         title: "Flows and prototypes",
-        body: 'We design the riskiest flows first and test them as clickable prototypes. For AI features, prototypes show real model output; see our <a href="/services/ai-ux-design-agency/">AI UX design agency</a> work.',
+        body: 'We design the riskiest flows first and test them as clickable prototypes. For AI features, prototypes show real model output; see our <a href="/services/ai-products/ai-ux-design-agency/">AI UX design agency</a> work.',
         deliverables: "User flows, tested prototypes",
         timeline: "2–4 weeks",
       },
       {
         title: "Interface and design system",
-        body: 'Final screens plus a component library engineers reuse every sprint. Our <a href="/services/saas-design-agency/">SaaS design agency</a> team builds systems that match your front-end code.',
+        body: 'Final screens plus a component library engineers reuse every sprint. Our <a href="/services/saas-products/saas-design-agency/">SaaS design agency</a> team builds systems that match your front-end code.',
         deliverables: "Final UI, component library",
         timeline: "2–6 weeks",
       },
@@ -127,27 +127,27 @@ export const home = {
     items: [
       {
         title: "AI features and AI-first products",
-        body: 'Prompt inputs, streaming answers, citations, confidence cues and correction flows, plus the states for wrong or slow answers. See <a href="/services/ai-ux-design-agency/">AI UX design agency</a>.',
+        body: 'Prompt inputs, streaming answers, citations, confidence cues and correction flows, plus the states for wrong or slow answers. See <a href="/services/ai-products/ai-ux-design-agency/">AI UX design agency</a>.',
       },
       {
         title: "Chat and assistant interfaces",
-        body: 'Support bots and in-product assistants with answer cards, suggested replies and a clean handoff to a person. See <a href="/services/chatbot-ui-design/">chatbot UI design</a>.',
+        body: 'Support bots and in-product assistants with answer cards, suggested replies and a clean handoff to a person. See <a href="/services/ai-products/chatbot-ui-design/">chatbot UI design</a>.',
       },
       {
         title: "New SaaS products",
-        body: 'Sign-up, onboarding, roles, dashboards and billing for subscription software. See <a href="/services/saas-design-agency/">SaaS design agency</a>.',
+        body: 'Sign-up, onboarding, roles, dashboards and billing for subscription software. See <a href="/services/saas-products/saas-design-agency/">SaaS design agency</a>.',
       },
       {
         title: "Redesigns of live SaaS products",
-        body: 'Phased redesigns that modernize an aging interface while customers keep working. See <a href="/services/saas-product-redesign/">SaaS product redesign</a>.',
+        body: 'Phased redesigns that modernize an aging interface while customers keep working. See <a href="/services/saas-products/saas-product-redesign/">SaaS product redesign</a>.',
       },
       {
         title: "Startup MVPs",
-        body: 'From idea to a tested, clickable prototype in 4 to 8 weeks, ready for users and investors. See <a href="/services/mvp-design-agency/">MVP design agency</a>.',
+        body: 'From idea to a tested, clickable prototype in 4 to 8 weeks, ready for users and investors. See <a href="/services/startups/mvp-design-agency/">MVP design agency</a>.',
       },
       {
         title: "Products after launch",
-        body: 'Research, UX, UI and design systems for startups growing past version one. See <a href="/services/product-design-agency/">product design agency</a>.',
+        body: 'Research, UX, UI and design systems for startups growing past version one. See <a href="/services/startups/product-design-agency/">product design agency</a>.',
       },
     ],
   },
@@ -238,10 +238,10 @@ export const home = {
     { q: "What does a UI UX design agency do?", a: 'A UI UX design agency researches users, designs how a product works (UX) and how it looks (UI), tests it with real people and supports engineers during the build. We focus on AI products, SaaS platforms and startup MVPs. See <a href="#services">what we do</a>.' },
     { q: "How much does a UI UX design agency cost?", a: 'Our projects range from $15,000 for MVP design to $200,000 for a full SaaS product redesign. Dedicated design teams cost $15,000 to $40,000 per month. The <a href="/services/ui-ux-design-cost/">UI UX design cost</a> guide lists every range.' },
     { q: "Is ui-ux.agency part of tkxel?", a: "Yes. ui-ux.agency is the UI UX design team of tkxel, a software engineering company. You can hire us for design only, or for design and development together." },
-    { q: "Do you design AI products?", a: 'Yes. AI features and AI-first products are a core focus: prompt input, generated answers, sources, confidence cues and correction flows. See our <a href="/services/ai-ux-design-agency/">AI UX design agency</a> page.' },
+    { q: "Do you design AI products?", a: 'Yes. AI features and AI-first products are a core focus: prompt input, generated answers, sources, confidence cues and correction flows. See our <a href="/services/ai-products/ai-ux-design-agency/">AI UX design agency</a> page.' },
     { q: "How fast can a project start?", a: "Most projects start 1 to 2 weeks after the first call. An MVP design takes 4 to 8 weeks; a SaaS product design takes 6 to 16 weeks." },
     { q: "Can you work with our developers?", a: "Yes. We hand over annotated Figma files, components and specs, and our designers join your sprint reviews until the design is live." },
-    { q: "Do you work with early-stage startups?", a: 'Yes. Founders hire our <a href="/services/mvp-design-agency/">MVP design agency</a> team to turn an idea into a tested, clickable prototype before they hire developers or raise money.' },
+    { q: "Do you work with early-stage startups?", a: 'Yes. Founders hire our <a href="/services/startups/mvp-design-agency/">MVP design agency</a> team to turn an idea into a tested, clickable prototype before they hire developers or raise money.' },
     { q: "Who owns the designs?", a: "You do. All design files, research and components transfer to your company." },
   ],
 };

@@ -3,7 +3,7 @@ import { BlogNav } from "@/components/blog/BlogParts";
 import { PageHero } from "@/components/sections/PageHero";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { blogRoutes, categories, postsInCategory } from "@/lib/blog";
-import { anchorOf, getPosts, getService } from "@/lib/content";
+import { anchorOf, getPosts, getService, servicePath } from "@/lib/content";
 import { collectionLd, pageMetadata } from "@/lib/seo";
 import { cap, routes } from "@/lib/site";
 
@@ -26,7 +26,7 @@ export default function CategoriesPage() {
                   <span>{postsInCategory(c.slug).length} guides</span>
                 </div>
                 <div className="chips">
-                  {c.services.map(getService).filter((s) => !!s).map((s) => <Link key={s.slug} href={routes.service(s.slug)} className="chip">{cap(anchorOf(s))}</Link>)}
+                  {c.services.map(getService).filter((s) => !!s).map((s) => <Link key={s.slug} href={servicePath(s)} className="chip">{cap(anchorOf(s))}</Link>)}
                 </div>
               </div>
             ))}
