@@ -149,7 +149,7 @@ export function WhyUs() {
   );
 }
 
-export function Team() {
+export function Team({ heading }: { heading?: string } = {}) {
   const d = home.team;
   return (
     <section className="section section--light team2" id="team" aria-labelledby="team-heading">
@@ -160,7 +160,7 @@ export function Team() {
           head={
             <h2 id="team-heading" className="team2__headline">
               <span>{d.headingMuted}</span>
-              {d.heading}
+              {heading ?? d.heading}
             </h2>
           }
         >

@@ -19,8 +19,8 @@ takeaways:
   - "Each onboarding email should fire on behavior and open the one in-app step the user left unfinished."
   - "Overlay tools add guidance on top; drop-off in the form, the setup wizard or a blank screen needs the screens redesigned."
 image: /blog/saas-onboarding/cover.svg
-draft: true
-qa: pending
+draft: false
+qa: pass
 ---
 
 Picture a hypothetical business-to-business (B2B) software as a service (SaaS) trial and its SaaS onboarding log, timed with a stopwatch:
@@ -55,7 +55,7 @@ One naming trap: in the Amazon Web Services (AWS) [SaaS Lens](https://docs.aws.a
 
 B2B SaaS customer onboarding usually runs on two tracks with two owners: the product team's screens and a customer success manager (CSM), who runs kickoff, training and go-live. Yet the product must still work for the 20th invited member, who never joins that call.
 
-The table below compares the two by owner, place, trigger, end point and what each scales with.
+The table below compares owner, place, trigger, end point and scale.
 
 ![SaaS user onboarding compared with customer onboarding by owner, place, trigger, end point and scale, with the handoff screens between them](/blog/saas-onboarding/user-vs-customer-onboarding.svg "User onboarding vs customer onboarding, and the screens where they meet")
 
@@ -95,7 +95,7 @@ Say you run a scheduling SaaS. "Calendar connected" only proves setup. "First me
 
 ## What does the SaaS onboarding process look like?
 
-**The SaaS onboarding process runs in five stages: four lead to the activation event, a fifth brings the user back, and any step serving neither gets cut.**
+**The SaaS onboarding process runs in five stages: four lead to the activation event, a fifth brings the user back, and every other step moves later or gets cut.**
 
 The map below puts screens and messages on two rows, with the activation event as the finish line. Measure drop-off per onboarding step to find the stage that loses people.
 
@@ -129,7 +129,7 @@ Ask only for what first value needs, because each setup screen stands between th
 
 ### 4. First-value task
 
-Give the user a real task with real or sample data instead of a menu tour, because they leave with their own result. In the scheduler, the booking link arrives pre-copied beside a preview of the booking page. The activation event follows when someone books through it.
+Give the user a real task with real or sample data instead of a menu tour. In the scheduler, the booking link arrives pre-copied beside a preview of the booking page. The activation event follows when someone books through it.
 
 ### 5. Second-session prompt
 
@@ -145,10 +145,10 @@ The method comes from Wes Bush's [Bowling Alley Framework](https://productled.co
 
 Run four tests on every step:
 
-- **Does the product break without it?** It stays, because nothing works until it's done.
+- **Does first value need it, or does it change the next screen?** It stays, because the first result depends on it.
 - **Can a default stand in?** It moves later, since a sample or template does the job for now.
 - **Is there a better moment?** Ask then, the way billing belongs at upgrade.
-- **Does it help the user at any point before upgrade?** If not, cut it, the way an intro video or a job-title field only sales reads gets cut.
+- **Does the user ever need it?** If not, cut it, like a job-title field only sales reads or an intro video.
 
 Back to the scheduling SaaS, with 11 steps before the first booking: four stay, five move later, two go.
 
@@ -166,7 +166,7 @@ Illustrative, hypothetical scheduling SaaS, 11 steps:
 
 "Later" doesn't mean hidden: it means a settings placeholder, a checklist item or a prompt at first use.
 
-Losing trial users before setup is done? That's the exact flow our design team rebuilds, starting from drop-off data and new-user session recordings.
+Losing trial users before setup is done? That's the exact flow our design team rebuilds.
 
 ## Which first-run patterns carry good SaaS onboarding?
 
@@ -217,7 +217,7 @@ The number of user roles sets the number of paths; admin and member are the mini
 
 </details>
 
-Now test it: join your own product as an invited member: if you see the admin's setup wizard, that's your first fix.
+Now join your own product as an invited member. If you see the admin's setup wizard, that's your first fix.
 
 ## How do SaaS onboarding emails fit the in-app flow?
 
@@ -270,7 +270,7 @@ Onboarding tools such as Appcues, Userpilot and Pendo are good at checklists, to
 - **Failures in guidance and messages:** a tool plus an in-house product manager can go far.
 - **Failures in sign-up, setup, empty states or the member path:** the screens and flows need redesigning, and no overlay fixes that.
 
-Drop-off in the form, the wizard or a blank screen? Our onboarding redesign runs in 4 steps: a funnel review, interviews with 5 to 8 recent sign-ups, a redesign and prototype tested with new users, then release and measurement, in 3 to 6 weeks. Here's [what an onboarding redesign costs](/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost): $15,000 to $45,000. We judge the work by activation rate, time to first value and day-7 return rate.
+Our onboarding redesign runs in 4 steps: a funnel review, interviews with 5 to 8 recent sign-ups, a redesign and prototype tested with new users, then release and measurement, in 3 to 6 weeks. Here's [what an onboarding redesign costs](/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost): $15,000 to $45,000. We judge the work by activation rate, time to first value and day-7 return rate.
 
 Sometimes onboarding is one problem of many. Before we redesigned [the TradeZella trading journal](/case-studies/tradezella/), "no onboarding guide" sat on its problem list beside a crowded interface and web and mobile apps that behaved differently. That's a job for a phased [SaaS product redesign](/services/saas-products/saas-product-redesign/), one of the services in our wider [SaaS product design](/services/saas-products/) work. If your dated screens go well past the first run, start there.
 

@@ -43,6 +43,12 @@ export function serviceMetadata(s: Service) {
 }
 
 /** One service page, rendered at /services/<pillar>/<slug>/ or, without a pillar, /services/<slug>/. */
+const TEAM_HEADINGS: Record<string, string> = {
+  "hire-product-designer": "Meet the product designers you can hire.",
+  "hire-ui-ux-designers": "Meet the UI UX designers you can hire.",
+  "ui-ux-design-cost": "Meet the designers your budget pays for.",
+};
+
 export function ServiceView({ s }: { s: Service }) {
   const parent = pillarOf(s);
 
@@ -110,7 +116,7 @@ export function ServiceView({ s }: { s: Service }) {
       )}
 
       {b.caseStudies && <WorkGrid heading={h.caseStudies ?? `${cap(anchorOf(s))} case studies`} items={cases} />}
-      <Team />
+      <Team heading={TEAM_HEADINGS[s.slug] ?? `Meet the ${lower(s.centralEntity ?? s.title)} team.`} />
 
       <FinalCta testimonial={b.testimonial ? home.testimonial : undefined}>
         <LeadForm variant="full" interests={[s.title, ...formInterests]} source={`service final CTA: ${s.slug}`} submitLabel="Submit" />

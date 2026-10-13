@@ -39,7 +39,7 @@
         "proposal comparison",
         "timeline"
       ],
-      "ctaAngle": "send your research brief \u2192 free consultation + fixed-scope proposal",
+      "ctaAngle": "send your research brief → free consultation + fixed-scope proposal",
       "faqCount": 5,
       "words": 2378,
       "tableCount": 4,
@@ -66,7 +66,7 @@
         "2x2 risk matrix",
         "before/after flow map"
       ],
-      "ctaAngle": "send your funnel \u2192 free consultation + fixed-scope proposal",
+      "ctaAngle": "send your funnel → free consultation + fixed-scope proposal",
       "faqCount": 5,
       "words": 2172
     },
@@ -108,7 +108,7 @@
         "hybrid flow",
         "scope sheet form"
       ],
-      "ctaAngle": "send the same scope sheet to every provider \u2192 free consultation + fixed-scope proposal",
+      "ctaAngle": "send the same scope sheet to every provider → free consultation + fixed-scope proposal",
       "faqCount": 5,
       "words": 1874,
       "tableCount": 1,
@@ -152,7 +152,7 @@
         "zigzag decision tree",
         "one-page business case document"
       ],
-      "ctaAngle": "bring your baseline sheet \u2192 free consultation + fixed-scope proposal",
+      "ctaAngle": "bring your baseline sheet → free consultation + fixed-scope proposal",
       "faqCount": 5,
       "words": 2179,
       "tableCount": 4,
@@ -196,7 +196,7 @@
         "weak-to-priceable rewrites",
         "quality gate + scoring funnel"
       ],
-      "ctaAngle": "send us your RFP \u2192 free consultation + fixed-scope proposal, compare with published range",
+      "ctaAngle": "send us your RFP → free consultation + fixed-scope proposal, compare with published range",
       "faqCount": 5,
       "words": 1957,
       "tableCount": 3,
@@ -239,7 +239,7 @@
         "escalation ladder",
         "readout checklist card"
       ],
-      "ctaAngle": "send your three riskiest assumptions \u2192 free consultation + fixed-scope proposal",
+      "ctaAngle": "send your three riskiest assumptions → free consultation + fixed-scope proposal",
       "faqCount": 5,
       "words": 2182,
       "tableCount": 2,
@@ -283,11 +283,49 @@
         "decision tree",
         "quote line-item sheet"
       ],
-      "ctaAngle": "send us that quote or your flow list \u2192 free consultation + fixed-scope proposal",
+      "ctaAngle": "send us that quote or your flow list → free consultation + fixed-scope proposal",
       "faqCount": 6,
       "words": 1984,
       "tableCount": 3,
       "listStyle": "decision tree routing + quote line items + phone checks"
+    },
+    {
+      "slug": "saas-onboarding",
+      "hub": "saas-onboarding-design",
+      "type": "Guide",
+      "funnel": "tofu/mofu",
+      "introStyle": "concrete first-session log + 'we've seen' line (Eleken voice)",
+      "h2Frames": [
+        "definition (designer view)",
+        "comparison (user vs customer)",
+        "end point/metric",
+        "process stages",
+        "cut method",
+        "patterns",
+        "B2B roles",
+        "emails",
+        "12-point audit",
+        "when to hire a designer",
+        "bottom line",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "What is SaaS onboarding, from a designer's view?",
+        "User vs customer onboarding: which are you fixing?",
+        "Where does SaaS onboarding end?",
+        "What does the SaaS onboarding process look like?",
+        "How do you cut a SaaS onboarding flow to a straight line?",
+        "Which first-run patterns carry good SaaS onboarding?",
+        "How should B2B SaaS onboarding treat admins and members?",
+        "How do SaaS onboarding emails fit the in-app flow?",
+        "SaaS onboarding best practices: a 12-point audit",
+        "When does SaaS onboarding need a designer, not a tool?",
+        "Bottom line",
+        "FAQs"
+      ],
+      "visuals": 6,
+      "example": "scheduling tool worked example; Slack 2,000 messages; Userpilot 2024 benchmark",
+      "date": "2026-10-13"
     }
   ]
 }

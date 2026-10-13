@@ -1,4 +1,29 @@
 {
-  "posts": [],
-  "audits": []
+  "posts": [
+    {
+      "slug": "saas-onboarding",
+      "hub": "saas-onboarding-design",
+      "keyword": "saas onboarding",
+      "date": "2026-10-13",
+      "words": 3079,
+      "images": 6,
+      "internalLinks": 12,
+      "externalLinks": 5,
+      "qaLoops": 2,
+      "backlinks": [
+        "/services/saas-products/saas-onboarding-design/ (section 1 + measure FAQ)",
+        "/services/saas-products/ (pillar body)"
+      ]
+    }
+  ],
+  "audits": [],
+  "runs": [
+    {
+      "date": "2026-10-13",
+      "goal": "1 Eleken-style post on 'saas onboarding'",
+      "jobs": [
+        "saas-onboarding"
+      ]
+    }
+  ]
 }

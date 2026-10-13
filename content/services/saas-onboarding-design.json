@@ -22,7 +22,7 @@
       "h2": "What is SaaS onboarding design?",
       "format": "paragraph",
       "answer": "<strong>SaaS onboarding design plans the shortest path from a new sign-up to the first moment the product proves its worth.</strong> Everything on that path, from the sign-up form to the first empty dashboard, is part of onboarding.",
-      "body": "<p>Most trial users decide within their first session whether a product is worth more of their time. A long sign-up form, a setup wizard with ten steps or an empty screen with no guidance ends that session early. SaaS onboarding design removes those obstacles and puts the first real result in front of the user. It is one focused part of the wider work our <a href=\"/services/saas-products/saas-design-agency/\">SaaS design agency</a> team does across a whole product.</p>",
+      "body": "<p>Most trial users decide within their first session whether a product is worth more of their time. A long sign-up form, a setup wizard with ten steps or an empty screen with no guidance ends that session early. SaaS onboarding design removes those obstacles and puts the first real result in front of the user. Our guide to <a href=\"/blog/saas-onboarding/\">how SaaS onboarding works from sign-up to first value</a> walks through the same path screen by screen. It is one focused part of the wider work our <a href=\"/services/saas-products/saas-design-agency/\">SaaS design agency</a> team does across a whole product.</p>",
       "image": {
         "src": "/images/services/saas-onboarding-design.svg",
         "alt": "SaaS onboarding flow from sign-up to workspace setup, a guided first task and a dashboard with real data, with drop-off shrinking at each step",
@@ -88,7 +88,7 @@
       "format": "faq",
       "answer": "<strong>Answers to common questions about SaaS onboarding design.</strong>",
       "faqs": [
-        { "q": "How do you measure SaaS onboarding success?", "a": "<p>By activation rate, time to first value and day-7 return rate, each measured before and after the new onboarding ships.</p>" },
+        { "q": "How do you measure SaaS onboarding success?", "a": "<p>By activation rate, time to first value and day-7 return rate, each measured before and after the new onboarding ships. Here is how to <a href=\"/blog/saas-onboarding/#where-does-saas-onboarding-end\">choose the activation event</a> those numbers depend on.</p>" },
         { "q": "Do you need access to our analytics?", "a": "<p>Yes. Read access to product analytics such as Mixpanel, Amplitude or Google Analytics 4 shows where new users drop off.</p>" },
         { "q": "Can onboarding tools like Appcues or Userpilot be used?", "a": "<p>Yes. We design onboarding that your team builds in code or in tools such as Appcues, Userpilot or Pendo.</p>" },
         { "q": "Do you design onboarding for invited team members too?", "a": "<p>Yes. Invited members get their own shorter path, since the admin has already set up the account.</p>" }
