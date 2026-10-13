@@ -1,0 +1,348 @@
+{
+  "slug": "saas-onboarding",
+  "keyword": "saas onboarding",
+  "secondary": [
+    "what is saas onboarding",
+    "saas onboarding process",
+    "saas onboarding best practices",
+    "saas onboarding emails",
+    "saas customer onboarding",
+    "saas customer onboarding process",
+    "saas customer onboarding process flow",
+    "saas customer onboarding checklist",
+    "b2b saas customer onboarding",
+    "user onboarding flow",
+    "user onboarding ux",
+    "onboarding flow examples"
+  ],
+  "intent": "Informational / commercial investigation. Product managers, founders and growth or design leads at SaaS companies who want to understand and improve how new sign-ups become active users. The SERP is guides, example galleries and glossaries (appcues, userflow, a Reddit thread, cloudshare), so the reader is planning the work, not yet buying.",
+  "volume": 1000,
+  "kd": 6,
+  "dataSource": "Ahrefs (orchestrator-supplied), US, pulled 2026-10-13. Semrush had no API units and was not called. Primary keyword chosen by the owner. Secondary volumes/KD (Ahrefs, same pull): saas customer onboarding 300/4; customer onboarding saas 250/8; what is saas onboarding 200/2; saas onboarding best practices 200/1; saas onboarding process 200/4; saas customer onboarding checklist 200/5; saas customer onboarding process 200/12; saas customer onboarding process flow 200/0; saas onboarding emails 200/0; user onboarding flow 150/0; user onboarding ux 200/0; onboarding flow examples 200/0; b2b saas customer onboarding 100/4; saas customer onboarding framework 150/4. SERP study: WebFetch failed with ENOTFOUND on appcues.com and userflow.com, so page coverage comes from WebSearch snippets (2026-10-13). No GSC export exists (docs/data/gsc/latest.json missing).",
+  "hub": "saas-onboarding-design",
+  "hubUrl": "/services/saas-products/saas-onboarding-design/",
+  "pillar": "saas-products",
+  "services": ["saas-onboarding-design"],
+  "industries": [],
+  "author": "faizan-khan",
+  "authorWhy": "Faizan Khan is the Sr. Product Designer (content/home.ts). This post is about the product strategy side of first-run UX: flows, the activation event and onboarding paths for each role. Ahmad Ullah (Principal UX Designer) is the alternative and would suit a later research-led onboarding post, for example interview questions for new sign-ups. No author has published on this site yet (ledger.json is empty), so rotation does not apply.",
+  "funnel": "mofu",
+  "funnelWhy": "The page-1 results are guides, example galleries, a Reddit best-practices thread and a glossary. That is 'planning the work' (MOFU in funnel.json), not cost, pricing or vendor pages (BOFU). The silo has 0 published posts, and funnel.json starts a new silo with 1 BOFU + 1 MOFU, so this post fills the MOFU slot. The owner fixed the keyword, and its SERP cannot carry a BOFU post. The 'what is saas onboarding' glossary results pull part of the intent toward TOFU. The designer's process angle and the leadAngle keep it MOFU. Next post in the silo should be BOFU.",
+  "serviceSupport": 4,
+  "serviceSupportWhy": "Someone who searches 'saas onboarding' and reads a designer's process for flows, empty states and activation is often the person who owns a weak trial-to-active funnel. That is exactly the problem the hub sells against ('Trial users sign up but never activate' in the pillar table). It is not a 5, because many searchers are customer-success people looking for kickoff checklists, or tool buyers.",
+  "centralEntity": "SaaS onboarding",
+  "entities": [
+    "SaaS onboarding",
+    "user onboarding",
+    "customer onboarding",
+    "activation rate",
+    "activation event",
+    "aha moment",
+    "time to first value",
+    "first-run experience",
+    "sign-up flow",
+    "welcome survey",
+    "empty state",
+    "sample data and templates",
+    "onboarding checklist",
+    "product tour",
+    "contextual help (tooltips)",
+    "team invites",
+    "single sign-on (SSO)",
+    "behavior-triggered emails",
+    "product-led growth (PLG)",
+    "free trial",
+    "customer success manager",
+    "Bowling Alley Framework (Wes Bush)",
+    "Mixpanel / Amplitude",
+    "Microsoft Clarity session recordings",
+    "Appcues, Userpilot, Pendo"
+  ],
+  "attributes": [
+    "time to first value (minutes or days)",
+    "activation rate (%)",
+    "number of steps from sign-up to first value",
+    "required fields on the sign-up form",
+    "setup questions asked now vs later",
+    "drop-off per onboarding step",
+    "day-7 return rate",
+    "trial length",
+    "number of user roles (admin, member)",
+    "invite timing",
+    "email trigger (behavior vs fixed schedule)",
+    "onboarding owner (product vs customer success)"
+  ],
+  "ngrams": [
+    "saas onboarding",
+    "saas onboarding process",
+    "saas onboarding best practices",
+    "saas onboarding emails",
+    "saas customer onboarding",
+    "saas customer onboarding process flow",
+    "b2b saas customer onboarding",
+    "saas customer onboarding checklist",
+    "user onboarding flow",
+    "user onboarding ux",
+    "onboarding flow examples",
+    "time to first value",
+    "activation rate",
+    "empty state",
+    "first-run experience",
+    "aha moment"
+  ],
+  "keywordCarrier": {
+    "primary": "Plain noun phrase, no carrier needed. Use it as the subject or object: 'SaaS onboarding is…', 'fix your SaaS onboarding'. Keyword in the metaTitle, description (first words), first meta keyword, H1 and the first 60 words.",
+    "density": "Word share, as QA measures it: max uses = 0.02 × body words ÷ 2. For a 2,300-word body that is at most 23 uses, variants included. Aim for 14–20, mostly in bold answers and section openers. Do not count alt text.",
+    "secondary": {
+      "saas customer onboarding process flow": "Use only as a full noun phrase with an article: 'the SaaS customer onboarding process flow in a B2B product splits into two tracks'. Never stack it on another noun ('a SaaS customer onboarding process flow diagram' is fine; 'SaaS customer onboarding process flow steps are' is not).",
+      "b2b saas customer onboarding": "'B2B SaaS customer onboarding usually has two owners: the product and a customer success manager.'",
+      "saas customer onboarding checklist": "'A SaaS customer onboarding checklist from customer success covers kickoff and go-live; this audit grid covers the screens.'",
+      "what is saas onboarding": "Carried by H2 1 ('What is SaaS onboarding, from a designer's view?'). Do not force the question form elsewhere."
+    },
+    "dropped": "'customer onboarding saas' (250, KD 8) is reversed word order with no natural carrier ('customer onboarding SaaS' reads as a stacked modifier). Per the 2026-10-10 rule it is left out of secondary and ngrams; 'saas customer onboarding' covers the same intent.",
+    "metaTitle": "SaaS Onboarding: A Design Guide From Sign-Up to First Value (59 chars)",
+    "h1": "SaaS onboarding: how to design the path from sign-up to first value (67 chars)",
+    "description": "Use as written (157 chars, keyword first, MOFU next step, offer words from the site's CTA components): 'SaaS onboarding, step by step: the flow from sign-up to first value, the activation event, roles, emails and a 12-point audit. Then book a free consultation.'",
+    "metaKeywords": ["saas onboarding", "saas onboarding process", "saas onboarding best practices", "saas customer onboarding", "user onboarding flow"]
+  },
+  "questions": [
+    "What is SaaS onboarding?",
+    "What is the difference between user onboarding and customer onboarding in SaaS?",
+    "What are the steps of the SaaS onboarding process?",
+    "Where does SaaS onboarding end, and what is an activation event?",
+    "What are SaaS onboarding best practices?",
+    "How should B2B SaaS onboarding treat admins and invited members?",
+    "How many SaaS onboarding emails should a trial send?",
+    "How do you measure whether SaaS onboarding works?",
+    "What is a good activation rate for SaaS?",
+    "Do you need an onboarding tool like Appcues or Userpilot?"
+  ],
+  "serpGaps": [
+    "Every page-1 result is written by an onboarding-tool vendor (Appcues, Userflow, Userlist roundup) or is a glossary. None is written by a design team, and none shows the design work behind the flow: which screens to cut, what an empty state contains, how setup questions get moved later.",
+    "No result separates product-led user onboarding (screens, self-serve) from CS-led customer onboarding (kickoff, implementation, go-live), even though Google mixes both intents for 'saas customer onboarding'. B2B products need both, and the handoff between them is missing everywhere.",
+    "The vendor guides list components (welcome email, tour, checklist, tooltips) as a menu. None starts from the activation event and works backwards, and none says how to choose that event from retained cohorts.",
+    "Admin vs invited-member paths, invite timing and single sign-on (SSO) are missing from the generic guides. Only userguiding's enterprise post touches them.",
+    "Emails are treated as a separate drip. No result maps each email to the unfinished in-app step it should deep-link back to.",
+    "The tool vendors frame the fix as adding a tour or checklist on top. None tells the reader when the problem sits under the overlay (sign-up form, setup wizard, blank screen), where an overlay tool cannot help.",
+    "Benchmarks are rarely sourced. Userpilot's first-party activation benchmark is the only one with a stated sample, and it needs its caveat."
+  ],
+  "outline": [
+    {
+      "h2": "What is SaaS onboarding, from a designer's view?",
+      "answerHint": "**SaaS onboarding is the designed path a new user takes from sign-up to the first moment the product proves its worth, plus the nudges that bring them back for a second session.** (≤30 words)",
+      "points": [
+        "To a designer it is a flow of screens with a measurable end point, not a welcome email or a kickoff call.",
+        "Name the three layers: the screens (sign-up, setup, first task), the guidance on top (checklist, tooltips, tour) and the messages around it (emails, in-app prompts).",
+        "Disambiguate quickly: 'tenant onboarding' in AWS's SaaS Lens means provisioning infrastructure for a new customer account. That is engineering, not this post (cite AWS).",
+        "One line on where this post goes: user vs customer onboarding, the activation event, the flow, patterns, B2B roles, emails, an audit grid, and when to bring in designers.",
+        "Do NOT reuse the hub's definition sentence ('plans the shortest path from a new sign-up…'). Rephrase from the reader's angle."
+      ]
+    },
+    {
+      "h2": "SaaS user onboarding vs customer onboarding: which one are you fixing?",
+      "answerHint": "**User onboarding happens inside the product and scales through screens; customer onboarding is a guided program run by people, and most B2B SaaS products need both.**",
+      "points": [
+        "Put one sentence before the table saying what it compares.",
+        "Table: who owns it (product/design vs a customer success manager), where it happens (in the app vs calls and shared plans), typical trigger (sign-up vs signed contract), end point (activation event vs go-live), what it scales with (design vs headcount).",
+        "B2B SaaS customer onboarding usually has two owners. The product must still work for the 20th invited member, who never joins the kickoff call.",
+        "A SaaS customer onboarding checklist from customer success (kickoff, data import, training, go-live) is a different artefact from the screen audit later in the post. Say which one the reader needs.",
+        "The handoff gap: data import, SSO set-up and permissions often fall between CS and product. Design those screens so a CS call is optional, not required.",
+        "End: 'If your trial is self-serve, keep reading; if every account starts with a kickoff call, focus on the B2B section.'"
+      ]
+    },
+    {
+      "h2": "Where does SaaS onboarding end? Pick the activation event first",
+      "answerHint": "**SaaS onboarding ends at the activation event: the first action that predicts a user will stay, so every screen before it is onboarding and is judged by it.**",
+      "points": [
+        "Define activation rate (% of new sign-ups who reach the activation event in a set window) and time to first value (elapsed time from sign-up to that event).",
+        "Public example, cited: Andrew Chen's book The Cold Start Problem quotes Stewart Butterfield that 93% of Slack teams that had sent 2,000 messages were still using Slack. Say Slack found the threshold by comparing teams that stayed with teams that left. Cite the book, not a blog.",
+        "How to pick yours: in Mixpanel or Amplitude, compare the first-week actions of users retained at day 30 with those who churned. Choose one action that is early, repeatable and clearly tied to value. Write this as advice to the reader.",
+        "Benchmark with caveat: Userpilot's benchmark gives an average activation rate of 37.5% across 62 SaaS companies. It is first-party vendor data, and the activation definition differs per company. Use it as a sanity check, not a target.",
+        "Hypothetical example ('say you run a scheduling SaaS'): the activation event is 'first meeting booked by someone else through your link', not 'calendar connected'.",
+        "End with a next step: write your activation event in one sentence before touching any screen."
+      ]
+    },
+    {
+      "h2": "What does the SaaS onboarding process flow look like, screen by screen?",
+      "answerHint": "**A SaaS onboarding process flow has five stages, sign-up, a welcome question, essential setup, the first-value task and a second-session prompt, and each one either shortens time to first value or goes.**",
+      "points": [
+        "Overview flow visual (see visuals[0]) right after the paragraph that introduces it. Its text panel carries the stage list, so do not repeat the stages a third time in prose.",
+        "Use H3s for the five stages. For each, give one design decision and one thing to measure (drop-off at that step).",
+        "Sign-up: only the fields needed to create the account, SSO options for B2B, and email verification moved after first value where security allows.",
+        "Welcome question: one or two questions that change what the user sees next. If an answer changes nothing, cut the question.",
+        "Essential setup: the minimum to reach first value. Everything else (profile, billing, notification settings) moves to later.",
+        "First-value task: a real task with real or sample data. Link UP to the hub's tours-vs-guided-tasks section instead of rebuilding that table.",
+        "Second session: a reason to come back, such as a result to view, a teammate to invite or the next unfinished step.",
+        "Name it 'the SaaS onboarding process' and, once, 'the SaaS customer onboarding process flow' for B2B (see carrier)."
+      ]
+    },
+    {
+      "h2": "How do you cut a SaaS onboarding flow down to the straight line?",
+      "answerHint": "**List every step between sign-up and the activation event, label each one essential, later or cut, and rebuild the SaaS onboarding flow from the essential steps only.**",
+      "points": [
+        "Credit the method: Wes Bush's Bowling Alley Framework (Product-Led Growth, productled.com) calls this the straight line, with product bumpers (in-app guidance) and conversational bumpers (messages) on either side. Explain it in our own words, not productled's wording.",
+        "Worked hypothetical: a scheduling SaaS with 11 steps sorted into keep now / move later / cut (visual: straight-line sort). Make the counts add up in the image and its text panel.",
+        "Designer's tests for each step: does the product break without it? Can a default or sample stand in? Can it be asked at the moment it matters (for example billing at upgrade)?",
+        "What moving a step 'later' means in design: a placeholder in settings, a checklist item, or a prompt at the moment the feature is first used.",
+        "Mid-post soft CTA, phrased as pain: 'Losing trial users before setup is done? That is the exact flow our SaaS onboarding design team rebuilds' → hub link (the required early UP link if not already placed in H2 1)."
+      ]
+    },
+    {
+      "h2": "Which first-run UX patterns carry good SaaS onboarding?",
+      "answerHint": "**Five first-run patterns do most of the work in SaaS onboarding: a personalizing welcome question, empty states with sample data, a short checklist, contextual help and templates.**",
+      "points": [
+        "Teach each pattern as 'Label: when it helps, and when it backfires'. Every bullet needs its reason.",
+        "Empty states: anatomy visual (why it is empty, what will appear, one primary action, sample data). Cite NN/g's 'Designing Empty States in Complex Applications: 3 Guidelines' and paraphrase only guidelines the writer has confirmed on the page.",
+        "Public onboarding flow example, cited: Notion asks new users how they plan to use it and then offers a personalized set of templates (Appcues GoodUX teardown). Note that the wording changes between versions.",
+        "Checklist: 3–5 items that end at the activation event, with no 'watch a video' filler.",
+        "Product tours vs contextual help: one sentence and a deep link to the hub table (#saas-onboarding-design-product-tours-vs-guided-tasks). Do not rebuild that comparison.",
+        "Point readers to public galleries for more onboarding flow examples (e.g. SaaSFrame onboarding examples). Do not invent what a product's screens show; describe only what a cited source states.",
+        "Do NOT turn this into a 'mistakes' list. The hub owns 'Which SaaS onboarding design mistakes cost the most activation?'."
+      ]
+    },
+    {
+      "h2": "How should B2B SaaS onboarding treat admins and invited members?",
+      "answerHint": "**B2B SaaS onboarding needs two paths: the admin sets up the workspace and reaches first value, while invited members skip setup and land straight on work that already exists.**",
+      "points": [
+        "Swimlane visual: admin track vs invited-member track, with the invite placed after the admin's first value.",
+        "Invite timing: ask for invites when the admin has something worth sharing, not on screen two. This matches the hub's 'Team invites' item, but rephrase it.",
+        "SSO and domain capture: invited members on the same email domain can join without a separate sign-up. Say which identity standard (SAML or OpenID Connect) the reader's buyers usually ask for, only if sourced; otherwise keep it generic.",
+        "Role-aware empty states: a member's first screen shows the admin's content, not a blank workspace.",
+        "Where customer success fits: data import and permissions for large accounts. Design them as screens a CSM can walk through, not as a spreadsheet.",
+        "End: check whether your invited members get their own path. If they see the admin wizard, that is the first fix."
+      ]
+    },
+    {
+      "h2": "How do SaaS onboarding emails fit the in-app flow?",
+      "answerHint": "**SaaS onboarding emails work best when behavior triggers them and each one links back to the user's next unfinished step, so the email ends inside the product, not in a blog post.**",
+      "points": [
+        "Introduce the table in one sentence first. Table: trigger → message → deep link target (for example signed up but no project after 24 h → 'pick a template' → template screen; activated → 'invite your team' → invite modal; inactive 5 days → the one unfinished checklist item).",
+        "Fixed drip vs behavior trigger: a fixed day-1/day-3/day-7 schedule ignores where the user stopped. Explain why triggers suit onboarding.",
+        "No fixed email count: one email per unfinished step that matters, stopping when the user activates. Do not cite vendor sequence lengths as a rule.",
+        "Design detail: the deep link must open the exact screen in the right state (logged in, correct workspace). This is a design and engineering spec, not copywriting.",
+        "Next step: map your current emails to screens. Any email with no screen to land on gets rewritten or cut."
+      ]
+    },
+    {
+      "h2": "SaaS onboarding best practices: a 12-point audit you can run today",
+      "answerHint": "**Run these 12 SaaS onboarding best practices as a pass/fail audit of your own first run, grouped by stage, and fix the earliest failing stage first.**",
+      "points": [
+        "Audit grid visual grouped by the five flow stages, with the full 12 items in the text panel. The open prose only explains why to fix the earliest stage first and how to run it.",
+        "How to run it: sign up as a new user in an incognito window with a stopwatch, record the session (Microsoft Clarity or a screen recorder), and note every screen and the time to first value. Then pull step drop-off from analytics.",
+        "Suggested items (writer may reword): ≤ N required sign-up fields; SSO for B2B; one welcome question that changes the next screen; setup reaches first value without billing; no blank screen; sample data or template on every empty state; checklist of 3–5 items ending at activation; contextual help on the first-value task; invite asked after first value; member path skips setup; every email deep-links to a step; activation rate, time to first value and day-7 return tracked. Do not give N a number unless sourced; phrase it as 'only the fields the account needs'.",
+        "Measurement: the hub measures activation rate, time to first value and day-7 return rate. Use those three names so the post and the hub match.",
+        "Fold the 'saas onboarding best practices' and 'user onboarding ux' n-grams here."
+      ]
+    },
+    {
+      "h2": "When does SaaS onboarding need a designer, not another tool?",
+      "answerHint": "**SaaS onboarding needs design work when drop-off sits in the sign-up form, the setup wizard or a blank first screen, because an overlay tool adds guidance on top but cannot change the screens underneath.**",
+      "points": [
+        "Fair comparison: onboarding tools (Appcues, Userpilot, Pendo) are good at checklists, tours and in-app messages, and teams can build designed onboarding in them. The hub FAQ says we design for those tools too.",
+        "Decision rule: if the audit fails mostly in stages 3–5 (guidance and messages), a tool and an in-house PM can go far. If it fails in stages 1–2 or on empty states, the screens need redesigning.",
+        "LEAD ANGLE lives here (see leadAngle): what the hub engagement does, in the hub's words: funnel review, interviews with 5 to 8 recent sign-ups, redesign and prototype tested with new users, then release and measure, in 3 to 6 weeks. Deep link the hub process section.",
+        "Price as a hub fact only: $15,000 to $45,000 (deep link #how-much-does-saas-onboarding-design-cost). Do not restate the hub's price drivers.",
+        "When onboarding is one of many dated screens, point to SaaS product redesign (the post's one cross-hub link)."
+      ]
+    },
+    {
+      "h2": "Bottom line",
+      "answerHint": "Owner style rule (Eleken voice): 2–4 sentences plus one gentle CTA, placed before the FAQs. Not counted in the 10 content H2s.",
+      "points": [
+        "Restate the one idea: start from the activation event and cut everything that does not lead to it.",
+        "CTA in the leadAngle's wording: time your own first run, then send us the recording for a free consultation. Link the hub (required second UP link) and /contact/.",
+        "'free consultation' appears once in the whole post, here."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long should SaaS onboarding take?",
+      "a": "As long as it takes a new user to reach your activation event and no longer. Measure time to first value in minutes for self-serve trials, and keep CS-led go-live timelines separate. Do not cite a vendor's day range as a norm."
+    },
+    {
+      "q": "What is a good activation rate for SaaS?",
+      "a": "There is no universal number, because each product defines activation differently. Userpilot's first-party benchmark averages 37.5% across 62 SaaS companies; compare against your own baseline before and after a change."
+    },
+    {
+      "q": "Do you need a tool like Appcues or Userpilot for SaaS onboarding?",
+      "a": "No. Checklists, empty states and emails can be built in code. Tools speed up in-app guidance and testing; they do not fix a long sign-up form or a blank first screen."
+    },
+    {
+      "q": "How many onboarding emails should a SaaS trial send?",
+      "a": "No fixed count: send one behavior-triggered email per unfinished step that matters and stop when the user activates. Each email links to the screen where that step happens."
+    },
+    {
+      "q": "Is SaaS onboarding the same as customer success onboarding?",
+      "a": "No. SaaS user onboarding is the in-product path; customer success onboarding is a people-led program (kickoff, import, training, go-live). B2B products need both, with the handoff designed."
+    }
+  ],
+  "internalTargets": [
+    { "href": "/services/saas-products/saas-onboarding-design/", "anchor": "SaaS onboarding design", "priority": "required", "where": "Early (H2 1 or the H2 5 pain CTA) and again in the Bottom line. Vary the anchor the second time, e.g. 'our SaaS onboarding design team'.", "verified": "content/services/saas-onboarding-design.json" },
+    { "href": "/services/saas-products/saas-onboarding-design/#saas-onboarding-design-product-tours-vs-guided-tasks", "anchor": "product tours compared with guided first tasks", "priority": "required", "where": "H2 6 (patterns), instead of rebuilding the comparison", "verified": "hub h2 'SaaS onboarding design: product tours vs guided tasks' → sectionId()" },
+    { "href": "/services/saas-products/saas-onboarding-design/#how-does-the-saas-onboarding-design-process-work", "anchor": "the 4-step onboarding redesign process", "priority": "required", "where": "H2 10 (designer vs tool)", "verified": "hub h2 'How does the SaaS onboarding design process work?' → sectionId()" },
+    { "href": "/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost", "anchor": "what an onboarding redesign costs", "priority": "required", "where": "H2 10, the price sentence", "verified": "hub h2 'How much does SaaS onboarding design cost?' → sectionId()" },
+    { "href": "/services/saas-products/", "anchor": "SaaS product design", "priority": "required", "where": "H2 2 or H2 10, one mention of the pillar (lifecycle context). The pillar is the silo parent, not another service hub.", "verified": "content/pillars.ts slug 'saas-products'" },
+    { "href": "/services/saas-products/saas-product-redesign/", "anchor": "a phased SaaS product redesign", "priority": "required", "where": "H2 10, when onboarding is one of many dated screens. This is the post's ONE cross-hub link (RULES.md silo rule).", "verified": "content/services/saas-product-redesign.json" },
+    { "href": "/services/saas-products/saas-design-agency/", "anchor": "SaaS design agency", "priority": "skip", "why": "RULES.md allows at most one link to a different service hub, and saas-product-redesign is the better fit for 'onboarding is part of a bigger problem'. The orchestrator listed this URL as an example. Override only if the owner accepts two cross-hub links.", "verified": "content/services/saas-design-agency.json" },
+    { "href": "/services/ui-ux-design-cost/", "anchor": "UI UX design cost guide", "priority": "skip", "why": "Same one-cross-hub limit. The hub's cost section already links this page, and the post deep-links the hub cost section instead.", "verified": "content/services/ui-ux-design-cost.json (flat route /services/<slug>/ via flatServices in app/services/[slug]/page.tsx)" },
+    { "href": "/contact/", "anchor": "send us the recording", "priority": "required", "where": "Bottom line only (keep the MOFU close lean)", "verified": "app/contact/page.tsx" }
+  ],
+  "externalSources": [
+    { "url": "https://userpilot.com/saas-product-metrics/", "why": "Activation benchmark: average 37.5% across 62 SaaS companies, B2B median about 37%. First-party vendor data; Userpilot pages credit it to both the 2024 and 2025 reports, so do not print a report year unless the page you open shows it. State the caveat." },
+    { "url": "https://a16z.com/books/the-cold-start-problem/", "why": "Andrew Chen, The Cold Start Problem (2021). The book quotes Stewart Butterfield on Slack's 2,000-message threshold and 93% retention. Cite the book by title and author and link this a16z book page (Chen is an a16z general partner). The quote was confirmed only through a reader's highlight of the book (goodreads notes), so the fact-checker should confirm the wording before publishing, or drop the figures and keep the pattern." },
+    { "url": "https://productled.com/blog/product-led-user-onboarding-experience", "why": "Wes Bush's Bowling Alley Framework (straight line, product bumpers, conversational bumpers). Credit the method; explain in our own words." },
+    { "url": "https://www.nngroup.com/articles/empty-state-interface-design/", "why": "NN/g, 'Designing Empty States in Complex Applications: 3 Guidelines'. Paraphrase only guidelines confirmed on the page (WebFetch on nngroup has failed before; verify via snippets)." },
+    { "url": "https://goodux.appcues.com/blog/notions-lightweight-onboarding", "why": "Public onboarding flow example: Notion uses the sign-up answer to offer a personalized selection of templates and a Getting Started checklist. The wording varies between versions, so describe the pattern rather than exact screen text." },
+    { "url": "https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/tenant-onboarding.html", "why": "Disambiguation in H2 1: 'tenant onboarding' is infrastructure provisioning, not user onboarding." }
+  ],
+  "visuals": [
+    { "type": "overview flow", "file": "saas-onboarding-process-flow.svg", "idea": "The SaaS onboarding process flow in five stages (sign-up → welcome question → essential setup → first-value task → second-session prompt), with the activation event marked as the finish line. Each stage shows one metric (step drop-off). Product screens and email touchpoints sit on two rows. Text panel: the stage list with the one design decision per stage." },
+    { "type": "split card", "file": "user-vs-customer-onboarding.svg", "idea": "SaaS user onboarding vs customer onboarding: owner, place, trigger, end point, scales with. A bridge in the middle names the handoff screens (data import, SSO, permissions). Text panel: the same table." },
+    { "type": "sort worksheet (three lanes)", "file": "straight-line-sort.svg", "idea": "Hypothetical scheduling SaaS: 11 onboarding steps sorted into keep now / move later / cut, with the 'later' lane showing where each step moves (settings, checklist, at first use). Counts in the image and the text panel must add up to 11. Label it 'illustrative'." },
+    { "type": "annotated anatomy (before/after)", "file": "empty-state-anatomy.svg", "idea": "One project dashboard empty state, before (blank 'No projects yet') and after (why it is empty, sample project, one primary action, help link). Callouts name each part. Text panel: the four parts." },
+    { "type": "two-lane swimlane", "file": "admin-vs-member-paths.svg", "idea": "B2B SaaS onboarding: admin lane (sign-up → setup → first value → invite) and invited-member lane (invite link/SSO → lands on the admin's workspace → first task), joined at the invite. Text panel: both lanes as numbered steps." },
+    { "type": "audit grid by stage", "file": "saas-onboarding-audit-grid.svg", "idea": "The 12-point SaaS onboarding best practices audit as a grid grouped by the five flow stages, with a pass/fail box per item and an arrow 'fix the earliest failing stage first'. Text panel: the 12 items. Must not look like the sister site's checklist/scorecard or pass/fail acceptance card; use stage columns." }
+  ],
+  "leadAngle": "The moment: in H2 9/10 the reader has timed their own first run with the audit grid and found that drop-off sits in the sign-up form, the setup wizard or a blank first screen. Those are screens an overlay tool cannot change. Offer: a free consultation about their first run (site CTA wording: 'free consultation', a senior designer replies within one business day, per about.md and the form components). It leads into the hub engagement, described only in hub facts: funnel review → interviews with 5 to 8 recent sign-ups → redesign and prototype tested with new users → release and measure, in 3 to 6 weeks, $15,000–$45,000, measured by activation rate, time to first value and day-7 return rate. The mid-post pain CTA comes at H2 5: 'Losing trial users before setup is done?'. Closing angle: 'record your own first run with a stopwatch and send us the recording'. Do not promise an audit report, a call length or deliverables the hub does not list, and never call the proposal free.",
+  "variety": {
+    "type": "Guide",
+    "introStyle": "Timed first-run log (an artefact intro, as in the 2026-10-12 lesson): open on a timestamped log of a hypothetical B2B trial ('0:00 sign-up form, 7 fields… 0:52 verify your email… 4:30 setup step 4 of 9… 6:10 an empty dashboard'), then the credibility line ('At ui-ux.agency we see…' without a client result) and one line on what the post covers. Fingerprints already used: buyer scenario, myth, data point with source, question, definition, mini case, contrarian take. The owner's Eleken rule bans a definition opener.",
+    "h2Frames": ["what (designer's view)", "vs (which one are you fixing)", "where does it end (pick the metric first)", "what flow, screen by screen", "how to cut (method)", "which patterns", "how should (roles)", "how do emails fit", "best practices audit (12-point)", "when designer vs tool", "Bottom line", "FAQs"],
+    "sectionOrder": "definition → disambiguation → end point → flow → method → patterns → B2B roles → emails → audit → routing to design help → Bottom line → FAQs. No sister-site post opens its body with a vs disambiguation or runs metric-before-flow.",
+    "visualTypes": ["overview flow with finish line", "split card with bridge", "three-lane sort worksheet", "annotated empty-state anatomy", "two-lane swimlane", "audit grid by stage"],
+    "ctaAngle": "time your own first run with a stopwatch, send us the recording → free consultation (no 'send your funnel', 'send your brief' or 'scope sheet' wording)",
+    "listStyle": "stage H3s + 'Label: when it helps / when it backfires' pattern bullets + trigger→email→screen table",
+    "differsFrom": "Last 3 site-wide fingerprints (sister site): design-system-roi, web-app-design-rfp, is-discovery-phase-worth-it, plus mobile-app-design-agency-vs-freelancer as the latest. It differs on intro, H2 frames, section order, visual types, CTA angle and list style (6 of 7; type 'Guide' repeats). Nearest structural relative: saas-product-redesign (same SaaS family, Guide, MOFU). Do NOT reuse from it: the myth intro, 'which metrics' as a standalone section, the 2x2 risk matrix, the before/after flow map of a whole product, the rollout steps, or the 'send your funnel' CTA."
+  },
+  "eleken": "Owner rule 2026-10-13 (semantic-content-writer learnings): write in Eleken.co style. Open on the concrete timed log (never a definition). Add the credibility line in the first 3–4 sentences. Use 'we' and 'you', 1–4 sentence paragraphs, 10–20-word sentences, contrast lines ('isn't a tour, it's the screens under it'), and rhetorical questions between sections. H3s for the five stages. 'Label: explanation' lists. 1–2 soft pain CTAs mid-post. A 'Bottom line' H2 before the FAQs. 2,000–2,600 words.",
+  "notes": [
+    "CANNIBALISATION (owner-approved keyword, managed): the hub's anchor/centralEntity is 'SaaS onboarding design' and its semantic ngrams include 'saas onboarding'. The post takes the broad informational query ('saas onboarding': what it is, process, best practices, examples), and the hub keeps the service query ('saas onboarding design', price, process, deliverables). To keep them apart: (1) never use 'SaaS onboarding design' as the post's keyword phrase; use it only as the link anchor to the hub. (2) Do not answer the hub's H2s again: 'What is SaaS onboarding design?', 'Which parts… do we cover?' (6-part list), the 4-step process, the tours vs guided tasks table, the 4 mistakes cards, cost. Deep-link those instead. (3) No 'mistakes' H2. After publishing, monitor whether Google swaps the hub and post for 'saas onboarding'; if it does, add one hub-banking link from the hub's H2 1 body to the post.",
+    "Pillar overlap: content/pillars.ts (saas-products) has the table row 'Trial users sign up but never activate → SaaS onboarding design → 3–6 weeks' and the card 'Activation rate'. The post may reference the problem but must not restate the pillar's service-matching table.",
+    "NO CASE STUDIES: content/case-studies/ holds only _template.md. There is no DOWN link and there are no client results. Do not write 'clients', 'customers of ours' or 'in our audits we saw X%'. The hub line '4 mistakes appear in almost every audit we run' is a hub claim; do not quantify or extend it. Every worked example is a clearly labelled hypothetical ('say you run a scheduling SaaS') or a cited public example (Slack via The Cold Start Problem, Notion via the Appcues GoodUX teardown). The MOFU template CTA promises a case study, so the orchestrator should check how the template behaves with zero case studies.",
+    "Facts to keep consistent with the hub: 3 to 6 weeks; $15,000–$45,000; 5 to 8 recent sign-ups interviewed; metrics are activation rate, time to first value and day-7 return rate; analytics tools named are Mixpanel, Amplitude, Google Analytics 4; onboarding tools named are Appcues, Userpilot, Pendo. home.ts says the SaaS product design engagement is $40,000–$180,000 / 6–16 weeks. That is the saas-design-agency engagement, not onboarding, so do not mix the ranges.",
+    "DO NOT USE (unsourced or vendor-anecdotal, seen in SERP snippets): '40–60% of free trial users log in once and never return' (no primary source); the Reddit/r/startups '23% to 61% activation in one quarter' anecdote; Wes Bush's 'Snappa improved MRR by over 20%'; Appcues' '86.84% of new users make it through our onboarding'; 'the first 30–60 days shape long-term retention'; the '14 to 30 days from contract to activation' CS timeline; any vendor email-sequence length (7 or 14 days) presented as a rule.",
+    "Originality: beats = appcues.com/blog/saas-user-onboarding (an examples roundup from 20+ products). Do not copy its product-by-product example structure or its screenshots. Use at most 1–2 cited public examples, inside the pattern section. userflow.com's guide frames onboarding with the BJ Fogg Behavior Model (motivation, ability, prompt), so do not reuse that frame. Neither page could be opened (ENOTFOUND); QA should run the 5-gram check against whatever text it can fetch.",
+    "Do not target tool-roundup intent ('saas onboarding software/tools'); userlist.com's roundup owns that. Mention tools only in H2 10 and FAQ 3, and fairly.",
+    "Abbreviations to expand on first open-text use: SaaS (software as a service), UX, B2B, SSO, PLG if used, CSM, KPI if used.",
+    "Data source rule: the owner rule (2026-10-12) names Semrush or GSC as volume evidence. This brief uses Ahrefs figures the orchestrator supplied because Semrush has no units. The orchestrator accepted that, so record it as such."
+  ],
+  "beats": "https://www.appcues.com/blog/saas-user-onboarding",
+  "competitorPagesStudied": [
+    { "url": "https://www.appcues.com/blog/saas-user-onboarding", "seen": "Examples roundup from 20+ products (per orchestrator SERP note). WebFetch ENOTFOUND; snippets show Appcues docs advise a short welcome flow around core actions (create a project, invite a teammate, publish a change).", "misses": "design process, activation-event selection, empty-state anatomy, B2B role paths, email-to-screen mapping, when a tool is not enough" },
+    { "url": "https://userflow.com/blog/saas-onboarding-flow-a-complete-guide", "seen": "'SaaS Onboarding Flow 101' (Sept 2024): signup to aha moment; components welcome email, in-app welcome, tour, checklist, tooltips, help center; BJ Fogg Behavior Model.", "misses": "how to choose what to cut, user vs customer onboarding, admin/member paths, measurement per step" },
+    { "url": "userlist.com (tools roundup)", "seen": "Tool listicle: tool-vendor intent, deliberately not targeted.", "misses": "n/a" },
+    { "url": "reddit.com/r/SaaS best-practices thread", "seen": "Not retrievable directly; secondary pages quote r/SaaS lessons: one activation milestone, segment flows, guided first run, trial length and pricing clarity. All anecdotal.", "misses": "sourced numbers, design specifics" },
+    { "url": "cloudshare.com glossary", "seen": "Not retrievable; glossary peers (torii, sifthub, gracker) define onboarding as guiding new users to proficiency, with welcome flows, guided setup, import, training.", "misses": "everything past the definition" },
+    { "url": "https://helphero.co/blog/saas-onboarding/", "seen": "Separates in-app onboarding from other meanings; tracks reaching first result and how fast.", "misses": "B2B roles, emails, design patterns detail" }
+  ],
+  "rejectedCandidates": [
+    { "keyword": "saas onboarding software / tools", "why": "Tool-vendor roundup intent (userlist.com). The orchestrator excluded it, and a design agency cannot satisfy a tool-comparison searcher." },
+    { "keyword": "saas customer onboarding checklist (as primary)", "why": "The SERP is customer-success kickoff and implementation templates (valuecase, trainn, trychaser, clearfeed), so it is CS-led, not design. Folded in as a secondary n-gram and a disambiguation line." },
+    { "keyword": "saas onboarding emails (as its own post)", "why": "200 vol, KD 0, but thin on its own for this hub (one of 6 hub parts) and email-tool-dominated (userpilot, sequenzy, fluentcrm). Folded in as one H2. Revisit as a separate TOFU post only if this post does not rank for it." },
+    { "keyword": "customer onboarding saas", "why": "Reversed word order with no natural carrier; 'saas customer onboarding' covers it." },
+    { "keyword": "what is saas onboarding design", "why": "The hub owns it (H2 1)." },
+    { "keyword": "user onboarding flow / onboarding flow examples (as primary)", "why": "Folded in as secondary n-grams. 'onboarding flow examples' is gallery intent (saasframe, pageflows) and would push the post into an examples roundup like the beats page." }
+  ],
+  "dataSourceDate": "2026-10-13"
+}

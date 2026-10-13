@@ -1,6 +1,6 @@
 {
   "note": "Competitor domains whose blogs rank for our silos. The keyword researcher refreshes this list (SERP + Semrush) and records which of their posts perform best, so we write a better, original post on the same topic. Never copy text, structure or images.",
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "domains": [
     { "domain": "fuselabcreative.com", "kind": "agency blog", "silos": ["ux-research-services"], "seenFor": ["ux research agency", "how to choose a ux research agency", "how to hire a ux research agency"], "source": "WebSearch 2026-10-05" },
     { "domain": "ux4sight.com", "kind": "agency blog", "silos": ["ux-research-services"], "seenFor": ["how to hire a ux research agency"], "source": "WebSearch 2026-10-05" },
@@ -15,14 +15,14 @@
     { "domain": "octet.design", "kind": "agency blog", "silos": ["saas-ux-design"], "seenFor": ["how to choose a saas ux design agency", "saas ux design agency", "hire saas ux designer"], "source": "WebSearch 2026-10-06" },
     { "domain": "onething.design", "kind": "agency blog", "silos": ["saas-ux-design", "design-system-services"], "seenFor": ["how to choose a saas ux design agency", "when to redesign saas ux", "saas redesign scope", "design system audit", "what is a design system audit"], "source": "WebSearch 2026-10-06, 2026-10-08" },
     { "domain": "orbix.studio", "kind": "agency blog", "silos": ["saas-ux-design", "ux-audit-services"], "seenFor": ["how to redesign a saas product without losing users", "saas product redesign", "how to choose ui ux agency saas startup", "ux audit cost", "ux audit freelancer vs agency"], "source": "WebSearch 2026-10-06, 2026-10-07" },
-    { "domain": "userguiding.com", "kind": "onboarding tool blog", "silos": ["saas-ux-design"], "seenFor": ["saas product redesign", "best practices saas product redesign"], "source": "WebSearch 2026-10-06" },
+    { "domain": "userguiding.com", "kind": "onboarding tool blog", "silos": ["saas-ux-design", "saas-onboarding-design"], "seenFor": ["saas product redesign", "best practices saas product redesign", "saas onboarding", "enterprise saas onboarding"], "source": "WebSearch 2026-10-06, 2026-10-13" },
     { "domain": "designli.co", "kind": "agency blog", "silos": ["saas-ux-design"], "seenFor": ["saas product redesign", "when to redesign saas ux", "redesign saas for retention"], "source": "WebSearch 2026-10-06" },
     { "domain": "phenomenonstudio.com", "kind": "agency blog", "silos": ["saas-ux-design", "digital-product-design-services", "mobile-app-ui-ux-design-services"], "seenFor": ["saas product redesign", "facelift vs full redesign saas", "product discovery phase cost", "how much does product design cost", "how to evaluate a mobile app design agency portfolio"], "source": "WebSearch 2026-10-06, 2026-10-10, 2026-10-11" },
     { "domain": "devsquad.com", "kind": "agency blog", "silos": ["saas-ux-design", "web-app-design-services"], "seenFor": ["saas product redesign", "product redesign examples", "redesign legacy web app without disrupting users"], "source": "WebSearch 2026-10-06, 2026-10-09" },
     { "domain": "saasfactor.co", "kind": "agency blog", "silos": ["saas-ux-design", "design-system-services"], "seenFor": ["how to hire a ux design agency for saas", "when saas needs a ux redesign", "saas onboarding redesign", "is a design system worth the investment"], "source": "WebSearch 2026-10-06, 2026-10-08" },
     { "domain": "sda.company", "kind": "agency blog", "silos": ["saas-ux-design"], "seenFor": ["how to choose a saas ux design agency", "saas ux design agency"], "source": "WebSearch 2026-10-06" },
-    { "domain": "chameleon.io", "kind": "onboarding tool blog", "silos": ["saas-ux-design"], "seenFor": ["how to redesign a saas product without losing users", "reducing onboarding drop-off activation"], "source": "WebSearch 2026-10-06" },
-    { "domain": "blog.flowpoint.ai", "kind": "analytics tool blog", "silos": ["ux-audit-services"], "seenFor": ["who should do a ux audit", "ux audit agency vs freelancer vs ai tool"], "source": "WebSearch 2026-10-07" },
+    { "domain": "chameleon.io", "kind": "onboarding tool blog", "silos": ["saas-ux-design", "saas-onboarding-design"], "seenFor": ["how to redesign a saas product without losing users", "reducing onboarding drop-off activation", "product led onboarding"], "source": "WebSearch 2026-10-06, 2026-10-13" },
+    { "domain": "blog.flowpoint.ai", "kind": "analytics tool blog", "silos": ["ux-audit-services", "saas-onboarding-design"], "seenFor": ["who should do a ux audit", "ux audit agency vs freelancer vs ai tool", "saas onboarding process"], "source": "WebSearch 2026-10-07, 2026-10-13" },
     { "domain": "codewave.com", "kind": "agency blog", "silos": ["ux-audit-services", "mobile-app-ui-ux-design-services"], "seenFor": ["ux audit freelancer vs agency", "ux audit agency vs freelancer vs ai tool", "hire mobile app designer agency vs freelancer", "freelance app designer vs design agency which is better for startup app"], "source": "WebSearch 2026-10-07, 2026-10-11 (WebFetch DNS-blocked)" },
     { "domain": "designstudiouiux.com", "kind": "agency blog", "silos": ["ux-audit-services"], "seenFor": ["ux audit cost", "ai ux audit tools"], "source": "WebSearch 2026-10-07" },
     { "domain": "theskinsfactory.com", "kind": "agency Q&A blog", "silos": ["ux-audit-services", "web-app-design-services"], "seenFor": ["ux audit cost", "ux audit proposal scope", "how to prepare for a ux audit", "legacy enterprise software ux redesign", "modernize legacy software without disrupting users"], "source": "WebSearch 2026-10-07, 2026-10-09" },
@@ -69,7 +69,7 @@
     { "domain": "uxdesign.cc", "kind": "publisher (Medium publication)", "silos": ["mobile-app-ui-ux-design-services", "usability-testing-services"], "seenFor": ["ios vs android design", "adapt ios app design to android", "how many rounds of usability testing"], "source": "WebSearch 2026-10-11, 2026-10-12" },
     { "domain": "developer.android.com", "kind": "official Google documentation (citable source, not a target)", "silos": ["mobile-app-ui-ux-design-services"], "seenFor": ["adapt ios app design to android material design 3"], "source": "WebSearch 2026-10-11" },
     { "domain": "measuringu.com", "kind": "UX research consultancy blog (Jeff Sauro; also a citable source)", "silos": ["usability-testing-services"], "seenFor": ["usability testing cost per participant", "how much does a usability test cost", "no-show rate ux research"], "source": "WebSearch 2026-10-12 (WebFetch DNS-blocked)" },
-    { "domain": "nngroup.com", "kind": "UX research institute (citable source, not a target)", "silos": ["usability-testing-services"], "seenFor": ["usability testing cost per participant", "recruiting test participants cost", "usability testing with older adults", "how many rounds of usability testing"], "source": "WebSearch 2026-10-12 (WebFetch DNS-blocked)" },
+    { "domain": "nngroup.com", "kind": "UX research institute (citable source, not a target)", "silos": ["usability-testing-services", "saas-onboarding-design"], "seenFor": ["usability testing cost per participant", "recruiting test participants cost", "usability testing with older adults", "how many rounds of usability testing", "empty state interface design"], "source": "WebSearch 2026-10-12, 2026-10-13 (WebFetch DNS-blocked)" },
     { "domain": "userinterviews.com", "kind": "research recruiting platform blog (citable for incentive data)", "silos": ["usability-testing-services"], "seenFor": ["usability testing participant incentive", "research incentives report"], "source": "WebSearch 2026-10-12" },
     { "domain": "greatquestion.co", "kind": "research platform blog", "silos": ["usability-testing-services"], "seenFor": ["usability testing participant incentive", "research incentives what to pay participants"], "source": "WebSearch 2026-10-12" },
     { "domain": "uxtweak.com", "kind": "research tool blog", "silos": ["usability-testing-services"], "seenFor": ["usability testing cost per participant", "how many participants usability study"], "source": "WebSearch 2026-10-12" },
@@ -78,7 +78,14 @@
     { "domain": "clickup.com", "kind": "productivity tool blog", "silos": ["usability-testing-services"], "seenFor": ["how to write a usability testing report"], "source": "WebSearch 2026-10-12" },
     { "domain": "matellio.com", "kind": "development agency blog", "silos": ["usability-testing-services"], "seenFor": ["usability testing services"], "source": "WebSearch 2026-10-12 (head term SERP is otherwise vendor service pages: redberries, yellowslice, think360studio, venturedive, kualitatem, openxcell)" },
     { "domain": "uxreactor.com", "kind": "UX agency blog", "silos": ["usability-testing-services"], "seenFor": ["how many rounds of usability testing before launch"], "source": "WebSearch 2026-10-12" },
-    { "domain": "pixelmatters.com", "kind": "agency blog", "silos": ["usability-testing-services"], "seenFor": ["how many rounds of usability testing before launch", "impact of usability testing on digital products"], "source": "WebSearch 2026-10-12" }
+    { "domain": "pixelmatters.com", "kind": "agency blog", "silos": ["usability-testing-services"], "seenFor": ["how many rounds of usability testing before launch", "impact of usability testing on digital products"], "source": "WebSearch 2026-10-12" },
+    { "domain": "appcues.com", "kind": "onboarding tool blog", "silos": ["saas-onboarding-design"], "seenFor": ["saas onboarding", "saas user onboarding", "onboarding flow examples"], "source": "Orchestrator-supplied Google top results + WebSearch 2026-10-13 (WebFetch ENOTFOUND)" },
+    { "domain": "userflow.com", "kind": "onboarding tool blog", "silos": ["saas-onboarding-design"], "seenFor": ["saas onboarding", "saas onboarding flow", "user onboarding flow"], "source": "Orchestrator-supplied Google top results + WebSearch 2026-10-13 (WebFetch ENOTFOUND)" },
+    { "domain": "userlist.com", "kind": "email tool blog (tools roundup; vendor intent, skip as a target)", "silos": ["saas-onboarding-design"], "seenFor": ["saas onboarding", "saas onboarding software"], "source": "Orchestrator-supplied Google top results 2026-10-13" },
+    { "domain": "userpilot.com", "kind": "onboarding tool blog (activation benchmark citable with first-party caveat)", "silos": ["saas-onboarding-design"], "seenFor": ["saas onboarding emails", "saas onboarding", "activation rate benchmark"], "source": "WebSearch 2026-10-13" },
+    { "domain": "helphero.co", "kind": "onboarding tool blog", "silos": ["saas-onboarding-design"], "seenFor": ["saas onboarding", "saas onboarding flow"], "source": "WebSearch 2026-10-13" },
+    { "domain": "productledalliance.com", "kind": "publisher (product-led community)", "silos": ["saas-onboarding-design"], "seenFor": ["saas onboarding process", "saas onboarding guide"], "source": "WebSearch 2026-10-13" },
+    { "domain": "valuecase.com", "kind": "customer onboarding tool blog (CS-led intent)", "silos": ["saas-onboarding-design"], "seenFor": ["saas customer onboarding checklist", "customer onboarding plan template"], "source": "WebSearch 2026-10-13" }
   ],
   "topPosts": [
     {
@@ -568,6 +575,52 @@
       "serviceSupport": 4,
       "status": "candidate",
       "notes": "Deferred: Google mixes 'how many rounds' with 'how many users' (userbrain, trymata, koji, uxtweak pages), so a post here would turn into the 5-users post the orchestrator ruled out, and the hub FAQ owns user counts. pixelmatters.com and netguru.com/blog/usability-testing-guide also rank. Revisit only as a launch-plan angle (which build gets which round) that never argues the participant count."
+    },
+    {
+      "domain": "appcues.com",
+      "url": "https://www.appcues.com/blog/saas-user-onboarding",
+      "title": "SaaS user onboarding (examples from 20+ products)",
+      "keywords": ["saas onboarding", "saas user onboarding", "onboarding flow examples"],
+      "estTraffic": null,
+      "silo": "saas-onboarding-design",
+      "serviceSupport": 4,
+      "status": "briefed",
+      "brief": "content/briefs/saas-onboarding.json",
+      "notes": "beats target, #1 for 'saas onboarding' (orchestrator SERP 2026-10-13). An examples roundup by an onboarding-tool vendor. WebFetch ENOTFOUND. Do not copy its product-by-product structure or screenshots; our post is a designer's process (activation event first, straight-line cut, B2B role paths, email-to-screen map)."
+    },
+    {
+      "domain": "userflow.com",
+      "url": "https://userflow.com/blog/saas-onboarding-flow-a-complete-guide",
+      "title": "SaaS Onboarding Flow 101: How To Build Effective User Experiences",
+      "keywords": ["saas onboarding", "saas onboarding flow", "user onboarding flow"],
+      "estTraffic": null,
+      "silo": "saas-onboarding-design",
+      "serviceSupport": 4,
+      "status": "briefed",
+      "brief": "content/briefs/saas-onboarding.json",
+      "notes": "Sept 2024, tool vendor. Components menu (welcome email, in-app welcome, tour, checklist, tooltips, help center) framed by the BJ Fogg Behavior Model: do not reuse that frame."
+    },
+    {
+      "domain": "userguiding.com",
+      "url": "https://userguiding.com/blog/enterprise-saas-onboarding",
+      "title": "Enterprise SaaS Onboarding: Examples and Best Practices",
+      "keywords": ["enterprise saas onboarding", "b2b saas customer onboarding"],
+      "estTraffic": null,
+      "silo": "saas-onboarding-design",
+      "serviceSupport": 4,
+      "status": "candidate",
+      "notes": "Partly absorbed by the saas-onboarding brief's B2B admins/invited-members H2. A later post on enterprise onboarding (SSO, provisioning, admin console, CS handoff) is possible if it goes deeper than that H2 and never repeats its swimlane."
+    },
+    {
+      "domain": "userpilot.com",
+      "url": "https://userpilot.com/blog/saas-onboarding-emails/",
+      "title": "SaaS onboarding emails",
+      "keywords": ["saas onboarding emails", "onboarding email sequence"],
+      "estTraffic": null,
+      "silo": "saas-onboarding-design",
+      "serviceSupport": 4,
+      "status": "candidate",
+      "notes": "Folded into one H2 of the saas-onboarding brief (email-to-screen map). SERP is email-tool dominated (sequenzy, fluentcrm). Write separately only if saas-onboarding does not rank for 'saas onboarding emails'. Vendor sequence lengths and the '40-60% log in once' stat are do-not-use."
     }
   ]
 }
