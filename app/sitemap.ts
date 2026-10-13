@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getCaseStudies, getIndustries, getLocations, getPages, getPosts, getServices } from "@/lib/content";
+import { getCaseStudies, getIndustries, getLocations, getPages, getPillars, getPosts, getServices } from "@/lib/content";
 import { absoluteUrl, routes } from "@/lib/site";
 import { authors, blogRoutes, categories, postsByAuthor, postsContributedBy, postsInCategory } from "@/lib/blog";
 
@@ -10,7 +10,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     u("/", 1),
     u(routes.services, 0.9),
-    ...getServices().map((s) => u(routes.service(s.slug), 0.9, s.updated)),
+    ...getPillars().map((p) => u(routes.service(p.slug), 0.9, p.updated)),
+    ...getServices().map((s) => u(routes.service(s.slug), 0.8, s.updated)),
     ...(getIndustries().length ? [u(routes.industries, 0.8)] : []),
     ...getIndustries().map((i) => u(routes.industry(i.slug), 0.8, i.updated)),
     ...(getLocations().length ? [u(routes.locations, 0.7)] : []),

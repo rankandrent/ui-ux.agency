@@ -8,7 +8,7 @@ import { useEffect, useState, type MouseEvent } from "react";
 import { routes } from "@/lib/site";
 
 export type NavItem = { title: string; href: string; summary?: string };
-export type NavGroup = { category: string; items: NavItem[] };
+export type NavGroup = { category: string; href?: string; items: NavItem[] };
 
 export function Header({ serviceGroups, industries, locations }: { serviceGroups: NavGroup[]; industries: NavItem[]; locations: NavItem[] }) {
   const [scrolled, setScrolled] = useState(false);
@@ -58,7 +58,7 @@ export function Header({ serviceGroups, industries, locations }: { serviceGroups
               <div className="mega__cols">
                 {serviceGroups.map((g) => (
                   <div key={g.category} className="mega__col">
-                    <p className="mega__cat">{g.category}</p>
+                    <p className="mega__cat">{g.href ? <Link href={g.href}>{g.category}</Link> : g.category}</p>
                     <ul>
                       {g.items.map((s) => (
                         <li key={s.href}>
@@ -126,7 +126,7 @@ export function Header({ serviceGroups, industries, locations }: { serviceGroups
           <summary>Services</summary>
           {serviceGroups.map((g) => (
             <div key={g.category} className="hdr__mcat">
-              <p>{g.category}</p>
+              <p>{g.href ? <Link href={g.href} onClick={close}>{g.category}</Link> : g.category}</p>
               {g.items.map((s) => <Link key={s.href} href={s.href} onClick={close}>{s.title}</Link>)}
             </div>
           ))}

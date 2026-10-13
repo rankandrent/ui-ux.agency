@@ -1,5 +1,5 @@
 import { home } from "@/content/home";
-import { getCaseStudies, getIndustries, getPosts, getServices } from "@/lib/content";
+import { getCaseStudies, getIndustries, getPillars, getPosts, getServices } from "@/lib/content";
 import { ogImage } from "@/lib/og";
 
 /**
@@ -12,7 +12,8 @@ export const dynamicParams = false;
 
 function cards() {
   return [
-    { path: ["home.png"], title: home.hero.h1Before + home.hero.h1Em, eyebrow: "UI UX design services" },
+    { path: ["home.png"], title: home.hero.h1Before + home.hero.h1Em, eyebrow: "UI UX design agency" },
+    ...getPillars().map((p) => ({ path: ["services", `${p.slug}.png`], title: p.hero.h1, eyebrow: p.title })),
     ...getServices().map((s) => ({ path: ["services", `${s.slug}.png`], title: s.hero.h1, eyebrow: s.title })),
     ...getIndustries().map((i) => ({ path: ["industries", `${i.slug}.png`], title: i.hero.h1, eyebrow: "Industries" })),
     ...getCaseStudies().map((c) => ({ path: ["case-studies", `${c.slug}.png`], title: c.title, eyebrow: "Case study" })),

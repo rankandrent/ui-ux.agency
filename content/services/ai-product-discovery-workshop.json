@@ -1,0 +1,105 @@
+{
+  "title": "AI product discovery workshop",
+  "order": 9,
+  "category": "AI products",
+  "anchor": "AI product discovery workshop",
+  "metaTitle": "AI Product Discovery Workshop | Pick AI Use Cases in 2 Weeks",
+  "metaDescription": "AI product discovery workshop that ranks your AI use cases by value and risk and ends with a tested concept and a scoped plan in 1 to 2 weeks.",
+  "updated": "2026-10-13",
+  "centralEntity": "AI product discovery workshop",
+  "sourceContext": "ui-ux.agency by tkxel; this page sells a short workshop that decides which AI features to build first.",
+  "priceRange": "$8,000–$20,000",
+  "hero": {
+    "eyebrow": "AI product discovery workshop",
+    "h1": "AI product discovery workshop: decide what AI should do before you build it",
+    "sub": "In 1 to 2 weeks we map your users' tasks, rank AI use cases by value and risk, sketch the best one and test it with real users."
+  },
+  "summary": "A 1 to 2 week workshop that picks the AI use cases worth building and scopes the first one.",
+  "tags": ["Use case ranking", "Concept test", "AI roadmap", "Scoped plan"],
+  "abstract": "An AI product discovery workshop is a short, structured engagement that decides which tasks in a product should use artificial intelligence. ui-ux.agency, the design team of tkxel, runs it in 1 to 2 weeks with product, engineering and business leads, ranks each AI use case by user value, data readiness and risk, and tests the top concept with real users. It is the first step before AI user experience (UX) and user interface (UI) design.",
+  "sections": [
+    {
+      "h2": "What is an AI product discovery workshop?",
+      "format": "paragraph",
+      "answer": "<strong>An AI product discovery workshop is a guided session series that turns a long list of AI ideas into one tested concept and a plan to build it.</strong> It answers what to build, for whom and why, before design or engineering money is spent.",
+      "body": "<p>Many teams start AI work from the model: a demo looks impressive, so it gets a button in the product. Users then ignore it because it solves no real task. The workshop starts from the other end. We map what users do today, where they lose time and where a wrong answer would hurt. Only then do we match AI capabilities to those tasks. The chosen concept moves straight into <a href=\"/services/ai-ux-design-agency/\">AI UX design agency</a> work.</p>",
+      "image": {
+        "src": "/images/services/ai-product-discovery-workshop.svg",
+        "alt": "Workshop board with AI use cases plotted on a grid of user value against risk, with the top-right use case circled as the first one to build",
+        "caption": "Each AI use case is plotted by user value and risk; the best one moves to design."
+      }
+    },
+    {
+      "h2": "What happens during the AI product discovery workshop?",
+      "format": "steps",
+      "answer": "<strong>The AI product discovery workshop runs in 4 steps over 5 to 10 working days.</strong>",
+      "items": [
+        { "title": "Task mapping (days 1–2)", "body": "We interview 4 to 6 users and map their main tasks, pain points and the data each task uses." },
+        { "title": "Use case ranking (days 3–4)", "body": "The team lists AI ideas and scores each one on user value, data readiness, cost and risk of wrong answers." },
+        { "title": "Concept sketching (days 5–7)", "body": "Designers turn the top 1 or 2 use cases into a clickable concept with realistic model output." },
+        { "title": "Test and plan (days 8–10)", "body": "5 users try the concept; we present the findings, a scoped plan and an estimate for design and build." }
+      ]
+    },
+    {
+      "h2": "What do you get from an AI product discovery workshop?",
+      "format": "list",
+      "answer": "<strong>Every AI product discovery workshop ends with 5 deliverables:</strong>",
+      "items": [
+        { "title": "Task map.", "body": "Users' current tasks, time spent and pain points, with the data each task touches." },
+        { "title": "Ranked use case list.", "body": "All AI use cases with their scores for value, readiness and risk." },
+        { "title": "Tested concept.", "body": "A clickable concept of the top use case, with notes from 5 user sessions." },
+        { "title": "Risk register.", "body": "Ways the AI feature fails users in tests, and the design guardrails for each." },
+        { "title": "Scoped plan.", "body": "Timeline, team and cost for design and development of the first release." }
+      ]
+    },
+    {
+      "h2": "AI product discovery workshop vs jumping straight into design",
+      "format": "table",
+      "answer": "<strong>An AI product discovery workshop adds 1 to 2 weeks at the start and removes the biggest risk: building an AI feature nobody uses.</strong>",
+      "caption": "Starting AI work with and without an AI product discovery workshop",
+      "columns": ["Criterion", "With a workshop", "Straight into design"],
+      "rows": [
+        ["How the feature is chosen", "Ranked by user value and risk", "Chosen from a demo or an opinion"],
+        ["User input", "Interviews and a concept test", "After launch"],
+        ["Data check", "Before design starts", "During development"],
+        ["Plan quality", "Scoped with an estimate", "Scope grows during the build"]
+      ]
+    },
+    {
+      "h2": "Who should book an AI product discovery workshop?",
+      "format": "cards",
+      "answer": "<strong>An AI product discovery workshop suits 3 kinds of teams.</strong>",
+      "items": [
+        { "title": "SaaS teams with a board mandate for AI", "body": "Teams told to add AI who need to pick the feature that customers will pay for." },
+        { "title": "Founders with an AI idea", "body": "Startups that want proof before a minimum viable product (MVP); many continue with a design sprint or MVP design." },
+        { "title": "Enterprises with many pilots", "body": "Organizations with several AI experiments that need one to take to production." }
+      ]
+    },
+    {
+      "h2": "How much does an AI product discovery workshop cost?",
+      "format": "paragraph",
+      "answer": "<strong>An AI product discovery workshop costs $8,000 to $20,000 and takes 1 to 2 weeks.</strong> The price depends on the number of user groups and how many use cases go to concept testing.",
+      "body": "<p>A one-week workshop with one user group and one concept sits near $8,000. A two-week workshop with several user groups, two tested concepts and a detailed build estimate sits near $20,000. When the AI feature is a chat assistant, the next step is <a href=\"/services/chatbot-ui-design/\">chatbot UI design</a>. Full price ranges sit in the <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide.</p>"
+    },
+    {
+      "h2": "AI product discovery workshop FAQs",
+      "format": "faq",
+      "answer": "<strong>Answers to common questions about the AI product discovery workshop.</strong>",
+      "faqs": [
+        { "q": "Can the AI product discovery workshop run remotely?", "a": "<p>Yes. Most workshops run remotely in Figma and FigJam, with short daily sessions instead of full-day meetings.</p>" },
+        { "q": "Who from our team should join?", "a": "<p>A product lead, an engineering or data lead and a business owner, for about 2 hours a day during the workshop.</p>" },
+        { "q": "Do we need our own data ready?", "a": "<p>No. The workshop checks which data you have and which use cases depend on it; missing data becomes part of the plan.</p>" },
+        { "q": "What happens after the workshop?", "a": "<p>You own the plan. Most teams continue into AI UX design with us, and some take the plan to their own team.</p>" }
+      ]
+    }
+  ],
+  "faqs": [],
+  "semantic": {
+    "entities": ["AI product discovery workshop", "AI use case", "concept test", "data readiness", "risk register", "FigJam"],
+    "ngrams": ["ai product discovery workshop", "ai use cases", "use case", "tested concept", "scoped plan"],
+    "skipgrams": [],
+    "nlpKeywords": ["discovery", "prioritization", "workshop", "ai roadmap", "guardrails"]
+  },
+  "mentions": ["artificial intelligence", "FigJam", "Figma", "tkxel"],
+  "relatedServices": ["ai-ux-design-agency", "chatbot-ui-design", "design-sprint"]
+}

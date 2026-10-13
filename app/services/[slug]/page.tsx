@@ -12,6 +12,7 @@ import {
   Stats,
 } from "@/components/sections/Blocks";
 import { FormCard, PageHero } from "@/components/sections/PageHero";
+import { PillarPage } from "@/components/sections/PillarPage";
 import { Abstract, SemanticSections } from "@/components/sections/SemanticSections";
 import { Process } from "@/components/sections/Process";
 import { WorkGrid } from "@/components/sections/WorkCards";
@@ -20,9 +21,12 @@ import { formInterests, home } from "@/content/home";
 import {
   anchorOf,
   caseStudiesForService,
+  getPillar,
+  getPillars,
   getService,
   getServices,
   industriesForService,
+  pillarOf,
   postsForService,
   relatedServices,
   staticParams,
@@ -34,10 +38,21 @@ import { DEFAULT_BLOCKS } from "@/lib/types";
 type Props = { params: Promise<{ slug: string }> };
 
 export const dynamicParams = false;
-export const generateStaticParams = () => staticParams("slug", getServices().map((s) => s.slug));
+// service pages and the pillar (category hub) pages share /services/<slug>/
+export const generateStaticParams = () => staticParams("slug", [...getPillars().map((p) => p.slug), ...getServices().map((s) => s.slug)]);
 
 export async function generateMetadata({ params }: Props) {
-  const s = getService((await params).slug);
+  const slug = (await params).slug;
+  const pillar = getPillar(slug);
+  if (pillar)
+    return pageMetadata({
+      title: pillar.metaTitle,
+      description: pillar.metaDescription,
+      path: routes.service(pillar.slug),
+      image: `/og/services/${pillar.slug}.png`,
+      keyword: pillar.anchor,
+    });
+  const s = getService(slug);
   if (!s) return {};
   return pageMetadata({
     title: s.metaTitle,
@@ -50,8 +65,12 @@ export async function generateMetadata({ params }: Props) {
 }
 
 export default async function ServicePage({ params }: Props) {
-  const s = getService((await params).slug);
+  const slug = (await params).slug;
+  const pillar = getPillar(slug);
+  if (pillar) return <PillarPage p={pillar} />;
+  const s = getService(slug);
   if (!s) notFound();
+  const parent = pillarOf(s);
 
   const path = routes.service(s.slug);
   const industries = industriesForService(s);
@@ -74,7 +93,7 @@ export default async function ServicePage({ params }: Props) {
   return (
     <>
       <PageHero
-        crumbs={[{ name: "Services", path: routes.services }, { name: s.title, path }]}
+        crumbs={[{ name: "Services", path: routes.services }, ...(parent ? [{ name: parent.title, path: routes.service(parent.slug) }] : []), { name: s.title, path }]}
         eyebrow={s.hero.eyebrow ?? s.title}
         h1={s.hero.h1}
         sub={s.hero.sub}

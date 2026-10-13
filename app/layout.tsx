@@ -5,7 +5,7 @@ import Script from "next/script";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { JsonLd } from "@/components/ui/JsonLd";
-import { anchorOf, getIndustries, servicesByCategory, locationCities } from "@/lib/content";
+import { anchorOf, getIndustries, servicesByCategory, locationCities, pillarOf } from "@/lib/content";
 import { organizationLd } from "@/lib/seo";
 import { SITE, cap, routes } from "@/lib/site";
 import "./globals.css";
@@ -24,10 +24,14 @@ export const metadata: Metadata = {
 export const viewport: Viewport = { themeColor: "#1B232E", width: "device-width", initialScale: 1 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const serviceGroups = servicesByCategory().map((g) => ({
-    category: g.category,
-    items: g.services.map((s) => ({ title: cap(anchorOf(s)), href: routes.service(s.slug) })),
-  }));
+  const serviceGroups = servicesByCategory().map((g) => {
+    const pillar = pillarOf(g);
+    return {
+      category: g.category,
+      href: pillar && routes.service(pillar.slug),
+      items: g.services.map((s) => ({ title: cap(anchorOf(s)), href: routes.service(s.slug) })),
+    };
+  });
   const industries = getIndustries().map((i) => ({ title: i.title, href: routes.industry(i.slug) }));
   const locations = locationCities().map((l) => ({ title: l.title, href: routes.location(l.slug) }));
   return (

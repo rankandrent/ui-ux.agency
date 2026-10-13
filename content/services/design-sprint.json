@@ -1,0 +1,106 @@
+{
+  "title": "Design sprint",
+  "order": 11,
+  "category": "Startups & product",
+  "anchor": "design sprint",
+  "metaTitle": "Design Sprint | Test a Product Idea With Users in 5 Days",
+  "metaDescription": "A 5-day design sprint that maps the problem, sketches solutions, builds a realistic prototype and tests it with 5 target users. From $12,000.",
+  "updated": "2026-10-13",
+  "centralEntity": "design sprint",
+  "sourceContext": "ui-ux.agency by tkxel; this page sells facilitated 5-day design sprints to startups and product teams.",
+  "priceRange": "$12,000–$25,000",
+  "hero": {
+    "eyebrow": "Design sprint",
+    "h1": "Design sprint: test a product idea with real users in 5 days",
+    "sub": "Five days, one big question: we map the problem, sketch answers, build a realistic prototype and put it in front of 5 target users on Friday."
+  },
+  "summary": "A facilitated 5-day sprint that ends with a tested prototype and a clear decision.",
+  "tags": ["5 days", "Prototype", "User testing", "Decision"],
+  "abstract": "A design sprint is a 5-day process for answering a critical product question through design, prototyping and testing with users. ui-ux.agency, the design team of tkxel, facilitates the sprint, builds the prototype and runs 5 user interviews, so a startup or product team gets a tested user experience (UX) and user interface (UI) concept and a clear go, change or stop decision in one week.",
+  "sections": [
+    {
+      "h2": "What is a design sprint?",
+      "format": "paragraph",
+      "answer": "<strong>A design sprint compresses months of debate into 5 days: the team agrees on one question, designs an answer and tests it with real users by Friday.</strong>",
+      "body": "<p>The method was developed at Google Ventures and described in the book <em>Sprint</em> by Jake Knapp. It works because it forces decisions: each day has one goal and ends with an agreed result. Our designers facilitate the sessions and build the prototype, so your team only needs to bring knowledge of the business and the users. When the sprint confirms the idea, the next step is often a minimum viable product (MVP), designed in an <a href=\"/services/mvp-design-agency/\">MVP design agency</a> project.</p>",
+      "image": {
+        "src": "/images/services/design-sprint.svg",
+        "alt": "Five-day design sprint calendar: Monday map, Tuesday sketch, Wednesday decide, Thursday prototype and Friday test with five users",
+        "caption": "Each day of the design sprint has one goal and one agreed result."
+      }
+    },
+    {
+      "h2": "How does each day of the design sprint work?",
+      "format": "steps",
+      "answer": "<strong>The design sprint has 5 days, each with one goal.</strong>",
+      "items": [
+        { "title": "Monday: map", "body": "The team sets a long-term goal, maps the user journey and picks the target moment for the sprint." },
+        { "title": "Tuesday: sketch", "body": "Everyone reviews examples and sketches a detailed solution on paper, alone and quietly." },
+        { "title": "Wednesday: decide", "body": "The team votes on the sketches and turns the winner into a step-by-step storyboard." },
+        { "title": "Thursday: prototype", "body": "Our designers build a realistic, clickable prototype in Figma that looks like a finished product." },
+        { "title": "Friday: test", "body": "5 target users try the prototype in one-hour interviews while the team watches and takes notes." }
+      ]
+    },
+    {
+      "h2": "What do you get at the end of a design sprint?",
+      "format": "list",
+      "answer": "<strong>A design sprint ends with 4 deliverables:</strong>",
+      "items": [
+        { "title": "Tested prototype.", "body": "A clickable prototype of the chosen solution, ready to reuse in later design work." },
+        { "title": "User test findings.", "body": "Patterns from 5 interviews, with recordings and quotes." },
+        { "title": "Decision.", "body": "A clear go, change or stop on the idea, agreed by the team." },
+        { "title": "Next-step plan.", "body": "What to build, test or drop next, with a rough estimate." }
+      ]
+    },
+    {
+      "h2": "Design sprint vs a full discovery phase",
+      "format": "table",
+      "answer": "<strong>A design sprint answers one question in 5 days; a full discovery phase explores a whole product area over several weeks.</strong>",
+      "caption": "Comparison of a design sprint and a full discovery phase",
+      "columns": ["Criterion", "Design sprint", "Full discovery phase"],
+      "rows": [
+        ["Length", "5 days", "3–6 weeks"],
+        ["Scope", "One critical question", "A whole product or feature area"],
+        ["User contact", "5 test interviews", "10–20 interviews plus data review"],
+        ["Best when", "The team must choose between options", "The problem itself is unclear"]
+      ]
+    },
+    {
+      "h2": "When should a team run a design sprint?",
+      "format": "cards",
+      "answer": "<strong>A design sprint pays off in 4 situations.</strong>",
+      "items": [
+        { "title": "Before a big build", "body": "Test the riskiest part of a new product before engineers commit months to it." },
+        { "title": "When the team is stuck", "body": "End a long debate between options with evidence from real users." },
+        { "title": "Before fundraising", "body": "Bring tested evidence of user demand to investor meetings." },
+        { "title": "New AI features", "body": "Test whether users trust and use an AI feature; an AI product discovery workshop covers the wider choice." }
+      ]
+    },
+    {
+      "h2": "How much does a design sprint cost?",
+      "format": "paragraph",
+      "answer": "<strong>A design sprint with our team costs $12,000 to $25,000, including recruiting 5 test users.</strong> Remote sprints sit at the lower end; on-site sprints with travel sit at the upper end.",
+      "body": "<p>The price covers a facilitator, two designers, the prototype, user recruiting and a findings report. Teams that need ongoing design after the sprint work with our <a href=\"/services/product-design-agency/\">product design agency</a> team or <a href=\"/services/hire-ui-ux-designers/\">hire UI UX designers</a> monthly. All ranges sit in the <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide.</p>"
+    },
+    {
+      "h2": "Design sprint FAQs",
+      "format": "faq",
+      "answer": "<strong>Answers to common questions about running a design sprint.</strong>",
+      "faqs": [
+        { "q": "Can a design sprint run remotely?", "a": "<p>Yes. We run remote sprints in FigJam and Figma, with shorter daily sessions spread over 5 days.</p>" },
+        { "q": "Who needs to attend the design sprint?", "a": "<p>A decision maker, plus 3 to 5 people from product, engineering, sales or support for the first 3 days.</p>" },
+        { "q": "Do you recruit the test users?", "a": "<p>Yes. We recruit 5 users who match your target customer, or invite your own customers if you prefer.</p>" },
+        { "q": "Is a design sprint useful for an existing product?", "a": "<p>Yes. Sprints work well for big new features, pricing changes or a redesign of a key workflow.</p>" }
+      ]
+    }
+  ],
+  "faqs": [],
+  "semantic": {
+    "entities": ["design sprint", "Google Ventures", "Jake Knapp", "prototype", "user testing", "FigJam"],
+    "ngrams": ["design sprint", "5 days", "prototype", "test users", "storyboard"],
+    "skipgrams": [],
+    "nlpKeywords": ["facilitation", "decision", "sketch", "map", "interviews"]
+  },
+  "mentions": ["Google Ventures", "Jake Knapp", "Sprint", "Figma", "FigJam"],
+  "relatedServices": ["mvp-design-agency", "product-design-agency", "ai-product-discovery-workshop"]
+}

@@ -5,7 +5,7 @@ import { ServiceAccordion } from "@/components/sections/ServiceAccordion";
 import { PageHero } from "@/components/sections/PageHero";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { formInterests, home } from "@/content/home";
-import { anchorOf, servicesByCategory } from "@/lib/content";
+import { anchorOf, pillarOf, servicesByCategory } from "@/lib/content";
 import { collectionLd, pageMetadata } from "@/lib/seo";
 import { cap, routes } from "@/lib/site";
 import type { ServiceCategory } from "@/lib/types";
@@ -30,6 +30,12 @@ const INTRO: Record<ServiceCategory, string> = {
 
 const idOf = (c: string) => c.toLowerCase().replace(/[^a-z]+/g, "-");
 
+/** Link from a category block to its pillar page, when the category has one */
+function overviewOf(g: { category: ServiceCategory }) {
+  const p = pillarOf(g);
+  return p && { href: routes.service(p.slug), label: `${cap(p.anchor)} overview` };
+}
+
 export default function ServicesHub() {
   const groups = servicesByCategory();
   return (
@@ -43,7 +49,14 @@ export default function ServicesHub() {
       />
       <CategoryTabs items={groups.map((g) => ({ id: idOf(g.category), label: g.category }))} />
       {groups.map((g) => (
-        <ServiceAccordion key={g.category} id={idOf(g.category)} heading={g.category} intro={INTRO[g.category]} services={g.services} />
+        <ServiceAccordion
+          key={g.category}
+          id={idOf(g.category)}
+          heading={g.category}
+          intro={INTRO[g.category]}
+          services={g.services}
+          overview={overviewOf(g)}
+        />
       ))}
       <CtaBand {...home.ctaBand} />
       <FinalCta testimonial={home.testimonial}>

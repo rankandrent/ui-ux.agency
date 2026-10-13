@@ -21,12 +21,12 @@
     "Cost factors",
     "Engagement models"
   ],
-  "abstract": "UI UX design cost at an agency ranges from $15,000 for a minimum viable product (MVP) design to $200,000 for a full SaaS product redesign, or $15,000 to $40,000 per month for a dedicated team. This guide from ui-ux.agency, the design team of tkxel, lists the user experience (UX) and user interface (UI) price ranges we quote and the 6 factors that set each price.",
+  "abstract": "UI UX design cost at an agency ranges from $8,000 for an AI discovery workshop and $15,000 for a minimum viable product (MVP) design to $200,000 for a full SaaS product redesign, or $15,000 to $40,000 per month for a dedicated team. This guide from ui-ux.agency, the design team of tkxel, lists the user experience (UX) and user interface (UI) price ranges we quote and the 6 factors that set each price.",
   "sections": [
     {
       "h2": "How much does UI UX design cost in 2026?",
       "format": "table",
-      "answer": "<strong>UI UX design cost at our agency starts at $15,000 for a focused project and reaches $200,000 for a full platform redesign.</strong> The table lists the range for each engagement we run.",
+      "answer": "<strong>UI UX design cost at our agency starts at $8,000 for a discovery workshop and reaches $200,000 for a full platform redesign.</strong> The table lists the range for each engagement we run.",
       "caption": "UI UX design cost by engagement at ui-ux.agency",
       "columns": [
         "Engagement",
@@ -34,6 +34,16 @@
         "Timeline"
       ],
       "rows": [
+        [
+          "AI product discovery workshop",
+          "$8,000–$20,000",
+          "1–2 weeks"
+        ],
+        [
+          "Design sprint",
+          "$12,000–$25,000",
+          "5 days"
+        ],
         [
           "MVP design",
           "$15,000–$50,000",
@@ -43,6 +53,11 @@
           "Chatbot UI design",
           "$15,000–$60,000",
           "3–8 weeks"
+        ],
+        [
+          "SaaS onboarding design",
+          "$15,000–$45,000",
+          "3–6 weeks"
         ],
         [
           "AI UX design",

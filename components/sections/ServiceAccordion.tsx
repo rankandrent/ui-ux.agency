@@ -3,7 +3,7 @@ import { routes, cap } from "@/lib/site";
 import type { Service } from "@/lib/types";
 
 /** Category block: title + intro on the left, accordion of services on the right */
-export function ServiceAccordion({ id, heading, intro, services }: { id: string; heading: string; intro: string; services: Service[] }) {
+export function ServiceAccordion({ id, heading, intro, services, overview }: { id: string; heading: string; intro: string; services: Service[]; overview?: { href: string; label: string } }) {
   return (
     <section className="svc-cat" id={id} aria-labelledby={`${id}-h`}>
       <div className="container svc-cat__inner">
@@ -11,6 +11,7 @@ export function ServiceAccordion({ id, heading, intro, services }: { id: string;
           <span className="tk-eyebrow">{services.length} services</span>
           <h2 id={`${id}-h`}>{heading}</h2>
           <p>{intro}</p>
+          {overview && <Link href={overview.href} className="svc-acc__link">{overview.label} →</Link>}
         </div>
         <div className="svc-acc">
           {services.map((s, i) => {

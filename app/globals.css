@@ -908,6 +908,9 @@ html, body { overflow-x: clip; }
 .mega__special { border-top: 1px solid rgba(255,255,255,0.14); margin-top: 32px; padding-top: 32px; }
 .mega__grid { grid-template-columns: repeat(3, 1fr); gap: 6px 32px !important; }
 .mega a.mega__all { color: var(--brand-l) !important; font-weight: 600; font-size: 15px !important; }
+/* category label that links to its pillar page: keep the heading style */
+.mega .mega__col .mega__cat a { display: inline; padding: 0; margin: 0; color: #fff !important; font: inherit; font-size: inherit !important; }
+.mega .mega__col .mega__cat a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .mega--ind { width: 760px; }
 .mega--ind .mega__special { margin-top: 24px; padding-top: 20px; }
 .mega__foot { display: none; }
