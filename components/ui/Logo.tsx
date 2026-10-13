@@ -1,14 +1,12 @@
-/** Brand mark (a "U" drawn as a pen-tool path with anchor points) plus the wordmark.
+/** Brand mark (a bold "u" with a square full stop, after the "." in ui-ux.agency) plus the wordmark.
  * The wordmark is an image (vector paths, no text) so search engines read the brand as
  * "ui-ux.agency" (its alt) instead of reading the stylised letters. */
 export function LogoMark({ size = 32 }: { size?: number }) {
   return (
     <svg className="logo__mark" width={size} height={size} viewBox="0 0 32 32" aria-hidden="true" focusable="false">
       <rect width="32" height="32" rx="9" fill="#0755E9" />
-      <path d="M10 9.5v6.5a6 6 0 0 0 12 0V9.5" fill="none" stroke="#fff" strokeWidth="2.6" strokeLinecap="round" />
-      <rect x="7.4" y="6.9" width="5.2" height="5.2" rx="1.3" fill="#0755E9" stroke="#fff" strokeWidth="1.8" />
-      <rect x="19.4" y="6.9" width="5.2" height="5.2" rx="1.3" fill="#0755E9" stroke="#fff" strokeWidth="1.8" />
-      <circle cx="16" cy="22" r="1.9" fill="#fff" />
+      <path fill="#fff" d="M12.85 22.74L12.85 22.74Q11.40 22.74 10.38 22.11Q9.36 21.48 8.83 20.36Q8.30 19.24 8.30 17.74L8.30 17.74L8.30 10.46L11.60 10.46L11.60 17.48Q11.60 18.16 11.88 18.68Q12.15 19.20 12.66 19.48Q13.16 19.77 13.80 19.77L13.80 19.77Q14.46 19.77 14.95 19.48Q15.45 19.20 15.72 18.68Q16 18.16 16 17.48L16 17.48L16 10.46L19.30 10.46L19.30 22.47L16.22 22.47L16.22 21.02Q15.80 21.79 15.05 22.21L15.05 22.21Q14.11 22.74 12.85 22.74Z" />
+      <rect x="20.90" y="18.54" width="4.2" height="4.2" rx="1.1" fill="#fff" />
     </svg>
   );
 }
@@ -18,7 +16,7 @@ export function Logo({ size = 32, tone = "dark" }: { size?: number; tone?: "dark
     <span className="logo">
       <LogoMark size={size} />
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img className="logo__img" src={`/brand/logo/wordmark-${tone}.svg`} alt="ui-ux.agency" width={516} height={114} />
+      <img className="logo__img" src={`/brand/logo/wordmark-${tone}.svg`} alt="ui-ux.agency" width={643} height={105} />
     </span>
   );
 }

@@ -4,7 +4,7 @@ export const ogSize = { width: 1200, height: 630 };
 export const ogContentType = "image/png";
 
 /** Branded 1200×630 social card, rendered at build time */
-export function ogImage(title: string, eyebrow = "UI UX design services") {
+export function ogImage(title: string, eyebrow = "UI UX design agency") {
   return new ImageResponse(
     (
       <div
@@ -23,7 +23,7 @@ export function ogImage(title: string, eyebrow = "UI UX design services") {
         <div style={{ display: "flex", fontSize: 26, letterSpacing: 4, textTransform: "uppercase", color: "#5B8DF5" }}>{eyebrow}</div>
         <div style={{ display: "flex", fontSize: title.length > 60 ? 60 : 72, fontWeight: 800, lineHeight: 1.08, letterSpacing: -2 }}>{title}</div>
         <div style={{ display: "flex", fontSize: 30, fontWeight: 700 }}>
-          ui-ux<span style={{ color: "#0755E9" }}>.agency</span>
+          ui-ux<span style={{ color: "#5B8DF5" }}>.agency</span>
         </div>
       </div>
     ),

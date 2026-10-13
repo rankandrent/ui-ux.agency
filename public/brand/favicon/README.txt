@@ -1,4 +1,4 @@
-Favicon pack: uiux design (UI UX Design Services)
+Favicon pack: ui-ux.agency
 
 Upload all files to your site root and add to <head>:
 <link rel="icon" href="/favicon.ico" sizes="48x48">
