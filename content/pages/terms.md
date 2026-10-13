@@ -1,58 +1,54 @@
 ---
 title: "Terms of Service"
-metaTitle: "Terms of Service | Website Use, Content & Disclaimers"
-description: "The terms that apply when you use the ui-ux.agency website, including content use, links, disclaimers and governing law."
+metaTitle: "Terms of Service | ui-ux.agency"
+description: "The rules for using the ui-ux.agency website: what you may do with our content, what our pages promise and do not promise, and which law applies."
 ---
 
-*Last updated: October 1, 2026*
+*Effective date: October 13, 2026*
 
-These Terms of Service ("Terms") govern your use of ui-ux.agency (the "Site"), operated by UI-UX.agency ("we", "us", "our"). By using the Site, you agree to these Terms. If you do not agree, please do not use the Site.
+These terms apply when you browse ui-ux.agency, the website of the UI UX design agency of tkxel ("we", "us"). Using the site means you accept them. How we treat your personal data is covered separately in our [privacy policy](/privacy/).
 
-## Use of the Site
+## Using the site
 
-You may use the Site to learn about our services and to contact us. You agree not to:
+You may read, share and link to our pages. You may not:
 
-- use the Site for any unlawful purpose
-- try to gain unauthorized access to the Site or its systems
-- interfere with the Site's operation, for example by sending malware or excessive automated requests
-- submit false information through our forms
+- copy our articles, guides, case studies or images into another website or product
+- scrape the site at a rate that slows it down for other visitors
+- try to break into the site, its forms or the systems behind them
+- send form submissions that are false, abusive or meant to sell to us
 
-## Our services
+## Information on the site is not an offer
 
-Information on the Site, including service descriptions, timelines and price ranges, is provided for general guidance. It is not an offer or a contract. Every engagement is governed by a separate written proposal or agreement, which takes precedence over the Site.
+Our service pages, guides and cost ranges explain how we usually work and what projects usually cost. They help you plan; they are not a quote. Every engagement starts with a free consultation and a written proposal, and the signed proposal or contract decides scope, price and timeline.
 
-## Intellectual property
+## Our content
 
-The Site and its content, including text, graphics, logos, illustrations and case-study materials, are owned by us or our clients and partners and are protected by intellectual property laws. Client names, logos and product screens appear with permission and remain the property of their owners. You may view and share links to the Site for personal or internal business use, but you may not copy, modify or republish its content without our written permission.
+The text, illustrations, case studies, logos and code of this site belong to tkxel or to the clients and partners who allowed us to show their work. Client names and logos remain the property of those clients. Short quotes with a link back to the original page are fine.
 
-## Your submissions
+## What you send us
 
-When you send us information through the Site, you confirm that it is accurate and that you have the right to share it. We handle personal information as described in our [Privacy Policy](/privacy/).
+When you send us a brief or project description through a form, you keep the rights to it. We use it only to reply, scope the work and prepare a proposal, as described in the [privacy policy](/privacy/). Please do not send passwords or confidential files through the forms; we will share a secure way to exchange them if needed.
 
-## Third-party links
+## Links to other sites
 
-The Site may link to third-party websites. We do not control those websites and are not responsible for their content or practices.
+Our guides link to tools, studies and other companies' websites. We do not control those sites, and a link is not an endorsement.
 
-## Disclaimer
+## No warranty
 
-The Site is provided "as is" and "as available". To the fullest extent permitted by law, we make no warranties of any kind about the Site, including warranties of accuracy, availability or fitness for a particular purpose.
+We work to keep every page accurate and current, but the site is provided as it is. We do not promise that it will always be available or free of errors.
 
-## Limitation of liability
+## Limits of our liability
 
-To the fullest extent permitted by law, we are not liable for any indirect, incidental, special or consequential damages arising from your use of the Site. Nothing in these Terms limits liability that cannot be limited under applicable law.
+As far as the law allows, we are not liable for indirect or consequential losses that come from using the site or relying on its general information. Work we do for clients is governed by the contract for that work, not by these terms.
 
 ## Governing law
 
-These Terms are governed by the laws of the Commonwealth of Virginia, United States, without regard to its conflict-of-law rules. Any dispute relating to the Site will be brought in the state or federal courts located in Virginia.
+These terms are governed by the laws of the Commonwealth of Virginia, United States. Any dispute about the site goes to the courts of Fairfax County, Virginia.
 
-## Changes to these Terms
+## Changes
 
-We may update these Terms from time to time. The "Last updated" date at the top shows when they last changed. Continued use of the Site after a change means you accept the updated Terms.
+We update these terms when the site or the law changes, and the effective date above shows the latest version.
 
-## Contact us
+## Contact
 
-UI-UX.agency
-11921 Freedom Drive, Two Fountain Square, Center Ste 550
-Reston, VA 20190, United States
-
-Questions about these Terms can be sent through the [contact page](/contact/).
+Questions about these terms: [hello@ui-ux.agency](mailto:hello@ui-ux.agency), or ui-ux.agency (tkxel), 11921 Freedom Drive, Two Fountain Square, Center Ste 550, Reston, VA 20190.

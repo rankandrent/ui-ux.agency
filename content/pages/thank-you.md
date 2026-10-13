@@ -1,12 +1,20 @@
 ---
 title: "Thank you"
-metaTitle: "Thank You: Your Message Reached Our Design Team"
-description: "Thanks for contacting UI-UX.agency. A design lead will reply within one business day with next steps for your project."
+metaTitle: "Thanks, We Got Your Message | ui-ux.agency"
+description: "Your message reached ui-ux.agency. A senior designer will reply within one business day with a few questions and times for a free consultation."
 noindex: true
 ---
 
-## We have your message
+## Your message is with our design team
 
-Thanks for getting in touch. A design lead will reply within one business day, usually with a few questions about your product and a time for a free consultation.
+A senior designer reads every enquiry and replies within one business day. Expect a short email with two or three questions about your product and a few times for a free consultation.
 
-While you wait, browse our [case studies](/case-studies/) or read about our [UI UX design services](/services/).
+## What happens next
+
+1. **We reply** with questions and call times, usually the same day.
+2. **We talk** for about 45 minutes about your users, goals and timeline.
+3. **You get a written proposal** with scope, team, timeline and a fixed price or monthly rate.
+
+## While you wait
+
+See how we approached similar products in our [case studies](/case-studies/), or check typical budgets in the [UI UX design cost](/services/ui-ux-design-cost/) guide.

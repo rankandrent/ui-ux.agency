@@ -1,79 +1,73 @@
 ---
 title: "Privacy Policy"
-metaTitle: "Privacy Policy | How We Handle Your Personal Data"
-description: "How UI-UX.agency collects, uses and protects the personal information you share through our website and contact forms."
+metaTitle: "Privacy Policy | ui-ux.agency"
+description: "What personal data ui-ux.agency collects through its forms and website, why we keep it, who processes it and how to ask us to delete it."
 ---
 
-*Last updated: October 1, 2026*
+*Effective date: October 13, 2026*
 
-This Privacy Policy explains how UI-UX.agency ("we", "us", "our") collects, uses and protects personal information when you visit ui-ux.agency (the "Site") or contact us through it. The rules for using the Site itself are in our [terms of service](/terms/), and you can read who we are on our [about page](/about/).
+ui-ux.agency is the UI UX design agency of tkxel. This policy covers the ui-ux.agency website and the forms on it. It says what we collect, why, who helps us process it, and what you can ask us to do with it. The rules for using the site are in our [terms of service](/terms/).
 
-## Information we collect
+## What we collect
 
-**Information you give us.** When you fill in a contact, consultation or download form, we collect the details you enter, such as:
+**What you type into a form.** Our consultation, contact and checklist forms ask for some or all of the following:
 
-- your name, work email address and phone number
-- your company, job title and the service you are interested in
-- the project description and any other message you send
+- name, work email and phone number
+- job title and the service you are interested in
+- a description of your project
+- whether you agree to receive our marketing emails
 
-**Information collected automatically.** Like most websites, our hosting provider records basic technical data when you visit, such as your IP address, browser type, device type, pages visited and the date and time of the visit. This data is used to deliver and secure the Site.
+Each form also records which page and which form you used, so we know what you were reading when you wrote to us.
 
-## How we use your information
+**What your browser sends.** When you load a page, our hosting provider receives standard request data: IP address, browser and device type, the page requested and the time. We do not run advertising trackers.
 
-We use personal information to:
+**Analytics.** When we turn on Microsoft Clarity, it records anonymized clicks, scrolls and page interactions so we can see where our pages confuse people. Clarity masks the text you type into forms.
 
-- reply to your enquiry and schedule consultations
-- prepare proposals and deliver the services you request
-- send the resources you ask for, such as checklists
-- send occasional updates when you opt in; every email includes an unsubscribe link
-- operate, secure and improve the Site
-- comply with legal obligations
+## Why we use it
 
-We do not sell your personal information, and we do not share it for cross-context behavioral advertising.
+- **To answer you.** Your form details go to our sales team by email so a designer can reply, usually within one business day.
+- **To prepare a proposal.** We use your project description to scope the work and suggest a team.
+- **To send updates you asked for.** We email design guides and news only if you ticked the marketing box, and every email has an unsubscribe link.
+- **To keep the site working and safe.** Request data helps us block abuse and fix errors.
+- **To improve our pages.** Analytics shows which pages help visitors and which do not.
 
-## How we share information
+We do not sell personal data, and we do not use it for automated decisions about you.
 
-We share personal information only with service providers that help us run our business, such as website hosting, form processing and email providers. These providers may use the information only to perform services for us. We may also disclose information when the law requires it or to protect our rights.
+## Who processes it for us
+
+- **Cloudflare** hosts the site and delivers form submissions to our inbox.
+- **Microsoft** (Clarity and our business email) stores analytics and the emails we receive.
+- **tkxel**, our parent company, may see your enquiry when you ask for development work as well as design.
+
+Each of them processes data only to provide its service to us. We share data with others only when the law requires it.
+
+## How long we keep it
+
+We keep enquiry emails for as long as we are discussing or delivering work with you, and for up to three years after our last contact. Marketing consent lasts until you withdraw it. Analytics data follows Microsoft Clarity's own retention period.
+
+## Your choices and rights
+
+You can ask us to:
+
+- show you the personal data we hold about you
+- correct it
+- delete it
+- stop sending you marketing emails
+
+Email [hello@ui-ux.agency](mailto:hello@ui-ux.agency) and we will reply within 30 days. Depending on where you live, laws such as the California Consumer Privacy Act or the GDPR give you further rights, and we honor them.
 
 ## Cookies
 
-The Site does not use advertising cookies. We use Microsoft Clarity to understand how visitors use the Site. Clarity sets first-party and third-party cookies and records how pages are used (for example clicks, scrolling and mouse movement) to produce heatmaps and session replays; text you type into form fields is masked. Microsoft processes this data under the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). You can block these cookies in your browser settings.
+The site sets no cookies of its own. Microsoft Clarity, when enabled, sets cookies to tell one visit from another. You can block them in your browser settings and the site will still work.
 
-## Data retention
+## Children
 
-We keep enquiry and client information for as long as needed to respond to you, deliver our services and meet legal, accounting and contractual requirements. We then delete or anonymize it.
-
-## Security
-
-We use reasonable technical and organizational measures to protect personal information, including encrypted HTTPS connections. No method of transmission or storage is completely secure, so we cannot guarantee absolute security.
-
-## Your rights
-
-Depending on where you live, including California and other US states with privacy laws, you have the right to:
-
-- know what personal information we hold about you
-- ask us to correct or delete it
-- opt out of marketing emails at any time
-- not be discriminated against for exercising these rights
-
-To make a request, contact us through the [contact page](/contact/). We will verify your request and respond within the time the law requires.
-
-## Children's privacy
-
-The Site is intended for businesses and is not directed to children under 13. We do not knowingly collect personal information from children.
-
-## Links to other websites
-
-The Site may link to other websites, such as LinkedIn. We are not responsible for the privacy practices of those websites.
+This site is for businesses. We do not knowingly collect data from anyone under 16.
 
 ## Changes to this policy
 
-We may update this Privacy Policy from time to time. The "Last updated" date at the top shows when it last changed.
+When we change how we handle data, we update this page and its effective date.
 
-## Contact us
+## Contact
 
-UI-UX.agency
-11921 Freedom Drive, Two Fountain Square, Center Ste 550
-Reston, VA 20190, United States
-
-You can also reach us through the [contact page](/contact/).
+ui-ux.agency (tkxel), 11921 Freedom Drive, Two Fountain Square, Center Ste 550, Reston, VA 20190, United States. Email [hello@ui-ux.agency](mailto:hello@ui-ux.agency).
