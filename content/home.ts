@@ -16,7 +16,7 @@ export const home = {
       "UI UX design agency for AI products, SaaS platforms and startup MVPs. Senior designers, tested prototypes and build support from tkxel.",
   },
   hero: {
-    eyebrow: "UI UX design agency · by tkxel",
+    eyebrow: "UI UX design agency",
     h1Before: "The UI UX design agency for ",
     h1Em: "AI, SaaS and startup products",
     sub: "We design AI features people trust, SaaS products customers renew, and MVPs founders can test in weeks. Our designers work next to tkxel engineers, so what we design gets built.",
