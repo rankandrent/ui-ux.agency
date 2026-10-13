@@ -16,6 +16,7 @@ import {
 import { IndustryTabs } from "@/components/sections/IndustryTabs";
 import { StatsRow } from "@/components/sections/PageHero";
 import { Process } from "@/components/sections/Process";
+import { TeamColumns } from "@/components/sections/TeamColumns";
 import { WorkGrid, WorkRail } from "@/components/sections/WorkCards";
 import { JsonLd } from "@/components/ui/JsonLd";
 import { formInterests, home } from "@/content/home";
@@ -70,16 +71,7 @@ export default function HomePage() {
               </div>
               <StatsRow items={home.hero.stats} />
             </div>
-            <aside className="hportrait" aria-label={`Talk to ${home.hero.contact.name}`}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={home.hero.contact.photo} alt={`${home.hero.contact.name}, ${home.hero.contact.role}`} width={400} height={400} loading="eager" fetchPriority="high" decoding="async" />
-              <span className="hportrait__badge"><span className="hportrait__dot" aria-hidden="true" />Available for a call</span>
-              <div className="hportrait__info">
-                <p className="hportrait__name">{home.hero.contact.name}</p>
-                <p className="hportrait__role">{home.hero.contact.role} · {home.hero.contact.note}</p>
-                <a href="#cta-form" className="btn hportrait__btn">{home.hero.contact.cta}</a>
-              </div>
-            </aside>
+            <TeamColumns />
           </div>
           <WorkRail items={cases} id="home-rail" />
         </div>

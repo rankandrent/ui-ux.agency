@@ -20,13 +20,6 @@ export const home = {
     h1Before: "The UI UX design agency for ",
     h1Em: "AI, SaaS and startup products",
     sub: "We design AI features people trust, SaaS products customers renew, and MVPs founders can test in weeks. Our designers work next to tkxel engineers, so what we design gets built.",
-    contact: {
-      name: "Sahar Asif",
-      role: "Senior Manager UX",
-      photo: "/team/sahar-asif-lg.webp",
-      note: "Replies within 1 business day",
-      cta: "Talk to Sahar",
-    },
     stats: [
       { value: "200+", label: "Digital products designed" },
       { value: `${yearsInBusiness}+ yrs`, label: "Product design since 2017" },
