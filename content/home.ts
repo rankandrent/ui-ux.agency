@@ -255,5 +255,6 @@ export const formInterests = [
   "MVP design",
   "Product design",
   "Dedicated designers",
+  "Hire a product designer",
   "Not sure yet",
 ];

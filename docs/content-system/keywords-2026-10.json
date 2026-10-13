@@ -1,0 +1,1581 @@
+{
+ "source": "Ahrefs Keywords Explorer v3, country=us",
+ "pulled": "2026-10-13",
+ "hire": [
+  {
+   "keyword": "hire web designer",
+   "volume": 1000,
+   "difficulty": 14,
+   "parent_topic": "website designer",
+   "traffic_potential": 11000
+  },
+  {
+   "keyword": "hire ui designer",
+   "volume": 400,
+   "difficulty": 0,
+   "parent_topic": "hire ui designer",
+   "traffic_potential": 900
+  },
+  {
+   "keyword": "hire ui designers",
+   "volume": 350,
+   "difficulty": 0,
+   "parent_topic": "hire ux designers",
+   "traffic_potential": 600
+  },
+  {
+   "keyword": "hire ui ux designers",
+   "volume": 300,
+   "difficulty": 0,
+   "parent_topic": "hire ui designer",
+   "traffic_potential": 900
+  },
+  {
+   "keyword": "hire ui ux designer",
+   "volume": 250,
+   "difficulty": 0,
+   "parent_topic": "hire ui designer",
+   "traffic_potential": 1400
+  },
+  {
+   "keyword": "hire ux designer",
+   "volume": 250,
+   "difficulty": 0,
+   "parent_topic": "hire ui designer",
+   "traffic_potential": 1100
+  },
+  {
+   "keyword": "hire ux designers",
+   "volume": 250,
+   "difficulty": 0,
+   "parent_topic": "hire ux designers",
+   "traffic_potential": 700
+  },
+  {
+   "keyword": "hire product designer",
+   "volume": 200,
+   "difficulty": 2,
+   "parent_topic": "hire product designer",
+   "traffic_potential": 250
+  },
+  {
+   "keyword": "ai ux designer",
+   "volume": 150,
+   "difficulty": 36,
+   "parent_topic": "ux and ai",
+   "traffic_potential": 300
+  },
+  {
+   "keyword": "ai product designer",
+   "volume": 150,
+   "difficulty": 0,
+   "parent_topic": "why product management",
+   "traffic_potential": 70
+  },
+  {
+   "keyword": "ui designer for hire",
+   "volume": 150,
+   "difficulty": 0,
+   "parent_topic": "freelance ux designer",
+   "traffic_potential": 1100
+  },
+  {
+   "keyword": "ux designer for hire",
+   "volume": 150,
+   "difficulty": 5,
+   "parent_topic": "how to hire a ux designer",
+   "traffic_potential": 800
+  },
+  {
+   "keyword": "hire app designer",
+   "volume": 150,
+   "difficulty": 0,
+   "parent_topic": "app design services",
+   "traffic_potential": 300
+  },
+  {
+   "keyword": "hire mobile app designer",
+   "volume": 100,
+   "difficulty": 0,
+   "parent_topic": "hire mobile app designer",
+   "traffic_potential": 150
+  },
+  {
+   "keyword": "product designer for hire",
+   "volume": 100,
+   "difficulty": 0,
+   "parent_topic": "hire product designer",
+   "traffic_potential": 150
+  },
+  {
+   "keyword": "hire product designers",
+   "volume": 90,
+   "difficulty": 0,
+   "parent_topic": "hire product designer",
+   "traffic_potential": 300
+  },
+  {
+   "keyword": "hire a ux designer",
+   "volume": 80,
+   "difficulty": 2,
+   "parent_topic": "hire ui ux designers",
+   "traffic_potential": 1400
+  },
+  {
+   "keyword": "saas designer",
+   "volume": 80,
+   "difficulty": 1,
+   "parent_topic": "saas designer",
+   "traffic_potential": 0
+  },
+  {
+   "keyword": "hire freelance ux designer",
+   "volume": 70,
+   "difficulty": 3,
+   "parent_topic": "ux designer for hire",
+   "traffic_potential": 800
+  },
+  {
+   "keyword": "hire saas designer",
+   "volume": 70,
+   "difficulty": 0,
+   "parent_topic": "saas designers",
+   "traffic_potential": 150
+  },
+  {
+   "keyword": "hire dedicated ui ux designer",
+   "volume": 70,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "hire a ui designer",
+   "volume": 70,
+   "difficulty": 0,
+   "parent_topic": "hire ui designer",
+   "traffic_potential": 900
+  },
+  {
+   "keyword": "hire a product designer",
+   "volume": 60,
+   "difficulty": 0,
+   "parent_topic": "hire product designers",
+   "traffic_potential": 150
+  },
+  {
+   "keyword": "hire ux ui designer",
+   "volume": 40,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "hire freelance product designer",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "hire ai designer",
+   "volume": 20,
+   "difficulty": 39,
+   "parent_topic": "graphic design services",
+   "traffic_potential": null
+  },
+  {
+   "keyword": "saas product designer",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  }
+ ],
+ "cities": [
+  {
+   "keyword": "ux agency los angeles",
+   "volume": 200,
+   "difficulty": 1,
+   "parent_topic": "ui ux design companies",
+   "traffic_potential": 400
+  },
+  {
+   "keyword": "ux design agency los angeles",
+   "volume": 200,
+   "difficulty": 0,
+   "parent_topic": "ui design company",
+   "traffic_potential": 300
+  },
+  {
+   "keyword": "ux agency new york",
+   "volume": 200,
+   "difficulty": 1,
+   "parent_topic": "ux agency new york",
+   "traffic_potential": 30
+  },
+  {
+   "keyword": "ux design agency nyc",
+   "volume": 200,
+   "difficulty": 4,
+   "parent_topic": "ux agency new york",
+   "traffic_potential": 50
+  },
+  {
+   "keyword": "ux design agency san francisco",
+   "volume": 150,
+   "difficulty": 2,
+   "parent_topic": "ui ux design agency",
+   "traffic_potential": 1900
+  },
+  {
+   "keyword": "ux agency nyc",
+   "volume": 150,
+   "difficulty": 41,
+   "parent_topic": "ux agency",
+   "traffic_potential": 2000
+  },
+  {
+   "keyword": "ux design agency chicago",
+   "volume": 150,
+   "difficulty": 0,
+   "parent_topic": "ux 4sight",
+   "traffic_potential": 70
+  },
+  {
+   "keyword": "ux design agency new york",
+   "volume": 100,
+   "difficulty": 12,
+   "parent_topic": "ui ux design companies",
+   "traffic_potential": 100
+  },
+  {
+   "keyword": "ux designer san francisco",
+   "volume": 100,
+   "difficulty": 0,
+   "parent_topic": "ux designer san francisco",
+   "traffic_potential": 150
+  },
+  {
+   "keyword": "ux agency san francisco",
+   "volume": 100,
+   "difficulty": 40,
+   "parent_topic": "ux ui design agency",
+   "traffic_potential": 2200
+  },
+  {
+   "keyword": "ux agency chicago",
+   "volume": 100,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design washington dc",
+   "volume": 100,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux designer nyc",
+   "volume": 90,
+   "difficulty": 0,
+   "parent_topic": "ux designer job",
+   "traffic_potential": 200
+  },
+  {
+   "keyword": "ux design agency sf",
+   "volume": 90,
+   "difficulty": 0,
+   "parent_topic": "ui design agency san francisco",
+   "traffic_potential": 1200
+  },
+  {
+   "keyword": "ux design san francisco",
+   "volume": 80,
+   "difficulty": 0,
+   "parent_topic": "ui design jobs",
+   "traffic_potential": 150
+  },
+  {
+   "keyword": "ux agency denver",
+   "volume": 80,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design denver",
+   "volume": 80,
+   "difficulty": 0,
+   "parent_topic": "brady haynes",
+   "traffic_potential": 0
+  },
+  {
+   "keyword": "ux design agency bay area",
+   "volume": 70,
+   "difficulty": 0,
+   "parent_topic": "ux design agency bay area",
+   "traffic_potential": 10
+  },
+  {
+   "keyword": "ui ux design agency new york",
+   "volume": 70,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "product design agency san francisco",
+   "volume": 70,
+   "difficulty": 70,
+   "parent_topic": "huge design",
+   "traffic_potential": 40
+  },
+  {
+   "keyword": "ux design chicago",
+   "volume": 70,
+   "difficulty": 0,
+   "parent_topic": "user experience chicago",
+   "traffic_potential": 60
+  },
+  {
+   "keyword": "ux agency minneapolis",
+   "volume": 70,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design seattle",
+   "volume": 60,
+   "difficulty": 1,
+   "parent_topic": "ux design jobs seattle",
+   "traffic_potential": 200
+  },
+  {
+   "keyword": "ux design nyc",
+   "volume": 60,
+   "difficulty": 76,
+   "parent_topic": "ux design jobs",
+   "traffic_potential": 500
+  },
+  {
+   "keyword": "ux design company seattle",
+   "volume": 50,
+   "difficulty": 0,
+   "parent_topic": "ux designer jobs seattle",
+   "traffic_potential": 200
+  },
+  {
+   "keyword": "ux design agency boston",
+   "volume": 50,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design boston",
+   "volume": 50,
+   "difficulty": 0,
+   "parent_topic": "ux design boston",
+   "traffic_potential": 60
+  },
+  {
+   "keyword": "ux designer chicago",
+   "volume": 50,
+   "difficulty": 0,
+   "parent_topic": "user experience design chicago",
+   "traffic_potential": 300
+  },
+  {
+   "keyword": "ui ux design agency chicago",
+   "volume": 50,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design agency philadelphia",
+   "volume": 50,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "product design agency nyc",
+   "volume": 40,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design austin",
+   "volume": 40,
+   "difficulty": 0,
+   "parent_topic": "ux designer salary austin",
+   "traffic_potential": 0
+  },
+  {
+   "keyword": "ux designer los angeles",
+   "volume": 40,
+   "difficulty": 0,
+   "parent_topic": "ux design agency los angeles",
+   "traffic_potential": 70
+  },
+  {
+   "keyword": "ui ux design chicago",
+   "volume": 40,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design san diego",
+   "volume": 40,
+   "difficulty": 0,
+   "parent_topic": "ux designer san diego",
+   "traffic_potential": 90
+  },
+  {
+   "keyword": "ux design agency dc",
+   "volume": 40,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux designer san diego",
+   "volume": 40,
+   "difficulty": 0,
+   "parent_topic": "ux designer san diego",
+   "traffic_potential": 200
+  },
+  {
+   "keyword": "ux design nashville",
+   "volume": 40,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design company san francisco",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux agency boston",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux agency austin",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux designer new york",
+   "volume": 30,
+   "difficulty": 0,
+   "parent_topic": "ux designer jobs nyc",
+   "traffic_potential": 70
+  },
+  {
+   "keyword": "ux design company austin",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design company boston",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ui ux design agency los angeles",
+   "volume": 30,
+   "difficulty": 2,
+   "parent_topic": "ui/ux design agency los angeles",
+   "traffic_potential": null
+  },
+  {
+   "keyword": "product design agency los angeles",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design dc",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design company san diego",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design portland",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux designer nashville",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design agency baltimore",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux designer seattle",
+   "volume": 20,
+   "difficulty": 0,
+   "parent_topic": "ux design jobs seattle",
+   "traffic_potential": 200
+  },
+  {
+   "keyword": "ux design los angeles",
+   "volume": 20,
+   "difficulty": 76,
+   "parent_topic": "ux design los angeles",
+   "traffic_potential": 200
+  },
+  {
+   "keyword": "ui ux design los angeles",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux designer boston",
+   "volume": 20,
+   "difficulty": 0,
+   "parent_topic": "ux design boston",
+   "traffic_potential": 50
+  },
+  {
+   "keyword": "ux design agency seattle",
+   "volume": 20,
+   "difficulty": 0,
+   "parent_topic": "ux seattle",
+   "traffic_potential": 40
+  },
+  {
+   "keyword": "ux designer san jose",
+   "volume": 20,
+   "difficulty": 0,
+   "parent_topic": "ux designer san jose",
+   "traffic_potential": 10
+  },
+  {
+   "keyword": "ux design houston",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ui ux design agency atlanta",
+   "volume": 20,
+   "difficulty": 0,
+   "parent_topic": "ui ux design agency atlanta",
+   "traffic_potential": 10
+  },
+  {
+   "keyword": "ux designer atlanta",
+   "volume": 20,
+   "difficulty": 0,
+   "parent_topic": "ux jobs atlanta",
+   "traffic_potential": 40
+  },
+  {
+   "keyword": "ux design agency atlanta",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux designer houston",
+   "volume": 20,
+   "difficulty": 0,
+   "parent_topic": "ux designer houston",
+   "traffic_potential": 0
+  },
+  {
+   "keyword": "product design agency chicago",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux designer denver",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design la",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ui ux design pittsburgh",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design pittsburgh",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design company philadelphia",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design raleigh",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux designer phoenix",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux agency portland",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design agency columbus",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design new york",
+   "volume": 10,
+   "difficulty": 0,
+   "parent_topic": "ux/ui designer jobs",
+   "traffic_potential": 40
+  },
+  {
+   "keyword": "ux design agency austin",
+   "volume": 10,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ui ux design agency austin",
+   "volume": 10,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "product design agency austin",
+   "volume": 10,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "product design agency new york",
+   "volume": 10,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ui ux design agency san francisco",
+   "volume": 10,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux agency seattle",
+   "volume": 10,
+   "difficulty": 0,
+   "parent_topic": "ux seattle",
+   "traffic_potential": 40
+  },
+  {
+   "keyword": "ux designer austin",
+   "volume": 10,
+   "difficulty": 0,
+   "parent_topic": "ux design austin",
+   "traffic_potential": 10
+  },
+  {
+   "keyword": "ux design company new york",
+   "volume": 10,
+   "difficulty": 1,
+   "parent_topic": "ui/ux design firm",
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ui ux design miami",
+   "volume": 10,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux designer dallas",
+   "volume": 10,
+   "difficulty": 0,
+   "parent_topic": "ux design jobs dallas",
+   "traffic_potential": 10
+  },
+  {
+   "keyword": "ux agency san diego",
+   "volume": 10,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux design atlanta",
+   "volume": 10,
+   "difficulty": 0,
+   "parent_topic": "ui ux design services",
+   "traffic_potential": 3500
+  },
+  {
+   "keyword": "ux designer portland",
+   "volume": 10,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ux designer pittsburgh",
+   "volume": 10,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  }
+ ],
+ "industries": [
+  {
+   "keyword": "ecommerce ux",
+   "volume": 400,
+   "difficulty": 1,
+   "parent_topic": "ux ecommerce",
+   "traffic_potential": 150
+  },
+  {
+   "keyword": "fintech ux design",
+   "volume": 300,
+   "difficulty": 3,
+   "parent_topic": "fintech ux",
+   "traffic_potential": 450
+  },
+  {
+   "keyword": "healthcare app design",
+   "volume": 200,
+   "difficulty": 0,
+   "parent_topic": "health app ui design",
+   "traffic_potential": 70
+  },
+  {
+   "keyword": "ecommerce ux agency",
+   "volume": 200,
+   "difficulty": 2,
+   "parent_topic": "agency ux",
+   "traffic_potential": 250
+  },
+  {
+   "keyword": "healthcare ux design",
+   "volume": 200,
+   "difficulty": 1,
+   "parent_topic": "healthcare ux design",
+   "traffic_potential": 450
+  },
+  {
+   "keyword": "banking app design",
+   "volume": 150,
+   "difficulty": 0,
+   "parent_topic": "banking app design",
+   "traffic_potential": 100
+  },
+  {
+   "keyword": "fintech ui ux design",
+   "volume": 150,
+   "difficulty": 0,
+   "parent_topic": "fintech ui",
+   "traffic_potential": null
+  },
+  {
+   "keyword": "ecommerce app design",
+   "volume": 150,
+   "difficulty": 0,
+   "parent_topic": "ecommerce app",
+   "traffic_potential": 700
+  },
+  {
+   "keyword": "banking ux design",
+   "volume": 150,
+   "difficulty": 0,
+   "parent_topic": "ux design for fintech",
+   "traffic_potential": 450
+  },
+  {
+   "keyword": "fintech ux",
+   "volume": 150,
+   "difficulty": 0,
+   "parent_topic": "ux design for fintech",
+   "traffic_potential": 450
+  },
+  {
+   "keyword": "enterprise ux",
+   "volume": 150,
+   "difficulty": 3,
+   "parent_topic": "enterprise ux",
+   "traffic_potential": 100
+  },
+  {
+   "keyword": "ecommerce ux design agency",
+   "volume": 150,
+   "difficulty": 20,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "healthcare ux",
+   "volume": 150,
+   "difficulty": 0,
+   "parent_topic": "healthcare ux design",
+   "traffic_potential": 450
+  },
+  {
+   "keyword": "enterprise ux design",
+   "volume": 100,
+   "difficulty": 2,
+   "parent_topic": "enterprise ux",
+   "traffic_potential": 100
+  },
+  {
+   "keyword": "b2b ux design",
+   "volume": 100,
+   "difficulty": 0,
+   "parent_topic": "b2b ux design",
+   "traffic_potential": 70
+  },
+  {
+   "keyword": "ecommerce ux design",
+   "volume": 100,
+   "difficulty": 4,
+   "parent_topic": "ecommerce ux best practices",
+   "traffic_potential": 150
+  },
+  {
+   "keyword": "healthcare ux design agency",
+   "volume": 100,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "b2b ux agency",
+   "volume": 100,
+   "difficulty": 2,
+   "parent_topic": "b2b design agency",
+   "traffic_potential": null
+  },
+  {
+   "keyword": "enterprise ux design agency",
+   "volume": 100,
+   "difficulty": 0,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "fintech app design",
+   "volume": 100,
+   "difficulty": 0,
+   "parent_topic": "fintech app design",
+   "traffic_potential": 100
+  },
+  {
+   "keyword": "dashboard ux design",
+   "volume": 100,
+   "difficulty": 16,
+   "parent_topic": "dashboards",
+   "traffic_potential": 3500
+  },
+  {
+   "keyword": "dashboard ux",
+   "volume": 100,
+   "difficulty": 8,
+   "parent_topic": "dashboard ux",
+   "traffic_potential": 90
+  },
+  {
+   "keyword": "healthcare ui ux design",
+   "volume": 90,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "enterprise app design",
+   "volume": 80,
+   "difficulty": 0,
+   "parent_topic": "enterprise application example",
+   "traffic_potential": 10
+  },
+  {
+   "keyword": "b2b ux design agency",
+   "volume": 60,
+   "difficulty": 0,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "healthcare ux agency",
+   "volume": 60,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "fintech ux design agency",
+   "volume": 60,
+   "difficulty": 0,
+   "parent_topic": "fintech product design",
+   "traffic_potential": null
+  },
+  {
+   "keyword": "web3 ux design",
+   "volume": 60,
+   "difficulty": 0,
+   "parent_topic": "web3 ux",
+   "traffic_potential": null
+  },
+  {
+   "keyword": "gaming ux design",
+   "volume": 60,
+   "difficulty": 6,
+   "parent_topic": "ux designer games",
+   "traffic_potential": 60
+  },
+  {
+   "keyword": "dashboard ui ux design",
+   "volume": 60,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "logistics app design",
+   "volume": 50,
+   "difficulty": 0,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "web3 ux agency",
+   "volume": 50,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "insurance ux design",
+   "volume": 40,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "insurance ux",
+   "volume": 40,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "telehealth app design",
+   "volume": 40,
+   "difficulty": 0,
+   "parent_topic": "telehealth ux",
+   "traffic_potential": null
+  },
+  {
+   "keyword": "banking ux",
+   "volume": 40,
+   "difficulty": 1,
+   "parent_topic": "ux design for fintech",
+   "traffic_potential": 450
+  },
+  {
+   "keyword": "fintech ux agency",
+   "volume": 40,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "telehealth ux",
+   "volume": 40,
+   "difficulty": 0,
+   "parent_topic": "how do you do a telehealth visit",
+   "traffic_potential": 10
+  },
+  {
+   "keyword": "ecommerce ui ux design",
+   "volume": 40,
+   "difficulty": 0,
+   "parent_topic": "commerce-ui",
+   "traffic_potential": null
+  },
+  {
+   "keyword": "gaming ui ux design",
+   "volume": 40,
+   "difficulty": 52,
+   "parent_topic": "game ux",
+   "traffic_potential": null
+  },
+  {
+   "keyword": "gaming ux",
+   "volume": 40,
+   "difficulty": 2,
+   "parent_topic": "ui ux game design",
+   "traffic_potential": 200
+  },
+  {
+   "keyword": "insurance ux design agency",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "edtech ux",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "logistics ux",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "insurance ux agency",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "real estate ux",
+   "volume": 30,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "b2b ux",
+   "volume": 30,
+   "difficulty": 0,
+   "parent_topic": "b2b ux design",
+   "traffic_potential": 70
+  },
+  {
+   "keyword": "real estate app design",
+   "volume": 30,
+   "difficulty": 0,
+   "parent_topic": "real estate mobile app",
+   "traffic_potential": null
+  },
+  {
+   "keyword": "web3 ux",
+   "volume": 30,
+   "difficulty": 0,
+   "parent_topic": "web3 ux",
+   "traffic_potential": 10
+  },
+  {
+   "keyword": "edtech ux design",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "insurance app design",
+   "volume": 20,
+   "difficulty": 0,
+   "parent_topic": "insurance app design",
+   "traffic_potential": 10
+  },
+  {
+   "keyword": "cybersecurity ux design",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "logistics ui ux design",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "edtech app design",
+   "volume": 20,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "telehealth ux design",
+   "volume": 10,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "enterprise ux agency",
+   "volume": 10,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "real estate ux design agency",
+   "volume": 10,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "marketing ux",
+   "volume": 10,
+   "difficulty": 0,
+   "parent_topic": "ux marketing",
+   "traffic_potential": 100
+  },
+  {
+   "keyword": "marketing ux design",
+   "volume": 10,
+   "difficulty": null,
+   "parent_topic": null,
+   "traffic_potential": null
+  },
+  {
+   "keyword": "web3 ux design agency",
+   "volume": 10,
+   "difficulty": 0,
+   "parent_topic": "blockchain design agency",
+   "traffic_potential": null
+  },
+  {
+   "keyword": "dashboard app design",
+   "volume": 10,
+   "difficulty": 3,
+   "parent_topic": "dashboards",
+   "traffic_potential": 3300
+  }
+ ],
+ "blogSeeds": {
+  "saas onboarding": [
+   {
+    "keyword": "customer onboarding support for saas",
+    "volume": 1400,
+    "difficulty": null,
+    "parent_topic": null,
+    "traffic_potential": null
+   },
+   {
+    "keyword": "saas onboarding",
+    "volume": 1000,
+    "difficulty": 6,
+    "parent_topic": "customer onboarding saas",
+    "traffic_potential": 1100
+   },
+   {
+    "keyword": "saas onboarding software",
+    "volume": 350,
+    "difficulty": 0,
+    "parent_topic": "saas onboarding software",
+    "traffic_potential": 400
+   },
+   {
+    "keyword": "saas customer onboarding",
+    "volume": 300,
+    "difficulty": 4,
+    "parent_topic": "saas customer onboarding",
+    "traffic_potential": 250
+   },
+   {
+    "keyword": "customer onboarding saas",
+    "volume": 250,
+    "difficulty": 8,
+    "parent_topic": "saas onboarding",
+    "traffic_potential": 1500
+   },
+   {
+    "keyword": "saas customer onboarding checklist",
+    "volume": 200,
+    "difficulty": 5,
+    "parent_topic": "user onboarding checklist",
+    "traffic_potential": 150
+   },
+   {
+    "keyword": "what is saas onboarding",
+    "volume": 200,
+    "difficulty": 2,
+    "parent_topic": "saas onboarding",
+    "traffic_potential": 1600
+   },
+   {
+    "keyword": "saas onboarding best practices",
+    "volume": 200,
+    "difficulty": 1,
+    "parent_topic": "best saas onboarding experiences",
+    "traffic_potential": 20
+   },
+   {
+    "keyword": "saas onboarding process",
+    "volume": 200,
+    "difficulty": 4,
+    "parent_topic": "customer onboarding saas",
+    "traffic_potential": 1300
+   },
+   {
+    "keyword": "saas onboarding emails",
+    "volume": 200,
+    "difficulty": 0,
+    "parent_topic": "saas onboarding emails",
+    "traffic_potential": 30
+   },
+   {
+    "keyword": "onboarding saas",
+    "volume": 200,
+    "difficulty": 2,
+    "parent_topic": "customer onboarding saas",
+    "traffic_potential": 1200
+   },
+   {
+    "keyword": "saas customer onboarding process",
+    "volume": 200,
+    "difficulty": 12,
+    "parent_topic": "customer onboarding saas",
+    "traffic_potential": 1200
+   }
+  ],
+  "user onboarding": [
+   {
+    "keyword": "game onboarding best practices user retention",
+    "volume": 1100,
+    "difficulty": null,
+    "parent_topic": null,
+    "traffic_potential": null
+   },
+   {
+    "keyword": "user onboarding",
+    "volume": 700,
+    "difficulty": 28,
+    "parent_topic": "user onboarding",
+    "traffic_potential": 450
+   },
+   {
+    "keyword": "user onboarding software",
+    "volume": 400,
+    "difficulty": 1,
+    "parent_topic": "best user onboarding software",
+    "traffic_potential": 900
+   },
+   {
+    "keyword": "user onboarding best practices",
+    "volume": 300,
+    "difficulty": 22,
+    "parent_topic": "user onboarding best practices",
+    "traffic_potential": 40
+   },
+   {
+    "keyword": "how to simplify avd user onboarding",
+    "volume": 250,
+    "difficulty": null,
+    "parent_topic": null,
+    "traffic_potential": null
+   },
+   {
+    "keyword": "user onboarding tool",
+    "volume": 200,
+    "difficulty": 17,
+    "parent_topic": "user onboarding tool",
+    "traffic_potential": 250
+   },
+   {
+    "keyword": "user onboarding emails",
+    "volume": 200,
+    "difficulty": null,
+    "parent_topic": null,
+    "traffic_potential": null
+   },
+   {
+    "keyword": "user onboarding flow chart",
+    "volume": 200,
+    "difficulty": null,
+    "parent_topic": null,
+    "traffic_potential": null
+   },
+   {
+    "keyword": "user onboarding ux",
+    "volume": 200,
+    "difficulty": 0,
+    "parent_topic": "user onboarding best practices",
+    "traffic_potential": 3200
+   },
+   {
+    "keyword": "onboarding user flow",
+    "volume": 150,
+    "difficulty": 19,
+    "parent_topic": "user onboarding best practices",
+    "traffic_potential": 2400
+   },
+   {
+    "keyword": "user onboarding tools",
+    "volume": 150,
+    "difficulty": 12,
+    "parent_topic": "user onboarding tools",
+    "traffic_potential": 500
+   },
+   {
+    "keyword": "user onboarding flow",
+    "volume": 150,
+    "difficulty": 0,
+    "parent_topic": "user onboarding best practices",
+    "traffic_potential": 3300
+   }
+  ],
+  "customer onboarding saas": [
+   {
+    "keyword": "customer onboarding support for saas",
+    "volume": 1400,
+    "difficulty": null,
+    "parent_topic": null,
+    "traffic_potential": null
+   },
+   {
+    "keyword": "saas customer onboarding",
+    "volume": 300,
+    "difficulty": 4,
+    "parent_topic": "saas customer onboarding",
+    "traffic_potential": 250
+   },
+   {
+    "keyword": "customer onboarding saas",
+    "volume": 250,
+    "difficulty": 8,
+    "parent_topic": "saas onboarding",
+    "traffic_potential": 1500
+   },
+   {
+    "keyword": "saas customer onboarding checklist",
+    "volume": 200,
+    "difficulty": 5,
+    "parent_topic": "user onboarding checklist",
+    "traffic_potential": 150
+   },
+   {
+    "keyword": "saas customer onboarding process",
+    "volume": 200,
+    "difficulty": 12,
+    "parent_topic": "customer onboarding saas",
+    "traffic_potential": 1200
+   },
+   {
+    "keyword": "saas customer onboarding process flow",
+    "volume": 200,
+    "difficulty": 0,
+    "parent_topic": "saas onboarding",
+    "traffic_potential": 1200
+   },
+   {
+    "keyword": "saas customer onboarding software",
+    "volume": 150,
+    "difficulty": 10,
+    "parent_topic": "onboarding software",
+    "traffic_potential": 350
+   },
+   {
+    "keyword": "saas customer onboarding framework",
+    "volume": 150,
+    "difficulty": 4,
+    "parent_topic": "saas customer onboarding",
+    "traffic_potential": 200
+   },
+   {
+    "keyword": "saas customer onboarding checklist template",
+    "volume": 150,
+    "difficulty": null,
+    "parent_topic": null,
+    "traffic_potential": null
+   },
+   {
+    "keyword": "saas customer onboarding templates",
+    "volume": 100,
+    "difficulty": null,
+    "parent_topic": null,
+    "traffic_potential": null
+   },
+   {
+    "keyword": "saas customer onboarding platform",
+    "volume": 100,
+    "difficulty": null,
+    "parent_topic": null,
+    "traffic_potential": null
+   },
+   {
+    "keyword": "b2b saas customer onboarding",
+    "volume": 100,
+    "difficulty": 4,
+    "parent_topic": "saas customer onboarding",
+    "traffic_potential": 350
+   }
+  ],
+  "onboarding flow": [
+   {
+    "keyword": "onboarding flow",
+    "volume": 300,
+    "difficulty": 11,
+    "parent_topic": "user onboarding best practices",
+    "traffic_potential": 3100
+   },
+   {
+    "keyword": "client onboarding process flow",
+    "volume": 250,
+    "difficulty": 11,
+    "parent_topic": "customer onboarding best practices",
+    "traffic_potential": 1200
+   },
+   {
+    "keyword": "client onboarding process flow template",
+    "volume": 250,
+    "difficulty": null,
+    "parent_topic": null,
+    "traffic_potential": null
+   },
+   {
+    "keyword": "user onboarding flow chart",
+    "volume": 200,
+    "difficulty": null,
+    "parent_topic": null,
+    "traffic_potential": null
+   },
+   {
+    "keyword": "employee onboarding process flow",
+    "volume": 200,
+    "difficulty": 7,
+    "parent_topic": "onboarding process flow",
+    "traffic_potential": 450
+   },
+   {
+    "keyword": "saas customer onboarding process flow",
+    "volume": 200,
+    "difficulty": 0,
+    "parent_topic": "saas onboarding",
+    "traffic_potential": 1200
+   },
+   {
+    "keyword": "onboarding flow examples",
+    "volume": 200,
+    "difficulty": 0,
+    "parent_topic": "user onboarding best practices",
+    "traffic_potential": 3300
+   },
+   {
+    "keyword": "onboarding user flow",
+    "volume": 150,
+    "difficulty": 19,
+    "parent_topic": "user onboarding best practices",
+    "traffic_potential": 2400
+   },
+   {
+    "keyword": "customer onboarding process flow",
+    "volume": 150,
+    "difficulty": 4,
+    "parent_topic": "what is customer onboarding",
+    "traffic_potential": 1900
+   },
+   {
+    "keyword": "user onboarding flow",
+    "volume": 150,
+    "difficulty": 0,
+    "parent_topic": "user onboarding best practices",
+    "traffic_potential": 3300
+   },
+   {
+    "keyword": "client onboarding process flow chart",
+    "volume": 150,
+    "difficulty": 0,
+    "parent_topic": "onboarding process flowchart",
+    "traffic_potential": 90
+   },
+   {
+    "keyword": "email onboarding flow",
+    "volume": 150,
+    "difficulty": null,
+    "parent_topic": null,
+    "traffic_potential": null
+   }
+  ]
+ }
+}

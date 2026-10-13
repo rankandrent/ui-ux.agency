@@ -1,0 +1,106 @@
+{
+  "title": "Hire a product designer",
+  "order": 12,
+  "category": "Hiring & pricing",
+  "anchor": "hire a product designer",
+  "metaTitle": "Hire a Product Designer | Senior, SaaS and AI Ready",
+  "metaDescription": "Hire a product designer who owns features from research to final screens. SaaS and AI product designers, ready in 1 to 2 weeks. Book a free consultation.",
+  "keywords": ["hire product designer", "hire a product designer", "product designer for hire", "hire product designers", "hire saas designer", "ai product designer"],
+  "updated": "2026-10-13",
+  "centralEntity": "product designer",
+  "sourceContext": "ui-ux.agency by tkxel; this page sells dedicated product designers, including SaaS and AI specialists, on a monthly plan.",
+  "priceRange": "From $15,000 per month",
+  "hero": {
+    "eyebrow": "Hire a product designer",
+    "h1": "Hire a product designer who owns the feature, not just the screens",
+    "sub": "Senior product designers who research, design, test and stay with your engineers until the feature ships. SaaS and AI specialists ready in 1 to 2 weeks."
+  },
+  "summary": "Dedicated product designers, including SaaS and AI specialists, on a monthly plan.",
+  "tags": ["Product designer", "SaaS designer", "AI product designer", "Monthly plan"],
+  "abstract": "Companies hire a product designer from ui-ux.agency, the design team of tkxel, when they need one person who can take a feature from problem to shipped release. Our product designers cover research, user experience (UX) design, user interface (UI) design and testing, include SaaS and AI specialists, and start in 1 to 2 weeks on a monthly plan.",
+  "sections": [
+    {
+      "h2": "What does a product designer do?",
+      "format": "paragraph",
+      "answer": "<strong>A product designer turns a business goal into a tested feature: they find the user problem, design the flow and the screens, test them and support the build.</strong>",
+      "body": "<p>A UX designer focuses on flows and research. A UI designer focuses on how screens look. A product designer does both and adds product thinking: which problem is worth solving, what to cut, and how to measure success after release. That makes one product designer the right first hire for a small team. Larger teams that need research, UX and UI as separate roles can <a href=\"/services/hire-ui-ux-designers/\">hire UI UX designers</a> as a team.</p>",
+      "image": {
+        "src": "/images/services/hire-product-designer.svg",
+        "alt": "Product designer workflow from business goal to user research, flows, screens, usability test and shipped feature, owned by one designer",
+        "caption": "One product designer owns the whole path from goal to shipped feature."
+      }
+    },
+    {
+      "h2": "When should you hire a product designer?",
+      "format": "list",
+      "answer": "<strong>You should hire a product designer when features ship without a clear user problem behind them, or when engineers wait on design every sprint.</strong> These 5 signs show the moment has come:",
+      "items": [
+        "Your roadmap is driven by feature requests, not by measured user problems.",
+        "Engineers design screens themselves because no designer is free.",
+        "New features look and behave differently from the rest of the product.",
+        "You raised a round and need to show product progress within 2 quarters.",
+        "You are adding AI features and nobody owns how users will trust and correct them."
+      ]
+    },
+    {
+      "h2": "Which product designers can you hire from us?",
+      "format": "cards",
+      "answer": "<strong>You can hire 3 kinds of product designer from ui-ux.agency</strong>, matched to the product you are building.",
+      "items": [
+        { "title": "SaaS product designer", "body": "Knows trials, onboarding, roles, billing and dashboards; measured on activation and retention. See our <a href=\"/services/saas-products/saas-design-agency/\">SaaS design agency</a> work." },
+        { "title": "AI product designer", "body": "Designs prompts, generated answers, sources and correction flows, and tests with real model output. See our <a href=\"/services/ai-products/ai-ux-design-agency/\">AI UX design agency</a> work." },
+        { "title": "Startup product designer", "body": "Moves from a tested prototype to version two quickly; often the first designer a founder works with." }
+      ]
+    },
+    {
+      "h2": "How do you hire a product designer from ui-ux.agency?",
+      "format": "steps",
+      "answer": "<strong>Hiring a product designer from us takes 4 steps and 1 to 2 weeks.</strong>",
+      "items": [
+        { "title": "Scoping call", "body": "We talk about your product, users, roadmap and the problems the designer should own first." },
+        { "title": "Profiles", "body": "We send portfolios of product designers who match your market: SaaS, AI or early-stage." },
+        { "title": "Interview", "body": "You meet the designers and pick the one who joins your team." },
+        { "title": "Onboarding", "body": "The designer joins your tools and rituals and starts on the first problem in week one." }
+      ]
+    },
+    {
+      "h2": "Product designer for hire vs freelance vs full-time",
+      "format": "table",
+      "answer": "<strong>A product designer for hire from an agency starts fastest and comes with a team behind them; a full-time hire suits long-term ownership of one product.</strong>",
+      "caption": "Three ways to hire a product designer",
+      "columns": ["Criterion", "Agency product designer", "Freelance product designer", "Full-time product designer"],
+      "rows": [
+        ["Time to start", "1–2 weeks", "1–3 weeks", "2–4 months"],
+        ["Backup and review", "Design lead review and cover for leave", "None", "Depends on your team"],
+        ["Market experience", "SaaS and AI products across clients", "Varies by person", "Grows with your product"],
+        ["Commitment", "Monthly plan", "Per project", "Permanent"]
+      ]
+    },
+    {
+      "h2": "How much does it cost to hire a product designer?",
+      "format": "paragraph",
+      "answer": "<strong>Hiring a product designer from us starts at $15,000 per month as part of a dedicated team plan.</strong> Seniority and how many designers you add set the final price.",
+      "body": "<p>One senior product designer paired with a UI designer is the most common starting point. Teams that grow add a researcher or a design lead. For one-off projects with a fixed scope, such as minimum viable product (MVP) design with our <a href=\"/services/startups/mvp-design-agency/\">MVP design agency</a> team, we quote a fixed price instead. The <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide compares every option.</p>"
+    },
+    {
+      "h2": "Hire a product designer FAQs",
+      "format": "faq",
+      "answer": "<strong>Answers to common questions before you hire a product designer.</strong>",
+      "faqs": [
+        { "q": "Can I hire a product designer for an AI product?", "a": "<p>Yes. Our AI product designers design prompt inputs, generated answers, source previews and correction flows, and test them with real model output.</p>" },
+        { "q": "Do your product designers do user research?", "a": "<p>Yes. Every product designer runs interviews and usability tests as part of the work; larger studies add a dedicated UX researcher.</p>" },
+        { "q": "Can a product designer work with our developers directly?", "a": "<p>Yes. The designer joins your sprint planning and reviews and hands over specs in Figma that your engineers build from.</p>" },
+        { "q": "What is the difference between a product designer and a UI UX designer?", "a": "<p>A UI UX designer focuses on flows and screens; a product designer also decides which problem to solve and how to measure the result after release.</p>" }
+      ]
+    }
+  ],
+  "faqs": [],
+  "semantic": {
+    "entities": ["product designer", "SaaS product designer", "AI product designer", "user research", "usability test", "Figma"],
+    "ngrams": ["hire a product designer", "product designer for hire", "product designer", "saas product designer", "ai product designer"],
+    "skipgrams": [],
+    "nlpKeywords": ["dedicated designer", "monthly plan", "roadmap", "activation", "feature"]
+  },
+  "mentions": ["tkxel", "Figma", "SaaS", "AI"],
+  "relatedServices": ["hire-ui-ux-designers", "product-design-agency", "ui-ux-design-cost"]
+}

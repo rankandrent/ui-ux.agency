@@ -4,7 +4,7 @@
   "category": "Hiring & pricing",
   "anchor": "hire UI UX designers",
   "metaTitle": "Hire UI UX Designers | Dedicated Designers in 1–2 Weeks",
-  "metaDescription": "Hire UI UX designers who join your sprints in 1 to 2 weeks. Dedicated product, UX and UI designers on a monthly plan from $15,000, no recruiting fees.",
+  "metaDescription": "Hire UI UX designers, a UI designer or a UX designer who joins your sprints in 1 to 2 weeks. Dedicated designers on a monthly plan from $15,000.",
   "updated": "2026-10-13",
   "centralEntity": "hire UI UX designers",
   "sourceContext": "ui-ux.agency by tkxel; this page sells dedicated designers and embedded design teams on monthly plans.",
@@ -41,7 +41,7 @@
       "items": [
         {
           "title": "Product designer.",
-          "body": "Owns features end to end, from flows to final screens."
+          "body": "Owns features end to end, from flows to final screens. To hire one on their own, see <a href=\"/services/hire-product-designer/\">hire a product designer</a>."
         },
         {
           "title": "UX researcher.",
@@ -59,6 +59,44 @@
           "title": "Design lead.",
           "body": "Sets direction, reviews work and connects design with product and engineering leadership."
         }
+      ]
+    },
+    {
+      "h2": "Should you hire a UI designer or a UX designer?",
+      "format": "table",
+      "answer": "<strong>Hire a UX designer when users struggle to finish tasks, and hire a UI designer when the product works but looks dated or inconsistent.</strong> Many teams need both, which is why we staff them as one UI UX team.",
+      "caption": "When to hire a UI designer, a UX designer or both",
+      "columns": [
+        "Criterion",
+        "Hire a UX designer",
+        "Hire a UI designer"
+      ],
+      "rows": [
+        [
+          "Main problem",
+          "Users get lost, drop off or need support to finish tasks",
+          "Screens look dated, inconsistent or off-brand"
+        ],
+        [
+          "Core work",
+          "Research, user flows, wireframes and usability tests",
+          "Visual design, components, icons and motion"
+        ],
+        [
+          "Main output",
+          "Tested flows and prototypes",
+          "Final screens and a design system"
+        ],
+        [
+          "Typical first month",
+          "Interviews, flow fixes, one tested prototype",
+          "Style audit, new components, redesigned key screens"
+        ],
+        [
+          "Hire both when",
+          "A redesign changes how the product works and how it looks",
+          "A new product needs flows and a visual language from scratch"
+        ]
       ]
     },
     {
@@ -192,7 +230,9 @@
       "dedicated designers",
       "monthly plan",
       "product designer",
-      "ux researcher"
+      "ux researcher",
+      "hire a ui designer",
+      "hire a ux designer"
     ],
     "skipgrams": [],
     "nlpKeywords": [
@@ -210,8 +250,17 @@
     "US Eastern time"
   ],
   "relatedServices": [
+    "hire-product-designer",
     "product-design-agency",
     "saas-design-agency",
     "ui-ux-design-cost"
+  ],
+  "keywords": [
+    "hire ui ux designers",
+    "hire ui designer",
+    "hire ux designer",
+    "hire ui ux designer",
+    "ux designer for hire",
+    "hire a ui designer"
   ]
 }
