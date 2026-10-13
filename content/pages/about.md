@@ -1,67 +1,38 @@
 ---
-title: "About us"
-metaTitle: "About Our UI UX Design Agency | Reston, VA, Since 2017"
-description: "UI-UX.agency is a research-led UI UX design agency in Reston, Virginia, designing digital products for US teams since 2017. Meet the team."
+title: "About ui-ux.agency"
+metaTitle: "About ui-ux.agency | The UI UX Design Agency of tkxel"
+description: "ui-ux.agency is the UI UX design agency of tkxel. We design AI products, SaaS platforms and startup MVPs from Reston, Virginia, for teams across the US."
 ---
 
 ## Who we are
 
-UI-UX.agency is a research-led UI UX design agency. Since 2017 our team has designed more than 200 digital products, from first MVPs to enterprise platforms used by thousands of people every day.
+ui-ux.agency is the UI UX design agency of tkxel, a software engineering company headquartered at 11921 Freedom Drive, Two Fountain Square, Reston, Virginia. Our designers have worked on more than 200 digital products since 2017.
 
-We are headquartered at 11921 Freedom Drive, Two Fountain Square, Reston, Virginia, and we work remote-first with product teams across the United States.
+We focus on three kinds of work: products built on AI, subscription software, and first versions of startup products. Each one has its own design problems, and we would rather know those problems deeply than know a little about every market.
 
-## What we do
+## What we design
 
-We cover the full product design lifecycle in one team:
+- **AI products:** we design how people ask an AI system for help, read its answers and correct it. See our [AI UX design agency](/services/ai-ux-design-agency/) and [chatbot UI design](/services/chatbot-ui-design/) pages.
+- **SaaS products:** onboarding, workflows, dashboards and billing for new software, and phased redesigns for software that already has customers. See [SaaS design agency](/services/saas-design-agency/) and [SaaS product redesign](/services/saas-product-redesign/).
+- **Startup products:** tested, clickable first versions, and product design support after launch. See [MVP design agency](/services/mvp-design-agency/) and [product design agency](/services/product-design-agency/).
 
-- **Research and strategy:** [UX research services](/services/ux-research-services/), [UX audit services](/services/ux-audit-services/), [usability testing services](/services/usability-testing-services/) and [UX consulting services](/services/ux-consulting-services/).
-- **Product design:** [digital product design services](/services/digital-product-design-services/), interaction design and [design system services](/services/design-system-services/).
-- **Platforms:** websites, web apps, and iOS and Android apps.
-- **Dashboards and data:** dashboard UX, dashboard UI and data visualization.
+You can work with us on a fixed project or [hire UI UX designers](/services/hire-ui-ux-designers/) who join your team every month. Our [UI UX design cost](/services/ui-ux-design-cost/) guide lists every price range.
 
-See every engagement on our [UI UX design services](/services/) page.
+## Why a design agency inside an engineering company
+
+Most design agencies hand over files and leave. Because we are part of tkxel, our designers sit next to the engineers who build software every day. Designs are checked for build effort before you see them, and when you need development as well, one company delivers both.
 
 ## How we work
 
-- **Research before pixels.** Every engagement starts with users, data and business goals, not assumptions.
-- **Senior people on every project.** The designers who run your research stay through design, testing and handoff.
-- **Measurable outcomes.** Each design decision ties back to a metric agreed at kick-off, such as activation, conversion or task success.
-- **Built to ship.** Developers receive annotated Figma files, components and specs they can build directly.
-- **Transparent pricing.** Engagements start at $5,000 for a UX audit, and every project begins with a free consultation and a fixed-scope proposal.
+1. **Talk to users first.** Every project starts with interviews, analytics or support data, not opinions.
+2. **Test before building.** Risky flows are tested with 5 to 8 real users as clickable prototypes.
+3. **Design for the build.** Engineers receive components, specs and answers during every sprint.
+4. **Publish prices.** Every engagement has a published range, and every proposal has a fixed scope.
 
-## Our process
+## The team
 
-Every engagement follows the same five steps, so you always know what comes next:
-
-1. **Discovery and research:** we interview users, observe real workflows and analyze competitors before any design decision.
-2. **UX design and prototyping:** information architecture, wireframes and interactive prototypes, tested with real users.
-3. **UI design and design system:** screen design, motion and a reusable component library, so new features ship consistently.
-4. **Usability testing and validation:** real users and real tasks, before development and again before launch.
-5. **Design implementation support:** we stay alongside your engineers through the build, so nothing is lost in translation.
-
-## Our work
-
-Recent projects include Parents Connect, a social platform for a global parenting community; TradeZella, a trading journal and analytics platform; and Nitro League, a play-to-earn racing game.
-
-Our case studies report the results each client measured after launch:
-
-| Project | What we designed | Reported result |
-|---|---|---|
-| Elia Wellness | A wellness learning platform for adults 50+ | 40% growth in user registrations |
-| Anyday App | A fintech wallet for same-day wage payouts | 14 hours saved per week with automated payouts |
-| Vocable | An AI content marketing SaaS, from idea to MVP | 35% increase in workflow efficiency |
-| Mass Media Co. | One B2B platform for marketing data and campaigns | 30% increase in order processing efficiency |
-
-Browse all [case studies](/case-studies/).
-
-## Tools we work with
-
-We design in **Figma**, where component libraries, prototypes and developer handoff live in one file. We run quick prototype tests with real users in **Maze**, study behavior after launch with **Hotjar** session recordings and heatmaps, and document design systems in **Storybook**, so designers and engineers work from the same components.
-
-## Industries we design for
-
-We design for six industries: [healthcare UI UX design](/industries/healthcare/), [finance UI UX design](/industries/finance/), [SaaS UI UX design](/industries/saas/), [e-commerce UI UX design](/industries/ecommerce/), [supply chain UI UX design](/industries/supply-chain/) and [startups UI UX design](/industries/startups/).
+Our designers, researchers and design leads are listed below, with links to their profiles.
 
 ## Talk to us
 
-Tell us about your product on the [contact page](/contact/). A design lead replies within one business day.
+Tell us about your product on the [contact page](/contact/). A senior designer replies within one business day.

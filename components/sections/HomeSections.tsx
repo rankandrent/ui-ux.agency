@@ -52,7 +52,7 @@ export function Capabilities() {
 export function LeadMagnet() {
   const d = home.leadMagnet;
   return (
-    <section className="section section--pink" aria-labelledby="lm-heading">
+    <section className="section section--brand" aria-labelledby="lm-heading">
       <div className="container">
         <div className="lm__inner">
           <div>

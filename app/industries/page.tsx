@@ -13,6 +13,8 @@ export const metadata = pageMetadata({
   description: "UI UX design by industry: healthcare, fintech, SaaS, e-commerce, supply chain and startups, designed for each field and its users. Book a free consultation.",
   path: routes.industries,
   keywords: ["UI UX design by industry", "healthcare UI UX design", "fintech UI UX design", "SaaS UI UX design", "e-commerce UI UX design", "supply chain UI UX design"],
+  // hidden from search until industry pages exist
+  noindex: getIndustries().length === 0,
 });
 
 export default function IndustriesHub() {

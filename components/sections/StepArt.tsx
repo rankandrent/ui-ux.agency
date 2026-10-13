@@ -27,8 +27,8 @@ export function stepKinds(titles: string[]): Kind[] {
 }
 
 export function StepArt({ kind }: { kind: Kind }) {
-  const c = "#E2225F";
-  const soft = "#FFE3EC";
+  const c = "#0755E9";
+  const soft = "#E8EEFC";
   const g = "#E8E8EB";
   return (
     <svg viewBox="0 0 320 170" className="stepart" aria-hidden="true">

@@ -1,7 +1,7 @@
 export const SITE = {
   name: "UI-UX.agency",
   /** Brand name Google should show as the site name and in titles (owner, 2026-10-09) */
-  brand: "UI UX Agency" /* TODO(owner): final brand name */,
+  brand: "UI UX Agency by tkxel",
   /** Microsoft Clarity project ID (heatmaps and session recordings) */
   clarityId: "" /* TODO(owner): new Microsoft Clarity project ID */,
   domain: "ui-ux.agency",
@@ -28,7 +28,7 @@ export const SITE = {
     return this.social.map((s) => s.url);
   },
   description:
-    "UI UX design services for growing businesses. User research, UX design, UI design, prototyping, design systems, and usability testing that turn interfaces into measurable business outcomes.",
+    "The UI UX design agency of tkxel. AI UX design, SaaS product design and MVP design for startups, delivered by senior designers who stay through launch.",
 };
 
 /** One-line postal address for display */

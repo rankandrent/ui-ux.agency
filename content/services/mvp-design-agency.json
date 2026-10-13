@@ -1,0 +1,226 @@
+{
+  "title": "MVP design",
+  "order": 5,
+  "category": "Startups & product",
+  "anchor": "MVP design agency",
+  "metaTitle": "MVP Design Agency | Clickable Product in 4 to 8 Weeks",
+  "metaDescription": "MVP design agency for startup founders: research, user flows, UI and a tested clickable prototype in 4 to 8 weeks, ready for investors and developers.",
+  "updated": "2026-10-13",
+  "centralEntity": "MVP design agency",
+  "sourceContext": "ui-ux.agency by tkxel; this page sells minimum viable product design to early-stage founders.",
+  "priceRange": "$15,000–$50,000",
+  "hero": {
+    "eyebrow": "MVP design agency",
+    "h1": "MVP design agency that turns a startup idea into a product users can test",
+    "sub": "Research, user flows, interface design and a clickable prototype in 4 to 8 weeks: enough to test with real users, pitch to investors and hand to developers."
+  },
+  "summary": "Design of a minimum viable product, from first research to a tested clickable prototype.",
+  "tags": [
+    "Startups",
+    "Prototype",
+    "Investor demo",
+    "Validation"
+  ],
+  "abstract": "An MVP design agency designs the smallest version of a product that real users can try: a minimum viable product (MVP). Our team at ui-ux.agency, part of tkxel, turns a founder's idea into user flows, a user experience (UX) and user interface (UI) and a clickable prototype in 4 to 8 weeks, tests it with 5 to 8 target users and hands developers a build-ready file.",
+  "sections": [
+    {
+      "h2": "What does an MVP design agency do?",
+      "format": "paragraph",
+      "answer": "<strong>An MVP design agency decides what goes into the first version of a product, designs it and tests it with real users before any code is written.</strong> The main deliverable is a clickable prototype that looks and feels like the finished app.",
+      "body": "<p>Most first products fail because they solve the wrong problem or bury the right one under too many features. MVP design starts with the single job the product does better than anything else, then cuts every screen that does not serve it. The prototype is clickable in a browser or on a phone, so founders show it to users and investors the same week. After launch, growing products move on to our <a href=\"/services/product-design-agency/\">product design agency</a> team.</p>",
+      "image": {
+        "src": "/images/services/mvp-design-agency.svg",
+        "alt": "Funnel showing a long feature wishlist narrowed to one core user flow of four screens, then a clickable prototype on a phone",
+        "caption": "MVP design cuts a long wishlist down to one flow users can test."
+      }
+    },
+    {
+      "h2": "What is included in our MVP design agency package?",
+      "format": "list",
+      "answer": "<strong>Our MVP design agency package includes 6 deliverables:</strong>",
+      "items": [
+        {
+          "title": "Problem and user research.",
+          "body": "5 to 8 interviews with target users to confirm the problem and the words they use for it."
+        },
+        {
+          "title": "Feature priority list.",
+          "body": "Every idea sorted into must-have, later and never, so the first build stays small."
+        },
+        {
+          "title": "User flows.",
+          "body": "The path from first visit to the core result, drawn step by step."
+        },
+        {
+          "title": "Interface design.",
+          "body": "Final screens for web or mobile, with a light brand style and a starter component library."
+        },
+        {
+          "title": "Clickable prototype.",
+          "body": "A Figma prototype that works on a laptop or phone, ready for tests and investor demos."
+        },
+        {
+          "title": "Developer handoff.",
+          "body": "Annotated screens, spacing and component specs that a development team builds from directly."
+        }
+      ]
+    },
+    {
+      "h2": "How does the MVP design process work?",
+      "format": "steps",
+      "answer": "<strong>The MVP design process takes 4 to 8 weeks and runs in 4 steps.</strong>",
+      "items": [
+        {
+          "title": "Discovery sprint (1 week)",
+          "body": "We run a workshop with the founders, review competitors and interview target users."
+        },
+        {
+          "title": "Flows and wireframes (1–2 weeks)",
+          "body": "We sketch the core flow in grey boxes and test it with users before any visual design."
+        },
+        {
+          "title": "UI design and prototype (1–3 weeks)",
+          "body": "We design the final look, connect screens into a clickable prototype and add real content."
+        },
+        {
+          "title": "Testing and handoff (1–2 weeks)",
+          "body": "5 to 8 users try the prototype; we fix what fails and hand over the build-ready file."
+        }
+      ]
+    },
+    {
+      "h2": "MVP design agency vs a freelancer vs no designer",
+      "format": "table",
+      "answer": "<strong>An MVP design agency costs more than a freelancer but includes research and testing that freelancers and developer-only teams usually skip.</strong>",
+      "caption": "Three ways startups design a minimum viable product",
+      "columns": [
+        "Criterion",
+        "MVP design agency",
+        "Freelance designer",
+        "Developers only"
+      ],
+      "rows": [
+        [
+          "User research",
+          "Included",
+          "Rarely",
+          "No"
+        ],
+        [
+          "Usability testing",
+          "5–8 users before build",
+          "Optional",
+          "After launch"
+        ],
+        [
+          "Timeline",
+          "4–8 weeks",
+          "3–10 weeks",
+          "Design happens during build"
+        ],
+        [
+          "Investor-ready prototype",
+          "Yes",
+          "Sometimes",
+          "No"
+        ],
+        [
+          "Typical cost",
+          "$15,000–$50,000",
+          "$5,000–$20,000",
+          "Hidden in rework"
+        ]
+      ]
+    },
+    {
+      "h2": "Which startups hire our MVP design agency?",
+      "format": "cards",
+      "answer": "<strong>Founders hire our MVP design agency at 4 moments:</strong>",
+      "items": [
+        {
+          "title": "Before a pre-seed round",
+          "body": "A clickable prototype makes the pitch concrete and shows user demand."
+        },
+        {
+          "title": "Before hiring developers",
+          "body": "A tested design gives the build team a clear scope and fewer changes mid-sprint."
+        },
+        {
+          "title": "AI product ideas",
+          "body": "Founders building on a model start here, then continue with our <a href=\"/services/ai-ux-design-agency/\">AI UX design agency</a> team."
+        },
+        {
+          "title": "After a failed first version",
+          "body": "A reset that keeps what worked and drops what users ignored."
+        }
+      ]
+    },
+    {
+      "h2": "How much does an MVP design agency cost?",
+      "format": "paragraph",
+      "answer": "<strong>MVP design with our agency costs $15,000 to $50,000 and takes 4 to 8 weeks.</strong> The number of user types and platforms has the biggest effect on price.",
+      "body": "<p>A single-platform web app with one user type sits near $15,000. A marketplace with buyers, sellers and an admin area on web and mobile sits near $50,000. Teams that need design support after launch can <a href=\"/services/hire-ui-ux-designers/\">hire UI UX designers</a> monthly. See how scope changes price in the <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide.</p>"
+    },
+    {
+      "h2": "MVP design agency FAQs",
+      "format": "faq",
+      "answer": "<strong>Answers to the questions founders ask before they hire an MVP design agency.</strong>",
+      "faqs": [
+        {
+          "q": "Can you design an MVP without a technical co-founder?",
+          "a": "<p>Yes. We design the product, and tkxel's engineering team builds it if you need development as well.</p>"
+        },
+        {
+          "q": "Do you sign an NDA before an MVP design project?",
+          "a": "<p>Yes. We sign a mutual NDA before the first detailed call, and all designs and research belong to you.</p>"
+        },
+        {
+          "q": "What do I need to prepare before MVP design starts?",
+          "a": "<p>A short description of the problem, the target users and any notes, sketches or competitor examples you already have.</p>"
+        },
+        {
+          "q": "Is a clickable prototype enough to raise money?",
+          "a": "<p>Yes, for many pre-seed rounds. Investors see the product working and the results of real user tests, which a slide deck alone does not show.</p>"
+        }
+      ]
+    }
+  ],
+  "faqs": [],
+  "semantic": {
+    "entities": [
+      "MVP design agency",
+      "minimum viable product",
+      "clickable prototype",
+      "startup founder",
+      "pre-seed round",
+      "Figma"
+    ],
+    "ngrams": [
+      "mvp design agency",
+      "mvp design",
+      "minimum viable product",
+      "clickable prototype",
+      "user flows"
+    ],
+    "skipgrams": [],
+    "nlpKeywords": [
+      "startup",
+      "validation",
+      "investor demo",
+      "feature priority",
+      "developer handoff"
+    ]
+  },
+  "mentions": [
+    "minimum viable product",
+    "Figma",
+    "pre-seed",
+    "NDA",
+    "tkxel"
+  ],
+  "relatedServices": [
+    "product-design-agency",
+    "ai-ux-design-agency",
+    "hire-ui-ux-designers"
+  ]
+}

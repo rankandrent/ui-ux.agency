@@ -1,14 +1,13 @@
 /** Decorative app-window illustration used when a service has no case-study image. */
 const TINTS: Record<string, [string, string]> = {
-  "Research & strategy": ["#E2225F", "#FFE3EC"],
-  "Product design": ["#6C3BFF", "#ECE5FF"],
-  Platforms: ["#0A84FF", "#E1EFFF"],
-  "Dashboards & data": ["#0F9D76", "#DDF5EC"],
-  "Industry-specific": ["#F2711C", "#FFEBDD"],
+  "AI products": ["#0755E9", "#E8EEFC"],
+  "SaaS products": ["#6C3BFF", "#ECE5FF"],
+  "Startups & product": ["#0F9D76", "#DDF5EC"],
+  "Hiring & pricing": ["#F2711C", "#FFEBDD"],
 };
 
 export function UiMock({ category, label }: { category?: string; label: string }) {
-  const [c, soft] = TINTS[category ?? ""] ?? TINTS["Research & strategy"];
+  const [c, soft] = TINTS[category ?? ""] ?? TINTS["AI products"];
   const bars = [52, 78, 40, 96, 64, 118, 86];
   return (
     <svg viewBox="0 0 560 400" role="img" aria-label={label} className="uimock">

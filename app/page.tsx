@@ -27,20 +27,13 @@ export const metadata = pageMetadata({
   title: home.meta.title,
   description: home.meta.description,
   path: "/",
-  keywords: ["UI UX design services", "UI UX design agency", "UX design services", "UI design services", "user research", "product design agency"],
+  keywords: ["UI UX design agency", "UX design agency", "AI UX design agency", "SaaS design agency", "MVP design agency", "product design agency"],
 });
 
 /** Industry tab artwork: public/images/industries/<slug>.webp (optional per industry) */
 const INDUSTRY_IMG = (slug: string) => `/images/industries/${slug}.webp`;
 /** Alt text per artwork: describe what the image actually shows (update when an image changes) */
-const INDUSTRY_IMG_ALT: Record<string, string> = {
-  healthcare: "Healthcare app UI example: three mobile screens for logging blood sugar, a daily health overview and a weekly glucose report",
-  ecommerce: "E-commerce app UI example: three mobile shopping screens with a welcome screen, a home feed with categories and a product details page",
-  finance: "Finance UI example: a banking dashboard with available balance, payment cards, quick transfer, transactions and weekly statistics",
-  saas: "SaaS dashboard UI example on a laptop: a pharmacy inventory app with stock value, low-stock alerts, a category chart and a medicine table",
-  "supply-chain": "Supply chain dashboard UI example: order metrics, a shipment tracker map, warehouse inventory and delivery performance",
-  startups: "Startup website UI example: a venture studio landing page with a hero section, team section and partner network",
-};
+const INDUSTRY_IMG_ALT: Record<string, string> = {};
 
 export default function HomePage() {
   const services = getServices();
@@ -119,15 +112,15 @@ export default function HomePage() {
 
       <JsonLd
         data={serviceLd(
-          "UI UX Design Services",
+          "UI UX Design Agency",
           home.meta.description,
           "/",
           services.map((s) => s.title),
         )}
       />
-      <JsonLd data={webPageLd({ name: home.meta.title, description: home.meta.description, path: "/", about: "UI UX design services" })} />
+      <JsonLd data={webPageLd({ name: home.meta.title, description: home.meta.description, path: "/", about: "UI UX design agency" })} />
       <JsonLd data={faqLd(home.faqs)} />
-      <JsonLd data={howToLd("UI UX Design Process", home.process.steps)} />
+      <JsonLd data={howToLd("UI UX Design Agency Process", home.process.steps)} />
     </>
   );
 }

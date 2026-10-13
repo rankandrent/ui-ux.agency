@@ -8,7 +8,7 @@ import path from "node:path";
 const DIR = "content/locations";
 const OUT = "public/locations";
 const W = 880, H = 628, BASE = 610; // 7:5, the .semv__visual frame
-const PINK = "#E2225F", TINT = "#FFE3EC", INK = "#020101";
+const PINK = "#0755E9", TINT = "#E8EEFC", INK = "#1B232E";
 const SKY = "#F9D3E0", MARK = "#EC8DAE";
 
 // 24×24 stroke icons
@@ -104,9 +104,9 @@ function svg(slug, l) {
       `</g>`;
   }).join("");
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="Manrope, system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="${esc(`UX design for ${place}: ${scenes.map((s) => s.label).join(", ")}`)}">
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="Plus Jakarta Sans, system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="${esc(`UX design for ${place}: ${scenes.map((s) => s.label).join(", ")}`)}">
 <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF4F7"/><stop offset="1" stop-color="#FDE3EC"/></linearGradient>
-<filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#E2225F" flood-opacity=".12"/></filter>
+<filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0755E9" flood-opacity=".12"/></filter>
 </defs>
 <g><rect width="${W}" height="${H}" fill="url(#bg)"/>${skyline(slug)}${lm}<rect y="${BASE}" width="${W}" height="${H - BASE}" fill="${MARK}"/></g>
 <g filter="url(#sh)"><rect x="40" y="36" width="${Math.round(place.length * 14.5) + 74}" height="50" rx="25" fill="#FFFFFF"/></g>

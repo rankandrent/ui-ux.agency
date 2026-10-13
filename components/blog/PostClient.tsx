@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-/** Thin pink bar under the header that fills as the article is read */
+/** Thin brand-colour bar under the header that fills as the article is read */
 export function ReadingProgress() {
   const [p, setP] = useState(0);
   useEffect(() => {

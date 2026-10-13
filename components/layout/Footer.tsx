@@ -13,10 +13,9 @@ export function Footer() {
       title: "Services",
       links: [...services.map((s) => ({ label: cap(anchorOf(s)), href: routes.service(s.slug) })), { label: "All services", href: routes.services }],
     },
-    {
-      title: "Industries",
-      links: [...industries.map((i) => ({ label: anchorOf(i), href: routes.industry(i.slug) })), { label: "All industries", href: routes.industries }],
-    },
+    ...(industries.length
+      ? [{ title: "Industries", links: [...industries.map((i) => ({ label: anchorOf(i), href: routes.industry(i.slug) })), { label: "All industries", href: routes.industries }] }]
+      : []),
     {
       title: "Company",
       links: [
@@ -40,10 +39,10 @@ export function Footer() {
     <footer className="ftr">
       <div className="container ftr__top">
         <div className="ftr__brand">
-          <Link href="/" className="ftr__logo" aria-label="UI UX Design Services home">
+          <Link href="/" className="ftr__logo" aria-label="ui-ux.agency home">
             <Logo size={36} tone="light" />
           </Link>
-          <p className="ftr__about">Research-led UI UX design for products that need to perform. Designing digital products since {SITE.founded}.</p>
+          <p className="ftr__about">The UI UX design agency of tkxel, for AI products, SaaS platforms and startups. Designing digital products since {SITE.founded}.</p>
           <address className="ftr__address">{addressLine}</address>
           <p className="ftr__contact">
             <a href={`mailto:${SITE.email}`} className="ftr__mail">{SITE.email}</a>

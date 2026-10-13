@@ -1,0 +1,108 @@
+{
+  "title": "SaaS product redesign",
+  "order": 4,
+  "category": "SaaS products",
+  "anchor": "SaaS product redesign",
+  "metaTitle": "SaaS Product Redesign | Modernize Without Losing Users",
+  "metaDescription": "SaaS product redesign that modernizes an aging interface step by step, keeps current customers productive and ships in phases over 8 to 20 weeks.",
+  "updated": "2026-10-13",
+  "centralEntity": "SaaS product redesign",
+  "sourceContext": "ui-ux.agency by tkxel; this page sells phased redesigns of live SaaS products with paying customers.",
+  "priceRange": "$50,000–$200,000",
+  "hero": {
+    "eyebrow": "SaaS product redesign",
+    "h1": "SaaS product redesign that modernizes your software without upsetting customers",
+    "sub": "A phased redesign of a live product: we fix the screens that cost you the most first, ship them in stages and keep power users productive at every step."
+  },
+  "summary": "Phased redesign of live SaaS products with an aging or inconsistent interface.",
+  "tags": ["Redesign", "Legacy UI", "Phased rollout", "Design system"],
+  "abstract": "A SaaS product redesign replaces an outdated or inconsistent user interface (UI) in software that already has paying customers. Our team at ui-ux.agency audits the current product, ranks screens by business impact, builds a design system and ships the new user experience (UX) in phases over 8 to 20 weeks, so customers adapt step by step instead of all at once.",
+  "sections": [
+    {
+      "h2": "When does a SaaS product need a redesign?",
+      "format": "list",
+      "answer": "<strong>A SaaS product needs a redesign when the interface, not the feature set, starts to cost sales, support time or engineering speed.</strong> These 5 signs show that point has arrived:",
+      "items": [
+        "Sales demos lose to competitors with similar features and a newer interface.",
+        "Support tickets repeat for the same screens every month.",
+        "Each new feature adds another style of button, table or form.",
+        "New customers need a training call before they reach their first result.",
+        "Engineers rebuild the same component in several places because no design system exists."
+      ]
+    },
+    {
+      "h2": "How does our SaaS product redesign avoid a big-bang launch?",
+      "format": "paragraph",
+      "answer": "<strong>Our SaaS product redesign ships in phases, starting with the screens that carry the most revenue or the most support load.</strong> Customers see steady improvement instead of one sudden change.",
+      "body": "<p>A big-bang redesign hides months of work and then surprises every customer on the same day. Power users lose shortcuts, saved views and habits, and support queues fill up. A phased redesign keeps the old and new interface side by side behind feature flags, invites a small group of customers to try each new area first and collects their feedback before a full rollout. The same approach works for products that started as a quick minimum viable product (MVP) build with an <a href=\"/services/mvp-design-agency/\">MVP design agency</a> and outgrew their first interface.</p>",
+      "image": {
+        "src": "/images/services/saas-product-redesign.svg",
+        "alt": "Roadmap of a SaaS product redesign in three phases: navigation and design system, core workflow, then settings and billing, each with a beta group before full release",
+        "caption": "Three release phases, each tested with a beta group before every customer sees it."
+      }
+    },
+    {
+      "h2": "What are the steps of a SaaS product redesign?",
+      "format": "steps",
+      "answer": "<strong>A SaaS product redesign runs in 5 steps over 8 to 20 weeks.</strong>",
+      "items": [
+        { "title": "UX audit of the live product (2 weeks)", "body": "We review analytics, support tickets and session recordings, and interview customers and churned users." },
+        { "title": "Redesign roadmap (1 week)", "body": "We rank every area by revenue impact, support load and effort, and agree the release phases." },
+        { "title": "Design system first (2–4 weeks)", "body": "New navigation, typography, colours and components that engineers adopt before any screen changes." },
+        { "title": "Phase-by-phase design (4–10 weeks)", "body": "We redesign one area at a time, test it with existing customers and hand it over for build." },
+        { "title": "Beta and rollout (ongoing)", "body": "A beta group uses each new area first; we fix issues before the full release." }
+      ]
+    },
+    {
+      "h2": "SaaS product redesign vs a visual refresh",
+      "format": "table",
+      "answer": "<strong>A visual refresh changes how the product looks; a SaaS product redesign changes how it works.</strong> The right choice depends on where customers struggle today.",
+      "caption": "Comparison of a SaaS product redesign and a visual refresh",
+      "columns": ["Criterion", "SaaS product redesign", "Visual refresh"],
+      "rows": [
+        ["What changes", "Flows, navigation, structure and visuals", "Colours, fonts, icons and spacing"],
+        ["Research needed", "Customer interviews and analytics", "Brand review"],
+        ["Timeline", "8–20 weeks in phases", "3–6 weeks"],
+        ["Fixes usability issues", "Yes, at the root", "Rarely"],
+        ["Risk to current users", "Managed with phased rollout", "Low"]
+      ]
+    },
+    {
+      "h2": "What results does a SaaS product redesign target?",
+      "format": "cards",
+      "answer": "<strong>Every SaaS product redesign we run targets 4 results, each measured against the numbers before the redesign.</strong>",
+      "items": [
+        { "title": "Fewer support tickets", "body": "Clearer screens and error messages cut repeat questions about the same features." },
+        { "title": "Faster onboarding", "body": "New customers reach their first result without a training call." },
+        { "title": "Stronger sales demos", "body": "A modern, consistent interface helps the sales team win evaluations." },
+        { "title": "Faster engineering", "body": "A shared design system means engineers reuse components instead of rebuilding them." }
+      ]
+    },
+    {
+      "h2": "How much does a SaaS product redesign cost?",
+      "format": "paragraph",
+      "answer": "<strong>A SaaS product redesign costs $50,000 to $200,000 and runs for 8 to 20 weeks.</strong> The number of screens, user roles and release phases decides where a project sits in that range.",
+      "body": "<p>A redesign of navigation, dashboard and one core workflow sits near $50,000. A full platform with an admin area, reporting, a design system and a mobile app sits near $200,000. Products that need a new feature set as well as a new interface work with our <a href=\"/services/saas-design-agency/\">SaaS design agency</a> team. All price factors are listed in the <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide.</p>"
+    },
+    {
+      "h2": "SaaS product redesign FAQs",
+      "format": "faq",
+      "answer": "<strong>Answers to common questions about redesigning a live SaaS product.</strong>",
+      "faqs": [
+        { "q": "Will customers lose features during a SaaS product redesign?", "a": "<p>No. We map every existing feature before design starts, and each phase keeps or improves it; nothing is removed without data and customer input.</p>" },
+        { "q": "Can we keep our current front-end framework?", "a": "<p>Yes. The design system is built to match your current React, Angular or Vue setup, so engineers adopt it gradually.</p>" },
+        { "q": "How do you tell customers about the redesign?", "a": "<p>We design in-app announcements, a short tour of each new area and an optional switch back to the old view during the beta.</p>" },
+        { "q": "Is a SaaS product redesign worth it for a small team?", "a": "<p>Yes, when support load or lost deals trace back to the interface. Start with a 2-week audit; it shows whether a full redesign pays back.</p>" }
+      ]
+    }
+  ],
+  "faqs": [],
+  "semantic": {
+    "entities": ["SaaS product redesign", "legacy interface", "design system", "feature flags", "beta group", "phased rollout"],
+    "ngrams": ["saas product redesign", "phased redesign", "design system", "support tickets", "visual refresh"],
+    "skipgrams": [],
+    "nlpKeywords": ["modernize", "outdated interface", "rollout", "power users", "navigation"]
+  },
+  "mentions": ["feature flags", "React", "Angular", "Vue", "design system"],
+  "relatedServices": ["saas-design-agency", "hire-ui-ux-designers"]
+}

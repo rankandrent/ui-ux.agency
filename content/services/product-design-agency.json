@@ -1,0 +1,220 @@
+{
+  "title": "Product design",
+  "order": 6,
+  "category": "Startups & product",
+  "anchor": "product design agency",
+  "metaTitle": "Product Design Agency | Research, UX, UI and Delivery",
+  "metaDescription": "Product design agency for growing startups and scale-ups: research, UX, UI, design systems and build support from one senior team, from $25,000.",
+  "updated": "2026-10-13",
+  "centralEntity": "product design agency",
+  "sourceContext": "ui-ux.agency by tkxel; this page sells end-to-end digital product design to startups past their first version.",
+  "priceRange": "$25,000–$180,000",
+  "hero": {
+    "eyebrow": "Product design agency",
+    "h1": "Product design agency for startups growing past their first version",
+    "sub": "One senior team for research, UX, UI, design systems and build support, so your product grows without turning into a patchwork of quick fixes."
+  },
+  "summary": "End-to-end digital product design for startups and scale-ups after launch.",
+  "tags": [
+    "Product strategy",
+    "UX and UI",
+    "Design systems",
+    "Build support"
+  ],
+  "abstract": "A product design agency plans, designs and tests digital products from strategy to release. Our team at ui-ux.agency, part of tkxel, covers user research, user experience (UX) design, user interface (UI) design, design systems and build support for web and mobile products, with projects from $25,000 and a senior designer on every engagement.",
+  "sections": [
+    {
+      "h2": "What does a product design agency do?",
+      "format": "paragraph",
+      "answer": "<strong>A product design agency decides what a product should do, how it should work and how it should look, then stays with the team until it ships.</strong> It joins strategy, research and design in one place.",
+      "body": "<p>After the first release, a startup's product grows fast and unevenly. Features arrive from sales requests, investor feedback and the founders' own ideas. Without a product design partner, each feature looks and works a little differently. Our designers keep a single view of the whole product: who uses it, which jobs matter most and which screens need work next. Founders who still need a minimum viable product (MVP) start with our <a href=\"/services/mvp-design-agency/\">MVP design agency</a> package.</p>",
+      "image": {
+        "src": "/images/services/product-design-agency.svg",
+        "alt": "Product design cycle with four stages: research, UX design, UI design and build support, connected in a loop around a product screen",
+        "caption": "Research, UX, UI and build support run as one loop, release after release."
+      }
+    },
+    {
+      "h2": "What services does our product design agency cover?",
+      "format": "list",
+      "answer": "<strong>Our product design agency covers 6 services in one team:</strong>",
+      "items": [
+        {
+          "title": "Product strategy.",
+          "body": "Workshops that turn business goals into a clear product roadmap and design priorities."
+        },
+        {
+          "title": "User research.",
+          "body": "Interviews, surveys and analytics reviews that show what users need and where they struggle."
+        },
+        {
+          "title": "UX design.",
+          "body": "Information architecture, user flows and wireframes tested with real users."
+        },
+        {
+          "title": "UI design.",
+          "body": "Final screens for web, iOS and Android with motion and accessibility built in."
+        },
+        {
+          "title": "Design systems.",
+          "body": "Components, tokens and documentation shared by designers and engineers."
+        },
+        {
+          "title": "Build support.",
+          "body": "Sprint reviews, design QA and quick answers while engineers build."
+        }
+      ]
+    },
+    {
+      "h2": "How does our product design agency plan the work?",
+      "format": "steps",
+      "answer": "<strong>Our product design agency plans the work in 4 stages</strong>, and each stage has a fixed scope and a clear output.",
+      "items": [
+        {
+          "title": "Discovery (1–3 weeks)",
+          "body": "Stakeholder workshops, user interviews and a product audit that ends in a ranked list of problems."
+        },
+        {
+          "title": "Concept and validation (2–4 weeks)",
+          "body": "Flows and prototypes for the top problems, tested with 5 to 8 users."
+        },
+        {
+          "title": "Detailed design (3–8 weeks)",
+          "body": "Final screens, edge cases, empty states and the design system."
+        },
+        {
+          "title": "Delivery (ongoing)",
+          "body": "Our designers stay in your sprints until the new design is live and measured."
+        }
+      ]
+    },
+    {
+      "h2": "Product design agency vs a UI design studio",
+      "format": "table",
+      "answer": "<strong>A product design agency owns outcomes such as activation and retention; a UI design studio owns the look of the screens.</strong>",
+      "caption": "Comparison of a product design agency and a UI design studio",
+      "columns": [
+        "Criterion",
+        "Product design agency",
+        "UI design studio"
+      ],
+      "rows": [
+        [
+          "Starting point",
+          "Business goals and user research",
+          "Brand and visual direction"
+        ],
+        [
+          "Scope",
+          "Strategy, UX, UI, testing and delivery",
+          "Visual design of screens"
+        ],
+        [
+          "Measured by",
+          "Product metrics after launch",
+          "Design approval"
+        ],
+        [
+          "Stays during build",
+          "Yes",
+          "Rarely"
+        ],
+        [
+          "Best for",
+          "Products with growth targets",
+          "Brand refreshes and marketing sites"
+        ]
+      ]
+    },
+    {
+      "h2": "Why startups choose our product design agency",
+      "format": "cards",
+      "answer": "<strong>Startups choose our product design agency for 4 reasons.</strong>",
+      "items": [
+        {
+          "title": "Senior people only",
+          "body": "Every project is led by a senior product designer who stays from discovery to release."
+        },
+        {
+          "title": "Design and engineering in one company",
+          "body": "As part of tkxel, our designers work next to engineers who build what we design."
+        },
+        {
+          "title": "Built for SaaS and AI",
+          "body": "Deep pattern knowledge from our <a href=\"/services/saas-design-agency/\">SaaS design agency</a> and AI work."
+        },
+        {
+          "title": "Flexible models",
+          "body": "Fixed-scope projects or a monthly team that grows and shrinks with your roadmap."
+        }
+      ]
+    },
+    {
+      "h2": "How much does a product design agency cost?",
+      "format": "paragraph",
+      "answer": "<strong>Product design with our agency costs $25,000 to $180,000 per project, or $15,000 to $40,000 per month for an embedded team.</strong>",
+      "body": "<p>A discovery and concept phase for one product area sits near $25,000. A full product with a design system, web and mobile apps and build support sits near $180,000. Teams that want designers inside their sprints instead of a fixed project can <a href=\"/services/hire-ui-ux-designers/\">hire UI UX designers</a> monthly. Every cost factor is explained in the <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide.</p>"
+    },
+    {
+      "h2": "Product design agency FAQs",
+      "format": "faq",
+      "answer": "<strong>Answers to common questions about working with a product design agency.</strong>",
+      "faqs": [
+        {
+          "q": "Does your product design agency also build the product?",
+          "a": "<p>Yes. ui-ux.agency is the design team of tkxel, a software engineering company, so design and development run in one contract when you need both.</p>"
+        },
+        {
+          "q": "How quickly can a product design project start?",
+          "a": "<p>Most projects start within 1 to 2 weeks of a signed proposal.</p>"
+        },
+        {
+          "q": "Which tools does your product design team use?",
+          "a": "<p>Figma for design and prototypes, FigJam for workshops, Maze for remote tests and Storybook for design system documentation.</p>"
+        },
+        {
+          "q": "Can you work with our in-house designers?",
+          "a": "<p>Yes. We often lead research and the design system while in-house designers own day-to-day feature work.</p>"
+        }
+      ]
+    }
+  ],
+  "faqs": [],
+  "semantic": {
+    "entities": [
+      "product design agency",
+      "user research",
+      "design system",
+      "product strategy",
+      "Figma",
+      "Storybook"
+    ],
+    "ngrams": [
+      "product design agency",
+      "product design",
+      "design systems",
+      "build support",
+      "user research"
+    ],
+    "skipgrams": [],
+    "nlpKeywords": [
+      "startups",
+      "scale-ups",
+      "roadmap",
+      "prototype",
+      "design QA"
+    ]
+  },
+  "mentions": [
+    "tkxel",
+    "Figma",
+    "FigJam",
+    "Maze",
+    "Storybook"
+  ],
+  "relatedServices": [
+    "mvp-design-agency",
+    "saas-design-agency",
+    "hire-ui-ux-designers"
+  ]
+}

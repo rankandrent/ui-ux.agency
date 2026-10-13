@@ -1,0 +1,108 @@
+{
+  "title": "Chatbot UI design",
+  "order": 2,
+  "category": "AI products",
+  "anchor": "chatbot UI design",
+  "metaTitle": "Chatbot UI Design | Conversational AI Interfaces",
+  "metaDescription": "Chatbot UI design for AI assistants, support bots and in-app chat. Message layouts, prompts, handoff to humans and error states, built in 3 to 8 weeks.",
+  "updated": "2026-10-13",
+  "centralEntity": "chatbot UI design",
+  "sourceContext": "ui-ux.agency by tkxel; this page sells conversational interface design for AI chatbots and assistants.",
+  "priceRange": "$15,000–$60,000",
+  "hero": {
+    "eyebrow": "Chatbot UI design",
+    "h1": "Chatbot UI design that keeps conversations short, clear and useful",
+    "sub": "Message layouts, suggested replies, rich answer cards and a clean handoff to a human, designed for web, mobile and in-app chat."
+  },
+  "summary": "Conversation design and interface design for AI chatbots, assistants and support bots.",
+  "tags": ["Conversational UI", "AI assistants", "Support bots", "Human handoff"],
+  "abstract": "Chatbot UI design is the user interface (UI) design of a chat window: the message layout, input area, suggested replies, answer cards and states for typing, errors and handoff. Our team at ui-ux.agency designs chatbot interfaces for AI assistants and support bots in 3 to 8 weeks, and tests every conversation flow with real users before launch.",
+  "sections": [
+    {
+      "h2": "What is chatbot UI design?",
+      "format": "paragraph",
+      "answer": "<strong>Chatbot UI design decides how a conversation looks and behaves: where messages sit, how users type or tap, and how the bot shows results that plain text cannot hold.</strong> It covers the visual interface and the conversation flow together.",
+      "body": "<p>A good chatbot interface does more than show bubbles. It shows a product as a card with a price and a button, a booking as a calendar, and a long answer as short steps. It tells users what the bot can do before they type. Chatbot UI design is one part of the wider user experience (UX) of an AI product; the rest of that work sits with our <a href=\"/services/ai-ux-design-agency/\">AI UX design agency</a> team.</p>",
+      "image": {
+        "src": "/images/services/chatbot-ui-design.svg",
+        "alt": "Chat window layout with bot and user messages, a product answer card, three suggested reply chips and a message input with an attach button",
+        "caption": "Answer cards and suggested replies cut typing and keep the conversation on track."
+      }
+    },
+    {
+      "h2": "What does our chatbot UI design include?",
+      "format": "list",
+      "answer": "<strong>Our chatbot UI design includes 6 parts:</strong>",
+      "items": [
+        { "title": "Conversation map.", "body": "Every intent, branch and fallback, drawn before any screen is designed." },
+        { "title": "Message components.", "body": "Text, cards, carousels, forms, file previews and quick-reply chips, built as a reusable library." },
+        { "title": "Input design.", "body": "Text input, voice input, attachments and suggested prompts that show what the bot can do." },
+        { "title": "System states.", "body": "Typing, streaming, retry, error, refusal and offline states, each with a clear next action." },
+        { "title": "Human handoff.", "body": "A visible path to a person, with the chat history passed along so users never repeat themselves." },
+        { "title": "Bot personality guide.", "body": "Tone, message length and greeting rules that keep every reply consistent." }
+      ]
+    },
+    {
+      "h2": "How does the chatbot UI design process work?",
+      "format": "steps",
+      "answer": "<strong>The chatbot UI design process runs in 4 steps over 3 to 8 weeks.</strong>",
+      "items": [
+        { "title": "Transcript review (1 week)", "body": "We read real support chats or search logs to find the top questions and the words users actually use." },
+        { "title": "Flow design (1–2 weeks)", "body": "We map intents, answers, fallbacks and handoff rules, then agree them with the support and engineering teams." },
+        { "title": "Interface design (1–3 weeks)", "body": "We design the chat window, components and states for web, iOS and Android, or for an embedded widget." },
+        { "title": "Conversation testing (1–2 weeks)", "body": "Users complete real tasks with a clickable prototype; we measure task success and the number of turns per task." }
+      ]
+    },
+    {
+      "h2": "Chatbot UI design for support bots vs AI assistants",
+      "format": "table",
+      "answer": "<strong>A support bot answers a known set of questions; an AI assistant handles open requests.</strong> Chatbot UI design changes with that difference.",
+      "caption": "How chatbot UI design differs for support bots and AI assistants",
+      "columns": ["Criterion", "Support bot", "AI assistant"],
+      "rows": [
+        ["Main goal", "Resolve a ticket without an agent", "Help with open tasks inside a product"],
+        ["Input style", "Buttons and short text", "Free text, files and voice"],
+        ["Answer format", "Help articles and forms", "Generated text, tables and drafts"],
+        ["Key risk", "Users get stuck in a loop", "Users trust a wrong answer"],
+        ["Key metric", "Containment rate and CSAT", "Accepted answers and task time"]
+      ]
+    },
+    {
+      "h2": "Which chatbot UI design mistakes do we fix most?",
+      "format": "cards",
+      "answer": "<strong>Chatbot UI design audits find the same 4 mistakes again and again.</strong>",
+      "items": [
+        { "title": "Walls of text", "body": "Long replies hide the answer. We split answers into short steps, cards and links." },
+        { "title": "No escape", "body": "Users cannot reach a person. We add a visible handoff option after two failed turns." },
+        { "title": "Hidden abilities", "body": "Users do not know what to ask. We add starter prompts and a short welcome message." },
+        { "title": "Lost context", "body": "The bot forgets earlier answers. We design memory cues and an editable summary of the request." }
+      ]
+    },
+    {
+      "h2": "How much does chatbot UI design cost?",
+      "format": "paragraph",
+      "answer": "<strong>Chatbot UI design costs $15,000 to $60,000 and takes 3 to 8 weeks.</strong> The range depends on the number of intents, channels and languages.",
+      "body": "<p>A support widget with 20 to 30 intents on one website sits near $15,000. An AI assistant inside a web app and a mobile app, with file uploads and rich answer cards, sits near $60,000. Chat often ships as part of a larger <a href=\"/services/saas-design-agency/\">SaaS design agency</a> project; see the <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide for full ranges.</p>"
+    },
+    {
+      "h2": "Chatbot UI design FAQs",
+      "format": "faq",
+      "answer": "<strong>Short answers to common questions about chatbot UI design.</strong>",
+      "faqs": [
+        { "q": "Do you design the bot's answers as well as the interface?", "a": "<p>Yes. We write the greeting, fallback, error and handoff messages, and we give the content team a tone guide for every other reply.</p>" },
+        { "q": "Can you redesign a chatbot that is already live?", "a": "<p>Yes. We start with transcripts and analytics from the live bot, then fix the flows with the highest drop-off first.</p>" },
+        { "q": "Which platforms does your chatbot UI design cover?", "a": "<p>Website widgets, in-app chat for web apps, iOS and Android apps, and messaging channels such as WhatsApp and Slack.</p>" },
+        { "q": "Does chatbot UI design include accessibility?", "a": "<p>Yes. Every chat window supports keyboard use, screen readers and colour contrast of at least 4.5:1 for message text.</p>" }
+      ]
+    }
+  ],
+  "faqs": [],
+  "semantic": {
+    "entities": ["chatbot UI design", "conversational interface", "AI assistant", "support bot", "human handoff", "containment rate"],
+    "ngrams": ["chatbot ui design", "chatbot interface", "chat window", "suggested replies", "human handoff"],
+    "skipgrams": [],
+    "nlpKeywords": ["intents", "fallback", "answer cards", "quick replies", "conversation flow"]
+  },
+  "mentions": ["AI assistant", "support bot", "WhatsApp", "Slack", "iOS", "Android"],
+  "relatedServices": ["ai-ux-design-agency", "saas-design-agency"]
+}

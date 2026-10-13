@@ -14,7 +14,7 @@ const EXTRA = extra.authors as Record<string, Extra>;
 const TEAM_BYLINE: Author = {
   slug: "design-team",
   name: "Design Team",
-  role: "UI UX Design Services editorial team",
+  role: "ui-ux.agency editorial team",
   bio: "Posts written and reviewed together by our UX researchers, product designers and design leads.",
   hasBio: false,
   expertise: [],
@@ -40,7 +40,7 @@ export const authors: Author[] = [
       avatar: t.photo?.replace("/team/", "/team/face/"),
       linkedin: t.linkedin,
       // real bio from content/authors.json when filled in, else a plain role line (never invented)
-      bio: x.bio?.trim() || `${t.name} is ${indefinite(t.role)} ${t.role.split("|")[0].trim()} at UI UX Design Services.`,
+      bio: x.bio?.trim() || `${t.name} is ${indefinite(t.role)} ${t.role.split("|")[0].trim()} at ui-ux.agency.`,
       hasBio: !!x.bio?.trim(),
       expertise: x.expertise ?? [],
       person: true,

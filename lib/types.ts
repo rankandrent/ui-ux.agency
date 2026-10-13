@@ -75,11 +75,10 @@ type Brief = {
 
 /** content/services/<slug>.json */
 export const SERVICE_CATEGORIES = [
-  "Research & strategy",
-  "Product design",
-  "Platforms",
-  "Dashboards & data",
-  "Industry-specific",
+  "AI products",
+  "SaaS products",
+  "Startups & product",
+  "Hiring & pricing",
 ] as const;
 export type ServiceCategory = (typeof SERVICE_CATEGORIES)[number];
 

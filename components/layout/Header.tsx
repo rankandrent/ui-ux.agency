@@ -44,14 +44,11 @@ export function Header({ serviceGroups, industries, locations }: { serviceGroups
   }, []);
 
   const close = () => setOpen(false);
-  // "Industry-specific" services render as the bottom "Specialization" row
-  const specialGroup = serviceGroups.find((g) => g.category === "Industry-specific");
-  const mainGroups = serviceGroups.filter((g) => g !== specialGroup);
 
   return (
     <header className={`hdr${scrolled ? " is-scrolled" : ""}${open ? " is-open" : ""}${ddClosed ? " dd-closed" : ""}`}>
       <div className="hdr__inner">
-        <Link href="/" className="hdr__logo" aria-label="UI UX Design Services home" onClick={close}>
+        <Link href="/" className="hdr__logo" aria-label="ui-ux.agency home" onClick={close}>
           <Logo />
         </Link>
         <nav className="hdr__nav" aria-label="Main" onClick={onPanelClick} onMouseLeave={() => setDdClosed(false)}>
@@ -59,7 +56,7 @@ export function Header({ serviceGroups, industries, locations }: { serviceGroups
             <Link href={routes.services}>Services</Link>
             <div className="hdr__dd-panel mega">
               <div className="mega__cols">
-                {mainGroups.map((g) => (
+                {serviceGroups.map((g) => (
                   <div key={g.category} className="mega__col">
                     <p className="mega__cat">{g.category}</p>
                     <ul>
@@ -72,24 +69,12 @@ export function Header({ serviceGroups, industries, locations }: { serviceGroups
                   </div>
                 ))}
               </div>
-              {specialGroup && (
-                <div className="mega__special">
-                  <p className="mega__cat">Specialization</p>
-                  <ul className="mega__grid">
-                    {specialGroup.items.map((s) => (
-                      <li key={s.href}>
-                        <Link href={s.href}>{s.title}</Link>
-                      </li>
-                    ))}
-                    <li>
-                      <Link href={routes.services} className="mega__all">All services →</Link>
-                    </li>
-                  </ul>
-                </div>
-              )}
+              <div className="mega__special">
+                <Link href={routes.services} className="mega__all">All services →</Link>
+              </div>
             </div>
           </div>
-          <div className="hdr__dd hdr__dd--mega">
+          {!!industries.length && <div className="hdr__dd hdr__dd--mega">
             <Link href={routes.industries}>Industries</Link>
             <div className="hdr__dd-panel mega mega--ind">
               <p className="mega__cat">Industries</p>
@@ -104,7 +89,7 @@ export function Header({ serviceGroups, industries, locations }: { serviceGroups
                 <Link href={routes.industries} className="mega__all">All industries →</Link>
               </div>
             </div>
-          </div>
+          </div>}
           {!!locations.length && <div className="hdr__dd hdr__dd--mega">
             <Link href={routes.locations}>Locations</Link>
             <div className="hdr__dd-panel mega mega--ind mega--loc">
@@ -147,13 +132,13 @@ export function Header({ serviceGroups, industries, locations }: { serviceGroups
           ))}
           <Link href={routes.services} onClick={close} className="hdr__mall">All services →</Link>
         </details>
-        <details className="hdr__mgroup">
+        {!!industries.length && <details className="hdr__mgroup">
           <summary>Industries</summary>
           <div className="hdr__mcat">
             {industries.map((i) => <Link key={i.href} href={i.href} onClick={close}>{i.title}</Link>)}
           </div>
           <Link href={routes.industries} onClick={close} className="hdr__mall">All industries →</Link>
-        </details>
+        </details>}
         {!!locations.length && <details className="hdr__mgroup">
           <summary>Locations</summary>
           <div className="hdr__mcat">

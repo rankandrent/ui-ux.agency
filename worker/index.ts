@@ -13,7 +13,7 @@ type SendEmail = { send(message: EmailMessage): Promise<void> };
 type Env = { ASSETS: { fetch(request: Request): Promise<Response> }; LEADS?: SendEmail };
 
 // TODO(owner): confirm lead recipients for ui-ux.agency
-export const LEAD_RECIPIENTS = ["umar.sarwar@corp.tkxel.com", "rizwan.siddiqui@tkxel.com"];
+export const LEAD_RECIPIENTS = ["umar.sarwar@corp.tkxel.com"];
 const FROM = "leads@ui-ux.agency";
 const SITE = "ui-ux.agency";
 

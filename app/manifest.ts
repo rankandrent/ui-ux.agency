@@ -9,8 +9,8 @@ export default function manifest(): MetadataRoute.Manifest {
     short_name: "UIUXDesign",
     start_url: "/",
     display: "browser",
-    background_color: "#020101",
-    theme_color: "#020101",
+    background_color: "#1B232E",
+    theme_color: "#1B232E",
     icons: [{ src: "/icon.svg", sizes: "any", type: "image/svg+xml" }],
   };
 }

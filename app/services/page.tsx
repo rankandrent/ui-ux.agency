@@ -11,23 +11,21 @@ import { cap, routes } from "@/lib/site";
 import type { ServiceCategory } from "@/lib/types";
 
 export const metadata = pageMetadata({
-  title: "UI UX Design Services | Research, UX, UI & Testing",
-  description: "Explore our UI UX design services: UX research, audits, usability testing, product and app design, dashboards and design systems. See pricing and timelines.",
+  title: "What Our UI UX Design Agency Does | AI, SaaS & MVPs",
+  description: "What our UI UX design agency does: AI UX design, chatbot UI, SaaS design and redesign, MVP and product design, dedicated designers and a cost guide.",
   path: routes.services,
-  keywords: ["UI UX design services", "UX design services", "UX research services", "UX audit services", "usability testing services", "design system services"],
+  keywords: ["UI UX design agency", "AI UX design agency", "SaaS design agency", "MVP design agency", "product design agency", "hire UI UX designers"],
 });
 
 const INTRO: Record<ServiceCategory, string> = {
-  "Research & strategy":
-    "A design is only as good as the evidence behind it. These services show what users need, where the product loses them, and what to fix first, before a single screen is redesigned.",
-  "Product design":
-    "Design the product itself: the flows, interactions, interfaces and the design system behind them. Every screen is built to hold up under real, daily use.",
-  Platforms:
-    "Users meet your product on a specific platform. We design native-feeling iOS and Android apps and complex web applications around each platform's conventions.",
-  "Dashboards & data":
-    "Dense data only helps when people can read it. These services turn metrics, reports and live data into dashboards and visuals people can act on.",
-  "Industry-specific":
-    "Some markets need their own playbook. These services are shaped around the business models, users and growth stage of SaaS, e-commerce and startup products.",
+  "AI products":
+    "Interfaces for products where a model writes, predicts or recommends. We design how people prompt, read, check and correct AI output, so they trust it for the right reasons.",
+  "SaaS products":
+    "Subscription software lives or dies on activation and retention. We design new SaaS products and rework existing ones around the jobs paying users come back for.",
+  "Startups & product":
+    "From a first clickable prototype to a product that is ready for its next funding round. Design work sized for founders who need to learn fast and ship faster.",
+  "Hiring & pricing":
+    "How to work with us and what it costs: dedicated designers who join your sprints, and a plain-numbers guide to the price of UI UX design.",
 };
 
 const idOf = (c: string) => c.toLowerCase().replace(/[^a-z]+/g, "-");

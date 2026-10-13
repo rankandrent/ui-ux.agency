@@ -1,0 +1,257 @@
+{
+  "title": "UI UX design cost",
+  "order": 8,
+  "category": "Hiring & pricing",
+  "anchor": "UI UX design cost",
+  "metaTitle": "UI UX Design Cost in 2026 | Agency Prices by Project",
+  "metaDescription": "UI UX design cost in 2026: real agency price ranges for MVPs, SaaS products, AI features, redesigns and monthly design teams, plus 6 cost factors.",
+  "updated": "2026-10-13",
+  "centralEntity": "UI UX design cost",
+  "sourceContext": "ui-ux.agency by tkxel; this page is a pricing guide that sends buyers to the matching engagement.",
+  "priceRange": "$15,000–$200,000",
+  "hero": {
+    "eyebrow": "UI UX design cost",
+    "h1": "UI UX design cost: what an agency charges and why",
+    "sub": "Published price ranges for every engagement we run, the 6 factors that move a quote up or down, and how to compare agency, freelance and in-house costs."
+  },
+  "summary": "Price ranges and cost factors for UI UX design projects and monthly design teams.",
+  "tags": [
+    "Pricing",
+    "Budget planning",
+    "Cost factors",
+    "Engagement models"
+  ],
+  "abstract": "UI UX design cost at an agency ranges from $15,000 for a minimum viable product (MVP) design to $200,000 for a full SaaS product redesign, or $15,000 to $40,000 per month for a dedicated team. This guide from ui-ux.agency, the design team of tkxel, lists the user experience (UX) and user interface (UI) price ranges we quote and the 6 factors that set each price.",
+  "sections": [
+    {
+      "h2": "How much does UI UX design cost in 2026?",
+      "format": "table",
+      "answer": "<strong>UI UX design cost at our agency starts at $15,000 for a focused project and reaches $200,000 for a full platform redesign.</strong> The table lists the range for each engagement we run.",
+      "caption": "UI UX design cost by engagement at ui-ux.agency",
+      "columns": [
+        "Engagement",
+        "Price range",
+        "Timeline"
+      ],
+      "rows": [
+        [
+          "MVP design",
+          "$15,000–$50,000",
+          "4–8 weeks"
+        ],
+        [
+          "Chatbot UI design",
+          "$15,000–$60,000",
+          "3–8 weeks"
+        ],
+        [
+          "AI UX design",
+          "$25,000–$90,000",
+          "4–10 weeks"
+        ],
+        [
+          "Product design project",
+          "$25,000–$180,000",
+          "6–16 weeks"
+        ],
+        [
+          "SaaS product design",
+          "$40,000–$180,000",
+          "6–16 weeks"
+        ],
+        [
+          "SaaS product redesign",
+          "$50,000–$200,000",
+          "8–20 weeks"
+        ],
+        [
+          "Dedicated design team",
+          "$15,000–$40,000 per month",
+          "Ongoing"
+        ]
+      ],
+      "links": [
+        {
+          "anchor": "MVP design agency",
+          "to": "/services/mvp-design-agency/"
+        },
+        {
+          "anchor": "AI UX design agency",
+          "to": "/services/ai-ux-design-agency/"
+        },
+        {
+          "anchor": "SaaS design agency",
+          "to": "/services/saas-design-agency/"
+        }
+      ]
+    },
+    {
+      "h2": "Which factors change UI UX design cost?",
+      "format": "list",
+      "answer": "<strong>6 cost factors change UI UX design cost more than any other:</strong>",
+      "items": [
+        {
+          "title": "Number of user roles.",
+          "body": "Each role, such as admin, buyer or seller, adds its own flows and screens."
+        },
+        {
+          "title": "Number of platforms.",
+          "body": "Web, iOS and Android each need their own layouts and patterns."
+        },
+        {
+          "title": "Research depth.",
+          "body": "Interviews, usability tests and analytics reviews add time and give stronger evidence."
+        },
+        {
+          "title": "Design system scope.",
+          "body": "A full component library with tokens costs more upfront and saves engineering time later."
+        },
+        {
+          "title": "AI and data complexity.",
+          "body": "AI output, dashboards and dense tables need more states and more testing."
+        },
+        {
+          "title": "Build support.",
+          "body": "Designers who stay through development add weeks to the project and remove costly rework."
+        }
+      ],
+      "image": {
+        "src": "/images/services/ui-ux-design-cost.svg",
+        "alt": "Bar chart of UI UX design cost ranges for MVP design, AI UX design, SaaS design and SaaS product redesign, from $15,000 to $200,000",
+        "caption": "UI UX design cost ranges by engagement, from a focused MVP to a full redesign."
+      }
+    },
+    {
+      "h2": "UI UX design cost: agency vs freelancer vs in-house",
+      "format": "table",
+      "answer": "<strong>A freelancer usually has the lowest UI UX design cost per hour; an agency usually has the lowest cost per finished, tested product.</strong>",
+      "caption": "UI UX design cost by hiring model",
+      "columns": [
+        "Model",
+        "Typical cost",
+        "What the price includes"
+      ],
+      "rows": [
+        [
+          "Agency project",
+          "$15,000–$200,000 per project",
+          "Research, UX, UI, testing and handoff by a team"
+        ],
+        [
+          "Agency monthly team",
+          "$15,000–$40,000 per month",
+          "2–5 designers, lead review and tools"
+        ],
+        [
+          "Freelance designer",
+          "Hourly or per-project rate",
+          "One person's design time"
+        ],
+        [
+          "In-house senior designer",
+          "Annual salary plus benefits and recruiting fees",
+          "One person, after 2–4 months of hiring"
+        ]
+      ]
+    },
+    {
+      "h2": "How do you lower UI UX design cost without cutting quality?",
+      "format": "cards",
+      "answer": "<strong>4 decisions lower UI UX design cost while keeping research and testing in the project.</strong>",
+      "items": [
+        {
+          "title": "Start with one platform",
+          "body": "Design web or mobile first, then adapt the tested flows to the second platform."
+        },
+        {
+          "title": "Limit the first release",
+          "body": "A tight MVP scope keeps design focused on the flow users pay for."
+        },
+        {
+          "title": "Reuse a design system",
+          "body": "Building on an open-source component library saves weeks of UI work."
+        },
+        {
+          "title": "Share research",
+          "body": "Existing interviews, analytics and support tickets shorten discovery."
+        }
+      ]
+    },
+    {
+      "h2": "What does a UI UX design cost estimate include?",
+      "format": "steps",
+      "answer": "<strong>A UI UX design cost estimate from us follows 3 steps</strong>, from the first call to a written, fixed-scope proposal.",
+      "items": [
+        {
+          "title": "Scoping call",
+          "body": "A 45-minute call about goals, users, platforms, deadlines and existing design work."
+        },
+        {
+          "title": "Written proposal",
+          "body": "Scope, deliverables, team, timeline and a fixed price or monthly rate."
+        },
+        {
+          "title": "Review and adjust",
+          "body": "We change scope or phasing until the plan fits your budget and launch date."
+        }
+      ]
+    },
+    {
+      "h2": "UI UX design cost FAQs",
+      "format": "faq",
+      "answer": "<strong>Answers to the most common questions about UI UX design cost.</strong>",
+      "faqs": [
+        {
+          "q": "How do you charge: fixed prices or hourly rates?",
+          "a": "<p>Fixed prices for projects with a clear scope, and a monthly rate when you <a href=\"/services/hire-ui-ux-designers/\">hire UI UX designers</a> as a dedicated team.</p>"
+        },
+        {
+          "q": "Why do UI UX design cost quotes differ so much between agencies?",
+          "a": "<p>Quotes differ because scope differs. Compare how many user roles, platforms, research sessions and test rounds each quote covers, and whether designers stay through development.</p>"
+        },
+        {
+          "q": "Does the UI UX design cost include development?",
+          "a": "<p>No. Design and development are quoted separately; tkxel's engineering team quotes the build when you need it.</p>"
+        }
+      ]
+    }
+  ],
+  "faqs": [],
+  "semantic": {
+    "entities": [
+      "UI UX design cost",
+      "agency pricing",
+      "freelance designer",
+      "in-house designer",
+      "design system",
+      "minimum viable product"
+    ],
+    "ngrams": [
+      "ui ux design cost",
+      "price range",
+      "cost factors",
+      "design team",
+      "fixed price"
+    ],
+    "skipgrams": [],
+    "nlpKeywords": [
+      "budget",
+      "estimate",
+      "hourly rate",
+      "monthly rate",
+      "milestones"
+    ]
+  },
+  "mentions": [
+    "tkxel",
+    "MVP",
+    "SaaS",
+    "freelance",
+    "in-house"
+  ],
+  "relatedServices": [
+    "hire-ui-ux-designers",
+    "mvp-design-agency",
+    "saas-design-agency"
+  ]
+}

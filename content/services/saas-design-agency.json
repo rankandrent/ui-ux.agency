@@ -1,0 +1,108 @@
+{
+  "title": "SaaS design",
+  "order": 3,
+  "category": "SaaS products",
+  "anchor": "SaaS design agency",
+  "metaTitle": "SaaS Design Agency | Product Design for Activation",
+  "metaDescription": "SaaS design agency for B2B and B2C software: onboarding, dashboards, settings and billing designed to raise activation and retention. 6 to 16 weeks.",
+  "updated": "2026-10-13",
+  "centralEntity": "SaaS design agency",
+  "sourceContext": "ui-ux.agency by tkxel; this page sells end-to-end SaaS product design to software companies.",
+  "priceRange": "$40,000–$180,000",
+  "hero": {
+    "eyebrow": "SaaS design agency",
+    "h1": "SaaS design agency for software people sign up for and stay with",
+    "sub": "Onboarding, core workflows, dashboards, roles and billing designed around the moment a trial user becomes a paying customer."
+  },
+  "summary": "End-to-end product design for B2B and B2C software as a service.",
+  "tags": ["Onboarding", "Activation", "Dashboards", "Design systems"],
+  "abstract": "A SaaS design agency designs the user experience (UX) and user interface (UI) of subscription software, from sign-up and onboarding to daily workflows, admin settings and billing. Our team at ui-ux.agency, part of tkxel, designs SaaS products in 6 to 16 weeks and ties every screen to a key performance indicator (KPI) such as activation rate, retention or expansion revenue.",
+  "sections": [
+    {
+      "h2": "What does a SaaS design agency do?",
+      "format": "paragraph",
+      "answer": "<strong>A SaaS design agency designs every screen a customer touches between the free trial and the renewal, and measures that work against activation and retention.</strong> It is product design for software that earns its revenue month after month.",
+      "body": "<p>SaaS products have patterns most other software lacks: trials, seats, roles, permissions, usage limits, plan upgrades and invoices. Each pattern is a place where users get stuck or leave. Our designers study where trial users stop, then design the shortest path to the first moment of value. For products that already have paying customers and an aging interface, the work becomes a <a href=\"/services/saas-product-redesign/\">SaaS product redesign</a>.</p>",
+      "image": {
+        "src": "/images/services/saas-design-agency.svg",
+        "alt": "SaaS dashboard layout with a sidebar, an onboarding checklist at 3 of 5 steps, a usage chart and a plan upgrade card",
+        "caption": "An onboarding checklist and clear usage limits move trial users toward their first result."
+      }
+    },
+    {
+      "h2": "What does our SaaS design agency deliver?",
+      "format": "list",
+      "answer": "<strong>Our SaaS design agency delivers 6 parts of a subscription product:</strong>",
+      "items": [
+        { "title": "Sign-up and onboarding.", "body": "Account creation, workspace setup, invites and a checklist that leads to the first result." },
+        { "title": "Core workflows.", "body": "The 3 to 5 jobs customers pay for, designed and tested with real users." },
+        { "title": "Dashboards and reports.", "body": "Home screens that show status, usage and next actions instead of every metric at once." },
+        { "title": "Roles and settings.", "body": "Admin, member and guest views, permissions, integrations and audit logs." },
+        { "title": "Plans and billing.", "body": "Pricing pages, upgrade prompts, usage limits, invoices and cancellation flows." },
+        { "title": "Design system.", "body": "A component library in Figma with tokens that match the front-end code, so new features ship faster." }
+      ]
+    },
+    {
+      "h2": "How does our SaaS design agency work with your team?",
+      "format": "steps",
+      "answer": "<strong>A SaaS design engagement runs in 4 steps over 6 to 16 weeks</strong>, alongside your product and engineering teams.",
+      "items": [
+        { "title": "Product and data review (1–2 weeks)", "body": "We read your analytics, watch session recordings and interview 6 to 10 customers and churned users." },
+        { "title": "Flows and wireframes (2–4 weeks)", "body": "We redesign the riskiest flows first, usually onboarding and the main workflow, and test them as clickable wireframes." },
+        { "title": "UI and design system (2–6 weeks)", "body": "We design final screens and build the component library your engineers reuse in every sprint." },
+        { "title": "Build support (1–4 weeks)", "body": "Our designers join sprint reviews, answer questions and check built screens against the design." }
+      ]
+    },
+    {
+      "h2": "SaaS design agency vs in-house SaaS designers",
+      "format": "table",
+      "answer": "<strong>A SaaS design agency brings a full senior team in 1 to 2 weeks; in-house hiring takes 2 to 4 months per designer.</strong> Many companies use an agency first, then hire to maintain the system.",
+      "caption": "Comparison of a SaaS design agency and in-house SaaS designers",
+      "columns": ["Criterion", "SaaS design agency", "In-house designers"],
+      "rows": [
+        ["Time to start", "1–2 weeks", "2–4 months to hire and onboard"],
+        ["Skills on day one", "Research, UX, UI and design systems", "Depends on each hire"],
+        ["Cost structure", "Fixed project fee or monthly plan", "Salary, benefits and tools"],
+        ["Best for", "New products, redesigns and peaks", "Long-term ownership of one product"],
+        ["Pattern knowledge", "Many SaaS products across markets", "Deep knowledge of one product"]
+      ]
+    },
+    {
+      "h2": "Which SaaS products does our SaaS design agency design?",
+      "format": "cards",
+      "answer": "<strong>Our SaaS design agency works on 4 kinds of software as a service:</strong>",
+      "items": [
+        { "title": "B2B platforms", "body": "Tools for finance, HR, operations and sales teams, with complex roles and data tables." },
+        { "title": "AI-powered SaaS", "body": "Products with copilots and generated content, designed with our <a href=\"/services/ai-ux-design-agency/\">AI UX design agency</a> team." },
+        { "title": "Vertical SaaS", "body": "Software for one industry, such as healthcare clinics, logistics firms or property managers." },
+        { "title": "Product-led growth tools", "body": "Self-serve products where the free plan and onboarding do the selling." }
+      ]
+    },
+    {
+      "h2": "How much does a SaaS design agency cost?",
+      "format": "paragraph",
+      "answer": "<strong>SaaS design with our agency costs $40,000 to $180,000 for a full product, or $15,000 to $40,000 per month for an embedded team.</strong> Scope, number of user roles and platforms set the final price.",
+      "body": "<p>A focused onboarding and dashboard project sits near $40,000. A full B2B platform with several roles, a design system and a mobile companion app sits near $180,000. Early-stage companies building a minimum viable product (MVP) usually start with an <a href=\"/services/mvp-design-agency/\">MVP design agency</a> engagement. Our <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide explains each price factor.</p>"
+    },
+    {
+      "h2": "SaaS design agency FAQs",
+      "format": "faq",
+      "answer": "<strong>Answers to the questions SaaS founders and product leads ask most.</strong>",
+      "faqs": [
+        { "q": "Do you design SaaS marketing websites too?", "a": "<p>Yes. We design the marketing site, pricing page and sign-up flow together, so the promise on the website matches the first minutes in the product.</p>" },
+        { "q": "How do you measure SaaS design success?", "a": "<p>We agree 2 or 3 metrics at kick-off, usually activation rate, time to first value and trial-to-paid conversion, and compare them before and after launch.</p>" },
+        { "q": "Can your SaaS designers work in our sprints?", "a": "<p>Yes. Our designers join your planning, stand-ups and reviews, and work in your Figma, Jira or Linear workspace.</p>" },
+        { "q": "Who owns the designs after the project?", "a": "<p>You do. All Figma files, components and research notes transfer to your company when the project ends.</p>" }
+      ]
+    }
+  ],
+  "faqs": [],
+  "semantic": {
+    "entities": ["SaaS design agency", "software as a service", "activation rate", "onboarding", "design system", "product-led growth"],
+    "ngrams": ["saas design agency", "saas design", "saas product", "onboarding", "activation rate"],
+    "skipgrams": [],
+    "nlpKeywords": ["trial", "retention", "billing", "roles and permissions", "dashboards"]
+  },
+  "mentions": ["software as a service", "Figma", "Jira", "Linear", "product-led growth"],
+  "relatedServices": ["saas-product-redesign", "ai-ux-design-agency", "hire-ui-ux-designers"]
+}

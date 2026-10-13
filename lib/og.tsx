@@ -15,15 +15,15 @@ export function ogImage(title: string, eyebrow = "UI UX design services") {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: 72,
-          background: "radial-gradient(120% 120% at 100% 0%, #5a0f2a 0%, #020101 55%)",
+          background: "radial-gradient(120% 120% at 100% 0%, #0B2A6B 0%, #1B232E 55%)",
           color: "#fff",
           fontFamily: "sans-serif",
         }}
       >
-        <div style={{ display: "flex", fontSize: 26, letterSpacing: 4, textTransform: "uppercase", color: "#F25D7D" }}>{eyebrow}</div>
+        <div style={{ display: "flex", fontSize: 26, letterSpacing: 4, textTransform: "uppercase", color: "#5B8DF5" }}>{eyebrow}</div>
         <div style={{ display: "flex", fontSize: title.length > 60 ? 60 : 72, fontWeight: 800, lineHeight: 1.08, letterSpacing: -2 }}>{title}</div>
         <div style={{ display: "flex", fontSize: 30, fontWeight: 700 }}>
-          ui-ux<span style={{ color: "#E2225F" }}>.agency</span>
+          ui-ux<span style={{ color: "#0755E9" }}>.agency</span>
         </div>
       </div>
     ),
