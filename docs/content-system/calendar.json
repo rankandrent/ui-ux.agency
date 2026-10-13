@@ -1,5 +1,5 @@
 {
- "note": "Daily content queue (owner, 2026-10-13): one item per day, top to bottom; mark status done with the date and URL. Volumes from keywords-2026-10.json (Ahrefs US). Locations are written as drafts and published by scripts/publish-next-location.mjs; industries and posts publish the day they are written.",
+ "note": "Daily content queue (owner, 2026-10-13): one item per day, top to bottom; mark status done with the date and URL. Volumes from keywords-2026-10.json (Ahrefs US). Locations are written as drafts and published by scripts/publish-next-location.mjs; industries and posts publish the day they are written. Every item must pass docs/content-system/clusters.json (one parent topic = one URL).",
  "queue": [
   {
    "type": "blog",
@@ -7,6 +7,22 @@
    "hub": "saas-onboarding-design",
    "volume": 1000,
    "kd": 6,
+   "status": "todo"
+  },
+  {
+   "type": "service-retarget",
+   "target": "mvp-design-agency",
+   "keyword": "mvp design",
+   "volume": 200,
+   "kd": 0,
+   "status": "todo"
+  },
+  {
+   "type": "service-retarget",
+   "target": "ai-product-discovery-workshop",
+   "keyword": "product discovery workshop",
+   "volume": 450,
+   "kd": 0,
    "status": "todo"
   },
   {
@@ -20,17 +36,18 @@
   },
   {
    "type": "blog",
-   "keyword": "chatbot ui design",
+   "keyword": "chatbot ui",
    "hub": "chatbot-ui-design",
-   "volume": 350,
-   "kd": 0,
-   "status": "todo"
+   "volume": 1000,
+   "kd": 28,
+   "status": "todo",
+   "note": "examples and patterns post; the service owns \"chatbot ui design\""
   },
   {
    "type": "industry",
    "slug": "ecommerce",
-   "keyword": "ecommerce ux agency",
-   "volume": 1040,
+   "keyword": "ecommerce ux",
+   "volume": 400,
    "status": "todo"
   },
   {
@@ -49,14 +66,6 @@
    "state": "CA",
    "keyword": "ux design agency los angeles",
    "volume": 560,
-   "status": "todo"
-  },
-  {
-   "type": "blog",
-   "keyword": "what is a design sprint",
-   "hub": "design-sprint",
-   "volume": 1000,
-   "kd": 22,
    "status": "todo"
   },
   {
@@ -85,14 +94,6 @@
    "status": "todo"
   },
   {
-   "type": "blog",
-   "keyword": "ux audit",
-   "hub": "ux audit (needs a hub page first)",
-   "volume": 700,
-   "kd": 11,
-   "status": "todo"
-  },
-  {
    "type": "industry",
    "slug": "healthcare",
    "keyword": "healthcare ux design",
@@ -118,18 +119,10 @@
    "status": "todo"
   },
   {
-   "type": "blog",
-   "keyword": "mvp design",
-   "hub": "mvp-design-agency",
-   "volume": 200,
-   "kd": 0,
-   "status": "todo"
-  },
-  {
    "type": "industry",
    "slug": "enterprise",
-   "keyword": "enterprise ux design agency",
-   "volume": 440,
+   "keyword": "enterprise ux",
+   "volume": 150,
    "status": "todo"
   },
   {
@@ -151,21 +144,6 @@
    "status": "todo"
   },
   {
-   "type": "blog",
-   "keyword": "ai for ux design",
-   "hub": "ai-ux-design-agency",
-   "volume": 150,
-   "kd": 20,
-   "status": "todo"
-  },
-  {
-   "type": "industry",
-   "slug": "banking",
-   "keyword": "banking app design",
-   "volume": 340,
-   "status": "todo"
-  },
-  {
    "type": "location",
    "slug": "san-diego",
    "city": "San Diego",
@@ -181,21 +159,6 @@
    "state": "PA",
    "keyword": "ux design agency philadelphia",
    "volume": 70,
-   "status": "todo"
-  },
-  {
-   "type": "blog",
-   "keyword": "saas ux design",
-   "hub": "saas-design-agency",
-   "volume": 150,
-   "kd": 2,
-   "status": "todo"
-  },
-  {
-   "type": "industry",
-   "slug": "b2b",
-   "keyword": "b2b ux agency",
-   "volume": 290,
    "status": "todo"
   },
   {
@@ -241,6 +204,13 @@
    "state": "PA",
    "keyword": "ux design pittsburgh",
    "volume": 50,
+   "status": "todo"
+  },
+  {
+   "type": "blog",
+   "keyword": "how to design an mvp",
+   "hub": "mvp-design-agency",
+   "volume": 150,
    "status": "todo"
   }
  ]
