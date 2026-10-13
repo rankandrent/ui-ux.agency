@@ -33,7 +33,7 @@ Picture a hypothetical business-to-business (B2B) software as a service (SaaS) t
 
 Six minutes in, the user hasn't done one thing they came for. That's where a trial quietly ends.
 
-At ui-ux.agency, the design team of tkxel, our designers have worked on more than 200 digital products since 2017. A log like this is the first thing we look for in new-user session recordings. Everything between that form and the first result worth a second visit is SaaS onboarding. Below: where onboarding ends, the flow screen by screen, how to cut steps, the patterns that carry it, B2B roles, emails and a 12-point audit.
+At ui-ux.agency, the design team of tkxel, our designers have worked on more than 200 digital products since 2017. Our onboarding work starts the same way: we watch new-user session recordings and measure drop-off from sign-up to first value. Everything between that form and the first result worth a second visit is SaaS onboarding. Below: where onboarding ends, the flow screen by screen, how to cut steps, the patterns that carry it, B2B roles, emails and a 12-point audit.
 
 ## What is SaaS onboarding, from a designer's view?
 
@@ -45,7 +45,7 @@ To a designer, it isn't a welcome email or a kickoff call. It's a user onboardin
 - **Guidance:** checklists, tooltips and tours placed on top of those screens.
 - **Messages:** emails and in-app prompts that reach the user after they stop.
 
-Teams usually patch the top two layers first. The screens underneath decide the outcome, which is why our [SaaS onboarding design](/services/saas-products/saas-onboarding-design/) work starts there.
+Teams usually patch the top two layers first. The screens underneath decide the outcome, which is why our [SaaS onboarding design](/services/saas-products/saas-onboarding-design/) work redesigns sign-up, setup and empty states, not only the guidance on top.
 
 One naming trap: in the Amazon Web Services (AWS) [SaaS Lens](https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/tenant-onboarding.html), "tenant onboarding" means provisioning infrastructure and identity for a new customer account. That's engineering. When your team says "onboarding", ask which layer they mean.
 
@@ -53,7 +53,7 @@ One naming trap: in the Amazon Web Services (AWS) [SaaS Lens](https://docs.aws.a
 
 **User onboarding happens inside the product and scales through screens; customer onboarding is a guided program run by people, and most B2B SaaS products need both.**
 
-B2B SaaS customer onboarding usually has two owners: the product team and a customer success manager (CSM), who runs kickoff, training and go-live. Yet the product must still work for the 20th invited member, who never joins that call.
+B2B SaaS customer onboarding usually runs on two tracks with two owners: the product team's screens and a customer success manager (CSM), who runs kickoff, training and go-live. Yet the product must still work for the 20th invited member, who never joins that call.
 
 The table below compares the two by owner, place, trigger, end point and what each scales with.
 
@@ -75,17 +75,17 @@ Bridge: data import, single sign-on setup and permissions screens.
 
 Work falls through at the handoff. Data import, single sign-on (SSO) setup and permissions sit between the CSM and the product team, so nobody designs them. Design those screens so a call is optional.
 
-A SaaS customer onboarding checklist from customer success covers kickoff to go-live; the audit below covers screens. Self-serve trial? Read on. Kickoff call for every account? Jump to admins and members.
+A SaaS customer onboarding checklist from customer success covers kickoff to go-live; the audit below covers screens. Self-serve trial? Read on. If every account starts with a kickoff call, jump to admins and members.
 
 ## Where does SaaS onboarding end?
 
-**SaaS onboarding ends at the activation event: the first action that predicts a user will stay, so every screen before it is onboarding and is judged by it.**
+**SaaS onboarding ends at the activation event, the first action that predicts a user will stay, and every screen before it is judged by whether users get there.**
 
-Two numbers follow. **Activation rate** is the share of new sign-ups who reach that event within a set window. **Time to first value** is the time from sign-up to the same event: minutes for a self-serve tool, days for a product that needs data first.
+Three numbers follow. **Activation rate** is the share of new sign-ups who reach that event within a set window. **Time to first value** is the time from sign-up to the same event: minutes for a self-serve tool, days for a product that needs data first. **Day-7 return rate** is the share of new sign-ups who come back for another session a week later; it shows whether first value turned into a habit.
 
-Some teams call it the aha moment, but an activation event is something analytics can log. Keep its window shorter than your free trial length, so days remain to win stalled users back.
+Only one stage comes after the activation event: the prompt that brings an activated user back for a second session. Some teams call that event the aha moment, but unlike a feeling, it is something analytics can log. Keep its window shorter than your free trial length, so days remain to win stalled users back.
 
-How do you find yours? In [The Cold Start Problem](https://a16z.com/books/the-cold-start-problem/), Andrew Chen quotes Slack co-founder Stewart Butterfield: of the teams that had exchanged 2,000 messages, 93% were still using Slack. Slack found that threshold by comparing teams that stayed with teams that left. Run the same comparison:
+How do you find yours? In [The Cold Start Problem](https://a16z.com/books/the-cold-start-problem/), Andrew Chen quotes Slack co-founder Stewart Butterfield: of the teams that had exchanged 2,000 messages, 93% were still using Slack. Look for your own threshold by comparing users who stayed with users who left:
 
 1. In Mixpanel or Amplitude, split last quarter's sign-ups into users active at day 30 and users who left.
 2. Compare what each group did in its first week.
@@ -95,7 +95,7 @@ Say you run a scheduling SaaS. "Calendar connected" only proves setup. "First me
 
 ## What does the SaaS onboarding process look like?
 
-**The SaaS onboarding process runs in five stages, from sign-up to a second-session prompt, and each stage either shortens time to first value or gets cut.**
+**The SaaS onboarding process runs in five stages: four lead to the activation event, a fifth brings the user back, and any step serving neither gets cut.**
 
 The map below puts screens and messages on two rows, with the activation event as the finish line. Measure drop-off per onboarding step to find the stage that loses people.
 
@@ -117,25 +117,25 @@ Finish line: the activation event, between stages 4 and 5.
 
 ### 1. Sign-up
 
-In the sign-up flow, limit required fields to what the account needs, and offer SSO for B2B. Where security allows, verify email after first value.
+Every required field is one more chance to quit, so limit the sign-up flow to what the account needs and offer SSO for B2B. The scheduling SaaS asks only for a work email or a Google or Microsoft sign-in. Where security allows, verify email after first value.
 
 ### 2. Welcome question
 
-A welcome survey earns its place only if it changes what the user sees next. Setup questions that change nothing now get asked later or cut.
+A welcome survey earns its place only if it changes what the user sees next, because every extra question delays the first result. The scheduler asks, "What will you book first: sales calls, interviews or support sessions?" and preloads the matching meeting type.
 
 ### 3. Essential setup
 
-Ask only for what first value needs; profile, billing and notifications move later. The goal is fewer steps from sign-up to first value.
+Ask only for what first value needs, because each setup screen stands between the user and the result. The scheduler keeps the calendar connection, since booking cannot work without it, and starts availability from default hours. Profile, billing and notifications move later.
 
 ### 4. First-value task
 
-A real task with real or sample data, not a menu tour. The activation event happens here.
+Give the user a real task with real or sample data instead of a menu tour, because they leave with their own result. In the scheduler, the booking link arrives pre-copied beside a preview of the booking page. The activation event follows when someone books through it.
 
 ### 5. Second-session prompt
 
-Give the user a reason to return: a result to check, a teammate to invite or one unfinished step.
+Activation proves the product worked once; it doesn't build a habit. So give the user a reason to return: a result to check, a teammate to invite or one unfinished step. When a scheduler user comes back, the dashboard shows the booked meeting and one next step.
 
-In a B2B product, the SaaS customer onboarding process flow splits into two tracks after setup. Sketch your five stages and write the drop-off number under each.
+In a B2B product, the SaaS customer onboarding process flow runs beside these five stages, and the in-app path itself splits at the team invite: admins finish setup, invited members skip it. Sketch your five stages and write the drop-off number under each.
 
 ## How do you cut a SaaS onboarding flow to a straight line?
 
@@ -143,11 +143,12 @@ In a B2B product, the SaaS customer onboarding process flow splits into two trac
 
 The method comes from Wes Bush's [Bowling Alley Framework](https://productled.com/blog/user-adoption-framework-bowling-alley), a product-led growth (PLG) model. The shortest route to value is the straight line; in-app guidance (product bumpers) and messages (conversational bumpers) keep users out of the gutters.
 
-Run three tests on every step:
+Run four tests on every step:
 
 - **Does the product break without it?** It stays, because nothing works until it's done.
 - **Can a default stand in?** It moves later, since a sample or template does the job for now.
 - **Is there a better moment?** Ask then, the way billing belongs at upgrade.
+- **Does it help the user at any point before upgrade?** If not, cut it, the way an intro video or a job-title field only sales reads gets cut.
 
 Back to the scheduling SaaS, with 11 steps before the first booking: four stay, five move later, two go.
 
@@ -216,7 +217,7 @@ The number of user roles sets the number of paths; admin and member are the mini
 
 </details>
 
-For large accounts, data import and permissions often need a CSM, so design them as screens a CSM can walk through on a call, not a spreadsheet. Then join your own product as an invited member: if you see the admin's setup wizard, that's your first fix.
+Now test it: join your own product as an invited member: if you see the admin's setup wizard, that's your first fix.
 
 ## How do SaaS onboarding emails fit the in-app flow?
 
@@ -267,23 +268,23 @@ Fix the earliest failing box, ship it, and rerun the audit after a week of new s
 Onboarding tools such as Appcues, Userpilot and Pendo are good at checklists, tours and in-app messages, and we design for them too. But a tool sits on top of your screens, so read your audit this way:
 
 - **Failures in guidance and messages:** a tool plus an in-house product manager can go far.
-- **Failures in sign-up, setup or empty states:** the screens need redesigning, and no overlay fixes that.
+- **Failures in sign-up, setup, empty states or the member path:** the screens and flows need redesigning, and no overlay fixes that.
 
-Drop-off in the form, the wizard or a blank screen? Our onboarding redesign runs in 4 steps: a funnel review, interviews with 5 to 8 recent sign-ups, a redesign and prototype tested with new users, then release and measurement, in 3 to 6 weeks. Here's [what an onboarding redesign costs](/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost): $15,000 to $45,000, judged by activation rate, time to first value and day-7 return rate.
+Drop-off in the form, the wizard or a blank screen? Our onboarding redesign runs in 4 steps: a funnel review, interviews with 5 to 8 recent sign-ups, a redesign and prototype tested with new users, then release and measurement, in 3 to 6 weeks. Here's [what an onboarding redesign costs](/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost): $15,000 to $45,000. We judge the work by activation rate, time to first value and day-7 return rate.
 
-Sometimes onboarding is one problem of many. When we redesigned [the TradeZella trading journal](/case-studies/tradezella/), "no onboarding guide" sat beside a crowded interface and web and mobile apps that behaved differently. That's a job for a phased [SaaS product redesign](/services/saas-products/saas-product-redesign/), one of the services in our wider [SaaS product design](/services/saas-products/) work. If your dated screens go well past the first run, start there.
+Sometimes onboarding is one problem of many. Before we redesigned [the TradeZella trading journal](/case-studies/tradezella/), "no onboarding guide" sat on its problem list beside a crowded interface and web and mobile apps that behaved differently. That's a job for a phased [SaaS product redesign](/services/saas-products/saas-product-redesign/), one of the services in our wider [SaaS product design](/services/saas-products/) work. If your dated screens go well past the first run, start there.
 
 ## Bottom line
 
-**Good SaaS onboarding starts from the activation event and cuts every step that doesn't lead to it.** Fix the screens first, then the guidance, then the emails.
+**Good SaaS onboarding starts from the activation event and moves or cuts every step that doesn't lead to it.** Fix the earliest stage that fails, and inside that stage fix the screens before the guidance and the emails.
 
-Time your own first run with a stopwatch, record it and [send us the recording](/contact/) for a free consultation with our onboarding designers. A senior designer replies within one business day.
+Time your own first run with a stopwatch, record it and [send us a link to the recording](/contact/) for a free consultation. A senior designer replies within one business day.
 
 ## FAQs
 
 ### How long should SaaS onboarding take?
 
-As long as it takes a new user to reach your activation event, and not one screen longer. Measure time to first value in minutes for a self-serve trial, and track a sales-led go-live separately.
+SaaS onboarding should take as long as a new user needs to reach your activation event, and not one screen longer. Measure time to first value in minutes for a self-serve trial, and track a sales-led go-live separately.
 
 ### What is a good activation rate for SaaS?
 
@@ -299,4 +300,4 @@ There's no fixed count. Send one behavior-triggered email per unfinished step th
 
 ### Is SaaS onboarding the same as customer success onboarding?
 
-No. SaaS user onboarding is the in-product path a new user follows alone; customer success onboarding is a people-led program from kickoff to go-live. B2B products need both, with the handoff screens designed.
+No. SaaS user onboarding is the in-product path a new user follows alone; customer success onboarding is a people-led program from kickoff to go-live. Most B2B products need both, with the handoff screens designed.
