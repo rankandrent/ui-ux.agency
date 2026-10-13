@@ -9,7 +9,6 @@ import {
   Compare,
   LeadMagnet,
   Pricing,
-  Team,
   Tools,
   WhyUs,
 } from "@/components/sections/HomeSections";
@@ -94,7 +93,6 @@ export default function HomePage() {
       <Pricing />
       <WorkGrid eyebrow="Featured work" items={cases.slice(0, 4)} cols={2} />
       <WhyUs />
-      <Team />
       <Tools />
       <FinalCta testimonial={home.testimonial}>
         <LeadForm variant="full" interests={formInterests} source="home final CTA" submitLabel="Submit" />

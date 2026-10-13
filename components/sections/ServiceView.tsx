@@ -12,6 +12,7 @@ import {
 } from "@/components/sections/Blocks";
 import { FormCard, PageHero } from "@/components/sections/PageHero";
 import { Abstract, SemanticSections } from "@/components/sections/SemanticSections";
+import { Team } from "@/components/sections/HomeSections";
 import { Process } from "@/components/sections/Process";
 import { WorkGrid } from "@/components/sections/WorkCards";
 import { JsonLd } from "@/components/ui/JsonLd";
@@ -109,6 +110,7 @@ export function ServiceView({ s }: { s: Service }) {
       )}
 
       {b.caseStudies && <WorkGrid heading={h.caseStudies ?? `${cap(anchorOf(s))} case studies`} items={cases} />}
+      <Team />
 
       <FinalCta testimonial={b.testimonial ? home.testimonial : undefined}>
         <LeadForm variant="full" interests={[s.title, ...formInterests]} source={`service final CTA: ${s.slug}`} submitLabel="Submit" />
