@@ -44,9 +44,9 @@ To a designer, it isn't a welcome email or a kickoff call. It's a user onboardin
 - **Guidance:** checklists, tooltips and tours placed on top of those screens.
 - **Messages:** emails and in-app prompts that reach the user after they stop.
 
-Teams usually patch the top two layers first. The screens underneath decide the outcome.
+Teams usually patch the top two layers first. The screens underneath decide the outcome, which is why our [SaaS onboarding design](/services/saas-products/saas-onboarding-design/) work starts there.
 
-One naming trap: in the Amazon Web Services (AWS) [SaaS Lens](https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/tenant-onboarding.html), "tenant onboarding" means provisioning infrastructure and identity for a new customer account. <!-- source: https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/tenant-onboarding.html --> That's engineering. When your team says "onboarding", ask which layer they mean.
+One naming trap: in the Amazon Web Services (AWS) [SaaS Lens](https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/tenant-onboarding.html), "tenant onboarding" means provisioning infrastructure and identity for a new customer account. That's engineering. When your team says "onboarding", ask which layer they mean.
 
 ## User vs customer onboarding: which are you fixing?
 
@@ -84,7 +84,7 @@ Two numbers follow. **Activation rate** is the share of new sign-ups who reach t
 
 Some teams call it the aha moment, but an activation event is something analytics can log. Keep its window shorter than your free trial length, so days remain to win stalled users back.
 
-How do you find yours? In [The Cold Start Problem](https://a16z.com/books/the-cold-start-problem/), Andrew Chen quotes Slack co-founder Stewart Butterfield: of the Slack teams that had sent 2,000 messages, 93% were still using it. <!-- source: https://a16z.com/books/the-cold-start-problem/ --> Slack found that threshold by comparing teams that stayed with teams that left. Run the same comparison:
+How do you find yours? In [The Cold Start Problem](https://a16z.com/books/the-cold-start-problem/), Andrew Chen quotes Slack co-founder Stewart Butterfield: of the teams that had exchanged 2,000 messages, 93% were still using Slack. Slack found that threshold by comparing teams that stayed with teams that left. Run the same comparison:
 
 1. In Mixpanel or Amplitude, split last quarter's sign-ups into users active at day 30 and users who left.
 2. Compare what each group did in its first week.
@@ -140,7 +140,7 @@ In a B2B product, the SaaS customer onboarding process flow splits into two trac
 
 **List every step between sign-up and the activation event, label each one essential, later or cut, and rebuild the flow from the essential steps only.**
 
-The method comes from Wes Bush's [Bowling Alley Framework](https://productled.com/blog/product-led-user-onboarding-experience), a product-led growth (PLG) model. <!-- source: https://productled.com/blog/product-led-user-onboarding-experience --> The shortest route to value is the straight line; in-app guidance (product bumpers) and messages (conversational bumpers) keep users out of the gutters.
+The method comes from Wes Bush's [Bowling Alley Framework](https://productled.com/blog/user-adoption-framework-bowling-alley), a product-led growth (PLG) model. The shortest route to value is the straight line; in-app guidance (product bumpers) and messages (conversational bumpers) keep users out of the gutters.
 
 Run three tests on every step:
 
@@ -164,7 +164,7 @@ Illustrative, hypothetical scheduling SaaS, 11 steps:
 
 "Later" doesn't mean hidden: it means a settings placeholder, a checklist item or a prompt at first use.
 
-Losing trial users before setup is done? That's the exact flow our SaaS onboarding design <!-- link: /services/saas-products/saas-onboarding-design/ | anchor "SaaS onboarding design" --> team rebuilds, starting from drop-off data and new-user session recordings.
+Losing trial users before setup is done? That's the exact flow our design team rebuilds, starting from drop-off data and new-user session recordings.
 
 ## Which first-run patterns carry good SaaS onboarding?
 
@@ -178,9 +178,9 @@ Each helps the first-run experience at one moment and backfires outside it:
 - **Contextual help (tooltips):** helps on the control the user is about to touch; backfires as a long tour at first login, which users click through.
 - **Templates:** help when filled with sample data that fits the welcome answer; backfire as an unfiltered library, because choosing becomes the task.
 
-Notion pairs the first and last. The [Appcues GoodUX teardown](https://goodux.appcues.com/blog/notions-lightweight-onboarding) describes Notion using sign-up answers to offer a personalized selection of templates, plus a learn-by-doing Getting Started checklist. <!-- source: https://goodux.appcues.com/blog/notions-lightweight-onboarding --> Screens change between versions, so copy the pattern. Galleries such as SaaSFrame hold more onboarding flow examples.
+Notion pairs the first and last. Appcues' GoodUX teardown of Notion's onboarding describes it using sign-up answers to suggest a short list of templates, plus a learn-by-doing Getting Started checklist. Screens change between versions, so copy the pattern. Galleries such as SaaSFrame hold more onboarding flow examples.
 
-Empty states deserve a closer look. Nielsen Norman Group (NN/g) [notes](https://www.nngroup.com/articles/empty-state-interface-design/) they're common during onboarding in complex apps, and a designed one can show system status, teach the app and open direct paths into key tasks. <!-- source: https://www.nngroup.com/articles/empty-state-interface-design/ -->
+Empty states deserve a closer look. Nielsen Norman Group (NN/g) warns that a blank screen in a complex app confuses users, and its [guidelines for empty states](https://www.nngroup.com/articles/empty-state-interface-design/) ask a designed one to show system status, give learning cues and open direct paths into key tasks.
 
 <!-- visual: annotated anatomy before/after, empty-state-anatomy.svg. Left "Before": a blank project dashboard reading "No projects yet". Right "After": the same dashboard with four numbered callouts. Alt: "Empty state anatomy for a SaaS project dashboard, before and after, with four labelled parts". Caption: "Empty state anatomy: a blank dashboard rebuilt with four parts". -->
 
@@ -193,7 +193,7 @@ Empty states deserve a closer look. Nielsen Norman Group (NN/g) [notes](https://
 
 </details>
 
-For tours, see product tours compared with guided first tasks <!-- link: /services/saas-products/saas-onboarding-design/#saas-onboarding-design-product-tours-vs-guided-tasks | anchor "product tours compared with guided first tasks" --> on our service page. Then check your three busiest empty screens against the four parts.
+For the first session, favor a guided first task over a product tour: users remember their own first result, not the tooltips they clicked past. Then check your three busiest empty screens against the four parts.
 
 ## How should B2B SaaS onboarding treat admins and members?
 
@@ -268,15 +268,15 @@ Onboarding tools such as Appcues, Userpilot and Pendo are good at checklists, to
 - **Failures in guidance and messages:** a tool plus an in-house product manager can go far.
 - **Failures in sign-up, setup or empty states:** the screens need redesigning, and no overlay fixes that.
 
-Drop-off in the form, the wizard or a blank screen? Our 4-step onboarding redesign process <!-- link: /services/saas-products/saas-onboarding-design/#how-does-the-saas-onboarding-design-process-work | anchor "the 4-step onboarding redesign process" --> runs a funnel review, interviews with 5 to 8 recent sign-ups, a redesign and prototype tested with new users, then release and measurement, in 3 to 6 weeks. Here's what an onboarding redesign costs <!-- link: /services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost | anchor "what an onboarding redesign costs" -->: $15,000 to $45,000, judged by activation rate, time to first value and day-7 return rate.
+Drop-off in the form, the wizard or a blank screen? Our onboarding redesign runs in 4 steps: a funnel review, interviews with 5 to 8 recent sign-ups, a redesign and prototype tested with new users, then release and measurement, in 3 to 6 weeks. Here's [what an onboarding redesign costs](/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost): $15,000 to $45,000, judged by activation rate, time to first value and day-7 return rate.
 
-Sometimes onboarding is one problem of many. In our TradeZella work <!-- link: /case-studies/tradezella/ | anchor "TradeZella work" -->, "no onboarding guide" sat beside a crowded interface and inconsistent web and mobile apps. That called for a phased SaaS product redesign <!-- link: /services/saas-products/saas-product-redesign/ | anchor "a phased SaaS product redesign" -->, part of our wider SaaS product design <!-- link: /services/saas-products/ | anchor "SaaS product design" --> work. If your dated screens go well past the first run, start there.
+Sometimes onboarding is one problem of many. When we redesigned [the TradeZella trading journal](/case-studies/tradezella/), "no onboarding guide" sat beside a crowded interface and web and mobile apps that behaved differently. That's a job for a phased [SaaS product redesign](/services/saas-products/saas-product-redesign/), one of the services in our wider [SaaS product design](/services/saas-products/) work. If your dated screens go well past the first run, start there.
 
 ## Bottom line
 
 **Good SaaS onboarding starts from the activation event and cuts every step that doesn't lead to it.** Fix the screens first, then the guidance, then the emails.
 
-Time your own first run with a stopwatch, record it and send us the recording <!-- link: /contact/ | anchor "send us the recording" --> for a free consultation with our SaaS onboarding design team <!-- link: /services/saas-products/saas-onboarding-design/ | anchor "our SaaS onboarding design team" -->. A senior designer replies within one business day.
+Time your own first run with a stopwatch, record it and [send us the recording](/contact/) for a free consultation with our onboarding designers. A senior designer replies within one business day.
 
 ## FAQs
 
@@ -286,7 +286,7 @@ As long as it takes a new user to reach your activation event, and not one scree
 
 ### What is a good activation rate for SaaS?
 
-No universal number exists, because every product defines activation differently. [Userpilot's benchmark](https://userpilot.com/saas-product-metrics/) averages 37.5% across 62 B2B SaaS companies, but it's first-party vendor data. <!-- source: https://userpilot.com/saas-product-metrics/ --> Treat it as a sanity check and compare your own rate before and after each change.
+No universal number exists, because every product defines activation differently. [Userpilot's 2024 activation benchmark](https://userpilot.com/blog/user-activation-rate-benchmark-report-2024/) averages 37.5% across 62 B2B companies, but it's first-party vendor data from its own customers. Treat it as a sanity check and compare your own rate before and after each change.
 
 ### Do you need a tool like Appcues or Userpilot for onboarding?
 

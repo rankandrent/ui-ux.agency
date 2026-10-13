@@ -344,5 +344,48 @@
     { "keyword": "what is saas onboarding design", "why": "The hub owns it (H2 1)." },
     { "keyword": "user onboarding flow / onboarding flow examples (as primary)", "why": "Folded in as secondary n-grams. 'onboarding flow examples' is gallery intent (saasframe, pageflows) and would push the post into an examples roundup like the beats page." }
   ],
-  "dataSourceDate": "2026-10-13"
+  "dataSourceDate": "2026-10-13",
+  "related": {
+    "linkBuilderRun": "2026-10-13",
+    "internalLinks": [
+      { "href": "/services/saas-products/saas-onboarding-design/", "anchor": "SaaS onboarding design", "where": "H2 1, last line of the three-layers block (~word 280, inside the first 300)" },
+      { "href": "/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost", "anchor": "what an onboarding redesign costs", "where": "H2 10, price sentence (second and last UP link)" },
+      { "href": "/case-studies/tradezella/", "anchor": "the TradeZella trading journal", "where": "H2 10; facts used ('no onboarding guide', crowded interface, web and mobile behaving differently) are all in content/case-studies/tradezella.md; 'phased' now qualifies the service, not TradeZella's project" },
+      { "href": "/services/saas-products/saas-product-redesign/", "anchor": "SaaS product redesign", "where": "H2 10, the one cross-hub link (service anchor used exactly)" },
+      { "href": "/services/saas-products/", "anchor": "SaaS product design", "where": "H2 10, silo pillar (pillar anchor used exactly)" },
+      { "href": "/contact/", "anchor": "send us the recording", "where": "Bottom line CTA" }
+    ],
+    "droppedHubLinks": "Hub cap is 1–2 incl. #fragments (RULES silo rule + 2026-10-06 lesson). Dropped: mid-post hub link (H2 5 pain CTA, now 'our design team rebuilds'), #saas-onboarding-design-product-tours-vs-guided-tasks (H2 6, sentence rewritten to a one-line takeaway so it no longer points at an unclickable page), #how-does-the-saas-onboarding-design-process-work (H2 10, process facts kept as plain text) and the Bottom line hub link (kept the CTA sentence lean with /contact/ only). Total internal = 6, MOFU range 6–10. No sibling posts and no industry pages exist yet (content/industries holds only _template.json); the first sibling post is the next candidate link.",
+    "externalSources": [
+      { "url": "https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/tenant-onboarding.html", "status": "verified via docs.aws.amazon.com-restricted search (fetch ENOTFOUND): provisions resources and creates the tenant admin in an identity provider" },
+      { "url": "https://a16z.com/books/the-cold-start-problem/", "status": "book page verified (Andrew Chen, 2021). Quote seen only in two Goodreads reader highlights ('after 2,000 messages, 93% of those customers are still using Slack'); sentence reworded to 'teams that had exchanged 2,000 messages, 93% were still using Slack'. Fact-checker: confirm wording against the book, incl. 'comparing teams that stayed with teams that left'." },
+      { "url": "https://productled.com/blog/user-adoption-framework-bowling-alley", "status": "SWAPPED from /blog/product-led-user-onboarding-experience: the bowling-alley page's snippets define the straight line, product bumpers and conversational bumpers" },
+      { "url": "https://www.nngroup.com/articles/empty-state-interface-design/", "status": "verified via nngroup.com search: 3 guidelines (system status, learning cues, direct pathways to key tasks); blank screens cause confusion. 'common during onboarding' was not in any snippet and was removed" },
+      { "url": "https://userpilot.com/blog/user-activation-rate-benchmark-report-2024/", "status": "SWAPPED from /saas-product-metrics/ (that page's snippet did not show the figures): 2024 report, average 37.5%, 62 B2B companies. Later Userpilot posts cite 547 companies; post keeps the 2024/62 version" }
+    ],
+    "removedExternalLinks": [
+      { "url": "https://goodux.appcues.com/blog/notions-lightweight-onboarding", "why": "6 sources > cap of 5; appcues.com is the 'beats' competitor domain. Verified (signup answers drive a short template list; learn-by-doing Getting Started checklist) and kept as a named plain-text citation" }
+    ],
+    "unflaggedCopies": "The brief's outline and faqs say '62 SaaS companies'; the post FAQ now says '62 B2B companies' per the source. No other copy of the figure is in the post."
+  },
+  "backlinkSuggestions": [
+    {
+      "source": "content/services/saas-onboarding-design.json → sections[0] 'What is SaaS onboarding design?' body (renders HTML)",
+      "target": "/blog/saas-onboarding/",
+      "anchor": "how SaaS onboarding works from sign-up to first value",
+      "sentence": "Add after 'SaaS onboarding design removes those obstacles and puts the first real result in front of the user.': <p>…Our guide to <a href=\"/blog/saas-onboarding/\">how SaaS onboarding works from sign-up to first value</a> walks through the same path screen by screen.</p>"
+    },
+    {
+      "source": "content/services/saas-onboarding-design.json → FAQ 'How do you measure SaaS onboarding success?' (HTML answer; optional, feeds FAQPage schema)",
+      "target": "/blog/saas-onboarding/#where-does-saas-onboarding-end",
+      "anchor": "choose the activation event",
+      "sentence": "<p>By activation rate, time to first value and day-7 return rate, each measured before and after the new onboarding ships. Here is how to <a href=\"/blog/saas-onboarding/#where-does-saas-onboarding-end\">choose the activation event</a> those numbers depend on.</p>"
+    },
+    {
+      "source": "content/pillars.ts saas-products → sections[0] 'What does SaaS product design cover?' body (renders HTML)",
+      "target": "/blog/saas-onboarding/",
+      "anchor": "SaaS onboarding guide",
+      "sentence": "After 'Products that lose trial users in the first days get <a …>SaaS onboarding design</a>.' add: 'Our <a href=\"/blog/saas-onboarding/\">SaaS onboarding guide</a> includes a 12-point audit to find where they drop off.'"
+    }
+  ]
 }
