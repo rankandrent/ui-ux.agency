@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1320" width="800" height="1320" font-family="'Plus Jakarta Sans', system-ui, sans-serif" role="img" aria-label="Illustrative sort of 11 SaaS onboarding steps into keep now, move later and cut">
+<title>Illustrative sort of 11 SaaS onboarding steps into keep now, move later and cut</title>
+<rect width="800" height="1320" fill="#FFFFFF"/>
+<g class="card">
+<rect x="32" y="24" width="736" height="92" rx="14" fill="#FFF8E1" stroke="#E9D9A6" stroke-width="1"/>
+<text x="56" y="61" font-size="26" font-weight="700" fill="#1B232E">Illustrative, hypothetical scheduling SaaS, 11</text>
+<text x="56" y="95" font-size="26" font-weight="700" fill="#1B232E">steps</text>
+</g>
+<g class="card">
+<rect x="32" y="136" width="736" height="294" rx="20" fill="#E8EEFC"/>
+<path d="M72 237 V393" stroke="#0755E9" stroke-width="3" fill="none"/>
+<text x="120" y="245" font-size="26" font-weight="700" fill="#1B232E">Create an account with work email or SSO</text>
+<text x="120" y="297" font-size="26" font-weight="700" fill="#1B232E">Say what you'll book first</text>
+<text x="120" y="349" font-size="26" font-weight="700" fill="#1B232E">Connect your calendar</text>
+<text x="120" y="401" font-size="26" font-weight="700" fill="#1B232E">Share your booking link</text>
+<circle cx="72" cy="237" r="18" fill="#0755E9"/>
+<text x="72" y="246" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">1</text>
+<circle cx="72" cy="289" r="18" fill="#0755E9"/>
+<text x="72" y="298" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">2</text>
+<circle cx="72" cy="341" r="18" fill="#0755E9"/>
+<text x="72" y="350" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">3</text>
+<circle cx="72" cy="393" r="18" fill="#0755E9"/>
+<text x="72" y="402" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">4</text>
+</g>
+<g class="card">
+<rect x="56" y="156" width="222" height="50" rx="25" fill="#0755E9"/>
+<text x="167" y="190" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">Keep now (4)</text>
+</g>
+<g class="card">
+<rect x="32" y="450" width="736" height="640" rx="20" fill="#F5F8FE"/>
+<text x="56" y="559" font-size="26" font-weight="700" fill="#1B232E">Verify email</text>
+<path d="M60 600 H86" stroke="#1B232E" stroke-width="2.5" fill="none"/>
+<path d="M84 592 L96 600 L84 608" stroke="#1B232E" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="card">
+<rect x="104" y="576" width="307" height="50" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="122" y="609" font-size="26" font-weight="400" fill="#1B232E">after the first booking</text>
+</g>
+<text x="56" y="669" font-size="26" font-weight="700" fill="#1B232E">Set availability</text>
+<path d="M60 710 H86" stroke="#1B232E" stroke-width="2.5" fill="none"/>
+<path d="M84 702 L96 710 L84 718" stroke="#1B232E" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="card">
+<rect x="104" y="686" width="338" height="50" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="122" y="719" font-size="26" font-weight="400" fill="#1B232E">default hours in settings</text>
+</g>
+<text x="56" y="779" font-size="26" font-weight="700" fill="#1B232E">Upload a photo and logo</text>
+<path d="M60 820 H86" stroke="#1B232E" stroke-width="2.5" fill="none"/>
+<path d="M84 812 L96 820 L84 828" stroke="#1B232E" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="card">
+<rect x="104" y="796" width="210" height="50" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="122" y="829" font-size="26" font-weight="400" fill="#1B232E">checklist item</text>
+</g>
+<text x="56" y="889" font-size="26" font-weight="700" fill="#1B232E">Invite teammates</text>
+<path d="M60 930 H86" stroke="#1B232E" stroke-width="2.5" fill="none"/>
+<path d="M84 922 L96 930 L84 938" stroke="#1B232E" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="card">
+<rect x="104" y="906" width="307" height="50" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="122" y="939" font-size="26" font-weight="400" fill="#1B232E">after the first booking</text>
+</g>
+<text x="56" y="999" font-size="26" font-weight="700" fill="#1B232E">Add a payment card</text>
+<path d="M60 1040 H86" stroke="#1B232E" stroke-width="2.5" fill="none"/>
+<path d="M84 1032 L96 1040 L84 1048" stroke="#1B232E" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<g class="card">
+<rect x="104" y="1016" width="171" height="50" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="122" y="1049" font-size="26" font-weight="400" fill="#1B232E">at upgrade</text>
+</g>
+</g>
+<g class="card">
+<rect x="56" y="470" width="234" height="50" rx="25" fill="#1B232E"/>
+<text x="173" y="504" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">Move later (5)</text>
+</g>
+<g class="card">
+<rect x="32" y="1110" width="736" height="186" rx="20" fill="#F3F4F6"/>
+<text x="104" y="1219" font-size="26" font-weight="400" fill="#6B7281">Job title and company size</text>
+<path d="M62 1200 l22 22 M84 1200 l-22 22" stroke="#6B7281" stroke-width="3" stroke-linecap="round"/>
+<text x="104" y="1267" font-size="26" font-weight="400" fill="#6B7281">Intro video</text>
+<path d="M62 1248 l22 22 M84 1248 l-22 22" stroke="#6B7281" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g class="card">
+<rect x="56" y="1130" width="135" height="50" rx="25" fill="#6B7281"/>
+<text x="124" y="1164" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">Cut (2)</text>
+</g>
+</svg>

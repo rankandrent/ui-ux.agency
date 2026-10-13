@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 976" width="800" height="976" font-family="'Plus Jakarta Sans', system-ui, sans-serif" role="img" aria-label="B2B SaaS onboarding swimlane with an admin path and an invited-member path joined at the team invite">
+<title>B2B SaaS onboarding swimlane with an admin path and an invited-member path joined at the team invite</title>
+<rect width="800" height="976" fill="#FFFFFF"/>
+<g class="card">
+<rect x="32" y="24" width="356" height="928" rx="20" fill="#F5F8FE" stroke="#E5E7EB" stroke-width="1"/>
+</g>
+<g class="card">
+<rect x="48" y="36" width="324" height="60" rx="14" fill="#0755E9"/>
+<text x="210" y="75" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">Admin path</text>
+</g>
+<g class="card">
+<rect x="412" y="24" width="356" height="928" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+</g>
+<g class="card">
+<rect x="428" y="36" width="324" height="60" rx="14" fill="#1B232E"/>
+<text x="590" y="75" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">Invited-member path</text>
+</g>
+<g class="card">
+<rect x="48" y="108" width="324" height="70" rx="14" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="86" cy="143" r="18" fill="#0755E9"/>
+<text x="86" y="152" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="120" y="151" font-size="26" font-weight="700" fill="#1B232E">Sign up</text>
+</g>
+<g class="card">
+<rect x="48" y="218" width="324" height="104" rx="14" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="86" cy="270" r="18" fill="#0755E9"/>
+<text x="86" y="279" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="120" y="261" font-size="26" font-weight="700" fill="#1B232E">Complete</text>
+<text x="120" y="295" font-size="26" font-weight="700" fill="#1B232E">essential setup</text>
+</g>
+<g class="card">
+<rect x="48" y="362" width="324" height="70" rx="14" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="86" cy="397" r="18" fill="#0755E9"/>
+<text x="86" y="406" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="120" y="405" font-size="26" font-weight="700" fill="#1B232E">Reach first value</text>
+</g>
+<g class="card">
+<rect x="48" y="472" width="324" height="138" rx="14" fill="#E8EEFC" stroke="#0755E9" stroke-width="1"/>
+<circle cx="86" cy="541" r="18" fill="#0755E9"/>
+<text x="86" y="550" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="120" y="549" font-size="26" font-weight="700" fill="#1B232E">Invite the team</text>
+</g>
+<g class="card">
+<rect x="428" y="472" width="324" height="138" rx="14" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="466" cy="541" r="18" fill="#1B232E"/>
+<text x="466" y="550" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="500" y="515" font-size="26" font-weight="700" fill="#1B232E">Open the invite</text>
+<text x="500" y="549" font-size="26" font-weight="700" fill="#1B232E">link or sign in</text>
+<text x="500" y="583" font-size="26" font-weight="700" fill="#1B232E">with SSO</text>
+</g>
+<g class="card">
+<rect x="428" y="650" width="324" height="138" rx="14" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="466" cy="719" r="18" fill="#1B232E"/>
+<text x="466" y="728" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="500" y="693" font-size="26" font-weight="700" fill="#1B232E">Land in the</text>
+<text x="500" y="727" font-size="26" font-weight="700" fill="#1B232E">admin's</text>
+<text x="500" y="761" font-size="26" font-weight="700" fill="#1B232E">workspace</text>
+</g>
+<g class="card">
+<rect x="428" y="828" width="324" height="104" rx="14" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="466" cy="880" r="18" fill="#1B232E"/>
+<text x="466" y="889" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="500" y="871" font-size="26" font-weight="700" fill="#1B232E">Complete a first</text>
+<text x="500" y="905" font-size="26" font-weight="700" fill="#1B232E">assigned task</text>
+</g>
+<path d="M86 184 V202" stroke="#0755E9" stroke-width="2.5" fill="none"/>
+<path d="M78 200 L86 212 L94 200" stroke="#0755E9" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M86 328 V346" stroke="#0755E9" stroke-width="2.5" fill="none"/>
+<path d="M78 344 L86 356 L94 344" stroke="#0755E9" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M86 438 V456" stroke="#0755E9" stroke-width="2.5" fill="none"/>
+<path d="M78 454 L86 466 L94 454" stroke="#0755E9" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M466 616 V634" stroke="#1B232E" stroke-width="2.5" fill="none"/>
+<path d="M458 632 L466 644 L474 632" stroke="#1B232E" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M466 794 V812" stroke="#1B232E" stroke-width="2.5" fill="none"/>
+<path d="M458 810 L466 822 L474 810" stroke="#1B232E" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M374 541 H416" stroke="#0755E9" stroke-width="3" fill="none"/>
+<path d="M414 533 L426 541 L414 549" stroke="#0755E9" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -18,6 +18,7 @@ takeaways:
   - "B2B products need two paths: admins set up the workspace, invited members land on work that already exists."
   - "Each onboarding email should fire on behavior and open the one in-app step the user left unfinished."
   - "Overlay tools add guidance on top; drop-off in the form, the setup wizard or a blank screen needs the screens redesigned."
+image: /blog/saas-onboarding/cover.svg
 draft: true
 qa: pending
 ---
@@ -56,7 +57,7 @@ B2B SaaS customer onboarding usually has two owners: the product team and a cust
 
 The table below compares the two by owner, place, trigger, end point and what each scales with.
 
-<!-- visual: split card, user-vs-customer-onboarding.svg. Left card "User onboarding", right card "Customer onboarding", five matching rows (owner, where, starts with, ends at, scales with). A bridge in the middle names the handoff screens: data import, SSO setup, permissions. Alt: "SaaS user onboarding compared with customer onboarding by owner, place, trigger, end point and scale, with the handoff screens between them". Caption: "User onboarding vs customer onboarding, and the screens where they meet". -->
+![SaaS user onboarding compared with customer onboarding by owner, place, trigger, end point and scale, with the handoff screens between them](/blog/saas-onboarding/user-vs-customer-onboarding.svg "User onboarding vs customer onboarding, and the screens where they meet")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -98,7 +99,7 @@ Say you run a scheduling SaaS. "Calendar connected" only proves setup. "First me
 
 The map below puts screens and messages on two rows, with the activation event as the finish line. Measure drop-off per onboarding step to find the stage that loses people.
 
-<!-- visual: overview flow with finish line, saas-onboarding-process-flow.svg. Five stages left to right (sign-up, welcome question, essential setup, first-value task, second-session prompt); top row product screens, bottom row messages; a checkered finish line labelled "activation event" between stage 4 and stage 5; one metric under each stage. Alt: "SaaS onboarding process flow in five stages with the activation event as the finish line and one metric per stage". Caption: "The SaaS onboarding process flow, screens and messages, with one metric per stage". -->
+![SaaS onboarding process flow in five stages with the activation event as the finish line and one metric per stage](/blog/saas-onboarding/saas-onboarding-process-flow.svg "The SaaS onboarding process flow, screens and messages, with one metric per stage")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -150,7 +151,7 @@ Run three tests on every step:
 
 Back to the scheduling SaaS, with 11 steps before the first booking: four stay, five move later, two go.
 
-<!-- visual: three-lane sort worksheet, straight-line-sort.svg. Label "Illustrative: hypothetical scheduling SaaS". Lanes "Keep now (4)", "Move later (5)" with a small tag showing where each step moves, "Cut (2)". Counts must add up to 11. Alt: "Illustrative sort of 11 SaaS onboarding steps into keep now, move later and cut for a hypothetical scheduling product". Caption: "Straight-line sort: 4 steps kept, 5 moved later, 2 cut". -->
+![Illustrative sort of 11 SaaS onboarding steps into keep now, move later and cut for a hypothetical scheduling product](/blog/saas-onboarding/straight-line-sort.svg "Straight-line sort: 4 steps kept, 5 moved later, 2 cut")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -182,7 +183,7 @@ Notion pairs the first and last. Appcues' GoodUX teardown of Notion's onboarding
 
 Empty states deserve a closer look. Nielsen Norman Group (NN/g) warns that a blank screen in a complex app confuses users, and its [guidelines for empty states](https://www.nngroup.com/articles/empty-state-interface-design/) ask a designed one to show system status, give learning cues and open direct paths into key tasks.
 
-<!-- visual: annotated anatomy before/after, empty-state-anatomy.svg. Left "Before": a blank project dashboard reading "No projects yet". Right "After": the same dashboard with four numbered callouts. Alt: "Empty state anatomy for a SaaS project dashboard, before and after, with four labelled parts". Caption: "Empty state anatomy: a blank dashboard rebuilt with four parts". -->
+![Empty state anatomy for a SaaS project dashboard, before and after, with four labelled parts](/blog/saas-onboarding/empty-state-anatomy.svg "Empty state anatomy: a blank dashboard rebuilt with four parts")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -205,7 +206,7 @@ The number of user roles sets the number of paths; admin and member are the mini
 - **SSO and domain capture:** members who sign in through the company's identity provider, or join via a verified email domain, skip a separate sign-up. Ask buyers which identity standard they require.
 - **Role-aware empty states:** a member's first screen shows the admin's content and one assigned task, never a blank workspace.
 
-<!-- visual: two-lane swimlane, admin-vs-member-paths.svg. Top lane "Admin", bottom lane "Invited member", joined by a connector at "Invite the team". Alt: "B2B SaaS onboarding swimlane with an admin path and an invited-member path joined at the team invite". Caption: "Admin and invited-member paths in B2B SaaS onboarding". -->
+![B2B SaaS onboarding swimlane with an admin path and an invited-member path joined at the team invite](/blog/saas-onboarding/admin-vs-member-paths.svg "Admin and invited-member paths in B2B SaaS onboarding")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -245,7 +246,7 @@ Why the earliest? A user who quits at sign-up never sees your checklist. Good us
 3. Note every screen, every field and the minute you reach the activation event.
 4. Pull drop-off per step from Mixpanel, Amplitude or Google Analytics 4, then mark each box.
 
-<!-- visual: audit grid by stage, saas-onboarding-audit-grid.svg. Five stage columns (sign-up, welcome question, essential setup, first-value task, second session), 12 items with a pass/fail box each, and an arrow across the top: "fix the earliest failing stage first". Must not look like a scorecard or acceptance card. Alt: "SaaS onboarding best practices audit grid with 12 pass or fail items grouped in five stage columns". Caption: "The 12-point SaaS onboarding audit, grouped by stage". -->
+![SaaS onboarding best practices audit grid with 12 pass or fail items grouped by five stages in order, with the earliest stage first](/blog/saas-onboarding/saas-onboarding-audit-grid.svg "The 12-point SaaS onboarding audit, grouped by stage")
 
 <details class="astext"><summary>Show as text</summary>
 

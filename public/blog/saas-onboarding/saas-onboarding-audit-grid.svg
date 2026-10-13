@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1358" width="800" height="1358" font-family="'Plus Jakarta Sans', system-ui, sans-serif" role="img" aria-label="SaaS onboarding best practices audit grid with 12 pass or fail items grouped by stage">
+<title>SaaS onboarding best practices audit grid with 12 pass or fail items grouped by stage</title>
+<rect width="800" height="1358" fill="#FFFFFF"/>
+<path d="M52 190 V1334" stroke="#0755E9" stroke-width="3" fill="none"/>
+<g class="card">
+<rect x="32" y="24" width="736" height="64" rx="16" fill="#1B232E"/>
+<text x="80" y="66" font-size="26" font-weight="800" fill="#FFFFFF">Fix the earliest failing stage first</text>
+</g>
+<path d="M648 56 H728" stroke="#FFFFFF" stroke-width="3" fill="none"/>
+<path d="M716 46 L728 56 L716 66" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M52 56 H66" stroke="#FFFFFF" stroke-width="0"/>
+<text x="652" y="138" font-size="26" font-weight="700" fill="#6B7281" text-anchor="middle">Pass</text>
+<text x="720" y="138" font-size="26" font-weight="700" fill="#6B7281" text-anchor="middle">Fail</text>
+<g class="card">
+<rect x="96" y="156" width="672" height="174" rx="16" fill="#F5F8FE" stroke="#0755E9" stroke-width="1"/>
+<text x="120" y="200" font-size="28" font-weight="800" fill="#0755E9">Sign-up</text>
+<circle cx="140" cy="237" r="21" fill="#E8EEFC"/>
+<text x="140" y="246" font-size="26" font-weight="800" fill="#0755E9" text-anchor="middle">1</text>
+<text x="172" y="245" font-size="26" font-weight="400" fill="#1B232E">Only the fields the account needs</text>
+<rect x="636" y="221" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<rect x="704" y="221" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<circle cx="140" cy="289" r="21" fill="#E8EEFC"/>
+<text x="140" y="298" font-size="26" font-weight="800" fill="#0755E9" text-anchor="middle">2</text>
+<text x="172" y="297" font-size="26" font-weight="400" fill="#1B232E">SSO for B2B accounts</text>
+<rect x="636" y="273" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<rect x="704" y="273" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+</g>
+<g class="card">
+<rect x="96" y="346" width="672" height="150" rx="16" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="120" y="390" font-size="28" font-weight="800" fill="#0755E9">Welcome question</text>
+<circle cx="140" cy="427" r="21" fill="#E8EEFC"/>
+<text x="140" y="436" font-size="26" font-weight="800" fill="#0755E9" text-anchor="middle">3</text>
+<text x="172" y="435" font-size="26" font-weight="400" fill="#1B232E">One question that changes the</text>
+<text x="172" y="469" font-size="26" font-weight="400" fill="#1B232E">next screen</text>
+<rect x="636" y="411" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<rect x="704" y="411" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+</g>
+<g class="card">
+<rect x="96" y="512" width="672" height="150" rx="16" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="120" y="556" font-size="28" font-weight="800" fill="#0755E9">Essential setup</text>
+<circle cx="140" cy="593" r="21" fill="#E8EEFC"/>
+<text x="140" y="602" font-size="26" font-weight="800" fill="#0755E9" text-anchor="middle">4</text>
+<text x="172" y="601" font-size="26" font-weight="400" fill="#1B232E">First value reachable without</text>
+<text x="172" y="635" font-size="26" font-weight="400" fill="#1B232E">billing</text>
+<rect x="636" y="577" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<rect x="704" y="577" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+</g>
+<g class="card">
+<rect x="96" y="678" width="672" height="334" rx="16" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="120" y="722" font-size="28" font-weight="800" fill="#0755E9">First-value task</text>
+<circle cx="140" cy="759" r="21" fill="#E8EEFC"/>
+<text x="140" y="768" font-size="26" font-weight="800" fill="#0755E9" text-anchor="middle">5</text>
+<text x="172" y="767" font-size="26" font-weight="400" fill="#1B232E">No blank screen on the path</text>
+<rect x="636" y="743" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<rect x="704" y="743" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<circle cx="140" cy="811" r="21" fill="#E8EEFC"/>
+<text x="140" y="820" font-size="26" font-weight="800" fill="#0755E9" text-anchor="middle">6</text>
+<text x="172" y="819" font-size="26" font-weight="400" fill="#1B232E">Sample data or a template on</text>
+<text x="172" y="853" font-size="26" font-weight="400" fill="#1B232E">every empty state</text>
+<rect x="636" y="795" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<rect x="704" y="795" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<circle cx="140" cy="891" r="21" fill="#E8EEFC"/>
+<text x="140" y="900" font-size="26" font-weight="800" fill="#0755E9" text-anchor="middle">7</text>
+<text x="172" y="899" font-size="26" font-weight="400" fill="#1B232E">A 3–5 item checklist ending at</text>
+<text x="172" y="933" font-size="26" font-weight="400" fill="#1B232E">activation</text>
+<rect x="636" y="875" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<rect x="704" y="875" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<circle cx="140" cy="971" r="21" fill="#E8EEFC"/>
+<text x="140" y="980" font-size="26" font-weight="800" fill="#0755E9" text-anchor="middle">8</text>
+<text x="172" y="979" font-size="26" font-weight="400" fill="#1B232E">Contextual help on the task</text>
+<rect x="636" y="955" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<rect x="704" y="955" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+</g>
+<g class="card">
+<rect x="96" y="1028" width="672" height="306" rx="16" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="120" y="1072" font-size="28" font-weight="800" fill="#0755E9">Second session</text>
+<circle cx="140" cy="1109" r="21" fill="#E8EEFC"/>
+<text x="140" y="1118" font-size="26" font-weight="800" fill="#0755E9" text-anchor="middle">9</text>
+<text x="172" y="1117" font-size="26" font-weight="400" fill="#1B232E">Invites asked after first value</text>
+<rect x="636" y="1093" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<rect x="704" y="1093" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<circle cx="140" cy="1161" r="21" fill="#E8EEFC"/>
+<text x="140" y="1170" font-size="26" font-weight="800" fill="#0755E9" text-anchor="middle">10</text>
+<text x="172" y="1169" font-size="26" font-weight="400" fill="#1B232E">Members skip setup</text>
+<rect x="636" y="1145" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<rect x="704" y="1145" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<circle cx="140" cy="1213" r="21" fill="#E8EEFC"/>
+<text x="140" y="1222" font-size="26" font-weight="800" fill="#0755E9" text-anchor="middle">11</text>
+<text x="172" y="1221" font-size="26" font-weight="400" fill="#1B232E">Every email deep-links to a step</text>
+<rect x="636" y="1197" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<rect x="704" y="1197" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<circle cx="140" cy="1265" r="21" fill="#E8EEFC"/>
+<text x="140" y="1274" font-size="26" font-weight="800" fill="#0755E9" text-anchor="middle">12</text>
+<text x="172" y="1273" font-size="26" font-weight="400" fill="#1B232E">Activation rate, time to first value</text>
+<text x="172" y="1307" font-size="26" font-weight="400" fill="#1B232E">and day-7 return rate tracked</text>
+<rect x="636" y="1249" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+<rect x="704" y="1249" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#1B232E" stroke-width="2"/>
+</g>
+<path d="M44 1322 L52 1334 L60 1322" stroke="#0755E9" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="52" cy="190" r="20" fill="#0755E9"/>
+<text x="52" y="199" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">1</text>
+<circle cx="52" cy="380" r="20" fill="#0755E9"/>
+<text x="52" y="389" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">2</text>
+<circle cx="52" cy="546" r="20" fill="#0755E9"/>
+<text x="52" y="555" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">3</text>
+<circle cx="52" cy="712" r="20" fill="#0755E9"/>
+<text x="52" y="721" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">4</text>
+<circle cx="52" cy="1062" r="20" fill="#0755E9"/>
+<text x="52" y="1071" font-size="26" font-weight="800" fill="#FFFFFF" text-anchor="middle">5</text>
+</svg>

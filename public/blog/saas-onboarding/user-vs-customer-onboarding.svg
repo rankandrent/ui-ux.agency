@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1072" width="800" height="1072" font-family="'Plus Jakarta Sans', system-ui, sans-serif" role="img" aria-label="SaaS user onboarding compared with customer onboarding, with the handoff screens between them">
+<title>SaaS user onboarding compared with customer onboarding, with the handoff screens between them</title>
+<rect width="800" height="1072" fill="#FFFFFF"/>
+<g class="card">
+<rect x="32" y="24" width="356" height="104" rx="16" fill="#0755E9"/>
+<text x="210" y="84" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">User onboarding</text>
+</g>
+<g class="card">
+<rect x="412" y="24" width="356" height="104" rx="16" fill="#1B232E"/>
+<text x="590" y="66" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">Customer</text>
+<text x="590" y="102" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">onboarding</text>
+</g>
+<g class="card">
+<rect x="32" y="144" width="356" height="140" rx="16" fill="#F5F8FE" stroke="#E5E7EB" stroke-width="1"/>
+<text x="56" y="187" font-size="26" font-weight="400" fill="#6B7281">Owner</text>
+<text x="56" y="223" font-size="26" font-weight="700" fill="#1B232E">Product and design</text>
+<text x="56" y="257" font-size="26" font-weight="700" fill="#1B232E">team</text>
+</g>
+<g class="card">
+<rect x="32" y="296" width="356" height="140" rx="16" fill="#F5F8FE" stroke="#E5E7EB" stroke-width="1"/>
+<text x="56" y="339" font-size="26" font-weight="400" fill="#6B7281">Where</text>
+<text x="56" y="375" font-size="26" font-weight="700" fill="#1B232E">Inside the app</text>
+</g>
+<g class="card">
+<rect x="32" y="448" width="356" height="106" rx="16" fill="#F5F8FE" stroke="#E5E7EB" stroke-width="1"/>
+<text x="56" y="491" font-size="26" font-weight="400" fill="#6B7281">Starts with</text>
+<text x="56" y="527" font-size="26" font-weight="700" fill="#1B232E">A sign-up</text>
+</g>
+<g class="card">
+<rect x="32" y="566" width="356" height="106" rx="16" fill="#F5F8FE" stroke="#E5E7EB" stroke-width="1"/>
+<text x="56" y="609" font-size="26" font-weight="400" fill="#6B7281">Ends at</text>
+<text x="56" y="645" font-size="26" font-weight="700" fill="#1B232E">The activation event</text>
+</g>
+<g class="card">
+<rect x="32" y="684" width="356" height="106" rx="16" fill="#F5F8FE" stroke="#E5E7EB" stroke-width="1"/>
+<text x="56" y="727" font-size="26" font-weight="400" fill="#6B7281">Scales with</text>
+<text x="56" y="763" font-size="26" font-weight="700" fill="#1B232E">Better screens</text>
+</g>
+<g class="card">
+<rect x="412" y="144" width="356" height="140" rx="16" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="436" y="187" font-size="26" font-weight="400" fill="#6B7281">Owner</text>
+<text x="436" y="223" font-size="26" font-weight="700" fill="#1B232E">Customer success</text>
+<text x="436" y="257" font-size="26" font-weight="700" fill="#1B232E">manager</text>
+</g>
+<g class="card">
+<rect x="412" y="296" width="356" height="140" rx="16" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="436" y="339" font-size="26" font-weight="400" fill="#6B7281">Where</text>
+<text x="436" y="375" font-size="26" font-weight="700" fill="#1B232E">Calls, shared plans,</text>
+<text x="436" y="409" font-size="26" font-weight="700" fill="#1B232E">training</text>
+</g>
+<g class="card">
+<rect x="412" y="448" width="356" height="106" rx="16" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="436" y="491" font-size="26" font-weight="400" fill="#6B7281">Starts with</text>
+<text x="436" y="527" font-size="26" font-weight="700" fill="#1B232E">A signed contract</text>
+</g>
+<g class="card">
+<rect x="412" y="566" width="356" height="106" rx="16" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="436" y="609" font-size="26" font-weight="400" fill="#6B7281">Ends at</text>
+<text x="436" y="645" font-size="26" font-weight="700" fill="#1B232E">Go-live</text>
+</g>
+<g class="card">
+<rect x="412" y="684" width="356" height="106" rx="16" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="436" y="727" font-size="26" font-weight="400" fill="#6B7281">Scales with</text>
+<text x="436" y="763" font-size="26" font-weight="700" fill="#1B232E">More people</text>
+</g>
+<path d="M210.0 790 V830" stroke="#0755E9" stroke-width="3" stroke-dasharray="6 6" fill="none"/>
+<path d="M590.0 790 V830" stroke="#0755E9" stroke-width="3" stroke-dasharray="6 6" fill="none"/>
+<g class="card">
+<rect x="32" y="830" width="736" height="218" rx="20" fill="#E8EEFC"/>
+<text x="56" y="881" font-size="28" font-weight="800" fill="#0755E9">Bridge</text>
+</g>
+<g class="card">
+<rect x="134" y="904" width="201" height="54" rx="27" fill="#FFFFFF" stroke="#0755E9" stroke-width="1"/>
+<text x="234" y="940" font-size="26" font-weight="700" fill="#1B232E" text-anchor="middle">data import</text>
+</g>
+<g class="card">
+<rect x="347" y="904" width="319" height="54" rx="27" fill="#FFFFFF" stroke="#0755E9" stroke-width="1"/>
+<text x="506" y="940" font-size="26" font-weight="700" fill="#1B232E" text-anchor="middle">single sign-on setup</text>
+</g>
+<g class="card">
+<rect x="240" y="970" width="320" height="54" rx="27" fill="#FFFFFF" stroke="#0755E9" stroke-width="1"/>
+<text x="400" y="1006" font-size="26" font-weight="700" fill="#1B232E" text-anchor="middle">permissions screens</text>
+</g>
+</svg>
