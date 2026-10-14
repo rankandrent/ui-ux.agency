@@ -73,7 +73,7 @@ Per job (jobs run in parallel with each other):
 2. Apply the brief's `backlinkSuggestions` (2–3 contextual links from already-indexed relevant pages,
    varied anchors, section jump links where deep). Verify with
    `npm run links:find -- "/blog/<slug>/" "<keyword>"` after the build and skip weak matches.
-3. `npm run build && npm run seo:check && npm run lint` — all must pass with 0 errors, and
+3. `node scripts/semantic-score.mjs <slug>` must be ≥ 85; `npm run build && npm run seo:check && npm run lint` — all must pass with 0 errors, and
    `npm run onpage -- /blog/<slug>/` must score ≥ 95.
 4. Commit post, `public/blog/<slug>/`, `content/briefs/<slug>*`, backlink edits and the ledger as
    `Publish post: <title>`, then deploy: the live site builds from `main` of

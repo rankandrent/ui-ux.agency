@@ -1,179 +1,226 @@
-# QA report: saas-onboarding (loop 2, 2026-10-13)
+# QA report: saas-onboarding (final QA, blog v2, 2026-10-14)
 
-Post: content/blog/saas-onboarding.md (commit 523ecad, working tree clean) · Brief: content/briefs/saas-onboarding.json · Images: public/blog/saas-onboarding/ (7 SVG, unchanged since c5b31af)
-Facts and honesty (items 2–3) are left to the fact-checker. The backlinks in F12 are applied by the orchestrator at ship, so `internal-in` is not failed here.
-Build: a scratch copy of the repo (node_modules hard-linked with `cp -al`; Turbopack rejects a symlink) built with SHOW_DRAFTS=1. The shared `out/` was not touched.
+Post: content/blog/saas-onboarding.md at HEAD 79d86dd. That HEAD includes 03bc55b (the fact-checker's fixes after the semantic pass) and 79d86dd ("labelled" → "labeled" in the alt). Both landed during this run, and every check below was rerun on them.
+Brief: content/briefs/saas-onboarding.json. Images: public/blog/saas-onboarding/ (7 SVGs, redrawn in the brand style).
+Facts and honesty (items 2–3) are left to the fact-checker.
+Build: a scratch copy of the repo (node_modules hard-linked with `cp -al`), built drafts-free because the post has `draft: false`. The shared `out/` was not touched. The `serve out -l 4568` process (PIDs 801/813/814) belongs to someone else and was left running. My own http.server (2875) was stopped, and `ps` confirms it is gone.
 
-Word count (markdown body, links unwrapped, image alt removed):
+## Gates (current HEAD, unmodified)
 
-| Text | Words |
+| Gate | Result |
 |---|---|
-| Open text as committed | 2,629 |
-| Open text without FAQs | 2,408 |
-| Including the `<details>` panels | 3,001 |
-| Open text after C1–C6 below | 2,589 |
+| `npm run build` | exit 0 |
+| `npm run seo:check` | 37 of 53 pages, 0 errors, 0 warnings; "US English: no British spellings"; feed 0 errors |
+| `npm run lint` | 0 errors (1 pre-existing warning in scripts/onpage-audit.mjs:77) |
+| `npm run onpage -- /blog/saas-onboarding/` | 100, failed [] |
+| `node scripts/semantic-score.mjs saas-onboarding` | 100 (skip-grams 13/14: "aha moment … retention" was lost in 03bc55b, still a pass) |
+| With every FIX below applied (scratch rebuild) | build 0, seo:check 0/0, onpage 100, semantic 100 |
 
-The committed post is 29 words over the 2,600 cap. C1–C6 bring it back inside and remove three repetitions created by the repairs.
+## Word count
+
+The counts strip image alt text and link URLs.
+
+| Text | HEAD | After A + B + C fixes |
+|---|---|---|
+| Open prose without FAQs | 2,695 | 2,603 |
+| Open prose with FAQs | 2,943 | 2,851 |
+| Everything visible, including the always-on "Text version" panels | 3,376 | 3,300 |
+
+Against the ~2,700 cap, the prose without FAQs is at the limit (2,695), and the prose with FAQs is 243 words over. The B cuts below remove only redundant sentences. A further ~150 words would have to come out of brief-required substance (the email table, the TradeZella routing or the FAQs), so I do not prescribe that. The orchestrator should decide which count the cap applies to. I recommend prose without FAQs, because the FAQ block is a separate schema unit.
 
 ## Summary
 
 | # | Check | Result |
 |---|---|---|
 | 1 | Intent and cannibalisation | PASS |
-| 4 | Semantic SEO | PASS |
-| 5 | Internal links | PASS |
-| 6 | Images | PASS (unchanged) |
-| 6b | Duplication | PASS |
-| 7 | Readability | FIX (C1–C6: length, repetition, punctuation) |
-| 7a | Competitor originality | PASS (unchanged since loop 1) |
+| 4 | Semantic SEO | PASS (density 1.56%, all bold answers 19–29 words) |
+| 5 | Internal links | PASS (6 out, all 3 backlinkSuggestions live) |
+| 6 | Images | FIX (C1 text panel; D1 SVG title spelling; D2 legibility, non-blocking) |
+| 6b | Duplication | FIX (A6 removes the 4th visible repeat of the sort counts) |
+| 7 | Readability and voice | FIX (A1–A9: keyword and value swaps that read robotically; B1–B6 length) |
+| 7a | Competitor originality | PASS (beats page still ENOTFOUND; structure unchanged since loop 1) |
 | 7b | Silo and leads | PASS |
 | 7c | Variety | PASS |
-| 7d | Semantic completeness | FIX (C2 logic; G1–G3 landed) |
-| 7e | On-page checklist | PASS for the post (score 95; the only miss is `internal-in`, which F12 clears at ship) |
+| 7d | Semantic completeness | PASS with FIX (A7 and A8 logic) |
+| 7e | On-page checklist | PASS (100) |
 | 8 | Build, seo:check, lint | PASS |
-
-## Verification of the loop-1 fixes
-
-| Fix | Landed | Note |
-|---|---|---|
-| F1 process bold answer | Yes (L98, 27 words) | |
-| F2 end-point bold answer and first sentence of L86 | Yes (L82, 28 words) | L86 reads "after the activation event" rather than "after it", which is correct because the G2 sentence now sits between them. "Some teams call that event" resolves correctly. |
-| F3 Bottom line | Yes (L279) | Matches the audit's "earliest stage first" and the keep/later/cut method. |
-| F4 cost sentence | Yes (L273) | |
-| F5 two tracks | Yes (L56) | |
-| F6 process-flow sentence | Yes (L138) | |
-| F7 "Most B2B products" | Yes (L303) | |
-| F8 kickoff sentence | Yes (L78) | 4 sentences. |
-| F9 FAQ 1 opening | Yes (L287) | The FAQPage JSON-LD holds only the answer. |
-| F10 TradeZella tense | Yes (L275) | |
-| F11 recording link | Yes (L281) | |
-| F13 routing | Yes (L271) | Audit items 9–10 now route to design. |
-| G1 process H3s | Yes (L118–136) | Each H3 now has a why and a line from the scheduler example (34–43 words). Two side effects: C2 (stage 4) and C4 (intro/L169). |
-| G2 day-7 return rate | Yes (L84) | "Three numbers follow" was updated. |
-| G3 cut test | Landed, but wrong | My loop-1 wording sorts billing into "cut": a payment card does not "help the user at any point before upgrade", yet the sort image moves it later. See C2. |
-
-Other repair edits outside my list (fact-checker): the intro's second sentence (L36), the hub-link sentence (L48) and the Slack method sentence (L88). The admin paragraph about large accounts was also removed (L220). All were reread; the only new defects are C4 and C6.
+| — | First-person voice (owner rule) | PASS |
+| — | Brand infographics (owner rule) | PASS (palette, font, weights, canvas); D1 spelling |
+| — | US market (owner rule, 79d86dd) | FIX (A9 ET time zone; D1 "labelled") |
+| — | Layout v2 (hero, figures, Text version, FAQ) | PASS; L1 and L2 are template notes |
 
 ## 1. Intent and cannibalisation: PASS
 
-No change since loop 1. The post is informational and MOFU. It is the only post in content/blog. It uses "SaaS onboarding design" only as the hub anchor.
+The post is the only one in content/blog. The hub anchor "SaaS onboarding design" is used only as a link.
+5-gram overlap: hub 1.9%, pillar 0.2%, about 0.4%, saas-product-redesign 0.0%, home 0.0%. All are below 12%.
+One near-copy of the hub remains: L42 "the first minutes and days a new user spends in subscription software…" is the hub's abstract. It is under the threshold, but the brief asked for a rephrase. It is optional, not a FIX.
 
 ## 4. Semantic SEO: PASS
 
-- Bold answers: all 11 content H2s have one sentence of 25–29 words; the Bottom line has 19.
-- Density: 22 exact "SaaS onboarding" in 2,629 open words, a 1.67% word share (1.70% after the cuts).
-- Entities and n-grams: all 16 brief n-grams and every attribute appear in open text. "Day-7 return rate" is now defined (L84).
-- Abbreviations: expanded on first open use, unchanged.
-- Boolean FAQs: FAQ 3 and FAQ 5 start with "No."
-- Hedges and banned phrases: 0 hits for might/may/could/perhaps/leverage/seamless/delve/unlock/elevate. No HTML comments (`<!--`: 0).
-- Meta, measured on the built HTML:
-  - metaTitle and og:title: 59 characters. H1: 67.
-  - Description: 157 characters and ends in a next step.
-  - The first meta keyword is "saas onboarding".
-- Keyword sentences:
-  - L26 "its SaaS onboarding log" still reads naturally.
-  - The new bold answers read naturally. Shared-verb test on L98: "four lead to the activation event" and "a fifth brings the user back" are both true.
+- Exact "SaaS onboarding" appears 23 times in 2,943 open words, a 1.56% word share.
+- All 16 n-grams and 20/20 attributes are covered. Every one of the 11 content H2s has a one-sentence bold answer of 24–29 words.
+- Keyword in 11 of 12 H2s or their first sentences.
+- metaTitle 59 chars; H1 67 chars; description 157 chars, ending on "Then book a free consultation".
+- No hedges, no banned phrases, no `<!--`.
+- `every/all/never` hits were tested against the post's rules, and none contradicts them.
+- `vs` hits: the H2 "User vs customer onboarding" has the head noun "onboarding", so it passes.
+- No keyword is stacked onto another noun.
 
 ## 5. Internal links: PASS
 
-There are 6 contextual links: hub (L48, early), hub#cost, TradeZella, saas-product-redesign, pillar and contact. All targets and the `#how-much-does-saas-onboarding-design-cost` fragment exist in the drafts build, and the hub cap of 2 is respected. Internal-in is handled by F12 at ship.
+There are 6 contextual links: the hub (L48, early), hub#cost, TradeZella, saas-product-redesign (the one cross-hub link), the pillar and contact. Every backlinkSuggestion is applied:
 
-## 6. Images and 6b. Duplication: PASS
+- Hub sections[0]: "how SaaS onboarding works from sign-up to first value".
+- Hub FAQ: "choose the activation event" → `#where-does-saas-onboarding-end`. The id exists in the built HTML.
+- pillars.ts: "SaaS onboarding guide".
 
-- `git diff c5b31af HEAD -- public/blog/saas-onboarding/` is empty, so the loop-1 render, legibility, spelling and label checks stand. All 7 files are present in the build output.
-- Prose against the images:
-  - H3 1 "work email or a Google or Microsoft sign-in" matches the sort's "work email or SSO".
-  - H3 2's question matches "say what you'll book first".
-  - H3 3's "availability from default hours" matches "set availability (default hours in settings)".
-  - H3 4's pre-copied booking link matches "share your booking link".
-- Nothing is visible twice.
+## 6. Images, 6b. Duplication and brand style
 
-## 7. Readability: FIX
+**Brand style.** I checked all 7 SVGs:
 
-- 5-gram overlap: hub 1.3%, pillar 0.2%, saas-product-redesign 0.0%, about 0.4%, home 0.1%. All are below 12%.
-- Paragraphs are at most 4 sentences. US English.
-- The post is 29 words over the cap, and the repairs added three repetitions.
+- Canvas 1200×750; the cover is 1600×600.
+- Only palette colors are used. Green and red appear only on ✓/keep and ✕/cut.
+- Plus Jakarta Sans at weights 500/700/800 only. No gradients inside the content area, and no external references.
 
-The orchestrator should apply these exact replacements:
+**Text panels.** Every label matches its text version word for word, apart from C1 below. Each figure sits directly after the paragraph it explains and has a figcaption that shares a key noun with its alt.
 
-**C1 (L273, repeats the H2's own bold answer at L266; −11 words).** Replace
-`Drop-off in the form, the wizard or a blank screen? Our onboarding redesign runs in 4 steps:`
+**Screenshots** (1440 and 390):
+
+- The hero shows the navy band, breadcrumb, H1, description, byline and dates. The cover overlaps the band. At 390 the cover title sits inside the 16:9 crop.
+- The figure with its Text version card renders cleanly at 1440.
+- The FAQ answers are open, and FAQPage `acceptedAnswer` holds only the answer text.
+
+**C1 (empty-state text panel misses the image's "Before" panel).** In the empty-state `astext` block, replace
+
+```
+<details class="astext"><summary>Show as text</summary>
+
+1. Why it's empty
+```
+
 with
-`Our onboarding redesign runs in 4 steps:`
 
-**C2 (L151, G3 logic; −6 words).** As written, the fourth test cuts "add a payment card", which the sort image moves to upgrade. "cut it … gets cut" is also redundant. Replace
-`- **Does it help the user at any point before upgrade?** If not, cut it, the way an intro video or a job-title field only sales reads gets cut.`
+```
+<details class="astext"><summary>Show as text</summary>
+
+Before: a blank dashboard that says "No projects yet." After: the same dashboard with four parts.
+
+1. Why it's empty
+```
+
+**D1 (designer, US market rule).** In public/blog/saas-onboarding/empty-state-anatomy.svg, change `<title>` "…with four labelled parts" to "…with four labeled parts". Make the same change in content/briefs/saas-onboarding.visuals.json (marker L15 and markdown L16; marker L7 "labelled" too). seo-check misses this because it reads only `<main>` text.
+
+**D2 (designer and template, non-blocking).**
+
+- At 1440 the 760px image scales 0.63×. 20px body text renders at 12.7px, which is fine. The 16px row labels ("Stage", "Message row", "Metric", the column labels in the audit grid) render at 10.1px, below the 12px floor in my 2026-10-05 lesson.
+- At 390 the image is 354px wide (0.295×), so 20px text renders at about 5.9px. It cannot be read, and the content survives only through the Text version card.
+- Proposed fix: raise the labels to ≥ 19px, and wrap `figure img` in a link to the SVG (tap to zoom) on screens ≤ 900px.
+
+**L1 (template).** At 390 the `.astext` tables keep `min-width: 600px` inside a 306px scroller, so the "Message row" and "Metric" columns and the table caption sit off screen until the reader scrolls. A two- or three-column table could wrap instead.
+
+**L2 (template).** At 390 the email table's `.ptable` is 370px wide in a 354px column, an 18px bleed. The page itself does not scroll sideways.
+
+**6b.** The straight-line sort counts are visible 4 times: the L161 prose (twice in two sentences), the caption, the image title and the Text version. A6 below removes the prose repeat.
+
+## 7. Readability and Eleken voice: FIX
+
+The first-person voice is intact: "I" for method, "we" for the team's documented work, "you" for the reader, and the Bottom line closes on the author's recommendation. The keyword and EAV swaps left these sentences robotic or wrong. Every old string matches exactly once at HEAD 79d86dd. All of A, B and C were applied together on a scratch copy and rebuilt: semantic 100, onpage 100, seo:check 0/0.
+
+**A1 (L26, "SaaS trial … its SaaS onboarding is the minutes").** Replace
+`When I look at a software as a service (SaaS) trial, the first number I check in its SaaS onboarding is the minutes a new user spends before getting anything they came for.`
 with
-`- **Does the user ever need it?** If not, cut it, like a job-title field only sales reads or an intro video.`
-Check against the 11 steps: billing is needed at upgrade (test 3, later). Job title, company size and the intro video are never needed by the user (test 4, cut). Calendar is needed now (test 1, keep). The totals stay 4 / 5 / 2.
+`When I review a software as a service (SaaS) product, the first number I check in its SaaS onboarding is how many minutes a new user spends before getting anything they came for.`
+This also removes the "trial … B2B trial" echo two sentences later. Keep the literal "SaaS onboarding": the version "software as a service (SaaS) onboarding" would fail the first-60-words keyword check.
 
-**C3 (L58, table intro; −6 words).** Replace
-`The table below compares the two by owner, place, trigger, end point and what each scales with.`
+**A2 (L56, hypernym stuffing).** Replace
+`B2B SaaS customer onboarding usually opens the customer lifecycle on two tracks with two owners:`
 with
-`The table below compares owner, place, trigger, end point and scale.`
+`B2B SaaS customer onboarding usually runs on two tracks with two owners:`
 
-**C4 (L169, repeats the repaired intro L36 "we watch new-user session recordings and measure drop-off from sign-up to first value"; −9 words).** Replace
-`Losing trial users before setup is done? That's the exact flow our design team rebuilds, starting from drop-off data and new-user session recordings.`
+**A3 (L104, prose does not match the redrawn image).** The image now has three rows: Stage, Message row, Metric. Replace
+`The map below puts screens and messages on two rows, with the activation event as the finish line.`
 with
-`Losing trial users before setup is done? That's the exact flow our design team rebuilds.`
+`The map below gives each stage its message and its metric, with the activation event as the finish line.`
 
-**C5 (L132, G1 sentence repeats the reason at L198, "users remember their own first result"; −7 words).** The tour-vs-task reason belongs to L198, which carries the post's only "product tour". Replace
-`Give the user a real task with real or sample data instead of a menu tour, because they leave with their own result.`
+**A4 (L128, the hub's parts-list wording pasted as a "rule"; "short forms" for one form).** Replace
+`Every required field is one more chance to quit. My rule for the sign-up form: short forms, single sign-on and clear plan choices that don't block the first session.`
 with
-`Give the user a real task with real or sample data instead of a menu tour.`
-Stage 4 still has its example (the pre-copied link and preview) and its purpose ("The activation event follows when someone books through it").
+`I keep the sign-up form short, with single sign-on and a plan choice that doesn't block the first session, because every required field is one more chance to quit.`
 
-**C6 (L220, two colons in one sentence, left when the large-accounts paragraph was removed; −2 words).** Replace
-`Now test it: join your own product as an invited member: if you see the admin's setup wizard, that's your first fix.`
+**A5 (L187, 03bc55b broke the "helps when …; backfires …" pattern of the list).** Replace
+`- **Onboarding checklist:** helps when it ends at the activation event, and I cap mine at 3–5 items; backfires with "watch a video" filler.`
 with
-`Now join your own product as an invited member. If you see the admin's setup wizard, that's your first fix.`
+`- **Onboarding checklist:** helps when it ends at activation after 3–5 items; backfires with "watch a video" filler.`
 
-I ran C1–C6 as a script on a scratch copy. Every old string matches exactly once. Open text drops to 2,589 words, and all n-grams and attributes are still covered. The only "drop-off per onboarding step" (L100) is untouched.
+**A6 (L161, "steps" 6 times in two sentences; the counts repeat the caption and image).** Replace
+`Back to the scheduling SaaS, with 11 steps before the first booking: 4 steps stay, 5 steps move later and 2 steps go. The sort cuts the number of steps from sign-up to first value from 11 steps to 4.`
+with
+`Back to the scheduling SaaS: the sort cuts the number of steps from sign-up to first value from 11 steps to 4, with 5 steps moved later and 2 steps cut.`
+
+**A7 (L234, robotic value sentence that also contradicts the paragraph).** "Starting 24 hours after sign-up" describes the fixed schedule the paragraph argues against. Replace
+`For the scheduler, follow-up onboarding emails bring inactive trial users back to the next step, starting 24 hours after sign-up.`
+with
+`In the scheduler's trial, the first onboarding email fires only if the calendar is still unconnected 24 hours after sign-up, and it brings inactive users back to that step.`
+This matches table row 1.
+
+**A8 (L283, the spelled-out durations contradict the stated total).** 1 + 1 + (1–3) + 1 = 4–6 weeks, not "3 to 6 weeks". The sentence also has the agreement slip "A redesign and prototype … takes". Replace
+`Our onboarding redesign runs in 4 steps over 3 to 6 weeks. A funnel review takes 1 week, and interviews with 5 to 8 users who signed up recently take 1 week. A redesign and prototype tested with new users takes 1–3 weeks, then release and measurement take 1 week.`
+with
+`Our onboarding redesign runs in 4 steps: a funnel review (1 week), interviews with 5 to 8 recent sign-ups (1 week), a redesign and prototype tested with new users (1–3 weeks), then release and measurement (1 week).`
+See O1 for the hub.
+
+**A9 (L291, US market rule: "within one business day, ET").** Replace
+`A senior designer replies within one business day.`
+with
+`A senior designer replies within one business day, ET.`
+
+Length cuts (redundant only):
+
+- **B1 (L36, −17; the "On this page" box lists the same sections).** Delete ` Below: the end point, the flow, the cuts, first-run patterns, B2B roles, emails and a 12-point audit.`
+- **B2 (L82, −13).** Delete ` If every account starts with a kickoff call, jump to admins and members.`
+- **B3 (L175, −25; the image and Text version already show where each moved step goes).** Delete the paragraph `When I move those 5 steps later, I don't hide them: each becomes a settings placeholder, a checklist item or a prompt at first use.` together with the blank line before it.
+- **B4 (L188).** Replace `backfires as a long tour at first login, which users click through.` with `backfires as a long tour at first login.`
+- **B5 (L278).** Replace `Onboarding tools such as Appcues, Userpilot and Pendo handle checklists, tours and in-app messages well, and we design for them too. A tool sits on top of your screens, so I read an audit this way:` with `Onboarding tools such as Appcues, Userpilot and Pendo handle checklists, tours and in-app messages well, but they sit on top of your screens. So I read an audit this way:`
+- **B6 (L50).** Replace `creates the tenant admin in an identity provider. Engineering owns that work, not design. So when a team says` with `creates its admin in an identity provider. That's engineering work, so when a team says`
+
+Do not swap numerals for words ("1 step" → "one step") without rerunning semantic-score. The `facts` check needs 1.2 per 100 words in code (see O2), and A + B sits exactly at that line.
 
 ## 7a. Competitor originality: PASS
 
-Unchanged since loop 1. The `beats` page fetch is blocked, so the numeric overlap could not be computed. The structure does not mirror the beats page, and all 7 serpGaps are covered.
+The `beats` page (appcues.com/blog/saas-user-onboarding) still returns ENOTFOUND, so the numeric overlap could not be computed. The section order and examples are unchanged since loop 1, where they passed, and all 7 serpGaps are covered.
 
-## 7b. Silo and leads: PASS
+## 7b–7c. Silo, leads and variety: PASS
 
-- services[0] is saas-onboarding-design, funnel is mofu and serviceSupport is 4.
-- "free consultation" appears once in the body (L281).
-- The leadAngle is delivered softly through the CTA after the cut method, the routing and hub facts, and the stopwatch close. C1 and C4 keep that tone and remove only repeated wording.
-- The TradeZella owner note from loop 1 still applies.
+- services[0] is saas-onboarding-design, the funnel is mofu and serviceSupport is 4. "free consultation" appears once.
+- The leadAngle comes through the pain CTA after the cut method, the tool-vs-designer routing and the stopwatch close. There is no hard sell.
+- Intro, CTA angle and visual types are unchanged from the passed version.
 
-## 7c. Variety: PASS
+## 7d. Semantic completeness: PASS after A7 and A8
 
-The intro, closing, CTA angle and visual types are unchanged from loop 1 and stay new against fingerprints.json.
+Every H2 and H3 runs answer → why → example → next step. I walked the frames again:
 
-## 7d. Semantic completeness: FIX (C2)
-
-- Every H2 and H3 now follows answer, then why, then example, then next step.
-- The five stage H3s are 34–43 words each.
-- Frame walk:
-  - Keep/later/cut: every label has a test. After C2, each of the 11 sorted steps reaches its column through the tests.
-  - Audit to routing: items 1–6 and 9–10 route to design and items 7, 8 and 11 to a tool. Item 12 (tracking) is measurement and needs no route.
-  - The Bottom line is consistent with the audit and the method.
-  - Every takeaway is backed by a section.
-- No trailing sentences, TODOs, or FAQ answers under 2 sentences.
-
-## 7e. On-page checklist: PASS for the post
-
-- I ran `npm run onpage -- /blog/saas-onboarding/` on the scratch drafts build with the robots meta stripped. Score 95; the only failed check is `internal-in: ≥ 3 pages link here (has 0)`. That is F12 (orchestrator at ship): the hub sections[0] sentence, the hub "measure" FAQ and the pillars.ts sentence given in loop 1.
-- After F12, re-run onpage on the production build and expect 100.
-- Manual items: unchanged and satisfied (E-E-A-T, bold snippets of at most 30 words, 5 linked external sources, images under 10 KB, keyword in 9 of 12 H2s).
+- After A6, the sort's 4/5/2 counts are consistent with the image.
+- The audit grid matches its text version.
+- The Bottom line matches the audit order.
+- After B1 the intro promises nothing the body lacks. Every takeaway has a section.
 
 ## 8. Build: PASS
 
-- `SHOW_DRAFTS=1 npm run build` in the scratch copy: exit 0, and `out/blog/saas-onboarding/index.html` was rendered with all 7 images.
-- `npm run seo:check`: 53 pages, 0 errors, 0 warnings.
-- `npm run lint`: exit 0.
+See the Gates table above.
+
+## Notes for the orchestrator (not post defects)
+
+- **O1.** content/services/saas-onboarding-design.json lists step durations of 1 + 1 + 1–3 + 1 weeks (4–6) and says "3 to 6 weeks" in its metaTitle, abstract and two answers. The fact-checker should settle which is right. Until then the post states only the step durations (A8).
+- **O2.** scripts/semantic-score.mjs L124 passes `facts` at `>= 1.2` but prints "(≥ 1.0)", and RULES.md says 1 per 100 words. At HEAD it reads "1.3 ✓". During testing it showed "✗ … 1.2 (≥ 1.0)". Align the threshold with RULES or the label.
+- **O3.** The metric pushes writers to bolt units onto numbers ("4 steps stay, 5 steps move later and 2 steps go"). A6 and A8 keep the numbers in natural form.
+- **O4.** L1 and L2 are template items (app/globals.css "Blog post v2").
 
 ## Guidance for the writer
 
-There are no new content gaps; G1–G3 landed. Apply C1–C6 exactly as written. They are wording cuts, so do not add text elsewhere: the post has about 11 words of headroom under 2,600 after the cuts.
+There are no content gaps. Apply A1–A9, B1–B6 and C1 exactly as written. Then rerun `node scripts/semantic-score.mjs saas-onboarding` (expect 100) and `npm run onpage -- /blog/saas-onboarding/` (expect 100).
 
 ## FAIL list
 
-None. The open items are FIXes C1–C6 (exact replacements above) and F12 at ship.
+None. Open items: FIX A1–A9, B1–B6, C1 (post); D1 (SVG title spelling, designer); D2, L1, L2 (non-blocking layout); O1–O2 (orchestrator).
 
 VERDICT: PASS

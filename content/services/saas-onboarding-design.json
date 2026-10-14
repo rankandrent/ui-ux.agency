@@ -64,7 +64,7 @@
     {
       "h2": "SaaS onboarding design: product tours vs guided tasks",
       "format": "table",
-      "answer": "<strong>A product tour explains the interface; a guided task gets real work done.</strong> SaaS onboarding design usually favours guided tasks.",
+      "answer": "<strong>A product tour explains the interface; a guided task gets real work done.</strong> SaaS onboarding design usually favors guided tasks.",
       "caption": "Comparison of product tours and guided tasks in SaaS onboarding design",
       "columns": ["Criterion", "Product tour", "Guided first task"],
       "rows": [

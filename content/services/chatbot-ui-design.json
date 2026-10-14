@@ -99,7 +99,7 @@
         { "q": "Do you design the bot's answers as well as the interface?", "a": "<p>Yes. We write the greeting, fallback, error and handoff messages, and we give the content team a tone guide for every other reply.</p>" },
         { "q": "Can you redesign a chatbot that is already live?", "a": "<p>Yes. We start with transcripts and analytics from the live bot, then fix the flows with the highest drop-off first.</p>" },
         { "q": "Which platforms does your chatbot UI design cover?", "a": "<p>Website widgets, in-app chat for web apps, iOS and Android apps, and messaging channels such as WhatsApp and Slack.</p>" },
-        { "q": "Does chatbot UI design include accessibility?", "a": "<p>Yes. Every chat window supports keyboard use, screen readers and colour contrast of at least 4.5:1 for message text.</p>" }
+        { "q": "Does chatbot UI design include accessibility?", "a": "<p>Yes. Every chat window supports keyboard use, screen readers and color contrast of at least 4.5:1 for message text.</p>" }
       ]
     }
   ],

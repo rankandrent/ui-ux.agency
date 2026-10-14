@@ -155,6 +155,17 @@ for (const f of fs.readdirSync(SVC_DIR).filter((x) => x.endsWith(".json") && !x.
 }
 if (!lintCount) console.log("✓ writing rules: all service and industry pages pass");
 
+// US market (owner rule 2026-10-14): visible text on every built page uses American spelling
+const UK = /\b(colou?rs?(?<=colours?)|optimis(e|ed|es|ing|ation)|organis(e|ed|es|ing|ation)|behaviours?|analys(e|ed|ing)|favou?r(ite|s|ed)?(?<=favou\w*)|centres?|licen[cs]es?(?<=licences?)|programmes?|catalogue|whilst|prioritis\w*|customis\w*|personalis\w*|visualis\w*|recognis\w*|labelled|modelling|judgement)\b/i;
+let ukHits = 0;
+for (const f of pages) {
+  const html = fs.readFileSync(f, "utf8");
+  const main = (html.match(/<main[\s\S]*?<\/main>/)?.[0] ?? html).replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/g, "").replace(/<[^>]+>/g, " ");
+  const m = main.match(UK);
+  if (m) { ukHits++; report("warn", f, `British spelling "${m[0]}" — the site is US English (RULES.md "US market")`); }
+}
+if (!ukHits) console.log("✓ US English: no British spellings in page text");
+
 if (Object.keys(layoutFails).length) console.log(`\nlayout checks failed (pages): ${Object.entries(layoutFails).sort((a, b) => b[1] - a[1]).map(([id, n]) => `${id} ${n}`).join(" · ")}`);
 console.log(`\n${audited} of ${pages.length} pages checked${INCLUDE_NOINDEX ? ` (noindex pages included${SITE_LAUNCHED ? "" : ": site not launched"})` : ""} · ${errors} errors · ${warnings} warnings`);
 process.exit(errors ? 1 : 0);

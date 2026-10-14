@@ -81,7 +81,7 @@ Recent trades and open positions are a single tap away, with green and red marki
 
 Each trader picks and arranges the widgets that fit their style: the Zella Score, a P&L calendar, the account balance and more.
 
-![TradeZella Zella Score screen with score radar, performance chart, insights, account balance and P&L calendar](/work/tradezella/zella-score-screens.webp "TradeZella Zella Score screen and customisable dashboard widgets")
+![TradeZella Zella Score screen with score radar, performance chart, insights, account balance and P&L calendar](/work/tradezella/zella-score-screens.webp "TradeZella Zella Score screen and customizable dashboard widgets")
 
 ## How we got there
 
