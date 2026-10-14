@@ -1,181 +1,233 @@
 {
- "note": "One parent topic (Ahrefs) = one URL. Before creating any page, find its keyword's Ahrefs parent_topic here; if a page already owns it, improve that page instead of making a new one. Owner rule 2026-10-13: no page that does not deserve to exist; proper clustering.",
- "clusters": [
-  {
-   "parentTopic": "product design agency",
-   "owner": "/services/startups/product-design-agency/",
-   "keywords": [
-    "product design agency (1000, KD49)"
-   ]
-  },
-  {
-   "parentTopic": "saas design agency",
-   "owner": "/services/saas-products/saas-design-agency/",
-   "keywords": [
-    "saas design agency (400)",
-    "saas ux design agency (600, parent: eleken)",
-    "saas ui ux design agency (150)"
-   ]
-  },
-  {
-   "parentTopic": "hire ui designer",
-   "owner": "/services/hire-ui-ux-designers/",
-   "keywords": [
-    "hire ui designer (400)",
-    "hire ui ux designers (300)",
-    "hire ui ux designer (250)",
-    "hire ux designer (250)",
-    "hire a ui designer (70)"
-   ]
-  },
-  {
-   "parentTopic": "hire product designer",
-   "owner": "/services/hire-product-designer/",
-   "keywords": [
-    "hire product designer (200)",
-    "product designer for hire (100)",
-    "hire product designers (90)"
-   ]
-  },
-  {
-   "parentTopic": "ui ux design cost",
-   "owner": "/services/ui-ux-design-cost/",
-   "keywords": [
-    "ui ux design cost (100)",
-    "ux design cost (20)"
-   ]
-  },
-  {
-   "parentTopic": "what is a design sprint",
-   "owner": "/services/startups/design-sprint/",
-   "keywords": [
-    "design sprint (1200, KD67)",
-    "what is a design sprint (1000, parent google design sprint)",
-    "design sprint agency (80)"
-   ],
-   "note": "no separate 'what is a design sprint' blog: the service page answers it"
-  },
-  {
-   "parentTopic": "chatbot template",
-   "owner": "/services/ai-products/chatbot-ui-design/",
-   "keywords": [
-    "chatbot ui design (350, KD0)",
-    "chatbot design ui (150)"
-   ]
-  },
-  {
-   "parentTopic": "chatbot ui",
-   "owner": "blog (planned)",
-   "keywords": [
-    "chatbot ui (1000, KD28)",
-    "ui chatbot (150)",
-    "ai chatbot ui (150)"
-   ]
-  },
-  {
-   "parentTopic": "customer onboarding saas",
-   "owner": "blog: saas onboarding (in progress)",
-   "keywords": [
-    "saas onboarding (1000, KD6)",
-    "saas customer onboarding (300)",
-    "saas onboarding process (200)"
-   ]
-  },
-  {
-   "parentTopic": "saas onboarding design (commercial)",
-   "owner": "/services/saas-products/saas-onboarding-design/",
-   "keywords": [
-    "saas onboarding design (10)"
-   ]
-  },
-  {
-   "parentTopic": "mvp web design",
-   "owner": "/services/startups/mvp-design-agency/",
-   "keywords": [
-    "mvp design (200, KD0)",
-    "mvp design services (50)"
-   ],
-   "note": "retarget the service H1/meta to 'MVP design' (the 'mvp design agency' phrase has 0 volume)"
-  },
-  {
-   "parentTopic": "discovery workshops",
-   "owner": "/services/ai-products/ai-product-discovery-workshop/",
-   "keywords": [
-    "product discovery workshop (450, KD0)",
-    "ai discovery workshop (150)"
-   ],
-   "note": "retarget the service to 'product discovery workshop' with the AI angle"
-  },
-  {
-   "parentTopic": "ux pilot ai / ux and ai (tool intent)",
-   "owner": "/services/ai-products/ai-ux-design-agency/",
-   "keywords": [
-    "ai ux design (350, KD28)"
-   ],
-   "note": "no 'AI tools for UX' blog: tool-roundup intent, low lead value"
-  },
-  {
-   "parentTopic": "ux ecommerce",
-   "owner": "industry: /industries/ecommerce/ (planned)",
-   "keywords": [
-    "ecommerce ux (400)",
-    "ecommerce ux agency (200)",
-    "ecommerce ux design agency (150)"
-   ]
-  },
-  {
-   "parentTopic": "fintech ux",
-   "owner": "industry: /industries/fintech/ (planned)",
-   "keywords": [
-    "fintech ux design (300)",
-    "banking ux design (150, parent: ux design for fintech)",
-    "fintech ux design agency (60)"
-   ],
-   "note": "banking merged here, no separate banking page"
-  },
-  {
-   "parentTopic": "healthcare ux design",
-   "owner": "industry: /industries/healthcare/ (planned)",
-   "keywords": [
-    "healthcare ux design (200)",
-    "healthcare app design (200)",
-    "healthcare ux design agency (100)"
-   ]
-  },
-  {
-   "parentTopic": "enterprise ux",
-   "owner": "industry: /industries/enterprise/ (planned)",
-   "keywords": [
-    "enterprise ux (150)",
-    "enterprise ux design (100)",
-    "enterprise ux design agency (100)"
-   ]
-  }
- ],
- "rejected": [
-  {
-   "keyword": "ux audit (700)",
-   "why": "no hub on this site; the sister site uiuxdesignservices.us owns UX audit"
-  },
-  {
-   "keyword": "ai tools for ux design (200)",
-   "why": "tool-roundup intent, buyers are designers not clients"
-  },
-  {
-   "keyword": "banking app design (150)",
-   "why": "merged into the fintech industry page"
-  },
-  {
-   "keyword": "b2b ux agency (100)",
-   "why": "overlaps SaaS and enterprise pages"
-  },
-  {
-   "keyword": "saas onboarding software (350)",
-   "why": "tool vendors' intent"
-  },
-  {
-   "keyword": "cities with 0 volume (Salt Lake City, Charlotte, Detroit, Kansas City, Orlando, Sacramento, San Jose, Dallas, Miami, Raleigh, Phoenix, Columbus, Houston, Baltimore)",
-   "why": "no measurable demand"
-  }
- ]
+  "note": "One parent topic (Ahrefs) = one URL. Before creating any page, find its keyword's Ahrefs parent_topic here; if a page already owns it, improve that page instead of making a new one. Owner rule 2026-10-13: no page that does not deserve to exist; proper clustering.",
+  "clusters": [
+    {
+      "parentTopic": "product design agency",
+      "owner": "/services/startups/product-design-agency/",
+      "keywords": [
+        "product design agency (1000, KD49)"
+      ]
+    },
+    {
+      "parentTopic": "saas design agency",
+      "owner": "/services/saas-products/saas-design-agency/",
+      "keywords": [
+        "saas design agency (400)",
+        "saas ux design agency (600, parent: eleken)",
+        "saas ui ux design agency (150)"
+      ]
+    },
+    {
+      "parentTopic": "hire ui designer",
+      "owner": "/services/hire-ui-ux-designers/",
+      "keywords": [
+        "hire ui designer (400)",
+        "hire ui ux designers (300)",
+        "hire ui ux designer (250)",
+        "hire ux designer (250)",
+        "hire a ui designer (70)"
+      ]
+    },
+    {
+      "parentTopic": "hire product designer",
+      "owner": "/services/hire-product-designer/",
+      "keywords": [
+        "hire product designer (200)",
+        "product designer for hire (100)",
+        "hire product designers (90)"
+      ]
+    },
+    {
+      "parentTopic": "ui ux design cost",
+      "owner": "/services/ui-ux-design-cost/",
+      "keywords": [
+        "ui ux design cost (100)",
+        "ux design cost (20)"
+      ]
+    },
+    {
+      "parentTopic": "what is a design sprint",
+      "owner": "/services/startups/design-sprint/",
+      "keywords": [
+        "design sprint (1200, KD67)",
+        "what is a design sprint (1000, parent google design sprint)",
+        "design sprint agency (80)"
+      ],
+      "note": "no separate 'what is a design sprint' blog: the service page answers it"
+    },
+    {
+      "parentTopic": "chatbot template",
+      "owner": "/services/ai-products/chatbot-ui-design/",
+      "keywords": [
+        "chatbot ui design (350, KD0)",
+        "chatbot design ui (150)"
+      ]
+    },
+    {
+      "parentTopic": "chatbot ui",
+      "owner": "blog (planned)",
+      "keywords": [
+        "chatbot ui (1000, KD28)",
+        "ui chatbot (150)",
+        "ai chatbot ui (150)"
+      ]
+    },
+    {
+      "parentTopic": "customer onboarding saas",
+      "owner": "blog: saas onboarding (in progress)",
+      "keywords": [
+        "saas onboarding (1000, KD6)",
+        "saas customer onboarding (300)",
+        "saas onboarding process (200)"
+      ]
+    },
+    {
+      "parentTopic": "saas onboarding design (commercial)",
+      "owner": "/services/saas-products/saas-onboarding-design/",
+      "keywords": [
+        "saas onboarding design (10)"
+      ]
+    },
+    {
+      "parentTopic": "mvp web design",
+      "owner": "/services/startups/mvp-design-agency/",
+      "keywords": [
+        "mvp design (200, KD0)",
+        "mvp design services (50)"
+      ],
+      "note": "retarget the service H1/meta to 'MVP design' (the 'mvp design agency' phrase has 0 volume)"
+    },
+    {
+      "parentTopic": "discovery workshops",
+      "owner": "/services/ai-products/ai-product-discovery-workshop/",
+      "keywords": [
+        "product discovery workshop (450, KD0)",
+        "ai discovery workshop (150)"
+      ],
+      "note": "retarget the service to 'product discovery workshop' with the AI angle"
+    },
+    {
+      "parentTopic": "ux pilot ai / ux and ai (tool intent)",
+      "owner": "/services/ai-products/ai-ux-design-agency/",
+      "keywords": [
+        "ai ux design (350, KD28)"
+      ],
+      "note": "no 'AI tools for UX' blog: tool-roundup intent, low lead value"
+    },
+    {
+      "parentTopic": "ux ecommerce",
+      "owner": "industry: /industries/ecommerce/ (planned)",
+      "keywords": [
+        "ecommerce ux (400)",
+        "ecommerce ux agency (200)",
+        "ecommerce ux design agency (150)"
+      ]
+    },
+    {
+      "parentTopic": "fintech ux",
+      "owner": "industry: /industries/fintech/ (planned)",
+      "keywords": [
+        "fintech ux design (300)",
+        "banking ux design (150, parent: ux design for fintech)",
+        "fintech ux design agency (60)"
+      ],
+      "note": "banking merged here, no separate banking page"
+    },
+    {
+      "parentTopic": "healthcare ux design",
+      "owner": "industry: /industries/healthcare/ (planned)",
+      "keywords": [
+        "healthcare ux design (200)",
+        "healthcare app design (200)",
+        "healthcare ux design agency (100)"
+      ]
+    },
+    {
+      "parentTopic": "enterprise ux",
+      "owner": "industry: /industries/enterprise/ (planned)",
+      "keywords": [
+        "enterprise ux (150)",
+        "enterprise ux design (100)",
+        "enterprise ux design agency (100)"
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "keyword": "ux audit (700)",
+      "why": "no hub on this site; the sister site uiuxdesignservices.us owns UX audit"
+    },
+    {
+      "keyword": "ai tools for ux design (200)",
+      "why": "tool-roundup intent, buyers are designers not clients"
+    },
+    {
+      "keyword": "banking app design (150)",
+      "why": "merged into the fintech industry page"
+    },
+    {
+      "keyword": "b2b ux agency (100)",
+      "why": "overlaps SaaS and enterprise pages"
+    },
+    {
+      "keyword": "saas onboarding software (350)",
+      "why": "tool vendors' intent"
+    },
+    {
+      "keyword": "cities with 0 volume (Salt Lake City, Charlotte, Detroit, Kansas City, Orlando, Sacramento, San Jose, Dallas, Miami, Raleigh, Phoenix, Columbus, Houston, Baltimore)",
+      "why": "no measurable demand"
+    },
+    {
+      "keyword": "ux design agency atlanta",
+      "why": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "keyword": "ux design agency austin",
+      "why": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "keyword": "ux design agency boston",
+      "why": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "keyword": "ux design agency chicago",
+      "why": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "keyword": "ux design agency columbus",
+      "why": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "keyword": "ux design agency los angeles",
+      "why": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "keyword": "ux design agency new york",
+      "why": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "keyword": "ux design agency philadelphia",
+      "why": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "keyword": "ux design agency phoenix",
+      "why": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "keyword": "ux design agency san francisco",
+      "why": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "keyword": "ux design agency seattle",
+      "why": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "keyword": "ux design agency st louis",
+      "why": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "keyword": "ux design agency washington dc",
+      "why": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    }
+  ]
 }

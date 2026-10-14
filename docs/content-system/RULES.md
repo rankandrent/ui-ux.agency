@@ -164,6 +164,18 @@ The site sells to US companies, so every page reads as written for a US buyer:
   country when a statistic is not US.
 - **Schema/locale:** `en-US` (html lang, og:locale en_US), `areaServed: United States`.
 
+## Sister site: uiuxdesignservices.us (owner rule 2026-10-14)
+The owner also runs uiuxdesignservices.us. The two sites must never compete for the same local keywords
+or look like a site network:
+- **Cities:** never build a city page for a city the sister site covers. Before any location page run
+  `npm run sister:check -- "<keyword>"` (exit 1 = BLOCKED → skip the item, take the next city). The list
+  lives in `docs/content-system/sister-site.json` and is refreshed from the sister's sitemap on every check.
+- **Angle:** our city pages are about AI and SaaS product design for that city's startups and software
+  companies (local tech scene, time-zone overlap, remote collaboration, our AI/SaaS services and case studies).
+- **Separation:** no links between the two sites' city pages; never reuse the sister's wording, headings,
+  FAQs or images; prefer a different keyword variant ("ux agency {city}", "ux design {city}") where both exist.
+- **Honesty:** the team works remotely with US clients; the only real office is Reston, VA.
+
 ## Writing (Koray semantic SEO)
 
 - Each H2 is a question or a clear entity statement; the first sentence under it answers it

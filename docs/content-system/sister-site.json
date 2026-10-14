@@ -1,0 +1,35 @@
+{
+  "note": "Cities the sister site uiuxdesignservices.us covers. ui-ux.agency must not build city pages for these (scripts/sister-guard.mjs).",
+  "domain": "uiuxdesignservices.us",
+  "checked": "2026-10-14",
+  "cities": [
+    "atlanta",
+    "austin",
+    "boston",
+    "chicago",
+    "columbus",
+    "los angeles",
+    "new york",
+    "philadelphia",
+    "phoenix",
+    "san francisco",
+    "seattle",
+    "st louis",
+    "washington dc"
+  ],
+  "urls": [
+    "https://uiuxdesignservices.us/location/ux-design-agency-san-francisco/",
+    "https://uiuxdesignservices.us/location/ux-design-agency-new-york/",
+    "https://uiuxdesignservices.us/location/ux-design-agency-los-angeles/",
+    "https://uiuxdesignservices.us/location/ux-design-agency-boston/",
+    "https://uiuxdesignservices.us/location/ux-design-agency-seattle/",
+    "https://uiuxdesignservices.us/location/ux-design-agency-phoenix/",
+    "https://uiuxdesignservices.us/location/ux-design-agency-chicago/",
+    "https://uiuxdesignservices.us/location/st-louis-ux-design-agency/",
+    "https://uiuxdesignservices.us/location/ux-design-agency-philadelphia/",
+    "https://uiuxdesignservices.us/location/ux-design-agency-columbus/",
+    "https://uiuxdesignservices.us/location/ux-design-agency-austin/",
+    "https://uiuxdesignservices.us/location/ux-design-agency-atlanta/",
+    "https://uiuxdesignservices.us/location/ux-design-agency-washington-dc/"
+  ]
+}

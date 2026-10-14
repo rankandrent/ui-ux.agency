@@ -1,5 +1,5 @@
 {
-  "note": "Daily content queue (owner, 2026-10-13): one item per day, top to bottom; mark status done with the date and URL. Volumes from keywords-2026-10.json (Ahrefs US). Locations are written as drafts and published by scripts/publish-next-location.mjs; industries and posts publish the day they are written. Every item must pass docs/content-system/clusters.json (one parent topic = one URL).",
+  "note": "Daily content queue (owner, 2026-10-13): one item per day, top to bottom; mark status done with the date and URL. Volumes from keywords-2026-10.json (Ahrefs US). Locations are written as drafts and published by scripts/publish-next-location.mjs; industries and posts publish the day they are written. Every item must pass docs/content-system/clusters.json (one parent topic = one URL). Location items only for cities the sister site does not cover (scripts/sister-guard.mjs).",
   "queue": [
     {
       "type": "blog",
@@ -20,129 +20,12 @@
       "status": "todo"
     },
     {
-      "type": "service-retarget",
-      "target": "ai-product-discovery-workshop",
-      "keyword": "product discovery workshop",
-      "volume": 450,
-      "kd": 0,
-      "status": "todo"
-    },
-    {
-      "type": "location",
-      "slug": "new-york",
-      "city": "New York",
-      "state": "NY",
-      "keyword": "ux design agency nyc",
-      "volume": 970,
-      "status": "todo"
-    },
-    {
-      "type": "blog",
-      "keyword": "chatbot ui",
-      "hub": "chatbot-ui-design",
-      "volume": 1000,
-      "kd": 28,
-      "status": "todo",
-      "note": "examples and patterns post; the service owns \"chatbot ui design\""
-    },
-    {
-      "type": "industry",
-      "slug": "ecommerce",
-      "keyword": "ecommerce ux",
-      "volume": 400,
-      "status": "todo"
-    },
-    {
-      "type": "location",
-      "slug": "san-francisco",
-      "city": "San Francisco",
-      "state": "CA",
-      "keyword": "ux design agency san francisco",
-      "volume": 700,
-      "status": "todo"
-    },
-    {
-      "type": "location",
-      "slug": "los-angeles",
-      "city": "Los Angeles",
-      "state": "CA",
-      "keyword": "ux design agency los angeles",
-      "volume": 560,
-      "status": "todo"
-    },
-    {
-      "type": "industry",
-      "slug": "fintech",
-      "keyword": "fintech ux design",
-      "volume": 800,
-      "status": "todo"
-    },
-    {
-      "type": "location",
-      "slug": "chicago",
-      "city": "Chicago",
-      "state": "IL",
-      "keyword": "ux design agency chicago",
-      "volume": 480,
-      "status": "todo"
-    },
-    {
-      "type": "location",
-      "slug": "boston",
-      "city": "Boston",
-      "state": "MA",
-      "keyword": "ux design agency boston",
-      "volume": 180,
-      "status": "todo"
-    },
-    {
-      "type": "industry",
-      "slug": "healthcare",
-      "keyword": "healthcare ux design",
-      "volume": 800,
-      "status": "todo"
-    },
-    {
       "type": "location",
       "slug": "denver",
       "city": "Denver",
       "state": "CO",
       "keyword": "ux agency denver",
       "volume": 180,
-      "status": "todo"
-    },
-    {
-      "type": "location",
-      "slug": "washington-dc",
-      "city": "Washington",
-      "state": "DC",
-      "keyword": "ux design washington dc",
-      "volume": 170,
-      "status": "todo"
-    },
-    {
-      "type": "industry",
-      "slug": "enterprise",
-      "keyword": "enterprise ux",
-      "volume": 150,
-      "status": "todo"
-    },
-    {
-      "type": "location",
-      "slug": "seattle",
-      "city": "Seattle",
-      "state": "WA",
-      "keyword": "ux design seattle",
-      "volume": 160,
-      "status": "todo"
-    },
-    {
-      "type": "location",
-      "slug": "austin",
-      "city": "Austin",
-      "state": "TX",
-      "keyword": "ux design austin",
-      "volume": 140,
       "status": "todo"
     },
     {
@@ -156,28 +39,10 @@
     },
     {
       "type": "location",
-      "slug": "philadelphia",
-      "city": "Philadelphia",
-      "state": "PA",
-      "keyword": "ux design agency philadelphia",
-      "volume": 70,
-      "status": "todo"
-    },
-    {
-      "type": "location",
       "slug": "minneapolis",
       "city": "Minneapolis",
       "state": "MN",
       "keyword": "ux agency minneapolis",
-      "volume": 70,
-      "status": "todo"
-    },
-    {
-      "type": "location",
-      "slug": "atlanta",
-      "city": "Atlanta",
-      "state": "GA",
-      "keyword": "ux design agency atlanta",
       "volume": 70,
       "status": "todo"
     },
@@ -207,6 +72,175 @@
       "keyword": "ux design pittsburgh",
       "volume": 50,
       "status": "todo"
+    },
+    {
+      "type": "location",
+      "keyword": "ux design agency baltimore",
+      "volume": 30,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "keyword": "ux design houston",
+      "volume": 20,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "keyword": "ux design raleigh",
+      "volume": 20,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "keyword": "ux designer san jose",
+      "volume": 20,
+      "status": "todo"
+    },
+    {
+      "type": "service-retarget",
+      "target": "ai-product-discovery-workshop",
+      "keyword": "product discovery workshop",
+      "volume": 450,
+      "kd": 0,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "new-york",
+      "city": "New York",
+      "state": "NY",
+      "keyword": "ux design agency nyc",
+      "volume": 970,
+      "status": "skipped",
+      "reason": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "type": "blog",
+      "keyword": "chatbot ui",
+      "hub": "chatbot-ui-design",
+      "volume": 1000,
+      "kd": 28,
+      "status": "todo",
+      "note": "examples and patterns post; the service owns \"chatbot ui design\""
+    },
+    {
+      "type": "industry",
+      "slug": "ecommerce",
+      "keyword": "ecommerce ux",
+      "volume": 400,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "san-francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "keyword": "ux design agency san francisco",
+      "volume": 700,
+      "status": "skipped",
+      "reason": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "type": "location",
+      "slug": "los-angeles",
+      "city": "Los Angeles",
+      "state": "CA",
+      "keyword": "ux design agency los angeles",
+      "volume": 560,
+      "status": "skipped",
+      "reason": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "type": "industry",
+      "slug": "fintech",
+      "keyword": "fintech ux design",
+      "volume": 800,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "keyword": "ux design agency chicago",
+      "volume": 480,
+      "status": "skipped",
+      "reason": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "type": "location",
+      "slug": "boston",
+      "city": "Boston",
+      "state": "MA",
+      "keyword": "ux design agency boston",
+      "volume": 180,
+      "status": "skipped",
+      "reason": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "type": "industry",
+      "slug": "healthcare",
+      "keyword": "healthcare ux design",
+      "volume": 800,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "washington-dc",
+      "city": "Washington",
+      "state": "DC",
+      "keyword": "ux design washington dc",
+      "volume": 170,
+      "status": "skipped",
+      "reason": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "type": "industry",
+      "slug": "enterprise",
+      "keyword": "enterprise ux",
+      "volume": 150,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "seattle",
+      "city": "Seattle",
+      "state": "WA",
+      "keyword": "ux design seattle",
+      "volume": 160,
+      "status": "skipped",
+      "reason": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "type": "location",
+      "slug": "austin",
+      "city": "Austin",
+      "state": "TX",
+      "keyword": "ux design austin",
+      "volume": 140,
+      "status": "skipped",
+      "reason": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "type": "location",
+      "slug": "philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "keyword": "ux design agency philadelphia",
+      "volume": 70,
+      "status": "skipped",
+      "reason": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
+    },
+    {
+      "type": "location",
+      "slug": "atlanta",
+      "city": "Atlanta",
+      "state": "GA",
+      "keyword": "ux design agency atlanta",
+      "volume": 70,
+      "status": "skipped",
+      "reason": "sister site uiuxdesignservices.us owns this city (owner rule 2026-10-14: no competing city pages)"
     },
     {
       "type": "blog",
