@@ -1,217 +1,219 @@
 {
- "note": "Daily content queue (owner, 2026-10-13): one item per day, top to bottom; mark status done with the date and URL. Volumes from keywords-2026-10.json (Ahrefs US). Locations are written as drafts and published by scripts/publish-next-location.mjs; industries and posts publish the day they are written. Every item must pass docs/content-system/clusters.json (one parent topic = one URL).",
- "queue": [
-  {
-   "type": "blog",
-   "keyword": "saas onboarding",
-   "hub": "saas-onboarding-design",
-   "volume": 1000,
-   "kd": 6,
-   "status": "todo"
-  },
-  {
-   "type": "service-retarget",
-   "target": "mvp-design-agency",
-   "keyword": "mvp design",
-   "volume": 200,
-   "kd": 0,
-   "status": "todo"
-  },
-  {
-   "type": "service-retarget",
-   "target": "ai-product-discovery-workshop",
-   "keyword": "product discovery workshop",
-   "volume": 450,
-   "kd": 0,
-   "status": "todo"
-  },
-  {
-   "type": "location",
-   "slug": "new-york",
-   "city": "New York",
-   "state": "NY",
-   "keyword": "ux design agency nyc",
-   "volume": 970,
-   "status": "todo"
-  },
-  {
-   "type": "blog",
-   "keyword": "chatbot ui",
-   "hub": "chatbot-ui-design",
-   "volume": 1000,
-   "kd": 28,
-   "status": "todo",
-   "note": "examples and patterns post; the service owns \"chatbot ui design\""
-  },
-  {
-   "type": "industry",
-   "slug": "ecommerce",
-   "keyword": "ecommerce ux",
-   "volume": 400,
-   "status": "todo"
-  },
-  {
-   "type": "location",
-   "slug": "san-francisco",
-   "city": "San Francisco",
-   "state": "CA",
-   "keyword": "ux design agency san francisco",
-   "volume": 700,
-   "status": "todo"
-  },
-  {
-   "type": "location",
-   "slug": "los-angeles",
-   "city": "Los Angeles",
-   "state": "CA",
-   "keyword": "ux design agency los angeles",
-   "volume": 560,
-   "status": "todo"
-  },
-  {
-   "type": "industry",
-   "slug": "fintech",
-   "keyword": "fintech ux design",
-   "volume": 800,
-   "status": "todo"
-  },
-  {
-   "type": "location",
-   "slug": "chicago",
-   "city": "Chicago",
-   "state": "IL",
-   "keyword": "ux design agency chicago",
-   "volume": 480,
-   "status": "todo"
-  },
-  {
-   "type": "location",
-   "slug": "boston",
-   "city": "Boston",
-   "state": "MA",
-   "keyword": "ux design agency boston",
-   "volume": 180,
-   "status": "todo"
-  },
-  {
-   "type": "industry",
-   "slug": "healthcare",
-   "keyword": "healthcare ux design",
-   "volume": 800,
-   "status": "todo"
-  },
-  {
-   "type": "location",
-   "slug": "denver",
-   "city": "Denver",
-   "state": "CO",
-   "keyword": "ux agency denver",
-   "volume": 180,
-   "status": "todo"
-  },
-  {
-   "type": "location",
-   "slug": "washington-dc",
-   "city": "Washington",
-   "state": "DC",
-   "keyword": "ux design washington dc",
-   "volume": 170,
-   "status": "todo"
-  },
-  {
-   "type": "industry",
-   "slug": "enterprise",
-   "keyword": "enterprise ux",
-   "volume": 150,
-   "status": "todo"
-  },
-  {
-   "type": "location",
-   "slug": "seattle",
-   "city": "Seattle",
-   "state": "WA",
-   "keyword": "ux design seattle",
-   "volume": 160,
-   "status": "todo"
-  },
-  {
-   "type": "location",
-   "slug": "austin",
-   "city": "Austin",
-   "state": "TX",
-   "keyword": "ux design austin",
-   "volume": 140,
-   "status": "todo"
-  },
-  {
-   "type": "location",
-   "slug": "san-diego",
-   "city": "San Diego",
-   "state": "CA",
-   "keyword": "ux design san diego",
-   "volume": 120,
-   "status": "todo"
-  },
-  {
-   "type": "location",
-   "slug": "philadelphia",
-   "city": "Philadelphia",
-   "state": "PA",
-   "keyword": "ux design agency philadelphia",
-   "volume": 70,
-   "status": "todo"
-  },
-  {
-   "type": "location",
-   "slug": "minneapolis",
-   "city": "Minneapolis",
-   "state": "MN",
-   "keyword": "ux agency minneapolis",
-   "volume": 70,
-   "status": "todo"
-  },
-  {
-   "type": "location",
-   "slug": "atlanta",
-   "city": "Atlanta",
-   "state": "GA",
-   "keyword": "ux design agency atlanta",
-   "volume": 70,
-   "status": "todo"
-  },
-  {
-   "type": "location",
-   "slug": "nashville",
-   "city": "Nashville",
-   "state": "TN",
-   "keyword": "ux design nashville",
-   "volume": 70,
-   "status": "todo"
-  },
-  {
-   "type": "location",
-   "slug": "portland",
-   "city": "Portland",
-   "state": "OR",
-   "keyword": "ux design portland",
-   "volume": 60,
-   "status": "todo"
-  },
-  {
-   "type": "location",
-   "slug": "pittsburgh",
-   "city": "Pittsburgh",
-   "state": "PA",
-   "keyword": "ux design pittsburgh",
-   "volume": 50,
-   "status": "todo"
-  },
-  {
-   "type": "blog",
-   "keyword": "how to design an mvp",
-   "hub": "mvp-design-agency",
-   "volume": 150,
-   "status": "todo"
-  }
- ]
+  "note": "Daily content queue (owner, 2026-10-13): one item per day, top to bottom; mark status done with the date and URL. Volumes from keywords-2026-10.json (Ahrefs US). Locations are written as drafts and published by scripts/publish-next-location.mjs; industries and posts publish the day they are written. Every item must pass docs/content-system/clusters.json (one parent topic = one URL).",
+  "queue": [
+    {
+      "type": "blog",
+      "keyword": "saas onboarding",
+      "hub": "saas-onboarding-design",
+      "volume": 1000,
+      "kd": 6,
+      "status": "done",
+      "url": "/blog/saas-onboarding/",
+      "published": "2026-10-13"
+    },
+    {
+      "type": "service-retarget",
+      "target": "mvp-design-agency",
+      "keyword": "mvp design",
+      "volume": 200,
+      "kd": 0,
+      "status": "todo"
+    },
+    {
+      "type": "service-retarget",
+      "target": "ai-product-discovery-workshop",
+      "keyword": "product discovery workshop",
+      "volume": 450,
+      "kd": 0,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "new-york",
+      "city": "New York",
+      "state": "NY",
+      "keyword": "ux design agency nyc",
+      "volume": 970,
+      "status": "todo"
+    },
+    {
+      "type": "blog",
+      "keyword": "chatbot ui",
+      "hub": "chatbot-ui-design",
+      "volume": 1000,
+      "kd": 28,
+      "status": "todo",
+      "note": "examples and patterns post; the service owns \"chatbot ui design\""
+    },
+    {
+      "type": "industry",
+      "slug": "ecommerce",
+      "keyword": "ecommerce ux",
+      "volume": 400,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "san-francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "keyword": "ux design agency san francisco",
+      "volume": 700,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "los-angeles",
+      "city": "Los Angeles",
+      "state": "CA",
+      "keyword": "ux design agency los angeles",
+      "volume": 560,
+      "status": "todo"
+    },
+    {
+      "type": "industry",
+      "slug": "fintech",
+      "keyword": "fintech ux design",
+      "volume": 800,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "keyword": "ux design agency chicago",
+      "volume": 480,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "boston",
+      "city": "Boston",
+      "state": "MA",
+      "keyword": "ux design agency boston",
+      "volume": 180,
+      "status": "todo"
+    },
+    {
+      "type": "industry",
+      "slug": "healthcare",
+      "keyword": "healthcare ux design",
+      "volume": 800,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "denver",
+      "city": "Denver",
+      "state": "CO",
+      "keyword": "ux agency denver",
+      "volume": 180,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "washington-dc",
+      "city": "Washington",
+      "state": "DC",
+      "keyword": "ux design washington dc",
+      "volume": 170,
+      "status": "todo"
+    },
+    {
+      "type": "industry",
+      "slug": "enterprise",
+      "keyword": "enterprise ux",
+      "volume": 150,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "seattle",
+      "city": "Seattle",
+      "state": "WA",
+      "keyword": "ux design seattle",
+      "volume": 160,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "austin",
+      "city": "Austin",
+      "state": "TX",
+      "keyword": "ux design austin",
+      "volume": 140,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "san-diego",
+      "city": "San Diego",
+      "state": "CA",
+      "keyword": "ux design san diego",
+      "volume": 120,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "keyword": "ux design agency philadelphia",
+      "volume": 70,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "minneapolis",
+      "city": "Minneapolis",
+      "state": "MN",
+      "keyword": "ux agency minneapolis",
+      "volume": 70,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "atlanta",
+      "city": "Atlanta",
+      "state": "GA",
+      "keyword": "ux design agency atlanta",
+      "volume": 70,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "nashville",
+      "city": "Nashville",
+      "state": "TN",
+      "keyword": "ux design nashville",
+      "volume": 70,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "portland",
+      "city": "Portland",
+      "state": "OR",
+      "keyword": "ux design portland",
+      "volume": 60,
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "slug": "pittsburgh",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "keyword": "ux design pittsburgh",
+      "volume": 50,
+      "status": "todo"
+    },
+    {
+      "type": "blog",
+      "keyword": "how to design an mvp",
+      "hub": "mvp-design-agency",
+      "volume": 150,
+      "status": "todo"
+    }
+  ]
 }
