@@ -24,7 +24,7 @@ export default function BlogHub() {
   const writers = authors.filter((a) => postsByAuthor(a.slug).length);
   return (
     <>
-      <PageHero crumbs={[{ name: "Blog", path: routes.blog }]} eyebrow="Blog" h1="UI UX design guides from our team" sub="Practical guides on research, UX, UI and product design, organised by the service they help you plan." />
+      <PageHero crumbs={[{ name: "Blog", path: routes.blog }]} eyebrow="Blog" h1="UI UX design guides from our team" sub="Practical guides on research, UX, UI and product design, organized by the service they help you plan." />
       <section className="section section--light blog-list">
         <div className="container">
           <BlogNav />

@@ -149,6 +149,21 @@ senior designer explains their own method to a founder:
   and close the "Bottom line" with the author's own recommendation in one sentence.
 - The fact-checker treats every "I/we did/saw/measured" sentence as a claim that needs a source.
 
+## US market (owner rule 2026-10-14 — every page, blog, industry, location and service)
+The site sells to US companies, so every page reads as written for a US buyer:
+- **Spelling and style:** American English (color, optimize, organize, behavior, license, labeled, center,
+  favorite, analyze); US date format ("October 14, 2026"); serial-comma-free house style stays as is.
+- **Money and units:** prices in USD with "$" ("$15,000–$45,000"); US units where relevant.
+- **Time and contact:** US time zones (ET first, then PT: "within one business day, ET"); the Reston, VA
+  office is the only physical address.
+- **Examples:** US companies, US cities and US user behavior; non-US examples only when they are the source.
+- **Regulation and standards:** use the US frame — HIPAA (health), CCPA/CPRA and state privacy laws,
+  SOC 2, ADA and Section 508 with WCAG 2.2 AA (accessibility), PCI DSS, SEC/FINRA (fintech), FDA (medical
+  software). Mention GDPR only as "if you also sell in the EU".
+- **Data:** prefer US sources and US numbers (US Census, BLS, Pew, Statista US, US surveys); label the
+  country when a statistic is not US.
+- **Schema/locale:** `en-US` (html lang, og:locale en_US), `areaServed: United States`.
+
 ## Writing (Koray semantic SEO)
 
 - Each H2 is a question or a clear entity statement; the first sentence under it answers it
@@ -162,7 +177,7 @@ senior designer explains their own method to a founder:
   "seamless", "cutting-edge", "world-class". Avoid hedges: might, may, could, perhaps.
 - Short paragraphs (2–4 sentences), concrete examples, numbered steps where a process exists,
   a comparison table where two options are compared.
-- US English. Reader: product manager, founder or design lead at a US/UK/Canada company.
+- US English only. Reader: product manager, founder or design lead at a **US company** (see "US market").
 
 
 ### Semantic SEO framework (owner rule 2026-10-14 — measured by `node scripts/semantic-score.mjs <slug>`, must be ≥ 85)

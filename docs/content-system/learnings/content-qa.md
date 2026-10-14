@@ -69,3 +69,5 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-14 (owner rule): fail a post that is not in the byline author's first person (RULES.md "Voice: first person") or whose infographics break the brand style in .claude/agents/content-visual-designer.md (landscape canvas, tkxel blue/navy palette, Plus Jakarta Sans, no pink/yellow).
 
 - 2026-10-14 (owner rule): run `node scripts/semantic-score.mjs <slug>`; a score below 85 is a FAIL, and every ✗ line goes into "Guidance for the writer" with its missing items.
+
+- 2026-10-14 (owner rule): the site is USA-based — follow RULES.md "US market" on every page: American spelling, USD, US time zones (ET), US examples, cities and data sources, and US regulations (HIPAA, CCPA/CPRA, SOC 2, ADA/Section 508 + WCAG 2.2 AA, PCI DSS, SEC/FINRA, FDA). British spellings or a non-US frame are a FAIL.

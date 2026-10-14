@@ -64,7 +64,7 @@ Employers see their reward program, transaction details and financial metrics on
 
 Users choose favorite categories, for example food, Walmart or health. That keeps spending tidy and surfaces offers tied to each one.
 
-![The Anyday App Favourite Category screen where users choose 3 categories from options like Food, Health and Walmart](/work/anyday-app/favourite-category.webp "Anyday App Favourite Category screen for organising spending by category")
+![The Anyday App Favorite Category screen where users choose 3 categories from options like Food, Health and Walmart](/work/anyday-app/favourite-category.webp "Anyday App Favorite Category screen for organizing spending by category")
 
 ### Cashback rewards
 

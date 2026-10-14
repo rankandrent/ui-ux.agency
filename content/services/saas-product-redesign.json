@@ -54,7 +54,7 @@
       "items": [
         { "title": "UX audit of the live product (2 weeks)", "body": "We review analytics, support tickets and session recordings, and interview customers and churned users." },
         { "title": "Redesign roadmap (1 week)", "body": "We rank every area by revenue impact, support load and effort, and agree the release phases." },
-        { "title": "Design system first (2–4 weeks)", "body": "New navigation, typography, colours and components that engineers adopt before any screen changes." },
+        { "title": "Design system first (2–4 weeks)", "body": "New navigation, typography, colors and components that engineers adopt before any screen changes." },
         { "title": "Phase-by-phase design (4–10 weeks)", "body": "We redesign one area at a time, test it with existing customers and hand it over for build." },
         { "title": "Beta and rollout (ongoing)", "body": "A beta group uses each new area first; we fix issues before the full release." }
       ]
@@ -66,7 +66,7 @@
       "caption": "Comparison of a SaaS product redesign and a visual refresh",
       "columns": ["Criterion", "SaaS product redesign", "Visual refresh"],
       "rows": [
-        ["What changes", "Flows, navigation, structure and visuals", "Colours, fonts, icons and spacing"],
+        ["What changes", "Flows, navigation, structure and visuals", "Colors, fonts, icons and spacing"],
         ["Research needed", "Customer interviews and analytics", "Brand review"],
         ["Timeline", "8–20 weeks in phases", "3–6 weeks"],
         ["Fixes usability issues", "Yes, at the root", "Rarely"],

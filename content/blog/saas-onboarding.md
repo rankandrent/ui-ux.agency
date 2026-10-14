@@ -192,7 +192,7 @@ Notion pairs the first and last. Appcues' GoodUX teardown of Notion's onboarding
 
 Nielsen Norman Group (NN/g) warns that a blank screen in a complex app confuses users, and its [guidelines for empty states](https://www.nngroup.com/articles/empty-state-interface-design/) ask a designed one to show system status, give learning cues and open direct paths into key tasks.
 
-![Empty state anatomy for a SaaS project dashboard, before and after, with four labelled parts](/blog/saas-onboarding/empty-state-anatomy.svg "Empty state anatomy: a blank dashboard rebuilt with four parts")
+![Empty state anatomy for a SaaS project dashboard, before and after, with four labeled parts](/blog/saas-onboarding/empty-state-anatomy.svg "Empty state anatomy: a blank dashboard rebuilt with four parts")
 
 <details class="astext"><summary>Show as text</summary>
 
