@@ -175,6 +175,7 @@ or look like a site network:
 - **Separation:** no links between the two sites' city pages; never reuse the sister's wording, headings,
   FAQs or images; prefer a different keyword variant ("ux agency {city}", "ux design {city}") where both exist.
 - **Honesty:** the team works remotely with US clients; the only real office is Reston, VA.
+- **Which cities:** only US high-tech cities with measured Ahrefs volume ≥ 20 that the sister site does not cover (queue in `calendar.json`, raw data in `keywords-2026-10.json → techCities`). The primary keyword is the city's highest-volume variant; the other variants go into H2s and FAQs.
 
 ## Writing (Koray semantic SEO)
 

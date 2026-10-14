@@ -21,80 +21,126 @@
     },
     {
       "type": "location",
-      "slug": "denver",
       "city": "Denver",
-      "state": "CO",
       "keyword": "ux agency denver",
+      "secondary": [
+        "ux design denver",
+        "ux designer denver"
+      ],
       "volume": 180,
+      "source": "Ahrefs US 2026-10-14",
       "status": "todo"
     },
     {
       "type": "location",
-      "slug": "san-diego",
       "city": "San Diego",
-      "state": "CA",
       "keyword": "ux design san diego",
-      "volume": 120,
+      "secondary": [
+        "ux designer san diego",
+        "ux design company san diego"
+      ],
+      "volume": 110,
+      "source": "Ahrefs US 2026-10-14",
       "status": "todo"
     },
     {
       "type": "location",
-      "slug": "minneapolis",
       "city": "Minneapolis",
-      "state": "MN",
       "keyword": "ux agency minneapolis",
+      "secondary": [],
       "volume": 70,
+      "source": "Ahrefs US 2026-10-14",
       "status": "todo"
     },
     {
       "type": "location",
-      "slug": "nashville",
       "city": "Nashville",
-      "state": "TN",
       "keyword": "ux design nashville",
+      "secondary": [
+        "ux designer nashville"
+      ],
       "volume": 70,
+      "source": "Ahrefs US 2026-10-14",
       "status": "todo"
     },
     {
       "type": "location",
-      "slug": "portland",
       "city": "Portland",
-      "state": "OR",
       "keyword": "ux design portland",
-      "volume": 60,
-      "status": "todo"
-    },
-    {
-      "type": "location",
-      "slug": "pittsburgh",
-      "city": "Pittsburgh",
-      "state": "PA",
-      "keyword": "ux design pittsburgh",
+      "secondary": [
+        "ux agency portland"
+      ],
       "volume": 50,
+      "source": "Ahrefs US 2026-10-14",
       "status": "todo"
     },
     {
       "type": "location",
-      "keyword": "ux design agency baltimore",
-      "volume": 30,
+      "city": "Cincinnati",
+      "keyword": "ux design firm cincinnati",
+      "secondary": [
+        "ux design cincinnati"
+      ],
+      "volume": 50,
+      "source": "Ahrefs US 2026-10-14",
       "status": "todo"
     },
     {
       "type": "location",
+      "city": "Houston",
       "keyword": "ux design houston",
-      "volume": 20,
+      "secondary": [
+        "ux designer houston"
+      ],
+      "volume": 40,
+      "source": "Ahrefs US 2026-10-14",
       "status": "todo"
     },
     {
       "type": "location",
-      "keyword": "ux design raleigh",
-      "volume": 20,
+      "city": "Raleigh",
+      "keyword": "ux design firm raleigh",
+      "secondary": [
+        "ux design raleigh"
+      ],
+      "volume": 40,
+      "source": "Ahrefs US 2026-10-14",
       "status": "todo"
     },
     {
       "type": "location",
+      "city": "Pittsburgh",
+      "keyword": "ux design pittsburgh",
+      "secondary": [],
+      "volume": 20,
+      "source": "Ahrefs US 2026-10-14",
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "city": "Baltimore",
+      "keyword": "ux design agency baltimore",
+      "secondary": [],
+      "volume": 30,
+      "source": "Ahrefs US 2026-10-14",
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "city": "San Jose",
       "keyword": "ux designer san jose",
+      "secondary": [],
       "volume": 20,
+      "source": "Ahrefs US 2026-10-14",
+      "status": "todo"
+    },
+    {
+      "type": "location",
+      "city": "Tampa",
+      "keyword": "ui ux design company tampa",
+      "secondary": [],
+      "volume": 20,
+      "source": "Ahrefs US 2026-10-14",
       "status": "todo"
     },
     {
