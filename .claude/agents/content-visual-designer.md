@@ -18,17 +18,20 @@ Use the brief's `visualTypes`; vary layouts from earlier posts (check `public/bl
 reuse an earlier composition. Make original, copyright-free SVGs in `public/blog/<slug>/<name>.svg`.
 
 ## Brand style (owner rule 2026-10-14 — matches ui-ux.agency, by tkxel)
-- **Canvas**: landscape only — viewBox `0 0 1200 675` (16:9) or `0 0 1200 750` (16:10); never tall/narrow.
-  The image is shown at the full width of the text column (~760px), so design for that size.
+- **Canvas**: landscape only — viewBox `0 0 1200 675` (16:9) or `0 0 1200 750` (16:10); height ≤ width × 0.625,
+  never tall/narrow. The image is shown at the full width of the text column (~760px), so design for that size.
+  If content does not fit, cut padding and wrapped lines, or split long items into two columns — never grow the canvas.
 - **Frame**: background `#F5F8FE` with 32px padding; one white card (`#FFFFFF`, rx 24, 1px `#E5E7EB` stroke)
-  holding the content. A title band at the top: 13px uppercase label (`#0755E9`, letter-spacing 2)
-  plus the figure title in 28–32px `#1B232E` weight 800.
+  holding the content. A title band at the top: 20px uppercase kicker (`#0755E9`, weight 700, letter-spacing 2)
+  plus the figure title in 36px `#1B232E` weight 800.
 - **Colours** (nothing else): primary `#0755E9`, light blue `#5B8DF5`, tint fills `#EEF3FE` / `#F5F8FE`,
   navy `#020816` / ink `#1B232E` for text and dark chips, muted `#6B7281`, lines `#E5E7EB`,
   success `#16A34A` only for ✓ and "keep" states, `#DC2626` only for ✕/"cut". No pink, no yellow,
   no gradients inside the content area.
-- **Type**: `font-family="Plus Jakarta Sans, Arial, sans-serif"`, weights 500 (body), 700 (labels),
-  800 (titles/numbers) only. Sizes at 1200 wide: body ≥ 20px, labels ≥ 16px, titles 28–32px.
+- **Type** (owner rule 2026-10-14, bigger and bolder): `font-family="Plus Jakarta Sans, Arial, sans-serif"`.
+  Sizes at 1200 wide: body/item text ≥ 26px weight 600–700 (≈ 16.5px on screen), labels (row labels,
+  kickers, tags) ≥ 20px weight 700, titles 36px weight 800; nothing below 20px. Write body as weight 700:
+  the embed script maps 600 to the 500 face, so a 600 renders regular.
   `scripts/svg-embed-fonts.mjs` embeds the font at build time — do not embed it yourself.
 - **Shapes**: rounded rects (rx 12–16), 2px strokes, numbered badges as 36px circles (#0755E9, white
   800 number), arrows 2px `#5B8DF5` with round caps. Generous whitespace: ≥ 24px between blocks.

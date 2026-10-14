@@ -20,7 +20,7 @@ const face = Object.fromEntries(WEIGHTS.map((w) => {
 }));
 
 /** Map any requested weight to the nearest embedded one. */
-const nearest = (w) => WEIGHTS.reduce((a, b) => (Math.abs(b - w) < Math.abs(a - w) ? b : a));
+const nearest = (w) => WEIGHTS.reduce((a, b) => (Math.abs(b - w) <= Math.abs(a - w) ? b : a)); // ties round up: 600 → 700
 
 function walk(dir) {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) =>
