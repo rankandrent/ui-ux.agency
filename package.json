@@ -8,9 +8,10 @@
     "start": "npx serve out",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "seo:check": "node scripts/seo-check.mjs",
+    "seo:check": "node scripts/seo-check.mjs && node scripts/feed-validator.mjs",
     "links:find": "node scripts/link-opportunities.mjs",
-    "onpage": "node scripts/onpage-audit.mjs"
+    "onpage": "node scripts/onpage-audit.mjs",
+    "opportunities": "NODE_USE_ENV_PROXY=1 node scripts/blog-opportunities.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
