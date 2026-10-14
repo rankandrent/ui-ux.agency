@@ -1836,3 +1836,6 @@ ul.results { list-style: none; margin: 0; padding: 0; }
 .pcover figure { margin: 0; height: 100%; }
 .list-h2 { font-size: 28px; line-height: 1.2; margin: 8px 0 24px; }
 h2.ptake__title { margin-top: 0; }
+/* home hero secondary CTA: solid dark (owner request) */
+.hero__actions .btn--dark-outline { background: var(--black); color: var(--white); border-color: var(--black); }
+.hero__actions .btn--dark-outline:hover { background: var(--brand); border-color: var(--brand); color: var(--white); }
