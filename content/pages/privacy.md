@@ -4,7 +4,7 @@ metaTitle: "Privacy Policy | ui-ux.agency"
 description: "What personal data ui-ux.agency collects through its forms and website, why we keep it, who processes it and how to ask us to delete it."
 ---
 
-*Effective date: October 13, 2026*
+*Effective date: October 14, 2026*
 
 ui-ux.agency is the UI UX design agency of tkxel. This policy covers the ui-ux.agency website and the forms on it. It says what we collect, why, who helps us process it, and what you can ask us to do with it. The rules for using the site are in our [terms of service](/terms/).
 
@@ -21,7 +21,7 @@ Each form also records which page and which form you used, so we know what you w
 
 **What your browser sends.** When you load a page, our hosting provider receives standard request data: IP address, browser and device type, the page requested and the time. We do not run advertising trackers.
 
-**Analytics.** When we turn on Microsoft Clarity, it records anonymized clicks, scrolls and page interactions so we can see where our pages confuse people. Clarity masks the text you type into forms.
+**Analytics.** We use Google Analytics 4 to count visits and see which pages people read, where they come from and how they move through the site. It records your device, browser, approximate location (city level) and the pages you view; it does not receive what you type into our forms. When we turn on Microsoft Clarity, it records anonymized clicks, scrolls and page interactions so we can see where our pages confuse people. Clarity masks the text you type into forms.
 
 ## Why we use it
 
@@ -36,6 +36,7 @@ We do not sell personal data, and we do not use it for automated decisions about
 ## Who processes it for us
 
 - **Cloudflare** hosts the site and delivers form submissions to our inbox.
+- **Google** (Google Analytics and Search Console) measures site visits and how the site appears in Google Search.
 - **Microsoft** (Clarity and our business email) stores analytics and the emails we receive.
 - **tkxel**, our parent company, may see your enquiry when you ask for development work as well as design.
 
@@ -43,7 +44,7 @@ Each of them processes data only to provide its service to us. We share data wit
 
 ## How long we keep it
 
-We keep enquiry emails for as long as we are discussing or delivering work with you, and for up to three years after our last contact. Marketing consent lasts until you withdraw it. Analytics data follows Microsoft Clarity's own retention period.
+We keep enquiry emails for as long as we are discussing or delivering work with you, and for up to three years after our last contact. Marketing consent lasts until you withdraw it. Analytics data follows the retention periods of Google Analytics and Microsoft Clarity.
 
 ## Your choices and rights
 
@@ -58,7 +59,7 @@ Email [hello@ui-ux.agency](mailto:hello@ui-ux.agency) and we will reply within 3
 
 ## Cookies
 
-The site sets no cookies of its own. Microsoft Clarity, when enabled, sets cookies to tell one visit from another. You can block them in your browser settings and the site will still work.
+Google Analytics sets first-party cookies (such as `_ga`) to tell one visit from another, and Microsoft Clarity does the same when enabled. We use them for analytics only, not for advertising. You can block them in your browser settings, or with Google's [opt-out browser add-on](https://tools.google.com/dlpage/gaoptout), and the site will still work.
 
 ## Children
 

@@ -4,6 +4,10 @@ export const SITE = {
   brand: "UI UX Agency by tkxel",
   /** Microsoft Clarity project ID (heatmaps and session recordings) */
   clarityId: "" /* TODO(owner): new Microsoft Clarity project ID */,
+  /** Google Analytics 4 measurement ID (owner, 2026-10-14) */
+  gaId: "G-9HSXLGKNWK",
+  /** Google Search Console HTML-tag verification token (owner, 2026-10-14) */
+  googleVerification: "LCyoJr0FqLu5Kxewm-5p1Y21ThA7E4F6D3KHAPThhqo",
   domain: "ui-ux.agency",
   /** Year the company started */
   founded: 2017,
