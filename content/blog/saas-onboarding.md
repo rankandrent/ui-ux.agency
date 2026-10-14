@@ -23,7 +23,7 @@ draft: false
 qa: pass
 ---
 
-When I look at a software as a service (SaaS) trial, I judge its SaaS onboarding by one number: the minutes a new user spends before getting anything they came for. So I time a fresh sign-up with a stopwatch. Here's a hypothetical business-to-business (B2B) trial:
+When I look at a software as a service (SaaS) trial, the first number I check in its SaaS onboarding is the minutes a new user spends before getting anything they came for. So I time a fresh sign-up with a stopwatch. Here's a hypothetical business-to-business (B2B) trial:
 
 > **0:00** Sign-up form: 7 fields, including company size and phone.
 > **0:52** "Verify your email." Switch tabs, find it, click.
@@ -33,7 +33,7 @@ When I look at a software as a service (SaaS) trial, I judge its SaaS onboarding
 
 Six minutes in, nothing they came for has happened. That's where a trial quietly ends.
 
-At ui-ux.agency, the design team of tkxel, our designers have worked on more than 200 digital products since 2017. Our team starts in the same place: we watch new-user session recordings and measure drop-off from sign-up to first value. Everything between that form and the first result worth a second visit is SaaS onboarding. Below: where it ends, the flow screen by screen, how I cut steps, first-run patterns, B2B roles, emails and a 12-point audit.
+At ui-ux.agency, the design team of tkxel, our designers have worked on more than 200 digital products since 2017. Our onboarding work starts the same way: we watch new-user session recordings and measure drop-off from sign-up to first value. Everything between that form and the first result worth a second visit is SaaS onboarding. Below: where it ends, the flow screen by screen, how I cut steps, first-run patterns, B2B roles, emails and a 12-point audit.
 
 ## What is SaaS onboarding, from a designer's view?
 
@@ -290,7 +290,7 @@ Sometimes onboarding is one problem of many. Before we redesigned [the TradeZell
 
 Time your own first run with a stopwatch, record it and [send us a link to the recording](/contact/) for a free consultation. A senior designer replies within one business day.
 
-My recommendation: before you add another tooltip or email, cut one step between sign-up and your activation event.
+My recommendation: before you add another tooltip or email, move or cut one step between sign-up and your activation event.
 
 ## FAQs
 
