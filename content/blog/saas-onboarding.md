@@ -53,7 +53,7 @@ One naming trap: in the Amazon Web Services (AWS) [SaaS Lens](https://docs.aws.a
 
 **User onboarding happens inside the product and scales through screens; customer onboarding is a guided program run by people, and most B2B SaaS products need both.**
 
-B2B SaaS customer onboarding opens the customer lifecycle on two tracks with two owners: the product team's screens and a customer success manager (CSM), who runs kickoff, training and go-live. Yet the product must still work for the 20th invited member, who never joins that call.
+B2B SaaS customer onboarding usually opens the customer lifecycle on two tracks with two owners: the product team's screens and a customer success manager (CSM), who runs kickoff, training and go-live. Yet the product must still work for the 20th invited member, who never joins that call.
 
 The table below compares owner, place, trigger, end point and scale.
 
@@ -87,11 +87,11 @@ A SaaS customer onboarding checklist from customer success covers kickoff to go-
 
 Three numbers follow. **Activation rate** is the share of new sign-ups who reach that event within a set window, such as the first 7 days. **Time to first value** is the time from sign-up to the same event: minutes for a self-serve tool, days for a product that needs data first. **Day-7 return rate** is the share of new sign-ups who come back for another session 7 days later; it shows whether first value turned into a habit.
 
-Only one stage comes after the activation event: the prompt that brings an activated user back for a second session. Some teams call the activation event the aha moment because it predicts retention; I don't, because analytics can log an action, not a feeling. Keep the activation window shorter than your free trial length, so a user who misses first value still has days left. Freemium onboarding has no trial clock, but I'd set the same window.
+Only one stage comes after the activation event: the prompt that brings an activated user back for a second session. Some teams call the activation event the aha moment, the point where a user grasps the product's value; I don't, because analytics can log an action, not a feeling. Keep the activation window shorter than your free trial length, so a user who misses first value still has days left. Freemium onboarding has no trial clock, but I'd set the same window.
 
 How do you find yours? In [The Cold Start Problem](https://a16z.com/books/the-cold-start-problem/), Andrew Chen quotes Slack co-founder Stewart Butterfield: of the teams that had exchanged 2,000 messages, 93% were still using Slack. Here's how I'd look for your own threshold in 3 steps, comparing users who stayed with users who left:
 
-1. In Mixpanel or Amplitude, split the last 90 days of sign-ups into users still active after 30 days and users who left.
+1. In Mixpanel or Amplitude, take 90 days of sign-ups that are at least 30 days old and split them into users still active after 30 days and users who left.
 2. Compare what each group did in its first 7 days.
 3. Pick one action that is early, repeatable and tied to value.
 
@@ -125,7 +125,7 @@ Finish line: the activation event, between stages 4 and 5.
 
 ### 1. Sign-up
 
-Every required field is one more chance to quit. My rule for required fields on the sign-up form: short forms, single sign-on and clear plan choices that don't block the first session. Against the 7 fields in my opening log, the scheduler needs 1 field: a work email, or a Google or Microsoft sign-in. Where security allows, I'd verify email after first value.
+Every required field is one more chance to quit. My rule for the sign-up form: short forms, single sign-on and clear plan choices that don't block the first session. Against the 7 fields in my opening log, the scheduler asks for 1 field, a work email, or offers Google or Microsoft sign-in instead. Where security allows, I'd verify email after first value.
 
 ### 2. Welcome question
 
@@ -184,7 +184,7 @@ Each helps the first-run experience at one moment and backfires outside it:
 
 - **Welcome question:** helps when the answer changes the next screen; backfires as a survey only sales reads.
 - **Empty state:** helps when it explains the blank and offers one action; backfires as a bare "No data yet".
-- **Onboarding checklist:** helps when it ends at activation after 3–5 steps; backfires with "watch a video" filler.
+- **Onboarding checklist:** helps when it ends at the activation event, and I cap mine at 3–5 items; backfires with "watch a video" filler.
 - **Contextual help (tooltips):** helps on the control the user is about to touch; backfires as a long tour at first login, which users click through.
 - **Templates:** help when filled with sample data that fits the welcome answer; backfire as an unfiltered library, because choosing becomes the task.
 
