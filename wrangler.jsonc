@@ -6,6 +6,9 @@
   // Tiny Worker in front of the static assets: canonical-host redirects, removed-page 301s and /api/lead (form → email).
   "main": "worker/index.ts",
   "compatibility_date": "2026-09-26",
+  // `wrangler deploy` builds the site first, so a Workers Builds deploy works even when the
+  // dashboard build command is empty (it was, and every Git deploy failed with "out does not exist").
+  "build": { "command": "npm run build" },
   // Custom domains (ui-ux.agency + www) are attached in the Cloudflare dashboard:
   // Worker → Settings → Domains & Routes. They are not declared here because the
   // Workers Builds token can't manage zone DNS, which made deploys fail.
