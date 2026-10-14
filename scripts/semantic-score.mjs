@@ -59,13 +59,24 @@ const entHit = ents.filter((e) => e.replace(/\s*\(.*?\)\s*/g, "").split(/\s*[\/,
 add("entities", 2, entHit.length >= ents.length * 0.85, `${entHit.length}/${ents.length} brief entities${ents.length > entHit.length ? `; missing: ${ents.filter((e) => !entHit.includes(e)).slice(0, 6).join(", ")}` : ""}`);
 
 // attributes and values (EAV)
-const eav = brief.eav ?? (brief.attributes ?? []).map((a) => ({ attribute: a.replace(/\s*\(.*?\)\s*/g, "").trim() }));
-const attrHit = eav.filter((x) => has(text, x.attribute));
-add("attributes", 2, attrHit.length >= eav.length * 0.75, `${attrHit.length}/${eav.length} attributes${eav.length > attrHit.length ? `; missing: ${eav.filter((x) => !attrHit.includes(x)).slice(0, 5).map((x) => x.attribute).join(", ")}` : ""}`);
+const clean = (a) => String(a).replace(/\s*\(.*?\)\s*/g, " ").trim();
+const STOP = new Set("the a an and or of to in for on with by at from is are be as that this it its their your our more less than per".split(" "));
+const contentWords = (v) => clean(v).toLowerCase().match(/[a-z0-9$%][a-z0-9$%.,–-]*/g)?.filter((w) => w.length > 2 && !STOP.has(w)) ?? [];
+const eav = (brief.eav ?? (brief.attributes ?? []).map((a) => ({ attribute: a }))).map((x) => ({ ...x, attribute: clean(x.attribute) }));
+// an attribute is covered when its name appears, or when its value does (abstract names like "definition" never appear verbatim)
+const valueIn = (x) => {
+  if (!x.value) return false;
+  const nums = (String(x.value).match(/\$?\d[\d,.]*%?/g) ?? []).map((n) => n.replace(/[.,]+$/, ""));
+  if (nums.length) return nums.every((n) => text.includes(n.toLowerCase()));
+  const cw = contentWords(x.value);
+  return sentences.some((sn) => cw.filter((w) => lower(sn).includes(w)).length >= Math.ceil(cw.length * 0.5));
+};
+const attrHit = eav.filter((x) => has(text, x.attribute) || valueIn(x));
+add("attributes", 2, attrHit.length >= eav.length * 0.75, `${attrHit.length}/${eav.length} attributes${eav.length > attrHit.length ? `; missing: ${eav.filter((x) => !attrHit.includes(x)).slice(0, 6).map((x) => x.attribute).join(", ")}` : ""}`);
 const withVal = eav.filter((x) => x.value);
 if (withVal.length) {
-  const near = withVal.filter((x) => sentences.some((s) => has(s, x.attribute) && has(s, String(x.value).split(/[ ,;]/)[0])));
-  add("values", 1, near.length >= withVal.length * 0.6, `${near.length}/${withVal.length} attributes stated with their value in the same sentence`);
+  const stated = withVal.filter(valueIn);
+  add("values", 1, stated.length >= withVal.length * 0.6, `${stated.length}/${withVal.length} sourced values stated in the text${withVal.length > stated.length ? `; missing: ${withVal.filter((x) => !stated.includes(x)).slice(0, 5).map((x) => x.attribute).join(", ")}` : ""}`);
 }
 
 // n-grams
