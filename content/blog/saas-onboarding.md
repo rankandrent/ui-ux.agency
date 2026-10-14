@@ -23,7 +23,7 @@ draft: false
 qa: pass
 ---
 
-When I look at a software as a service (SaaS) trial, the first number I check in its SaaS onboarding is the minutes a new user spends before getting anything they came for. So I time a fresh sign-up with a stopwatch. Here's a hypothetical business-to-business (B2B) trial:
+When I review a software as a service (SaaS) product, the first number I check in its SaaS onboarding is how many minutes a new user spends before getting anything they came for. So I time a fresh sign-up with a stopwatch. Here's a hypothetical business-to-business (B2B) trial:
 
 > **0:00** Sign-up form: 7 fields, including company size and phone.
 > **0:52** "Verify your email." Switch tabs, find it, click.
@@ -33,7 +33,7 @@ When I look at a software as a service (SaaS) trial, the first number I check in
 
 After 6 minutes, nothing they came for has happened, and that's where a trial quietly ends.
 
-At ui-ux.agency, the design team of tkxel, our designers have worked on more than 200 digital products since 2017. Our onboarding work starts the same way: we watch new-user session recordings and measure drop-off from sign-up to first value. Everything between that form and the first result worth a second visit is new user onboarding. Below: the end point, the flow, the cuts, first-run patterns, B2B roles, emails and a 12-point audit.
+At ui-ux.agency, the design team of tkxel, our designers have worked on more than 200 digital products since 2017. Our onboarding work starts the same way: we watch new-user session recordings and measure drop-off from sign-up to first value. Everything between that form and the first result worth a second visit is new user onboarding.
 
 ## What is SaaS onboarding, from a designer's view?
 
@@ -47,13 +47,13 @@ When I say onboarding, I don't mean a welcome email or a kickoff call. I mean th
 
 I start with the screens underneath, because they decide the outcome. So our [SaaS onboarding design](/services/saas-products/saas-onboarding-design/) work redesigns sign-up, setup and empty states, not only the guidance on top.
 
-One naming trap: in the Amazon Web Services (AWS) [SaaS Lens](https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/tenant-onboarding.html), "tenant onboarding" provisions a new tenant's resources and creates the tenant admin in an identity provider. Engineering owns that work, not design. So when a team says "onboarding", I first ask which layer they mean.
+One naming trap: in the Amazon Web Services (AWS) [SaaS Lens](https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/tenant-onboarding.html), "tenant onboarding" provisions a new tenant's resources and creates its admin in an identity provider. That's engineering work, so when a team says "onboarding", I first ask which layer they mean.
 
 ## User vs customer onboarding: which are you fixing?
 
 **User onboarding happens inside the product and scales through screens; customer onboarding is a guided program run by people, and most B2B SaaS products need both.**
 
-B2B SaaS customer onboarding usually opens the customer lifecycle on two tracks with two owners: the product team's screens and a customer success manager (CSM), who runs kickoff, training and go-live. Yet the product must still work for the 20th invited member, who never joins that call.
+B2B SaaS customer onboarding usually runs on two tracks with two owners: the product team's screens and a customer success manager (CSM), who runs kickoff, training and go-live. Yet the product must still work for the 20th invited member, who never joins that call.
 
 The table below compares owner, place, trigger, end point and scale.
 
@@ -79,7 +79,7 @@ Bridge: data import, single sign-on setup and permissions screens.
 
 Work falls through at the handoff. Data import, single sign-on (SSO) setup and permissions sit between the CSM and the product team, so nobody designs them. I'd design them as guided setup screens, data import first, so a call is optional.
 
-A SaaS customer onboarding checklist from customer success covers kickoff to go-live; my audit below covers screens. If every account starts with a kickoff call, jump to admins and members.
+A SaaS customer onboarding checklist from customer success covers kickoff to go-live; my audit below covers screens.
 
 ## Where does SaaS onboarding end?
 
@@ -101,7 +101,7 @@ Say you run a scheduling SaaS. "Calendar connected" only proves setup. I'd pick 
 
 **The onboarding process runs in five stages: four lead to the activation event, a fifth brings the user back, and every other step moves later or gets cut.**
 
-The map below puts screens and messages on two rows, with the activation event as the finish line.
+The map below gives each stage its message and its metric, with the activation event as the finish line.
 
 ![SaaS onboarding process flow in five stages with the activation event as the finish line and one metric per stage](/blog/saas-onboarding/saas-onboarding-process-flow.svg "The SaaS onboarding process flow, screens and messages, with one metric per stage")
 
@@ -125,7 +125,7 @@ Finish line: the activation event, between stages 4 and 5.
 
 ### 1. Sign-up
 
-Every required field is one more chance to quit. My rule for the sign-up form: short forms, single sign-on and clear plan choices that don't block the first session. Against the 7 fields in my opening log, the scheduler asks for 1 field, a work email, or offers Google or Microsoft sign-in instead. Where security allows, I'd verify email after first value.
+I keep the sign-up form short, with single sign-on and a plan choice that doesn't block the first session, because every required field is one more chance to quit. Against the 7 fields in my opening log, the scheduler asks for 1 field, a work email, or offers Google or Microsoft sign-in instead. Where security allows, I'd verify email after first value.
 
 ### 2. Welcome question
 
@@ -158,7 +158,7 @@ I run four tests on every step:
 - **Is there a better moment?** Ask then, the way billing belongs at upgrade.
 - **Does the user ever need it?** If not, cut it, like a job-title field only sales reads or an intro video.
 
-Back to the scheduling SaaS, with 11 steps before the first booking: 4 steps stay, 5 steps move later and 2 steps go. The sort cuts the number of steps from sign-up to first value from 11 steps to 4.
+Back to the scheduling SaaS: the sort cuts the number of steps from sign-up to first value from 11 steps to 4, with 5 steps moved later and 2 steps cut.
 
 ![Illustrative sort of 11 SaaS onboarding steps into keep now, move later and cut for a hypothetical scheduling product](/blog/saas-onboarding/straight-line-sort.svg "Straight-line sort: 4 steps kept, 5 moved later, 2 cut")
 
@@ -172,8 +172,6 @@ Illustrative, hypothetical scheduling SaaS, 11 steps:
 
 </details>
 
-When I move those 5 steps later, I don't hide them: each becomes a settings placeholder, a checklist item or a prompt at first use.
-
 Losing trial users before setup is done? Our design team rebuilds exactly that flow.
 
 ## Which first-run patterns carry good SaaS onboarding?
@@ -184,8 +182,8 @@ Each helps the first-run experience at one moment and backfires outside it:
 
 - **Welcome question:** helps when the answer changes the next screen; backfires as a survey only sales reads.
 - **Empty state:** helps when it explains the blank and offers one action; backfires as a bare "No data yet".
-- **Onboarding checklist:** helps when it ends at the activation event, and I cap mine at 3–5 items; backfires with "watch a video" filler.
-- **Contextual help (tooltips):** helps on the control the user is about to touch; backfires as a long tour at first login, which users click through.
+- **Onboarding checklist:** helps when it ends at the activation event (I cap mine at 3–5 items); backfires with "watch a video" filler.
+- **Contextual help (tooltips):** helps on the control the user is about to touch; backfires as a long tour at first login.
 - **Templates:** help when filled with sample data that fits the welcome answer; backfire as an unfiltered library, because choosing becomes the task.
 
 Notion pairs the first and last. Appcues' GoodUX teardown of Notion's onboarding describes it using sign-up answers to suggest a short list of templates, plus a learn-by-doing Getting Started checklist. Screens change between versions, so copy the pattern. Galleries such as SaaSFrame hold more onboarding flow examples.
@@ -195,6 +193,8 @@ Nielsen Norman Group (NN/g) warns that a blank screen in a complex app confuses 
 ![Empty state anatomy for a SaaS project dashboard, before and after, with four labeled parts](/blog/saas-onboarding/empty-state-anatomy.svg "Empty state anatomy: a blank dashboard rebuilt with four parts")
 
 <details class="astext"><summary>Show as text</summary>
+
+Before: a blank dashboard that says "No projects yet." After: the same dashboard with four parts.
 
 1. Why it's empty: "You haven't created a project yet."
 2. What will appear: a preview of a filled dashboard.
@@ -231,7 +231,7 @@ My quickest test of invited member onboarding: join your own product through an 
 
 **Onboarding emails work best when behavior triggers them and each one links back to the user's next unfinished step, so the email ends inside the product.**
 
-A drip fixed at 1 day, 3 days and 7 days after sign-up ignores where the user stopped. I prefer behavior-triggered emails, which fire on what the user did or didn't do and open the exact step. For the scheduler, follow-up onboarding emails bring inactive trial users back to the next step, starting 24 hours after sign-up.
+A drip fixed at 1 day, 3 days and 7 days after sign-up ignores where the user stopped. I prefer behavior-triggered emails, which fire on what the user did or didn't do and open the exact step. In the scheduler's trial, the first onboarding email fires only if the calendar is still unconnected 24 hours after sign-up, and it brings inactive users back to that step.
 
 The table below maps triggers to messages and target screens for the scheduling example.
 
@@ -275,12 +275,12 @@ Fix the earliest failing box, ship it, and rerun the audit after 7 days of new s
 
 **Trial onboarding needs design work when drop-off sits in the sign-up form, the setup wizard or a blank first screen, because an overlay tool can't change the screens underneath.**
 
-Onboarding tools such as Appcues, Userpilot and Pendo handle checklists, tours and in-app messages well, and we design for them too. A tool sits on top of your screens, so I read an audit this way:
+Onboarding tools such as Appcues, Userpilot and Pendo handle checklists, tours and in-app messages well, but they sit on top of your screens. So I read an audit this way:
 
 - **Failures in guidance and messages:** a tool plus an in-house product manager can go far.
 - **Failures in sign-up, setup, empty states or the member path:** the screens and flows need user experience design, and no overlay fixes that.
 
-Our onboarding redesign runs in 4 steps over 3 to 6 weeks. A funnel review takes 1 week, and interviews with 5 to 8 users who signed up recently take 1 week. A redesign and prototype tested with new users takes 1–3 weeks, then release and measurement take 1 week. Here's [what an onboarding redesign costs](/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost): $15,000 to $45,000. We judge the work by activation rate, time to first value and day-7 return rate.
+Our onboarding redesign runs in 4 steps: a funnel review (1 week), interviews with 5 to 8 recent sign-ups (1 week), a redesign and prototype tested with new users (1–3 weeks), then release and measurement (1 week). Here's [what an onboarding redesign costs](/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost): $15,000 to $45,000. We judge the work by activation rate, time to first value and day-7 return rate.
 
 Sometimes onboarding is one problem of many. Before we redesigned [the TradeZella trading journal](/case-studies/tradezella/), "no onboarding guide" sat on its problem list beside a crowded interface and web and mobile apps that behaved differently. A product in that state needs a phased [SaaS product redesign](/services/saas-products/saas-product-redesign/), one of the services in our wider [SaaS product design](/services/saas-products/) work. If your dated screens go well past the first run, I'd start there.
 
@@ -288,7 +288,7 @@ Sometimes onboarding is one problem of many. Before we redesigned [the TradeZell
 
 **Good SaaS onboarding starts from the activation event and moves or cuts every step that doesn't lead to it.** I'd fix the earliest stage that fails, and inside that stage fix the screens before the guidance and the emails.
 
-Time your own first run with a stopwatch, record it and [send us a link to the recording](/contact/) for a free consultation. A senior designer replies within one business day.
+Time your own first run with a stopwatch, record it and [send us a link to the recording](/contact/) for a free consultation. A senior designer replies within one business day (ET).
 
 My recommendation: before you add another tooltip or email, move or cut 1 step between sign-up and your activation event.
 

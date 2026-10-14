@@ -4,7 +4,7 @@
     "markdown": "![SaaS user onboarding compared with customer onboarding by owner, place, trigger, end point and scale, with the handoff screens between them](/blog/saas-onboarding/user-vs-customer-onboarding.svg \"User onboarding vs customer onboarding, and the screens where they meet\")"
   },
   {
-    "marker": "<!-- visual: overview flow with finish line, saas-onboarding-process-flow.svg. Five stages left to right (sign-up, welcome question, essential setup, first-value task, second-session prompt); top row product screens, bottom row messages; a checkered finish line labelled \"activation event\" between stage 4 and stage 5; one metric under each stage. Alt: \"SaaS onboarding process flow in five stages with the activation event as the finish line and one metric per stage\". Caption: \"The SaaS onboarding process flow, screens and messages, with one metric per stage\". -->",
+    "marker": "<!-- visual: overview flow with finish line, saas-onboarding-process-flow.svg. Five stages left to right (sign-up, welcome question, essential setup, first-value task, second-session prompt); top row product screens, bottom row messages; a checkered finish line labeled \"activation event\" between stage 4 and stage 5; one metric under each stage. Alt: \"SaaS onboarding process flow in five stages with the activation event as the finish line and one metric per stage\". Caption: \"The SaaS onboarding process flow, screens and messages, with one metric per stage\". -->",
     "markdown": "![SaaS onboarding process flow in five stages with the activation event as the finish line and one metric per stage](/blog/saas-onboarding/saas-onboarding-process-flow.svg \"The SaaS onboarding process flow, screens and messages, with one metric per stage\")"
   },
   {
@@ -12,8 +12,8 @@
     "markdown": "![Illustrative sort of 11 SaaS onboarding steps into keep now, move later and cut for a hypothetical scheduling product](/blog/saas-onboarding/straight-line-sort.svg \"Straight-line sort: 4 steps kept, 5 moved later, 2 cut\")"
   },
   {
-    "marker": "<!-- visual: annotated anatomy before/after, empty-state-anatomy.svg. Left \"Before\": a blank project dashboard reading \"No projects yet\". Right \"After\": the same dashboard with four numbered callouts. Alt: \"Empty state anatomy for a SaaS project dashboard, before and after, with four labelled parts\". Caption: \"Empty state anatomy: a blank dashboard rebuilt with four parts\". -->",
-    "markdown": "![Empty state anatomy for a SaaS project dashboard, before and after, with four labelled parts](/blog/saas-onboarding/empty-state-anatomy.svg \"Empty state anatomy: a blank dashboard rebuilt with four parts\")"
+    "marker": "<!-- visual: annotated anatomy before/after, empty-state-anatomy.svg. Left \"Before\": a blank project dashboard reading \"No projects yet\". Right \"After\": the same dashboard with four numbered callouts. Alt: \"Empty state anatomy for a SaaS project dashboard, before and after, with four labeled parts\". Caption: \"Empty state anatomy: a blank dashboard rebuilt with four parts\". -->",
+    "markdown": "![Empty state anatomy for a SaaS project dashboard, before and after, with four labeled parts](/blog/saas-onboarding/empty-state-anatomy.svg \"Empty state anatomy: a blank dashboard rebuilt with four parts\")"
   },
   {
     "marker": "<!-- visual: two-lane swimlane, admin-vs-member-paths.svg. Top lane \"Admin\", bottom lane \"Invited member\", joined by a connector at \"Invite the team\". Alt: \"B2B SaaS onboarding swimlane with an admin path and an invited-member path joined at the team invite\". Caption: \"Admin and invited-member paths in B2B SaaS onboarding\". -->",
