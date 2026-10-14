@@ -23,7 +23,7 @@ export const SITE = {
   phoneDisplay: "(202) 978-3410",
   social: [] as { name: string; icon: string; url: string }[], // TODO(owner): new profile URLs
   /** false until launch: every page is noindex and robots.txt disallows crawling (no duplicate content while placeholders remain) */
-  launched: false,
+  launched: true,
   get sameAs(): string[] {
     return this.social.map((s) => s.url);
   },
