@@ -135,6 +135,20 @@ A post is published only when it is semantically complete: every heading fully a
 paragraph or thin FAQ, every section ends with a next step. QA lists each gap as guidance for the
 writer and fails the post until the writer closes them.
 
+## Voice: first person (owner rule 2026-10-14)
+Blog posts are written in the **first person by the byline author** (frontmatter `author`), the way a
+senior designer explains their own method to a founder:
+- Use **"I"** for the author's method, judgement and advice: "When I audit an onboarding flow, I start
+  with…", "I'd cut this step", "Here's how I decide…". Use **"we"** only for the ui-ux.agency team's
+  documented work (case studies, the service process) and **"you"** for the reader.
+- First person is a voice, not a licence to invent: no made-up anecdotes, clients, numbers, quotes or
+  "last month a founder told me…" stories. A first-person experience claim must come from a real case
+  study in `content/case-studies/`, the service JSON, or the author's real bio in `content/authors.json`.
+  Otherwise phrase it as method ("I look for…") or as a hypothetical ("Say you run a scheduling app…").
+- Open with the author's point of view on the problem (one or two "I" sentences), keep paragraphs short,
+  and close the "Bottom line" with the author's own recommendation in one sentence.
+- The fact-checker treats every "I/we did/saw/measured" sentence as a claim that needs a source.
+
 ## Writing (Koray semantic SEO)
 
 - Each H2 is a question or a clear entity statement; the first sentence under it answers it
@@ -149,6 +163,32 @@ writer and fails the post until the writer closes them.
 - Short paragraphs (2–4 sentences), concrete examples, numbered steps where a process exists,
   a comparison table where two options are compared.
 - US English. Reader: product manager, founder or design lead at a US/UK/Canada company.
+
+
+### Semantic SEO framework (owner rule 2026-10-14 — measured by `node scripts/semantic-score.mjs <slug>`, must be ≥ 85)
+The brief (researcher) and the post (writer) are built on Koray Tuğberk GÜBÜR's model:
+- **Central entity + source context.** One central entity per post (the brief's `centralEntity`), written
+  from ui-ux.agency's context (a design team selling to SaaS/AI founders). It sits in the H1, the first
+  100 words, and in the H2 or first sentence of at least half the sections. Use the entity's name as the
+  sentence subject instead of "it/this" (≤ 12% of sentences may start with a bare pronoun).
+- **Entity–attribute–value (EAV).** The brief lists `eav`: `{attribute, value, source}` triples for the
+  central entity, ordered root attributes (definition, types, process, cost, metrics) → rare (edge cases,
+  roles, tools) → unique (our angle from the SERP gap). Every attribute gets its own heading or
+  sentence, and the sentence states the **value** ("SaaS onboarding time to first value: under 5 minutes
+  for a self-serve trial") — attributes without values are filler.
+- **Triples.** Write declarative subject–predicate–object sentences ("An activation event marks the end of
+  user onboarding"), one fact per sentence, 11–20 words on average, ≤ 8% over 30 words.
+- **N-grams.** Use every brief n-gram verbatim at least once; no single n-gram over 1.5% of the words
+  (the main keyword at about 1–1.5%). Vary with the lexical relations instead of repeating it.
+- **Skip-grams.** The brief lists 8–15 `skipgrams` pairs that co-occur in top-ranking pages
+  (e.g. ["onboarding", "activation"], ["trial", "first value"]). Each pair appears within 8 words
+  in at least one sentence — that is how the post proves the topical relationships.
+- **Lexical relations.** The brief lists `lexical`: `synonyms`, `hypernyms` (broader: "user experience
+  design"), `hyponyms` (narrower: "B2B SaaS onboarding"), `meronyms` (parts: "sign-up form", "empty state",
+  "checklist"). Use ≥ 60% of them; hyponyms and meronyms make the best H3s.
+- **Contextual flow.** H2s follow the user's question order (macro → micro), each section ends with a short
+  bridge to the next, and nothing drifts off the central entity. ≥ 60% of H2s are questions.
+- **Facts.** At least 1 concrete number with a unit per 100 words (minutes, steps, %, $), each sourced.
 
 ## Blog post file format (`content/blog/<slug>.md`)
 

@@ -1647,10 +1647,7 @@ main > .section:nth-of-type(23)::after { -webkit-mask-image: var(--art7a); mask-
 .post-article a { text-decoration-thickness: 1px; text-underline-offset: 4px; }
 .post-article a:hover { text-decoration-thickness: 2px; }
 .post-article figure { margin: 40px 0; }
-/* infographics are drawn 800px wide with large type for phones; on wider screens show them at reading
-   size so their text matches the body copy instead of shouting over it */
-.post-article figure:has(> img[src$=".svg"]) { max-width: 540px; margin-left: auto; margin-right: auto; }
-.post-article figure:has(> img[src$=".svg"]) + .astext { max-width: 540px; margin-left: auto; margin-right: auto; }
+/* infographics fill the full text-column width (owner rule 2026-10-14) */
 .post-article figcaption { margin-top: 12px; font-size: 14px; }
 .post-article .ptable { margin: 8px 0 32px; }
 .post-article .ptable table { font-size: 15.5px; line-height: 1.5; }
@@ -1839,3 +1836,42 @@ h2.ptake__title { margin-top: 0; }
 /* home hero secondary CTA: solid dark (owner request) */
 .hero__actions .btn--dark-outline { background: var(--black); color: var(--white); border-color: var(--black); }
 .hero__actions .btn--dark-outline:hover { background: var(--brand); border-color: var(--brand); color: var(--white); }
+
+/* ---------- Blog post v2 (owner rule 2026-10-14): navy hero, full-width infographics, editorial rhythm ---------- */
+.phead { background: radial-gradient(120% 140% at 0% 0%, #0B2A6B 0%, #020816 60%); color: #fff; padding-bottom: 120px; }
+.phead .crumbs, .phead .crumbs a { color: rgba(255,255,255,.65); }
+.phead .crumbs [aria-current], .phead .crumbs li:last-child { color: rgba(255,255,255,.9); }
+.phead__tags { color: rgba(255,255,255,.6); }
+.phead__title { color: #fff; }
+.phead__desc { color: rgba(255,255,255,.78); }
+.phead__by { border-top-color: rgba(255,255,255,.14); }
+.phead__author { color: #fff; }
+.phead__author:hover { color: var(--brand-l); }
+.phead__role, .phead__dates { color: rgba(255,255,255,.62); }
+.phead__avatar { box-shadow: 0 0 0 2px rgba(255,255,255,.25); }
+/* cover overlaps the dark hero */
+.phead + .container { margin-top: -88px; position: relative; z-index: 1; }
+.pcover { box-shadow: 0 30px 60px rgba(2,8,22,.25); }
+
+.post-article { color: #1F2937; }
+.pgrid3 .prose { font-size: 18px; line-height: 1.75; }
+/* each H2 opens a new section */
+.post-article .pbody h2 { padding-top: 48px; border-top: 1px solid var(--border); }
+.post-article .pbody--first h2:first-of-type { padding-top: 0; border-top: 0; }
+/* infographics: full column width, caption under the image */
+.post-article figure { margin: 36px 0 12px; }
+.post-article figure img { width: 100%; height: auto; border-radius: 20px; box-shadow: 0 1px 0 var(--border), 0 12px 32px rgba(7,85,233,.06); }
+.post-article figcaption { text-align: left; color: var(--text-m); }
+/* the always-visible text version reads as a compact companion card */
+.post-article .astext { margin: 12px 0 32px; padding: 18px 22px 6px; border: 1px solid var(--border); border-radius: 16px; background: #FAFBFF; font-size: 15px; line-height: 1.6; }
+.post-article .astext::before { content: "Text version"; display: block; font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--brand); margin-bottom: 10px; }
+.post-article .astext ul, .post-article .astext ol { columns: 2; column-gap: 32px; }
+.post-article .astext li { break-inside: avoid; }
+.post-article .astext p, .post-article .astext li { font-size: 15px; }
+.post-article .astext .ptable { margin: 4px 0 16px; }
+@media (max-width: 900px) {
+  .phead { padding-bottom: 80px; }
+  .phead + .container { margin-top: -56px; }
+  .post-article .astext ul, .post-article .astext ol { columns: 1; }
+  .post-article figure img { border-radius: 14px; }
+}

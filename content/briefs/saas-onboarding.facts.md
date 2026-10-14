@@ -1,52 +1,80 @@
-# Fact-check: saas-onboarding (loop 2)
+# Fact-check: saas-onboarding (loop 3, first-person rewrite)
 
-Post: `content/blog/saas-onboarding.md` · Brief: `content/briefs/saas-onboarding.json` · Checked 2026-10-13
+Post: `content/blog/saas-onboarding.md` (author `faizan-khan`, updated 2026-10-14) · Checked 2026-10-14
 
-**Scope:** Loop 2 covers two things: whether the loop-1 fixes F1–F4 landed, and every new or changed sentence from the writer's and QA's edits. These are the day-7 definition, the five process H3s, the fourth "cut" test, the Bottom line, the TradeZella sentence and the closing CTA. No external links or sourced figures changed since loop 1. The links to AWS, a16z, ProductLed, NN/g and Userpilot, and the Slack 93% and Userpilot 37.5% / 62 B2B figures, keep their loop-1 verdicts (TRUE). See loop 1 for the sources. I checked the site claims against `content/services/saas-onboarding-design.json`, `content/case-studies/tradezella.md`, `content/pages/about.md`, `content/pages/thank-you.md`, `content/pages/terms.md` and `components/forms/LeadForm.tsx`.
+**Scope:** This loop checks the rewrite into Faizan Khan's first person, against the owner rule in RULES.md ("Voice: first person") and the fact-checker lesson dated 2026-10-14. It covers two things: (1) every "I/we" sentence, and (2) whether any fact, number, quote or link verified in loops 1–2 changed meaning.
 
-## Loop-1 fixes
+**Baseline used:** I had no shell in this run, so I could not run `git diff HEAD`. As the baseline I used the last build of the post, `.next/server/app/blog/saas-onboarding.rsc`. Its `dateModified` is 2026-10-13, and it already contains the loop-2 fixes F5 and F6. I compared that text with the current markdown sentence by sentence. The orchestrator should confirm with `git diff HEAD -- content/blog/saas-onboarding.md` that HEAD matches this build.
 
-| Fix | Line | Landed? | Notes |
+**Site sources for "I/we" claims:** `content/authors.json` (faizan-khan: `bio: ""`, `expertise: []`, `yearsExperience: null`), `content/home.ts` (Faizan Khan, "Sr. Product Designer"; "200+ Digital products designed"; "Product design since 2017"; "the UI UX design team of tkxel"), `content/pages/about.md` line 9 ("Our designers have worked on more than 200 digital products since 2017"), `content/services/saas-onboarding-design.json` (step "Funnel review (1 week)": "We measure drop-off from sign-up to first value in your analytics and watch new-user session recordings.") and `content/case-studies/tradezella.md`.
+
+## 1. Unchanged facts, numbers, quotes and links
+
+| Item | Line | Changed? | Verdict |
 |---|---|---|---|
-| F1 Slack threshold paragraph | 88 | YES, word for word | The paraphrase has no quotation marks. "Look for your own threshold by comparing users who stayed with users who left" is advice to the reader, not a claim about Slack |
-| F2 session-recordings sentence | 36 | YES, word for word | Matches hub step 1, "Funnel review": "We measure drop-off from sign-up to first value … and watch new-user session recordings." |
-| F3 hub-link sentence | 48 | YES, word for word | Matches hub scope "sign-up, setup, empty states and in-app guidance" |
-| F4 closing CTA | 281 | YES, adapted | "send us **a link to** the recording" is more accurate than my wording. The contact form (`LeadForm.tsx`) has a text field ("description") and no file upload, so a link is the only way to send a recording. "free consultation" (terms.md, thank-you.md) and "A senior designer replies within one business day." (about.md line 38, word for word) are both TRUE |
+| AWS SaaS Lens "tenant onboarding" link and sentence | 50 | Wording only ("So when a team says…, I first ask…"). Link and definition are identical | TRUE (loop 1) |
+| Andrew Chen / Stewart Butterfield quote, 2,000 messages, 93%, a16z link | 92 | Identical | TRUE (loop 1) |
+| Sentence after the Slack quote | 92 | "Look for your own threshold by comparing…" became "Here's how I'd look for your own threshold, comparing users who stayed with users who left". It is still advice and hypothetical ("I'd"), and it is not attributed to Slack, so lesson 2026-10-13 is still met | TRUE |
+| Wes Bush Bowling Alley Framework, ProductLed link, bumpers | 152 | Identical | TRUE (loop 1) |
+| Appcues GoodUX / Notion description, SaaSFrame | 191 | Identical | TRUE (loop 1) |
+| NN/g empty-state guidelines and link | 193 | Identical. Only the lead-in "Empty states deserve a closer look." was removed | TRUE (loop 1) |
+| Userpilot 2024 benchmark, 37.5%, 62 B2B companies, vendor-data caveat, link | 303 | Figures and caveat identical. "Treat it…" became "I treat it as a sanity check and compare a product's own rate…", which is method | TRUE (loop 1) |
+| Hub figures: 4 steps, 5 to 8 sign-ups, 3 to 6 weeks, $15,000–$45,000, three success metrics, cost anchor link | 283 | Identical | TRUE (loop 2) |
+| TradeZella sentence, case-study link, product-redesign and SaaS product design links | 285 | Identical except the last clause, "start there" → "I'd start there" | TRUE (loop 2) |
+| CTA: "send us a link to the recording", free consultation, "A senior designer replies within one business day." | 291 | Identical | TRUE (loop 2) |
+| Day-7 definition, four tests, 11-step sort (4/5/2), process H3 examples, email table, 12-point audit | 88, 154–171, 238–268 | Facts identical. Verbs changed to "I…" | TRUE (loop 2) |
+| "Later doesn't mean hidden" | 175 | Became "When I move a step later, I don't hide it: it becomes a settings placeholder, a checklist item or a prompt at first use." Same three outcomes | TRUE |
+| Removed sentences ("Teams usually patch the top two layers first.", "Self-serve trial? Read on.") | 48, 82 | Removed. No fact is lost | n/a |
 
-## New or changed claims
+No external or internal link was added, removed or retargeted.
 
-| # | Line | Claim | Verdict | Source / evidence |
-|---|---|---|---|---|
-| 1 | 84 | Day-7 return rate = share of new sign-ups who come back for another session a week later; shows whether first value turned into a habit | TRUE (definition) | The hub names day-7 return rate as one of three success metrics (hub FAQ "How do you measure SaaS onboarding success?"). The post's definition is the standard day-7 retention definition, and the post does not attribute it to the hub. "Habit" is an editorial reading with no figure attached, so it is acceptable |
-| 2 | 98 | "four lead to the activation event, a fifth brings the user back, and any step serving neither gets cut" | WRONG (contradicts the post) | The post's own method (lines 142, 149–150, 162, 167) has three outcomes: keep, **move later**, cut. Verify email, set availability, photo/logo, invite teammates and payment card serve neither the four pre-activation stages nor the return prompt. The sort moves them later and does not cut them, and line 167 says "'Later' doesn't mean hidden". See F5 |
-| 3 | 118–136 | Five process H3s with a hypothetical scheduling SaaS (work-email or Google/Microsoft sign-in, a welcome question that preloads a meeting type, calendar kept, default hours, pre-copied booking link, return dashboard) | TRUE (illustrative, internally consistent) | No figures and no third-party claims. Each detail matches the sort panel (lines 161–163), the activation event (line 94) and the email table (lines 232–235). One example: "starts availability from default hours" = "set availability (default hours in settings)" under Move later. "Where security allows, verify email after first value" is hedged advice and matches "verify email (after the first booking)" |
-| 4 | 136 | "Activation proves the product worked once; it doesn't build a habit." | TRUE (editorial) | Consistent with line 86 and with the stage-5 metric |
-| 5 | 148–151 | Four tests sort each step: break without it → stays; default can stand in → later; better moment → later; no help before upgrade → cut | WRONG (the post's own worked example fails test 1) | I ran all 11 sorted steps through the four tests. "Say what you'll book first" is in **Keep now**, but the product does not break without it. Test 2 then applies: a default meeting type can stand in, so the tests send it to Move later. "Share your booking link" also does not "break" the product, but first value depends on it. Stage 2 (line 124) and audit item 3 keep the welcome question because it "changes what the user sees next", and test 1 does not cover that reason. The other 9 steps sort correctly: account and calendar stay; verify email, availability, photo/logo, invites and payment move later; job title/company size and intro video are cut. See F6 |
-| 6 | 153 | 11 steps: four stay, five move later, two go | TRUE | The panel lists 4 + 5 + 2 = 11 |
-| 7 | 279 | Bottom line: start from the activation event, move or cut every step that doesn't lead to it; fix the earliest failing stage, screens before guidance and emails | TRUE (consistent with the post) | Matches the audit rule (lines 241–243, 262), the three-layer model (lines 44–48) and the tool section (lines 266–271) |
-| 8 | 275 | "Before we redesigned the TradeZella trading journal, 'no onboarding guide' sat on its problem list beside a crowded interface and web and mobile apps that behaved differently." | TRUE | tradezella.md "Why the old experience held traders back": "No onboarding guide.", "A busy, crowded interface.", "Web and mobile did not behave the same way." "We redesigned TradeZella's trading journal dashboards for web and mobile" (description). The sentence uses "beside", which does not claim these were the only problems (the list also has "Hard to learn"). There is no result figure, and it is not presented as onboarding-design work. The case study's `services` includes saas-product-redesign, which matches the link |
-| 9 | 275 | "That's a job for a phased SaaS product redesign" | TRUE (unchanged from loop 1) | saas-product-redesign.json: "A phased redesign of a live product". This describes the service, not TradeZella's project |
-| 10 | 281 | "send us a link to the recording for a free consultation. A senior designer replies within one business day." | TRUE | about.md line 38; terms.md "Every engagement starts with a free consultation"; the LeadForm description field accepts a link |
+## 2. Every first-person sentence
+
+| # | Line | Sentence (shortened) | Type | Verdict | Source / evidence |
+|---|---|---|---|---|---|
+| 1 | 26 | "When I look at a SaaS trial, I judge its SaaS onboarding by **one number**: the minutes a new user spends before getting anything they came for." | Judgement, but states a measure | **WRONG (contradicts the post and the hub)** | The post's own success measures are three numbers (line 88; audit item 12). Line 283 says "We judge the work by activation rate, time to first value and day-7 return rate", and the hub FAQ also gives three metrics. The pre-rewrite text made no "one number" claim ("Picture a hypothetical … SaaS onboarding log, timed with a stopwatch"). See F1 |
+| 2 | 26 | "So I time a fresh sign-up with a stopwatch. Here's a hypothetical business-to-business (B2B) trial:" | Method + labelled hypothetical | TRUE | The log below is still labelled hypothetical, and no client or result is claimed. This matches the post's own audit step 1 |
+| 3 | 36 | "At ui-ux.agency, the design team of tkxel, our designers have worked on more than 200 digital products since 2017." | Company fact | TRUE (unchanged) | about.md line 9 word for word; home.ts lines 24–25, 240; RULES.md confirmed facts |
+| 4 | 36 | "**Our team starts** in the same place: we watch new-user session recordings and measure drop-off from sign-up to first value." | "We" process claim | **WRONG (scope widened)** | Before the rewrite: "Our onboarding work starts the same way". The source is the onboarding hub's step 1 only ("Funnel review (1 week)"). "Our team starts" follows a sentence about all 200+ products, so it reads as the whole agency's starting point on every project. No site page says that. See F2 |
+| 5 | 36 | "Below: … how I cut steps…" | Method | TRUE | — |
+| 6 | 42 | "When I say onboarding, I don't mean a welcome email or a kickoff call. I mean a user onboarding flow…" | Definition / judgement | TRUE | — |
+| 7 | 48 | "I start with the screens underneath, because they decide the outcome. That's why our SaaS onboarding design work redesigns sign-up, setup and empty states…" | Method + hub scope | TRUE | Hub scope "sign-up, setup, empty states and in-app guidance" (loop-2 F3). The "why" link from the author's habit to the service scope is editorial |
+| 8 | 50, 80, 82 | "I first ask which layer they mean"; "I'd design those screens so a call is optional"; "my audit below covers screens" | Method / advice | TRUE | — |
+| 9 | 90 | "Some teams call the activation event the aha moment; I don't, because unlike a feeling, it is something analytics can log." | Judgement | TRUE | Same reasoning as before, now in the author's own stance |
+| 10 | 92, 98 | "Here's how I'd look for your own threshold…"; "I'd pick 'first meeting booked…'" | Hypothetical advice | TRUE | Inside the labelled "Say you run a scheduling SaaS" example |
+| 11 | 104 | "I measure drop-off per onboarding step to find the stage that loses people." | Method | TRUE | Habitual method with no result claimed. Matches hub step 1 |
+| 12 | 128–140 | "so I limit the sign-up flow…"; "I'd verify email after first value"; "I ask only for what first value needs"; "I'd give the user a real task…" | Method / advice | TRUE | Same content as loop 2, claim 3 |
+| 13 | 154, 175 | "I run four tests on every step"; "When I move a step later, I don't hide it…" | Method | TRUE | — |
+| 14 | 206 | "For the first session, I favor a guided first task over a product tour: users remember their own first result, not the tooltips they clicked past." | Judgement | TRUE (unchanged reasoning) | Same claim as before the rewrite, now as a preference |
+| 15 | 228, 234, 247 | "My quickest test…"; "I prefer a behavior-triggered email"; "I treat that as a design spec" | Method / judgement | TRUE | — |
+| 16 | 253 | "To me, good user onboarding UX … is mostly subtraction… Here's how I run the audit:" | Judgement / method | TRUE | — |
+| 17 | 278 | "…and we design for them too. But a tool sits on top of your screens, so I read an audit this way:" | "We" capability (unchanged) + method | TRUE (unchanged) | "we design for them too" is identical to the pre-rewrite text and was accepted in loops 1–2 |
+| 18 | 283 | "Our onboarding redesign runs in 4 steps… We judge the work by…" | "We" process | TRUE (unchanged) | Hub process and FAQ |
+| 19 | 285 | "Before we redesigned the TradeZella trading journal…"; "I'd start there." | Case study + advice | TRUE | tradezella.md (loop 2, claim 8) |
+| 20 | 289 | "I'd fix the earliest stage that fails, and inside that stage fix the screens before the guidance and the emails." | Advice | TRUE | Same as before |
+| 21 | 293 | "My recommendation: before you add another tooltip or email, **cut** one step between sign-up and your activation event." | Recommendation (new) | **WRONG (drops an outcome of the post's own sort)** | The post's method has three outcomes: keep, move later and cut (lines 102, 150, 157–159). The bold line just above says "moves or cuts every step". In a flow where every non-essential step only needs moving (all five Move-later steps in the worked example), "cut one step" sends the reader to the wrong outcome. This is the same mistake as loop-2 F5. See F3 |
+| 22 | 299, 303, 311 | FAQ: "I measure time to first value in minutes…"; "I treat it as a sanity check…"; "I'd send one behavior-triggered email…" | Method / advice | TRUE | — |
+
+Honesty: there are no first-person anecdotes, clients, quotes, results or "a founder told me" stories. Faizan Khan's bio, expertise and years of experience are empty in authors.json, and the post makes no claim about his personal history, years of experience or past projects. That is correct. Only home.ts's title "Sr. Product Designer" is available, and the post does not restate it. The Apex HCM, Fortna and ToolsGroup clients are not mentioned, and no local office is claimed.
 
 ## Fixes (exact replacements)
 
-**F5, line 98** (claim 2). Replace the bold answer with:
+**F1, line 26** (claim 1). Replace the first sentence with:
 
-> **The SaaS onboarding process runs in five stages: four lead to the activation event, a fifth brings the user back, and every other step moves later or gets cut.**
+> When I look at a software as a service (SaaS) trial, the first number I check in its SaaS onboarding is the minutes a new user spends before getting anything they came for.
 
-(29 words, one sentence. It matches the keep / move later / cut sort and line 167.)
+Keep "So I time a fresh sign-up with a stopwatch. Here's a hypothetical business-to-business (B2B) trial:" unchanged. The keyword "SaaS onboarding" stays in the first 60 words.
 
-**F6, line 148** (claim 5). Replace the first test bullet with:
+**F2, line 36** (claim 4). Replace the second sentence with:
 
-> - **Does first value need it, or does it change the next screen?** It stays, because the first result depends on it.
+> Our onboarding work starts the same way: we watch new-user session recordings and measure drop-off from sign-up to first value.
 
-(After this change, all 11 steps sort as the panel shows: account, welcome question, which changes the next screen (line 124), calendar and booking link stay. The other three tests are unchanged. The SVG `straight-line-sort.svg` does not need to change, because its keep/later/cut columns already match.)
+This is the pre-rewrite wording, and it ties the claim to hub step 1, "Funnel review".
 
-## Honesty check
+**F3, line 293** (claim 21). Replace with:
 
-- No invented clients, testimonials, awards, certifications, team members or local offices. The Apex HCM, Fortna and ToolsGroup clients are not mentioned.
-- The new TradeZella sentence uses only facts from tradezella.md and quotes no result figures.
-- The CTA uses about.md wording exactly. "onboarding designers" (loop-1 F4) is gone.
-- The hub figures (4 steps, 5 to 8 sign-ups, 3 to 6 weeks, $15,000–$45,000, the three metrics) still match the hub.
+> My recommendation: before you add another tooltip or email, move or cut one step between sign-up and your activation event.
+
+This matches the bold Bottom line ("moves or cuts") and the keep / move later / cut sort.
 
 VERDICT: FAIL

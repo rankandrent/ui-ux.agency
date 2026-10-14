@@ -139,7 +139,7 @@ export default async function PostPage({ params }: Props) {
           <div className="phead__by">
             {author.avatar ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img src={author.avatar} alt="" width={48} height={48} className="phead__avatar" />
+              <img src={author.avatar} alt={`${author.name}, ${author.role}`} width={48} height={48} className="phead__avatar" />
             ) : (
               <span className="phead__avatar phead__avatar--logo" aria-hidden="true">U</span>
             )}
@@ -151,7 +151,7 @@ export default async function PostPage({ params }: Props) {
               <div key={c.slug} className="phead__with">
                 {c.avatar && (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img src={c.avatar} alt="" width={36} height={36} className="phead__avatar phead__avatar--sm" />
+                  <img src={c.avatar} alt={c.name} width={36} height={36} className="phead__avatar phead__avatar--sm" />
                 )}
                 <div>
                   <span className="phead__role">With</span>
