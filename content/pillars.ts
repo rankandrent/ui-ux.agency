@@ -98,7 +98,7 @@ export const pillars: Pillar[] = [
     servicesIntro: "Pick one service or run all three in order. Each page lists scope, timeline and price.",
     faqHeading: "AI product design FAQs",
     faqs: [
-      { q: "Where should an AI product design project start?", a: "Most teams start with an AI product discovery workshop. It names the use cases worth building before any interface work begins." },
+      { q: "Where should an AI product design project start?", a: "Most teams start with an AI product discovery workshop. It names the use cases worth building before any interface work begins; here are <a href=\"/blog/product-discovery/#what-changes-in-product-discovery-for-ai-features\">the extra product discovery checks an AI feature needs</a>." },
       { q: "Do you design AI products for mobile apps?", a: "Yes. We design AI features for web apps, iOS and Android apps, and for embedded widgets inside other software." },
       { q: "Can you work with any AI model provider?", a: "Yes. Our designs work with OpenAI, Anthropic, Google, open-source models or your own models; we prototype with whichever your team uses." },
       { q: "How long does AI product design take?", a: "A discovery workshop takes 1 to 2 weeks, chatbot UI design takes 3 to 8 weeks and AI UX design takes 4 to 10 weeks." },
