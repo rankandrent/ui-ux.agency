@@ -29,6 +29,7 @@ export function Footer() {
       title: "Resources",
       links: [
         { label: "Blog", href: routes.blog },
+        { label: "UI/UX Forum", href: "https://forum.ui-ux.agency/" },
         { label: "Case studies", href: routes.caseStudies },
         { label: "Privacy policy", href: "/privacy/" },
         { label: "Terms of service", href: "/terms/" },
