@@ -422,12 +422,50 @@
       "sentence": "'Most teams start with an AI product discovery workshop. It names the use cases worth building before any interface work begins; here are <a href=\"/blog/product-discovery/#what-changes-in-product-discovery-for-ai-features\">the extra product discovery checks an AI feature needs</a>.'"
     },
     {
-      "source": "content/services/design-sprint.json → sections 'Design sprint vs a full discovery phase' (add a short body under the table answer)",
-      "target": "/blog/product-discovery/",
+      "source": "content/services/design-sprint.json → sections 'Design sprint vs a full discovery phase' → append to the `answer` field (format 'table' renders as kind 'compare' in SemanticSections.tsx, which renders `answer` via Head/Html but never renders `body`, so a new body would be invisible)",
+      "target": "/blog/product-discovery/#how-long-should-a-product-discovery-phase-last",
       "anchor": "how a full product discovery phase runs",
-      "priority": "required",
-      "why": "A real topic match: the section compares a sprint with 'a full discovery phase', which is the post's topic. This is a link from a sibling service page into this silo's post, not post-to-post, so the silo rule is not breached.",
-      "sentence": "<p>Not sure which you need? Our guide explains <a href=\"/blog/product-discovery/\">how a full product discovery phase runs</a> and when a 5-day sprint is enough.</p>"
+      "priority": "optional",
+      "why": "A real topic match: the section compares a sprint with 'a full discovery phase', and the post's H2 'How long should a product discovery phase last?' answers exactly that. Link-builder 2026-10-15: changed from a new body (not rendered) to the answer field; marked optional because design-sprint is a different hub (hub-to-post, not post-to-post, so the silo rule is not breached, but the owner may prefer to keep the startups silo self-contained).",
+      "sentence": "Append after '</strong>' in the answer: ' Our guide explains <a href=\"/blog/product-discovery/#how-long-should-a-product-discovery-phase-last\">how a full product discovery phase runs</a> and when 5 days is enough.'"
     }
-  ]
+  ],
+  "related": {
+    "linkBuilderRun": "2026-10-15",
+    "internalLinks": [
+      { "href": "/services/ai-products/ai-product-discovery-workshop/", "anchor": "AI product discovery workshop", "where": "intro paragraph, about word 150 (first UP link, inside the first 300 words; no marker sat there, so it was placed on the 'extra AI checks' clause)" },
+      { "href": "/services/startups/design-sprint/", "anchor": "A 5-day design sprint", "where": "H2 'How long should a product discovery phase last?' (the one cross-hub link)" },
+      { "href": "/case-studies/digno/", "anchor": "the Digno performance platform", "where": "H2 example" },
+      { "href": "/case-studies/vocable/", "anchor": "Vocable, an AI content marketing platform", "where": "H2 example (anchor changed from 'Vocable's AI content editor' to match the case study title: the engagement covered the whole platform, not only the editor)" },
+      { "href": "/services/ai-products/ai-product-discovery-workshop/#how-much-does-an-ai-product-discovery-workshop-cost", "anchor": "what a facilitated AI discovery workshop costs", "where": "H2 in-house vs partner, price sentence (second and last UP link)" },
+      { "href": "/services/ai-products/", "anchor": "AI product design", "where": "H2 in-house vs partner, closing sentence (pillar / silo parent)" }
+    ],
+    "droppedInternalMarkers": [
+      "H2 AI checks pain CTA root hub link: dropped (hub cap 2; root already linked in the intro and one link per target). Sentence kept as plain text.",
+      "H2 two-week plan #what-happens-during... fragment: dropped (hub cap 2). Sentence rewritten so it no longer points at an unclickable page.",
+      "Bottom line root hub link: dropped (same target as the intro link). Sentence kept as plain text."
+    ],
+    "internalCountException": "6 internal body links, below the TOFU 8–12 range. The orchestrator exception applies (design-system-roi / usability-testing-cost-per-participant precedent): new silo with 0 sibling posts, no industry pages exist in content/industries/ (only _template.json), hub cap 2, one cross-hub link, case studies capped at 2, contact skipped for TOFU by the brief. The 7th and 8th links become possible with the first sibling post in this silo and the first /industries/saas/ page (anchor on 'business-to-business (B2B) SaaS' in H2 risks).",
+    "externalSources": [
+      { "url": "https://www.producttalk.org/glossary-discovery-product-discovery/", "status": "verified by producttalk.org-restricted search (fetch ENOTFOUND)", "claim": "discovery = work to decide what to build; delivery = building and shipping" },
+      { "url": "https://www.svpg.com/four-big-risks/", "status": "verified; search returned the www. host, brief had svpg.com", "claim": "four big risks wording and owners" },
+      { "url": "https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025", "status": "verified", "claim": "at least 30% abandoned after PoC by end of 2025; four causes" },
+      { "url": "https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk", "status": "verified; survey clause removed", "claim": "60% of AI projects unsupported by AI-ready data abandoned through 2026. The release cites two surveys (Q3 2024, 248 data management leaders, for the 63% figure; July 2024, 1,203 leaders), and snippets do not show which one backs the 60% prediction, so 'based on a survey of 1,203 data management leaders' was cut." },
+      { "url": "https://www.rand.org/pubs/research_reports/RRA2680-1.html", "status": "verified", "claim": "5 root causes; first = problem misunderstood or miscommunicated" }
+    ],
+    "removedExternalLinks": [
+      { "url": "https://www.nngroup.com/articles/discovery-phase/", "reason": "5-link cap; verified (definition snippet matches); kept as named plain-text citation (NN/g)." },
+      { "url": "https://www.designcouncil.org.uk/resources/the-double-diamond/", "reason": "5-link cap; verified (launched 2004, four phases); named in text." },
+      { "url": "https://jpattonassociates.com/dual-track-development/", "reason": "5-link cap; verified (title 'Dual Track Development is not Duel Track', credits Desiree Sy); named in text." },
+      { "url": "https://scrumguides.org/scrum-guide.html", "reason": "5-link cap; verified (sprints are fixed length events of one month or less); table cell now names 'the Scrum Guide'." },
+      { "url": "https://codelabs.developers.google.com/codelabs/pair-guidebook", "reason": "Never returned by any search; not verified. The PAIR claims (agree how to measure, second-order effects, precision vs recall) were verified on pair.withgoogle.com worksheets/chapters instead. Named in text (PAIR)." },
+      { "url": "https://pair.withgoogle.com/chapter/People%20+%20AI%20Guidebook%20-%20Data%20Collection%20+%20Evaluation.pdf", "reason": "5-link cap; verified (predictive power, relevance, fairness, privacy, security); named in text." },
+      { "url": "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf", "reason": "5-link cap; verified (after Map, sufficient context for an initial go/no-go decision); named in text." },
+      { "url": "https://www.producttalk.org/glossary-discovery-product-discovery/ (2nd and 3rd markers: OST, weekly touchpoints)", "reason": "One link per target. Note for fact-checker: the 'weekly touch points with customers by the team building the product' wording is on https://www.producttalk.org/glossary-discovery-continuous-discovery/, not the product-discovery glossary." }
+    ],
+    "factCheckerFlags": [
+      "NN/g (discoveries-in-industry-revealed, 436 practitioners) argues two weeks is too short for a discovery unless users are easy to reach and the problem space is small. The post's 'A first discovery phase fits in 2 weeks' takeaway and two-week plan should acknowledge that condition or stay framed as a first, timeboxed phase.",
+      "Gartner 2025 survey size: '1,203 data management leaders' was removed from the linked sentence; check the brief eav and any visual/takeaway that repeats it."
+    ]
+  }
 }

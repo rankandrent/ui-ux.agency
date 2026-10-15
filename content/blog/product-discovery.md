@@ -30,13 +30,13 @@ Product discovery is deciding what to build before you build it, and a good roun
 
 Two kills and one narrow build is a strong result. I'd rather kill two ideas in the first 5 days than ship one nobody trusts.
 
-I'm a principal user experience (UX) designer at ui-ux.agency, the design team of tkxel, and our team has designed 200+ products since 2017. The guide below covers the definition, the four risks, the stages, the agile fit, a two-week plan, the extra AI checks and an exit-gate checklist.
+I'm a principal user experience (UX) designer at ui-ux.agency, the design team of tkxel, and our team has designed 200+ products since 2017. The guide below covers the definition, the four risks, the stages, the agile fit, a two-week plan, the extra AI checks our [AI product discovery workshop](/services/ai-products/ai-product-discovery-workshop/) runs, and an exit-gate checklist.
 
 ## What is product discovery?
 
-**Discovery is the work a product team does to decide what to build; product delivery is the work of building and shipping it.** <!-- source: https://www.producttalk.org/glossary-discovery-product-discovery/ -->
+**Discovery is [the work a product team does to decide what to build](https://www.producttalk.org/glossary-discovery-product-discovery/); product delivery is the work of building and shipping it.**
 
-The product discovery definition I use with founders fits on one line: buy a decision with evidence before you buy code. Nielsen Norman Group (NN/g) describes the same work from the UX side as a discovery phase. In that view, the team researches the problem space, frames the problem to solve and gathers enough evidence to decide what to do next. <!-- source: https://www.nngroup.com/articles/discovery-phase/ -->
+The product discovery definition I use with founders fits on one line: buy a decision with evidence before you buy code. Nielsen Norman Group (NN/g) describes the same work from the UX side as a discovery phase. In that view, the team researches the problem space, frames the problem to solve and gathers enough evidence to decide what to do next.
 
 Discovery is not a requirements document or a UX research report. Its output is a decision: build, change or stop. The discipline sits inside product management and product development, and it borrows its methods from user-centered design.
 
@@ -51,7 +51,7 @@ In ecommerce, the same term means how shoppers find items through search, and th
 
 **Discovery tests four risks before delivery starts: value, usability, feasibility and business viability, each checked with the cheapest test that settles it.**
 
-Marty Cagan of the Silicon Valley Product Group (SVPG) calls them the four big risks. Value asks whether customers will buy the product or choose to use it. Usability asks whether users can figure it out. Feasibility asks whether engineers can build it with the time, skills and technology available, and viability asks whether it works for the rest of the business. <!-- source: https://svpg.com/four-big-risks/ -->
+Marty Cagan of the Silicon Valley Product Group (SVPG) calls them [the four big risks](https://www.svpg.com/four-big-risks/). Value asks whether customers will buy the product or choose to use it. Usability asks whether users can figure it out. Feasibility asks whether engineers can build it with the time, skills and technology available, and viability asks whether it works for the rest of the business.
 
 SVPG assigns owners too: the product manager (PM) owns value and viability risk, the product designer owns usability risk, and engineering judges feasibility. Some models merge value and usability into "desirability", but in business-to-business (B2B) SaaS the buyer and the user often differ, so I test both.
 
@@ -79,7 +79,7 @@ Which risk goes first? The one that would kill the idea, so put an owner's name 
 
 **The process moves through five stages: frame the outcome, understand users, map opportunities, test the riskiest assumptions, and decide.**
 
-The stages echo the Double Diamond, which the UK's Design Council launched in 2004 with 4 phases: discover, define, develop and deliver. Discovery work covers the first diamond and the early part of develop. <!-- source: https://www.designcouncil.org.uk/resources/the-double-diamond/ --> The strip below shows where the work widens and narrows.
+The stages echo the Double Diamond, which the UK's Design Council launched in 2004 with 4 phases: discover, define, develop and deliver. Discovery work covers the first diamond and the early part of develop. The strip below shows where the work widens and narrows.
 
 <!-- visual: diverge-converge stage strip. Five stages (frame, understand, map opportunities, test, decide) on a band that widens and narrows twice. Show only the width of the work per stage, not the outputs (the H3s name those). Must not look like the Design Council diamond. -->
 ![Product discovery process stages on a band that widens and narrows twice, from frame to decide](/blog/product-discovery/product-discovery-process-stages.svg "The five product discovery process stages, widening and narrowing twice")
@@ -104,7 +104,7 @@ Customer interviews show how users handle the problem today, before anyone pitch
 
 ### 3. Map opportunities
 
-Teresa Torres' opportunity solution tree organizes what you heard: the desired outcome at the top, then customer opportunities, then solutions, then assumption tests. <!-- source: https://www.producttalk.org/glossary-discovery-product-discovery/ --> The tree stops a team from jumping from one interview to one favorite feature. The output is an opportunity map with a few targets circled.
+Teresa Torres' opportunity solution tree organizes what you heard: the desired outcome at the top, then customer opportunities, then solutions, then assumption tests. The tree stops a team from jumping from one interview to one favorite feature. The output is an opportunity map with a few targets circled.
 
 ### 4. Test the riskiest assumptions
 
@@ -120,7 +120,7 @@ None of these stages waits for a sprint boundary, so the next question is how th
 
 **The product discovery process in agile runs as a second track beside delivery: one team tests ideas while it ships, and only validated ideas enter the backlog.**
 
-Many agile teams call this dual-track agile. Jeff Patton, who credits Desirée Sy with an early version, describes two kinds of work done by one team: "dual track, not duel track". <!-- source: https://jpattonassociates.com/dual-track-development/ --> Discovery and delivery need the same people, or the learning stays with whoever ran the interviews.
+Many agile teams call this dual-track agile. Jeff Patton, who credits Desirée Sy with an early version, describes two kinds of work done by one team: "dual track, not duel track". Discovery and delivery need the same people, or the learning stays with whoever ran the interviews.
 
 <!-- visual: dual-track loop. Two interlocking loops, discovery (frame, listen, test, decide) and delivery (plan, build, ship, measure), sharing one team in the middle. A "validated" gate passes ideas from the discovery loop into the backlog, and "measure" feeds new questions back into discovery. -->
 ![Dual-track agile loop with a discovery loop and a delivery loop sharing one team, joined by a validated gate into the backlog](/blog/product-discovery/product-discovery-dual-track.svg "Dual-track agile: the discovery loop and the delivery loop share one team")
@@ -134,7 +134,7 @@ Many agile teams call this dual-track agile. Jeff Patton, who credits Desirée S
 
 </details>
 
-Who does the work? In Continuous Discovery Habits, Teresa Torres asks the product trio to talk with customers weekly at a minimum, and the trio is the team that builds the product. The product manager, designer and tech lead work together rather than handing off. <!-- source: https://www.producttalk.org/glossary-discovery-product-discovery/ -->
+Who does the work? In Continuous Discovery Habits, Teresa Torres asks the product trio to talk with customers weekly at a minimum, and the trio is the team that builds the product. The product manager, designer and tech lead work together rather than handing off.
 
 The table below compares the two tracks by question, output, cadence, people and finish line.
 
@@ -144,11 +144,9 @@ Table: Discovery track vs delivery track in dual-track agile
 |---|---|---|
 | Question answered | Should we build this, and in what shape? | How do we build and ship it well? |
 | Typical output | Test results and a decision memo. | Working, released software. |
-| Cadence | A customer slot of 30 minutes every week. | Sprints of 1 month or less in Scrum. |
+| Cadence | A customer slot of 30 minutes every week. | Sprints of 1 month or less, per the Scrum Guide. |
 | Who | The product trio, plus users. | The whole team, led by engineering. |
 | Done when | The riskiest assumption has passed a test. | The increment ships and meets its definition of done. |
-
-<!-- source: https://scrumguides.org/scrum-guide.html (Sprints are fixed length events of one month or less) -->
 
 For Scrum teams, I keep the discovery track on its own light board. A backlog item enters sprint planning only after its riskiest assumption has passed a test, which is my working agreement rather than a Scrum rule. Before launch, though, most teams need a timeboxed phase.
 
@@ -162,7 +160,7 @@ A phase makes sense in three situations:
 - **First AI feature:** data and model questions decide whether a design is even possible.
 - **A board or investor deadline:** a date forces a decision, so a timebox protects it.
 
-Length depends on the size of the question. A 5-day design sprint <!-- link: /services/startups/design-sprint/ (anchor "a 5-day design sprint", the post's one cross-hub link) --> answers one question in 5 days. A full discovery phase explores a product area over 3–6 weeks, with 10–20 interviews plus a data review. Our AI discovery workshop runs 1 to 2 weeks.
+Length depends on the size of the question. [A 5-day design sprint](/services/startups/design-sprint/) answers one question in 5 days. A full discovery phase explores a product area over 3–6 weeks, with 10–20 interviews plus a data review. Our AI discovery workshop runs 1 to 2 weeks.
 
 A discovery phase that drags on delays development without improving the decision. Too long looks like research that continues to avoid a call, and too short looks like a phase where no user saw anything. Before the phase closes, I book a standing customer slot of 30 minutes every week, so discovery continues past the gate. Pick your length from the size of the question and put the end date in the calendar on day 1.
 
@@ -170,19 +168,19 @@ A discovery phase that drags on delays development without improving the decisio
 
 **An AI feature adds five checks to the four risks: the right tool, data readiness, model feasibility, evaluation and the cost of a wrong answer.**
 
-On July 29, 2024, Gartner predicted that at least 30% of generative AI projects would be abandoned after proof of concept by the end of 2025. The causes it named were poor data quality, inadequate risk controls, escalating costs or unclear business value. <!-- source: https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025 -->
+On July 29, 2024, Gartner predicted that [at least 30% of generative AI projects would be abandoned after proof of concept](https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025) by the end of 2025. The causes it named were poor data quality, inadequate risk controls, escalating costs or unclear business value.
 
-A 2024 RAND report lists 5 root causes of AI project failure, and the first is a problem that is misunderstood or miscommunicated. <!-- source: https://www.rand.org/pubs/research_reports/RRA2680-1.html --> Both findings point to discovery failures, not engineering failures.
+A 2024 RAND report lists [5 root causes of AI project failure](https://www.rand.org/pubs/research_reports/RRA2680-1.html), and the first is a problem that is misunderstood or miscommunicated. Both findings point to discovery failures, not engineering failures.
 
 ### Is AI the right tool?
 
-No, not by default. I start from the user task, not the model, because a rule, a filter or better search sometimes does the job with less risk. The Google People + AI Guidebook, from Google's People + AI Research (PAIR) team, starts in the same place: user needs first, then whether AI adds value. <!-- source: https://codelabs.developers.google.com/codelabs/pair-guidebook -->
+No, not by default. I start from the user task, not the model, because a rule, a filter or better search sometimes does the job with less risk. The Google People + AI Guidebook, from Google's People + AI Research (PAIR) team, starts in the same place: user needs first, then whether AI adds value.
 
 ### Data readiness: can you use the data?
 
 Data readiness asks four questions per AI use case. Does the data exist, can you access it, are you allowed to use it, and is it labeled? Permission is a US legal question: the California Consumer Privacy Act (CCPA) as amended by the California Privacy Rights Act (CPRA), the Health Insurance Portability and Accountability Act (HIPAA) for health data, and your customer contracts.
 
-Gartner predicts that through 2026, organizations will abandon 60% of AI projects unsupported by AI-ready data, based on a survey of 1,203 data management leaders. <!-- source: https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk --> PAIR advises teams to translate user needs into data needs, then judge the data on predictive power, relevance, fairness, privacy and security. <!-- source: https://pair.withgoogle.com/chapter/People%20+%20AI%20Guidebook%20-%20Data%20Collection%20+%20Evaluation.pdf --> I run this as a data audit, one row per use case.
+In February 2025, Gartner predicted that through 2026, organizations would [abandon 60% of AI projects unsupported by AI-ready data](https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk). PAIR advises teams to translate user needs into data needs, then judge the data on predictive power, relevance, fairness, privacy and security. I run this as a data audit, one row per use case.
 
 ### Model feasibility: can a model do the task?
 
@@ -190,11 +188,11 @@ A feasibility spike puts real inputs through a candidate model before anyone des
 
 ### Evaluation: what counts as a good answer?
 
-AI evaluation means writing down what a good answer looks like before design starts. PAIR asks teams to agree how they will measure whether the feature works, weigh second-order effects and choose the precision vs recall trade-off. <!-- source: https://codelabs.developers.google.com/codelabs/pair-guidebook --> Precision is the share of flagged items that were right, and recall is the share of right items the model caught. In maintenance triage, missing an urgent leak hurts more than over-flagging a dripping tap, so the model evaluation favors recall.
+AI evaluation means writing down what a good answer looks like before design starts. PAIR asks teams to agree how they will measure whether the feature works, weigh second-order effects and choose the precision vs recall trade-off. Precision is the share of flagged items that were right, and recall is the share of right items the model caught. In maintenance triage, missing an urgent leak hurts more than over-flagging a dripping tap, so the model evaluation favors recall.
 
 ### Cost of a wrong answer
 
-Map who a wrong answer harms and how the user catches and corrects it, because the harm map feeds the design guardrails. The National Institute of Standards and Technology (NIST) gives US teams a frame here. Its NIST AI Risk Management Framework (AI RMF) says that after the Map function, a team has enough context to make an initial go/no-go decision. <!-- source: https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf -->
+Map who a wrong answer harms and how the user catches and corrects it, because the harm map feeds the design guardrails. The National Institute of Standards and Technology (NIST) gives US teams a frame here. Its NIST AI Risk Management Framework (AI RMF) says that after the Map function, a team has enough context to make an initial go/no-go decision.
 
 You can test value before any model exists. A Wizard of Oz prototype puts a person behind the interface to write the AI's answers, so 5 users can react while engineering runs the spike. The grid below lists the evidence that passes each check and who answers it.
 
@@ -215,7 +213,7 @@ Table: Five AI feature checks with passing evidence and owner
 
 </details>
 
-This is the part most teams skip. Our AI product discovery workshop <!-- link: /services/ai-products/ai-product-discovery-workshop/ (anchor "AI product discovery workshop", first UP link) --> runs these checks with your product lead, an engineering or data lead and a business owner.
+This is the part most teams skip. Our AI product discovery workshop runs these checks with your product lead, an engineering or data lead and a business owner.
 
 ## How do you do product discovery in two weeks?
 
@@ -236,7 +234,7 @@ If you're asking how to do product discovery with a small team, start with the d
 
 </details>
 
-The room holds the product trio plus a business owner who can make the call. The range of 4 to 6 users and the 5-user test match how we run our own workshop, where participants give about 2 hours a day. If you want a facilitator, here's how our facilitated version runs day by day <!-- link: /services/ai-products/ai-product-discovery-workshop/#what-happens-during-the-ai-product-discovery-workshop -->.
+The room holds the product trio plus a business owner who can make the call. The range of 4 to 6 users and the 5-user test match how we run our own workshop, where participants give about 2 hours a day. If you want a facilitator for an AI feature, the last section of this guide covers when that makes sense.
 
 Two mistakes break the plan. Teams recruit users on day 3, so the listening block starts empty, or they build the prototype before the spike and test a concept engineering cannot ship. Book your 4 to 6 users today.
 
@@ -264,7 +262,7 @@ Auto-replies fail on the cost of a wrong answer, because a confident, wrong repl
 
 None of the three failed on design. Each check removed scope before anyone drew a screen.
 
-Two real projects show the same habit. Before designing the Digno performance platform <!-- link: /case-studies/digno/ -->, an AI-scored product, we collected requirements from stakeholders and end users to pin down the scoring formula. Making an AI-generated score feel fair and readable was the design challenge. For Vocable's AI content editor <!-- link: /case-studies/vocable/ -->, we ran stakeholder interviews and kept the scope tight around the jobs writers named most often. Try the grid on your own shortlist, one column per AI idea.
+Two real projects show the same habit. Before designing [the Digno performance platform](/case-studies/digno/), an AI-scored product, we collected requirements from stakeholders and end users to pin down the scoring formula. Making an AI-generated score feel fair and readable was the design challenge. For [Vocable, an AI content marketing platform](/case-studies/vocable/), we ran stakeholder interviews and kept the scope tight around the jobs writers named most often. Try the grid on your own shortlist, one column per AI idea.
 
 ## What goes on a product discovery checklist?
 
@@ -305,15 +303,15 @@ A design partner fits these:
 
 The cost of discovery differs by route. In-house, you pay in the trio's time away from delivery; with a partner, you pay a fee plus a few hours a day from your leads.
 
-Our workshop runs 1 to 2 weeks with your product, engineering and business leads for about 2 hours a day. The team ranks use cases by user value, data readiness, cost and risk of wrong answers, then tests the top concept with 5 users. You get 5 deliverables: a task map, a ranked use case list, a tested concept, a risk register and a scoped plan. Here's what a facilitated AI discovery workshop costs <!-- link: /services/ai-products/ai-product-discovery-workshop/#how-much-does-an-ai-product-discovery-workshop-cost -->: $8,000–$20,000.
+Our workshop runs 1 to 2 weeks with your product, engineering and business leads for about 2 hours a day. The team ranks use cases by user value, data readiness, cost and risk of wrong answers, then tests the top concept with 5 users. You get 5 deliverables: a task map, a ranked use case list, a tested concept, a risk register and a scoped plan. Here's [what a facilitated AI discovery workshop costs](/services/ai-products/ai-product-discovery-workshop/#how-much-does-an-ai-product-discovery-workshop-cost): $8,000–$20,000.
 
-You own the plan afterward, and some teams take it to their own team. When the decision is "build", the work moves into AI product design <!-- link: /services/ai-products/ (pillar) -->.
+You own the plan afterward, and some teams take it to their own team. When the decision is "build", the work moves into [AI product design](/services/ai-products/).
 
 ## Bottom line
 
 **Product discovery buys a decision, and an AI feature needs five extra checks before anyone designs a screen.** Run the four risks first, then the AI lane, inside one timeboxed phase.
 
-Copy the free product discovery checklist and run it on your next AI idea. If the AI lane comes back mostly unknowns, that is what our AI discovery workshop <!-- link: /services/ai-products/ai-product-discovery-workshop/ (second UP link, varied anchor) --> is for.
+Copy the free product discovery checklist and run it on your next AI idea. If the AI lane comes back mostly unknowns, that is what our AI discovery workshop is for.
 
 My recommendation: book a weekly customer slot of 30 minutes before the phase ends, so the gate opens onto a habit instead of a handoff.
 
