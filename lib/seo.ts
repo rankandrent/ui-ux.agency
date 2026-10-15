@@ -164,14 +164,21 @@ export const serviceLd = (
   }),
 });
 
-const stripTags = (s: string) => s.replace(/<[^>]+>/g, "");
+/** Decode the HTML entities markdown rendering leaves behind (&#39; &amp; &quot; …), so JSON-LD carries plain text. */
+const decodeEntities = (s: string) =>
+  s
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&(quot|apos|lt|gt|nbsp|amp);/g, (_, e) => ({ quot: '"', apos: "'", lt: "<", gt: ">", nbsp: " ", amp: "&" })[e as string] as string);
+
+const stripTags = (s: string) => decodeEntities(s.replace(/<[^>]+>/g, ""));
 
 export const faqLd = (faqs: Faq[]) => ({
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: faqs.map((f) => ({
     "@type": "Question",
-    name: f.q,
+    name: stripTags(f.q),
     acceptedAnswer: { "@type": "Answer", text: stripTags(f.a) },
   })),
 });
