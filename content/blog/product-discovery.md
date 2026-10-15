@@ -1,7 +1,7 @@
 ---
 title: "Product discovery: a practical guide for AI and SaaS product teams"
 metaTitle: "Product Discovery: Process, Examples and an AI Checklist"
-description: "Product discovery explained: the definition, the process in agile, how to timebox it in 2 weeks and what changes for AI features. Get the free checklist."
+description: "Product discovery explained: the definition, the process in agile, how to timebox it in 2 weeks and what changes for AI features. Run the 8-check exit gate."
 date: 2026-10-15
 updated: 2026-10-15
 contributors: [umar-sarwar]
@@ -17,7 +17,7 @@ takeaways:
   - "Product discovery decides what to build; delivery builds it, and in agile one team runs both tracks side by side."
   - "Test the four big risks (value, usability, feasibility, viability) starting with the one that would kill the idea."
   - "An AI feature adds five checks: right tool, data readiness, model feasibility, evaluation and the cost of a wrong answer."
-  - "A first discovery phase fits in 2 weeks: five blocks, each closed by one written output."
+  - "I timebox a first discovery round to 2 weeks: five blocks, each closed by one written output."
   - "After a discovery phase, an idea enters the delivery backlog only through an exit gate of 8 checks, plus 4 for AI, and an unknown counts as a no."
 draft: true
 qa: pending
@@ -31,7 +31,7 @@ Product discovery is deciding what to build before you build it, and a good roun
 
 One kill, one parked idea and one narrow build is a strong result. I'd rather set two ideas aside on paper than ship one nobody trusts.
 
-I'm a principal user experience (UX) designer at ui-ux.agency, the design team of tkxel, and our team has designed 200+ products since 2017. The guide below covers the definition, the four risks, the stages, the agile fit, the extra AI checks our [AI product discovery workshop](/services/ai-products/ai-product-discovery-workshop/) runs, a two-week plan and an exit-gate checklist.
+I'm a principal user experience (UX) designer at ui-ux.agency, the design team of tkxel, and our team has designed 200+ products since 2017. The guide below covers the definition, the four risks, the stages, the agile fit, the extra checks an AI feature needs, a two-week plan and an exit-gate checklist. Our [AI product discovery workshop](/services/ai-products/ai-product-discovery-workshop/) ranks AI use cases by user value, data readiness, cost and risk of wrong answers.
 
 ## What is product discovery?
 
@@ -121,7 +121,7 @@ None of these stages waits for a sprint boundary, so the next question is how th
 
 **The product discovery process in agile runs as a second track beside delivery: one team tests ideas while it ships, and only validated ideas enter the backlog.**
 
-Many agile teams call this dual-track agile. Jeff Patton, who credits Desirée Sy with an early version, describes two kinds of work done by one team: "dual track, not duel track". Discovery and delivery need the same people, or the learning stays with whoever ran the interviews.
+Many agile teams call this dual-track agile. Jeff Patton, who credits Desirée Sy with an early version, titled his essay ["Dual Track Development is not Duel Track"](https://jpattonassociates.com/dual-track-development/): two kinds of work, done by one team. Discovery and delivery need the same people, or the learning stays with whoever ran the interviews.
 
 ![Dual-track agile loop with a discovery loop and a delivery loop sharing one team, joined by a validated gate into the backlog](/blog/product-discovery/product-discovery-dual-track.svg "Dual-track agile: the discovery loop and the delivery loop share one team")
 
@@ -135,7 +135,7 @@ Many agile teams call this dual-track agile. Jeff Patton, who credits Desirée S
 
 </details>
 
-Who does the work? In Continuous Discovery Habits, Teresa Torres asks the product trio to talk with customers weekly at a minimum, and the trio is the team that builds the product. The product manager, designer and tech lead work together rather than handing off.
+Who does the work? Teresa Torres defines continuous discovery as, at a minimum, [weekly touch points with customers by the team building the product](https://www.producttalk.org/glossary-discovery-continuous-discovery/), and a product trio leads it. The product manager, designer and tech lead work together rather than handing off.
 
 The table below compares the two tracks by question, output, cadence, people and finish line.
 
@@ -145,15 +145,15 @@ Table: Discovery track vs delivery track in dual-track agile
 |---|---|---|
 | Question answered | Should we build this, and in what shape? | How do we build and ship it well? |
 | Typical output | Test results and a decision memo. | Working, released software. |
-| Cadence | A customer slot of 30 minutes every week. | Sprints of 1 month or less, per the Scrum Guide. |
+| Cadence | A weekly customer slot (I book 30 minutes). | Sprints of 1 month or less, per the Scrum Guide. |
 | Who | The product trio, plus users. | The whole team, led by engineering. |
 | Done when | The riskiest assumption has passed a test. | The increment ships and meets its definition of done. |
 
-For Scrum teams, I keep the discovery track on its own light board. A backlog item enters sprint planning only after its riskiest assumption has passed a test, which is my working agreement rather than a Scrum rule. A tool such as Jira Product Discovery can hold that board's ideas and scores, but the tool does not run the discovery. Before launch, though, most teams need a timeboxed phase.
+For Scrum teams, I keep the discovery track on its own light board. A backlog item enters sprint planning only after its riskiest assumption has passed a test, which is my working agreement rather than a Scrum rule. A tool such as Jira Product Discovery can hold that board's ideas and scores, but the tool does not run the discovery. Before launch, there is no weekly customer habit to join yet, which is where a timeboxed phase comes in.
 
 ## How long should a product discovery phase last?
 
-**A timeboxed discovery phase lasts from 5 days to 6 weeks, fits the start of something new, and hands over to continuous discovery once the team ships every week.**
+**In our services, a timeboxed discovery phase runs from a 5-day sprint to 3–6 weeks and hands over to continuous discovery once the team ships weekly.**
 
 A phase makes sense in three situations:
 
@@ -163,7 +163,7 @@ A phase makes sense in three situations:
 
 Continuous discovery alone fits a live product whose trio already spends 30 minutes with customers every week.
 
-Length depends on the size of the question. [A 5-day design sprint](/services/startups/design-sprint/) answers one question in 5 days. A full discovery phase explores a product area over 3–6 weeks, with 10–20 interviews plus a data review. Our AI discovery workshop runs 1 to 2 weeks.
+Length depends on the size of the question. [A 5-day design sprint](/services/startups/design-sprint/) answers one question in 5 days. Our design sprint page puts a full discovery phase for a whole product area at 3–6 weeks, with 10–20 interviews plus a data review. Our AI discovery workshop runs 1 to 2 weeks.
 
 A discovery phase that drags on delays development without improving the decision. Too long looks like research that continues to avoid a call, and too short looks like a phase where no user saw anything. Before the phase closes, I book a standing customer slot of 30 minutes every week, so discovery continues past the gate. Pick your length from the size of the question and put the end date in the calendar on day 1.
 
@@ -173,7 +173,7 @@ A discovery phase that drags on delays development without improving the decisio
 
 On July 29, 2024, Gartner predicted that [at least 30% of generative AI projects would be abandoned after proof of concept](https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025) by the end of 2025. The causes it named were poor data quality, inadequate risk controls, escalating costs or unclear business value.
 
-A 2024 RAND report lists [5 root causes of AI project failure](https://www.rand.org/pubs/research_reports/RRA2680-1.html), and the first is a problem that is misunderstood or miscommunicated. Both findings point to discovery failures, not engineering failures.
+A 2024 RAND report lists [5 root causes of AI project failure](https://www.rand.org/pubs/research_reports/RRA2680-1.html), and the first is a problem that is misunderstood or miscommunicated. Several of those causes, such as unclear business value, a misunderstood problem and missing data, are questions discovery can answer before a build starts.
 
 ### Is AI the right tool?
 
@@ -191,13 +191,13 @@ A feasibility spike puts real inputs through a candidate model before anyone des
 
 ### Evaluation: what counts as a good answer?
 
-AI evaluation means writing down what a good answer looks like before design starts. PAIR asks teams to agree how they will measure whether the feature works, weigh second-order effects and choose the precision vs recall trade-off. Precision is the share of flagged items that were right, and recall is the share of right items the model caught. In maintenance triage, missing an urgent leak hurts more than over-flagging a dripping tap, so the model evaluation favors recall.
+AI evaluation means writing down what a good answer looks like before design starts. PAIR asks teams to agree how they will measure whether the feature works, weigh second-order effects and choose the precision vs recall trade-off. Precision is the share of flagged items that truly belong in the category, and recall is the share of items in the category that the model flagged. In maintenance triage, missing an urgent leak hurts more than over-flagging a dripping tap, so the model evaluation favors recall.
 
 ### Cost of a wrong answer
 
-Map who a wrong answer harms and how the user catches and corrects it, because the harm map feeds the design guardrails. The National Institute of Standards and Technology (NIST) gives US teams a frame here. Its NIST AI Risk Management Framework (AI RMF) says that after the Map function, a team has enough context to make an initial go/no-go decision. In maintenance triage, a missed urgent leak harms the tenant, so staff confirm or change every suggested urgency.
+Map who a wrong answer harms and how the user catches and corrects it, because the harm map feeds the design guardrails. The National Institute of Standards and Technology (NIST) gives US teams a frame here. Its NIST AI Risk Management Framework (AI RMF) says that after completing the Map function, a team should have enough context about AI system impacts to inform an initial go/no-go decision. In maintenance triage, a missed urgent leak harms the tenant, so staff confirm or change every suggested urgency.
 
-You can test value before any model exists. A Wizard of Oz prototype puts a person behind the interface to write the AI's answers, so 5 users can react while engineering runs the spike. The grid below lists the evidence that passes each check and who answers it.
+You can test value before any model exists. A Wizard of Oz prototype puts a person behind the interface to write the AI's answers, so 5 users can react to them before anyone builds a model. The grid below lists the evidence that passes each check and who answers it.
 
 ![AI feature product discovery check grid with five rows for right tool, data readiness, model feasibility, evaluation and cost of a wrong answer, with the evidence that passes and who answers](/blog/product-discovery/ai-feature-discovery-checks.svg "Five AI feature product discovery checks with passing evidence and owners")
 
@@ -217,13 +217,13 @@ Table: Five AI feature checks with passing evidence and owner
 
 </details>
 
-This is the part most teams skip. Our AI discovery workshop runs these checks with your product lead, an engineering or data lead and a business owner.
+This is the part most teams skip. Our AI discovery workshop scores each AI use case on user value, data readiness, cost and risk of wrong answers, with your product lead, an engineering or data lead and a business owner.
 
 ## How do you do product discovery in two weeks?
 
 **To do product discovery in two weeks, split 10 days of work into five blocks (frame, listen, check risks, test and decide) and close each with one written output.**
 
-If you're asking how to do product discovery with a small team, start with the decision you need, not the method. Here's the plan I use, labeled by the question each block answers.
+If you're asking how to do product discovery with a small team, start with the decision you need, not the method. Here's the plan I use, labeled by the question each block answers. NN/g argues that [two weeks is too short](https://www.nngroup.com/articles/discoveries-in-industry-revealed/) unless users are easy to access and the problem space is relatively small, so I use this timebox for a first round on one decision, not for a whole product area.
 
 ![Two-week product discovery plan as a timeline of ten working days in five blocks, each with its question and written output](/blog/product-discovery/two-week-product-discovery-plan.svg "A two-week product discovery plan: five blocks, one output each")
 
@@ -265,7 +265,7 @@ Auto-replies fail on the cost of a wrong answer, because a confident, wrong repl
 
 None of the three failed on design. Each check removed scope before anyone drew a screen.
 
-Two real projects show the same habit. Before designing [the Digno performance platform](/case-studies/digno/), an AI-scored product, we collected requirements from stakeholders and end users to pin down the scoring formula. Making an AI-generated score feel fair and readable was the design challenge. For [Vocable, an AI content marketing platform](/case-studies/vocable/), we ran stakeholder interviews and kept the scope tight around the jobs writers named most often.
+Two real projects show the same habit. Before designing [the Digno performance platform](/case-studies/digno/), an AI-scored product, we collected requirements from stakeholders and end users to pin down the scoring formula. Digno's brief was to express performance as one plain score that makes sense to managers and staff alike. For [Vocable, an AI content marketing platform](/case-studies/vocable/), we ran stakeholder interviews and kept the scope tight around the jobs writers named most often.
 
 Try the grid on your own shortlist, one column per AI idea.
 
@@ -288,7 +288,7 @@ Two rules make the gate work. An unknown counts as a no, and every unknown goes 
 
 </details>
 
-The quiet lines fail most often. "Outcome metric written down" fails when the team agrees on a goal but never names the number that proves it. "Correction path" fails when the design shows an AI answer with no way to edit or reject it. Run the gate on your current top idea within 7 days and count the unknowns.
+I check the quiet lines first. "Outcome metric written down" fails when the team agrees on a goal but never names the number that proves it. "Correction path" fails when the design shows an AI answer with no way to edit or reject it. Run the gate on your current top idea within 7 days and count the unknowns.
 
 ## Should you run product discovery in-house or with a partner?
 
@@ -306,7 +306,7 @@ A design partner fits these:
 - **A pet idea:** an outside facilitator asks the kill question without office politics.
 - **A board wants AI by a date:** you need a data audit, a tested concept and a scoped plan the board can read.
 
-The cost of discovery differs by route. In-house, you pay in the trio's time away from delivery; with a partner, you pay a fee plus a few hours a day from your leads.
+The cost of discovery differs by route. In-house, you pay in the trio's time away from delivery; with a partner, you pay a fee plus about 2 hours a day from your leads.
 
 Our workshop runs 1 to 2 weeks with your product, engineering and business leads for about 2 hours a day. The team ranks use cases by user value, data readiness, cost and risk of wrong answers, then tests the top concept with 5 users. You get 5 deliverables: a task map, a ranked use case list, a tested concept, a risk register and a scoped plan. Here's [what a facilitated AI discovery workshop costs](/services/ai-products/ai-product-discovery-workshop/#how-much-does-an-ai-product-discovery-workshop-cost): $8,000–$20,000.
 
@@ -316,7 +316,7 @@ You own the plan afterward, and some teams take it to their own team. When the d
 
 **Product discovery buys a decision, and an AI feature needs five extra checks before anyone designs a screen.** Run the four risks first, then the AI lane, inside one timeboxed phase.
 
-Copy the free product discovery checklist and run it on your next AI idea. If the AI lane comes back mostly unknowns, that is what our AI discovery workshop is for.
+Run the 8-check exit gate above on your next idea, and add the 4 AI checks when it uses a model. If the AI lane comes back mostly unknowns, that is what our AI discovery workshop is for.
 
 Before your phase ends, I'd book a weekly customer slot of 30 minutes, so the gate opens onto a habit instead of a handoff.
 
@@ -328,7 +328,7 @@ Discovery decides what to build and tests whether it is worth building, while de
 
 ### How long does discovery take?
 
-Continuous discovery never ends, because it is a weekly habit. A timeboxed phase runs from 5 days for a design sprint on one question to 3–6 weeks for a whole product area, and our AI discovery workshop takes 1 to 2 weeks.
+Continuous discovery never ends, because it is a weekly habit. In our own services, a timeboxed phase runs from 5 days for a design sprint on one question to 3–6 weeks for a whole product area, and our AI discovery workshop takes 1 to 2 weeks.
 
 ### Who should be involved in discovery?
 
