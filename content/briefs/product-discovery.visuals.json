@@ -1,0 +1,31 @@
+[
+  {
+    "marker": "<!-- visual: risk lens card. Four quadrants (value, usability, feasibility, viability), each with its question, its owner (PM, designer, engineering, PM) and its cheapest test, plus a thin outer ring labeled \"AI feature\" with one extra question per risk. Must not look like a pass/fail card. -->",
+    "markdown": "![Product discovery risk lens card with four quadrants for value, usability, feasibility and viability, each with its owner and cheapest test, and an outer AI feature ring](/blog/product-discovery/product-discovery-four-risks.svg \"The four product discovery risks, their owners and cheapest tests, with the AI feature ring\")"
+  },
+  {
+    "marker": "<!-- visual: diverge-converge stage strip. Five stages (frame, understand, map opportunities, test, decide) on a band that widens and narrows twice. Show only the width of the work per stage, not the outputs (the H3s name those). Must not look like the Design Council diamond. -->",
+    "markdown": "![Product discovery process stages on a band that widens and narrows twice, from frame to decide](/blog/product-discovery/product-discovery-process-stages.svg \"The five product discovery process stages, widening and narrowing twice\")"
+  },
+  {
+    "marker": "<!-- visual: dual-track loop. Two interlocking loops, discovery (frame, listen, test, decide) and delivery (plan, build, ship, measure), sharing one team in the middle. A \"validated\" gate passes ideas from the discovery loop into the backlog, and \"measure\" feeds new questions back into discovery. -->",
+    "markdown": "![Dual-track agile loop with a discovery loop and a delivery loop sharing one team, joined by a validated gate into the backlog](/blog/product-discovery/product-discovery-dual-track.svg \"Dual-track agile: the discovery loop and the delivery loop share one team\")"
+  },
+  {
+    "marker": "<!-- visual: AI readiness check grid. Five AI checks as rows (right tool, data readiness, model feasibility, evaluation, cost of a wrong answer). Columns: evidence that passes, who answers. Traffic-light cells show the maintenance-triage example. Do not plot value against risk (the hub image already does). -->",
+    "markdown": "![AI feature product discovery check grid with five rows for right tool, data readiness, model feasibility, evaluation and cost of a wrong answer, with the evidence that passes and who answers](/blog/product-discovery/ai-feature-discovery-checks.svg \"Five AI feature product discovery checks with passing evidence and owners\")"
+  },
+  {
+    "marker": "<!-- visual: 10-day timeline strip. Ten working days in five colored blocks (frame, listen, check risks, test, decide), each with its question and the one written output that closes it. A small \"AI only\" marker on days 6–7 for the data and model checks. -->",
+    "markdown": "![Two-week product discovery plan as a timeline of ten working days in five blocks, each with its question and written output](/blog/product-discovery/two-week-product-discovery-plan.svg \"A two-week product discovery plan: five blocks, one output each\")"
+  },
+  {
+    "marker": "<!-- visual: exit-gate checklist. A gate graphic with four risk lanes (value, usability, feasibility, viability) and one AI lane, 12 yes/no checks in total, and the rule \"unknown = no; a no goes back to a test\". Must not resemble a readout checklist card or a pass/fail acceptance card. -->",
+    "markdown": "![Product discovery exit gate with four risk lanes and one AI lane holding 12 yes or no checks before an idea enters the backlog](/blog/product-discovery/product-discovery-checklist.svg \"The product discovery exit gate: 12 checks in four risk lanes and one AI lane\")"
+  },
+  {
+    "frontmatter": {
+      "image": "/blog/product-discovery/cover.svg"
+    }
+  }
+]

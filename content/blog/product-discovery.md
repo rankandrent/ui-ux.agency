@@ -7,6 +7,7 @@ updated: 2026-10-15
 contributors: [umar-sarwar]
 author: ahmad-ullah
 type: Guide
+image: /blog/product-discovery/cover.svg
 services: [ai-product-discovery-workshop]
 industries: []
 tags: [product discovery, product discovery process, product discovery phase, product discovery process in agile, how to do product discovery]
@@ -57,7 +58,6 @@ SVPG assigns owners too: the product manager (PM) owns value and viability risk,
 
 The card below compares the 4 risks by question, cheapest test and what shifts when the feature uses AI.
 
-<!-- visual: risk lens card. Four quadrants (value, usability, feasibility, viability), each with its question, its owner (PM, designer, engineering, PM) and its cheapest test, plus a thin outer ring labeled "AI feature" with one extra question per risk. Must not look like a pass/fail card. -->
 ![Product discovery risk lens card with four quadrants for value, usability, feasibility and viability, each with its owner and cheapest test, and an outer AI feature ring](/blog/product-discovery/product-discovery-four-risks.svg "The four product discovery risks, their owners and cheapest tests, with the AI feature ring")
 
 <details class="astext"><summary>Show as text</summary>
@@ -81,7 +81,6 @@ Which risk goes first? The one that would kill the idea, so put an owner's name 
 
 The stages echo the Double Diamond, which the UK's Design Council launched in 2004 with 4 phases: discover, define, develop and deliver. Discovery work covers the first diamond and the early part of develop. The strip below shows where the work widens and narrows.
 
-<!-- visual: diverge-converge stage strip. Five stages (frame, understand, map opportunities, test, decide) on a band that widens and narrows twice. Show only the width of the work per stage, not the outputs (the H3s name those). Must not look like the Design Council diamond. -->
 ![Product discovery process stages on a band that widens and narrows twice, from frame to decide](/blog/product-discovery/product-discovery-process-stages.svg "The five product discovery process stages, widening and narrowing twice")
 
 <details class="astext"><summary>Show as text</summary>
@@ -122,13 +121,13 @@ None of these stages waits for a sprint boundary, so the next question is how th
 
 Many agile teams call this dual-track agile. Jeff Patton, who credits Desirée Sy with an early version, describes two kinds of work done by one team: "dual track, not duel track". Discovery and delivery need the same people, or the learning stays with whoever ran the interviews.
 
-<!-- visual: dual-track loop. Two interlocking loops, discovery (frame, listen, test, decide) and delivery (plan, build, ship, measure), sharing one team in the middle. A "validated" gate passes ideas from the discovery loop into the backlog, and "measure" feeds new questions back into discovery. -->
 ![Dual-track agile loop with a discovery loop and a delivery loop sharing one team, joined by a validated gate into the backlog](/blog/product-discovery/product-discovery-dual-track.svg "Dual-track agile: the discovery loop and the delivery loop share one team")
 
 <details class="astext"><summary>Show as text</summary>
 
 - **Discovery loop:** frame, listen, test, decide.
 - **Delivery loop:** plan, build, ship, measure.
+- **Team:** one team runs both loops.
 - **Gate:** only validated ideas enter the backlog.
 - **Feedback:** measure sends new questions back.
 
@@ -196,7 +195,6 @@ Map who a wrong answer harms and how the user catches and corrects it, because t
 
 You can test value before any model exists. A Wizard of Oz prototype puts a person behind the interface to write the AI's answers, so 5 users can react while engineering runs the spike. The grid below lists the evidence that passes each check and who answers it.
 
-<!-- visual: AI readiness check grid. Five AI checks as rows (right tool, data readiness, model feasibility, evaluation, cost of a wrong answer). Columns: evidence that passes, who answers. Traffic-light cells show the maintenance-triage example. Do not plot value against risk (the hub image already does). -->
 ![AI feature product discovery check grid with five rows for right tool, data readiness, model feasibility, evaluation and cost of a wrong answer, with the evidence that passes and who answers](/blog/product-discovery/ai-feature-discovery-checks.svg "Five AI feature product discovery checks with passing evidence and owners")
 
 <details class="astext"><summary>Show as text</summary>
@@ -221,7 +219,6 @@ This is the part most teams skip. Our AI product discovery workshop runs these c
 
 If you're asking how to do product discovery with a small team, start with the decision you need, not the method. Here's the plan I use, labeled by the question each block answers.
 
-<!-- visual: 10-day timeline strip. Ten working days in five colored blocks (frame, listen, check risks, test, decide), each with its question and the one written output that closes it. A small "AI only" marker on days 6–7 for the data and model checks. -->
 ![Two-week product discovery plan as a timeline of ten working days in five blocks, each with its question and written output](/blog/product-discovery/two-week-product-discovery-plan.svg "A two-week product discovery plan: five blocks, one output each")
 
 <details class="astext"><summary>Show as text</summary>
@@ -270,7 +267,6 @@ Two real projects show the same habit. Before designing [the Digno performance p
 
 Two rules make the gate work. An unknown counts as a no, and a no sends the idea back to a test, not to the trash. The AI lane applies only when the feature uses a model.
 
-<!-- visual: exit-gate checklist. A gate graphic with four risk lanes (value, usability, feasibility, viability) and one AI lane, 12 yes/no checks in total, and the rule "unknown = no; a no goes back to a test". Must not resemble a readout checklist card or a pass/fail acceptance card. -->
 ![Product discovery exit gate with four risk lanes and one AI lane holding 12 yes or no checks before an idea enters the backlog](/blog/product-discovery/product-discovery-checklist.svg "The product discovery exit gate: 12 checks in four risk lanes and one AI lane")
 
 <details class="astext"><summary>Show as text</summary>
@@ -280,6 +276,7 @@ Two rules make the gate work. An unknown counts as a no, and a no sends the idea
 - **Feasibility:** 6. An engineering spike done, with known unknowns listed.
 - **Viability:** 7. Cost and pricing impact estimated. 8. Legal and privacy review done (CCPA/CPRA, plus HIPAA for health data).
 - **AI only:** 9. Data exists, is accessible and is permitted. 10. Evaluation criteria and the precision vs recall choice written. 11. Wrong-answer harm mapped, with a correction path. 12. Cost per call within budget.
+- **Rule:** unknown = no; a no goes back to a test. Only ideas that pass enter the delivery backlog.
 
 </details>
 
