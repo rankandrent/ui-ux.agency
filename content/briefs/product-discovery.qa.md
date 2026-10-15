@@ -87,3 +87,42 @@ No open gaps remain after the applied fixes. Lessons for the writer, designer, l
 4. Completeness gaps (Jira sentence, continuous fit, wrong-answer example) → F8, F9, F11.
 
 VERDICT: PASS
+
+---
+
+# QA re-check: product-discovery (loop 2, 2026-10-15)
+
+Scope: the fact-checker's F1–F21 fixes (as merged per the notes above), the new description and the closing CTA. I diffed the post against the loop-1 verified copy (20 changed lines). The scratch build used a fresh copy with hard-linked `node_modules` and `draft: false`, so the shared `out/` was not touched.
+
+## Gate results (after the L2-F1 fix)
+
+| Gate | Result |
+|---|---|
+| `SHOW_DRAFTS=1 npm run build` | 0 errors |
+| `npm run seo:check` | 0 errors, 0 warnings. The feed validator gives 1 expected error, `qa is "pending"`, and 0 errors with `qa: pass` set in the scratch copy. The orchestrator sets `qa:`. |
+| `npm run lint` | 0 errors (the same pre-existing warning in scripts/onpage-audit.mjs) |
+| `npm run onpage -- /blog/product-discovery/` | **100, failed: none** |
+| `node scripts/semantic-score.mjs product-discovery` | **100/100**. Facts are still 1.2 per 100 words. |
+
+## Re-check items
+
+| Item | Result | Notes |
+|---|---|---|
+| Structure / layout-aware | FIX → fixed | The 12 H2s, the bold-answer-first order, and every image + `<details class="astext">` pair are unchanged. Each table still has an intro `<p>` and a caption. One break: facts F16 was inserted after the two-week plan's lead-in sentence, so the lead-in no longer sat above the figure (L2-F1). |
+| Bold answers | PASS | 11 bold answers. All are one sentence of 18–30 words. The new H2 bold ("In our services, a timeboxed discovery phase runs from a 5-day sprint to 3–6 weeks…") is 26 words and matches L166 and FAQ 2. |
+| New contradictions | PASS | Takeaway 4 ("first discovery round") and the NN/g caveat ("a first round on one decision, not … a whole product area") agree. "Run the 8-check exit gate", used in the description and the closing, matches the gate H2 (8 checks + 4 AI). L220 now limits the workshop claim to its own ranking criteria (facts #39), so it no longer says the workshop runs all five checks. "About 2 hours a day" is now consistent across L240, L299, L309, L311 and FAQ 3. |
+| US spelling | PASS | seo:check US English ✓. A manual grep for UK forms found none. |
+| Keyword cap | PASS | 32 open-text uses of "product discovery" in about 3,690 open words, which is within 1–2% (RULES L185). Title 66, metaTitle 56, description 156 (built meta matches). The description ends on a next step. |
+| Links | PASS | Internal: 6, unchanged (hub ×2 incl. the price fragment, which still exists; design sprint; Digno; Vocable; AI products), and all targets are built. New external links: Patton (jpattonassociates.com/dual-track-development/), Torres (producttalk.org/glossary-discovery-continuous-discovery/) and NN/g (nngroup.com/articles/discoveries-in-industry-revealed/). All 3 render in the built HTML. The built page has no `<!--` source comments, only React markers. |
+| Completeness / unfinished text | PASS | No TODO/TBD. Every changed paragraph is complete, and no paragraph has more than 4 sentences. |
+
+## FIX applied (exact, in the repo and verified in scratch)
+
+- L2-F1, L226: `Here's the plan I use, labeled by the question each block answers. NN/g argues that [two weeks is too short](…) unless users are easy to access and the problem space is relatively small, so I use this timebox for a first round on one decision, not for a whole product area.` → `NN/g argues that [two weeks is too short](…) unless users are easy to access and the problem space is relatively small, so I use this timebox for a first round on one decision, not for a whole product area. Here's the plan I use, labeled by the question each block answers.` (The lead-in sits directly above the plan image again.)
+
+## Notes (not failures)
+
+- The hub's ranking criteria "user value, data readiness, cost and risk of wrong answers" now appear word for word 3 times (L34, L220, L311). Optional trim at L311: `The team ranks use cases by user value, data readiness, cost and risk of wrong answers, then tests the top concept with 5 users.` → `The team ranks use cases on those four criteria, then tests the top concept with 5 users.` I left it unapplied so the fact-checked wording stays intact. Lesson filed for the writer.
+- Orchestrator items from loop 1 (backlinks from the hub/pillar, the TOFU CTA asset name, `&#39;` in FAQ JSON-LD) are still open.
+
+VERDICT: PASS

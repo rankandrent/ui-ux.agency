@@ -223,7 +223,7 @@ This is the part most teams skip. Our AI discovery workshop scores each AI use c
 
 **To do product discovery in two weeks, split 10 days of work into five blocks (frame, listen, check risks, test and decide) and close each with one written output.**
 
-If you're asking how to do product discovery with a small team, start with the decision you need, not the method. Here's the plan I use, labeled by the question each block answers. NN/g argues that [two weeks is too short](https://www.nngroup.com/articles/discoveries-in-industry-revealed/) unless users are easy to access and the problem space is relatively small, so I use this timebox for a first round on one decision, not for a whole product area.
+If you're asking how to do product discovery with a small team, start with the decision you need, not the method. NN/g argues that [two weeks is too short](https://www.nngroup.com/articles/discoveries-in-industry-revealed/) unless users are easy to access and the problem space is relatively small, so I use this timebox for a first round on one decision, not for a whole product area. Here's the plan I use, labeled by the question each block answers.
 
 ![Two-week product discovery plan as a timeline of ten working days in five blocks, each with its question and written output](/blog/product-discovery/two-week-product-discovery-plan.svg "A two-week product discovery plan: five blocks, one output each")
 
@@ -308,7 +308,7 @@ A design partner fits these:
 
 The cost of discovery differs by route. In-house, you pay in the trio's time away from delivery; with a partner, you pay a fee plus about 2 hours a day from your leads.
 
-Our workshop runs 1 to 2 weeks with your product, engineering and business leads for about 2 hours a day. The team ranks use cases by user value, data readiness, cost and risk of wrong answers, then tests the top concept with 5 users. You get 5 deliverables: a task map, a ranked use case list, a tested concept, a risk register and a scoped plan. Here's [what a facilitated AI discovery workshop costs](/services/ai-products/ai-product-discovery-workshop/#how-much-does-an-ai-product-discovery-workshop-cost): $8,000–$20,000.
+Our workshop runs 1 to 2 weeks with your product, engineering and business leads for about 2 hours a day. The team ranks use cases on those four criteria, then tests the top concept with 5 users. You get 5 deliverables: a task map, a ranked use case list, a tested concept, a risk register and a scoped plan. Here's [what a facilitated AI discovery workshop costs](/services/ai-products/ai-product-discovery-workshop/#how-much-does-an-ai-product-discovery-workshop-cost): $8,000–$20,000.
 
 You own the plan afterward, and some teams take it to their own team. When the decision is "build", the work moves into [AI product design](/services/ai-products/).
 
