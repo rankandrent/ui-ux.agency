@@ -326,6 +326,44 @@
       "visuals": 6,
       "example": "scheduling tool worked example; Slack 2,000 messages; Userpilot 2024 benchmark",
       "date": "2026-10-13"
+    },
+    {
+      "slug": "product-discovery",
+      "hub": "ai-product-discovery-workshop",
+      "type": "Guide",
+      "funnel": "tofu",
+      "introStyle": "kill-list decision log (hypothetical US property-management SaaS)",
+      "h2Frames": [
+        "definition",
+        "four risks",
+        "process stages",
+        "agile dual track",
+        "phase length",
+        "AI-feature checks",
+        "two-week plan",
+        "worked AI example",
+        "exit-gate checklist",
+        "in-house vs partner",
+        "bottom line",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "What is product discovery?",
+        "Which four risks does product discovery test?",
+        "What are the stages of the product discovery process?",
+        "How does product discovery work in agile?",
+        "How long should a product discovery phase last?",
+        "What changes in product discovery for AI features?",
+        "How do you do product discovery in two weeks?",
+        "Product discovery example: one AI idea, request to decision",
+        "What goes on a product discovery checklist?",
+        "Should you run product discovery in-house or with a partner?",
+        "Bottom line",
+        "FAQs"
+      ],
+      "visuals": 6,
+      "example": "hypothetical property-management SaaS: auto-replies killed, lease summaries parked, maintenance triage built",
+      "date": "2026-10-15"
     }
   ]
 }

@@ -19,8 +19,8 @@ takeaways:
   - "An AI feature adds five checks: right tool, data readiness, model feasibility, evaluation and the cost of a wrong answer."
   - "I timebox a first discovery round to 2 weeks: five blocks, each closed by one written output."
   - "After a discovery phase, an idea enters the delivery backlog only through an exit gate of 8 checks, plus 4 for AI, and an unknown counts as a no."
-draft: true
-qa: pending
+draft: false
+qa: pass
 ---
 
 Product discovery is deciding what to build before you build it, and a good round ends with a log like this one. Say a US property-management software as a service (SaaS) company gets a board request for artificial intelligence (AI) and spends 2 weeks testing three ideas:
@@ -153,7 +153,7 @@ For Scrum teams, I keep the discovery track on its own light board. A backlog it
 
 ## How long should a product discovery phase last?
 
-**In our services, a timeboxed discovery phase runs from a 5-day sprint to 3–6 weeks and hands over to continuous discovery once the team ships weekly.**
+**A timeboxed discovery phase runs from a 5-day sprint on one question to several weeks for a whole product area, then hands over to continuous discovery.**
 
 A phase makes sense in three situations:
 
@@ -328,7 +328,7 @@ Discovery decides what to build and tests whether it is worth building, while de
 
 ### How long does discovery take?
 
-Continuous discovery never ends, because it is a weekly habit. In our own services, a timeboxed phase runs from 5 days for a design sprint on one question to 3–6 weeks for a whole product area, and our AI discovery workshop takes 1 to 2 weeks.
+Continuous discovery never ends, because it is a weekly habit. A timeboxed phase runs from a 5-day design sprint on one question to several weeks for a whole product area, and our AI discovery workshop takes 1 to 2 weeks.
 
 ### Who should be involved in discovery?
 
