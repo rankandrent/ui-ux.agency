@@ -1,0 +1,433 @@
+{
+  "slug": "product-discovery",
+  "keyword": "product discovery",
+  "secondary": [
+    "product discovery definition",
+    "product discovery process in agile",
+    "product discovery phase",
+    "how to do product discovery",
+    "product discovery process",
+    "what is product discovery",
+    "continuous product discovery",
+    "product discovery framework"
+  ],
+  "intent": "Informational, with a commercial-investigation edge. Founders and product teams (PM, design lead, tech lead) at US AI and SaaS startups who want to know what product discovery is, how it runs inside agile delivery, and how to do it themselves, often because an AI feature is on the roadmap. The SERP is definitions, glossaries and process guides (SVPG, Atlassian, Product Talk, Productboard, ProductPlan, Product School, Amplitude, Maze, airfocus), so the reader is learning and planning, not hiring yet. Not job seekers: no career, interview-question or PM-certification angle.",
+  "volume": 1300,
+  "kd": 0,
+  "trafficPotential": 800,
+  "dataSource": "Ahrefs US (orchestrator-supplied; raw data in docs/content-system/warehouse/2026-10-14-terms-product-discovery.json and 2026-10-14-serp-product-discovery.json), pulled 2026-10-14. Semrush deliberately not called (no API units, per the orchestrator). Secondary volumes/KD/TP (same Ahrefs pull): product discovery definition 90 / KD 0 / TP 350; product discovery process in agile 70 / KD 4 / TP 1,600; product discovery phase 100 / KD 0 / TP 600; how to do product discovery 70 / KD 0 / TP 150; product discovery process 300 / KD 3; what is product discovery 200 / KD 8; continuous product discovery 150 / KD 0; product discovery framework 150 / KD 3. SERP study: WebFetch failed with ENOTFOUND on atlassian.com, svpg.com, producttalk.org, productboard.com and productplan.com, so page coverage comes from WebSearch snippets (2026-10-15). No GSC export exists (docs/data/gsc/latest.json missing).",
+  "dataSourceDate": "2026-10-15",
+  "score": 108.1,
+  "expectedMonthlyTraffic": 480,
+  "opportunity": "docs/content-system/blog-opportunities.json, topic 'product discovery' (score 108.1, expected traffic 480) merged with topic 'product discovery process' (score 101.6, main 'product discovery phase', expected traffic 180), as the orchestrator instructed, because both share intent.",
+  "hub": "ai-product-discovery-workshop",
+  "hubUrl": "/services/ai-products/ai-product-discovery-workshop/",
+  "pillar": "ai-products",
+  "services": ["ai-product-discovery-workshop"],
+  "industries": [],
+  "author": "ahmad-ullah",
+  "authorWhy": "Ahmad Ullah is the Principal UX Designer (content/home.ts team list; content/authors.json bios are empty). Product discovery is research-led work: interviews, problem framing and assumption tests. That matches a principal UX role better than the other authors. Faizan Khan (Sr. Product Designer) wrote the last post (saas-onboarding, 2026-10-13), so rotation also favors Ahmad. Rejected: Sahar Asif (Senior Manager UX | KAM) would suit a later BOFU post in this silo about scoping or buying a discovery engagement. Talha Saleem and Saliha Shahzad are UI-focused roles.",
+  "funnel": "tofu",
+  "funnelWhy": "Every page-1 result is a definition, glossary or process guide (SVPG, Atlassian, Product Talk, Productboard, ProductPlan, Product School, Amplitude, Maze, airfocus, NN/g). Per the 2026-10-06 lesson, the dominant page type sets the stage, and that page type is TOFU here, not MOFU (no approach-comparison pages) and not BOFU (no vendor or price pages). funnel.json says a new silo starts with 1 BOFU + 1 MOFU. This silo has 0 posts, so this post breaks that rule, because the orchestrator chose the topic by opportunity score (the highest-volume keyword in the silo). Two things lift it toward MOFU: the AI-feature section and the in-house vs design-partner section. Next post in this silo should be BOFU (e.g., 'product discovery workshop' agenda/cost or 'ai use case prioritization'; see rejectedCandidates).",
+  "serviceSupport": 3,
+  "serviceSupportWhy": "Many 'product discovery' searchers are PMs learning a practice they will run themselves, which caps support at 3 (the TOFU minimum is met). The brief raises it for the audience that matters. The AI-feature section (data readiness, model feasibility, evaluation, cost of a wrong answer) and the timeboxed two-week plan describe exactly the work the hub sells. The in-house vs design-partner H2 routes founders without a designer or researcher, or with a board deadline for an AI feature, to the hub.",
+  "title": "Product discovery: a practical guide for AI and SaaS product teams",
+  "metaTitle": "Product Discovery: Process, Examples and an AI Checklist",
+  "metaDescription": "Product discovery explained: the definition, the process in agile, how to timebox it in 2 weeks and what changes for AI features. Get the free checklist.",
+  "centralEntity": "product discovery",
+  "sourceContext": "ui-ux.agency (the design team of tkxel, Reston, VA) explains product discovery from the seat of a design partner that runs AI product discovery workshops for US AI and SaaS startups. The post teaches the practice so a team can run it alone, and shows where the AI-specific checks and a facilitated, timeboxed workshop help.",
+  "entities": [
+    "product discovery",
+    "product delivery",
+    "continuous discovery",
+    "product trio (product manager, designer, tech lead)",
+    "Marty Cagan / Silicon Valley Product Group (SVPG)",
+    "four big risks (value, usability, feasibility, business viability)",
+    "Teresa Torres / Continuous Discovery Habits",
+    "opportunity solution tree",
+    "assumption testing",
+    "dual-track agile (Jeff Patton)",
+    "Double Diamond (Design Council)",
+    "Nielsen Norman Group (NN/g)",
+    "problem statement",
+    "customer interviews",
+    "prototype",
+    "product backlog",
+    "AI use case",
+    "data readiness",
+    "model feasibility",
+    "AI evaluation (success criteria, precision and recall)",
+    "Google People + AI Guidebook (PAIR)",
+    "NIST AI Risk Management Framework (AI RMF)",
+    "Wizard of Oz prototype",
+    "Jira Product Discovery",
+    "design sprint"
+  ],
+  "attributes": [
+    "definition (what to build vs how to build it)",
+    "risks tested (value, usability, feasibility, viability)",
+    "cadence (continuous weekly vs timeboxed phase)",
+    "duration (days or weeks)",
+    "participants (product trio, stakeholders, users)",
+    "number of users interviewed and tested",
+    "stages of the process",
+    "outputs / exit criteria",
+    "AI data readiness (exists, accessible, permitted, labeled)",
+    "AI evaluation criteria (what counts as a good answer)",
+    "cost of a wrong answer",
+    "cost of discovery (in-house time vs partner fee)"
+  ],
+  "ngrams": [
+    "product discovery",
+    "product discovery process",
+    "product discovery phase",
+    "product discovery process in agile",
+    "how to do product discovery",
+    "product discovery definition",
+    "continuous discovery",
+    "discovery and delivery",
+    "product trio",
+    "four big risks",
+    "opportunity solution tree",
+    "assumption testing",
+    "dual-track agile",
+    "data readiness",
+    "AI use case",
+    "product discovery checklist"
+  ],
+  "eav": [
+    { "attribute": "definition", "value": "the work a product team does to decide what to build; product delivery is the work of building and shipping it", "source": "https://www.producttalk.org/glossary-discovery-product-discovery/" },
+    { "attribute": "definition (UX design view)", "value": "a preliminary phase that researches the problem space, frames the problem to solve and gathers enough evidence and initial direction to decide what to do next", "source": "https://www.nngroup.com/articles/discovery-phase/" },
+    { "attribute": "risks tested", "value": "4 risks: value (will customers buy or choose to use it), usability (can users figure it out), feasibility (can engineering build it with the time, skills and technology available), business viability (does it work for the rest of the business)", "source": "https://svpg.com/four-big-risks/" },
+    { "attribute": "risk ownership", "value": "the product manager owns value and viability risk, the product designer owns usability risk, and engineering judges feasibility", "source": "https://svpg.com/four-big-risks/" },
+    { "attribute": "continuous cadence", "value": "at a minimum, weekly touchpoints with customers, by the team that builds the product", "source": "https://www.producttalk.org/glossary-discovery-product-discovery/ (Teresa Torres, Continuous Discovery Habits); fact-checker: confirm wording on producttalk.org" },
+    { "attribute": "structure", "value": "opportunity solution tree: desired outcome at the top, then customer opportunities, then solutions, then assumption tests", "source": "https://www.producttalk.org/glossary-discovery-product-discovery/" },
+    { "attribute": "participants", "value": "product trio: product manager, designer and tech lead, working together rather than handing off", "source": "https://www.producttalk.org/glossary-discovery-product-discovery/" },
+    { "attribute": "place in agile (dual track)", "value": "discovery and delivery are two kinds of work run in parallel by the same team, not by separate teams ('dual track, not duel track')", "source": "https://jpattonassociates.com/dual-track-development/" },
+    { "attribute": "stages (design model)", "value": "Double Diamond, 4 phases: discover, define, develop, deliver; launched by the Design Council in 2004; discovery is the first diamond", "source": "https://www.designcouncil.org.uk/resources/the-double-diamond/" },
+    { "attribute": "outputs", "value": "a problem statement, journey maps or service blueprints, user-needs statements and high-level concepts or wireframes", "source": "https://www.nngroup.com/articles/discovery-phase/" },
+    { "attribute": "duration (phase vs sprint)", "value": "a design sprint answers one question in 5 days; a full discovery phase explores a product area over 3–6 weeks with 10–20 interviews plus a data review", "source": "content/services/design-sprint.json (table 'Design sprint vs a full discovery phase')" },
+    { "attribute": "duration and cost (AI discovery workshop)", "value": "1 to 2 weeks (5 to 10 working days), $8,000–$20,000", "source": "content/services/ai-product-discovery-workshop.json (process and cost H2s)" },
+    { "attribute": "AI use case scoring criteria", "value": "user value, data readiness, cost and risk of wrong answers", "source": "content/services/ai-product-discovery-workshop.json (step 'Use case ranking')" },
+    { "attribute": "users involved (AI discovery workshop)", "value": "4 to 6 users interviewed for task mapping; 5 users test the concept", "source": "content/services/ai-product-discovery-workshop.json (process steps)" },
+    { "attribute": "AI project abandonment", "value": "Gartner predicted at least 30% of generative AI projects would be abandoned after proof of concept by the end of 2025, due to poor data quality, inadequate risk controls, escalating costs or unclear business value (July 29, 2024)", "source": "https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025" },
+    { "attribute": "AI data readiness", "value": "Gartner predicts that through 2026 organizations will abandon 60% of AI projects unsupported by AI-ready data (survey of 1,203 data management leaders, July 2024; release February 26, 2025)", "source": "https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk" },
+    { "attribute": "AI failure root causes", "value": "5 root causes: the problem is misunderstood or miscommunicated, not enough data to train an effective model, focus on the latest technology over real user problems, inadequate data and deployment infrastructure, problems too difficult for AI", "source": "https://www.rand.org/pubs/research_reports/RRA2680-1.html (RAND, 2024)" },
+    { "attribute": "AI data needs", "value": "translate user needs into data needs, then judge the data on predictive power, relevance, fairness, privacy and security", "source": "https://pair.withgoogle.com/chapter/People%20+%20AI%20Guidebook%20-%20Data%20Collection%20+%20Evaluation.pdf" },
+    { "attribute": "AI success criteria", "value": "agree how to measure whether the feature works, weigh second-order effects, and choose the precision vs recall trade-off for the user experience", "source": "https://codelabs.developers.google.com/codelabs/pair-guidebook (People + AI Guidebook, 'User Needs + Defining Success')" },
+    { "attribute": "AI go/no-go (unique angle)", "value": "NIST AI RMF 'Map' function: after mapping context and impacts, a team should know enough to make an initial go/no-go decision on the AI system", "source": "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf (NIST AI 100-1, AI RMF 1.0)" }
+  ],
+  "skipgrams": [
+    ["discovery", "delivery"],
+    ["product trio", "weekly"],
+    ["value", "feasibility"],
+    ["usability", "viability"],
+    ["assumptions", "test"],
+    ["opportunity", "solution"],
+    ["outcome", "opportunities"],
+    ["prototype", "users"],
+    ["customer interviews", "problem"],
+    ["agile", "dual-track"],
+    ["backlog", "validated"],
+    ["data readiness", "use case"],
+    ["model", "evaluation"],
+    ["discovery phase", "development"]
+  ],
+  "lexical": {
+    "synonyms": ["discovery work", "discovery phase", "product discovery process", "problem discovery", "the discovery track", "deciding what to build"],
+    "hypernyms": ["product management", "product development", "user-centered design", "product strategy", "UX research"],
+    "hyponyms": ["continuous discovery", "AI product discovery", "B2B SaaS product discovery", "discovery sprint", "timeboxed discovery phase", "new product discovery"],
+    "meronyms": ["customer interviews", "problem statement", "opportunity solution tree", "assumption test", "prototype test", "data audit", "feasibility spike", "decision memo"]
+  },
+  "keywordCarrier": {
+    "primary": "Plain noun phrase, no carrier needed. Use it as a subject ('Product discovery decides…') or object ('run product discovery'). Put the keyword in the metaTitle, the description (first words), the first meta keyword, the H1 and the first 60 words.",
+    "density": "Word share, as QA measures it: max uses = 0.02 × body words ÷ 2. For a 2,600-word body that is at most 26 uses, variants included. Aim for 16–22, mostly in bold answers and section openers. Vary with the lexical relations ('discovery work', 'the discovery track'). Do not count alt text.",
+    "secondary": {
+      "product discovery definition": "Never stack it. Use: 'The product discovery definition I use with founders fits on one line: …' (H2 1 only).",
+      "product discovery process in agile": "Use as a full noun phrase with an article: 'The product discovery process in agile runs beside delivery, not before it.' (H2 4 opener). Never 'product discovery process in agile steps'.",
+      "how to do product discovery": "Carried by H2 7 ('How do you do product discovery in two weeks?') and once in prose: 'If you are asking how to do product discovery with a small team, start with the question, not the method.'",
+      "product discovery phase": "Noun phrase with an article: 'a timeboxed product discovery phase'. It is the subject of H2 5.",
+      "product discovery checklist": "Use only as 'the product discovery checklist below' or 'a product discovery checklist'. It is H2 9 and the TOFU lead magnet name."
+    },
+    "metaTitle": "Product Discovery: Process, Examples and an AI Checklist (56 chars)",
+    "h1": "Product discovery: a practical guide for AI and SaaS product teams (66 chars)",
+    "description": "Use as written (153 chars, keyword first, TOFU next step = the free checklist; 'it' refers to product discovery): 'Product discovery explained: the definition, the process in agile, how to timebox it in 2 weeks and what changes for AI features. Get the free checklist.'",
+    "metaKeywords": ["product discovery", "product discovery process", "product discovery phase", "product discovery process in agile", "how to do product discovery"]
+  },
+  "questions": [
+    "What is product discovery?",
+    "What is the difference between product discovery and product delivery?",
+    "What are the stages of product discovery?",
+    "How does the product discovery process work in agile?",
+    "What are the four risks product discovery tests?",
+    "How long should a product discovery phase take?",
+    "How do you do product discovery with a small team?",
+    "What changes in product discovery for AI features?",
+    "How do you check data readiness for an AI feature?",
+    "Who should be involved in product discovery?",
+    "What is the difference between Jira and Jira Product Discovery?",
+    "Should a startup run product discovery in-house or with a design partner?"
+  ],
+  "serpGaps": [
+    "No top result treats AI features as a discovery case. The guides (Atlassian, Productboard, ProductPlan, Product School, Maze) teach generic interviews, prototypes and prioritization. None adds the checks an AI feature needs before design: is AI the right tool at all, data readiness, a model feasibility spike, evaluation criteria and the cost of a wrong answer. Only thin agency/service pages (zignuts, smartdev, lexogrine) mention 'AI product discovery', and they sell rather than teach.",
+    "Cagan's four big risks are explained everywhere, but nobody maps them onto AI. Value, usability, feasibility and viability each change for an AI feature: users must trust an answer that varies; feasibility depends on data and model quality, not only engineering effort; viability includes cost per call and US privacy rules (CCPA/CPRA, HIPAA for health data).",
+    "Continuous discovery (Torres, weekly touchpoints) and the timeboxed 'discovery phase' (agency pages) appear as rival camps on different pages. No result tells a seed-stage founder when each fits, or how a first timeboxed phase hands over to a weekly habit.",
+    "No guide gives a day-by-day timeboxed plan with an output per block. Productboard and Atlassian describe stages without durations. Design-sprint pages give 5 days but answer only one question.",
+    "Examples are thin or tool-promotional (Jira Product Discovery, Zeda.io on Product Hunt). No result walks one AI feature idea from 'the board wants AI' to a build/change/stop decision.",
+    "No result offers an exit gate: what must be true before delivery starts. A checklist template is the TOFU lead magnet the SERP lacks.",
+    "No result covers who should run discovery (product trio in-house vs a design partner) for a startup that has no researcher or designer yet. The AI overview's 'I asked 40 product leaders' (Ant Murphy, Medium) shows definitions vary, but nobody turns that into a buying decision."
+  ],
+  "contentModules": {
+    "title": "Product discovery: a practical guide for AI and SaaS product teams",
+    "subtitle": "What it is, how it runs beside agile delivery, a two-week plan you can run yourself, and the extra checks an AI feature needs.",
+    "intro": "Artefact intro: a short 'kill list' decision log from a hypothetical US SaaS team (see variety.introStyle), then the author's one-line point of view and the definition within the first 60 words.",
+    "dataModules": [
+      { "type": "comparison table", "h2": "How does the product discovery process work in agile?", "what": "Discovery track vs delivery track: question answered, output, cadence, who, done when." },
+      { "type": "risk table", "h2": "Which four risks does product discovery test?", "what": "Risk → question → cheapest test → what changes for an AI feature (4 rows)." },
+      { "type": "check grid", "h2": "What changes in product discovery for AI features?", "what": "5 AI checks × what to ask × evidence that passes, with US privacy frame." },
+      { "type": "step list (timeline)", "h2": "How do you do product discovery in two weeks?", "what": "10 working days in 5 blocks, each with its question and its output." },
+      { "type": "checklist", "h2": "What belongs on a product discovery checklist before you build?", "what": "12-item exit gate grouped by risk; the TOFU lead magnet." }
+    ]
+  },
+  "outline": [
+    {
+      "h2": "What is product discovery?",
+      "answerHint": "**Product discovery is the work a product team does to decide what to build, and why, before it commits engineering time to building it.** (≤30 words)",
+      "points": [
+        "Carry the 'product discovery definition' secondary here (see carrier). Give Product Talk's discovery vs delivery split and NN/g's 'problem space, frame the problem, gather evidence' view, both cited, in our own words.",
+        "Discovery is not a requirements document, a roadmap workshop or a research report. Its output is a decision backed by evidence.",
+        "Name the two forms the reader will meet: continuous discovery (a weekly habit) and a timeboxed product discovery phase (a project at the start). H2 5 resolves them.",
+        "One line on disambiguation: in ecommerce, 'product discovery' means how shoppers find products (search, recommendations). This guide is about building software products.",
+        "Bridge: 'If discovery is about deciding, the next question is what you are deciding about: four risks.'"
+      ]
+    },
+    {
+      "h2": "Which four risks does product discovery test?",
+      "answerHint": "**Product discovery tests four risks before delivery: value (will people use or buy it), usability (can they figure it out), feasibility (can you build it) and business viability (does it work for the business).**",
+      "points": [
+        "Credit Marty Cagan / SVPG ('The Four Big Risks'). Say who owns each per SVPG: PM for value and viability, designer for usability, engineering for feasibility.",
+        "Introduce the table in one sentence, then the 'Table:' caption line. Columns: risk, the question, the cheapest test (interviews, prototype test, engineering spike, stakeholder review), and a column 'for an AI feature' that previews H2 6 in one short cell per row.",
+        "Note in one sentence that IDEO-style models merge value and usability into 'desirability', and that SVPG keeps them apart for business products. That is why B2B SaaS teams should test both.",
+        "Visual: risk lens card (visuals[1]).",
+        "Bridge to the process: which order to test them in."
+      ]
+    },
+    {
+      "h2": "What are the stages of the product discovery process?",
+      "answerHint": "**The product discovery process moves through five stages: frame the outcome, understand users, map opportunities, test solutions against the riskiest assumptions, and decide.**",
+      "points": [
+        "Answers the PAA 'What are the stages of product discovery?'. Use H3s for the five stages, with one output named per stage (outcome statement, interview notes and journey map, opportunity map, test results, decision memo).",
+        "Tie in the Double Diamond (Design Council, 2004): discovery covers the first diamond (discover, define) and the early develop phase. Cite it; do not redraw the diamond as the main visual.",
+        "Teresa Torres' opportunity solution tree as the map for stage 3 (outcome → opportunities → solutions → assumption tests). Explain it, cite producttalk.org, and do not reproduce her diagram.",
+        "Assumption testing: test the assumption that would kill the idea first, not the easiest one.",
+        "Visual: diverge-converge stage strip with the output under each stage (visuals[2]).",
+        "Bridge: 'These stages do not wait for a sprint boundary. Here is how they sit inside agile.'"
+      ]
+    },
+    {
+      "h2": "How does the product discovery process work in agile?",
+      "answerHint": "**The product discovery process in agile runs as a second track beside delivery: the same team explores and tests ideas while it ships validated work, and only validated ideas enter the backlog.**",
+      "points": [
+        "Carry 'product discovery process in agile' verbatim in the opener (see carrier).",
+        "Jeff Patton's dual track: two kinds of work, one team. Cite jpattonassociates.com ('dual track, not duel track'). Warn against splitting discovery and delivery into separate teams with separate backlogs.",
+        "Comparison table (intro sentence first): discovery track vs delivery track by question answered, typical output, cadence, who is involved, and 'done' signal.",
+        "Product trio (PM, designer, tech lead) and Torres' minimum cadence of weekly customer touchpoints (cite producttalk.org).",
+        "Practical hook for Scrum teams: discovery items get their own lightweight board, and a backlog item needs a validated assumption before sprint planning. Write this as advice, not as a rule from Scrum.",
+        "Visual: dual-track loop (visuals[0]).",
+        "Jira Product Discovery: one sentence, as a tool for capturing and scoring ideas, not the practice itself. Keep tool talk to this sentence and FAQ 5."
+      ]
+    },
+    {
+      "h2": "When does a timeboxed product discovery phase make sense, and how long should it last?",
+      "answerHint": "**A timeboxed product discovery phase makes sense at the start of something new, a new product, a big feature or a first AI feature; continuous discovery takes over once the team ships every week.**",
+      "points": [
+        "Resolve the 'continuous vs phase' split the SERP leaves open. Phase: new product, new market, first AI feature, board or investor deadline, no customer contact yet. Continuous: a live product with a trio that can talk to customers weekly.",
+        "Durations from site facts only: a design sprint answers one question in 5 days; a full discovery phase runs 3–6 weeks with 10–20 interviews; our AI discovery workshop runs 1 to 2 weeks. Link the design sprint hub once (the post's ONE cross-hub link) when naming the 5-day option.",
+        "Signs the phase is too long: the team keeps researching to avoid a decision. Signs it is too short: no user saw anything.",
+        "Hand-off: the phase ends by setting up the weekly habit (a standing interview slot), so discovery does not stop at the gate.",
+        "Do NOT repeat the design-sprint hub's comparison table. Use one sentence and the link."
+      ]
+    },
+    {
+      "h2": "What changes in product discovery for AI features?",
+      "answerHint": "**Product discovery for an AI feature adds five checks to the usual four risks: whether AI is the right tool at all, whether the data is ready, whether a model can do the task, how you will judge its answers, and what a wrong answer costs the user.**",
+      "points": [
+        "THE SERP GAP SECTION. Open with sourced stakes: Gartner (July 29, 2024) predicted at least 30% of generative AI projects would be abandoned after proof of concept by end-2025, due to poor data quality, inadequate risk controls, escalating costs or unclear business value. RAND's 2024 report names five root causes, and the first is a misunderstood problem. Both are discovery failures, not engineering failures.",
+        "H3 1, Is AI the right tool? Start from the user task; a rule, a filter or better search sometimes wins. People + AI Guidebook (Google PAIR), 'User Needs + Defining Success'.",
+        "H3 2, Data readiness: does the data exist, can you access it, are you allowed to use it (CCPA/CPRA; HIPAA for health data; customer contracts), is it labeled or labelable? Gartner (February 26, 2025): through 2026, organizations will abandon 60% of AI projects unsupported by AI-ready data. PAIR: translate user needs into data needs.",
+        "H3 3, Model feasibility spike: engineering runs real inputs through a candidate model before any interface work. Do not give a sample size as a rule. Value here means quality, latency and cost per call.",
+        "H3 4, Evaluation: write down what a good answer looks like before design starts, and choose the precision vs recall trade-off (PAIR). Example: a support-ticket triage model that misses urgent tickets (low recall) hurts more than one that over-flags them.",
+        "H3 5, Cost of a wrong answer: map who is harmed and how the user catches and corrects it. This feeds the guardrails. Cite the NIST AI RMF 'Map' function: after mapping, a team should be able to make an initial go/no-go decision.",
+        "Wizard of Oz prototype: a person fakes the AI's answers so you can test value before you build a model. Describe it as a method with no statistic.",
+        "Visual: AI readiness check grid (visuals[3]).",
+        "Soft pain CTA at the end (first UP link if not placed in H2 1): 'This is the part most teams skip. Our AI product discovery workshop runs these checks with your product, engineering and data leads.' Link the hub."
+      ]
+    },
+    {
+      "h2": "How do you do product discovery in two weeks?",
+      "answerHint": "**To do product discovery in two weeks, split 10 working days into five blocks, frame, listen, check risks, test and decide, and end each block with one written output.**",
+      "points": [
+        "Carry 'how to do product discovery' (see carrier). Write it as Ahmad's method in the first person ('I start by…'), with no invented anecdotes.",
+        "Ordered list (ol) of the 5 blocks. Days 1–2 frame: outcome, decision to make, existing evidence (analytics, support tickets, sales-call notes). Days 3–5 listen: customer interviews; on the hub we interview 4 to 6 users, so cite that range as our practice. Days 6–7 check risks: feasibility spike with engineering, plus data inventory if AI. Days 8–9 test: a prototype with 5 users. Day 10 decide: build, change or stop, plus the checklist in H2 9.",
+        "Who is in the room and for how long: the product trio, plus a business owner. The hub FAQ says about 2 hours a day for workshop participants; use that only when describing our workshop.",
+        "Make it clearly different from the hub's 4-step workshop: label blocks by the question they answer, not by the hub's step names (task mapping, use case ranking, concept sketching, test and plan). Deep-link the hub process section for the facilitated version instead of restating it.",
+        "Visual: 10-day timeline strip (visuals[4]).",
+        "Bridge: 'Here is what those two weeks look like on one real-shaped idea.'"
+      ]
+    },
+    {
+      "h2": "Product discovery example: one AI feature idea, from board request to decision",
+      "answerHint": "**This product discovery example follows one hypothetical AI feature, from a board request for 'AI' to a decision to build a narrower version, so you can see each check change the plan.**",
+      "points": [
+        "Label it HYPOTHETICAL in the first sentence. Say you run a US property-management SaaS and the board asks for AI. The ideas are auto-replies to tenant messages, lease summaries and maintenance-request triage.",
+        "Walk the ideas through the four risks and five AI checks in one compact table (idea × check → pass/fail/unknown). Example outcomes: auto-replies fail cost-of-wrong-answer (legal and tenant-relations risk); lease summaries pass value but fail data access (scanned PDFs, permission unclear); triage passes, so build a version that suggests a category and urgency for staff to confirm. All outcomes are illustrative; no numbers.",
+        "Then two real pointers, one sentence each, using ONLY these facts. Digno: 'we collected requirements from stakeholders and end users to pin down the scoring formula' before designing an AI-scored performance platform, and making 'an AI-generated score feel fair and readable' was the design challenge (content/case-studies/digno.md). Vocable: stakeholder interviews and a scope 'kept tight around the jobs writers named most often' for an AI content SaaS (content/case-studies/vocable.md). Link both case studies.",
+        "Do NOT quote either case study's results (Digno revenue, Vocable 35%/20%). Do NOT call either project an 'AI product discovery workshop' or attribute any result to discovery.",
+        "Bridge to the checklist."
+      ]
+    },
+    {
+      "h2": "What belongs on a product discovery checklist before you build?",
+      "answerHint": "**A product discovery checklist is an exit gate: 12 yes/no checks, grouped by risk, that must pass before an idea moves from discovery into the delivery backlog.**",
+      "points": [
+        "Visual: exit-gate checklist (visuals[5]). Put the 12 items in the astext panel. The open prose explains only how to use the gate: an unknown counts as a no, and a no sends the idea back to a test, not to the trash.",
+        "Suggested items, which the writer may reword. Value: a named user and task; evidence from at least the users you interviewed (no fixed count); the outcome metric is written down. Usability: a prototype tested with users, and the main task completed without help. Feasibility: an engineering spike done, with known unknowns listed. Viability: cost, pricing impact and legal/privacy reviewed (CCPA/CPRA; HIPAA if health). AI only: the data exists, is accessible and is permitted; evaluation criteria and the precision/recall choice written; wrong-answer harm mapped with a correction path; cost per call within budget.",
+        "TOFU lead magnet: this checklist is the 'free checklist' the template CTA offers. Name it 'product discovery checklist' consistently.",
+        "Do NOT reuse the sister/previous 'readout checklist card' or 'pass/fail acceptance card' look. Use a gate graphic with four risk lanes and one AI lane."
+      ]
+    },
+    {
+      "h2": "Should you run product discovery in-house or with a design partner?",
+      "answerHint": "**Run product discovery in-house when you have a product trio with time for weekly customer contact; bring in a design partner when you lack a designer or researcher, face a hard deadline, or are scoping a first AI feature.**",
+      "points": [
+        "A fair routing list, written as 'Situation: why'. In-house fits: a trio exists, customers are reachable, and the idea is an extension of what you know. A partner fits: no designer or researcher on staff; the team is too close to a pet idea; the board wants an AI feature by a date; unclear data; you need a tested concept and an estimate investors or a board can read.",
+        "LEAD ANGLE (see leadAngle). Describe the hub engagement only in hub facts: 1 to 2 weeks, product, engineering and business leads, use cases ranked by user value, data readiness, cost and risk of wrong answers, the top concept tested with 5 users, and 5 deliverables (task map, ranked use case list, tested concept, risk register, scoped plan). Price: $8,000–$20,000 with a deep link to the hub cost section. Do not restate the hub's price drivers.",
+        "Honest line from the hub FAQ: you own the plan afterward, and some teams take it to their own team.",
+        "Pillar mention once: 'AI product design' (/services/ai-products/) for what comes after discovery."
+      ]
+    },
+    {
+      "h2": "Bottom line",
+      "answerHint": "2–4 sentences plus one gentle CTA, placed before the FAQs. Not counted in the 10 content H2s.",
+      "points": [
+        "Restate the one idea: product discovery buys a decision, and AI features need five extra checks before anyone designs a screen.",
+        "Author's one-sentence recommendation in the first person (RULES voice rule).",
+        "CTA: download the product discovery checklist (TOFU). Then one soft line: 'If the AI checks are where you get stuck, that is what our AI product discovery workshop is for' (second UP link)."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "What is the difference between product discovery and product delivery?", "a": "Discovery decides what to build and tests whether it is worth building; delivery builds, ships and maintains it. In agile teams the two run in parallel, and only validated ideas move into the delivery backlog." },
+    { "q": "How long does product discovery take?", "a": "Continuous discovery never ends; it is a weekly habit. A timeboxed product discovery phase runs from 5 days (a design sprint on one question) to 3–6 weeks for a whole product area. Our AI discovery workshop takes 1 to 2 weeks." },
+    { "q": "Who should be involved in product discovery?", "a": "The product trio, meaning a product manager, a designer and a tech lead, plus a business owner who can make the call. For an AI feature, add someone who knows the data." },
+    { "q": "Is product discovery only for new products?", "a": "No. Live products need discovery for every big feature, pricing change or redesign of a key workflow, and especially before adding AI to an existing workflow." },
+    { "q": "What is the difference between Jira and Jira Product Discovery?", "a": "Jira tracks delivery work such as epics, stories and sprints. Jira Product Discovery is Atlassian's separate tool for capturing, scoring and prioritizing ideas before they become delivery work. It holds discovery's output; it does not do the discovery." }
+  ],
+  "internalTargets": [
+    { "href": "/services/ai-products/ai-product-discovery-workshop/", "anchor": "AI product discovery workshop", "priority": "required", "where": "Early (H2 1 or the H2 6 pain CTA, inside the first 40% of the body) and again in the Bottom line. Vary the second anchor, e.g. 'our two-week AI discovery workshop'.", "verified": "content/services/ai-product-discovery-workshop.json (category 'AI products' → pillar slug ai-products, URL rule in lib/content.ts)" },
+    { "href": "/services/ai-products/ai-product-discovery-workshop/#what-happens-during-the-ai-product-discovery-workshop", "anchor": "how our facilitated version runs day by day", "priority": "required", "where": "H2 7, instead of restating the hub's 4 steps", "verified": "hub h2 'What happens during the AI product discovery workshop?' → sectionId()" },
+    { "href": "/services/ai-products/ai-product-discovery-workshop/#how-much-does-an-ai-product-discovery-workshop-cost", "anchor": "what a facilitated AI discovery workshop costs", "priority": "required", "where": "H2 10, the price sentence", "verified": "hub h2 'How much does an AI product discovery workshop cost?' → sectionId()" },
+    { "href": "/services/ai-products/", "anchor": "AI product design", "priority": "required", "where": "H2 10, one mention of the pillar (what comes after discovery). The pillar is the silo parent, not another service hub.", "verified": "content/pillars.ts slug 'ai-products'" },
+    { "href": "/services/startups/design-sprint/", "anchor": "a 5-day design sprint", "priority": "required", "where": "H2 5, when naming the 5-day option. This is the post's ONE cross-hub link (RULES.md silo rule).", "verified": "content/services/design-sprint.json (category 'Startups & product' → pillar slug startups)" },
+    { "href": "/services/ai-products/ai-ux-design-agency/", "anchor": "AI UX design", "priority": "skip", "why": "One cross-hub link maximum; design-sprint is the better fit because it answers the duration question. The hub page already links AI UX design. Override only if the owner accepts two cross-hub links.", "verified": "content/services/ai-ux-design-agency.json" },
+    { "href": "/case-studies/digno/", "anchor": "the Digno performance platform", "priority": "required", "where": "H2 8, the real pointer sentence (DOWN link; AI-scored product, requirements gathered from stakeholders and end users)", "verified": "content/case-studies/digno.md + app/case-studies/[slug]/page.tsx" },
+    { "href": "/case-studies/vocable/", "anchor": "Vocable's AI content editor", "priority": "required", "where": "H2 8, the second real pointer sentence", "verified": "content/case-studies/vocable.md" },
+    { "href": "/contact/", "anchor": "talk to a senior designer", "priority": "skip", "why": "TOFU post: the template CTA (checklist) carries the conversion, and RULES 'funnel discipline' keeps TOFU closes on the lead magnet. Use only if the template renders no checklist CTA.", "verified": "app/contact/page.tsx" }
+  ],
+  "externalSources": [
+    { "url": "https://svpg.com/four-big-risks/", "why": "Primary: Marty Cagan's four big risks (value, usability, feasibility, business viability) and who owns each. H2 2." },
+    { "url": "https://www.producttalk.org/glossary-discovery-product-discovery/", "why": "Primary: Teresa Torres' definition of product discovery vs delivery, the outcome → opportunities → solutions structure, and weekly customer touchpoints. H2 1, 3, 4. Fact-checker: confirm the 'weekly touchpoints' wording on producttalk.org (seen in snippets citing her book)." },
+    { "url": "https://www.nngroup.com/articles/discovery-phase/", "why": "Primary: NN/g's definition of discovery and its typical outputs. H2 1 and H2 3." },
+    { "url": "https://jpattonassociates.com/dual-track-development/", "why": "Primary: Jeff Patton on dual-track development, one team and two kinds of work. H2 4." },
+    { "url": "https://www.designcouncil.org.uk/resources/the-double-diamond/", "why": "Primary: the Double Diamond (discover, define, develop, deliver), launched 2004. H2 3. A UK body, cited as the model's origin (allowed by the US-market rule because it is the source)." },
+    { "url": "https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025", "why": "Primary: at least 30% of GenAI projects abandoned after proof of concept by end-2025, and the four causes. H2 6. State it as a prediction made in July 2024, not as a measured result." },
+    { "url": "https://www.gartner.com/en/newsroom/press-releases/2025-02-26-lack-of-ai-ready-data-puts-ai-projects-at-risk", "why": "Primary: 60% of AI projects unsupported by AI-ready data abandoned through 2026 (prediction). H2 6, data readiness." },
+    { "url": "https://www.rand.org/pubs/research_reports/RRA2680-1.html", "why": "Primary: RAND's five root causes of AI project failure (2024). H2 6. Do NOT use an '80%+ of AI projects fail' figure unless the fact-checker finds it in RAND's own text." },
+    { "url": "https://pair.withgoogle.com/chapter/People%20+%20AI%20Guidebook%20-%20Data%20Collection%20+%20Evaluation.pdf", "why": "Primary: Google PAIR, translating user needs into data needs and judging data on predictive power, relevance, fairness, privacy and security. H2 6." },
+    { "url": "https://codelabs.developers.google.com/codelabs/pair-guidebook", "why": "Primary (Google): PAIR 'User Needs + Defining Success', covering whether AI fits, success criteria and the precision/recall trade-off. H2 6." },
+    { "url": "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf", "why": "Primary, US frame: NIST AI RMF 1.0, where the Map function supports an initial go/no-go decision. H2 6." }
+  ],
+  "visuals": [
+    { "type": "dual-track loop", "file": "product-discovery-dual-track.svg", "idea": "Two interlocking loops, discovery (frame → listen → test → decide) and delivery (plan → build → ship → measure), sharing one team in the middle. A 'validated' gate passes ideas from the discovery loop into the backlog, and 'measure' feeds new questions back. Text panel: both loops as two short lists plus the gate rule." },
+    { "type": "risk lens card", "file": "product-discovery-four-risks.svg", "idea": "Four quadrants (value, usability, feasibility, viability), each with its question, its owner (PM, designer, engineering, PM) and its cheapest test, plus a thin outer ring labeled 'AI feature' with one extra question per risk. Text panel: the same table." },
+    { "type": "diverge-converge stage strip", "file": "product-discovery-process-stages.svg", "idea": "Five stages (frame, understand, map opportunities, test, decide) on a band that widens and narrows twice, with the output named under each stage (outcome statement, interview notes, opportunity map, test results, decision memo). Must not look like the Design Council diamond. Text panel: stages with outputs." },
+    { "type": "AI readiness check grid", "file": "ai-feature-discovery-checks.svg", "idea": "Five AI checks (right tool, data readiness, model feasibility, evaluation, cost of a wrong answer) as rows. Columns: the question, the evidence that passes, the person who answers it. Traffic-light cells show an example. Do not plot value against risk (the hub image already does). Text panel: the five checks with questions." },
+    { "type": "10-day timeline strip", "file": "two-week-product-discovery-plan.svg", "idea": "Ten working days in five colored blocks (frame, listen, check risks, test, decide), each with its question and the one written output that closes it. A small 'AI only' marker on days 6–7 for the data and model checks. Text panel: the ordered list." },
+    { "type": "exit-gate checklist", "file": "product-discovery-checklist.svg", "idea": "A gate graphic with four risk lanes and one AI lane, 12 yes/no checks in total, and the rule 'unknown = no; a no goes back to a test'. Must not resemble the readout checklist card or the pass/fail acceptance card in fingerprints.json. Text panel: the 12 items." }
+  ],
+  "leadAngle": "The moment: in H2 6 and H2 10, the reader has seen the five AI checks and realizes their team cannot answer the data, model and wrong-answer questions alone, or has no designer to run the tests in two weeks. TOFU offer first: the free product discovery checklist (the template's TOFU CTA). Then the service: the AI product discovery workshop, described only in hub facts. That means 1 to 2 weeks, product, engineering and business leads for about 2 hours a day, use cases ranked by user value, data readiness, cost and risk of wrong answers, the top concept tested with 5 users, 5 deliverables (task map, ranked use case list, tested concept, risk register, scoped plan), and $8,000–$20,000. The mid-post pain CTA comes at the end of H2 6: 'This is the part most teams skip.' Closing angle: 'run the checklist on your next AI idea; if the AI lane is mostly unknowns, that is what the workshop is for.' Do not promise a free audit, a call length, or deliverables the hub does not list.",
+  "variety": {
+    "type": "Guide",
+    "introStyle": "Kill-list artefact: open on a short decision log from a hypothetical US SaaS team ('AI auto-replies to tenants — killed: a wrong answer creates a legal problem. Lease summaries — parked: no access to scanned leases. Maintenance triage — build, staff confirm every suggestion.'). Follow with the author's first-person point of view ('I'd rather kill two ideas in week one than ship one nobody trusts') and the definition inside the first 60 words. Intro styles already in fingerprints.json: buyer scenario, myth, data point with source, question, definition, mini case (Nitro League), contrarian take, concrete first-session log. A decision log of killed ideas is new.",
+    "h2Frames": ["what (definition + what it is not)", "which risks", "what stages", "how in agile (dual track)", "when + how long (phase vs continuous)", "what changes for AI", "how to (timeboxed 10 days)", "worked example (one idea to decision)", "checklist (exit gate)", "in-house vs design partner", "Bottom line", "FAQs"],
+    "sectionOrder": "definition → risks → stages → agile fit → phase vs continuous → AI checks → two-week plan → worked example → exit-gate checklist → who runs it → Bottom line → FAQs. saas-onboarding went definition → vs disambiguation → end metric → flow, and is-discovery-phase-worth-it went yes/no → handoff → assumptions → skip test. This order matches neither.",
+    "visualTypes": ["dual-track loop", "risk lens card with outer ring", "diverge-converge stage strip", "AI readiness check grid", "10-day timeline strip", "exit-gate checklist with lanes"],
+    "ctaAngle": "run the product discovery checklist on your next AI idea → free checklist (TOFU); if the AI lane is mostly unknowns → AI product discovery workshop. No 'send your funnel', 'send your brief', 'send the recording', 'send your three riskiest assumptions' or 'scope sheet' wording.",
+    "listStyle": "risk table + 'Situation: why' routing bullets + ordered 10-day block list + idea × check grid in the worked example",
+    "differsFrom": "Last 3 site-wide fingerprints: saas-onboarding (2026-10-13), mobile-app-design-agency-vs-freelancer, is-discovery-phase-worth-it. The silo has no posts yet, so the silo check is empty."
+  },
+  "fingerprintCheck": {
+    "vs_saas-onboarding": "Differs on intro (kill list vs timed first-run log), H2 frames (risks/stages/agile/AI checks vs end-point/flow/patterns/roles/emails), section order, visual types (no swimlane, no audit grid by stage, no anatomy), CTA angle (checklist vs send the recording) and list style. Type 'Guide' repeats. 6 of 7 differ.",
+    "vs_mobile-app-design-agency-vs-freelancer": "Differs on type (Guide vs Comparison), intro (kill list vs contrarian take), H2 frames, visuals (no skill map, twin timeline or quote sheet), CTA and list style. 7 of 7 differ. The in-house vs partner H2 is one section, not the post's frame, and must not rebuild a provider matrix.",
+    "vs_is-discovery-phase-worth-it (nearest structural relative: same discovery topic)": "Differs on type (Guide vs Article), funnel (TOFU vs BOFU), intro (kill list vs Nitro mini case), H2 frames (no yes/no worth-it frame, no skip test, no 'what did cases settle', no readout section), visuals (no output stack, assumption ledger, scored skip-test flow, escalation ladder or readout card), CTA (checklist vs 'send your three riskiest assumptions') and list style. 7 of 7 differ. Do NOT reuse from it: the skip test, the assumption ledger table, the Nitro/Vocable/Digno 'what discovery settled' section, the escalation ladder or the readout checklist. Vocable and Digno appear here only as one-sentence pointers inside the AI worked example.",
+    "result": "Passes the RULES.md variety rule (at least 4 of 7 dimensions differ from each of the last 3 site-wide posts)."
+  },
+  "notes": [
+    "CANNIBALISATION (managed). The hub owns 'AI product discovery workshop' (anchor, H1, metaTitle) and its H2s: definition, the 4-step process with days, the 5 deliverables, 'vs jumping straight into design', who should book, cost $8,000–$20,000, and FAQs (remote, who joins, data ready, what happens after). The post targets the broader parent query 'product discovery' (informational) and must: (1) never use 'AI product discovery workshop' as a keyword phrase, only as link anchor text; (2) not restate the hub's 4 steps, 5 deliverables list (one compressed mention in H2 10 only), or the 'with vs without a workshop' table; (3) not plot AI use cases on value vs risk (that is the hub's image). After publishing, monitor whether Google ranks the hub for 'product discovery'. If it swaps them, add the hub-banking link (backlinkSuggestions #1).",
+    "Sibling-hub overlaps. design-sprint.json owns 'Design sprint vs a full discovery phase' (5 days vs 3–6 weeks, 5 vs 10–20 interviews). Cite those facts once with a link, and do not rebuild the table. mvp-design-agency.json has a 'Discovery sprint (1 week)' step and product-design-agency.json has 'Discovery (1–3 weeks)' with 'a discovery and concept phase … near $25,000'. Do NOT quote those durations or the $25,000 figure; three different discovery durations on one page confuse the reader. Use only the design-sprint comparison and the AI workshop's 1 to 2 weeks. home.ts process step 'Discovery' (interviews, analytics, jobs the product is hired for) is consistent; no conflict.",
+    "Keyword 'product discovery workshop' (Ahrefs 450, KD 0, TP 10) and 'product discovery services' (450, KD 0) are hub-type queries. Do not target them in this post. They belong to the hub (owner may add 'product discovery workshop' to the hub's semantic ngrams) or to a future BOFU post.",
+    "CASE STUDIES: Digno and Vocable are real (content/case-studies/). Neither engagement was an 'AI product discovery workshop' (their services are mvp-design-agency, saas-design-agency and ai-ux-design-agency). Use only the quoted sentences listed in outline H2 8. Never quote their results, and never attribute any result to discovery. Mass Media Co. 'began with a discovery workshop', but it is a non-AI redesign: do not use it. Nitro's discovery appears in the removed/sister fingerprint post; do not use it here either, to avoid repetition. No testimonial use.",
+    "DO NOT USE (unsourced or secondary): 'more than 80% of AI projects fail' (attributed to RAND only by secondary sources); '84% of interviewees cited leadership' (arXiv paraphrase of RAND); Gartner's later 'at least 50% of GenAI projects abandoned' (a Gartner article, not the dated press release, and not reconciled with the 30% figure); any vendor stat on how many teams 'do discovery'; Zeda.io or Product Hunt claims; the 'I asked 40 product leaders' piece as data (it is opinion; it may be named as a sign that definitions vary, without numbers).",
+    "Attribution care. Dual-track agile is credited to Jeff Patton's own essay (he credits Desirée Sy). Do not claim Cagan 'invented' dual-track. The 'valuable, usable, feasible' phrasing comes from Cagan's books (Inspired, Empowered); cite svpg.com/four-big-risks, not Goodreads highlights. The airfocus Cagan interview is a summary, so do not quote it.",
+    "US frame: privacy checks name CCPA/CPRA and HIPAA (health data); mention GDPR only as 'if you also sell in the EU'. Example company is a US property-management SaaS. US spelling (prioritize, organize, behavior, labeled).",
+    "Abbreviations to expand on first use: artificial intelligence (AI), software as a service (SaaS), product manager (PM), user experience (UX), minimum viable product (MVP) if used, large language model (LLM) if used, NIST AI Risk Management Framework (AI RMF), Nielsen Norman Group (NN/g), Silicon Valley Product Group (SVPG).",
+    "Voice: first person by Ahmad Ullah for method ('I start with the decision, not the research plan'). Use 'we' only for hub facts and the two case studies. No invented anecdotes ('last month a founder told me…').",
+    "Data source rule: the owner rule (2026-10-12) names Semrush or GSC as volume evidence. This brief uses Ahrefs figures the orchestrator supplied (warehouse files dated 2026-10-14), because Semrush has no units, as in the saas-onboarding precedent. Record it as accepted by the orchestrator.",
+    "competitors.json was not updated in this run (only full-file writes were available, and the file is large and shared). Orchestrator: add domains svpg.com, producttalk.org, atlassian.com, productboard.com, productplan.com, productschool.com, maze.co, airfocus.com (publisher/tool blogs, silo ai-product-discovery-workshop, seenFor 'product discovery') and topPost {domain: atlassian.com, url: https://www.atlassian.com/agile/product-management/discovery, keywords: [product discovery, product discovery process], silo: ai-product-discovery-workshop, status: briefed, brief: content/briefs/product-discovery.json}."
+  ],
+  "beats": "https://www.atlassian.com/agile/product-management/discovery",
+  "competitorPagesStudied": [
+    { "url": "https://svpg.com/product-discovery/ and https://svpg.com/four-big-risks/", "seen": "Cagan's discovery framing: tackle value, usability, feasibility and viability risk before building, with role ownership (PM: value and viability; designer: usability). In AI overview sitelinks. WebFetch ENOTFOUND; coverage from snippets.", "misses": "a step-by-step process, durations, AI-specific checks, examples, a checklist" },
+    { "url": "https://www.atlassian.com/agile/product-management/discovery", "seen": "AI overview sitelink. Page text not retrievable (ENOTFOUND, and no snippet of the page itself). Atlassian's discovery content elsewhere (the JPD handbook) covers outcomes, backlog, idea validation through feedback and insights, prioritization and roadmaps, framed around Jira Product Discovery.", "misses": "tool-neutral advice, AI features, a timeboxed plan, an exit gate" },
+    { "url": "https://www.producttalk.org/product-discovery/", "seen": "Teresa Torres: discovery = deciding what to build vs delivery; outcome → opportunities → solutions; continuous discovery as weekly touchpoints by the trio; opportunity solution tree.", "misses": "a timeboxed phase for a team starting from zero, AI data/model checks, who to hire" },
+    { "url": "https://www.productboard.com/blog/step-by-step-framework-for-better-product-discovery/", "seen": "Double Diamond-based step framework; the Product Discovery Playbook 2.0 says frameworks are a small part and stresses psychological safety, team structure and clear outcomes.", "misses": "durations, AI, an exit checklist, examples beyond the tool" },
+    { "url": "https://www.productplan.com/glossary/product-discovery", "seen": "Glossary: understand customers deeply, then apply that to build what they need; central to prioritization; history tied to the post-Agile Manifesto shift.", "misses": "everything past the definition" },
+    { "url": "https://productschool.com/blog/product-fundamentals/what-is-product-discovery ; https://amplitude.com/blog/product-discovery-benefits ; https://maze.co/guides/product-discovery/techniques/ ; https://airfocus.com/glossary/what-is-product-discovery/", "seen": "From titles and the warehouse SERP: definition + frameworks (Product School), definition + benefits + techniques (Amplitude), 8 techniques (Maze), glossary (airfocus).", "misses": "AI feature discovery, a timeboxed plan, a design-partner decision" },
+    { "url": "https://antmurphy.medium.com/i-asked-40-product-leaders-what-is-product-discovery-e10585e552d0", "seen": "AI overview sitelink: an opinion roundup of definitions.", "misses": "a process; useful only as a sign that definitions vary" },
+    { "url": "organic positions 4–10 (warehouse SERP)", "seen": "slidegeeks template, Zeda.io on Product Hunt, a LinkedIn profile, netguru design-process page, aykansoft AI-driven discovery blog (DR 18), a foodnavigator retail story, a YouTube talk. Weak and mixed-intent organic results below the AI overview.", "misses": "a complete, current guide; the opening is real" }
+  ],
+  "rejectedCandidates": [
+    { "keyword": "product discovery workshop (450, KD 0)", "why": "Service intent and a near-duplicate of the hub anchor ('AI product discovery workshop'); TP only 10. Leave it to the hub or a future BOFU agenda post." },
+    { "keyword": "product discovery services / software product discovery services (450 / 250)", "why": "Vendor/service intent; the hub's job." },
+    { "keyword": "jira product discovery (3,200) and variants", "why": "Branded tool intent; a design agency cannot satisfy it. Covered by one sentence and FAQ 5 only." },
+    { "keyword": "ecommerce product discovery (250)", "why": "Different meaning (shopper search and recommendations). Disambiguated in H2 1." },
+    { "keyword": "product discovery techniques (350, KD 4)", "why": "Folded into the stages and two-week plan; a techniques listicle would copy Maze's format." },
+    { "keyword": "continuous product discovery (150)", "why": "Folded into H2 4 and H2 5 as a secondary; Product Talk owns the standalone intent." }
+  ],
+  "backlinkSuggestions": [
+    {
+      "source": "content/services/ai-product-discovery-workshop.json → sections[0] 'What is an AI product discovery workshop?' body (renders HTML)",
+      "target": "/blog/product-discovery/",
+      "anchor": "how product discovery works for any feature",
+      "priority": "required",
+      "why": "Hub to post link (silo rule: the hub links down to all its posts), on a genuine topic match. The workshop is the AI-specific form of product discovery.",
+      "sentence": "Add after 'Only then do we match AI capabilities to those tasks.': 'Our guide to <a href=\"/blog/product-discovery/\">how product discovery works for any feature</a> covers the wider practice.'"
+    },
+    {
+      "source": "content/pillars.ts ai-products → faqs 'Where should an AI product design project start?'",
+      "target": "/blog/product-discovery/#what-changes-in-product-discovery-for-ai-features",
+      "anchor": "the extra product discovery checks an AI feature needs",
+      "priority": "required",
+      "why": "The pillar FAQ answers exactly where AI work starts. A deep link to the post's AI section adds the 'why' without moving the pillar's own answer. Check whether pillar FAQ answers render HTML; if they are plain text, move the link to the pillar's sections[0] body after the sentence 'The answer comes from an AI product discovery workshop.'",
+      "sentence": "'Most teams start with an AI product discovery workshop. It names the use cases worth building before any interface work begins; here are <a href=\"/blog/product-discovery/#what-changes-in-product-discovery-for-ai-features\">the extra product discovery checks an AI feature needs</a>.'"
+    },
+    {
+      "source": "content/services/design-sprint.json → sections 'Design sprint vs a full discovery phase' (add a short body under the table answer)",
+      "target": "/blog/product-discovery/",
+      "anchor": "how a full product discovery phase runs",
+      "priority": "required",
+      "why": "A real topic match: the section compares a sprint with 'a full discovery phase', which is the post's topic. This is a link from a sibling service page into this silo's post, not post-to-post, so the silo rule is not breached.",
+      "sentence": "<p>Not sure which you need? Our guide explains <a href=\"/blog/product-discovery/\">how a full product discovery phase runs</a> and when a 5-day sprint is enough.</p>"
+    }
+  ]
+}
