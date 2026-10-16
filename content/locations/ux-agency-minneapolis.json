@@ -414,7 +414,7 @@
         },
         {
           "q": "Can you design health tech products for Minnesota companies?",
-          "a": "<p>Yes. We design vertical SaaS for clinics and care teams, and our closest case is Elia Wellness, a web and mobile wellness learning platform for adults over 50, where user registrations grew 40%. When screens show protected health information, the HIPAA Privacy Rule applies, so bring your compliance lead into design reviews.</p>"
+          "a": "<p>Yes. We design <a href=\"/industries/healthcare/\">vertical SaaS for clinics and care teams</a>, and our closest case is Elia Wellness, a web and mobile wellness learning platform for adults over 50, where user registrations grew 40%. When screens show protected health information, the HIPAA Privacy Rule applies, so bring your compliance lead into design reviews.</p>"
         },
         {
           "q": "Can your team also build the product?",
