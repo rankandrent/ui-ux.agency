@@ -436,7 +436,7 @@
       "trafficPotential": 1600,
       "avgKd": 1,
       "avgCpc": 1.75,
-      "done": false,
+      "done": true,
       "score": 108.1,
       "serp": {
         "avgDr": 74,
@@ -529,7 +529,9 @@
           "cpc": 50,
           "tp": 1600
         }
-      ]
+      ],
+      "doneUrl": "/blog/product-discovery/",
+      "doneDate": "2026-10-15"
     },
     {
       "topic": "product discovery process",
