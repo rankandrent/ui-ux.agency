@@ -7,6 +7,7 @@ updated: 2026-10-16
 contributors: [umar-sarwar]
 author: talha-saleem
 type: Guide
+image: /blog/user-onboarding-automation/cover.svg
 services: [saas-onboarding-design]
 industries: []
 tags: [user onboarding automation, automated user onboarding, onboarding automation saas, automated onboarding emails, ai user onboarding]
@@ -54,7 +55,6 @@ I sort every onboarding moment on 2 questions before anyone opens a tool. How of
 
 Automated user onboarding works best when the first answer is "often" and the second is "a shrug." Volume pays for the rule, and mistakes stay cheap. The other quadrants need a fallback, a person or both. Every quadrant except keep human still uses automation, if only to flag the moment for someone.
 
-<!-- visual: 2x2 decision matrix drawn as 4 labeled quadrant cards, not a plotted risk grid (must not look like the saas-product-redesign risk matrix). Horizontal axis: how often the moment happens (rare to frequent). Vertical axis: cost of a wrong message (low to high). Cards: Automate (frequent, low cost), Automate with a fallback (frequent, higher cost), Assist: automation flags, a person acts (rare, lower cost), Keep human (rare, high cost). Each card lists the 2 or 3 example moments from the text panel, from the hypothetical revenue-analytics SaaS. File onboarding-automation-decision-matrix.svg -->
 
 The matrix below places 10 moments from the hypothetical analytics product in 4 quadrants.
 
@@ -62,6 +62,7 @@ The matrix below places 10 moments from the hypothetical analytics product in 4 
 
 <details class="astext"><summary>Show as text</summary>
 
+- **Axes:** how often a moment happens and the cost of a wrong message.
 - **Automate (frequent, low cost):** the welcome prompt, a checklist reminder, a tip the first time a user opens the chart builder.
 - **Automate with a fallback (frequent, higher cost):** help after a failed warehouse connection and a permission-denied message during setup. Each one offers a "talk to a person" exit.
 - **Assist (rare, lower cost):** an admin who stalls for 3 days before inviting teammates, a trial user who opens the pricing page twice in 7 days. A rule flags them, and a person decides whether to reach out.
@@ -79,7 +80,6 @@ Now the trap: automating a moment because the tool makes it easy. A tour builder
 
 I write each rule as one plain sentence before anyone builds it, then split the sentence into those 6 parts. The user segment decides who qualifies, and segments also drive role-based onboarding paths for admins and analysts.
 
-<!-- visual: rule blueprint drawn as one horizontal strip: trigger event, then segment, then message job, then channel, then exit or suppression, with a frequency-cap meter above the strip. Filled with the example rule: warehouse not connected 24 hours after sign-up, admin role, email that opens the connection screen, stops when warehouse_connected fires from any path, cap of 1 email per 24 hours marked as the team's choice. Text panel: the 6 parts with example values. File onboarding-automation-rule-blueprint.svg -->
 
 The blueprint below breaks one rule from the hypothetical analytics product into its 6 parts.
 
@@ -138,7 +138,6 @@ Fixed automated email sequences for user onboarding go stale the day a user move
 
 Say the warehouse email waits 24 hours, and a second reminder waits 3 more days. Both stop the moment the connection event fires. That's an example timing, not a benchmark.
 
-<!-- visual: channel relay strip with three stations in a baton-pass layout, not parallel swimlanes (must not look like the saas-onboarding admin and member swimlane). Station 1 in-app (user active) passes to station 2 email (user away 24 hours or more), which passes to station 3 a person (user stuck or high-fit). One shared gate under all three stations labeled suppress when done. Text panel: the channel handoff table. File onboarding-channel-handoff.svg -->
 
 The relay below passes each user between channels by state, with one shared gate that stops every channel once the step is done.
 
@@ -175,7 +174,6 @@ The design consequence: fewer emails, each fired by behavior, keep complaints do
 
 Admins of high-fit accounts are the usual handoff candidates, since invited members land in a workspace someone already set up. A customer success manager (CSM) takes their setup problems, and sales takes the accounts that cross the PQL line. That split is sales-assisted onboarding, with automation doing the watching.
 
-<!-- visual: vertical signal ladder with 5 rungs from automation only at the bottom to user asks for a person at the top, with an owner icon on each rung (product, support, CSM, sales, whoever answers) and a small handoff-note card on the side listing role, plan, steps done, last error and messages already sent. Must not reuse the is-discovery-phase-worth-it escalation ladder style: draw it vertically with owner avatars as icons, not rung labels only. Text panel: the 5 signals with owners and the note fields. File onboarding-human-handoff-ladder.svg -->
 
 The ladder below climbs from automation alone to a person, with the owner of each rung.
 
@@ -220,11 +218,10 @@ If your product is itself AI, onboarding sets expectations about its answers bef
 
 The onboarding automation rule sheet is the template I'd fill in before building anything. One row holds one rule, and its last column asks whether the rule is patching a screen.
 
-<!-- visual: the lead asset as a fill-in rule sheet drawn as a ruled worksheet with a sticky-note callout (not the saas-onboarding 12-point audit grid and not the web-app-design-rfp fill-in table look). Columns: moment, trigger event, segment, channel, message job, exit, owner, metric, patch or fix. Two illustrative rows filled as in the text panel, 4 blank rows. The patch cell of rule 2 highlighted, with a sticky note: patch means fix the screen behind it. File onboarding-automation-rule-sheet.svg -->
 
-The worksheet below shows 9 columns, 2 hypothetical rules filled in and 4 blank rows for yours.
+The worksheet below lists 9 fields as rows, with 2 hypothetical rules filled in and 4 blank columns for yours.
 
-![Onboarding automation rule sheet worksheet with nine columns, two filled example rules and a highlighted patch-or-fix cell that flags a screen to redesign](/blog/user-onboarding-automation/onboarding-automation-rule-sheet.svg "Onboarding automation rule sheet: one row per rule, with a patch-or-fix column")
+![Onboarding automation rule sheet worksheet with nine fields as rows, two filled example rules and a highlighted patch-or-fix cell that flags a screen to redesign](/blog/user-onboarding-automation/onboarding-automation-rule-sheet.svg "Onboarding automation rule sheet: one column per rule, with a patch-or-fix row")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -256,13 +253,14 @@ Without a holdout, a team credits its emails for activations that would have hap
 
 In our onboarding projects, we help set up an A/B test where possible and compare activation before and after.
 
-<!-- visual: holdout comparison chart with 2 cumulative activation curves over the first 14 days, rules on vs holdout, with the gap labeled lift you can credit to automation. Mark it clearly as illustrative, no real data, and print no axis numbers that read as benchmarks. Beside it, a small table of the rule-level warning signs. Text panel: the metrics table. File onboarding-automation-holdout.svg -->
 
 The illustrative chart below shows 2 activation curves over the first 14 days and the gap you can credit to automation; it holds no real data.
 
 ![Illustrative holdout comparison chart of activation for users with onboarding rules on versus a holdout group over 14 days, with the lift gap labeled](/blog/user-onboarding-automation/onboarding-automation-holdout.svg "Onboarding automation holdout chart: lift is the gap between rules on and the holdout group")
 
 <details class="astext"><summary>Show as text</summary>
+
+Illustrative chart, no real data: activation for rules on vs the holdout over the first 14 days; the gap is what you can credit to automation.
 
 This table lists each metric, what it tells you and the warning sign to watch.
 
