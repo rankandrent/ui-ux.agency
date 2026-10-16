@@ -30,7 +30,7 @@ The brief asked for more than online lessons. Every module carries a wellness el
 
 ## The problem we had to solve
 
-Most health and learning apps are not designed with older adults in mind. Screens are crowded, and the guidance this audience wants is often missing. To work, Elia Wellness needed to:
+Most [health and learning apps](/industries/healthcare/) are not designed with older adults in mind. Screens are crowded, and the guidance this audience wants is often missing. To work, Elia Wellness needed to:
 
 - **Feel easy to use**, whether a learner is confident with phones and laptops or rarely touches them.
 - **Offer wellness content people can measure**, so each course changes something real.

@@ -77,7 +77,7 @@
       "items": [
         { "title": "SaaS teams with a board mandate for AI", "body": "Teams told to add AI who need to pick the feature that customers will pay for." },
         { "title": "Founders with an AI idea", "body": "Startups that want proof before a minimum viable product (MVP); many continue with a design sprint or MVP design." },
-        { "title": "Enterprises with many pilots", "body": "Organizations with several AI experiments that need one to take to production." }
+        { "title": "Enterprises with many pilots", "body": "Organizations running several <a href=\"/industries/enterprise/\">enterprise AI tools</a> as experiments that need one to take to production." }
       ]
     },
     {
@@ -91,7 +91,7 @@
       "format": "faq",
       "answer": "<strong>Answers to common questions about the AI product discovery workshop.</strong>",
       "faqs": [
-        { "q": "Can the AI product discovery workshop run remotely?", "a": "<p>Yes. Most workshops run remotely in Figma and FigJam, with short daily sessions instead of full-day meetings.</p>" },
+        { "q": "Can the AI product discovery workshop run remotely?", "a": "<p>Yes. Most workshops run remotely in Figma and FigJam, with short daily sessions instead of full-day meetings. West Coast teams, for example <a href=\"/location/ux-design-san-diego/\">San Diego AI and SaaS teams</a>, book sessions in the hours Eastern and Pacific Time share.</p>" },
         { "q": "Who from our team should join?", "a": "<p>A product lead, an engineering or data lead and a business owner, for about 2 hours a day during the workshop.</p>" },
         { "q": "Do we need our own data ready?", "a": "<p>No. The workshop checks which data you have and which use cases depend on it; missing data becomes part of the plan.</p>" },
         { "q": "What happens after the workshop?", "a": "<p>You own the plan. Most teams continue into AI UX design with us, and some take the plan to their own team.</p>" }

@@ -106,4 +106,4 @@ Table: TradeZella results after the dashboard redesign
 | New customers | +30% |
 | Trustpilot rating | 4.7 |
 
-Need that lift for your analytics product? Our [SaaS design agency](/services/saas-products/saas-design-agency/) team starts with discovery.
+TradeZella is one of our [fintech UX design](/industries/fintech/) projects. Need that lift for your analytics product? Our [SaaS design agency](/services/saas-products/saas-design-agency/) team starts with discovery.
