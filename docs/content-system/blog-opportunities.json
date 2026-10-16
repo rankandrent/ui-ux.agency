@@ -30,7 +30,7 @@
       "trafficPotential": 600,
       "avgKd": 0,
       "avgCpc": 20,
-      "done": false,
+      "done": true,
       "score": 162.6,
       "serp": {
         "avgDr": 53,
@@ -109,7 +109,9 @@
           "cpc": 2000,
           "tp": 600
         }
-      ]
+      ],
+      "doneUrl": "/blog/user-onboarding-automation/",
+      "doneDate": "2026-10-16"
     },
     {
       "topic": "integrating ai with cyber security",
@@ -436,7 +438,7 @@
       "trafficPotential": 1600,
       "avgKd": 1,
       "avgCpc": 1.75,
-      "done": false,
+      "done": true,
       "score": 108.1,
       "serp": {
         "avgDr": 74,
@@ -529,7 +531,9 @@
           "cpc": 50,
           "tp": 1600
         }
-      ]
+      ],
+      "doneUrl": "/blog/product-discovery/",
+      "doneDate": "2026-10-15"
     },
     {
       "topic": "product discovery process",

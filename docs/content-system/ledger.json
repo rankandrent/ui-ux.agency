@@ -31,6 +31,23 @@
         "/services/ai-products/ai-product-discovery-workshop/ (section 1 body)",
         "/services/ai-products/ (FAQ: where should an AI product design project start)"
       ]
+    },
+    {
+      "slug": "user-onboarding-automation",
+      "hub": "saas-onboarding-design",
+      "keyword": "user onboarding automation",
+      "date": "2026-10-16",
+      "words": 4601,
+      "images": 6,
+      "internalLinks": 13,
+      "externalLinks": 5,
+      "qaLoops": 2,
+      "opportunityScore": 162.6,
+      "expectedMonthlyTraffic": 180,
+      "backlinks": [
+        "/services/saas-products/saas-onboarding-design/ (FAQ: onboarding tools)",
+        "/blog/saas-onboarding/ (designer vs tool section)"
+      ]
     }
   ],
   "audits": [],
@@ -53,6 +70,16 @@
         "ai use cases in cyber security (off-audience)",
         "saas homepage design (website-only design)",
         "enterprise ai use cases (not a design-buyer topic)"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "goal": "daily run (1 blog post per day); top-scored relevant topic",
+      "jobs": [
+        "user-onboarding-automation"
+      ],
+      "skipped": [
+        "ai use cases in cyber security, saas homepage design, enterprise ai use cases (off-audience, as on 2026-10-15)"
       ]
     }
   ]

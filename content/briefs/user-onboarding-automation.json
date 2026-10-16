@@ -1,0 +1,492 @@
+{
+  "slug": "user-onboarding-automation",
+  "keyword": "user onboarding automation",
+  "secondary": [
+    "automated user onboarding",
+    "onboarding automation saas",
+    "automated onboarding emails",
+    "automated email sequences for user onboarding",
+    "in-app engagement for user onboarding",
+    "ai user onboarding"
+  ],
+  "intent": "Commercial investigation with a how-to core. Founders, product managers, growth leads and design leads at US AI and SaaS startups who want new sign-ups guided to first value without a person running every step, and who are deciding what to automate, which channel to use, which tool or build route to take, and where a human still has to step in. They are planning the work and often comparing onboarding tools at the same time (CPC $20 shows buyer value). Not HR or IT teams automating employee onboarding, and not financial-services client onboarding (KYC): page 1 mixes those meanings, and the post rules them out in H2 1.",
+  "volume": 100,
+  "kd": 0,
+  "trafficPotential": 600,
+  "cpc": 20,
+  "dataSource": "Ahrefs US (orchestrator-supplied, raw data in docs/content-system/warehouse/2026-10-14-terms-user-onboarding.json, parent topic 'onboarding automation', and 2026-10-14-serp-user-onboarding-automation.json), pulled 2026-10-14. Semrush not called (orchestrator instruction). Secondary volumes from the same Ahrefs pull: ai user onboarding 80 / KD 9; automated email sequences for user onboarding 40 / KD n/a; in-app engagement for user onboarding 40 / KD n/a. 'automated user onboarding', 'onboarding automation saas' and 'automated onboarding emails' are NOT in any warehouse file (grep 'automat' over docs/content-system/warehouse/ found only the files above), so they have no volume data: they are used as lexical variants and meta keywords, never as the primary. Live SERP study by WebSearch on 2026-10-16. WebFetch failed with ENOTFOUND on moxo.com, meltingspot.io and nngroup.com, so page coverage comes from search snippets. No GSC export exists (docs/data/gsc/latest.json missing).",
+  "dataSourceDate": "2026-10-16",
+  "score": 162.6,
+  "expectedMonthlyTraffic": 180,
+  "opportunity": "docs/content-system/blog-opportunities.json, topic 'onboarding automation' (#1, score 162.6, expected traffic 180, format 'complete guide (definition, process, examples, checklist)'). It was skipped on 2026-10-15 because it shares the hub with the 2026-10-13 post. The orchestrator now runs it with an explicit cannibalization guard.",
+  "hub": "saas-onboarding-design",
+  "hubUrl": "/services/saas-products/saas-onboarding-design/",
+  "pillar": "saas-products",
+  "services": ["saas-onboarding-design"],
+  "industries": [],
+  "author": "talha-saleem",
+  "authorWhy": "Talha Saleem is the Senior UI/UX Designer (content/home.ts team list; content/authors.json bios are empty). This post is about in-app guidance components (tours, tooltips, checklists, prompts), their states and accessibility, and the rule logic behind them. That is hands-on UI/UX work. He has not written yet, so rotation favors him. Rejected: Faizan Khan (Sr. Product Designer) fits the topic, but he wrote this silo's only post 2 posts ago and would make the silo read like one voice. Sahar Asif (Senior Manager UX | KAM) suits a later BOFU post on scoping an onboarding redesign. Ahmad Ullah wrote the last post (product-discovery).",
+  "funnel": "mofu",
+  "funnelWhy": "SERP sets the stage (lesson 2026-10-06). Page 1 for 'user onboarding automation' is how-to guides (guidecx, moxo, meltingspot, archbee, kompassify), a Reddit how-to thread at #1, tool lists (productfruits '24 tools') and AI-agent vendor pages. That is 'planning the work / comparing approaches' (MOFU), not cost or agency pages (BOFU). Silo count: 1 published post (saas-onboarding, frontmatter mofu), 0 TOFU, 0 BOFU. Two funnel.json rules point elsewhere: by % gap TOFU is furthest below target, and the new-silo rule asks for 1 BOFU + 1 MOFU. The orchestrator chose this topic by opportunity score (top of blog-opportunities.json), and its SERP cannot carry a BOFU post. The automate-vs-human decision and the 'automation patching a broken screen' section keep it MOFU and lead toward the hub. Next post in this silo should be BOFU. Candidates: 'saas onboarding redesign roi' or 'onboarding audit' with a vendor-dominated SERP. Check that the hub does not already own the query.",
+  "serviceSupport": 4,
+  "serviceSupportWhy": "A team searching 'user onboarding automation' already owns a trial funnel and is about to spend engineering or tool budget on guidance and emails. The post's central argument shows where automation only patches the screens underneath. In that case the reader needs the hub service (redesign of sign-up, setup and empty states, with the guidance designed on top), and the hub FAQ confirms we design for Appcues, Userpilot, Pendo or code. It is not a 5, because some searchers want a tool list or a Zapier recipe.",
+  "title": "User onboarding automation: what to automate and what to keep human",
+  "metaTitle": "User Onboarding Automation: What to Automate and Keep Human",
+  "metaDescription": "User onboarding automation for SaaS: which moments to automate, which to keep human, how to design triggers and measure lift. Then book a free consultation.",
+  "centralEntity": "user onboarding automation",
+  "sourceContext": "ui-ux.agency (the design team of tkxel, Reston, VA) writes as a design team that redesigns SaaS onboarding and designs the guidance that tools like Appcues, Userpilot or Pendo, or the client's own code, deliver. It is vendor-neutral: no tool to sell, so the post can say when not to automate and when the screen needs fixing instead.",
+  "entities": [
+    "user onboarding automation",
+    "automated onboarding emails",
+    "in-app guidance",
+    "behavior-based trigger (product event)",
+    "time-based fallback",
+    "user segment (role, plan, use case)",
+    "suppression rule / exit condition",
+    "frequency cap",
+    "product tour",
+    "onboarding checklist",
+    "tooltip",
+    "push and pull revelations (Nielsen Norman Group)",
+    "activation event",
+    "time to first value",
+    "product-qualified lead (PQL)",
+    "sales-assist handoff",
+    "customer success manager (CSM)",
+    "holdout group (global control group)",
+    "CAN-SPAM Act (Federal Trade Commission)",
+    "Gmail email sender guidelines (SPF, DKIM, DMARC, one-click unsubscribe)",
+    "WCAG 2.2 (SC 1.4.13 Content on Hover or Focus, SC 2.4.11 Focus Not Obscured)",
+    "product analytics events (Mixpanel, Amplitude)",
+    "AI onboarding assistant",
+    "People + AI Guidebook (Google PAIR)",
+    "Appcues, Userpilot, Pendo"
+  ],
+  "attributes": [
+    "trigger type (behavior event vs time-based fallback)",
+    "channel (in-app, email, person)",
+    "segment criteria (role, plan, company size, use case)",
+    "exit and suppression condition",
+    "frequency cap (messages per user per day)",
+    "cost of a wrong message",
+    "handoff signal (stuck signal, high-fit account, PQL)",
+    "measurement method (lift against a holdout group)",
+    "rule-level metrics (trigger rate, completion after trigger, dismiss rate, unsubscribe and spam complaints)",
+    "compliance requirement (CAN-SPAM, Gmail sender rules, WCAG 2.2 AA)",
+    "owner (product, lifecycle marketing, customer success, sales)",
+    "build route (in code vs onboarding tool)"
+  ],
+  "ngrams": [
+    "user onboarding automation",
+    "automated user onboarding",
+    "onboarding automation",
+    "automated onboarding emails",
+    "automated email sequences for user onboarding",
+    "in-app guidance",
+    "in-app engagement for user onboarding",
+    "behavior-based triggers",
+    "time-based fallback",
+    "suppression rule",
+    "frequency cap",
+    "product-qualified lead",
+    "sales-assist handoff",
+    "holdout group",
+    "AI user onboarding",
+    "onboarding automation rule sheet"
+  ],
+  "eav": [
+    { "attribute": "definition", "value": "the rules that watch what a new user does in a SaaS product and send the next piece of guidance (an in-app prompt, an email or a person) without anyone choosing each message by hand", "source": "Editorial working definition for this post. It matches the tool docs' model of behavior-based triggers plus segments: https://docs.userpilot.com/getting-started/what-does-userpilot-offer" },
+    { "attribute": "scope (what it is not)", "value": "not employee onboarding (HR/IT accounts and equipment), not client onboarding in financial services (identity checks), not tenant provisioning (engineering)", "source": "SERP disambiguation (warehouse SERP rows: zendesk employee onboarding, cloudviewpartners IT guide, flowstudio Power Automate) + https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/tenant-onboarding.html (already cited by the sibling post; mention without re-linking)" },
+    { "attribute": "parts the hub designs that automation delivers", "value": "guided first task (a checklist or short tour that leads to the first real result) and lifecycle emails (welcome and follow-up emails that bring inactive trial users back to the next step)", "source": "content/services/saas-onboarding-design.json (H2 'Which parts of SaaS onboarding design do we cover?')" },
+    { "attribute": "rule components", "value": "segments built from user data, company data, features and events, reused as flow triggers; behavior-based triggers launch guidance at the moment of an in-app action", "source": "https://docs.userpilot.com/getting-started/what-does-userpilot-offer (vendor docs, used only as a description of how such tools model rules)" },
+    { "attribute": "help timing (push vs pull)", "value": "push revelations show help regardless of what the user is doing (e.g., tips on launch) and are often ignored; pull revelations appear in the context of the user's current task and are preferred", "source": "https://www.nngroup.com/articles/help-and-documentation/ (fact-checker: confirm wording on the page; WebFetch blocked, seen in snippets)" },
+    { "attribute": "up-front tutorials", "value": "NN/g ran a quantitative test with 70 users on 4 mobile apps that used deck-of-cards tutorials; one group always viewed the tutorial, the other always skipped it", "source": "https://www.nngroup.com/articles/mobile-tutorials/ (fact-checker: confirm the finding on the page before the writer states any result; snippets only confirmed the setup)" },
+    { "attribute": "tooltip accessibility", "value": "WCAG 2.2 SC 1.4.13 Content on Hover or Focus (Level AA): content shown on hover or focus must be dismissible without moving pointer or focus, hoverable, and persistent until dismissed or no longer valid", "source": "https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus" },
+    { "attribute": "overlay accessibility", "value": "WCAG 2.2 SC 2.4.11 Focus Not Obscured (Minimum) (Level AA): when a component receives keyboard focus, it is not entirely hidden by author-created content such as sticky banners or non-modal tour popovers", "source": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured.html" },
+    { "attribute": "email law (US): message type", "value": "CAN-SPAM classifies an email by its primary purpose as a reasonable recipient sees it; a subscriber or customer relationship alone does not make a message transactional or relationship, and a message is commercial if the subject line suggests an ad or the transactional content is not mainly at the start", "source": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business" },
+    { "attribute": "email law (US): opt-out", "value": "commercial email must offer an opt-out, and opt-out requests must be honored within 10 business days", "source": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business (fact-checker: 10 business days confirmed via FTC enforcement and staff report snippets; confirm on the guide page)" },
+    { "attribute": "Gmail bulk sender threshold", "value": "a bulk sender sends close to 5,000 or more messages to personal Gmail accounts in 24 hours; once reached, the status is permanent; enforcement ramped up from November 2025 with temporary and permanent rejections", "source": "https://support.google.com/a/answer/14229414" },
+    { "attribute": "Gmail sender requirements", "value": "all senders set up SPF or DKIM; bulk senders set up SPF, DKIM and DMARC, offer one-click unsubscribe for marketing and subscribed messages and honor unsubscribe requests within 48 hours (Google subscription guidelines, support.google.com/mail/answer/15263077), and keep the spam rate in Postmaster Tools below 0.3% (aim for under 0.1%)", "source": "https://support.google.com/a/answer/81126 (fact-checker: confirm the 2-day and 0.1%/0.3% wording on Google's page; snippets came partly from secondary sites)" },
+    { "attribute": "handoff signal (PQL)", "value": "a product-qualified lead is a person or business that has experienced value from the product through a free trial, a limited free plan or other first-hand use", "source": "https://www.techtarget.com/searchcustomerexperience/definition/Product-Qualified-Lead-PQL" },
+    { "attribute": "measurement (holdout)", "value": "a global control group keeps a random 1% to 15% of users from receiving any automated campaigns, so lift is measured against users who got no messages", "source": "https://braze.com/resources/articles/using-global-control-groups-to-measure-the-impact-of-customer-engagement (vendor docs for its own feature; the method itself is tool-neutral)" },
+    { "attribute": "success metrics (outcome)", "value": "activation rate, time to first value and day-7 return rate, each measured before and after the new onboarding ships", "source": "content/services/saas-onboarding-design.json (FAQ 'How do you measure SaaS onboarding success?')" },
+    { "attribute": "AI onboarding expectations", "value": "onboard to an AI feature in stages and tell users what it can do, what it cannot do, how it may change and how they can improve it; mismatched mental models lead to frustration, misuse and abandonment", "source": "https://pair.withgoogle.com/chapter/mental-models/" },
+    { "attribute": "AI assistant handoff", "value": "a visible path to a person after two failed turns, with the chat history passed along so users never repeat themselves", "source": "content/services/chatbot-ui-design.json (deliverable 'Human handoff' + mistake card 'No escape')" },
+    { "attribute": "build route (code vs tool)", "value": "onboarding can be built in code or in tools such as Appcues, Userpilot or Pendo; we design for either", "source": "content/services/saas-onboarding-design.json (FAQ 'Can onboarding tools like Appcues or Userpilot be used?')" },
+    { "attribute": "product tour vs guided first task", "value": "effect on activation: product tour small, guided first task direct; tours fit pointing out one new feature", "source": "content/services/saas-onboarding-design.json (table 'product tours vs guided tasks')" },
+    { "attribute": "decision rule: automate, assist or keep human (unique angle)", "value": "automate a moment when it happens often, the next step is the same for everyone in the segment, and a wrong message costs little; route it to a person when the account is high-fit, the user is stuck on something only context can solve, or a wrong message would cost trust or data", "source": "ui-ux.agency method (SERP gap; no external number). Write as the author's method in the first person, not as a measured finding." }
+  ],
+  "skipgrams": [
+    ["behavior", "trigger"],
+    ["time-based", "fallback"],
+    ["in-app", "email"],
+    ["segment", "role"],
+    ["checklist", "activation"],
+    ["tooltip", "dismiss"],
+    ["holdout", "lift"],
+    ["sales", "handoff"],
+    ["product-qualified lead", "activation"],
+    ["frequency", "cap"],
+    ["suppression", "already"],
+    ["human", "automation"],
+    ["unsubscribe", "onboarding emails"],
+    ["AI assistant", "person"]
+  ],
+  "lexical": {
+    "synonyms": ["automated user onboarding", "onboarding automation", "triggered onboarding", "automated product onboarding", "rule-based onboarding", "lifecycle automation for new users"],
+    "hypernyms": ["user onboarding", "SaaS onboarding", "product-led growth", "lifecycle marketing", "marketing automation", "user experience design"],
+    "hyponyms": ["behavior-triggered in-app guidance", "automated onboarding emails", "AI onboarding assistant", "role-based onboarding paths", "trial nurture sequence", "sales-assisted onboarding"],
+    "meronyms": ["trigger event", "segment condition", "message", "channel", "exit condition", "frequency cap", "holdout group", "event tracking plan", "handoff note", "rule sheet"]
+  },
+  "keywordCarrier": {
+    "primary": "Plain noun phrase, no carrier needed. Use it as a subject ('User onboarding automation decides…') or object ('design user onboarding automation'). Required in: metaTitle (first words), description (first words), first meta keyword, H1, and the first 60 words of the body.",
+    "density": "Word share as QA measures it: max uses = 0.02 × body words ÷ 3. For a 2,700-word body that is at most 18 uses. Aim for 11–15, mostly in bold answers and section openers. Vary with 'automated user onboarding', 'onboarding automation' and the lexical relations. Alt text does not count.",
+    "secondary": {
+      "automated user onboarding": "Noun phrase: 'Automated user onboarding works best when…' (H2 2 or H2 3 opener). Use 1–2 times.",
+      "onboarding automation saas": "Bare string; never write it verbatim in the body. Put it in metaKeywords only. In prose use 'onboarding automation in a SaaS product' or 'SaaS onboarding automation'.",
+      "automated onboarding emails": "Noun phrase, subject of H2 5 ('When should automated onboarding emails take over from in-app messages?').",
+      "automated email sequences for user onboarding": "Use once in H2 5 with an article: 'Fixed automated email sequences for user onboarding go stale the day a user moves ahead of them.' Never stack another noun after it.",
+      "in-app engagement for user onboarding": "Use once in H2 4: 'Most in-app engagement for user onboarding fails for a timing reason, not a copy reason.' Never as a heading.",
+      "ai user onboarding": "Use as 'AI user onboarding' with an article or as a subject: 'AI user onboarding assistants answer setup questions…' (H2 7). Do not write 'ai user onboarding' in lowercase as a bare tag in prose."
+    },
+    "metaTitle": "User Onboarding Automation: What to Automate and Keep Human (59 chars)",
+    "h1": "User onboarding automation: what to automate and what to keep human (67 chars)",
+    "description": "Use as written (156 chars, keyword first, MOFU next step = consultation; no pronouns): 'User onboarding automation for SaaS: which moments to automate, which to keep human, how to design triggers and measure lift. Then book a free consultation.'",
+    "metaKeywords": ["user onboarding automation", "automated user onboarding", "onboarding automation saas", "automated onboarding emails", "ai user onboarding"]
+  },
+  "questions": [
+    "What is user onboarding automation?",
+    "How do you automate the user onboarding process?",
+    "What should you not automate in user onboarding?",
+    "What triggers should start automated onboarding messages?",
+    "Should onboarding guidance be in-app or email?",
+    "How do you measure whether onboarding automation works?",
+    "When should a sales rep or CSM contact a trial user?",
+    "Are onboarding emails transactional or commercial under CAN-SPAM?",
+    "Can an AI assistant handle user onboarding?",
+    "Do you need an onboarding tool to automate onboarding?",
+    "What is the best user onboarding software? (PAA; answer only as 'tools deliver rules; design the rules first', no listicle)"
+  ],
+  "serpGaps": [
+    "Page 1 mixes three meanings: SaaS user onboarding, employee onboarding (zendesk, cloudviewpartners, Power Automate tutorials, Zapier videos) and client onboarding (guidecx, brilo.ai). No result separates them up front, so a searcher has to work out which pages apply to a SaaS product.",
+    "Every SaaS-intent result is written by a tool vendor (moxo, meltingspot, archbee, appcues, userpilot, kompassify, cxgenie, productfruits). Each one argues for automating more through its own product. None gives a vendor-neutral decision rule for which moments to automate, which to assist and which to keep human. The few that mention 'the human touch' (meltingspot, flowla) give no criteria.",
+    "Nobody treats onboarding automation as a designed system. No page explains the parts of one rule (trigger, segment, message, channel, exit and suppression, frequency cap) or warns that missing events make rules misfire.",
+    "Sales-assist and CSM handoff is named but never designed. No result defines the stuck signals, the PQL threshold, or what the person receives (a handoff note with context) so the user never repeats themselves.",
+    "Measurement stops at 'track completion rates'. Only cxgenie mentions holdouts. No page shows how to measure lift against a holdout group, or which rule-level metrics expose a harmful rule (dismiss rate, unsubscribes, spam complaints).",
+    "No result covers US rules that constrain automated onboarding: the CAN-SPAM primary-purpose test and opt-out rule, Gmail's bulk sender requirements (authentication, one-click unsubscribe, spam rate under 0.3%), and WCAG 2.2 AA for tooltips and tour overlays (SC 1.4.13, SC 2.4.11).",
+    "No result says when automation hurts: guidance stacked on a broken screen, messages to users who already did the step, wrong-segment personalization, AI assistants that answer wrongly with no exit. This is where a design team, not a tool, is the answer, which is our lead angle.",
+    "AI onboarding pages (brilo.ai, arahi, cloudapper) sell agents. None applies AI design guidance (Google PAIR: staged onboarding, set expectations) or a handoff rule for an AI assistant."
+  ],
+  "contentModules": {
+    "title": "User onboarding automation: what to automate and what to keep human",
+    "subtitle": "A vendor-neutral design guide for SaaS teams: the automate/assist/human decision, how one rule is built, channel and human handoffs, US email and accessibility rules, and how to prove lift with a holdout.",
+    "intro": "Misfiring-rule intro (see variety.introStyle): one hypothetical automation rule written out in plain English, the reason it sent the wrong message, then the author's point of view and the definition inside the first 60 words.",
+    "dataModules": [
+      { "type": "2×2 decision matrix", "h2": "Which onboarding moments should you automate, and which should stay human?", "what": "Axes: how often the moment happens × cost of a wrong message. Quadrants: automate, automate with a fallback, assist (automation flags, a person acts), keep human. 2–3 example moments per quadrant from the hypothetical analytics SaaS." },
+      { "type": "rule blueprint table", "h2": "What makes up one onboarding automation rule?", "what": "Six parts (trigger, segment, message job, channel, exit/suppression, frequency cap), each with what to define and an example value for one rule." },
+      { "type": "channel handoff table", "h2": "When should automated onboarding emails take over from in-app messages?", "what": "User state (active in session / absent 24h+ / stuck / finished) → channel → what the message does → what suppresses it." },
+      { "type": "signal ladder", "h2": "When should onboarding automation hand a user to a person?", "what": "Rising signals from 'automation only' to 'CSM or sales now', each with the owner and the handoff note fields." },
+      { "type": "ordered step list", "h2": "How do you design an automated onboarding flow, step by step?", "what": "6 steps from activation ladder to staged release behind a holdout." },
+      { "type": "metrics table", "h2": "How do you measure whether user onboarding automation works?", "what": "Rule-level metric → what it tells you → warning sign; plus one outcome row (activation lift vs holdout)." },
+      { "type": "fill-in template (lead asset)", "h2": "How do you design an automated onboarding flow, step by step?", "what": "The onboarding automation rule sheet: one column per rule with moment, trigger event, segment, channel, message job, exit, owner, metric. A 'patch or fix?' column flags rules that only explain a confusing screen." }
+    ]
+  },
+  "outline": [
+    {
+      "h2": "What is user onboarding automation, and what does it leave out?",
+      "answerHint": "**User onboarding automation is the set of rules that watch what a new user does in your product and send the next nudge, in the app, by email or through a person, without anyone choosing each message.** (≤35 words)",
+      "points": [
+        "Scope it to SaaS user onboarding in one short list of what it is NOT: employee onboarding (HR/IT), client onboarding in financial services (identity checks) and tenant provisioning (engineering). The SERP mixes all three, so say this plainly. One sentence on tenant provisioning is enough; the sibling post already cites AWS.",
+        "What gets automated: in-app guidance (checklists, tooltips, short tours, empty-state prompts), automated onboarding emails, and alerts that route a user to a person. What does not: the screens themselves. Automation sits on top of sign-up, setup and empty states.",
+        "Link the sibling as the broader guide: 'For the whole path from sign-up to first value, start with our SaaS onboarding guide' → /blog/saas-onboarding/. Do NOT redefine SaaS onboarding, the activation event or the five stages here.",
+        "First UP link to the hub can sit here or in H2 2 (inside the first 40% of the body): our SaaS onboarding design work designs both the screens and the guidance on top.",
+        "Bridge: 'The real question is not how to automate, but which moments deserve it.'"
+      ]
+    },
+    {
+      "h2": "Which onboarding moments should you automate, and which should stay human?",
+      "answerHint": "**Automate the moments that happen often, need the same next step for everyone in a segment and cost little when a message is wrong; keep a person on moments where context, account value or trust decides the outcome.**",
+      "points": [
+        "THE CORE SERP GAP. Present it as the author's decision rule in the first person ('I sort every onboarding moment on two questions…'), not as research.",
+        "Visual: automate/assist/human matrix (visuals[0]). Quadrants: (1) frequent + low cost of a wrong message → automate (e.g., welcome prompt, checklist reminder, a tip when a user opens the chart builder for the first time); (2) frequent + higher cost → automate with a fallback and an easy exit (e.g., data-connection error help); (3) rare + high cost → assist, meaning automation flags and a person acts (e.g., a high-fit account stuck on warehouse permissions); (4) rare + needs judgment → keep human (e.g., security review questions, custom data mapping, a frustrated admin). Use the hypothetical analytics SaaS from the intro.",
+        "Write 'Automated user onboarding works best when…' here (secondary carrier).",
+        "A trap to name: automating a moment because the tool makes it easy, not because users need it.",
+        "Bridge: 'Once a moment earns automation, it becomes a rule, and a rule has parts.'"
+      ]
+    },
+    {
+      "h2": "What makes up one onboarding automation rule?",
+      "answerHint": "**Every onboarding automation rule has six parts: a trigger event, a segment, a message job, a channel, an exit or suppression condition, and a frequency cap.**",
+      "points": [
+        "Rule blueprint table (introduce in one sentence, then a 'Table:' line). Rows: trigger (a product event such as 'warehouse_connected' or its absence after a set time); segment (role, plan, use case from the welcome answer); message job (one verb: connect, invite, try, fix); channel; exit/suppression (stop the moment the user does the thing, or when a higher-priority rule fires); frequency cap (a per-user daily limit across all rules, set by the team; do not invent a number as a benchmark).",
+        "Behavior-based triggers come first, time-based fallback second: a time rule only catches users who never produce the event. Say why (time rules nag users who already finished on another device).",
+        "Event tracking plan: rules are only as good as the events behind them. Name Mixpanel or Amplitude as where those events live, and tie back to the intro rule that misfired because the API-connection path sent no event.",
+        "Tools model rules this way (Userpilot docs: segments from user, company, feature and event data reused as triggers); the same logic can live in code. One sentence; no tool comparison.",
+        "Visual: rule blueprint card (visuals[1]).",
+        "Bridge to in-app guidance: the channel that sits closest to the action."
+      ]
+    },
+    {
+      "h2": "How do you design behavior-based in-app guidance that users don't dismiss?",
+      "answerHint": "**In-app guidance gets used when it appears at the moment of the task it explains, offers one action, closes in one click and retires itself once the user succeeds.**",
+      "points": [
+        "Carry 'in-app engagement for user onboarding' once (see carrier).",
+        "NN/g push vs pull revelations (cite help-and-documentation): help shown regardless of the task gets ignored; help tied to the current task gets used. Turn that into trigger design: each guidance type gets a trigger type. Checklist: always visible, updates on events. Tooltip: on first hover or first visit to a control. Short tour: only for one new feature, on request. Empty-state prompt: when the screen is empty.",
+        "NN/g mobile tutorials study (70 users, 4 apps, view vs skip groups). State only what the fact-checker confirms; if unconfirmed, cite only the setup or drop it.",
+        "Guidance lifecycle (unique): every guide needs a retire rule (stop showing after success or after N dismissals, a number the team sets) and a way back (help menu). Do not rebuild the sibling's 'five first-run patterns' list or the hub's tours-vs-tasks table; one sentence plus a deep link only if the link builder allows (see internalTargets).",
+        "Accessibility, US frame: WCAG 2.2 AA. SC 1.4.13: tooltips dismissible (Esc), hoverable, persistent. SC 2.4.11: tour popovers and sticky banners must not fully hide the focused control. Name ADA/Section 508 once as the US frame for WCAG 2.2 AA; no legal claims beyond that.",
+        "Bridge: 'In-app guidance only reaches people who are in the app. When they leave, email takes over.'"
+      ]
+    },
+    {
+      "h2": "When should automated onboarding emails take over from in-app messages?",
+      "answerHint": "**Automated onboarding emails should take over only when the user has left the product, carry the same single next step the in-app guide was showing, and stop the moment that step is done.**",
+      "points": [
+        "Channel handoff table (visuals[2] + astext): active in session → in-app; absent for a while → email; stuck → person (H2 6); finished → suppress everything for that step. A shared suppression list across channels so a user never gets the in-app prompt and the email for the same step.",
+        "Carry 'automated email sequences for user onboarding' once (carrier): fixed sequences go stale when users move faster or slower than the schedule; time is a fallback, not the plan. Do NOT rebuild the sibling's trigger → message → screen table; link it as text or deep link (see internalTargets).",
+        "US rules, stated carefully and sourced: CAN-SPAM primary-purpose test (FTC). An onboarding email about using the account can be transactional or relationship content, but an upgrade pitch makes it commercial, and a customer relationship alone does not make a message transactional. Commercial email needs an opt-out honored within 10 business days. Add one line: this is not legal advice; ask counsel.",
+        "Gmail sender rules (Google): bulk status at close to 5,000 messages a day to personal Gmail accounts; SPF, DKIM and DMARC; one-click unsubscribe for marketing and subscribed mail; spam rate below 0.3% in Postmaster Tools. Design consequence: fewer, behavior-triggered emails protect deliverability for the password resets and invites that must arrive. If you also sell in the EU, GDPR adds consent rules (one clause only).",
+        "Bridge: 'Some users need neither a prompt nor an email. They need a person.'"
+      ]
+    },
+    {
+      "h2": "When should onboarding automation hand a user to a person?",
+      "answerHint": "**Onboarding automation should hand a user to a person when a high-fit account stalls on a step only context can solve, when product use crosses your product-qualified lead threshold, or when the user asks.**",
+      "points": [
+        "Signal ladder visual (visuals[3]) from low to high: (1) automation only; (2) automation + help-center or chat offer after a repeated error; (3) CSM alert for a high-fit account stuck on setup (e.g., the warehouse connection fails twice; use as an illustrative rule, not a benchmark); (4) sales-assist when product use crosses the PQL threshold (TechTarget definition: a lead that has experienced value through trial or free use); (5) the user asks for a person, which always wins.",
+        "Sales-assist handoff design: what the person receives (handoff note with role, plan, steps done, last error, what automation already sent) and what automation does next (pause all onboarding rules for that user so the person and the bot do not talk over each other).",
+        "Admin vs invited member: tie in once (link sibling idea, no restating). Admins of high-fit accounts are the usual handoff candidates.",
+        "Do not invent PQL thresholds or conversion lifts. Tell the reader to set the threshold from their own activation event (link sibling's activation section in text only if the link cap allows).",
+        "Bridge to AI: 'More teams now put an AI assistant between the user and the person.'"
+      ]
+    },
+    {
+      "h2": "Where does AI fit in user onboarding automation?",
+      "answerHint": "**AI fits in user onboarding automation as an assistant that answers setup questions in the user's own words and drafts help, as long as it says what it can't do and hands off to a person fast.**",
+      "points": [
+        "Carry 'AI user onboarding' once (carrier).",
+        "Google PAIR Mental Models chapter: onboard in stages; tell users what the AI can do, cannot do, how it may change and how to improve it; mismatched expectations lead to frustration, misuse and abandonment.",
+        "Our chatbot hub practice: a visible path to a person after two failed turns, with chat history passed along. Link the chatbot UI design hub here (the post's ONE cross-hub link).",
+        "Where AI helps in onboarding: answering 'how do I connect X' in natural language, suggesting the next step from the user's data, drafting the CSM handoff note. Where it should not act alone: permissions, billing, data deletion, anything with a cost of a wrong answer (link back to the matrix in H2 2).",
+        "Note for AI-product founders: if your product itself is AI, onboarding must also set expectations about its answers (PAIR). One or two sentences; no new section.",
+        "No vendor AI-agent claims or numbers (see notes 'do not use')."
+      ]
+    },
+    {
+      "h2": "How do you design an automated onboarding flow, step by step?",
+      "answerHint": "**Design an automated onboarding flow in six steps: name the milestones, map the moments, write one rule per moment, prototype the messages on real screens, test with new users, then release behind a holdout.**",
+      "points": [
+        "Ordered list (ol). 1) Name 3–6 milestones up to your activation event (link the sibling for how to pick the event; do not redefine it). 2) Map each moment where users stall, from analytics and session recordings. 3) Write one rule per moment in the rule sheet. 4) Prototype the messages on the real screens, in context, including dismissed and finished states. 5) Test with new users. The hub interviews 5 to 8 recent sign-ups; say 'we' only for that hub fact. 6) Release in stages behind a holdout (H2 9).",
+        "First-person method from Talha ('I prototype every tooltip on the screen it sits on, never in a slide'). No invented anecdotes.",
+        "Lead asset: the onboarding automation rule sheet (visuals[5] + astext table with 2 illustrative rows). Columns: moment, trigger event, segment, channel, message job, exit, owner, metric, patch or fix? The last column flags any rule whose job is to explain a confusing screen. That feeds the CTA angle.",
+        "Do not reuse the hub's 4-step process names (funnel review, user interviews, redesign and prototype, release and measure). Label steps by what the team produces.",
+        "Bridge: 'Shipping the rules is half the job; proving they help is the other half.'"
+      ]
+    },
+    {
+      "h2": "How do you measure whether user onboarding automation works?",
+      "answerHint": "**Measure user onboarding automation against a holdout group: compare activation for users who got the rules with a random group that didn't, then check each rule's own metrics for harm.**",
+      "points": [
+        "Holdout: Braze's global control group keeps a random 1% to 15% of users out of all automated campaigns (cite Braze as one example; the method is tool-neutral). Without a holdout, a team credits the emails for activation that would have happened anyway.",
+        "Metrics table (visuals[4] + astext). Rule-level rows: trigger rate (how often the rule fires; too high often means a missing event), completion after trigger, dismiss rate, unsubscribe and spam complaint rate (tie to Gmail's 0.3% ceiling), handoff acceptance (did the CSM act?). Outcome row: activation rate, time to first value and day-7 return rate versus holdout (hub's three metrics; deep link optional per caps).",
+        "Do not present any benchmark rate for these metrics. No vendor numbers.",
+        "Do not reuse the keyword 'user onboarding metrics' (hub FAQ and sibling own activation measurement).",
+        "Bridge: 'Sometimes the numbers say the rules make things worse.'"
+      ]
+    },
+    {
+      "h2": "When does onboarding automation hurt more than it helps?",
+      "answerHint": "**Onboarding automation hurts when it patches a confusing screen, fires on missing or wrong events, stacks messages from several rules, or traps users with no exit; the fix then belongs in the product, not in another rule.**",
+      "points": [
+        "Five failure modes, as H3s or a reasoned list (situation + because): (1) Patching a screen: rules whose job is 'explain' instead of 'nudge' usually point to a design problem (empty states, setup wizard, sign-up). (2) Bad events: rules fire on users who already did the step. (3) Stacking: three rules hit one user on one day (frequency cap and priority fix this). (4) Wrong segment: personalization from a welcome answer the user picked at random. (5) No exit: tours with no close, AI with no handoff, emails with no unsubscribe.",
+        "LEAD ANGLE (see leadAngle). Pull the 'patch or fix?' column from the rule sheet. If more than a few rules say 'patch', the screens underneath need redesign. Describe the hub engagement in hub facts only: 3 to 6 weeks, 4 steps, $15,000–$45,000 (deep link to the hub cost section), measured by activation rate, time to first value and day-7 return rate, built in code or in Appcues, Userpilot or Pendo.",
+        "Pillar mention once: SaaS product design (/services/saas-products/) for teams whose problems go well past onboarding. Do not link saas-product-redesign (cross-hub cap; see internalTargets).",
+        "Natural invitation (first person + we): 'We design the screens and the rules together, so the rules have less to explain.' No promise of a free audit, call length or deliverables the hub does not list."
+      ]
+    },
+    {
+      "h2": "Bottom line",
+      "answerHint": "2–4 sentences, before the FAQs. Not counted in the 10 content H2s.",
+      "points": [
+        "Restate the one idea: automate frequent, low-risk moments with behavior-based rules; keep people on high-context moments; fix screens before adding rules.",
+        "The author's recommendation as one first-person sentence with NO label (not 'My recommendation:'; that label is used in fingerprints).",
+        "CTA (MOFU): fill in the rule sheet; for the rules marked 'patch', book a free consultation so a senior designer can look at the screen behind them. Second UP link to the hub (vary the anchor)."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Is user onboarding automation the same as employee onboarding automation?", "a": "No. User onboarding automation guides new customers inside a software product. Employee onboarding automation sets up accounts, equipment and paperwork for new hires. The tools, owners and metrics are different." },
+    { "q": "Do you need an onboarding tool to automate user onboarding?", "a": "No. Product events, an email platform and in-app components built in code can run the same rules. Tools such as Appcues, Userpilot or Pendo let product teams change guidance without a release; we design for either route." },
+    { "q": "How many automated onboarding messages should a new user get?", "a": "There is no fixed number. Set a per-user daily cap across all rules, give each moment one channel, and stop every rule the moment the user completes its step." },
+    { "q": "Are onboarding emails transactional under CAN-SPAM?", "a": "It depends on the primary purpose. Under the FTC's guidance, an email that mainly helps a customer use an account they signed up for can be transactional or relationship content, while an upgrade pitch makes it commercial and requires an opt-out. Ask your counsel about your own messages." },
+    { "q": "Can an AI assistant replace human onboarding?", "a": "No. An AI assistant can answer setup questions and suggest next steps, but it needs a clear path to a person, with the conversation passed along, for anything involving permissions, billing, data or a frustrated customer." }
+  ],
+  "internalTargets": [
+    { "href": "/services/saas-products/saas-onboarding-design/", "anchor": "SaaS onboarding design", "priority": "required", "where": "Early (H2 1 or H2 2, inside the first 40% of the body), then again in the Bottom line with a varied anchor (e.g., 'redesign the screens behind your onboarding rules').", "verified": "content/services/saas-onboarding-design.json (category 'SaaS products' → pillar slug saas-products in content/pillars.ts; same URL the published sibling links)" },
+    { "href": "/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost", "anchor": "what an onboarding redesign costs", "priority": "required", "where": "H2 10, the price sentence. Do not restate the hub's price drivers.", "verified": "hub h2 'How much does SaaS onboarding design cost?' → sectionId() rule (lowercase, non-alphanumerics to '-')" },
+    { "href": "/services/saas-products/saas-onboarding-design/#saas-onboarding-design-product-tours-vs-guided-tasks", "anchor": "product tours vs guided tasks", "priority": "skip", "why": "Hub link cap of 2 per post (link-builder practice in product-discovery). The root and cost links are worth more. Mention the comparison in text without a link.", "verified": "hub h2 'SaaS onboarding design: product tours vs guided tasks' → sectionId()" },
+    { "href": "/blog/saas-onboarding/", "anchor": "our SaaS onboarding guide", "priority": "required", "where": "H2 1, as the broader guide (the cannibalization guard asks for it). This is the SIDEWAYS link in the same silo.", "verified": "content/blog/saas-onboarding.md (published, draft: false)" },
+    { "href": "/blog/saas-onboarding/#how-do-saas-onboarding-emails-fit-the-in-app-flow", "anchor": "map each onboarding email to the screen it opens", "priority": "conditional", "why": "Blocker: the link builder's 'one link per target page' rule. If it counts fragments as the same target as /blog/saas-onboarding/, skip and keep the sentence as plain text. If fragments count separately, place it in H2 5 instead of rebuilding the trigger-to-screen table.", "verified": "saas-onboarding.md H2 'How do SaaS onboarding emails fit the in-app flow?' → slugify() in lib/blog.ts" },
+    { "href": "/blog/saas-onboarding/#where-does-saas-onboarding-end", "anchor": "how to choose your activation event", "priority": "conditional", "why": "Same blocker as above. The hub FAQ already uses this fragment, so it resolves. Place it in H2 8 step 1 if allowed.", "verified": "saas-onboarding.md H2 'Where does SaaS onboarding end?'; also linked from the hub FAQ" },
+    { "href": "/services/saas-products/", "anchor": "SaaS product design", "priority": "required", "where": "H2 10, one mention (pillar / silo parent, not a separate service hub).", "verified": "content/pillars.ts slug 'saas-products'" },
+    { "href": "/services/ai-products/chatbot-ui-design/", "anchor": "chatbot UI design", "priority": "required", "where": "H2 7, the sentence on handoff after two failed turns. This is the post's ONE cross-hub link (RULES.md silo rule).", "verified": "content/services/chatbot-ui-design.json (category 'AI products' → pillar slug ai-products)" },
+    { "href": "/services/saas-products/saas-product-redesign/", "anchor": "SaaS product redesign", "priority": "skip", "why": "Cross-hub cap of 1, and chatbot-ui-design is the better topical fit. The sibling post already links it. Override only if the owner accepts two cross-hub links.", "verified": "content/services/saas-product-redesign.json" },
+    { "href": "/case-studies/tradezella/", "anchor": "TradeZella", "priority": "skip", "why": "The only case study that mentions onboarding ('No onboarding guide. First-time traders had nothing to walk them through setup.'), and the sibling post already uses that exact point in its 'designer, not a tool' H2. Reusing it repeats the sibling. No case study describes onboarding automation work, so there is no honest DOWN link. The MOFU template CTA carries a case-study card.", "verified": "content/case-studies/tradezella.md line 43" },
+    { "href": "/contact/", "anchor": "book a free consultation", "priority": "required", "where": "Bottom line CTA only (MOFU: case study + consultation).", "verified": "app/contact/page.tsx (linked by the sibling post)" }
+  ],
+  "externalSources": [
+    { "url": "https://www.nngroup.com/articles/help-and-documentation/", "why": "Primary: NN/g push vs pull revelations; help tied to the current task beats help shown on launch. H2 4." },
+    { "url": "https://www.nngroup.com/articles/mobile-tutorials/", "why": "Primary: NN/g study of deck-of-cards tutorials (70 users, 4 apps, view vs skip groups). H2 4. Fact-checker must confirm the finding before the writer states it." },
+    { "url": "https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus", "why": "Primary (W3C): SC 1.4.13 dismissible, hoverable, persistent, for tooltips. H2 4." },
+    { "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured.html", "why": "Primary (W3C): SC 2.4.11 Focus Not Obscured (Minimum), for tour popovers and sticky banners. H2 4." },
+    { "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business", "why": "Primary (US regulator): CAN-SPAM primary-purpose test, transactional/relationship vs commercial, opt-out within 10 business days. H2 5 and FAQ 4." },
+    { "url": "https://support.google.com/a/answer/81126", "why": "Primary (Google): email sender guidelines; authentication, one-click unsubscribe, spam rate below 0.3%. H2 5 and H2 9. The search returned it as support.google.com:443/a/answer/81126 (same page)." },
+    { "url": "https://support.google.com/a/answer/14229414", "why": "Primary (Google): sender guidelines FAQ; bulk sender at close to 5,000 messages a day to personal Gmail accounts, permanent status, enforcement from November 2025. H2 5." },
+    { "url": "https://www.techtarget.com/searchcustomerexperience/definition/Product-Qualified-Lead-PQL", "why": "Definition reference (publisher, not a vendor): product-qualified lead. H2 6." },
+    { "url": "https://braze.com/resources/articles/using-global-control-groups-to-measure-the-impact-of-customer-engagement", "why": "Vendor's own documentation of its feature: a global control group of 1% to 15% of users who get no campaigns. H2 9. Present as one example of a tool-neutral method." },
+    { "url": "https://pair.withgoogle.com/chapter/mental-models/", "why": "Primary (Google PAIR): staged onboarding for AI; tell users what the AI can and cannot do; mismatched mental models lead to abandonment. H2 7." },
+    { "url": "https://docs.userpilot.com/getting-started/what-does-userpilot-offer", "why": "Vendor docs, used only to show how onboarding tools model segments and behavior-based triggers. H2 3. Optional citation; do not quote marketing claims." }
+  ],
+  "visuals": [
+    { "type": "2×2 decision matrix", "file": "onboarding-automation-decision-matrix.svg", "idea": "Axes: 'how often the moment happens' (rare → frequent) and 'cost of a wrong message' (low → high). Quadrants: Automate / Automate with a fallback / Assist (automation flags, a person acts) / Keep human, each with 2–3 example moments from the hypothetical analytics SaaS. Must not look like the 2×2 risk matrix of saas-product-redesign: use labeled quadrant cards, not a plotted risk grid. Text panel: the four quadrants with examples." },
+    { "type": "rule blueprint card", "file": "onboarding-automation-rule-blueprint.svg", "idea": "One rule drawn as a horizontal blueprint strip: trigger event → segment → message job → channel → exit/suppression, with a frequency-cap meter above it. Filled with one illustrative rule ('warehouse not connected 24 hours after sign-up, admin role → email, opens the connection screen; stops when warehouse_connected fires'). Text panel: the six parts with the example values." },
+    { "type": "channel relay strip", "file": "onboarding-channel-handoff.svg", "idea": "A relay: in-app (user active) passes to email (user away) passes to a person (user stuck or high-fit), with a shared 'suppress when done' gate under all three lanes. Must not look like the sibling's admin/member swimlane: use a baton-pass layout with three stations, not parallel lanes. Text panel: the channel handoff table." },
+    { "type": "signal ladder", "file": "onboarding-human-handoff-ladder.svg", "idea": "Five rungs from 'automation only' to 'user asks for a person', each with its signal, the owner (product, support, CSM, sales) and a small handoff-note card on the side listing what the person receives. Not the escalation ladder style of is-discovery-phase-worth-it: draw it vertically with owner avatars as icons, not rung labels only. Text panel: the five signals with owners and the note fields." },
+    { "type": "holdout comparison chart", "file": "onboarding-automation-holdout.svg", "idea": "Two cumulative activation curves over the first 14 days, 'rules on' vs 'holdout', with the gap labeled 'lift you can credit to automation'. Clearly marked 'illustrative, no real data' and without axis numbers presented as benchmarks. Beside it, a small table of rule-level warning signs. Text panel: the metrics table." },
+    { "type": "fill-in rule sheet", "file": "onboarding-automation-rule-sheet.svg", "idea": "The lead asset as a spreadsheet-style template: columns moment, trigger event, segment, channel, message job, exit, owner, metric, patch or fix?; 2 illustrative rows filled, 4 blank. A highlighted 'patch' cell shows how the sheet flags screens to redesign. Must not resemble the sibling's 12-point audit grid or the RFP 'fill-in template tables' look: use a ruled worksheet with a sticky-note callout. Text panel: the columns and the two example rows." }
+  ],
+  "leadAngle": "The moment: H2 10. The reader has filled in the rule sheet and sees several rules whose job is to explain a confusing screen (the 'patch or fix?' column). That is the signal that automation is papering over sign-up, setup or empty states, which no rule can fix. Offer: our SaaS onboarding design service redesigns those screens and designs the guidance on top, in hub facts only (3 to 6 weeks, 4 steps, $15,000–$45,000, measured by activation rate, time to first value and day-7 return rate, built in code or in Appcues, Userpilot or Pendo). Mid-post soft invitation at the end of H2 4 or H2 6: one sentence that we design in-app guidance and handoffs as part of onboarding work. Closing: 'For every rule marked patch, book a free consultation and a senior designer will look at the screen behind it.' Do not promise a free audit, a reply time other than the site standard (within one business day, ET) or deliverables the hub does not list.",
+  "variety": {
+    "type": "Guide",
+    "introStyle": "Misfiring-rule intro: open on one hypothetical automation rule written as a plain-English sentence in a normal paragraph (e.g., 'When a trial is 3 days old and the setup checklist is under half done, send \"Need a hand getting started?\"'). Then say why it misfired: in a hypothetical US revenue-analytics SaaS, the admin connected the data warehouse through the API, that path sent no event, and the email nagged an already active user. Follow with Talha's first-person point of view and the definition within 60 words. Do NOT use a blockquote log or a timestamped list (that device is used by saas-onboarding and product-discovery). Intro styles already used site-wide: buyer scenario, myth, data point with source, question, definition, mini case, contrarian take, timed first-run log, kill-list decision log, itemized receipt. A misfiring rule is new.",
+    "h2Frames": ["what + scope (what it leaves out)", "which (automate vs human)", "what makes up (anatomy of a rule)", "how (in-app guidance design)", "when (email vs in-app)", "when (human handoff)", "where (AI)", "how step by step + template", "how to measure (holdout)", "when it hurts", "Bottom line", "FAQs"],
+    "sectionOrder": "scope → automate/assist/human decision → rule anatomy → in-app → email → person → AI → design steps + rule sheet → holdout measurement → failure modes + lead → Bottom line → FAQs. It moves from the decision, through the channels in escalating order, to proof and failure. saas-onboarding went definition → user vs customer → end point → stages → cut → patterns → roles → emails → audit → designer vs tool. product-discovery went definition → risks → stages → agile → phase length → AI → plan → example → checklist → partner. This order matches neither.",
+    "visualTypes": ["2×2 decision matrix (quadrant cards)", "rule blueprint strip", "channel relay strip", "vertical signal ladder with owners", "holdout comparison chart (illustrative)", "fill-in rule sheet worksheet"],
+    "ctaAngle": "rules marked 'patch' in your rule sheet → book a free consultation on the screen behind them. Not 'send the recording', 'send your funnel', 'send your brief', 'send your three riskiest assumptions', 'bring your baseline sheet' or 'run the checklist on your next AI idea'.",
+    "listStyle": "quadrant cards + key–value rule blueprint + channel table + rung ladder + ordered design steps + fill-in worksheet + reasoned failure list (situation + because)",
+    "closingRule": "End the Bottom line with one first-person recommendation sentence and no label. 'My recommendation:' is used in saas-onboarding.",
+    "differsFrom": "Last 3 site-wide fingerprints: product-discovery (2026-10-15), saas-onboarding (2026-10-13), mobile-app-design-agency-vs-freelancer. Silo: saas-onboarding is the only post. Nearest structural relative: saas-onboarding (same hub, same audience)."
+  },
+  "fingerprintCheck": {
+    "vs_saas-onboarding (same silo, nearest relative)": "Differs on intro (misfiring rule vs timed first-run blockquote log), H2 frames (automate-vs-human, rule anatomy, channel and human handoffs, AI, holdout, failure modes vs definition/user-vs-customer/end point/stages/cut/patterns/roles/emails/audit/designer), section order, visual types (matrix, blueprint, relay, ladder, holdout chart, rule sheet vs comparison table, process flow, straight-line sort, empty-state anatomy, swimlane, audit grid), CTA angle (patch list → consultation vs send the recording) and list style. Type 'Guide' repeats. 6 of 7 differ. Do NOT reuse: the scheduling-SaaS example, stopwatch/timed log, Slack 2,000 messages, the Userpilot 37.5% benchmark, the Bowling Alley straight line, the empty-state anatomy, the five first-run patterns list, the email trigger → screen table, the 12-point audit, the TradeZella sentence or the 'My recommendation:' label.",
+    "vs_product-discovery": "Differs on intro (misfiring rule vs kill-list log), H2 frames, section order, visuals (no dual-track loop, risk card, stage strip, check grid, timeline or exit gate), CTA (consultation on patched screens vs free checklist), list style. Type 'Guide' repeats. 6 of 7 differ. The AI H2 here is about onboarding assistants, not AI feature discovery; do not reuse the five AI checks or Gartner/RAND figures.",
+    "vs_mobile-app-design-agency-vs-freelancer": "Differs on type (Guide vs Comparison), intro, H2 frames, visuals, CTA and list style. 7 of 7 differ.",
+    "result": "Passes the RULES.md variety rule: at least 4 of 7 dimensions differ from each of the last 3 site-wide posts and from the single silo post."
+  },
+  "overlapCheck": {
+    "method": "Manual check, because this run had no shell to run the 5-gram script. (1) Compared every planned H2 with every published H2 of content/blog/saas-onboarding.md for shared word 5-grams. (2) Compared the planned answerHints and outline points with the published body for its distinctive multi-word phrases (scheduling example, 'straight line', 'behavior-triggered emails … open the exact step', 'activation event' definitions, audit items). QA must still run the 5-gram body check on the draft.",
+    "headingOverlap": "0 shared 5-grams across 10 planned H2s vs 10 published H2s. The closest pairs: 'How do SaaS onboarding emails fit the in-app flow?' vs 'When should automated onboarding emails take over from in-app messages?' share only 'onboarding emails' and 'in-app'. 'When does SaaS onboarding need a designer, not a tool?' vs 'When does onboarding automation hurt more than it helps?' share only 'when does'. 'What is SaaS onboarding, from a designer's view?' vs 'What is user onboarding automation, and what does it leave out?' share only 'what is'.",
+    "intentOverlap": "Published post owns: the definition of SaaS onboarding, user vs customer onboarding, the activation event and its 3 metrics, the 5-stage process, the cut method, first-run patterns, admin/member paths, the email trigger → screen table, the 12-point audit, and 'designer vs tool'. This brief touches 4 of those only by link or one sentence (activation event, emails table, admin/member, tool vs design) and owns a new intent: which moments to automate vs keep human, rule anatomy, channel and human handoffs, AI assistants, holdout measurement, US email and accessibility rules, and failure modes.",
+    "residualRisk": "H2 5 (emails) and H2 10 (when automation hurts) sit closest to the sibling. Writer: in H2 5, do not list trigger → message → screen rows; in H2 10, frame it as rule failure modes, not 'tool vs designer'. QA: run the 5-gram check against saas-onboarding.md; target ≤ 5%.",
+    "result": "PASS at outline level (0 heading 5-grams; distinct intent). Body overlap to be verified by QA on the draft."
+  },
+  "rejectedCandidates": [
+    { "keyword": "user onboarding software / user onboarding tools / best user onboarding software (400 / 150 / 90)", "why": "Tool-buyer intent with vendor listicles on page 1 (productfruits '24 tools'). A design agency cannot satisfy it. Answered in one FAQ as 'tools deliver rules; design the rules first'." },
+    { "keyword": "user onboarding metrics (80, KD 1) / user onboarding analytics (50)", "why": "The hub FAQ 'How do you measure SaaS onboarding success?' and the sibling's activation section own activation measurement. This post measures automation lift with a holdout and avoids the phrase." },
+    { "keyword": "user onboarding emails (200) / saas onboarding emails", "why": "The sibling post owns 'saas onboarding emails' (its secondary and its H2). The post uses 'automated onboarding emails' only for the channel-handoff angle." },
+    { "keyword": "user onboarding flow / user onboarding ux / user onboarding best practices", "why": "The sibling's secondaries or parent topics. Targeting them would cannibalize /blog/saas-onboarding/." },
+    { "keyword": "ai user onboarding (80, KD 9)", "why": "Folded in as a secondary and H2 7, not chosen as primary: lower traffic potential (none recorded), and the AI angle alone would drift from the hub (onboarding design) toward the chatbot hub." },
+    { "keyword": "employee onboarding automation / client onboarding automation (SERP rows)", "why": "Different meaning (HR/IT, financial-services client onboarding). Off-audience, and ruled out in H2 1." },
+    { "keyword": "user onboarding checklist (100, KD 17)", "why": "Parent topic is 'new client checklist template' (customer-success/HR intent). It overlaps the sibling's 12-point audit and the hub's checklist part." },
+    { "keyword": "'What are the 5 C's of effective onboarding?' (PAA)", "why": "The 5 C's are an HR employee-onboarding framework. Do not use it." }
+  ],
+  "related": {
+    "linkBuilderRun": "2026-10-16",
+    "internalLinks": [
+      { "href": "/services/saas-products/saas-onboarding-design/", "anchor": "SaaS onboarding design", "where": "Intro paragraph 3 (about word 200; moved from H2 1, where the marker sat at about word 395, to meet the first-300-words rule)" },
+      { "href": "/blog/saas-onboarding/", "anchor": "our SaaS onboarding guide", "where": "H2 1, sideways link to the broader guide" },
+      { "href": "/blog/saas-onboarding/#how-do-saas-onboarding-emails-fit-the-in-app-flow", "anchor": "map each onboarding email to the screen it opens", "where": "H2 5. Kept as the one allowed second deep link into the sibling: the sentence tells the reader the table lives there ('so I won't rebuild that table here')." },
+      { "href": "/services/ai-products/chatbot-ui-design/", "anchor": "chatbot UI design", "where": "H2 7, the post's one cross-hub link" },
+      { "href": "/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost", "anchor": "what that redesign costs", "where": "H2 10 price sentence; the late UP link (hub link 2 of 2)" },
+      { "href": "/services/saas-products/", "anchor": "SaaS product design", "where": "H2 10, pillar (silo parent), not another service hub" },
+      { "href": "/contact/", "anchor": "book a free consultation", "where": "Bottom line CTA" }
+    ],
+    "internalCount": "7 body links, 6 unique targets (MOFU 6–10). Hub links 2 of 2 (root + #cost).",
+    "internalCountException": "0 case-study links: no case study describes onboarding automation work (brief internalTargets: TradeZella skipped, already used by the sibling). The MOFU template CTA carries a case-study card. 0 industry links: frontmatter industries is empty.",
+    "droppedInternalMarkers": [
+      "Bottom-line second hub link ('redesign the screens behind your onboarding rules'): over the 2-link hub cap once #cost is kept. Sentence rewritten to 'the screens behind your onboarding rules need a redesign, not another rule.'",
+      "/blog/saas-onboarding/#where-does-saas-onboarding-end (H2 8 step 1): third link into the same post, and H2 1 already points to that guide for choosing the activation event. The sentence 'The broader guide explains how to choose your activation event.' was removed.",
+      "H2 1 'That's why our SaaS onboarding design work starts with the screens': the hub link moved to the intro, so this sentence now uses no hub head phrase ('The screens under them still decide how much a rule has to explain, so we redesign…').",
+      "Two sentences that pointed at a page the reader could not click were reworded: 'Our service page's comparison of product tours vs guided tasks rates…' became 'In our onboarding work, we rate…', and 'the 3 metrics on our service page' became 'the 3 metrics we track in our onboarding projects'."
+    ],
+    "externalSources": [
+      { "url": "https://www.nngroup.com/articles/help-and-documentation/", "status": "verified (nngroup.com-restricted search; snippet shows the push/pull definitions)" },
+      { "url": "https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html", "status": "verified; URL swapped to the search-returned '.html' form" },
+      { "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html", "status": "verified; URL CORRECTED: the brief's 'focus-not-obscured.html' never came back in a search, and the returned page slug is 'focus-not-obscured-minimum'" },
+      { "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business", "status": "verified (primary purpose, 10 business days, subscribers keep opt-out rights)" },
+      { "url": "https://support.google.com/mail/answer/81126?hl=en", "status": "verified via search snippet (SPF/DKIM/DMARC, one-click unsubscribe for marketing and subscribed messages, 0.3%); the 2-day figure appears as '48 hours' in Google's enforcement wording. Swapped from /a/answer/81126 to the Gmail Help URL the search returned." },
+      { "url": "https://support.google.com/mail/answer/14229414?hl=en", "status": "verified (close to 5,000 to personal Gmail accounts in 24 hours, permanent bulk status, enforcement ramp-up with temporary and permanent rejections). Linked once; the November 2025 sentence is plain text." },
+      { "url": "https://www.techtarget.com/enterprise-software/definition/product-qualified-lead-PQL", "status": "verified; URL CORRECTED from /searchcustomerexperience/definition/Product-Qualified-Lead-PQL (not returned). Wording aligned to 'limited-feature version' / 'first-hand experience'." },
+      { "url": "https://pair.withgoogle.com/chapter/mental-models/", "status": "verified (onboard in stages; can/can't do, change, improve; unmet expectations, frustration, misuse, abandonment)" },
+      { "url": "https://www.braze.com/docs/user_guide/audience/global_control_group", "status": "verified; swapped from the resources article to the Braze docs page, because the 1%–15% range and the 'at least one month' advice came back in docs snippets and the post says 'documents' and 'documentation'" }
+    ],
+    "removedExternalLinks": [
+      { "url": "https://docs.userpilot.com/getting-started/what-does-userpilot-offer", "why": "Optional vendor docs. The sentence stays as a named plain-text citation ('Userpilot's documentation describes…'). The segment wording is supported by https://docs.userpilot.com/users-companies/segments and flow audiences by https://docs.userpilot.com/in-app-engagement/flows/getting-started/flow-settings, not clearly by the overview URL." }
+    ],
+    "externalCountNote": "9 external links, above the link-builder's 2–5 default. Kept because the orchestrator asked for every named source marker to be linked. If the cap is enforced, keep FTC, Google 81126, W3C 1.4.13, Braze and PAIR, and turn NN/g, W3C 2.4.11, Google 14229414 and TechTarget into named plain-text citations."
+  },
+  "backlinkSuggestions": [
+    {
+      "source": "content/services/saas-onboarding-design.json → sections 'SaaS onboarding design FAQs' → faq 'Can onboarding tools like Appcues or Userpilot be used?' (answer is HTML <p>)",
+      "target": "/blog/user-onboarding-automation/",
+      "anchor": "which onboarding moments to automate",
+      "priority": "required",
+      "why": "Hub to post link (silo rule: the hub links down to its posts) on an exact topic match. The FAQ is about onboarding tools, and the post decides what those tools should automate.",
+      "sentence": "Append inside the <p>: 'Before you pick a tool, decide <a href=\"/blog/user-onboarding-automation/\">which onboarding moments to automate</a> and which to keep human.'"
+    },
+    {
+      "source": "content/blog/saas-onboarding.md → H2 'When does SaaS onboarding need a designer, not a tool?' → bullet 'Failures in guidance and messages: a tool plus an in-house product manager can go far.'",
+      "target": "/blog/user-onboarding-automation/",
+      "anchor": "how to design user onboarding automation",
+      "priority": "required",
+      "why": "Sideways link inside the same silo, from the sentence where a reader decides to use a tool. It also tells Google which page owns the automation intent, which protects both posts from cannibalization.",
+      "sentence": "Extend the bullet: '… can go far, if you first decide <a href=\"/blog/user-onboarding-automation/\">how to design user onboarding automation</a> rule by rule.'"
+    },
+    {
+      "source": "content/services/chatbot-ui-design.json → mistake card 'No escape'",
+      "target": "/blog/user-onboarding-automation/#where-does-ai-fit-in-user-onboarding-automation",
+      "anchor": "AI assistants in onboarding",
+      "priority": "skip",
+      "why": "Other silo's hub. Cards render plain text bodies (not verified to render HTML), and the owner may prefer to keep the AI silo self-contained. Override only if the owner accepts a cross-silo hub-to-post link."
+    }
+  ],
+  "beats": "https://www.moxo.com/blog/user-onboarding-automation",
+  "competitorPagesStudied": [
+    { "url": "https://www.moxo.com/blog/user-onboarding-automation", "seen": "Vendor guide for product managers: first-week retention stakes, personalization of paths by role, company size and use case from behavioral signals, time-to-value over feature coverage, coordination across product, engineering, marketing and CS. Stats are vendor-sourced. WebFetch ENOTFOUND; seen via snippets.", "misses": "a decision rule for what not to automate, rule anatomy, human handoff design, holdout measurement, US email and accessibility rules, failure modes" },
+    { "url": "https://meltingspot.io/en/blog/automate-saas-customer-onboarding", "seen": "'Without losing the human touch': predictable, high-volume, low-context touchpoints are automation candidates; automation is consistent where human onboarding varies by rep. Vendor (community platform). WebFetch ENOTFOUND.", "misses": "criteria for handoff, in-app design, measurement, compliance" },
+    { "url": "https://www.archbee.com/blog/saas-user-onboarding-automation", "seen": "Steps starting with 'decide what you want to automate'; says full automation is not the goal, users learn by doing; email sequence as a step.", "misses": "channel rules, handoffs, measurement, accessibility" },
+    { "url": "https://appcues.com/blog/automate-user-onboarding", "seen": "Returned in search; tool-led automation of flows across channels (coverage not retrievable).", "misses": "vendor-neutral view" },
+    { "url": "https://kompassify.com/blog/onboarding-automation-guide ; https://blog.cxgenie.ai/behavior-triggers-in-app-onboarding ; https://ortto.com/learn/the-onboarding-email-your-users-actually-need-(hint-it-changes-every-day)/", "seen": "Behavior triggers over calendar triggers, time as fallback, in-app while active and email when absent, 3–6 milestone activation ladder, holdouts and frequency caps (cxgenie). Kompassify: do not fully automate bespoke setup or frustrated users.", "misses": "a full decision matrix, human handoff design, US rules, failure modes, AI assistants" },
+    { "url": "warehouse SERP (Google US, 2026-10-14): reddit r/SaaS #1, guidecx #4, zendesk.hk #5, productfruits #7, brilo.ai #8, cloudviewpartners #9, flowstudio #10", "seen": "Mixed meanings (SaaS, client, employee onboarding), a tool list and an AI-agent page; avg DR 53, avg 1 referring domain, 6 weak results.", "misses": "a complete, design-led SaaS guide: the opening is real" }
+  ],
+  "competitorsJsonHandback": {
+    "note": "Not written to docs/content-system/competitors.json (large shared file; orchestrator instruction). Orchestrator: append these.",
+    "domains": [
+      { "domain": "moxo.com", "kind": "client/customer onboarding software blog", "silos": ["saas-onboarding-design"], "seenFor": ["user onboarding automation"], "source": "WebSearch 2026-10-16 (WebFetch ENOTFOUND)" },
+      { "domain": "meltingspot.io", "kind": "community platform blog", "silos": ["saas-onboarding-design"], "seenFor": ["user onboarding automation", "automate saas customer onboarding human touch"], "source": "WebSearch 2026-10-16 (WebFetch ENOTFOUND)" },
+      { "domain": "archbee.com", "kind": "documentation tool blog", "silos": ["saas-onboarding-design"], "seenFor": ["saas user onboarding automation"], "source": "WebSearch 2026-10-16" },
+      { "domain": "guidecx.com", "kind": "client onboarding software blog", "silos": ["saas-onboarding-design"], "seenFor": ["user onboarding automation (client onboarding meaning)"], "source": "Ahrefs SERP warehouse 2026-10-14" },
+      { "domain": "productfruits.com", "kind": "onboarding tool blog (listicle)", "silos": ["saas-onboarding-design"], "seenFor": ["user onboarding automation", "best user onboarding software"], "source": "Ahrefs SERP warehouse 2026-10-14" },
+      { "domain": "kompassify.com", "kind": "onboarding tool blog", "silos": ["saas-onboarding-design"], "seenFor": ["onboarding automation guide"], "source": "WebSearch 2026-10-16" }
+    ],
+    "seenForAdditions": [
+      { "domain": "appcues.com", "add": ["user onboarding automation"] },
+      { "domain": "userpilot.com", "add": ["onboarding automation"] },
+      { "domain": "chameleon.io", "add": ["behavior triggers contextual guidance"] }
+    ],
+    "topPost": { "domain": "moxo.com", "url": "https://www.moxo.com/blog/user-onboarding-automation", "title": "Driving product adoption: Mastering user onboarding automation in SaaS", "keywords": ["user onboarding automation", "onboarding automation saas"], "estTraffic": null, "silo": "saas-onboarding-design", "status": "briefed", "brief": "content/briefs/user-onboarding-automation.json" }
+  },
+  "notes": [
+    "CANNIBALIZATION GUARD (orchestrator). /blog/saas-onboarding/ (keyword 'saas onboarding') owns the definition, process, patterns, emails and the 12-point audit. This post must not: define SaaS onboarding or the activation event again (link instead); list the five stages; rebuild the email trigger → message → screen table; list first-run patterns; repeat the 12-point audit or the 'designer, not a tool' framing; reuse the scheduling example. The hub owns 'SaaS onboarding design' (anchor, H1, metaTitle) and its H2s (definition, 6 parts, 4-step process, tours vs guided tasks, mistakes, cost, FAQs). Never use 'SaaS onboarding design' as a keyword phrase, only as link anchor text. After publishing, monitor whether Google ranks the sibling or the hub for 'user onboarding automation'. If it does, add backlinkSuggestions #2 first.",
+    "Example product: a HYPOTHETICAL US revenue-analytics SaaS whose admins connect a data warehouse (e.g., Snowflake, BigQuery or Postgres). Label it hypothetical in the first sentence that uses it. It gives natural stuck signals (failed connections, permissions) and a high-fit admin for the human handoff. Do not name an activation rate, time, or any metric value for it.",
+    "Case studies: grep of content/case-studies/ for 'onboard' finds only TradeZella ('No onboarding guide'), already used by the sibling. 'automat' appears in Anyday (automated payouts), Mass Media Co. (automated tasks) and Vocable (automate the busywork). Those are product features of the clients, not onboarding automation work. Do NOT cite them as onboarding automation results. No DOWN link and no client results in this post.",
+    "DO NOT USE (unsourced or vendor-only): '75% of users churn in the first week' (moxo and others, no primary source); 'a 25% activation lift raises MRR by 34%' (moxo); '10x–50x cost reduction' from automation (vendor); 'users skip carousels within 5–10 seconds' (dolfy.ai, no study); Braze's '20% uplift' case study; Appcues' 'build a workflow in a day' (SiliconANGLE quoting the vendor); the Userpilot 37.5% activation benchmark (the sibling already uses it, and it measures activation, not automation); any PQL conversion rate; any frequency-cap number presented as a benchmark.",
+    "Compliance wording: CAN-SPAM and Gmail rules are stated as facts with sources, plus a one-line 'not legal advice; ask your counsel' for the transactional question. TCPA/SMS is out of scope (mention only if the writer adds SMS, which is not planned). GDPR only as 'if you also sell in the EU'. Accessibility: WCAG 2.2 AA with ADA/Section 508 named as the US frame; make no legal-liability claims.",
+    "Fact-checker flags: (1) NN/g mobile tutorials: snippets confirmed only the setup (70 users, 4 apps, view vs skip), so confirm the finding on the page or drop it. (2) Google: confirm 'within 2 days', '0.3%' and 'aim under 0.1%' on support.google.com/a/answer/81126; secondary sources disagree on whether one-click unsubscribe applies to transactional mail. Write 'marketing and subscribed messages' only. (3) FTC: confirm '10 business days' on the FTC guide page. (4) NN/g help-and-documentation: confirm the push/pull wording.",
+    "Abbreviations to expand on first use: software as a service (SaaS), user experience (UX), customer success manager (CSM), product-qualified lead (PQL), artificial intelligence (AI), Web Content Accessibility Guidelines (WCAG), Federal Trade Commission (FTC), Sender Policy Framework (SPF), DomainKeys Identified Mail (DKIM), Domain-based Message Authentication, Reporting and Conformance (DMARC), Nielsen Norman Group (NN/g), application programming interface (API).",
+    "Voice: first person by Talha Saleem for method ('I write every rule as one sentence before anyone opens the tool'). Use 'we' only for hub facts (process, price, metrics, tool route) and the chatbot hub's handoff rule. No invented anecdotes or client stories. The intro rule is labeled hypothetical.",
+    "US frame: US example company, US law (CAN-SPAM, FTC), US accessibility frame (ADA/Section 508 + WCAG 2.2 AA), American spelling (behavior, personalize, prioritize, color, labeled), ET for any reply-time mention.",
+    "Data source rule: the owner rule (2026-10-12) names Semrush or GSC as volume evidence. This brief uses Ahrefs figures the orchestrator supplied (warehouse files dated 2026-10-14), as in the saas-onboarding and product-discovery precedents. Record it as accepted by the orchestrator.",
+    "Funnel deviation: see funnelWhy. The orchestrator should queue a BOFU post next in this silo."
+  ]
+}

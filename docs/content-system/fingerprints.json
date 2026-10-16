@@ -364,6 +364,44 @@
       "visuals": 6,
       "example": "hypothetical property-management SaaS: auto-replies killed, lease summaries parked, maintenance triage built",
       "date": "2026-10-15"
+    },
+    {
+      "slug": "user-onboarding-automation",
+      "hub": "saas-onboarding-design",
+      "type": "Guide",
+      "funnel": "mofu",
+      "introStyle": "hypothetical automation rule that misfired",
+      "h2Frames": [
+        "definition + scope",
+        "automate vs keep human (2x2)",
+        "rule anatomy",
+        "in-app guidance + WCAG",
+        "email handoff + CAN-SPAM/Gmail",
+        "human handoff ladder",
+        "AI assistant",
+        "flow design steps",
+        "holdout measurement",
+        "when automation hurts",
+        "bottom line",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "What is user onboarding automation (and what isn't)?",
+        "Which onboarding moments should you automate?",
+        "What makes up one user onboarding automation rule?",
+        "How do you design in-app guidance users don't dismiss?",
+        "When should automated onboarding emails take over?",
+        "When should user onboarding automation hand off to a person?",
+        "Where does AI fit in user onboarding automation?",
+        "How do you design an automated onboarding flow?",
+        "How do you measure user onboarding automation?",
+        "When does user onboarding automation hurt?",
+        "Bottom line",
+        "FAQs"
+      ],
+      "visuals": 6,
+      "example": "hypothetical analytics SaaS: warehouse reminder rule, chart builder help rule, 10% holdout",
+      "date": "2026-10-16"
     }
   ]
 }

@@ -277,7 +277,7 @@ Fix the earliest failing box, ship it, and rerun the audit after 7 days of new s
 
 Onboarding tools such as Appcues, Userpilot and Pendo handle checklists, tours and in-app messages well, but they sit on top of your screens. So I read an audit this way:
 
-- **Failures in guidance and messages:** a tool plus an in-house product manager can go far.
+- **Failures in guidance and messages:** a tool plus an in-house product manager can go far, if you first decide [how to design user onboarding automation](/blog/user-onboarding-automation/) rule by rule.
 - **Failures in sign-up, setup, empty states or the member path:** the screens and flows need user experience design, and no overlay fixes that.
 
 Our onboarding redesign runs in 4 steps: a funnel review (1 week), interviews with 5 to 8 recent sign-ups (1 week), a redesign and prototype tested with new users (1–3 weeks), then release and measurement (1 week). Here's [what an onboarding redesign costs](/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost): $15,000 to $45,000. We judge the work by activation rate, time to first value and day-7 return rate.
