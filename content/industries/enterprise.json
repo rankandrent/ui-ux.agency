@@ -64,7 +64,7 @@
     },
     {
       "title": "Accessibility in the contract",
-      "body": "Federal procurement follows the US Access Board's Revised Section 508 Standards, in effect since January 18, 2018, which incorporate WCAG 2.0 A and AA. Vendors document conformance in an Accessibility Conformance Report (ACR) built on the VPAT (Voluntary Product Accessibility Template). The Americans with Disabilities Act (ADA) Title II rule sets WCAG 2.1 AA for state and local government websites and apps."
+      "body": "Federal procurement follows the US Access Board's Revised Section 508 Standards, required since January 18, 2018, which incorporate WCAG 2.0 A and AA. Vendors document conformance in an Accessibility Conformance Report (ACR), usually built on the VPAT (Voluntary Product Accessibility Template). The Americans with Disabilities Act (ADA) Title II rule sets WCAG 2.1 AA for state and local government websites and apps."
     },
     {
       "title": "AI features staff do not trust",
@@ -98,7 +98,7 @@
     },
     {
       "title": "Rollout teams accept",
-      "body": "New areas ship in phases behind feature flags, with a beta group first, in-app announcements, a short tour and an optional switch back during the beta. Adoption rate, task time, error rate, training time and support tickets are agreed at kick-off and compared before and after the rollout."
+      "body": "New areas ship in phases behind feature flags, with a beta group first, in-app announcements, a short tour and an optional switch back during the beta. Two or three metrics, chosen from adoption rate, task time, error rate, training time and support tickets, are agreed at kick-off and compared before and after the rollout."
     }
   ],
   "cta": {
@@ -116,25 +116,25 @@
       "body": "Mass Media Co. (MMC) is a digital marketing company that now runs one business-to-business (B2B) platform. MMC's order work was spread across tools that did not talk to each other. After our <a href=\"/case-studies/mass-media-co/\">Mass Media Co. B2B platform revamp</a>, order processing efficiency rose 30% and the order processing error rate was 2+, reduced from 25%."
     },
     {
-      "title": "Tested with every role",
-      "body": "Every flow that carries risk is tested with 5 to 8 real users before engineering starts. On enterprise software, those testers come from several roles, so an approver, an admin and an operator each try the flow, not only end users."
+      "title": "Tested with real users",
+      "body": "Every flow that carries risk is tested with 5 to 8 real users before engineering starts. On enterprise software, the most useful test group mixes roles, such as an approver, an admin and an operator, not only end users."
     },
     {
       "title": "Works inside your process",
-      "body": "We sign a mutual non-disclosure agreement (NDA) before the first detailed call and work in your Figma, Jira or Linear workspace. All design files, research and components belong to your company from day one of the engagement."
+      "body": "We sign a mutual non-disclosure agreement (NDA) before the first detailed call and work in your Figma, Jira or Linear workspace. All Figma files, components and research notes transfer to your company when the project ends."
     }
   ],
   "process": [
     {
       "title": "Role and workflow review",
       "timeline": "1–2 weeks",
-      "body": "We read your analytics, watch session recordings, review support tickets and interview 6 to 10 users across roles. A stakeholder map covers product, IT, security and procurement, because each of them can stop a rollout.",
+      "body": "We read your analytics, watch session recordings and interview 6 to 10 customers and churned users. Map the stakeholders in product, IT, security and procurement as well, because each of them can stop a rollout.",
       "deliverables": "Role map, workflow map, priority list"
     },
     {
       "title": "Permissions, flows and wireframes",
       "timeline": "2–4 weeks",
-      "body": "The role-permission matrix gets signed off, then the riskiest workflow steps are redesigned first. Clickable wireframes are tested with each role, so an approver and an admin both finish their tasks before visual design starts.",
+      "body": "The role-permission matrix gets signed off, then the riskiest workflow steps are redesigned first and tested as clickable wireframes before visual design starts. Include an approver and an admin among the testers.",
       "deliverables": "Permission matrix, tested wireframes"
     },
     {
@@ -169,11 +169,11 @@
     },
     {
       "q": "How do you get employees to adopt a redesigned enterprise tool?",
-      "a": "<strong>Employees adopt a redesigned enterprise tool when they keep their legacy workflow during a beta and switch over one area at a time.</strong> Change management starts in research: the power users who rely on shortcuts join the beta group first, and their feedback decides what changes before full release. Measure task time and support tickets before and after each phase. Our <a href=\"/services/saas-products/saas-product-redesign/#how-does-our-saas-product-redesign-avoid-a-big-bang-launch\">phased redesign of a legacy tool</a> follows the same order."
+      "a": "<strong>We ship a redesigned enterprise tool one area at a time, with the old view still available during the beta, so employees switch over step by step.</strong> Change management runs through that beta: a small group tries each new area first, and we fix issues before the full release. Put the power users who rely on shortcuts and saved views in that group. Our <a href=\"/services/saas-products/saas-product-redesign/#how-does-our-saas-product-redesign-avoid-a-big-bang-launch\">phased redesign of a legacy tool</a> follows the same order."
     },
     {
       "q": "How much does enterprise UX design cost?",
-      "a": "<strong>Enterprise UX design with us costs $40,000–$180,000 for a full SaaS product, or $50,000–$200,000 for a phased redesign over 8–20 weeks.</strong> AI UX design runs $25,000–$90,000, and an embedded team costs $15,000–$40,000 per month. The number of roles, workflows and platforms sets the final price. Our guide to <a href=\"/services/ui-ux-design-cost/\">UI UX design cost by engagement</a> explains each price factor."
+      "a": "<strong>Enterprise UX design with us costs $40,000–$180,000 for a full SaaS product, or $50,000–$200,000 for a phased redesign over 8–20 weeks.</strong> AI UX design runs $25,000–$90,000, and an embedded team costs $15,000–$40,000 per month. The number of user roles and platforms, research depth and design system scope set the final price. Our guide to <a href=\"/services/ui-ux-design-cost/\">UI UX design cost by engagement</a> explains each price factor."
     }
   ],
   "relatedServices": [
