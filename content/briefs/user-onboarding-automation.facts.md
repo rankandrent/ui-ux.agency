@@ -140,4 +140,49 @@ Checked 2026-10-16 against `content/blog/user-onboarding-automation.md` (draft, 
 - The FAQ 4 transactional reading ("can be transactional or relationship content") is an inference from the FTC's category list, not a sentence in the guide. The hedge and the counsel line make it acceptable. Do not let QA drop "can be".
 - The brief's EAV line "process it within 2 days" (Gmail sender requirements) is stale. Correct it in the brief so the next writer does not reuse it.
 
-VERDICT: FAIL
+Loop 1 verdict: FAIL
+
+## Loop 2 re-check (2026-10-16)
+
+Re-read the whole current post (351 lines), the text nodes, `<title>` and `aria-label` of all 7 SVGs, and the QA report. Line numbers below are current.
+
+### F items in the current text
+
+| Fix | Where now | Result |
+|---|---|---|
+| F1 | L34 "work redesigns the screens and the guidance on top of them together"; L316 "That's the redesign work described at the top of this guide." | TRUE, exact |
+| F2 | L179 "…and Google's subscription guidelines ask senders to honor unsubscribe requests within 48 hours." | TRUE, exact (support.google.com/mail/answer/15263077; plain text, no link) |
+| F3 | L50 | TRUE, exact |
+| F4 | L123 "When in-app engagement for user onboarding fails, I check the timing before the copy." | TRUE, exact |
+| F5 | L123 push/pull sentences | TRUE, exact |
+| F6 | L136 SC 1.4.13 bullet | TRUE, exact; link intact |
+| F7 | L150 relay lead-in, L194 ladder lead-in | TRUE, exact. Channel SVG ("error for 10 minutes") and ladder SVG ("repeats within 10 minutes") are now covered by the lead-in labels; ladder rung 3 keeps "It's an illustrative rule, not a benchmark" |
+| F8 | L171 | TRUE, exact |
+| F9 | L173, FTC link intact | TRUE, exact |
+| F10 | L235 step 6 | TRUE, exact |
+| F11 | L237 "Each rule fills one column, and its last row asks whether the rule is patching a screen." (QA wording, same meaning); L240 "9 fields as rows … 4 blank columns"; L242 alt "nine fields as rows" + caption "one column per rule, with a patch-or-fix row"; L246 "each field"; L250 header `Field`; L264 "one column per live rule"; L316 "patch-or-fix row" | TRUE. SVG: `<title>` "one column per rule, with a patch-or-fix row", subtitle "9 fields, 2 example rules, room for yours", header cell "Field", aria-label "nine fields as rows". No "row per rule" / "columns" wording left in the post or SVG |
+| F12 | L272 "read the rules' lift from the holdout, not from a before-and-after chart alone." L274 hub step unchanged | TRUE, exact |
+| F13 | L308 | TRUE, exact |
+
+### QA edits checked for new claims
+
+| QA edit | Result | Source |
+|---|---|---|
+| NN/g link → "In its article on help and documentation, Nielsen Norman Group (NN/g) splits proactive help into push and pull revelations." (L123) | TRUE. The attribution names the same article (title "Help and Documentation") | https://www.nngroup.com/articles/help-and-documentation/ |
+| SC 2.4.11 link → "in the W3C's Understanding WCAG 2.2 notes, a control that receives keyboard focus must not be entirely hidden by author-created content, such as a tour popover or a sticky banner" (L137) | TRUE. The Understanding document says sticky content such as a cookie banner fails if it entirely hides a focused component, and names sticky headers/footers (F110). "Tour popover" is the post's own application of non-modal author content, which is fine | https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html |
+| Gmail link → "Google's sender guidelines FAQ defines a bulk sender as one that sends close to 5,000 or more messages to personal Gmail accounts in 24 hours, and that status is permanent once reached." (L177) | TRUE. The page is titled "Email sender guidelines FAQ" and has both the "close to 5,000 … 24-hour period" definition and "permanently considered bulk senders" | https://support.google.com/mail/answer/14229414?hl=en |
+| TechTarget link → "TechTarget defines a PQL as…" (L187) | TRUE (same paraphrase as claim 34) | https://www.techtarget.com/enterprise-software/definition/product-qualified-lead-PQL |
+| Removed "which is 2 weeks of working days" (L173) | No claim added; claim 25 is moot | — |
+| Retire rule (L132): "a tooltip or tour stops after the user succeeds, after a number of dismissals your team picks, or 7 days after it first appears; the checklist retires at activation." | TRUE (internal). Labeled "In this example". It now agrees with L127 ("visible for the whole trial … ends at activation") | — |
+| Paragraph splits, run-on split (L302) | No wording change | — |
+| Remaining external links: W3C 1.4.13, FTC guide, Gmail 81126, PAIR, Braze | Each still supports its sentence (claims 16, 23, 27–30, 38, 44) | as above |
+
+### Non-blocking notes for the orchestrator
+
+- Stale records outside the post (not blocking the post): `content/briefs/user-onboarding-automation.visuals.json` line 20 `markdown` still has the old caption "one row per rule, with a patch-or-fix column" (the alt there is fixed). `content/briefs/user-onboarding-automation.json` line 191 outline still says "one row per rule". Please change both to the column orientation so a re-render or rewrite does not bring the old wording back.
+- QA's writer guidance on relay row 3 ("Stuck on the same error for 10 minutes → A person") vs ladder rung 2 ("a help-center article or chat … Support owns it") is a fair consistency point. It is not a factual error, because both are labeled example timings and support chat can be a person. Optional.
+- Caveats from loop 1 still apply: keep "can be" in FAQ 4; do not shorten L134 to "ADA requires WCAG 2.2".
+
+I made no edits to the post or SVGs in loop 2. Nothing needed fixing.
+
+VERDICT: PASS

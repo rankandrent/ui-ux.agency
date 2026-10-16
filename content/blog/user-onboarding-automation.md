@@ -19,8 +19,8 @@ takeaways:
   - "Behavior-based triggers come first; a time-based fallback catches only users who never produce the event."
   - "Prove lift against a holdout group that gets no automated messages, then check each rule for dismissals and complaints."
   - "A rule that explains a confusing screen is a patch, and the fix belongs in the screen."
-draft: true
-qa: pending
+draft: false
+qa: pass
 ---
 
 Here's a user onboarding automation rule from a hypothetical US revenue-analytics software as a service (SaaS) product. "When a trial is 3 days old and the setup checklist is under half done, send 'Need a hand getting started?'" User onboarding automation is that kind of rule at scale: logic that watches what new users do and sends the next nudge without anyone picking each message.

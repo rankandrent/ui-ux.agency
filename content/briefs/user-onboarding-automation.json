@@ -188,7 +188,7 @@
       { "type": "signal ladder", "h2": "When should onboarding automation hand a user to a person?", "what": "Rising signals from 'automation only' to 'CSM or sales now', each with the owner and the handoff note fields." },
       { "type": "ordered step list", "h2": "How do you design an automated onboarding flow, step by step?", "what": "6 steps from activation ladder to staged release behind a holdout." },
       { "type": "metrics table", "h2": "How do you measure whether user onboarding automation works?", "what": "Rule-level metric → what it tells you → warning sign; plus one outcome row (activation lift vs holdout)." },
-      { "type": "fill-in template (lead asset)", "h2": "How do you design an automated onboarding flow, step by step?", "what": "The onboarding automation rule sheet: one row per rule with moment, trigger event, segment, channel, message job, exit, owner, metric. A 'patch or fix?' column flags rules that only explain a confusing screen." }
+      { "type": "fill-in template (lead asset)", "h2": "How do you design an automated onboarding flow, step by step?", "what": "The onboarding automation rule sheet: one column per rule with moment, trigger event, segment, channel, message job, exit, owner, metric. A 'patch or fix?' column flags rules that only explain a confusing screen." }
     ]
   },
   "outline": [
