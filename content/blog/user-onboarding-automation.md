@@ -31,7 +31,7 @@ That path sent no event, so the checklist still read 1 of 4 steps done. The emai
 
 I'm Talha Saleem, a senior user interface (UI) and user experience (UX) designer at ui-ux.agency. We're the design team of tkxel, and we've designed 200+ products since 2017.
 
-When I review rules like this one, the copy is rarely the problem. The problem is a rule nobody checked against its events, or a rule patching a screen that needed fixing. That second case is why our [SaaS onboarding design](/services/saas-products/saas-onboarding-design/) work starts with the screens, not the messages.
+When I review rules like this one, the copy is rarely the problem. The problem is a rule nobody checked against its events, or a rule patching a screen that needed fixing. That second case is why our [SaaS onboarding design](/services/saas-products/saas-onboarding-design/) work redesigns the screens and the guidance on top of them together.
 
 Below: what to automate, how a rule is built, when email or a person takes over, where artificial intelligence (AI) helps, how to prove lift and when automation hurts.
 
@@ -47,7 +47,7 @@ In practice it's rule-based onboarding. Search results for the phrase mix in 3 o
 
 What gets automated is the layer on top of the product. That layer holds in-app guidance (checklists, tooltips, short tours, empty-state prompts), automated onboarding emails and alerts that route a user to a person. Sign-up, setup and empty states sit under every rule, and a rule can only point at them.
 
-In a product-led growth model, most trial users never talk to anyone, so these rules carry most of the guidance. The screens under them still decide how much a rule has to explain, so we redesign sign-up, setup, empty states and in-app guidance as one job. I'd rather fix a screen than write a rule that explains it.
+In a product-led growth model, a trial user can reach first value without talking to anyone, so these rules carry much of the guidance. The screens under them still decide how much a rule has to explain, so we redesign sign-up, setup, empty states and in-app guidance as one job. I'd rather fix a screen than write a rule that explains it.
 
 For the full path from a new account to the first real result, including how to pick an activation event, start with [our SaaS onboarding guide](/blog/saas-onboarding/). This post stays on the rules. The real question isn't how to automate, but which moments deserve it.
 
@@ -120,7 +120,7 @@ Onboarding tools model rules the same way. Userpilot's documentation describes s
 
 **In-app guidance gets used when it appears at the moment of the task it explains, offers one action, closes in one click and retires once the user succeeds.**
 
-Most in-app engagement for user onboarding fails for a timing reason, not a copy reason. In its article on help and documentation, Nielsen Norman Group (NN/g) splits proactive help into push and pull revelations. Push revelations appear regardless of what the user is doing, such as tips at launch, and users often ignore them. Pull revelations are contextual and tied to the task the user is working on right now.
+When in-app engagement for user onboarding fails, I check the timing before the copy. In its article on help and documentation, Nielsen Norman Group (NN/g) splits proactive help into push and pull revelations. Push revelations appear whether or not they relate to the user's current task, such as tips shown when an app launches. Pull revelations are contextual and relate to the task the user is working on right now.
 
 I turn that idea into behavior-triggered in-app guidance, with one trigger per guidance type:
 
@@ -133,7 +133,7 @@ Every guide I design gets a retire rule. In this example, a tooltip or tour stop
 
 Accessibility belongs in the trigger design, not in a later audit. I design to Web Content Accessibility Guidelines (WCAG) 2.2 AA. It's the standard I use as the US frame for the Americans with Disabilities Act (ADA) and Section 508. WCAG 2.2 has 2 success criteria (SC) that apply to guidance directly:
 
-- **[SC 1.4.13 Content on Hover or Focus](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html):** a tooltip must be dismissible without moving the pointer or focus, and hoverable. It must stay persistent until the trigger is removed, the user dismisses it or its information is no longer valid.
+- **[SC 1.4.13 Content on Hover or Focus](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html):** a tooltip must be dismissible without moving the pointer or focus, unless it reports an input error or covers no other content. If hover shows it, it must be hoverable. It must stay persistent until the trigger is removed, the user dismisses it or its information is no longer valid.
 - **SC 2.4.11 Focus Not Obscured (Minimum):** in the W3C's Understanding WCAG 2.2 notes, a control that receives keyboard focus must not be entirely hidden by author-created content, such as a tour popover or a sticky banner.
 
 Users closing your tooltips on sight? Our onboarding redesigns cover in-app guidance together with the screens beneath it. In-app guidance reaches only people who are in the app, and when they leave, email takes over.
@@ -147,7 +147,7 @@ Fixed automated email sequences for user onboarding go stale the day a user move
 Say the warehouse email waits 24 hours, and a second reminder waits 3 more days. Both stop the moment the connection event fires. That's an example timing, not a benchmark.
 
 
-The relay below passes each user between channels by state, with one shared gate that stops every channel once the step is done.
+The relay below passes each user between channels by state, using example timings rather than benchmarks, with one shared gate that stops every channel once the step is done.
 
 ![Onboarding channel handoff relay from in-app guidance to email to a person, with a shared suppress-when-done gate under all three stations](/blog/user-onboarding-automation/onboarding-channel-handoff.svg "Onboarding channel handoff: in-app, email and a person, with one shared suppression gate")
 
@@ -168,15 +168,15 @@ Table: Channel handoff by user state in automated onboarding
 
 One suppression list shared across channels keeps a user from getting the in-app prompt and the email for the same step. If your emails run in a marketing automation platform, connect it to the same product events. The broader guide shows how to [map each onboarding email to the screen it opens](/blog/saas-onboarding/#how-do-saas-onboarding-emails-fit-the-in-app-flow), so I won't rebuild that table here.
 
-These emails answer to 2 US rule sets. The first is the Controlling the Assault of Non-Solicited Pornography and Marketing (CAN-SPAM) Act of 2003. The CAN-SPAM Act sorts an email by its primary purpose.
+These emails answer to 2 rule sets: a US law and Gmail's sender policy. The first is the Controlling the Assault of Non-Solicited Pornography and Marketing (CAN-SPAM) Act of 2003. The CAN-SPAM Act sorts an email by its primary purpose.
 
-The [Federal Trade Commission (FTC) compliance guide](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) covers any message whose primary purpose is the commercial advertisement or promotion of a product or service. Commercial email needs a working opt-out. You must honor an opt-out request within 10 business days.
+The [Federal Trade Commission (FTC) compliance guide](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) explains that the law covers any email whose primary purpose is the commercial advertisement or promotion of a commercial product or service. Commercial email needs a working opt-out. You must honor an opt-out request within 10 business days.
 
 The FAQs below cover how that applies to onboarding emails. This is not legal advice, so ask your counsel.
 
 The second is Google's [Gmail email sender guidelines](https://support.google.com/mail/answer/81126?hl=en), which set the technical bar. Google's sender guidelines FAQ defines a bulk sender as one that sends close to 5,000 or more messages to personal Gmail accounts in 24 hours, and that status is permanent once reached.
 
-Bulk senders set up Sender Policy Framework (SPF), DomainKeys Identified Mail (DKIM) and Domain-based Message Authentication, Reporting and Conformance (DMARC). They offer one-click unsubscribe on marketing and subscribed messages and process it within 2 days. They keep the spam rate in Postmaster Tools below 0.3%. Gmail stepped up enforcement in November 2025, including rejections for mail that fails these rules.
+Bulk senders set up Sender Policy Framework (SPF), DomainKeys Identified Mail (DKIM) and Domain-based Message Authentication, Reporting and Conformance (DMARC). They offer one-click unsubscribe on marketing and subscribed messages, and Google's subscription guidelines ask senders to honor unsubscribe requests within 48 hours. They keep the spam rate in Postmaster Tools below 0.3%. Gmail stepped up enforcement in November 2025, including rejections for mail that fails these rules.
 
 The design consequence: fewer emails, each fired by behavior, keep complaints down. That protects the password resets and invites that must arrive. A user who can unsubscribe from onboarding emails in one click has less reason to press "report spam." If you also sell in the European Union (EU), the General Data Protection Regulation (GDPR) adds consent rules. Count your emails per user per 7 days before adding another, because some users need a person instead.
 
@@ -191,7 +191,7 @@ I set the product-qualified lead threshold just past your activation event, neve
 Admins of high-fit accounts are the usual handoff candidates, since invited members land in a workspace someone already set up. A customer success manager (CSM) takes their setup problems, and sales takes the accounts that cross the PQL line. That split is sales-assisted onboarding, with automation doing the watching.
 
 
-The ladder below climbs from automation alone to a person, with the owner of each rung.
+The ladder below climbs from automation alone to a person, with the owner of each rung; the timings on rungs 2 and 3 are examples, not benchmarks.
 
 ![Onboarding human handoff ladder with five rungs from automation only to the user asking for a person, each with its owner and a handoff note card](/blog/user-onboarding-automation/onboarding-human-handoff-ladder.svg "Onboarding human handoff ladder: five signals, their owners and the handoff note")
 
@@ -232,7 +232,7 @@ If your product is itself AI, onboarding sets expectations about its answers bef
 3. **Write one rule per moment** in the rule sheet below, as one sentence first.
 4. **Prototype the messages on the real screens**, with dismissed, finished and error states. I prototype every tooltip on the screen it sits on, never in a slide deck.
 5. **Test with people new to the product.** I'd put the messages in front of at least 5 users who have never seen the product. In our onboarding projects, we talk to 5 to 8 recent sign-ups, both activated and lost, about what they expected. We test the prototype with new users too.
-6. **Release in stages behind a holdout group**, a few rules at a time, and give each batch 14 days so its effect stays readable.
+6. **Release in stages behind a holdout group**, a few rules at a time. I keep each batch live for at least 1 month before adding the next, and I read activation only for users who signed up at least 14 days earlier.
 
 The onboarding automation rule sheet is the template I'd fill in before building anything. Each rule fills one column, and its last row asks whether the rule is patching a screen.
 
@@ -305,7 +305,7 @@ I quote no benchmark rates for these, because they vary by product. Pause any ru
 
 **User onboarding automation hurts when it patches a confusing screen, fires on missing events, stacks messages, uses the wrong segment or traps users with no exit; then fix the product.**
 
-These 5 failure modes cover most of the damage:
+These are the 5 failure modes I check for first:
 
 - **Patching a screen:** a rule whose job is to explain points to a design problem in sign-up, setup or an empty state. A clear screen needs no explanation.
 - **Bad events:** rules fire on users who already did the step, because a second path never sends the event, as in the intro.
@@ -313,7 +313,7 @@ These 5 failure modes cover most of the damage:
 - **Wrong segment:** personalization runs on a welcome answer the user picked at random to get past the screen. Every later message misses.
 - **No exit:** a tour of 9 steps with no close button, an AI assistant without a handoff, an email without an unsubscribe link. Each one traps a user who wanted out.
 
-Go back to the patch-or-fix row. If more than a few rules say "patch," the screens underneath need user experience design, not another rule. That's the screen-first work described at the top of this guide.
+Go back to the patch-or-fix row. If more than a few rules say "patch," the screens underneath need user experience design, not another rule. That's the redesign work described at the top of this guide.
 
 In our services, an onboarding redesign runs in 4 steps over 3 to 6 weeks, and here's [what that redesign costs](/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost): $15,000–$45,000. We design onboarding that your team builds in code or in tools such as Appcues, Userpilot or Pendo. We judge it by the 3 outcome metrics above.
 
