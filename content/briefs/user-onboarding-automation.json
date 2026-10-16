@@ -390,6 +390,41 @@
     { "keyword": "user onboarding checklist (100, KD 17)", "why": "Parent topic is 'new client checklist template' (customer-success/HR intent). It overlaps the sibling's 12-point audit and the hub's checklist part." },
     { "keyword": "'What are the 5 C's of effective onboarding?' (PAA)", "why": "The 5 C's are an HR employee-onboarding framework. Do not use it." }
   ],
+  "related": {
+    "linkBuilderRun": "2026-10-16",
+    "internalLinks": [
+      { "href": "/services/saas-products/saas-onboarding-design/", "anchor": "SaaS onboarding design", "where": "Intro paragraph 3 (about word 200; moved from H2 1, where the marker sat at about word 395, to meet the first-300-words rule)" },
+      { "href": "/blog/saas-onboarding/", "anchor": "our SaaS onboarding guide", "where": "H2 1, sideways link to the broader guide" },
+      { "href": "/blog/saas-onboarding/#how-do-saas-onboarding-emails-fit-the-in-app-flow", "anchor": "map each onboarding email to the screen it opens", "where": "H2 5. Kept as the one allowed second deep link into the sibling: the sentence tells the reader the table lives there ('so I won't rebuild that table here')." },
+      { "href": "/services/ai-products/chatbot-ui-design/", "anchor": "chatbot UI design", "where": "H2 7, the post's one cross-hub link" },
+      { "href": "/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost", "anchor": "what that redesign costs", "where": "H2 10 price sentence; the late UP link (hub link 2 of 2)" },
+      { "href": "/services/saas-products/", "anchor": "SaaS product design", "where": "H2 10, pillar (silo parent), not another service hub" },
+      { "href": "/contact/", "anchor": "book a free consultation", "where": "Bottom line CTA" }
+    ],
+    "internalCount": "7 body links, 6 unique targets (MOFU 6–10). Hub links 2 of 2 (root + #cost).",
+    "internalCountException": "0 case-study links: no case study describes onboarding automation work (brief internalTargets: TradeZella skipped, already used by the sibling). The MOFU template CTA carries a case-study card. 0 industry links: frontmatter industries is empty.",
+    "droppedInternalMarkers": [
+      "Bottom-line second hub link ('redesign the screens behind your onboarding rules'): over the 2-link hub cap once #cost is kept. Sentence rewritten to 'the screens behind your onboarding rules need a redesign, not another rule.'",
+      "/blog/saas-onboarding/#where-does-saas-onboarding-end (H2 8 step 1): third link into the same post, and H2 1 already points to that guide for choosing the activation event. The sentence 'The broader guide explains how to choose your activation event.' was removed.",
+      "H2 1 'That's why our SaaS onboarding design work starts with the screens': the hub link moved to the intro, so this sentence now uses no hub head phrase ('The screens under them still decide how much a rule has to explain, so we redesign…').",
+      "Two sentences that pointed at a page the reader could not click were reworded: 'Our service page's comparison of product tours vs guided tasks rates…' became 'In our onboarding work, we rate…', and 'the 3 metrics on our service page' became 'the 3 metrics we track in our onboarding projects'."
+    ],
+    "externalSources": [
+      { "url": "https://www.nngroup.com/articles/help-and-documentation/", "status": "verified (nngroup.com-restricted search; snippet shows the push/pull definitions)" },
+      { "url": "https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html", "status": "verified; URL swapped to the search-returned '.html' form" },
+      { "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html", "status": "verified; URL CORRECTED: the brief's 'focus-not-obscured.html' never came back in a search, and the returned page slug is 'focus-not-obscured-minimum'" },
+      { "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business", "status": "verified (primary purpose, 10 business days, subscribers keep opt-out rights)" },
+      { "url": "https://support.google.com/mail/answer/81126?hl=en", "status": "verified via search snippet (SPF/DKIM/DMARC, one-click unsubscribe for marketing and subscribed messages, 0.3%); the 2-day figure appears as '48 hours' in Google's enforcement wording. Swapped from /a/answer/81126 to the Gmail Help URL the search returned." },
+      { "url": "https://support.google.com/mail/answer/14229414?hl=en", "status": "verified (close to 5,000 to personal Gmail accounts in 24 hours, permanent bulk status, enforcement ramp-up with temporary and permanent rejections). Linked once; the November 2025 sentence is plain text." },
+      { "url": "https://www.techtarget.com/enterprise-software/definition/product-qualified-lead-PQL", "status": "verified; URL CORRECTED from /searchcustomerexperience/definition/Product-Qualified-Lead-PQL (not returned). Wording aligned to 'limited-feature version' / 'first-hand experience'." },
+      { "url": "https://pair.withgoogle.com/chapter/mental-models/", "status": "verified (onboard in stages; can/can't do, change, improve; unmet expectations, frustration, misuse, abandonment)" },
+      { "url": "https://www.braze.com/docs/user_guide/audience/global_control_group", "status": "verified; swapped from the resources article to the Braze docs page, because the 1%–15% range and the 'at least one month' advice came back in docs snippets and the post says 'documents' and 'documentation'" }
+    ],
+    "removedExternalLinks": [
+      { "url": "https://docs.userpilot.com/getting-started/what-does-userpilot-offer", "why": "Optional vendor docs. The sentence stays as a named plain-text citation ('Userpilot's documentation describes…'). The segment wording is supported by https://docs.userpilot.com/users-companies/segments and flow audiences by https://docs.userpilot.com/in-app-engagement/flows/getting-started/flow-settings, not clearly by the overview URL." }
+    ],
+    "externalCountNote": "9 external links, above the link-builder's 2–5 default. Kept because the orchestrator asked for every named source marker to be linked. If the cap is enforced, keep FTC, Google 81126, W3C 1.4.13, Braze and PAIR, and turn NN/g, W3C 2.4.11, Google 14229414 and TechTarget into named plain-text citations."
+  },
   "backlinkSuggestions": [
     {
       "source": "content/services/saas-onboarding-design.json → sections 'SaaS onboarding design FAQs' → faq 'Can onboarding tools like Appcues or Userpilot be used?' (answer is HTML <p>)",
