@@ -22,7 +22,7 @@
     "sub": "Senior designers for Colorado startups and software companies building AI features, SaaS products and MVPs. We work remotely across a 2-hour time gap, with published prices and tested prototypes."
   },
   "summary": "Remote AI and SaaS product design for Denver and Colorado software teams.",
-  "abstract": "ui-ux.agency is a UX agency Denver startups and software companies hire remotely to design artificial intelligence (AI) features, software as a service (SaaS) products and minimum viable products (MVPs). We have no Denver office; the one office is in Reston, Virginia. Denver runs 2 hours behind Eastern Time (ET), every service has a published price, and risky flows are tested with 5 to 8 real users.",
+  "abstract": "ui-ux.agency is a UX agency Denver startups and software companies hire remotely to design artificial intelligence (AI) features, software as a service (SaaS) products and minimum viable products (MVPs). ui-ux.agency has no Denver office; its only office is in Reston, Virginia. Denver runs 2 hours behind Eastern Time (ET), every service has a published price, and risky flows are tested with 5 to 8 real users.",
   "centralEntity": "UX agency Denver",
   "priceRange": "$8,000–$200,000",
   "updated": "2026-10-16",
@@ -119,11 +119,11 @@
       "items": [
         {
           "title": "Talent pool and pay",
-          "body": "CBRE ranked Denver 14th overall in 2025, with tech at 6.8% of local employment against a 5.3% average for the top 50 markets; the 2026 edition placed it 16th. In May 2025, computer and math jobs in the metro paid a mean of $62.33 an hour. Sources: <a href=\"https://milehighcre.com/?p=57101\">CBRE 2025, via Mile High CRE</a>, <a href=\"https://milehighcre.com/?p=62070\">CBRE 2026</a> and the <a href=\"https://www.bls.gov/regions/mountain-plains/news-release/2026/occupationalemploymentandwages_denver_20260805.htm\">U.S. Bureau of Labor Statistics (BLS)</a>."
+          "body": "CBRE ranked Denver 14th overall in 2025, with tech at 6.8% of local employment against a 5.3% average for the top 50 markets; the 2026 edition placed it 16th. In May 2025, computer and math jobs in the metro paid a mean of $62.33 an hour. Sources: <a href=\"https://milehighcre.com/cbres-annual-scoring-tech-talent-ranks-denver-14th-overall/\">CBRE 2025, via Mile High CRE</a>, <a href=\"https://milehighcre.com/denver-remains-major-tech-hub-as-colorado-springs-ranks-among-top-emerging-markets/\">CBRE 2026</a> and the <a href=\"https://www.bls.gov/regions/mountain-plains/news-release/occupationalemploymentandwages_denver.htm\">U.S. Bureau of Labor Statistics (BLS)</a>."
         },
         {
           "title": "Software and IT",
-          "body": "The Colorado Office of Economic Development and International Trade (OEDIT) puts software and information technology (IT) at 10% of state employment and 20% of state gross domestic product (GDP), with 47,000+ jobs added in 5 years. Source: <a href=\"https://spl.cde.state.co.us/artemis/govserials/gov3423internet/gov3423202526internet.pdf\">OEDIT FY 2026 performance plan</a>."
+          "body": "The Colorado Office of Economic Development and International Trade (OEDIT) puts software and information technology (IT) at 10% of state employment and 20% of state gross domestic product (GDP), with more than 47,000 new jobs added. Source: <a href=\"https://spl.cde.state.co.us/artemis/govserials/gov3423internet/gov3423202526internet.pdf\">OEDIT FY 2026 performance plan</a>."
         },
         {
           "title": "Startup week",
@@ -131,7 +131,7 @@
         },
         {
           "title": "Boulder roots",
-          "body": "Techstars was founded in Boulder in 2006 and ran its first accelerator program there in summer 2007. Source: <a href=\"https://techstars.com/about\">Techstars</a>."
+          "body": "Techstars was founded in Boulder in 2006 and ran its first accelerator program there in summer 2007. Source: <a href=\"https://www.techstars.com/about\">Techstars</a>."
         }
       ]
     },
@@ -153,7 +153,7 @@
         ],
         [
           "Notice of use",
-          "A clear disclosure at the point where the automated tool shapes the decision.",
+          "A clear disclosure, before the automated tool is used, that it will shape the decision.",
           "A notice pattern and its copy for each decision point."
         ],
         [
@@ -163,8 +163,8 @@
         ],
         [
           "Human review",
-          "A way to request meaningful human review and reconsideration, with its status.",
-          "A human-review request flow plus an admin queue for reviewers."
+          "After an adverse outcome, a way to request meaningful human review and reconsideration, which the law requires to the extent commercially reasonable.",
+          "A human-review request flow with status tracking, plus an admin queue for reviewers."
         ],
         [
           "Data correction",
@@ -219,7 +219,7 @@
     {
       "h2": "How do Mountain Time and Eastern Time working hours overlap?",
       "format": "table",
-      "answer": "<strong>Denver, on Mountain Time, runs 2 hours behind Eastern Time all year, so a Denver morning meets an East Coast midday.</strong> Dedicated designers have at least 4 hours of overlap with US Eastern time, and many teams choose full overlap. The example table shows how the clocks line up.",
+      "answer": "<strong>Denver, on Mountain Time, runs 2 hours behind Eastern Time all year, so a Denver morning meets an East Coast midday.</strong> Every dedicated designer overlaps at least 4 hours with US Eastern time, and many teams choose full overlap. If those 4 hours run 9 a.m.–1 p.m. ET, only 9–11 a.m. falls inside a 9-to-5 Denver day, so agree the shared hours first; the example table shows how the clocks line up.",
       "caption": "Example: Denver and Eastern clock times for remote design work",
       "columns": [
         "Denver time (example)",
@@ -289,7 +289,7 @@
     {
       "h2": "Which case studies show our AI and SaaS product work?",
       "format": "cards",
-      "answer": "<strong>Four projects show the AI and SaaS work Denver teams ask about most: two AI products built from zero and two SaaS redesigns.</strong> None of these clients is in Colorado, and each figure comes from the client's case study page.",
+      "answer": "<strong>Four projects show the AI and SaaS work Denver teams ask about most: two AI products built from zero and two SaaS redesigns.</strong> We do not present any of these clients as Colorado clients, and each figure comes from the client's case study page.",
       "items": [
         {
           "title": "Vocable: AI writing workspace",
@@ -327,7 +327,7 @@
         ],
         [
           "How is the time gap handled?",
-          "Denver is 2 hours behind ET, designers have at least 4 hours of overlap with US Eastern time, and comments run async in Figma.",
+          "Denver is 2 hours behind ET, every dedicated designer overlaps at least 4 hours with US Eastern time, and comments run async in Figma.",
           "Missed reviews slow every sprint."
         ],
         [
@@ -350,7 +350,7 @@
     {
       "h2": "Is our UX agency Denver-based?",
       "format": "paragraph",
-      "answer": "<strong>No. Our team works remotely with US clients, and our only office is in Reston, Virginia.</strong> Denver teams work with us on video calls and in shared Figma files, and a design sprint can also run on-site, with travel.",
+      "answer": "<strong>No. Our team works remotely with US clients, and ui-ux.agency's only office is in Reston, Virginia.</strong> Denver teams work with us on video calls and in shared Figma files, and a design sprint can also run on-site, with travel.",
       "body": "<p>A remote <a href=\"/services/startups/design-sprint/\">design sprint</a> sits at the lower end of its $12,000–$25,000 range, and an on-site sprint with travel sits at the upper end. Bring one AI feature or SaaS flow you want to fix and <a href=\"/contact/\">book a free consultation</a>. Expect an answer from a senior designer within one business day, ET, and ask for a call time that suits a Denver morning.</p>"
     },
     {
@@ -368,15 +368,15 @@
         },
         {
           "q": "Do you design AI features for Colorado's SB 26-189?",
-          "a": "<p>Yes. We design the notice, explanation and correction flows the law describes, plus the request path for an AI feature that needs human review, then test them with users. The law was signed in May 2026, replaced SB 24-205, whose duties never took effect, and is enforced by the Colorado Attorney General. Your counsel confirms whether a feature is covered.</p>"
+          "a": "<p>Yes. We design the notice, explanation and correction flows the law describes, plus the request path for an AI feature that needs human review, then test them with users. Signed on May 14, 2026, the law replaced SB 24-205, whose duties never took effect. The Colorado Attorney General enforces it, but under an April 27, 2026 federal court order in xAI v. Weiser, the office will not start enforcement until its rules are final and the court rules on a preliminary injunction. Your counsel confirms whether a feature is covered.</p>"
         },
         {
           "q": "Does the Colorado Privacy Act affect our consent screens?",
-          "a": "<p>Yes, once your company meets its thresholds, such as processing personal data of 100,000 or more state consumers in a year. The law has applied since July 1, 2023, and gives people rights to access, correct and delete their data, so consent and data-request screens belong in the design.</p>"
+          "a": "<p>Yes, if your company meets one of its thresholds, such as processing personal data of 100,000 or more Colorado consumers in a calendar year; its biometric-data rules apply regardless of size. The law has applied since July 1, 2023, and gives people rights to access, correct and delete their data, so consent and data-request screens belong in the design.</p>"
         },
         {
           "q": "Can your designers join our sprint reviews from another time zone?",
-          "a": "<p>Yes. Our designers join sprint reviews and compare built screens with the Figma design, in hours your team shares with them. Denver and the Eastern zone change clocks on the same dates, next on November 1, 2026, so the 2-hour gap never shifts.</p>"
+          "a": "<p>Yes. Our designers join sprint reviews and compare built screens with the Figma design, in hours your team shares with them. Denver and the Eastern zone change clocks on the same dates, next on November 1, 2026, so the 2-hour gap stays the same in working hours all year.</p>"
         },
         {
           "q": "When can designers start on a Denver startup's product?",

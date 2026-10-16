@@ -21,15 +21,15 @@
     "h1": "Fintech UX design for SaaS and AI-powered financial products",
     "sub": "Sign-up and identity checks people finish, money screens that show status and fees, and AI answers that cite their source. Designed with your compliance team in the review loop."
   },
-  "abstract": "Fintech UX design shapes the user experience (UX) of software that moves, tracks or advises on money, along with its user interface (UI). ui-ux.agency, the design team of tkxel, designs fintech SaaS and AI-powered financial products for US teams: account opening with know your customer (KYC) checks, payments and payouts, trading and spending dashboards, and AI money assistants. Rules such as the Customer Identification Program and Financial Industry Regulatory Authority (FINRA) Rule 2210 shape the flows they cover from the first sketch.",
+  "abstract": "Fintech UX design shapes the user experience (UX) of software that moves, tracks or advises on money, along with its user interface (UI). ui-ux.agency, tkxel's design team, designs fintech SaaS and AI-powered financial products for US teams: account opening with know your customer (KYC) checks, payments and payouts, trading and spending dashboards, and AI money assistants. Rules such as the Customer Identification Program and Financial Industry Regulatory Authority (FINRA) Rule 2210 shape the flows they cover from day one.",
   "summary": "Fintech UX design for SaaS and AI financial products: KYC onboarding, payment and payout flows, trading and spending dashboards, and AI assistants built for compliance review.",
   "intro": "Our fintech UX design work starts where money products lose people: the identity check, the first transfer and the first number nobody can explain. We design and test those paths before anything else.",
   "bullets": [
-    "KYC and account-opening flows that collect the Customer Identification Program basics in short steps a user can pause and resume",
+    "KYC onboarding and account-opening flows that collect the Customer Identification Program basics in short steps a user can pause and resume",
     "Payment, transfer and payout screens that show the fee and arrival time before the user taps send, and the transfer status after",
     "Trading, portfolio and spending dashboards that put the number a user checks first at the top of the screen",
     "AI assistants and copilots for money questions that cite their sources, state their limits and hand off to a person",
-    "Consent, disclosure, dispute and data-sharing screens annotated for your compliance team's review"
+    "Consent, disclosure, dispute and data-sharing screens, flagged for your compliance team in the same annotated Figma files developers build from"
   ],
   "stats": [
     {
@@ -46,10 +46,10 @@
     },
     {
       "value": "48.3%",
-      "label": "of banked US households used mobile banking as their primary access method in 2023 (FDIC survey)"
+      "label": "of banked US households used mobile banking as their primary access method in 2023, per the Federal Deposit Insurance Corporation (FDIC)"
     }
   ],
-  "challengesIntro": "<strong>Fintech UX design carries every job of SaaS design, plus a regulator, a fraud team and a user who is nervous about money.</strong>",
+  "challengesIntro": "Fintech UX design carries every job of SaaS design, plus a regulator, a fraud team and a user who is nervous about money.",
   "challenges": [
     {
       "title": "Identity checks sit inside sign-up",
@@ -57,11 +57,11 @@
     },
     {
       "title": "Trust has to exist before the first deposit",
-      "body": "A new user hands over a bank login or a Social Security number before seeing any value, in banking UX design as much as in a budgeting app, so trust signals carry the screen. Design job: say who holds the money, show fees and transfer timing up front, and write error messages that say what happens to the funds."
+      "body": "A new user hands over a bank login or a Social Security number before seeing any value, so trust signals carry the screen. That is where banking UX design for neobanks and budgeting apps starts. Design job: say who holds the money, show fees and transfer timing up front, and write error messages that say what happens to the funds."
     },
     {
       "title": "Disclosures and marketing copy are regulated",
-      "body": "FINRA Rule 2210 requires broker-dealer communications, including websites, apps and social posts, to be fair and balanced, and it allows a legend or footnote only when that placement does not inhibit an investor's understanding. The rule also bars promissory or exaggerated claims. Design job: put the risk disclosure where the decision happens and give compliance one screen-by-screen review file."
+      "body": "FINRA Rule 2210 requires broker-dealer communications, including websites, apps and social posts, to be fair and balanced, and it allows a legend or footnote only when that placement does not inhibit an investor's understanding. The rule also bars promissory or exaggerated claims. Design job: put the risk disclosure where the decision happens, right next to the button it qualifies."
     },
     {
       "title": "Dense numbers on a small screen",
@@ -80,7 +80,7 @@
       "body": "WCAG 2.2 adds Accessible Authentication (Minimum), SC 3.3.8, at Level AA: no step can demand recalling a password or transcribing a code unless an alternative or a helper such as paste or a password manager works. Design job: pasteable one-time codes and passkeys; the National Institute of Standards and Technology (NIST) SP 800-63-4 (final, 2025) covers synced passkeys as syncable authenticators."
     }
   ],
-  "solutionsIntro": "<strong>Our fintech UX design work covers seven areas, from the first identity check to the controls an auditor asks about, each designed for review by your compliance team.</strong>",
+  "solutionsIntro": "Our fintech UI UX design work covers seven areas, from the first identity check to the controls an auditor asks about, each designed for review by your compliance team.",
   "solutions": [
     {
       "title": "KYC and account opening",
@@ -100,7 +100,7 @@
     },
     {
       "title": "Consent, disclosure and dispute flows",
-      "body": "Consent screens for data sharing stay clear and revocable. The CFPB finalized its Personal Financial Data Rights rule (Section 1033) in October 2024, reopened it for reconsideration in August 2025, and a federal court has barred its enforcement until that review ends, so we design to the principle rather than one rule text. Disclosures sit at the decision point, next to dispute and error-report flows and admin audit-trail views."
+      "body": "Consent screens for data sharing stay clear and revocable. The CFPB finalized its Personal Financial Data Rights rule (Section 1033) in October 2024 and reopened it for reconsideration in August 2025; a federal court has barred enforcement until that review ends, so we design to the principle. Disclosures sit at the decision point, dispute flows say what happens next, and audit logs record each consent change."
     },
     {
       "title": "Controls your auditor will ask about",
@@ -114,7 +114,7 @@
   "benefits": [
     {
       "title": "More people finish sign-up and verification",
-      "body": "Short steps, saved progress and a visible review status remove reasons to quit an identity check, and every finished check is an account that can be funded."
+      "body": "Short steps, saved progress and a visible review status remove reasons to quit an identity check, and every approved check is an account that can be funded."
     },
     {
       "title": "Fewer \"where is my money?\" tickets",
@@ -172,7 +172,7 @@
     },
     {
       "q": "Can UX design make a fintech product compliant on its own?",
-      "a": "No. Your compliance team, counsel and auditors decide compliance under Securities and Exchange Commission (SEC) and FINRA rules and the PCI DSS standard. Fintech UX design makes the required disclosures, consent and controls usable and hands reviewers an annotated screen file. One status note: the SEC withdrew its 2023 predictive data analytics proposal for broker-dealers and advisers on June 12, 2025, while FINRA Rule 2210 still governs communications."
+      "a": "No. Your compliance team, counsel and auditors decide compliance under Securities and Exchange Commission (SEC) and FINRA rules and the PCI DSS standard. Fintech UX design makes the required disclosures, consent and controls usable and marks them in the annotated Figma files your reviewers and developers share. One status note: the SEC withdrew its 2023 predictive data analytics proposal for broker-dealers and advisers on June 12, 2025, while FINRA Rule 2210 still governs communications."
     },
     {
       "q": "How do you design AI assistants for financial products?",
@@ -184,10 +184,10 @@
     },
     {
       "q": "Which fintech case studies can we review?",
-      "a": "Two are published. TradeZella, a SaaS trading journal and analytics product, saw 40% more user interaction, a 25% boost in retention and 30% more new customers after its web and mobile redesign. The <a href=\"/case-studies/anyday-app/\">Anyday App payout redesign</a> for XTM Inc. gives hourly staff earned wage access the same day; automated payouts save 14 hours per week, and business clients rose 20%."
+      "a": "Two are published. TradeZella, a SaaS trading journal and analytics product, saw 40% more user interaction, a 25% boost in retention and 30% more new customers after its web and mobile redesign. The <a href=\"/case-studies/anyday-app/\">Anyday App payout redesign</a> was for XTM Inc., whose wallet gives hourly staff earned wage access the same day; automated payouts save 14 hours per week, and business clients rose 20%."
     },
     {
-      "q": "How much does fintech UX design cost?",
+      "q": "What does fintech UX design cost?",
       "a": "There is no separate fintech price, so the service you need sets the range: minimum viable product (MVP) design runs $15,000–$50,000, AI UX design $25,000–$90,000, SaaS product design $40,000–$180,000 and a SaaS product redesign $50,000–$200,000. Our <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide explains what moves a quote, and every quote arrives as a fixed-scope proposal."
     }
   ],
