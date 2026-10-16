@@ -291,7 +291,7 @@ These 5 failure modes cover most of the damage:
 - **Wrong segment:** personalization runs on a welcome answer the user picked at random to get past the screen. Every later message misses.
 - **No exit:** a tour of 9 steps with no close button, an AI assistant without a handoff, an email without an unsubscribe link. Each one traps a user who wanted out.
 
-Go back to the patch-or-fix column. If more than a few rules say "patch," the screens underneath need user experience design, not another rule. That's the screen-first work described at the top of this guide. In our services, an onboarding redesign runs in 4 steps over 3 to 6 weeks, and here's [what that redesign costs](/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost): $15,000–$45,000. We design onboarding that your team builds in code or in tools such as Appcues, Userpilot or Pendo. We judge it by the 3 outcome metrics above.
+Go back to the patch-or-fix row. If more than a few rules say "patch," the screens underneath need user experience design, not another rule. That's the screen-first work described at the top of this guide. In our services, an onboarding redesign runs in 4 steps over 3 to 6 weeks, and here's [what that redesign costs](/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost): $15,000–$45,000. We design onboarding that your team builds in code or in tools such as Appcues, Userpilot or Pendo. We judge it by the 3 outcome metrics above.
 
 If your problems go well past onboarding, our wider [SaaS product design](/services/saas-products/) practice covers the rest of the product. Either way, mark every patch in your sheet before the next sprint planning.
 
