@@ -1,0 +1,484 @@
+{
+  "slug": "ux-agency-minneapolis",
+  "pageType": "location",
+  "targetFile": "content/locations/ux-agency-minneapolis.json",
+  "url": "/location/ux-agency-minneapolis/",
+  "city": "Minneapolis",
+  "state": "MN",
+  "title": "Minneapolis",
+  "keyword": "ux agency minneapolis",
+  "anchor": "UX agency Minneapolis",
+  "secondary": [],
+  "lexicalVariants": [
+    "ux design minneapolis",
+    "ux designer minneapolis",
+    "ui ux design minneapolis",
+    "product design agency minneapolis",
+    "ai product design minneapolis",
+    "saas design minneapolis",
+    "remote ux agency"
+  ],
+  "lexicalVariantsNote": "calendar.json gives this item an empty `secondary` list. keywords-2026-10.json → techCities holds one Minneapolis row only (\"ux agency minneapolis\", 70). Of the warehouse files, only 2026-10-14-terms-hire-ui-ux-designers.json has a Minneapolis row: \"hire ui ux designers in minneapolis\", volume 0. The variants above therefore have NO volume data. Use them as wording in H2s/FAQs and as meta keywords after the primary, never as a target and never with an estimated volume.",
+  "volume": 70,
+  "kd": null,
+  "dataSource": "Ahrefs US keywords-explorer/overview, pulled 2026-10-14 (docs/content-system/keywords-2026-10.json → techCities row 'ux agency minneapolis' = 70, KD/TP/parent topic null; also the top-level list at line 344). The orchestrator accepts this source through calendar.json ('Ahrefs US 2026-10-14'). Semrush was tested once on 2026-10-16 and returned no_api_units. No GSC export exists (docs/data/gsc/latest.json missing). SERP and local facts come from WebSearch on 2026-10-16. WebFetch returned ENOTFOUND for uiuxdesignservices.us, bls.gov and mn.gov, so facts from those domains come from search snippets and are marked 'verify' in eav.",
+  "dataSourceDate": "2026-10-16",
+  "sisterCheck": "FREE (orchestrator ran npm run sister:check -- \"ux agency minneapolis\"). Minneapolis is not in docs/content-system/sister-site.json (checked 2026-10-16).",
+  "intent": "Commercial investigation, local modifier. Founders, product managers and design leads at Minneapolis–Saint Paul startups, B2B software companies and enterprise product teams are comparing UX agencies they could hire. Page 1 is directory listings: Clutch, The Manifest, DesignRush, Semrush Agencies and a Gartner-hosted list. Below those sit generic city-template pages (varenyaz). No result explains AI or SaaS product design for Twin Cities teams with published prices and a clear remote working model. That gap is our angle.",
+  "serviceSupport": 5,
+  "funnel": "bofu",
+  "funnelWhy": "A location page with agency-hiring intent. Directories and agency pages dominate the SERP, so it is BOFU. The template supplies the lead form, CTA band and final CTA.",
+  "centralEntity": "ux agency minneapolis",
+  "sourceContext": "ui-ux.agency, the UI UX design team of tkxel, is headquartered in Reston, VA (its only office) and works remotely with US clients. The page explains AI and SaaS product design to Minneapolis–Saint Paul buyers: the local tech context (sourced), the Central Time / Eastern Time working model, our published services and prices, and real case studies quoted as written. It never claims a local office, team or client.",
+  "metaTitle": "UX Agency Minneapolis | AI and SaaS Product Design",
+  "metaTitleChars": 50,
+  "metaDescription": "UX agency Minneapolis teams hire remotely for AI and SaaS product design: published prices, Central Time overlap, case studies. Book a free consultation.",
+  "metaDescriptionChars": 153,
+  "keywords": [
+    "ux agency minneapolis",
+    "ux design minneapolis",
+    "ai product design minneapolis",
+    "saas design minneapolis",
+    "ux designer minneapolis",
+    "remote ux agency"
+  ],
+  "hero": {
+    "eyebrow": "UX agency Minneapolis",
+    "h1": "The UX agency Minneapolis AI and SaaS teams can work with remotely",
+    "sub": "AI product design, SaaS design and MVP design for Minneapolis–Saint Paul startups, software companies and enterprise teams, from a remote team headquartered in Reston, VA, one hour ahead of Central Time."
+  },
+  "summary": "Remote AI and SaaS product design for Minneapolis–Saint Paul startups and software teams, with published prices.",
+  "abstract": "ui-ux.agency is a UX agency Minneapolis–Saint Paul startups, software companies and enterprise product teams can hire remotely for AI product design, SaaS design and MVP design. We are headquartered in Reston, VA, with no Minneapolis office. We work in shared Figma files and hold reviews in the hours Central Time and Eastern Time share.",
+  "abstractNote": "PageHero renders the abstract directly under the H1, so it is the 'first 60 words' surface. Keep the exact phrase 'UX agency Minneapolis' in its first sentence.",
+  "keywordCarrier": {
+    "why": "Reversed-order city keyword (place name last). Lessons 2026-10-09 and 2026-10-10 found it stacked on a following noun on 3 location pages.",
+    "patterns": [
+      "a UX agency Minneapolis teams can hire remotely",
+      "a UX agency Minneapolis–Saint Paul startups can brief this week",
+      "the UX agency Minneapolis AI and SaaS teams work with remotely (H1 only)",
+      "looking for a UX agency Minneapolis product teams can reach in their own workday"
+    ],
+    "compounds": "Rebuild compounds in natural order: 'a Minneapolis UX project', 'Minneapolis product teams', 'a Twin Cities SaaS redesign'. NEVER 'a UX agency Minneapolis project/engagement/cost/practice/work'. Test: swap the keyword for 'this agency'; if you get 'a this agency project', rewrite.",
+    "density": "The body is about 1,300–1,600 visible words, and the keyword has 3 words. Use the exact phrase 7–9 times: hero/abstract, H1, 1–2 H2s, 2–3 bold answers or bodies, FAQ heading, closing. That stays at or below 2% word share. It still beats the 0.5 × top-rival rule if 'AI product design', 'Twin Cities' and 'Central Time' stay at 5 uses or fewer each.",
+    "h2Rule": "onpage-audit.mjs counts an H2 toward the 40% share when it holds any keyword word longer than 3 letters ('agency' or 'minneapolis'). The city name alone is enough. Do not force the full reversed phrase into every H2."
+  },
+  "priceRange": "$8,000–$200,000",
+  "priceRangeSource": "content/services/ui-ux-design-cost.json abstract and table: $8,000 (AI product discovery workshop) up to $200,000 (SaaS product redesign); dedicated team $15,000–$40,000 per month.",
+  "entities": [
+    "ux agency minneapolis",
+    "Minneapolis–Saint Paul (Twin Cities)",
+    "Minnesota",
+    "Central Time (CT)",
+    "Eastern Time (ET)",
+    "Reston, VA",
+    "Minnesota Department of Employment and Economic Development (DEED)",
+    "GREATER MSP Partnership (Make It. MSP)",
+    "Medical Alley Association",
+    "Minnestar (Minnebar)",
+    "Twin Cities Startup Week",
+    "Fortune 500",
+    "UnitedHealth Group",
+    "Target",
+    "Best Buy",
+    "AI product discovery workshop",
+    "AI UX design",
+    "chatbot UI design",
+    "SaaS onboarding design",
+    "MVP design",
+    "design sprint",
+    "Figma and FigJam",
+    "Maze",
+    "HIPAA Privacy Rule",
+    "tkxel"
+  ],
+  "attributes": [
+    "time zone offset (Central Time vs Eastern Time)",
+    "working-hour overlap (hours shared with Eastern time)",
+    "service model (remote, office in Reston, VA)",
+    "price range per engagement",
+    "timeline per engagement",
+    "project start time after the first call",
+    "reply time (one business day, ET)",
+    "collaboration tools (Figma, FigJam, Maze)",
+    "local IT workforce size",
+    "enterprise headquarters count (Fortune 500)",
+    "remote user testing (number of users)",
+    "case study results"
+  ],
+  "eav": [
+    { "attribute": "definition", "value": "A UX agency researches users, designs how a product works (UX) and looks (UI), tests it with real people and supports engineers during the build", "source": "content/home.ts FAQ 'What does a UI UX design agency do?'" },
+    { "attribute": "service model", "value": "remote; the only office is 11921 Freedom Drive, Two Fountain Square, Reston, VA; no Minneapolis office", "source": "content/pages/about.md; RULES.md honesty rules" },
+    { "attribute": "company facts", "value": "UI UX design team of tkxel; 200+ digital products designed since 2017", "source": "content/pages/about.md; RULES.md confirmed facts" },
+    { "attribute": "time zone (Minneapolis)", "value": "Central Time: UTC−6 standard (CST), UTC−5 daylight (CDT); one hour behind Eastern Time; 2026 fall change November 1", "source": "https://www.timeanddate.com/time/zone/usa/minneapolis" },
+    { "attribute": "working-hour overlap", "value": "every designer overlaps at least 4 hours with US Eastern time; many teams choose full overlap", "source": "content/services/hire-ui-ux-designers.json FAQ 'Do your designers work in US time zones?'" },
+    { "attribute": "reply time", "value": "a senior designer replies within one business day (ET)", "source": "content/pages/about.md; content/pages/thank-you.md; RULES.md US market (ET)" },
+    { "attribute": "project start", "value": "most projects start 1 to 2 weeks after the first call; dedicated designers start in 1 to 2 weeks", "source": "content/home.ts FAQ 'How fast can a project start?'; content/services/hire-ui-ux-designers.json steps" },
+    { "attribute": "collaboration tools", "value": "Figma for design and prototypes, FigJam for workshops, Maze for remote tests", "source": "content/services/product-design-agency.json FAQ; content/services/ai-ux-design-agency.json FAQ" },
+    { "attribute": "remote workshops", "value": "discovery workshops and design sprints run remotely in Figma and FigJam with shorter daily sessions", "source": "content/services/ai-product-discovery-workshop.json and design-sprint.json FAQs" },
+    { "attribute": "on-site option", "value": "remote sprints sit at the lower end of $12,000–$25,000; on-site sprints with travel sit at the upper end", "source": "content/services/design-sprint.json cost answer" },
+    { "attribute": "price: AI work", "value": "AI product discovery workshop $8,000–$20,000 (1–2 weeks); AI UX design $25,000–$90,000 (4–10 weeks); chatbot UI design $15,000–$60,000 (3–8 weeks)", "source": "content/services/ui-ux-design-cost.json table" },
+    { "attribute": "price: SaaS and startup work", "value": "design sprint $12,000–$25,000 (5 days); MVP design $15,000–$50,000 (4–8 weeks); SaaS onboarding design $15,000–$45,000 (3–6 weeks); SaaS product design $40,000–$180,000 (6–16 weeks); SaaS product redesign $50,000–$200,000 (8–20 weeks); dedicated team $15,000–$40,000 per month", "source": "content/services/ui-ux-design-cost.json table" },
+    { "attribute": "remote user testing", "value": "5 to 8 users run real tasks in a prototype with real model answers (AI UX); design sprints include recruiting 5 test users", "source": "content/services/ai-ux-design-agency.json FAQ; content/services/design-sprint.json cost answer" },
+    { "attribute": "local IT workforce", "value": "nearly 110,000 IT workers in Minnesota in 2024, about one in every 25 jobs; average full-time, year-round wage $108,800", "source": "https://careerforce.mn.gov/careerforce-blog/may-technology-month (DEED CareerForce; confirmed via search snippet, verify on page)" },
+    { "attribute": "tech and innovation economy", "value": "$27.8 billion in state GDP, about 16,000 companies and 126,000 jobs (reference year not stated on the source)", "source": "https://mn.gov/deed/assets/tech-innovation-postcard-acc_tcm1045-709531.pdf and https://mn.gov/deed/dobusiness/key-industries/technology-innovation/index.jsp (snippet; verify; say 'DEED reports', never add a year)" },
+    { "attribute": "enterprise headquarters", "value": "17 Minnesota companies on the 2025 Fortune 500, including UnitedHealth Group (#3), Target (#41), U.S. Bancorp (#105) and Best Buy (#108); APi Group (New Brighton) debuted at #486 in 2026", "source": "https://krocnews.com/17-minnesota-companies-just-made-the-2025-fortune-500-list/ ; https://www.businesswire.com/news/home/20260608546874/en/" },
+    { "attribute": "health technology cluster", "value": "the Medical Alley Association represents Minnesota's health technology cluster", "source": "https://mn.gov/deed/dobusiness/key-industries/leading-life-sciences/ (snippet; company/employee counts differ by source, so do not quote a count)" },
+    { "attribute": "startup community", "value": "Minnebar is a free, participant-led tech unconference run by the nonprofit Minnestar since 2006; Minnebar14 drew over 1,400 people to Best Buy's Richfield headquarters. Twin Cities Startup Week is run by The Beta Group, a Minneapolis 501(c)(3)", "source": "https://minnestar.org/relive-the-action-minnebar14-recap/ ; https://minnestar.org/faqs/minnebar-faq/page/3 ; https://www.givemn.org/story/Tcsw-2025" },
+    { "attribute": "talent attraction", "value": "Make It. MSP is the talent attraction and retention initiative of the GREATER MSP Partnership, launched in 2015", "source": "https://www.greatermsp.org/blog/2015/10/26/main/introducing-the-make-it.-msp.-talent-initiative/" },
+    { "attribute": "case study results (unique)", "value": "Vocable (AI content marketing SaaS, idea to MVP): +35% overall workflow efficiency. Digno (AI-scored HR SaaS): 5x revenue. Mass Media Co. (B2B platform revamp): +30% order processing efficiency. TradeZella (SaaS dashboard redesign): +40% user interaction, +25% retention", "source": "content/case-studies/vocable.md, digno.md, mass-media-co.md, tradezella.md (results tables)" }
+  ],
+  "ngrams": [
+    "ux agency minneapolis",
+    "minneapolis–saint paul",
+    "twin cities",
+    "ai product design",
+    "saas product design",
+    "central time",
+    "eastern time",
+    "remote ux agency",
+    "mvp design",
+    "discovery workshop",
+    "user tests",
+    "published price"
+  ],
+  "skipgrams": [
+    ["central time", "eastern time"],
+    ["minneapolis", "saas"],
+    ["minneapolis", "startups"],
+    ["copilot", "existing"],
+    ["figma", "review"],
+    ["mvp", "weeks"],
+    ["enterprise", "pilot"],
+    ["health", "hipaa"],
+    ["remote", "user tests"],
+    ["workshop", "use cases"],
+    ["redesign", "retention"],
+    ["price", "weeks"],
+    ["twin cities", "founders"]
+  ],
+  "lexical": {
+    "synonyms": ["UX design agency", "user experience agency", "UX design firm", "product design studio", "design partner"],
+    "hypernyms": ["design agency", "digital product agency", "user experience design"],
+    "hyponyms": ["AI UX design", "chatbot UI design", "SaaS onboarding design", "SaaS product redesign", "MVP design", "B2B SaaS design"],
+    "meronyms": ["discovery workshop", "user interviews", "user flows", "wireframes", "clickable prototype", "design system", "usability test", "handoff specs", "sprint review"]
+  },
+  "serpGaps": [
+    "Page 1 is directories (Clutch, The Manifest, DesignRush, Semrush Agencies, Gartner-hosted list) and generic city templates. None explains AI product design (prompts, answers with sources, correction flows) for Twin Cities companies.",
+    "No ranking page publishes prices per engagement. We can show the full range table.",
+    "No page explains the Central Time / Eastern Time working model in concrete hours.",
+    "No page cites the local tech context from primary sources (DEED, Minnestar, Fortune 500 list). City templates use vague 'thriving tech hub' copy.",
+    "No page tells a buyer honestly that the team is remote, and what changes compared with a local studio."
+  ],
+  "outline": [
+    {
+      "h2": "What does a UX agency Minneapolis teams hire remotely do?",
+      "format": "paragraph",
+      "answer": "<strong>A UX agency Minneapolis teams hire remotely researches users, designs AI and SaaS product flows, tests them as clickable prototypes and supports engineers during the build.</strong> Our team does this from Reston, VA, in shared Figma files, with reviews in the hours Central and Eastern Time share.",
+      "answerWords": 47,
+      "bodyHint": "50–70 words. Name the three kinds of work: AI features (prompt input, answers with sources, edit/retry/reject), SaaS products (onboarding, dashboards, phased redesigns) and startup MVPs. Say it plainly: no Minneapolis office, remote by design. Link AI UX design and SaaS design once each.",
+      "links": [
+        { "anchor": "AI UX design agency", "to": "/services/ai-products/ai-ux-design-agency/" },
+        { "anchor": "SaaS design agency", "to": "/services/saas-products/saas-design-agency/" }
+      ]
+    },
+    {
+      "h2": "What does the Minneapolis–Saint Paul tech scene look like in 2026?",
+      "format": "table",
+      "answer": "<strong>Minneapolis–Saint Paul pairs a large enterprise base with an active startup community: Minnesota counted nearly 110,000 IT workers in 2024, about one in every 25 jobs.</strong> The table lists the sourced facts that shape product work in the Twin Cities.",
+      "answerWords": 41,
+      "intro": "One sentence before the table: 'The table compares the main parts of the Twin Cities tech economy and where each figure comes from.' Then a 'Table: Minneapolis–Saint Paul tech scene facts and sources' line.",
+      "caption": "Minneapolis–Saint Paul tech scene facts and sources",
+      "columns": ["Area", "Fact", "Source"],
+      "rows": [
+        ["IT workforce", "Nearly 110,000 IT workers in 2024, about 1 in 25 jobs; average full-time wage $108,800", "Minnesota DEED (CareerForce)"],
+        ["Tech and innovation economy", "$27.8 billion in state GDP, about 16,000 companies, 126,000 jobs", "Minnesota DEED"],
+        ["Enterprise headquarters", "17 Minnesota companies on the 2025 Fortune 500, among them UnitedHealth Group, Target, U.S. Bancorp and Best Buy", "Fortune 500 2025 (via KROC)"],
+        ["Health technology", "Medical Alley Association represents the state's health technology cluster", "Minnesota DEED"],
+        ["Startup community", "Minnebar, a free unconference run by Minnestar since 2006; Twin Cities Startup Week, run by The Beta Group", "Minnestar; GiveMN"],
+        ["Talent attraction", "Make It. MSP, the talent initiative of the GREATER MSP Partnership", "GREATER MSP"],
+        ["Time zone", "Central Time, UTC−6 (CST) and UTC−5 (CDT), one hour behind Eastern Time", "timeanddate.com"]
+      ],
+      "bodyHint": "Cite each source as a link in the cell or in one sentence under the table, using the externalSources URLs. Never add a reference year to the DEED $27.8 billion row. Do not quote a Medical Alley company or employee count. Do not mention the Twin Cities' neighbor city by name (see notes)."
+    },
+    {
+      "h2": "Which Minneapolis–Saint Paul teams is this AI and SaaS design work for?",
+      "format": "cards",
+      "answer": "<strong>Our AI and SaaS design work fits 4 kinds of Minneapolis–Saint Paul teams</strong>: founders building on a model, B2B software companies, enterprise teams with AI pilots and health tech product teams. Each one works with us remotely.",
+      "answerWords": 36,
+      "items": [
+        { "title": "Startups building on a model", "body": "Founders from the Minnebar and Twin Cities Startup Week crowd who need a first version people trust; MVP design takes 4 to 8 weeks." },
+        { "title": "B2B SaaS and software companies", "body": "Teams fixing onboarding, dashboards or a dated interface; SaaS onboarding design takes 3 to 6 weeks." },
+        { "title": "Enterprise teams with AI pilots", "body": "Product groups inside large Twin Cities employers that built a proof of concept and need an interface staff will use." },
+        { "title": "Health tech product teams", "body": "Vertical SaaS for clinics and care teams; when screens show protected health information, the HIPAA Privacy Rule sets what they may display, so involve your compliance lead in reviews." }
+      ],
+      "bodyHint": "These are AUDIENCES, never clients. Do not imply that UnitedHealth Group, Target, Best Buy or any Medical Alley member works with us. The HIPAA line is advice to the reader ('involve your compliance lead'), not a claim about our process; link the HHS page."
+    },
+    {
+      "h2": "Which AI product design services do Minneapolis teams start with?",
+      "format": "list",
+      "answer": "<strong>Minneapolis teams adding AI usually start with one of 3 services</strong>: a 1–2 week AI product discovery workshop, 4–10 weeks of AI UX design, or 3–8 weeks of chatbot UI design. Each one has a published price range.",
+      "answerWords": 39,
+      "items": [
+        { "title": "AI product discovery workshop.", "body": "$8,000–$20,000 over 1 to 2 weeks: picks the AI use cases worth building and turns them into a scoped plan. Runs remotely in Figma and FigJam." },
+        { "title": "AI UX design.", "body": "$25,000–$90,000 over 4 to 10 weeks: input, output, review and correction patterns, prototyped with real model answers and tested with 5 to 8 users." },
+        { "title": "Chatbot UI design.", "body": "$15,000–$60,000 over 3 to 8 weeks: chat windows, answer cards, suggested replies and human handoff." }
+      ],
+      "links": [
+        { "anchor": "AI product discovery workshop", "to": "/services/ai-products/ai-product-discovery-workshop/" },
+        { "anchor": "chatbot UI design", "to": "/services/ai-products/chatbot-ui-design/" },
+        { "anchor": "AI product design", "to": "/services/ai-products/" }
+      ],
+      "bodyHint": "Copilots inside existing software are the common enterprise case. AI-first SaaS tools are the common startup case. Both come from the ai-ux-design-agency cards. Keep each item to one or two sentences."
+    },
+    {
+      "h2": "How do Minneapolis SaaS and startup teams pick the right engagement?",
+      "format": "table",
+      "answer": "<strong>The right engagement depends on your product's stage, not your city.</strong> A Minneapolis startup with an untested idea starts with a 5-day design sprint; a SaaS company losing trial users starts with onboarding design. The table maps each stage to a price and timeline.",
+      "answerWords": 44,
+      "intro": "One sentence: 'The table compares six product stages with the engagement, price and timeline that fit each one.' Then 'Table: Engagements for Minneapolis SaaS and startup teams by stage'.",
+      "caption": "Engagements for Minneapolis SaaS and startup teams by stage",
+      "columns": ["Product stage", "Start with", "Price", "Timeline"],
+      "rows": [
+        ["Untested idea", "Design sprint", "$12,000–$25,000", "5 days"],
+        ["Seed round, no product yet", "MVP design", "$15,000–$50,000", "4–8 weeks"],
+        ["Trial users never activate", "SaaS onboarding design", "$15,000–$45,000", "3–6 weeks"],
+        ["New product or large module", "SaaS product design", "$40,000–$180,000", "6–16 weeks"],
+        ["Live product looks dated", "SaaS product redesign", "$50,000–$200,000", "8–20 weeks"],
+        ["Design work outruns your team", "Dedicated designers", "$15,000–$40,000 per month", "Ongoing"]
+      ],
+      "links": [
+        { "anchor": "design sprint", "to": "/services/startups/design-sprint/" },
+        { "anchor": "MVP design agency", "to": "/services/startups/mvp-design-agency/" },
+        { "anchor": "SaaS onboarding design", "to": "/services/saas-products/saas-onboarding-design/" },
+        { "anchor": "SaaS product redesign", "to": "/services/saas-products/saas-product-redesign/" }
+      ],
+      "bodyHint": "Do not copy the saas-products and startups pillar tables (content/pillars.ts). Their row wording ('If this is the problem', 'No product yet, or a large module', 'Pre-seed or seed') must not reappear. The columns and rows above are new."
+    },
+    {
+      "h2": "How does a remote UX agency work with a Minneapolis team on Central Time?",
+      "format": "steps",
+      "answer": "<strong>A remote engagement runs on shared files and fixed review slots: Minneapolis is one hour behind Eastern Time, so a 10 a.m. ET review is 9 a.m. in Minneapolis.</strong> Every designer overlaps at least 4 hours with US Eastern time.",
+      "answerWords": 41,
+      "items": [
+        { "title": "First call", "body": "A senior designer replies within one business day (ET); most projects start 1 to 2 weeks after the first call." },
+        { "title": "Remote kickoff and discovery", "body": "Stakeholder interviews by video and FigJam workshops in short daily sessions instead of full-day meetings." },
+        { "title": "Design in shared Figma files", "body": "Your team comments in Figma at any hour; we walk through changes in a weekly review inside the shared hours." },
+        { "title": "Remote user tests", "body": "5 to 8 of your users run real tasks in Maze or on video; AI prototypes show real model answers, including wrong ones." },
+        { "title": "Build support", "body": "Designers join sprint reviews, answer engineers' questions and check built screens against the design." }
+      ],
+      "image": {
+        "src": "/images/locations/minneapolis-ct-et-overlap.svg",
+        "alt": "Timeline comparing Central Time in Minneapolis with Eastern Time, showing a 10 a.m. ET design review at 9 a.m. CT and the shared working hours",
+        "caption": "Minneapolis Central Time vs Eastern Time: one hour apart, with design reviews in the shared hours",
+        "text": [
+          "Minneapolis runs on Central Time (CT), one hour behind Eastern Time (ET)",
+          "10:00 a.m. ET review = 9:00 a.m. CT in Minneapolis",
+          "Every designer overlaps at least 4 hours with US Eastern time",
+          "Comments in Figma work at any hour; reviews sit in the shared hours"
+        ]
+      },
+      "bodyHint": "Use only the arithmetic (1-hour offset) and the documented 4-hour ET overlap. Never state the team's exact working hours, a 'full workday overlap' for CT, or where designers sit."
+    },
+    {
+      "h2": "Which AI and SaaS case studies show how we work?",
+      "format": "cards",
+      "answer": "<strong>Four case studies show our AI and SaaS process, from stakeholder interviews to measured results.</strong> They show the same remote process a Minneapolis team would get, with the figures each client page reports.",
+      "answerWords": 33,
+      "items": [
+        { "title": "Vocable: AI content marketing SaaS", "body": "Idea to MVP; writers switch between OpenAI, Google, Anthropic and Meta models inside one editor. Overall workflow efficiency rose 35%.", "href": "/case-studies/vocable/" },
+        { "title": "Digno: AI-scored performance SaaS", "body": "An AI scoring engine rates employees, departments and the whole company; revenue grew 5x.", "href": "/case-studies/digno/" },
+        { "title": "Mass Media Co.: one B2B platform", "body": "Separate order tools merged into one platform after a discovery workshop; order processing efficiency rose 30%.", "href": "/case-studies/mass-media-co/" },
+        { "title": "TradeZella: SaaS dashboard redesign", "body": "Web and mobile dashboards rebuilt and tested with traders before launch; user interaction rose 40% and retention 25%.", "href": "/case-studies/tradezella/" }
+      ],
+      "bodyHint": "Quote figures exactly as the case studies write them. Never say or imply any client is in Minneapolis or Minnesota, and do not state where any client is based. The page template also shows a 'Products we designed' grid, so keep these cards short and focused on the AI/SaaS angle. Do not use the Elia Wellness quote as a testimonial (it praises 'building', lesson 2026-10-11)."
+    },
+    {
+      "h2": "How much does a UX agency for a Minneapolis product cost?",
+      "format": "paragraph",
+      "answer": "<strong>Our projects range from $8,000 for an AI discovery workshop to $200,000 for a full SaaS product redesign, and dedicated designers cost $15,000 to $40,000 per month.</strong> We publish one set of ranges for US clients, with no separate Minneapolis rate.",
+      "answerWords": 43,
+      "bodyHint": "50–70 words. Price drivers from the service pages: number of user roles, platforms and AI features. A single copilot feature in an existing web app sits near $25,000; an AI-first product with several workflows sits near $90,000 (ai-ux-design-agency cost body). Remote design sprints sit at the lower end of their range. Link the cost guide; do not restate its full table.",
+      "links": [
+        { "anchor": "UI UX design cost", "to": "/services/ui-ux-design-cost/" }
+      ]
+    },
+    {
+      "h2": "Remote UX agency vs a local Minneapolis studio: what changes for your team?",
+      "format": "table",
+      "answer": "<strong>A remote UX agency and a local Minneapolis studio differ most in how workshops happen and which specialties they bring.</strong> The table compares what changes for your team; check any studio's own portfolio and prices before you choose.",
+      "answerWords": 38,
+      "intro": "One sentence: 'The table compares a remote agency like ours with a local studio on six working details.' Then 'Table: Remote UX agency vs a local Minneapolis studio'.",
+      "caption": "Remote UX agency vs a local Minneapolis studio",
+      "columns": ["Working detail", "Remote UX agency (ui-ux.agency)", "Local Minneapolis studio"],
+      "rows": [
+        ["Workshops", "Remote in Figma and FigJam; an on-site design sprint adds travel, at the upper end of $12,000–$25,000", "In-person sessions are easy to arrange"],
+        ["Time zone", "One hour apart (ET and CT), with at least 4 shared hours", "Same time zone"],
+        ["Focus", "AI products, SaaS platforms and startup MVPs", "Varies by studio"],
+        ["Prices", "Published range for every engagement", "Ask each studio for a quote"],
+        ["User testing", "Remote tests with 5 to 8 users wherever they live", "Remote or in person, varies by studio"],
+        ["Build", "tkxel engineers can build the product", "Varies by studio"]
+      ],
+      "bodyHint": "Stay neutral about local studios. Do not name any, and make no claims about their quality, prices or speed. This section is the lead angle (see leadAngle)."
+    },
+    {
+      "h2": "UX agency Minneapolis FAQs",
+      "format": "faq",
+      "answer": "<strong>These answers cover what Minneapolis–Saint Paul teams ask before they hire a remote UX agency.</strong>",
+      "faqsRef": "faqs[] below (put them in this inline section so the FAQ heading carries the keyword)"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does ui-ux.agency have an office in Minneapolis?",
+      "a": "<p>No. Our only office is in Reston, VA, and we work remotely with US teams in shared Figma files and video reviews. A Minneapolis project runs the same way. An on-site design sprint is possible; travel puts it at the upper end of the $12,000–$25,000 sprint range.</p>"
+    },
+    {
+      "q": "Can you run UX design research with our Minneapolis customers?",
+      "a": "<p>Yes. We interview your customers by video and run remote tests where 5 to 8 users complete real tasks in a prototype. Design sprints include recruiting 5 test users, so your Twin Cities customers can take part from their own desks.</p>"
+    },
+    {
+      "q": "Can a Minneapolis team hire a UX designer by the month?",
+      "a": "<p>Yes. A dedicated designer or team costs $15,000 to $40,000 per month and starts within 1 to 2 weeks of the scoping call. Every designer overlaps at least 4 hours with US Eastern time, which is one hour ahead of Minneapolis.</p>"
+    },
+    {
+      "q": "How quickly can a Minneapolis project start?",
+      "a": "<p>Most projects start 1 to 2 weeks after the first call. Send your brief on the contact page and a senior designer replies within one business day, Eastern Time (ET), with a few questions and times for a free consultation.</p>"
+    },
+    {
+      "q": "Do you design health tech software for Minnesota companies?",
+      "a": "<p>Yes. We design vertical SaaS for clinics and care teams, and Elia Wellness, a wellness learning app for adults over 50, grew registrations 40%. When screens show protected health information, the HIPAA Privacy Rule applies, so bring your compliance lead into design reviews.</p>"
+    },
+    {
+      "q": "Can your team also build the product?",
+      "a": "<p>Yes. ui-ux.agency is the design team of tkxel, and tkxel's engineering team builds the product when you need development as well as design. You can also hire us for design only and hand the files to your own engineers.</p>"
+    }
+  ],
+  "faqVariants": "FAQ 2 carries 'UX design … Minneapolis' and FAQ 3 carries 'UX designer'. Both are lexical variants with no volume data.",
+  "visual": {
+    "landmark": "bridge",
+    "landmarkWhy": "The location-visuals.mjs 'bridge' shape is a two-tower deck, which fits the Minneapolis river skyline. The copy must not name or describe a bridge (that would be an unsourced claim).",
+    "scenes": [
+      { "icon": "robot", "label": "AI features and copilots" },
+      { "icon": "chart", "label": "SaaS dashboards" },
+      { "icon": "users", "label": "Remote user tests" }
+    ],
+    "scenesNote": "Labels come from the definition answer (AI flows, SaaS flows, clickable prototypes tested with users), max 22 chars each."
+  },
+  "visuals": [
+    { "type": "timeline", "idea": "CT vs ET working-day strip: Minneapolis (CT) and Reston (ET) bars one hour apart, a 10 a.m. ET / 9 a.m. CT review marker, and the note 'at least 4 shared hours'. Goes in the 'remote UX agency … Central Time' steps section (image.text above)." },
+    { "type": "infographic", "idea": "Twin Cities tech scene panel built from the table's sourced facts: IT workers (~110,000, 1 in 25 jobs), $27.8B tech GDP, 17 Fortune 500 HQs (2025), Medical Alley, Minnebar/Startup Week. Only if the template allows a table-section image; otherwise skip (the table is the visible block)." },
+    { "type": "decision tree", "idea": "Stage → engagement: untested idea → design sprint; seed → MVP design; trial drop-off → onboarding design; dated product → redesign; capacity → dedicated designers. Text version = the stage table." },
+    { "type": "overview flow", "idea": "Five-step remote engagement: first call → remote kickoff → shared Figma → remote user tests → build support, with durations." },
+    { "type": "hero scene", "idea": "Generated by scripts/location-visuals.mjs from visual.scenes (robot / chart / users) on the bridge landmark." }
+  ],
+  "visualsNote": "Location sections support an image only on formats whose template allows `image` (paragraph/steps). Every image needs `text` (3–8 lines, only what the SVG says), alt and caption naming the same thing, and must sit after the section's answer (h2-then-text).",
+  "mentions": ["Minneapolis", "Saint Paul", "Minnesota", "Central Time Zone", "Figma"],
+  "internalTargets": [
+    { "href": "/services/ai-products/ai-ux-design-agency/", "anchor": "AI UX design agency", "verified": "content/services/ai-ux-design-agency.json, category AI products → pillar ai-products" },
+    { "href": "/services/ai-products/ai-product-discovery-workshop/", "anchor": "AI product discovery workshop", "verified": "content/services/ai-product-discovery-workshop.json" },
+    { "href": "/services/ai-products/chatbot-ui-design/", "anchor": "chatbot UI design", "verified": "content/services/chatbot-ui-design.json" },
+    { "href": "/services/ai-products/", "anchor": "AI product design", "verified": "content/pillars.ts slug ai-products" },
+    { "href": "/services/saas-products/saas-design-agency/", "anchor": "SaaS design agency", "verified": "content/services/saas-design-agency.json" },
+    { "href": "/services/saas-products/saas-onboarding-design/", "anchor": "SaaS onboarding design", "verified": "content/services/saas-onboarding-design.json" },
+    { "href": "/services/saas-products/saas-product-redesign/", "anchor": "SaaS product redesign", "verified": "content/services/saas-product-redesign.json" },
+    { "href": "/services/startups/mvp-design-agency/", "anchor": "MVP design agency", "verified": "content/services/mvp-design-agency.json" },
+    { "href": "/services/startups/design-sprint/", "anchor": "design sprint", "verified": "content/services/design-sprint.json" },
+    { "href": "/services/hire-ui-ux-designers/", "anchor": "hire UI UX designers", "verified": "content/services/hire-ui-ux-designers.json (Hiring & pricing has no pillar → /services/<slug>/)" },
+    { "href": "/services/ui-ux-design-cost/", "anchor": "UI UX design cost", "verified": "content/services/ui-ux-design-cost.json" },
+    { "href": "/case-studies/vocable/", "anchor": "Vocable case study", "verified": "content/case-studies/vocable.md" },
+    { "href": "/case-studies/digno/", "anchor": "Digno case study", "verified": "content/case-studies/digno.md" },
+    { "href": "/case-studies/mass-media-co/", "anchor": "Mass Media Co. case study", "verified": "content/case-studies/mass-media-co.md" },
+    { "href": "/case-studies/tradezella/", "anchor": "TradeZella case study", "verified": "content/case-studies/tradezella.md" },
+    { "href": "/contact/", "anchor": "contact page", "verified": "linked from about.md and blog posts" }
+  ],
+  "internalTargetsNote": "Routes come from lib/content.ts servicePath() (pillar slug + service slug) and lib/site.ts routes. No industry pages exist (content/industries has only _template.json), and no other location pages exist, so do not link either. Never link to uiuxdesignservices.us.",
+  "externalSources": [
+    { "url": "https://careerforce.mn.gov/careerforce-blog/may-technology-month", "why": "Primary (Minnesota DEED CareerForce): nearly 110,000 IT workers in 2024, about 1 in 25 jobs, average wage $108,800. Tech-scene table row 1 and section answer." },
+    { "url": "https://mn.gov/deed/dobusiness/key-industries/technology-innovation/index.jsp", "why": "Primary (DEED): Minnesota technology and innovation industry page. Table row 2." },
+    { "url": "https://mn.gov/deed/assets/tech-innovation-postcard-acc_tcm1045-709531.pdf", "why": "Primary (DEED): $27.8 billion GDP, 16,000 companies, 126,000 jobs; no reference year given." },
+    { "url": "https://krocnews.com/17-minnesota-companies-just-made-the-2025-fortune-500-list/", "why": "17 Minnesota companies on the 2025 Fortune 500 with ranks (UnitedHealth #3, Target #41, U.S. Bancorp #105, Best Buy #108). Table row 3." },
+    { "url": "https://www.businesswire.com/news/home/20260608546874/en/", "why": "Primary (company release): APi Group, New Brighton, debuted on the 2026 Fortune 500 at #486. Optional current-year line." },
+    { "url": "https://mn.gov/deed/dobusiness/key-industries/leading-life-sciences/", "why": "Primary (DEED): the Medical Alley Association represents Minnesota's health technology cluster. Table row 4 and health tech card." },
+    { "url": "https://minnestar.org/relive-the-action-minnebar14-recap/", "why": "Primary (Minnestar): Minnebar14 drew 1,400+ people to Best Buy's Richfield HQ. Table row 5." },
+    { "url": "https://minnestar.org/faqs/minnebar-faq/page/3", "why": "Primary (Minnestar): Minnebar is a free, participant-led unconference (since 2006)." },
+    { "url": "https://www.givemn.org/story/Tcsw-2025", "why": "Twin Cities Startup Week is owned and run by The Beta Group, a Minneapolis 501(c)(3). Table row 5." },
+    { "url": "https://www.greatermsp.org/blog/2015/10/26/main/introducing-the-make-it.-msp.-talent-initiative/", "why": "Primary (GREATER MSP): Make It. MSP talent initiative. Table row 6; describe the initiative only, no outcome claims." },
+    { "url": "https://www.timeanddate.com/time/zone/usa/minneapolis", "why": "Minneapolis time zone: CST UTC−6 / CDT UTC−5. Remote-work section and table row 7." },
+    { "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/", "why": "Primary (US regulator, HHS): HIPAA Privacy Rule. Health tech card and FAQ 5." }
+  ],
+  "competitorPagesStudied": [
+    { "url": "https://clutch.co/agencies/ui-ux/minneapolis", "type": "directory", "note": "Lists UPQODE, KRUTSCH, August Ash, Clockwork and others; paid placements. Do not name any of them on our page." },
+    { "url": "https://themanifest.com/user-experience/agencies/minneapolis", "type": "directory" },
+    { "url": "https://www.designrush.com/agency/ui-ux-design/us?page=16", "type": "directory" },
+    { "url": "https://varenyaz.com/ui-ux-design-services-in-minneapolis-varenyaz/", "type": "generic city template (same template for every city: Chicago, Columbus, Minneapolis)", "note": "This is the page type we must not look like." }
+  ],
+  "sisterSeparation": {
+    "sisterPagesToCheck": [
+      "https://uiuxdesignservices.us/location/ux-design-agency-chicago/",
+      "https://uiuxdesignservices.us/location/ux-design-agency-columbus/"
+    ],
+    "fetchStatus": "WebFetch returned ENOTFOUND for uiuxdesignservices.us (sitemap.xml, Chicago and Columbus pages) on 2026-10-16. WebSearch returned no sister pages either. Their headings and FAQs could NOT be read in this run.",
+    "qaInstruction": "QA must fetch both pages with `curl -sS -A 'Mozilla/5.0'` and compare H2s, FAQ questions and 5-grams with the built Minneapolis page. Fail above 2% 5-gram overlap or on any identical heading or FAQ question.",
+    "preventive": [
+      "Keyword variant differs: ours is 'ux agency minneapolis' (slug ux-agency-minneapolis); the sister uses 'ux design agency <city>' slugs.",
+      "Angle differs: AI and SaaS product design for one metro with sourced local facts. Avoid generic city-page headings such as 'Why choose our UX design agency in <city>', 'Our UX design process', 'Industries we serve', 'Top UX design agency in <city>', 'UX design services in <city>'.",
+      "Never mention Chicago or Columbus, both sister cities, anywhere on the page, not even as a time-zone reference ('America/Chicago'). Say 'Central Time'.",
+      "No links to or from the sister site."
+    ]
+  },
+  "leadAngle": "The reader wants help at the 'Remote UX agency vs a local Minneapolis studio' table and the stage table. Once they see that the price and timeline for their stage is published and that the time zones are one hour apart, the next step is the hero form. Offer: a free consultation, where a senior designer replies within one business day (ET) and most projects start 1 to 2 weeks after the first call. AI teams get the 1–2 week AI product discovery workshop ($8,000–$20,000) as the low-risk first engagement.",
+  "variety": {
+    "type": "location page (first live location page on the site; no earlier location JSON exists to differ from)",
+    "introStyle": "definition-led abstract with the honesty line (remote, Reston, VA) in the first 60 words",
+    "h2Frames": ["what (definition)", "what (local facts table)", "which (audience cards)", "which (service list)", "how (stage table)", "how (remote steps)", "which (case cards)", "how much (cost)", "vs (comparison table)", "FAQ"],
+    "visualTypes": ["timeline (CT vs ET)", "decision tree", "overview flow", "hero scene"],
+    "ctaAngle": "published price for your stage + one-business-day reply (ET)",
+    "differsFrom": "Do not reuse the pillar tables in content/pillars.ts (saas-products and startups 'which service fits your stage' tables) or the hire-ui-ux-designers 'agency vs freelance vs full-time' table. The stage table and the remote-vs-local table above use new columns and rows."
+  },
+  "backlinkSuggestions": [
+    {
+      "page": "content/services/hire-ui-ux-designers.json",
+      "where": "FAQ 'Do your designers work in US time zones?'",
+      "change": "Append one sentence: 'Teams on Central Time sit one hour behind ET; here is how <a href=\"/location/ux-agency-minneapolis/\">remote UX work with Minneapolis teams</a> runs.'",
+      "priority": "required",
+      "why": "Real topic match (US time-zone overlap). The page already states the 4-hour ET overlap that the location page builds on. Add it only after the location page is published (draft:false), because drafts are noindex."
+    },
+    {
+      "page": "content/services/ai-product-discovery-workshop.json",
+      "where": "FAQ 'Can the AI product discovery workshop run remotely?'",
+      "change": "Append: 'It is how we run workshops for <a href=\"/location/ux-agency-minneapolis/\">Minneapolis AI startups on Central Time</a>.' Rephrase if it reads as a client claim. Safer: 'It is the format a <a href=\"/location/ux-agency-minneapolis/\">UX agency Minneapolis AI teams hire remotely</a> would use.'",
+      "priority": "required",
+      "why": "Real topic match (remote workshop, AI startups). Gives a link from an indexed AI service page. Use the safer wording so it does not imply existing Minneapolis clients. Add only after publish."
+    },
+    {
+      "page": "content/services/design-sprint.json",
+      "where": "FAQ 'Can a design sprint run remotely?'",
+      "change": "none",
+      "priority": "skip",
+      "why": "skip: alternative to #2. It is the same remote-FAQ pattern, and two near-identical link sentences on sibling service pages would look templated."
+    },
+    {
+      "page": "content/pages/about.md",
+      "where": "Who we are",
+      "change": "none",
+      "priority": "skip",
+      "why": "skip: About is a trust page for the whole company, and a single city link there would favor one location without a topic reason."
+    }
+  ],
+  "rejectedCandidates": [
+    { "keyword": "ux design agency minneapolis", "why": "No volume row in any Ahrefs file. It also matches the sister site's 'ux design agency <city>' slug pattern (RULES.md: prefer a different variant)." },
+    { "keyword": "hire ui ux designers in minneapolis", "why": "Ahrefs volume 0 (warehouse/2026-10-14-terms-hire-ui-ux-designers.json). Also overlaps the hire-ui-ux-designers service anchor." },
+    { "keyword": "ux design minneapolis / ux designer minneapolis", "why": "No volume data. 'ux designer <city>' SERPs are usually job-seeker intent. Used only as FAQ wording." }
+  ],
+  "notes": [
+    "HONESTY: no Minneapolis office, team or clients. State 'only office: Reston, VA' in the abstract and in FAQ 1. Fortune 500 names, Medical Alley, Minnestar and Twin Cities Startup Week describe the market only and are never clients, partners or sponsors. No testimonials (home.testimonial is undefined).",
+    "DO NOT USE (unverified, from search snippets): '27,410 software developers / $130,920 median' (third-party wagedex citing BLS May 2025; bls.gov could not be fetched). '4.3:1 cloud jobs ratio' and '60% of headcount to Golden Triangle suburbs' (kitalent blog). '$1.4B / 160+ deals in 2025' (ellty blog). 'Minnesota 18 Fortune 500 companies in 2026' (single bank blog; only APi Group's own release is solid). Medical Alley member or employee counts (sources disagree: 650+ members, 300,000 or 500,000 employees, 800+ companies). Any 'Silicon Valley of the Midwest' or '#1 tech state' line.",
+    "DATED SOURCES: the Make It. MSP page dates from 2015. Describe the initiative, not its results. The DEED postcard gives no reference year, so never add one.",
+    "FACT-CHECK: the fact-checker should open careerforce.mn.gov, mn.gov/deed and minnestar.org with curl (WebFetch DNS failed for mn.gov and bls.gov in this run) and confirm each table figure.",
+    "Pricing claim in H2 8: 'one set of ranges for US clients, with no separate Minneapolis rate' rests on ui-ux-design-cost.json ('price ranges we quote', no regional variation) and about.md ('Every engagement has a published range'). If the fact-checker finds this too strong, use 'Our published ranges apply to Minneapolis projects too.'",
+    "Section body text: 50–70 words, 90 max (RULES.md layout rule 7). Every H2 is followed by its bold answer, never an image. Every table gets an intro sentence and a 'Table:' line.",
+    "US style: American spelling, USD, 'ET' first for reply times, US date format if a date appears.",
+    "Case-study figures only as written in content/case-studies/*.md. Never name the removed Apex HCM, Fortna or ToolsGroup cases.",
+    "No GSC data and no Semrush units: the volume rests on the Ahrefs 2026-10-14 pull only."
+  ]
+}

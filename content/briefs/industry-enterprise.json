@@ -1,0 +1,356 @@
+{
+  "slug": "enterprise",
+  "pageType": "industry",
+  "targetFile": "content/industries/enterprise.json",
+  "url": "/industries/enterprise/",
+  "keyword": "enterprise ux",
+  "secondary": ["enterprise ux design", "enterprise ux design agency", "enterprise software ux", "enterprise saas dashboard design patterns"],
+  "volume": 150,
+  "kd": 3,
+  "trafficPotential": 100,
+  "dataSource": "Ahrefs Keywords Explorer v3, country=us, pulled 2026-10-13 (docs/content-system/keywords-2026-10.json): 'enterprise ux' 150/mo KD 3 TP 100; 'enterprise ux design' 100/mo KD 2 (parent topic 'enterprise ux'); 'enterprise ux design agency' 100/mo KD 0; 'enterprise ux agency' 10/mo. Warehouse (Ahrefs, 2026-10-14): 'enterprise saas dashboard design patterns 2025' 20, 'enterprise saas dashboard design patterns' 10, 'top ux design firms for enterprise saas revamp' 20. Semrush keyword overview returned no_api_units on 2026-10-16; docs/data/gsc/latest.json does not exist. The figure is measured (not estimated) and is the one calendar.json and clusters.json already use, but it is Ahrefs, not the Semrush/GSC source the 2026-10-12 owner rule names. Orchestrator: confirm Ahrefs is accepted for this item or re-pull in Semrush when units return.",
+  "dataDate": "2026-10-16",
+  "intent": "commercial investigation (mixed). Page-1 SERP for 'enterprise ux' is mostly definitional guides (ramotion, logrocket, onething.design, riseuplabs, designrush, uxplanet), while 'enterprise ux design agency' returns agency service pages (fuselabcreative, aufaitux, designstudiouiux, onething.design/services/enterprise-ux). The industry page answers the definition above the fold, then sells.",
+  "hub": "industry page (no single hub); services[0] for linking = saas-design-agency",
+  "centralEntity": "enterprise UX",
+  "sourceContext": "ui-ux.agency, the design team of tkxel: a remote-first US agency (Reston, VA, since 2017) that designs SaaS platforms, internal tools and AI features for US software companies and the IT and product teams that buy and roll them out.",
+
+  "cannibalization": {
+    "result": "CLEAR. No page on the site uses 'enterprise ux' or 'enterprise ux design' as keyword, anchor, metaTitle or H2.",
+    "checked": "grep -i 'enterprise' over content/ (services/*.json, pillars.ts, home.ts, blog/*.md, briefs/, case-studies/); content/industries/ has only _template.json; clusters.json already assigns parent topic 'enterprise ux' to /industries/enterprise/ (planned).",
+    "nearestNeighbours": [
+      { "page": "/services/saas-products/saas-design-agency/", "overlap": "card 'B2B platforms ... complex roles and data tables' and deliverable 'Roles and settings ... audit logs'. Do not restate its 6-part deliverable list, its 4-step process wording, its agency-vs-in-house table or its price paragraph. Link to it instead." },
+      { "page": "/services/saas-products/saas-product-redesign/", "overlap": "phased rollout, beta group, feature flags, legacy interface. The industry page names the adoption risk and deep-links the redesign section; it never repeats the 3-phase roadmap." },
+      { "page": "/services/ai-products/ai-ux-design-agency/", "overlap": "card 'Internal AI tools' and the 5 adoption problems. Use only the enterprise slant (approval steps, activity logs, human review); do not copy its 5-problem list." },
+      { "page": "content/pillars.ts ai-products card 'Enterprises with AI pilots'", "overlap": "one-line mention only; becomes a backlink source." }
+    ],
+    "clustersNote": "clusters.json rejected 'b2b ux agency (100)' because it overlaps SaaS and enterprise pages. Do not use 'b2b ux agency' or 'b2b ux design' as page keywords; 'B2B' may appear in prose only."
+  },
+
+  "sisterCheck": {
+    "result": "UNVERIFIED (network). WebFetch of https://uiuxdesignservices.us/sitemap.xml and https://www.uiuxdesignservices.us/sitemap.xml failed with getaddrinfo ENOTFOUND on 2026-10-16; WebSearch site: queries returned no pages from the domain. docs/content-system/sister-site.json (checked 2026-10-16) stores only the 14 city URLs, no industry URLs.",
+    "assumption": "Per the orchestrator, the sister has /industries/ pages for saas, startups, finance, healthcare and ecommerce and no enterprise page. Treat its SaaS industry page as the closest page.",
+    "rules": [
+      "Never link to uiuxdesignservices.us from this page.",
+      "Do not use the heading patterns 'SaaS UI UX design', 'UX challenges we solve', 'Why choose us' or 'Our process'. Every H2 here uses the 'enterprise UX' phrasing in the heading plan below.",
+      "Keep our angle (roles, security and accessibility reviews, AI features, adoption) and do not write a generic SaaS onboarding/activation page."
+    ],
+    "qaStep": "Before publish, QA runs `curl -sS https://uiuxdesignservices.us/sitemap.xml | grep -i industr` from a shell with DNS. If an /industries/enterprise/ or /industries/b2b/ page exists, it fetches that page and fails ours if 5-gram overlap is above 2%."
+  },
+
+  "layoutFacts": {
+    "note": "Read from app/industries/[slug]/page.tsx and lib/types.ts on 2026-10-16. They shape the heading plan.",
+    "renderOrder": [
+      "PageHero: eyebrow, h1, `abstract` (rendered as the summary), sub, lead form",
+      "Case-study rail: FIXED H2 '{title} UI UX case studies' + `stats` row (headings.caseStudies is NOT wired in page.tsx)",
+      "Bullets: FIXED H2 'How we design for {lower(title)}' + `intro` + `bullets` (rendered only when `sections` is absent)",
+      "Challenges CardList: headings.challenges",
+      "ServiceGrid: headings.services (relatedServices)",
+      "Solutions CardList: headings.solutions",
+      "CtaBand: `cta.heading` (falls back to home.ctaBand 'Not sure where your design loses users?')",
+      "Benefits: headings.benefits",
+      "Process: headings.process + `process` steps (rendered only when `process` is set or useDefaults is true)",
+      "FAQ: headings.faqs + `faqs`",
+      "FinalCta: FIXED H2 'Ready to launch faster and convert more users?'",
+      "Resources: headings.posts, hidden while no post has industries: [enterprise]"
+    ],
+    "consequences": [
+      "Do NOT add `sections` to the industry JSON. It would replace bullets, challenges and solutions, and the field plan below uses those fields.",
+      "Set `title` to 'Enterprise software' (not 'Enterprise UX'), otherwise the fixed H2s read 'Enterprise UX UI UX case studies'. The keyword comes from `anchor`: set anchor 'enterprise UX' (the on-page script reads the keyword from anchor; see lesson 2026-10-06).",
+      "There are 10 rendered H2s. 7 carry 'enterprise UX' (challenges, services, solutions, cta, benefits, process, faqs) = 70% (rule: at least 40%). 7 of 10 are questions = 70% (rule: at least 60%).",
+      "Set `process` (custom, below) and `cta` (custom, below), or the page loses 2 keyword H2s.",
+      "Orchestrator, optional dev task: wire headings.caseStudies in page.tsx so the rail H2 can read 'Which enterprise UX projects have we shipped?'. Until then the fixed heading stays."
+    ]
+  },
+
+  "metaTitle": "Enterprise UX Design for SaaS, AI and Internal Tools",
+  "metaTitleChars": 52,
+  "metaDescription": "Enterprise UX for SaaS and internal tools with AI: roles and permissions, data-dense dashboards, design systems and WCAG 2.2 AA. Book a free consultation.",
+  "metaDescriptionChars": 154,
+  "keywords": ["enterprise ux", "enterprise ux design", "enterprise ux design agency", "enterprise software ux", "internal tools ux", "enterprise dashboard design"],
+  "anchor": "enterprise UX",
+  "title": "Enterprise software",
+  "order": 1,
+  "hero": {
+    "eyebrow": "Enterprise UX",
+    "h1": "Enterprise UX for SaaS platforms and internal tools your teams adopt",
+    "sub": "Complex workflows, roles and permissions, data-dense dashboards and AI features, designed to pass security and accessibility reviews and to be used every day after rollout."
+  },
+  "abstract": "Enterprise UX is the user experience (UX) design of software that organizations buy, roll out and govern: SaaS platforms, internal tools and AI features used by many roles at once. ui-ux.agency, the design team of tkxel, designs enterprise UX for complex workflows, permissions, data-dense dashboards and design systems that hold up in security and accessibility reviews.",
+  "abstractNote": "The abstract renders as the hero summary, so 'Enterprise UX' is word 1 of the first 60 words. Keep the 'user experience (UX)' expansion. Under 70 words.",
+
+  "fieldPlan": {
+    "summary": {
+      "rule": "1–2 sentences for industry cards and the industries index, 20–30 words, starting with 'Enterprise UX'.",
+      "hint": "Enterprise UX design for SaaS platforms, admin consoles and internal AI tools: role-based workflows, dense data screens and accessible design systems."
+    },
+    "intro": {
+      "rule": "One line under the fixed H2 'How we design for enterprise software', also used on the home industry tabs. 25–40 words.",
+      "hint": "Name the buyer/user split in one line: IT and procurement approve the software, and operators, analysts, approvers and admins use it all day. Our enterprise UX work designs for both groups."
+    },
+    "bullets": {
+      "rule": "Exactly 5 bullets, each a thing we design, 8–14 words, each naming an entity.",
+      "items": [
+        "Role-based workflows and a role-permission matrix for admins, managers, operators and guests",
+        "Data-dense dashboards and tables with filters, saved views and bulk actions",
+        "Admin consoles: single sign-on (SSO) settings, user provisioning, audit logs and access reviews",
+        "AI features with sources, human review, approval steps and an activity log",
+        "Accessible design systems in Figma with tokens, annotated for WCAG 2.2 AA"
+      ]
+    },
+    "stats": {
+      "rule": "Rendered in the case-study section with no link. Every value needs its source in brief `sources`, and the writer adds the source in visible text near it (a challenge or FAQ that cites it). 4 items.",
+      "items": [
+        { "value": "200+", "label": "digital products designed", "source": "confirmed company fact (RULES.md, content/home.ts)" },
+        { "value": "30%", "label": "faster order processing on the Mass Media Co. B2B platform", "source": "content/case-studies/mass-media-co.md results: 'Order processing efficiency +30%'. Write the label as 'increase in order processing efficiency (Mass Media Co.)' if QA flags 'faster' as a paraphrase." },
+        { "value": "37%", "label": "of US firms with 250+ employees use AI (US Census Bureau, 2026)", "source": "https://census.gov/library/stories/2026/05/ai-use-businesses.html" },
+        { "value": "101", "label": "apps per company, global average (Okta Businesses at Work 2025)", "source": "https://okta.com/blog/2025/03/businesses-at-work-2025. The figure is the 2024 global average, not US. Keep 'global' in the label." }
+      ]
+    },
+    "challenges": {
+      "heading": "What makes enterprise UX harder than consumer UX?",
+      "rule": "6 cards. Title 3–6 words; body 30–55 words with one sourced fact or one concrete example. US frame. No hedges.",
+      "cards": [
+        { "title": "One product, many roles", "points": ["the buyer (IT, procurement, security) is not the daily user", "admins, managers, operators, approvers and guests see different modules and actions", "define role-based access control (RBAC) with the NIST CSRC definition: access authorizations attached to roles, not to individuals"], "source": "https://csrc.nist.gov/glossary/term/role_based_access_control" },
+        { "title": "Screens full of data", "points": ["tables with dozens of columns, filters, sorting, inline edits and bulk actions", "IBM Carbon's data table guidance: sortable headers, expandable rows, batch actions, and the table is not a spreadsheet replacement", "Salesforce lightning-datatable is not supported on mobile, so plan desktop-first"], "source": "https://carbondesignsystem.com/components/data-table/usage/ ; https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-datatable.html" },
+        { "title": "Security reviews before purchase", "points": ["enterprise buyers send security questionnaires and ask for a SOC 2 report", "SOC 2 is an attestation by an independent CPA firm against the AICPA Trust Services Criteria: security (required), availability, processing integrity, confidentiality, privacy", "the interface has to show the controls: SSO, MFA enforcement, audit logs, role changes"], "source": "https://www.aicpa-cima.com/category/resources/audit-assurance/audit-and-assurance-greater-than-soc-2" },
+        { "title": "Accessibility in the contract", "points": ["federal buyers procure under the Revised Section 508 Standards (final rule January 18, 2017; compliance from January 18, 2018), which incorporate WCAG 2.0 Level A and AA", "vendors document conformance in an Accessibility Conformance Report (ACR) built on the VPAT", "state and local government buyers fall under the ADA Title II rule (WCAG 2.1 AA)"], "source": "https://itaccessibility.tamu.edu/laws_policies_standards/Section-508-Refresh.html ; https://assets.section508.gov/assets/files/ART%20Contract%20Language%20Template.pdf ; https://vispero.com/vpat-101-a-guide-for-federal-contractors-and-subcontractors/" },
+        { "title": "AI features staff do not trust", "points": ["37% of US firms with at least 250 employees reported using AI (Census Bureau, December 2025–May 2026)", "a wrong answer in a finance or HR workflow costs more than in a consumer app", "staff need sources, review and an undo before they rely on output"], "source": "https://census.gov/library/stories/2026/05/ai-use-businesses.html" },
+        { "title": "Adoption after rollout", "points": ["power users lose habits, shortcuts and saved views when an interface changes", "employees already work across many apps: 101 apps per company is Okta's 2024 global average", "a launch without a rollout plan fills the help desk queue"], "source": "https://okta.com/blog/2025/03/businesses-at-work-2025 ; content/services/saas-product-redesign.json (power users, saved views)" }
+      ]
+    },
+    "services": {
+      "heading": "Which services cover enterprise UX design?",
+      "rule": "ServiceGrid renders the cards from relatedServices automatically; only the heading is ours."
+    },
+    "relatedServices": ["saas-design-agency", "saas-product-redesign", "ai-ux-design-agency", "ai-product-discovery-workshop", "hire-ui-ux-designers"],
+    "relatedServicesWhy": "All 5 slugs exist in content/services/. saas-design-agency = new enterprise SaaS products and modules; saas-product-redesign = legacy internal tools and aging platforms; ai-ux-design-agency = copilots, agents and internal AI tools; ai-product-discovery-workshop = enterprises with many AI pilots (its own card); hire-ui-ux-designers = embedded team for long enterprise roadmaps. ui-ux-design-cost is linked from the cost FAQ instead of the grid.",
+    "solutions": {
+      "heading": "How does our enterprise UX design handle roles, data and AI?",
+      "rule": "6 cards, one per challenge in the same order so each problem gets an answer. Body 30–55 words: what we design, the artefact the client gets, and one entity. Use 'we' only for documented process (service JSONs, case studies).",
+      "cards": [
+        { "title": "Role-permission matrix first", "points": ["a matrix of roles × objects × actions agreed with the product and security teams before wireframes", "role-based views that hide modules a role cannot use", "Digno example: one score at organization, department and individual level (content/case-studies/digno.md)"] },
+        { "title": "Dense screens that stay readable", "points": ["table, filter bar, saved views and bulk actions as reusable patterns", "summary first, detail on demand", "Mass Media Co.: one dashboard for open tasks, sales operations and workflow per client (case study body)"] },
+        { "title": "Admin and security surfaces", "points": ["SSO settings, SCIM user provisioning (IETF RFC 7644, September 2015), audit log viewer, access review and session settings", "screens give the evidence a SOC 2 auditor or a buyer's security team asks for", "we design the screens; we do not perform or certify audits"] },
+        { "title": "Accessible design system", "points": ["Figma components with design tokens that match the front-end code (saas-design-agency.json)", "WCAG 2.2 AA annotations: contrast, focus not obscured, 24 × 24 CSS pixel minimum target size (SC 2.5.8), accessible authentication (SC 3.3.8)", "annotations your team or an auditor uses when completing the ACR"] },
+        { "title": "AI with review and approval", "points": ["sources and confidence cues, inline edit, regenerate and undo (ai-ux-design-agency.json)", "approval steps, activity logs and an easy stop button for AI agents (ai-ux-design-agency.json)", "map AI risks to the voluntary NIST AI RMF 1.0 functions Govern, Map, Measure and Manage"] },
+        { "title": "Rollout teams accept", "points": ["phased release behind feature flags with a beta group first (saas-product-redesign.json)", "in-app announcements, a short tour and an optional switch back during the beta", "adoption metrics agreed at kick-off: task time, error rate, support tickets"] }
+      ]
+    },
+    "cta": {
+      "rule": "Overrides home.ctaBand so the band H2 carries the keyword. Boolean question; the body answers it.",
+      "heading": "Is enterprise UX slowing your rollout or your security review?",
+      "body": "Book a 45-minute product review. A senior designer walks through your admin, roles and core workflow and names the three changes with the biggest effect.",
+      "cta": "Book an enterprise UX review",
+      "note": "Reuses the 45-minute review offer published in home.ts ctaBand. Do not invent a new offer, duration or price."
+    },
+    "benefits": {
+      "heading": "Why do software teams hire us for enterprise UX?",
+      "rule": "4 cards, 25–45 words each, only documented facts.",
+      "cards": [
+        { "title": "Design next to engineering", "points": ["part of tkxel; designs checked for build effort (home.ts whyUs)", "hand-off of annotated Figma files, components and specs; designers join sprint reviews (home.ts FAQ)"] },
+        { "title": "Proof on a B2B platform", "points": ["Mass Media Co.: separate order tools merged into one platform; order processing efficiency +30%; error rate from 25% to 2+ (as written in the case study)", "link /case-studies/mass-media-co/"] },
+        { "title": "Tested with real users", "points": ["every risky flow tested with 5 to 8 real users before engineering starts (home.ts whyUs)", "for enterprise: test with each role, not only end users"] },
+        { "title": "Works inside your process", "points": ["mutual NDA before the first detailed call (mvp-design-agency.json FAQ)", "work in your Figma, Jira or Linear workspace (saas-design-agency.json FAQ)", "all files and research belong to your company"] }
+      ]
+    },
+    "process": {
+      "heading": "How does an enterprise UX engagement run?",
+      "rule": "Custom `process` (Step[] with title, body, deliverables, timeline). Timelines come ONLY from the published saas-design-agency.json steps; total 6–16 weeks. Bodies 25–45 words.",
+      "steps": [
+        { "title": "Role and workflow review", "timeline": "1–2 weeks", "points": ["analytics, session recordings, support tickets", "interviews with 6 to 10 users across roles (published count)", "stakeholder map: product, IT, security, procurement"], "deliverables": "Role map, workflow map, priority list" },
+        { "title": "Permissions, flows and wireframes", "timeline": "2–4 weeks", "points": ["role-permission matrix", "riskiest workflows first", "clickable wireframes tested with each role"], "deliverables": "Permission matrix, tested wireframes" },
+        { "title": "UI and accessible design system", "timeline": "2–6 weeks", "points": ["data-dense patterns, admin console, AI states", "Figma components with tokens", "WCAG 2.2 AA annotations"], "deliverables": "Final screens, component library, accessibility notes" },
+        { "title": "Build support and rollout", "timeline": "1–4 weeks", "points": ["sprint reviews and design QA", "beta group and phased release plan", "adoption metrics compared before and after"], "deliverables": "Design QA log, rollout plan" }
+      ]
+    },
+    "faqs": {
+      "heading": "Enterprise UX FAQs from product, IT and security leads",
+      "rule": "6 FAQs. Boolean questions start with Yes or No. Answers 40–80 words, open (not collapsed), one link at most each.",
+      "items": [
+        { "q": "What is enterprise UX?", "answerHint": "Definition with the keyword as subject: UX design of software organizations buy and deploy for employees and partners (SaaS platforms, internal tools, ERP and CRM-type systems). It differs from consumer UX through many roles, buyer ≠ user, dense data and long daily sessions, and it is judged by task time and errors rather than delight." },
+        { "q": "How is enterprise UX design different for AI features?", "answerHint": "AI output changes and can be wrong, so enterprise UX adds sources, human review, approval steps and an activity log. NIST AI RMF 1.0 (January 26, 2023, voluntary) and the Generative AI Profile NIST-AI-600-1 (July 26, 2024) give the risk vocabulary. Link /services/ai-products/ai-ux-design-agency/." },
+        { "q": "Can you design enterprise software for Section 508 and WCAG 2.2 AA?", "answerHint": "Yes. WCAG 2.2 became a W3C Recommendation on October 5, 2023 and adds 9 success criteria over 2.1; content that meets 2.2 also meets 2.1 and 2.0. Section 508 legally references WCAG 2.0 A/AA, so designing to 2.2 AA covers it. We annotate designs; the ACR is completed by your team or an accessibility auditor. Do NOT say we issue VPATs or certify conformance." },
+        { "q": "Do you help enterprise products pass SOC 2 security reviews?", "answerHint": "Yes, on the interface side only. SOC 2 is an attestation by an independent CPA firm against the AICPA Trust Services Criteria; security is required in every report. We design the screens reviewers ask to see: SSO and MFA settings, SCIM provisioning, role changes, audit logs and access reviews. We do not audit or certify. Do not claim ui-ux.agency or tkxel holds a SOC 2 report." },
+        { "q": "How do you get employees to adopt a redesigned enterprise tool?", "answerHint": "Ship in phases behind feature flags, start with a beta group, keep an optional switch back during the beta, use in-app announcements and a short tour, and measure task time and support tickets before and after. Deep link /services/saas-products/saas-product-redesign/#how-does-our-saas-product-redesign-avoid-a-big-bang-launch." },
+        { "q": "How much does enterprise UX design cost?", "answerHint": "Only published ranges: full SaaS product $40,000–$180,000; phased redesign $50,000–$200,000 over 8–20 weeks; AI UX design $25,000–$90,000; embedded team $15,000–$40,000 per month. Number of roles, workflows and platforms set the price. Link /services/ui-ux-design-cost/. No new enterprise-only price." }
+      ]
+    },
+    "headings": {
+      "challenges": "What makes enterprise UX harder than consumer UX?",
+      "services": "Which services cover enterprise UX design?",
+      "solutions": "How does our enterprise UX design handle roles, data and AI?",
+      "benefits": "Why do software teams hire us for enterprise UX?",
+      "process": "How does an enterprise UX engagement run?",
+      "faqs": "Enterprise UX FAQs from product, IT and security leads",
+      "posts": "Enterprise UX guides",
+      "caseStudies": "Which enterprise UX projects have we shipped? (not rendered until page.tsx wires it; keep in JSON)"
+    },
+    "renderedH2s": [
+      "Enterprise software UI UX case studies (fixed)",
+      "How we design for enterprise software (fixed)",
+      "What makes enterprise UX harder than consumer UX?",
+      "Which services cover enterprise UX design?",
+      "How does our enterprise UX design handle roles, data and AI?",
+      "Is enterprise UX slowing your rollout or your security review? (cta)",
+      "Why do software teams hire us for enterprise UX?",
+      "How does an enterprise UX engagement run?",
+      "Enterprise UX FAQs from product, IT and security leads",
+      "Ready to launch faster and convert more users? (fixed)"
+    ],
+    "priceRange": "omit. The industry page does not set its own priceRange; the cost FAQ quotes the published service ranges and links the cost guide.",
+    "mentions": ["enterprise software", "role-based access control", "single sign-on", "SCIM", "SOC 2", "Section 508", "WCAG 2.2", "Accessibility Conformance Report", "NIST AI Risk Management Framework", "design system", "Figma"],
+    "updated": "2026-10-16"
+  },
+
+  "entities": [
+    "enterprise UX", "enterprise software", "software as a service (SaaS)", "internal tools", "role-based access control (RBAC)", "single sign-on (SSO)", "SCIM", "audit log", "admin console", "SOC 2", "AICPA Trust Services Criteria", "CPA firm", "Section 508", "US Access Board", "WCAG 2.2", "W3C", "Accessibility Conformance Report (ACR)", "VPAT", "ADA Title II", "NIST AI Risk Management Framework", "design system", "Figma", "IBM Carbon Design System", "Salesforce Lightning Design System", "US Census Bureau"
+  ],
+  "attributes": [
+    "user roles", "permission levels", "workflow steps", "data density", "task time", "error rate", "accessibility conformance level", "security review evidence", "adoption rate", "training time", "design system coverage", "AI review and approval"
+  ],
+
+  "eav": [
+    { "attribute": "definition", "value": "Enterprise UX is the user experience design of software that organizations buy and deploy for employees and partners, such as SaaS platforms, internal tools, ERP and CRM systems.", "source": "SERP consensus: https://www.ramotion.com/blog/enterprise-ux/ ; https://blog.logrocket.com/ux-design/enterprise-ux-design-challenges/" },
+    { "attribute": "users vs buyers", "value": "One enterprise product serves admins, operators, managers and buyers inside the same product.", "source": "https://rubyroidlabs.com/blog/ux-ui-enterprise-applications/" },
+    { "attribute": "types", "value": "B2B platforms with complex roles and data tables; copilots, AI agents and internal AI tools for operations teams.", "source": "content/services/saas-design-agency.json; content/services/ai-ux-design-agency.json" },
+    { "attribute": "process", "value": "4 steps over 6 to 16 weeks: review (1–2 weeks), flows and wireframes (2–4), UI and design system (2–6), build support (1–4).", "source": "content/services/saas-design-agency.json" },
+    { "attribute": "cost", "value": "$40,000–$180,000 for a full SaaS product; $50,000–$200,000 for a phased redesign; $25,000–$90,000 for AI UX design; $15,000–$40,000 per month for an embedded team.", "source": "content/services/saas-design-agency.json, saas-product-redesign.json, ai-ux-design-agency.json, hire-ui-ux-designers.json" },
+    { "attribute": "success metrics", "value": "Mass Media Co. B2B platform: order processing efficiency +30%, order processing error rate 2+ (reduced from 25%), task completion +3%.", "source": "content/case-studies/mass-media-co.md" },
+    { "attribute": "role-based access control", "value": "Access authorizations are attached to roles, and a user gets them by being assigned the role.", "source": "https://csrc.nist.gov/glossary/term/role_based_access_control" },
+    { "attribute": "user provisioning", "value": "SCIM (IETF RFC 7644, Proposed Standard, September 2015) is an HTTP protocol for managing identities in enterprise-to-cloud and inter-cloud scenarios.", "source": "https://datatracker.ietf.org/doc/rfc7644/" },
+    { "attribute": "SOC 2", "value": "An independent CPA firm attests to a service organization's controls against 5 Trust Services Criteria: security (required), availability, processing integrity, confidentiality and privacy. Type 1 covers design at a point in time; Type 2 covers operating effectiveness over a period.", "source": "https://www.aicpa-cima.com/category/resources/audit-assurance/audit-and-assurance-greater-than-soc-2 ; https://www.techtarget.com/cybersecurity/definition/SOC-2-System-and-Organization-Controls-2" },
+    { "attribute": "Section 508", "value": "Revised 508 Standards: final rule January 18, 2017, compliance from January 18, 2018; incorporate WCAG 2.0 Level A and AA by reference for web, documents and software procured by federal agencies.", "source": "https://itaccessibility.tamu.edu/laws_policies_standards/Section-508-Refresh.html" },
+    { "attribute": "procurement contract language", "value": "Federal contract language requires ICT delivered under a work statement to conform to the Revised 508 Standards.", "source": "https://assets.section508.gov/assets/files/ART%20Contract%20Language%20Template.pdf" },
+    { "attribute": "accessibility documentation", "value": "Vendors document conformance in an Accessibility Conformance Report (ACR) built on the VPAT template.", "source": "https://vispero.com/vpat-101-a-guide-for-federal-contractors-and-subcontractors/" },
+    { "attribute": "WCAG 2.2", "value": "W3C Recommendation on October 5, 2023; adds 9 success criteria over WCAG 2.1; SC 2.5.8 Target Size (Minimum) requires 24 × 24 CSS pixels at Level AA.", "source": "https://www.w3.org/WAI/news/2023-10-05/wcag22rec ; https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/" },
+    { "attribute": "ADA Title II", "value": "The 2024 DOJ rule requires state and local government web content and mobile apps to meet WCAG 2.1 AA; an April 20, 2026 interim final rule moved compliance to April 26, 2027 (50,000+ population) and April 26, 2028 (smaller entities).", "source": "https://www.jdsupra.com/legalnews/doj-extends-title-ii-ada-web-2176958/ (secondary; fact-checker confirms on ADA.gov or the Federal Register before use)" },
+    { "attribute": "AI governance", "value": "NIST AI RMF 1.0, released January 26, 2023, is voluntary and has 4 functions: Govern, Map, Measure, Manage. The Generative AI Profile NIST-AI-600-1 followed on July 26, 2024.", "source": "https://www.nist.gov/itl/ai-risk-management-framework" },
+    { "attribute": "AI adoption in large firms", "value": "37% of US firms with at least 250 employees reported using AI (Census BTOS, December 2025–May 2026); overall usage 17%–20%.", "source": "https://census.gov/library/stories/2026/05/ai-use-businesses.html" },
+    { "attribute": "app sprawl", "value": "101 apps per company, 2024 global average across Okta customers.", "source": "https://okta.com/blog/2025/03/businesses-at-work-2025" },
+    { "attribute": "data table patterns", "value": "Carbon data tables sort in both directions, expand rows and support single or batch row actions; sortable headers are reachable by Tab and sort with Space or Enter.", "source": "https://carbondesignsystem.com/components/data-table/usage/" },
+    { "attribute": "AI review patterns", "value": "Citations, source previews and confidence cues; inline edit, regenerate and undo; approval steps, activity logs and a stop button for AI agents.", "source": "content/services/ai-ux-design-agency.json" },
+    { "attribute": "adoption and change management", "value": "Phased release behind feature flags, beta group first, in-app announcements, a short tour and an optional switch back to the old view during the beta.", "source": "content/services/saas-product-redesign.json" }
+  ],
+
+  "ngrams": [
+    "enterprise ux", "enterprise ux design", "enterprise ux design agency", "enterprise software", "internal tools", "roles and permissions", "data-dense dashboards", "role-based access control", "design system", "audit log", "single sign-on", "security review", "wcag 2.2 aa", "section 508", "soc 2", "ai features", "change management"
+  ],
+  "ngramNote": "Density by word share: 'enterprise ux' about 1–1.5% of visible words. On a page of about 1,300 words that is 6–9 uses of the 2-word phrase, plus the H2s. 'enterprise ux design agency' once (benefits or FAQ), never stacked before another noun.",
+  "keywordCarrier": {
+    "inBody": "'Enterprise UX' is a noun phrase: use it as a sentence subject ('Enterprise UX starts with the role map'). For the agency variant: 'an enterprise UX design agency that has shipped B2B platforms'. Never write 'enterprise UX design agency project/team/cost'."
+  },
+  "skipgrams": [
+    ["roles", "permissions"],
+    ["admin", "audit log"],
+    ["dashboard", "filters"],
+    ["table", "bulk actions"],
+    ["SOC 2", "security review"],
+    ["Section 508", "procurement"],
+    ["WCAG 2.2", "target size"],
+    ["design system", "tokens"],
+    ["AI", "human review"],
+    ["adoption", "rollout"],
+    ["SSO", "provisioning"],
+    ["buyer", "end user"],
+    ["legacy", "workflow"]
+  ],
+  "lexical": {
+    "synonyms": ["enterprise user experience", "enterprise software UX", "enterprise UX design", "UX for enterprise applications"],
+    "hypernyms": ["user experience design", "product design", "B2B software design"],
+    "hyponyms": ["enterprise SaaS UX", "internal tools UX", "admin console design", "enterprise dashboard design", "ERP UX", "CRM UX", "AI copilot UX"],
+    "meronyms": ["role-permission matrix", "admin console", "audit log", "data table", "filter bar", "bulk actions", "saved views", "approval flow", "design tokens", "empty state"]
+  },
+
+  "serpGaps": [
+    "Ranking guides (ramotion, logrocket, onething, riseuplabs, designrush) define enterprise UX and list challenges, but none covers the purchase gates: SOC 2 security reviews, Section 508 procurement with an ACR, or ADA Title II for public-sector buyers.",
+    "None treats AI features inside enterprise tools (review, approval, activity log, NIST AI RMF) as part of enterprise UX.",
+    "The agency pages (fuselabcreative, aufaitux, designstudiouiux) list services without published prices; we quote published ranges.",
+    "Few name WCAG 2.2 specifics (24 × 24 px target size, focus not obscured, accessible authentication); most stop at 'accessibility'."
+  ],
+  "competitorPagesStudied": [
+    { "url": "https://www.ramotion.com/blog/enterprise-ux/", "type": "agency guide", "note": "definition plus challenges; snippet only (WebFetch DNS-blocked)" },
+    { "url": "https://blog.logrocket.com/ux-design/enterprise-ux-design-challenges/", "type": "publisher guide", "note": "challenges list, legacy systems" },
+    { "url": "https://www.onething.design/services/enterprise-ux", "type": "agency service page", "note": "direct service competitor" },
+    { "url": "https://www.fuselabcreative.com/services/enterprise-ui-ux-design/", "type": "agency service page", "note": "direct service competitor" },
+    { "url": "https://www.aufaitux.com/ui-ux-design-services/enterprise-ui-ux-design/", "type": "agency service page", "note": "ERP, CRM, internal tools, design systems" },
+    { "url": "https://phenomenonstudio.com/article-faq/where-can-i-find-ui-ux-design-services-for-enterprise-software/", "type": "agency FAQ", "note": "multi-role permissions, legacy integration, accessibility as vetting criteria" }
+  ],
+  "originality": "Do not reuse wording, heading order or examples from the pages above. Our structure follows the template's challenge → solution pairs on purpose (6 pairs, same order).",
+
+  "caseStudies": {
+    "use": [
+      { "slug": "mass-media-co", "url": "/case-studies/mass-media-co/", "allowed": ["'MMC's order work was spread across tools that did not talk to each other'", "'Order takers had to jump between systems just to complete one customer order'", "discovery workshop with stakeholders and end users to map the information architecture and user flows", "'A single dashboard now covers open tasks, sales operations, recent tasks and how work flows for each client'", "order processing efficiency +30%; order processing error rate '2+, reduced from 25%' (quote the figure as written, do not reword it to '2%')"], "rule": "Call it a B2B platform for a digital marketing company. Do NOT call MMC an 'enterprise client' or 'enterprise customer'; the case study does not say so." },
+      { "slug": "digno", "url": "/case-studies/digno/", "allowed": ["requirements collected from stakeholders and end users to pin down the scoring formula", "the Digno score computed at three levels: organization, department, individual employee", "'Making an AI-generated score feel fair and readable'"], "rule": "Use as the role-based-views and AI-trust example only. Do NOT cite Digno's revenue, profit or ROI figures as UX results; they are business results that the case study does not attribute to design." }
+    ],
+    "orchestratorAction": "Add `industries: [enterprise]` to the frontmatter of content/case-studies/mass-media-co.md and content/case-studies/digno.md. Otherwise caseStudiesForIndustry() returns nothing and the rail falls back to all featured studies, with Nitro League (Web3 racing game) near the front. Change nothing else in those files.",
+    "doNotUse": ["Apex HCM, Fortna, ToolsGroup (removed by owner 2026-10-09)", "Nitro League, Parents Connect, Elia Wellness, Anyday, TradeZella as enterprise examples (consumer, gaming or fintech-retail products)"]
+  },
+
+  "honesty": [
+    "Do not claim ui-ux.agency or tkxel holds a SOC 2 report, issues VPATs/ACRs, or certifies WCAG or Section 508 conformance.",
+    "The home.ts awards strip shows 'ISO 27001', 'CMMI DEV 3' and 'WCAG/AAA Achieved' with no source in the repo. Do not repeat them on this page unless the fact-checker confirms ISO 27001 / CMMI on a tkxel.com page. Never use 'WCAG/AAA Achieved' (it is unclear what was achieved).",
+    "Do not claim enterprise clients, Fortune 500 work or federal contracts. None exists in content/case-studies/.",
+    "The SOC 2 Type 2 period length is not given: secondary sources disagree (3–12 vs 6–12 months). Say 'over a period of time'.",
+    "Do not use the ADA Title II dates until the fact-checker confirms them on ADA.gov or the Federal Register; the only source found is a JD Supra summary. If that fails, keep only 'WCAG 2.1 AA for state and local government web content and mobile apps'.",
+    "Okta's 101 is a global figure; keep the 'global' label (RULES.md US market: label non-US statistics).",
+    "Unsourced vendor numbers in SERP snippets (training-time cuts, productivity gains, 'half the time' purchase-order claims) are do-not-use."
+  ],
+
+  "sources": [
+    { "url": "https://csrc.nist.gov/glossary/term/role_based_access_control", "why": "RBAC definition (US federal, primary)" },
+    { "url": "https://datatracker.ietf.org/doc/rfc7644/", "why": "SCIM provisioning protocol, RFC 7644, September 2015" },
+    { "url": "https://www.aicpa-cima.com/category/resources/audit-assurance/audit-and-assurance-greater-than-soc-2", "why": "AICPA SOC 2 Trust Services Criteria (primary publisher)" },
+    { "url": "https://www.techtarget.com/cybersecurity/definition/SOC-2-System-and-Organization-Controls-2", "why": "SOC 2 Type 1 vs Type 2 explainer (secondary, backs the type distinction)" },
+    { "url": "https://itaccessibility.tamu.edu/laws_policies_standards/Section-508-Refresh.html", "why": "Revised 508 Standards dates and WCAG 2.0 A/AA incorporation" },
+    { "url": "https://assets.section508.gov/assets/files/ART%20Contract%20Language%20Template.pdf", "why": "GSA section508.gov contract language: delivered ICT must conform to the Revised 508 Standards" },
+    { "url": "https://vispero.com/vpat-101-a-guide-for-federal-contractors-and-subcontractors/", "why": "ACR/VPAT role in federal procurement" },
+    { "url": "https://www.w3.org/WAI/news/2023-10-05/wcag22rec", "why": "W3C: WCAG 2.2 Recommendation on October 5, 2023, 9 new success criteria" },
+    { "url": "https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/", "why": "W3C list of new WCAG 2.2 criteria incl. 2.5.8 Target Size (Minimum)" },
+    { "url": "https://www.jdsupra.com/legalnews/doj-extends-title-ii-ada-web-2176958/", "why": "ADA Title II deadline extension (secondary; verify on ADA.gov)" },
+    { "url": "https://www.nist.gov/itl/ai-risk-management-framework", "why": "NIST AI RMF 1.0, voluntary, 4 functions; GenAI Profile" },
+    { "url": "https://census.gov/library/stories/2026/05/ai-use-businesses.html", "why": "US Census: 37% of firms with 250+ employees use AI" },
+    { "url": "https://okta.com/blog/2025/03/businesses-at-work-2025", "why": "Okta Businesses at Work 2025: 101 apps per company (global)" },
+    { "url": "https://carbondesignsystem.com/components/data-table/usage/", "why": "IBM Carbon data table patterns for dense data" },
+    { "url": "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-datatable.html", "why": "Salesforce lightning-datatable features; not supported on mobile" }
+  ],
+  "sourcesNote": "Every URL above came from a WebSearch result in this run (2026-10-16). WebFetch was DNS-blocked for all hosts, so values come from search snippets. The fact-checker opens each primary page.",
+
+  "internalLinks": [
+    { "href": "/services/saas-products/saas-design-agency/", "anchor": "enterprise SaaS product design", "where": "solutions card 'Dense screens' or process intro", "exists": "content/services/saas-design-agency.json (category SaaS products → /services/saas-products/)" },
+    { "href": "/services/saas-products/saas-product-redesign/#how-does-our-saas-product-redesign-avoid-a-big-bang-launch", "anchor": "phased redesign of a legacy tool", "where": "FAQ 'adopt a redesigned enterprise tool'", "exists": "content/services/saas-product-redesign.json, id from sectionId()" },
+    { "href": "/services/ai-products/ai-ux-design-agency/", "anchor": "AI UX design for copilots and internal AI tools", "where": "FAQ 'AI features'", "exists": "content/services/ai-ux-design-agency.json" },
+    { "href": "/services/ai-products/ai-product-discovery-workshop/", "anchor": "pick the AI pilot worth taking to production", "where": "challenge card 'AI features staff do not trust' or solutions card 'AI with review'", "exists": "content/services/ai-product-discovery-workshop.json" },
+    { "href": "/services/hire-ui-ux-designers/", "anchor": "embedded design team for long enterprise roadmaps", "where": "cost FAQ", "exists": "content/services/hire-ui-ux-designers.json (Hiring & pricing has no pillar → /services/<slug>/)" },
+    { "href": "/services/ui-ux-design-cost/", "anchor": "UI UX design cost by engagement", "where": "cost FAQ", "exists": "content/services/ui-ux-design-cost.json" },
+    { "href": "/case-studies/mass-media-co/", "anchor": "Mass Media Co. B2B platform revamp", "where": "benefits card 'Proof on a B2B platform'", "exists": "content/case-studies/mass-media-co.md" },
+    { "href": "/case-studies/digno/", "anchor": "Digno's three-level performance scores", "where": "solutions card 'Role-permission matrix first'", "exists": "content/case-studies/digno.md" }
+  ],
+  "internalLinksNote": "One link per target page on this page; vary anchors and never use the bare service anchor as the only anchor. No link to the sister site.",
+
+  "backlinkSuggestions": [
+    { "source": "content/services/saas-design-agency.json → section 'Which SaaS products does our SaaS design agency design?' → card 'B2B platforms'", "change": "Link 'complex roles and data tables' to /industries/enterprise/ with that phrase as anchor (or 'enterprise UX for complex roles and data tables').", "priority": "required", "why": "Indexed money page; the sentence already describes enterprise UX. One link out of the hub, to an industry page, not to another service hub." },
+    { "source": "content/pillars.ts → ai-products pillar → section 'Which teams need AI product design?' → card 'Enterprises with AI pilots'", "change": "Append to the body: 'see our <a href=\"/industries/enterprise/\">enterprise UX</a> work for roles, review and rollout.' or link 'an interface staff will actually use' to /industries/enterprise/.", "priority": "required", "why": "Pillar page linked from the homepage and nav; exact topic match (enterprise staff adopting an AI interface)." },
+    { "source": "content/services/ai-product-discovery-workshop.json → card 'Enterprises with many pilots'", "change": "Link 'Organizations with several AI experiments' to /industries/enterprise/ with anchor 'enterprise AI tools'.", "priority": "required", "why": "Real topic match (enterprise AI pilots); a different source page from #2, so it does not break one link per target per source." },
+    { "source": "content/blog/saas-onboarding.md line 215 ('in enterprise SaaS onboarding, members who sign in through the company's identity provider...')", "change": "none", "priority": "skip", "why": "Blog posts link inside their silo (saas-onboarding-design); this post already uses its one cross-silo link budget. Override only if the owner accepts." }
+  ],
+
+  "visuals": [
+    { "type": "infographic", "idea": "Role-permission matrix: 5 roles (admin, manager, operator, approver, guest) × 4 actions (view, edit, approve, export). Optional `image` for the solutions section if the template gains figure support; the text version is the matrix itself." },
+    { "type": "flow", "idea": "Enterprise purchase gates: demo → security questionnaire and SOC 2 report → accessibility ACR → pilot → rollout, with the interface surfaces each gate inspects." }
+  ],
+  "visualsNote": "Industry JSON has no `image` field on CardList or Process today; both visuals are optional, for the OG image or a later template change. Do not block the page on them.",
+
+  "funnel": "mofu/bofu (industry money page)",
+  "serviceSupport": 5,
+  "leadAngle": "The reader wants help when a security or accessibility review blocks a deal, or when staff refuse a new tool or AI feature. Offer: the 45-minute product review (CTA band) and the free consultation form in the hero.",
+  "notes": [
+    "US English only (color, organize, behavior); US dates ('October 5, 2023'); USD.",
+    "Industry page section text: 50–70 words, 90 at most (section-body-short). Card bodies stay at 30–55 words.",
+    "Every H2 is followed by text (the template handles it); bold only the one key sentence in each FAQ answer if the renderer allows HTML.",
+    "Banned words from RULES.md apply (no 'leverage', 'seamless', 'cutting-edge', 'In today's').",
+    "Data source deviation: Ahrefs (2026-10-13) instead of Semrush/GSC. Semrush no_api_units on 2026-10-16; no GSC file. Orchestrator decides.",
+    "Sister check could not run from this environment (DNS); QA runs it before publish (see sisterCheck.qaStep).",
+    "competitors.json not updated (large shared file, no Edit tool). Domains to add for silo 'industry:enterprise': ramotion.com, onething.design (exists; add seenFor 'enterprise ux'), fuselabcreative.com, aufaitux.com, designstudiouiux.com (exists; add seenFor 'enterprise ux design services'), phenomenonstudio.com (exists; add seenFor 'ui ux design for enterprise software')."
+  ]
+}

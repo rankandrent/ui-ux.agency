@@ -1,0 +1,376 @@
+{
+  "slug": "healthcare",
+  "pageType": "industry",
+  "targetFile": "content/industries/healthcare.json",
+  "url": "/industries/healthcare/",
+  "keyword": "healthcare ux design",
+  "anchor": "healthcare UX design",
+  "secondary": [
+    "healthcare app design",
+    "healthcare ux",
+    "healthcare ux design agency",
+    "healthcare ui ux design",
+    "healthcare ux agency",
+    "telehealth app design",
+    "telehealth ux"
+  ],
+  "volume": 200,
+  "kd": 1,
+  "trafficPotential": 450,
+  "clusterVolume": 800,
+  "dataSource": "Ahrefs Keywords Explorer v3, country=us, pulled 2026-10-13 (docs/content-system/keywords-2026-10.json → industries). Primary 'healthcare ux design' = 200/mo, KD 1, TP 450, parent topic itself. VOLUME CONFLICT: calendar.json lists this item at 800/mo. 800 is exactly the sum of the six cluster rows (healthcare ux design 200 + healthcare app design 200 + healthcare ux 150 + healthcare ux design agency 100 + healthcare ui ux design 90 + healthcare ux agency 60), so 800 is the cluster volume, not the keyword volume; clusters.json agrees with 200. Secondary rows, same pull: healthcare app design 200 / KD 0 / TP 70 (parent 'health app ui design'); healthcare ux 150 / KD 0 / TP 450 (parent = our primary); healthcare ux design agency 100 / KD n/a; healthcare ui ux design 90 / KD n/a; healthcare ux agency 60 / KD n/a; telehealth app design 40 / KD 0; telehealth ux 40 / KD 0 (parent 'how do you do a telehealth visit', TP 10, so keep it to one mention); telehealth ux design 10. Warehouse rows for related lexical terms only (not targets): digital health product design and development 60, minimum viable product healthcare 80, medical device product design process 70 (KD 2), generative ai use cases in healthcare 300 (owned by a future ai-product-discovery-workshop post, see notes). Semrush: keyword_research returned no_api_units on 2026-10-16. No GSC export exists (docs/data/gsc/latest.json missing). SERP study: WebFetch failed with ENOTFOUND for every domain tried (uiuxdesignservices.us, www.uiuxdesignservices.us, fda.gov, faegredrinker.com, ux4sight.com; web.archive.org refused), so SERP coverage and regulation facts come from WebSearch result snippets on 2026-10-16. The fact-checker should open each primary source.",
+  "dataSourceDate": "2026-10-16",
+  "intent": "Mixed: commercial investigation with an informational edge. Page 1 for 'healthcare ux design' is mostly agency blog guides (solveit.dev, ux4sight, techaheadcorp, heymarvin, purrweb, onething.design, ramotion, thealien.design), plus one capability page (digitalscientists.com). The 'agency' variants return service pages and self-ranked agency lists (g-co.agency, 925studios, fuselabcreative, cieden, flatirons, wearetenet, halo-lab). The searcher is a founder, product manager or design lead at a US digital health company. They want to know what makes healthcare UX different and whether a design partner understands it. An industry page wins by answering the 'what is different' question in short, dense blocks, then moving the reader to services and a consultation.",
+  "funnel": "mofu",
+  "serviceSupport": 5,
+  "centralEntity": "healthcare UX design",
+  "sourceContext": "ui-ux.agency (the design team of tkxel, Reston, VA, in business since 2017, 200+ products designed) sells AI and SaaS product design. This page frames healthcare UX design for US digital health SaaS, AI-assisted clinical and patient products, telehealth and wellness apps. The US regulatory frame (HIPAA, FTC Health Breach Notification Rule, FDA CDS and general wellness guidance, ONC/21st Century Cures, HHS Section 504, ADA, Section 508, WCAG 2.2 AA) is shown as design decisions on the screen. We are designers, not regulatory counsel.",
+  "metaTitle": "Healthcare UX Design | AI, SaaS and Telehealth Products",
+  "metaTitleLength": 55,
+  "metaDescription": "Healthcare UX design for digital health SaaS, clinical AI and telehealth apps, built around HIPAA, FDA CDS guidance and WCAG 2.2 AA. Book a free consultation.",
+  "metaDescriptionLength": 158,
+  "metaKeywords": [
+    "healthcare ux design",
+    "healthcare app design",
+    "healthcare ux",
+    "healthcare ux design agency",
+    "healthcare ui ux design",
+    "digital health ux",
+    "clinical ai ux",
+    "telehealth app design"
+  ],
+  "hero": {
+    "eyebrow": "Healthcare UX design",
+    "h1": "Healthcare UX design for digital health SaaS, clinical AI and telehealth apps",
+    "sub": "We design patient, caregiver and clinician experiences where AI output is checkable, protected health information stays out of sight until it is needed, and every screen is built to WCAG 2.2 AA."
+  },
+  "heroNotes": "H1 = 76 chars, keyword first. The sub must not repeat the H1 keyword. 'Book a free consultation' is the form card (template), so the sub carries no CTA.",
+  "title": "Healthcare",
+  "order": "orchestrator sets (next free number after existing industries)",
+  "contentPlan": {
+    "renderOrderNote": "Read app/industries/[slug]/page.tsx. With no `sections` array, the page renders blocks in this order: (1) hero with h1, `abstract` and `sub`; (2) case-study rail, fixed H2 'Healthcare UI UX case studies' plus `stats`; (3) `intro` + `bullets`, fixed H2 'How we design for healthcare'; (4) `challenges` (headings.challenges); (5) service grid from `relatedServices` (headings.services); (6) `solutions` (headings.solutions); (7) CTA band (`cta`, else the home default); (8) `benefits` (headings.benefits); (9) `process` only if `process` is set or `useDefaults: true` (headings.process); (10) FAQ (headings.faqs); (11) posts block, hidden while no post has industries: [healthcare]. headings.caseStudies is NOT read by the template, and neither is the bullets H2, so those two H2s cannot carry the keyword. With 5 overrides that do carry it (challenges, services, solutions, process, faqs), about 5 of 9 H2s hold the central entity (55%, meets the 40% rule). Optional code change for the orchestrator: wire headings.caseStudies and an override for the bullets H2.",
+    "abstract": {
+      "field": "abstract",
+      "words": "45-60",
+      "plan": "Sentence 1 starts with 'Healthcare UX design is…' and defines it: designing digital health products for patients, caregivers and clinicians so that the right person can act on health information safely and quickly. Sentence 2 adds source context: ui-ux.agency, the design team of tkxel, designs digital health SaaS, AI-assisted clinical and patient tools, telehealth and wellness apps for US companies, under HIPAA, FDA and WCAG 2.2 AA constraints. The keyword must sit in the first 60 words of the page (the abstract is the first text block after the H1)."
+    },
+    "summary": {
+      "field": "summary",
+      "plan": "One sentence for industry cards (max 25 words): 'Healthcare UX design for digital health SaaS, clinical AI copilots, telehealth and wellness apps, built for patients, caregivers and clinicians.'"
+    },
+    "intro": {
+      "field": "intro",
+      "plan": "One to two sentences (35-50 words), shown on the home industry tab and under the fixed H2 'How we design for healthcare'. Use the 'three users, one record' angle: a patient, a caregiver with proxy access and a clinician often see the same data, and healthcare UX design decides what each of them sees first. No stats here. Stats live in the stats row."
+    },
+    "bullets": {
+      "field": "bullets",
+      "count": 5,
+      "plan": [
+        "Clinical AI copilots and decision support screens that show the basis for every suggestion",
+        "Digital health SaaS for clinics, care teams and payers: scheduling, intake, admin and reporting",
+        "Telehealth and virtual-care apps, from device check to visit summary",
+        "Patient and caregiver apps and portals with proxy access and plain-language results",
+        "Wellness, coaching and habit apps, like the Elia Wellness platform for adults 50+"
+      ],
+      "note": "Bullet 5 is the only bullet that names a client, and it links nothing (the rail above shows the case study). Do not write 'EHR design' as a bullet. We have no EHR case study, so EHR stays a context entity (embedded apps, EHR integration), not a claim of past work."
+    },
+    "stats": {
+      "field": "stats",
+      "count": 4,
+      "plan": [
+        { "value": "65%", "label": "of US individuals accessed their online medical records or patient portal at least once in 2024 (ASTP/ONC Data Brief 77)" },
+        { "value": "59%", "label": "of US individuals had more than one patient portal in 2024; only 7% used an app to combine them (ASTP/ONC)" },
+        { "value": "66%", "label": "of US physicians used health AI in 2024, up from 38% in 2023 (AMA survey)" },
+        { "value": "45.9/100", "label": "average EHR usability score from 870 US physicians (Mayo Clinic Proceedings, 2019)" }
+      ],
+      "note": "Every value has a primary US source in `sources`. The template renders labels only, so the short source name stays inside each label. Do not use the '95% of healthcare apps are only looked at once' snippet (Qubika, no primary source) or any vendor 'X% of patients prefer…' figure."
+    },
+    "challenges": {
+      "field": "challenges",
+      "heading": "What makes healthcare UX design harder than other SaaS design?",
+      "headingKey": "headings.challenges",
+      "count": 5,
+      "bodyWords": "45-65 each (section-body-short: never above 90)",
+      "plan": [
+        { "title": "Three users read the same record", "bodyHint": "Patients, caregivers and clinicians each need a different first view of one chart. Caregiver (proxy) access more than doubled between 2020 and 2024, from 24% to 51% (ASTP/ONC). The fact-checker must confirm the base of that 51% before it is used; otherwise drop the number and keep the point. Design answer: role-based views, consent-aware proxy flows." },
+        { "title": "Clinicians have seconds, not minutes", "bodyHint": "870 US physicians rated EHR usability at 45.9/100, and each point gained went with about 3% lower odds of burnout (Melnick et al., Mayo Clinic Proceedings 2019). Correlation, not cause: say 'was linked to'. A new tool that adds clicks to that workflow gets ignored." },
+        { "title": "AI output has to be checkable", "bodyHint": "In the AMA survey, the top conditions physicians set for adopting AI were a feedback channel (88%), data privacy assurances (87%) and EHR integration (84%). Each one is a screen: a flag-this-answer control, a privacy statement at the point of use, and an in-EHR launch." },
+        { "title": "Regulation shows up as interface copy", "bodyHint": "HIPAA's minimum necessary standard, consent screens and notification text all have legal weight. Wellness apps outside HIPAA still fall under the FTC Health Breach Notification Rule (amended, effective July 29, 2024). Under FDA's January 2026 general wellness guidance, wellness outputs avoid disease names and 'abnormal' labels." },
+        { "title": "Patients juggle portals and devices", "bodyHint": "59% of US individuals had more than one portal in 2024, and only 7% combined them in one app (ASTP/ONC). App-based access rose from 38% in 2020 to 57% in 2024. Sign-in, account linking and record import are where a new digital health SaaS loses users first." }
+      ]
+    },
+    "services": {
+      "heading": "Which of our services cover healthcare UX design?",
+      "headingKey": "headings.services",
+      "plan": "The grid renders the relatedServices cards automatically. No extra copy is needed."
+    },
+    "solutions": {
+      "field": "solutions",
+      "heading": "How does healthcare UX design handle AI, FDA and HIPAA on the screen?",
+      "headingKey": "headings.solutions",
+      "count": 6,
+      "bodyWords": "45-65 each",
+      "plan": [
+        { "title": "Recommendation panels clinicians can verify", "bodyHint": "Under section 520(o)(1)(E) of the FD&C Act, as explained in FDA's CDS guidance (revised January 2026), non-device CDS for health care professionals must let the clinician independently review the basis for a recommendation. That basis is a UX decision: inputs used, source, logic summary and known limits, shown next to accept, edit and dismiss. Add 'Confirm with your regulatory counsel'. We design to it; we do not classify products." },
+        { "title": "Patient-facing AI with clear limits", "bodyHint": "The CDS exclusion applies only to software for health care professionals, so a patient-facing symptom or triage tool needs extra care. Patterns: scope statements before the first question, escalation to a human, no diagnosis wording, and a visible 'what this tool cannot do'. Link chatbot UI design for conversational intake." },
+        { "title": "AI interfaces ready for model updates", "bodyHint": "FDA's final guidance on Predetermined Change Control Plans (PCCPs) for AI-enabled device software functions lets cleared devices plan model changes ahead. The UI needs version labels, 'what changed' notes for clinicians and stable controls, so a model update does not retrain users. ONC's HTI-1 source-attribute (model card) display for predictive DSIs is proposed for removal in HTI-5 (comment period closed February 27, 2026, not final). Write 'proposed', never 'removed'." },
+        { "title": "Privacy patterns for protected health information", "bodyHint": "Lock-screen and push notifications without PHI ('You have a new message'), masked fields in shared or screen-shared views, session timeouts with a save state, and consent and data-sharing screens in plain language. Name HIPAA and the FTC Health Breach Notification Rule. Do not say the design makes an app 'HIPAA compliant'." },
+        { "title": "Telehealth visits that start on time", "bodyHint": "Pre-visit camera and mic check, a waiting room that shows status, one-tap caregiver or interpreter join, and an audio-only fallback. HHS OCR has guidance on audio-only telehealth under HIPAA. End with a plain-language visit summary. No claims about Medicare telehealth payment rules (they keep changing)." },
+        { "title": "Accessible components to WCAG 2.2 AA", "bodyHint": "One design system with WCAG 2.2 AA built in: Target Size (Minimum) 2.5.8 at 24×24 CSS px, Accessible Authentication (Minimum) 3.3.8 so patients can sign in without a memory puzzle, Focus Not Obscured 2.4.11, and Consistent Help 3.2.6 for a 'call the clinic' link in the same place on every screen. Content that conforms to WCAG 2.2 also conforms to 2.1 and 2.0." }
+      ]
+    },
+    "cta": {
+      "field": "cta",
+      "plan": { "heading": "Planning a clinical AI feature or a telehealth launch?", "body": "Send us the workflow and the user roles. We reply within one business day, ET, with how we would scope the healthcare UX design work.", "cta": "Get a free consultation" },
+      "note": "Optional page-level CTA band. Without it the home default renders. 'within one business day, ET' follows the US market rule."
+    },
+    "benefits": {
+      "field": "benefits",
+      "heading": "Why do digital health teams choose our healthcare UX design team?",
+      "headingKey": "headings.benefits",
+      "count": 4,
+      "plan": [
+        { "title": "AI UX is our core work", "bodyHint": "Our AI UX design service designs input, output, review and correction patterns, and prototypes with real or recorded model output (services/ai-ux-design-agency.json). That is the same discipline clinical AI needs. Link the AI UX design service." },
+        { "title": "SaaS metrics, not only screens", "bodyHint": "We design for activation, retention and expansion in subscription software (saas-design-agency, saas-onboarding-design). For digital health SaaS that means clinic onboarding, seat roles and admin areas." },
+        { "title": "Proof from a real wellness platform", "bodyHint": "Elia Wellness: a web and mobile wellness learning platform for adults over 50, with seven wellness dimensions, badges and a tablet questionnaire with big tap areas and simple rating scales. Registrations grew 40%. Cite only these facts (see notes)." },
+        { "title": "US hours, one office", "bodyHint": "200+ products designed since 2017; senior designers work remotely with US teams in ET and PT hours; the only office is Reston, VA. We work alongside your regulatory, privacy and quality leads. We do not replace them." }
+      ]
+    },
+    "process": {
+      "field": "process",
+      "recommended": true,
+      "heading": "How does a healthcare UX design project run?",
+      "headingKey": "headings.process",
+      "plan": [
+        { "title": "Workflow and risk map (1–2 weeks)", "body": "Map each user role, where PHI appears, where AI output enters a decision, and which regulations your counsel says apply." },
+        { "title": "Flows and patterns (2–3 weeks)", "body": "Design role-based flows, consent and notification copy, AI review states and accessible components." },
+        { "title": "Prototype and test (1–3 weeks)", "body": "Prototype with realistic, de-identified sample data and test with 5 to 8 target users on real tasks." },
+        { "title": "Handoff (1 week)", "body": "Specs, a WCAG 2.2 AA checklist per component, and a pattern guide your engineers and quality team can use." }
+      ],
+      "note": "Durations follow the ai-ux-design-agency process (4 steps, 4–10 weeks, 5–8 test users). Do not claim that we recruit clinicians or have tested with clinicians or patients before: no case study shows it (competitors.json note on Elia Wellness). Use 'target users'. Set `useDefaults: false`."
+    },
+    "faqs": {
+      "field": "faqs",
+      "heading": "What do digital health founders ask about healthcare UX design?",
+      "headingKey": "headings.faqs",
+      "count": 6,
+      "answerWords": "40-80 each, first sentence is the direct answer",
+      "plan": [
+        { "q": "Can UX design make a health app HIPAA compliant?", "answerHint": "No. HIPAA compliance comes from administrative, physical and technical safeguards, risk analysis and business associate agreements (a cloud provider that stores ePHI is a business associate, per HHS OCR). Design supports it with minimum-necessary views, PHI-free notifications, timeouts and clear consent. Note the HIPAA Security Rule update proposed January 6, 2025 is not final; do not describe its requirements as law." },
+        { "q": "When does an AI feature make health software an FDA medical device?", "answerHint": "Direct answer: when its intended use meets the device definition and no exclusion applies. For clinician-facing CDS, the four criteria in section 520(o)(1)(E) decide, and one of them is a UX question: can the clinician independently review the basis? Patient-facing CDS does not get that exclusion. Wellness-only products may fall under FDA's general wellness policy. Your regulatory counsel makes the call, and we design to it." },
+        { "q": "Which accessibility standard should a US digital health product meet?", "answerHint": "Design to WCAG 2.2 AA. HHS's Section 504 rule requires WCAG 2.1 AA for web and mobile content of HHS-funded recipients. An interim final rule (May 7, 2026) moved the dates to May 11, 2027 (15+ employees) and May 10, 2028 (smaller recipients). Section 508 uses WCAG 2.0 AA for federal ICT. ADA Title II covers public health systems. WCAG 2.2 AA content conforms to all three." },
+        { "q": "Do wellness apps outside HIPAA still have privacy rules?", "answerHint": "Yes. The FTC Health Breach Notification Rule covers health apps and connected devices not covered by HIPAA: breach notice within 60 calendar days, and unauthorized disclosure counts as a breach (amendments effective July 29, 2024). The FTC Act and state laws such as CCPA/CPRA also apply. Mention GDPR only 'if you also sell in the EU'." },
+        { "q": "How do 21st Century Cures Act rules change a patient app's UX?", "answerHint": "Patients can direct their records to the apps they choose. Certified health IT must offer standardized APIs, and information blocking rules apply to providers, certified health IT developers and HINs/HIEs. HHS OCR says a provider may not deny access just because the app does not encrypt data at rest. Design the connect-your-records flow, the scopes screen and a plain warning that HIPAA may not protect data once the patient moves it into a third-party app." },
+        { "q": "How much does healthcare UX design cost with your team?", "answerHint": "We publish service prices, not a separate healthcare price: MVP design $15,000–$50,000 (4–8 weeks), AI UX design $25,000–$90,000 (4–10 weeks), SaaS design $40,000–$180,000. Compliance-heavy flows, more user roles and platforms push a project up the range. Link the UI UX design cost guide, factors section. Do not invent a 'healthcare premium' percentage." }
+      ]
+    },
+    "posts": {
+      "headingKey": "headings.posts",
+      "heading": "Healthcare product design guides",
+      "note": "Hidden until a post sets industries: [healthcare]. Candidate: 'generative ai use cases in healthcare' (300/mo, KD 0, warehouse) in the ai-product-discovery-workshop silo."
+    },
+    "relatedServices": [
+      "ai-ux-design-agency",
+      "saas-design-agency",
+      "mvp-design-agency",
+      "chatbot-ui-design",
+      "ai-product-discovery-workshop",
+      "product-design-agency"
+    ],
+    "relatedServicesWhy": "All 6 slugs exist in content/services/. The order follows the AI/SaaS angle: clinical AI → digital health SaaS → new-product MVP (where Elia Wellness started) → conversational intake/triage → choosing which AI use case to build → ongoing product design (Elia's second service). saas-onboarding-design is left out of the grid and linked inline from the 'portals' challenge if needed."
+  },
+  "headingPlan": [
+    { "level": "h1", "text": "Healthcare UX design for digital health SaaS, clinical AI and telehealth apps", "source": "hero.h1" },
+    { "level": "h2", "text": "Healthcare UI UX case studies", "source": "fixed in template (not overridable)" },
+    { "level": "h2", "text": "How we design for healthcare", "source": "fixed in template (not overridable)" },
+    { "level": "h2", "text": "What makes healthcare UX design harder than other SaaS design?", "source": "headings.challenges" },
+    { "level": "h2", "text": "Which of our services cover healthcare UX design?", "source": "headings.services" },
+    { "level": "h2", "text": "How does healthcare UX design handle AI, FDA and HIPAA on the screen?", "source": "headings.solutions" },
+    { "level": "h2", "text": "Planning a clinical AI feature or a telehealth launch?", "source": "cta.heading (CTA band)" },
+    { "level": "h2", "text": "Why do digital health teams choose our healthcare UX design team?", "source": "headings.benefits" },
+    { "level": "h2", "text": "How does a healthcare UX design project run?", "source": "headings.process" },
+    { "level": "h2", "text": "What do digital health founders ask about healthcare UX design?", "source": "headings.faqs" }
+  ],
+  "entities": [
+    "healthcare UX design",
+    "digital health",
+    "HIPAA",
+    "protected health information",
+    "business associate agreement",
+    "FTC Health Breach Notification Rule",
+    "FDA",
+    "clinical decision support",
+    "software as a medical device",
+    "general wellness",
+    "Predetermined Change Control Plan",
+    "ONC / ASTP",
+    "21st Century Cures Act",
+    "information blocking",
+    "FHIR API",
+    "HTI-1",
+    "EHR",
+    "patient portal",
+    "telehealth",
+    "caregiver proxy access",
+    "clinician",
+    "WCAG 2.2 AA",
+    "Section 504",
+    "Section 508",
+    "ADA"
+  ],
+  "attributes": [
+    "user roles (patient, caregiver, clinician, admin)",
+    "regulatory status (device, non-device CDS, general wellness)",
+    "basis for recommendation (explainability)",
+    "PHI exposure points",
+    "consent and data sharing",
+    "accessibility conformance level",
+    "compliance dates",
+    "interoperability (API, record import)",
+    "clinician time per task",
+    "AI model update handling",
+    "engagement price and duration",
+    "telehealth visit states"
+  ],
+  "eav": [
+    { "attribute": "definition", "value": "Healthcare UX design is the design of digital health products so that patients, caregivers and clinicians can find, understand and act on health information safely and quickly.", "source": "working definition for this page (no external claim)" },
+    { "attribute": "product types (our scope)", "value": "Digital health SaaS, clinical AI copilots and CDS screens, telehealth apps, patient and caregiver portals, wellness apps", "source": "ui-ux.agency service scope (content/services/*.json)" },
+    { "attribute": "US patient portal use, 2024", "value": "65% of individuals accessed their online medical records or portal at least once; 77% were offered access", "source": "https://www.healthit.gov/sites/default/files/2025-06/2024-HINTS-Patient-Access-DB77_508.pdf" },
+    { "attribute": "app-based record access, 2020 → 2024", "value": "38% → 57%", "source": "https://www.healthit.gov/sites/default/files/2025-06/2024-HINTS-Patient-Access-DB77_508.pdf" },
+    { "attribute": "multiple portals, 2024", "value": "59% had more than one portal; 7% used an app to combine them", "source": "https://www.healthit.gov/sites/default/files/2025-06/2024-HINTS-Patient-Access-DB77_508.pdf" },
+    { "attribute": "physician health AI use", "value": "66% in 2024, up from 38% in 2023 (about 1,200 physicians)", "source": "https://www.ama-assn.org/practice-management/digital-health/2-3-physicians-are-using-health-ai-78-2023" },
+    { "attribute": "physician AI adoption requirements", "value": "feedback channel 88%, data privacy assurances 87%, EHR integration 84%", "source": "https://www.ama-assn.org/system/files/physician-ai-sentiment-report.pdf" },
+    { "attribute": "EHR usability (SUS)", "value": "45.9/100 from 870 US physicians; each 1-point gain linked to about 3% lower odds of burnout", "source": "Melnick E et al., Mayo Clinic Proceedings, 2019, doi:10.1016/j.mayocp.2019.09.024 (confirmed via https://www.futurity.org/electronic-health-records-doctors-2212862/ and https://lowninstitute.org/ehrs-get-a-failing-grade-for-usability/; fact-checker: open the DOI)" },
+    { "attribute": "FDA non-device CDS criteria", "value": "4 criteria in FD&C Act 520(o)(1)(E); criterion 4 = the health care professional can independently review the basis for the recommendation", "source": "https://www.fda.gov/media/109618/download (CDS guidance; revised January 6, 2026, see https://www.cov.com/news-and-insights/insights/2026/01/5-key-takeaways-from-fdas-revised-clinical-decision-support-cds-software-guidance)" },
+    { "attribute": "FDA CDS guidance 2026 change", "value": "January 6, 2026 revision supersedes the 2022 guidance; enforcement discretion for CDS that gives a single recommendation when only one is clinically appropriate; time-critical wording removed from criterion 3", "source": "https://www.kslaw.com/insights/articles/fda-updates-general-wellness-and-clinical-decision-support-guidance-documents" },
+    { "attribute": "FDA general wellness guidance", "value": "Reissued January 6, 2026 (supersedes September 27, 2019); wellness-only, low-risk products; non-invasive sensing outputs qualify only without disease names, 'abnormal' labels or clinical thresholds", "source": "https://fda.gov/media/90652/download?attachment=" },
+    { "attribute": "AI device model changes", "value": "FDA final guidance on Predetermined Change Control Plans for AI-enabled device software functions (date to confirm: listed as December 2024 and 08/18/2025 on different FDA pages)", "source": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-software-medical-device" },
+    { "attribute": "HHS Section 504 web/app standard and dates", "value": "WCAG 2.1 AA; compliance May 11, 2027 (15+ employees) and May 10, 2028 (smaller), per the interim final rule of May 7, 2026", "source": "https://www.aha.org/news/headline/2026-05-07-interim-final-rule-extends-hhs-deadlines-section-504-web-app-nondiscrimination-requirements" },
+    { "attribute": "Section 508 standard", "value": "WCAG 2.0 Level A and AA, incorporated by reference (final rule January 18, 2017)", "source": "https://www.access-board.gov/ict/" },
+    { "attribute": "WCAG 2.2", "value": "W3C Recommendation (first October 5, 2023); 9 new criteria incl. 2.5.8 Target Size (Minimum) AA and 3.3.8 Accessible Authentication (Minimum) AA; backward compatible with 2.1 and 2.0", "source": "https://www.w3.org/TR/WCAG22/" },
+    { "attribute": "FTC Health Breach Notification Rule", "value": "Covers health apps not covered by HIPAA; amendments effective July 29, 2024; notice within 60 calendar days; unauthorized disclosure counts as a breach", "source": "https://www.ftc.gov/business-guidance/resources/complying-ftcs-health-breach-notification-rule-0" },
+    { "attribute": "HIPAA and cloud/app vendors", "value": "A cloud provider that stores ePHI is a business associate even if the data is encrypted; a developer contracted to provide an app to a covered entity's patients is a business associate", "source": "https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html" },
+    { "attribute": "patient-directed apps", "value": "Once a patient sends records to a third-party app that is not a covered entity or business associate, HIPAA no longer protects that data", "source": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/access-right-health-apps-apis/index.html" },
+    { "attribute": "information blocking actors", "value": "Health care providers, health IT developers of certified health IT, and HINs/HIEs (45 CFR part 171)", "source": "https://www.healthit.gov/topic/information-blocking" },
+    { "attribute": "ONC HTI-5 proposal (unique angle)", "value": "Proposes removing the HTI-1 AI 'model card' source-attribute requirements from the DSI criterion; comments closed February 27, 2026; not final", "source": "https://healthit.gov/resources/hti-5-proposed-rule-chart/" },
+    { "attribute": "engagement price (our services)", "value": "MVP design $15,000–$50,000 (4–8 weeks); AI UX design $25,000–$90,000 (4–10 weeks); SaaS design $40,000–$180,000", "source": "content/services/mvp-design-agency.json, ai-ux-design-agency.json, saas-design-agency.json" }
+  ],
+  "ngrams": [
+    "healthcare ux design",
+    "healthcare app design",
+    "healthcare ux",
+    "digital health",
+    "clinical decision support",
+    "patient portal",
+    "protected health information",
+    "telehealth app",
+    "software as a medical device",
+    "wcag 2.2 aa",
+    "clinical workflow",
+    "caregiver access"
+  ],
+  "keywordDensity": "Main keyword 'healthcare UX design' about 1–1.5% word share. Industry pages run about 1,100–1,400 visible words, so about 5–6 uses of the 3-word phrase (0.015 × 1,250 ÷ 3 ≈ 6). The 5 H2 overrides already carry 5 uses, so the body adds only 1–3 more (H1 and abstract). Vary the body wording with the lexical relations.",
+  "skipgrams": [
+    ["clinician", "basis"],
+    ["patient", "portal"],
+    ["FDA", "clinical decision support"],
+    ["HIPAA", "notification"],
+    ["WCAG 2.2", "target size"],
+    ["telehealth", "waiting room"],
+    ["AI", "source"],
+    ["caregiver", "proxy"],
+    ["wellness", "disease"],
+    ["FHIR", "app"],
+    ["model", "update"],
+    ["EHR", "usability"],
+    ["consent", "data sharing"]
+  ],
+  "lexical": {
+    "synonyms": ["healthcare UX", "digital health UX", "medical UX design", "health app UX", "healthcare UI UX design"],
+    "hypernyms": ["user experience design", "product design", "SaaS design"],
+    "hyponyms": ["clinical AI UX", "telehealth UX", "patient portal design", "clinician dashboard design", "wellness app design", "remote patient monitoring app"],
+    "meronyms": ["intake form", "consent screen", "visit waiting room", "recommendation panel", "results view", "notification text", "proxy access settings", "audit log"]
+  },
+  "keywordCarrier": {
+    "inBody": "Plain noun phrase: use it as the sentence subject ('Healthcare UX design decides…') or after 'our' ('our healthcare UX design team'). Never stack it before another noun such as 'healthcare UX design project costs'.",
+    "secondary": {
+      "healthcare ux design agency": "'a healthcare UX design agency like ours' (once, in benefits or FAQ 6)",
+      "healthcare app design": "'healthcare app design for telehealth and wellness' (once, in solutions)"
+    }
+  },
+  "internalLinks": [
+    { "href": "/services/ai-products/ai-ux-design-agency/", "anchor": "AI UX design", "where": "benefits card 1 or solutions card 1", "verified": "content/services/ai-ux-design-agency.json, category AI products → pillar ai-products" },
+    { "href": "/services/ai-products/chatbot-ui-design/", "anchor": "conversational intake and triage design", "where": "solutions card 2", "verified": "content/services/chatbot-ui-design.json" },
+    { "href": "/services/saas-products/saas-design-agency/", "anchor": "digital health SaaS design", "where": "benefits card 2", "verified": "content/services/saas-design-agency.json" },
+    { "href": "/services/saas-products/saas-onboarding-design/", "anchor": "clinic onboarding flows", "where": "challenge card 5 (optional, max one)", "verified": "content/services/saas-onboarding-design.json" },
+    { "href": "/services/startups/mvp-design-agency/", "anchor": "digital health MVP design", "where": "FAQ 6", "verified": "content/services/mvp-design-agency.json, category Startups & product → pillar startups" },
+    { "href": "/services/ui-ux-design-cost/#which-factors-change-ui-ux-design-cost", "anchor": "what changes the price of a design project", "where": "FAQ 6", "verified": "content/services/ui-ux-design-cost.json h2 'Which factors change UI UX design cost?' (Hiring & pricing has no pillar, so no prefix); id from sectionId()" },
+    { "href": "/case-studies/elia-wellness/", "anchor": "Elia Wellness platform for adults over 50", "where": "benefits card 3", "verified": "content/case-studies/elia-wellness.md (industries: [healthcare], so it also fills the case-study rail)" }
+  ],
+  "sources": [
+    { "url": "https://www.healthit.gov/sites/default/files/2025-06/2024-HINTS-Patient-Access-DB77_508.pdf", "why": "ASTP/ONC Data Brief 77 (July 2025): 65% portal access, 57% app-based access, 59% multiple portals, 7% aggregator use, proxy access 24% → 51%" },
+    { "url": "https://www.ama-assn.org/practice-management/digital-health/2-3-physicians-are-using-health-ai-78-2023", "why": "AMA: 66% of physicians used health AI in 2024 vs 38% in 2023" },
+    { "url": "https://www.ama-assn.org/system/files/physician-ai-sentiment-report.pdf", "why": "AMA report: adoption requirements 88% / 87% / 84%" },
+    { "url": "https://www.futurity.org/electronic-health-records-doctors-2212862/", "why": "Coverage of Melnick et al. 2019 (Mayo Clinic Proceedings, doi:10.1016/j.mayocp.2019.09.024): EHR SUS 45.9, 870 physicians, burnout link. Cite the DOI as the primary source" },
+    { "url": "https://www.fda.gov/media/109618/download", "why": "FDA Clinical Decision Support Software guidance; the four non-device CDS criteria" },
+    { "url": "https://www.cov.com/news-and-insights/insights/2026/01/5-key-takeaways-from-fdas-revised-clinical-decision-support-cds-software-guidance", "why": "Confirms the January 6, 2026 CDS revision and what changed" },
+    { "url": "https://www.kslaw.com/insights/articles/fda-updates-general-wellness-and-clinical-decision-support-guidance-documents", "why": "Summary of both January 2026 FDA guidance updates" },
+    { "url": "https://fda.gov/media/90652/download?attachment=", "why": "FDA General Wellness: Policy for Low Risk Devices (2026 reissue)" },
+    { "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-software-medical-device", "why": "FDA AI in SaMD hub: PCCP final guidance and the AI-enabled device software functions draft guidance (January 2025)" },
+    { "url": "https://www.aha.org/news/headline/2026-05-07-interim-final-rule-extends-hhs-deadlines-section-504-web-app-nondiscrimination-requirements", "why": "HHS Section 504 interim final rule (May 7, 2026): new WCAG 2.1 AA dates" },
+    { "url": "https://public-inspection.federalregister.gov/2026-09266.pdf", "why": "Federal Register document for the Section 504 date extension (primary)" },
+    { "url": "https://www.access-board.gov/ict/", "why": "Revised Section 508 Standards: WCAG 2.0 AA by reference" },
+    { "url": "https://www.w3.org/TR/WCAG22/", "why": "WCAG 2.2 Recommendation: success criteria numbers and levels" },
+    { "url": "https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/", "why": "List of the 9 new WCAG 2.2 criteria" },
+    { "url": "https://www.ftc.gov/business-guidance/resources/complying-ftcs-health-breach-notification-rule-0", "why": "FTC HBNR: scope for non-HIPAA health apps, 60-day notice" },
+    { "url": "https://www.ftc.gov/news-events/news/press-releases/2024/04/ftc-finalizes-changes-health-breach-notification-rule", "why": "FTC press release on the 2024 amendments" },
+    { "url": "https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html", "why": "HHS OCR: cloud providers handling ePHI are business associates" },
+    { "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/access-right-health-apps-apis/index.html", "why": "HHS OCR: access right, health apps and APIs" },
+    { "url": "https://www.hhs.gov/hipaa/for-professionals/special-topics/health-apps/index.html", "why": "HHS OCR resources for mobile health app developers" },
+    { "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/hipaa-audio-telehealth/index.html", "why": "HHS OCR guidance on audio-only telehealth" },
+    { "url": "https://www.healthit.gov/topic/information-blocking", "why": "ONC: information blocking actors under the 21st Century Cures Act" },
+    { "url": "https://healthit.gov/resources/hti-5-proposed-rule-chart/", "why": "HTI-5 proposal to remove the DSI 'model card' requirements (proposed, not final)" }
+  ],
+  "sisterSeparation": {
+    "sisterUrl": "https://uiuxdesignservices.us/industries/healthcare/",
+    "fetchStatus": "FAILED 2026-10-16: WebFetch returned getaddrinfo ENOTFOUND for uiuxdesignservices.us and www.uiuxdesignservices.us; web.archive.org refused; site: search returned no pages from the domain. The sister's headings and FAQs could not be read, so the ≤2% 5-gram target is checked by design only, not measured.",
+    "requiredBeforePublish": "QA must fetch the sister page with curl (`curl -sS -A 'Mozilla/5.0' https://uiuxdesignservices.us/industries/healthcare/`) and run the 5-gram overlap on the finished healthcare.json visible text. Target ≤2%. Then compare every H2 and FAQ question side by side and rewrite any shared phrasing.",
+    "designedDifferences": [
+      "Every H2 override is a question framed around AI, SaaS or the founder ('harder than other SaaS design', 'AI, FDA and HIPAA on the screen', 'digital health founders ask'). Generic agency headings are avoided: 'Healthcare UI/UX design services', 'Why choose us', 'Our healthcare design process', 'Patient-centric design', 'HIPAA-compliant design'.",
+      "FAQs are about regulatory edge cases as design decisions (CDS criterion 4, HBNR for wellness apps, Section 504 IFR dates, Cures Act app access), not the usual 'How long does it take / What tools do you use / Do you sign NDAs'.",
+      "Banned stock phrases (common on healthcare agency pages): 'patient-centric', 'intuitive and user-friendly', 'HIPAA-compliant design', 'seamless patient experience', 'improve patient outcomes', 'end-to-end healthcare design', 'reduce cognitive load for clinicians' as a standalone claim.",
+      "Never link to uiuxdesignservices.us and never mention it."
+    ]
+  },
+  "backlinkSuggestions": [
+    { "page": "content/services/saas-design-agency.json", "location": "sections → 'Which SaaS products does our SaaS design agency design?' → card 'Vertical SaaS' body: 'Software for one industry, such as healthcare clinics, logistics firms or property managers.'", "change": "Link 'healthcare clinics' → /industries/healthcare/ (anchor variant: entity + use case).", "priority": "required", "why": "An existing sentence already names healthcare clinics as a vertical SaaS market. Real topic match, one link, no new copy." },
+    { "page": "content/case-studies/elia-wellness.md", "location": "## The problem we had to solve, first sentence: 'Most health and learning apps are not designed with older adults in mind.'", "change": "Link 'health and learning apps' → /industries/healthcare/.", "priority": "required", "why": "The case study is tagged industries: [healthcare] and fills this page's rail. The reciprocal link concentrates relevance and is clickable for health buyers." },
+    { "page": "content/services/ai-ux-design-agency.json", "location": "sections → 'Which AI UX design problems does our agency solve?' → item 'Unclear trust.' body", "change": "Append one sentence: 'Clinical tools need this most: see our <a href=\"/industries/healthcare/\">healthcare UX design</a> work for AI that clinicians must be able to check.'", "priority": "required", "why": "The AI UX hub is the strongest thematic match for the AI-led angle (sources, confidence cues = CDS basis review). One added sentence, one link." }
+  ],
+  "caseStudyRules": {
+    "allowed": "elia-wellness only. Allowed facts, as written in the file: a learning management system (LMS) for adults over 50; website, web app and mobile app; seven wellness dimensions in one score; badges and bucket-list rewards; community feed; tablet pre-questionnaire with big tap areas and simple rating scales; 'plain navigation, readable layouts and accessible UI and UX choices'; registrations +40%.",
+    "doNotUse": [
+      "'30+ boost in wellness scores' and the case-study table gloss 'reflecting reduced stress and improved resilience'. These read as health-outcome claims, and the brief bans medical claims.",
+      "The Geraldine Przybylko quote as a testimonial. It thanks the team for 'building' the platform (2026-10-11 lesson: open design-vs-development conflict).",
+      "Any claim that Elia Wellness involved HIPAA, FDA, clinicians or user testing; the file says none of this.",
+      "The program's church origin; it is irrelevant here."
+    ]
+  },
+  "notes": [
+    "Honesty: no healthcare client other than Elia Wellness. Do not claim EHR, hospital, payer, FDA-submission or HIPAA-covered-entity projects. Write capabilities as method ('we design…', 'our process maps…'), never as past results.",
+    "No medical claims: never say the design improves outcomes, adherence, diagnosis or safety. 'Linked to' wording only for the Melnick burnout correlation.",
+    "Not legal advice: every FDA/HIPAA/FTC statement ends in, or sits near, 'your regulatory counsel decides'. Use 'guidance' for FDA documents, not 'rules'. Mark the HIPAA Security Rule NPRM (January 6, 2025) and ONC HTI-5 (proposed) as proposed. Confirm the PCCP final guidance date at fda.gov before stating one.",
+    "Section 504 dates changed on May 7, 2026. Never print the old May 11, 2026 deadline as current.",
+    "US frame: HIPAA, FTC HBNR, FDA, ONC/ASTP, HHS OCR, ADA, Section 504/508, WCAG 2.2 AA, CCPA/CPRA. GDPR only as 'if you also sell in the EU'. American spelling (behavior, organize, color). Dates like 'May 11, 2027'.",
+    "Do not use (vendor snippets with no primary source): '95% of healthcare apps are only looked at once' (Qubika); agency self-rankings (925studios, fuselabcreative, cieden); '7+ years / 500+ projects' style competitor claims; the 81% '2026 AMA' figure seen only on textbookofdigitalhealth.com.",
+    "The 'design and development' conflict (home.ts vs services): stay silent on whether we build. Say 'design' and 'handoff to your engineers'.",
+    "Cannibalisation check: no existing page targets healthcare. saas-design-agency mentions 'healthcare clinics' once (backlink source). product-discovery.md mentions HIPAA for health data (not a conflict). 'generative ai use cases in healthcare' (300) and 'ai use cases in healthcare' (350, KD 66) belong to a future ai-product-discovery-workshop post, not this page. 'medical website design cost' (150) belongs to the ui-ux-design-cost silo (blog-opportunities #10). Keep both out of this page's H2s.",
+    "Optional for the orchestrator: add \"relatedIndustries\": [\"healthcare\"] to ai-ux-design-agency, saas-design-agency and mvp-design-agency. servicesForIndustry() also reads that reverse link.",
+    "Template gaps: headings.caseStudies is defined in SectionHeadings but never read by app/industries/[slug]/page.tsx, and the bullets H2 is hard-coded. Both stay 'Healthcare UI UX case studies' / 'How we design for healthcare'."
+  ],
+  "rejectedCandidates": [
+    { "keyword": "healthcare app design", "why": "Same volume (200) but TP 70 and parent topic 'health app ui design'. It is narrower and lower-potential than the primary (TP 450). Kept as a secondary with a carrier." },
+    { "keyword": "healthcare ux design agency", "why": "100/mo, no KD. The agency-list SERP (925studios, cieden, fuselabcreative rankings) needs a 'best agencies' page we will not write. Kept as a secondary, used once." },
+    { "keyword": "telehealth ux", "why": "Parent topic 'how do you do a telehealth visit' (patient how-to intent), TP 10. One mention only." }
+  ]
+}

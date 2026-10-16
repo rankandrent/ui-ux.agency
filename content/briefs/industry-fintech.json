@@ -1,0 +1,508 @@
+{
+  "slug": "fintech",
+  "briefFile": "content/briefs/industry-fintech.json",
+  "pageFile": "content/industries/fintech.json",
+  "url": "/industries/fintech/",
+  "type": "industry",
+  "keyword": "fintech ux design",
+  "anchor": "fintech UX design",
+  "anchorWhy": "scripts/onpage-audit.mjs reads an industry page's keyword from its `anchor` (line 187). The anchor must be exactly 'fintech UX design', and the metaTitle, metaDescription, H1, abstract and first keyword must carry the same phrase (lesson 2026-10-06: earlier 'Finance…' anchor and 'Fintech…' metaTitle scored 83).",
+  "secondary": [
+    "fintech ui ux design",
+    "fintech ux",
+    "fintech app design",
+    "banking ux design",
+    "fintech ux design agency",
+    "fintech ux agency"
+  ],
+  "keywordCarrier": {
+    "inBody": "All secondaries are plain noun phrases, so no 'vs' carrier is needed. Natural carriers: 'our fintech UI UX design work covers…', 'fintech app design for iOS, Android and web', 'banking UX design for neobanks and credit-union apps', 'a fintech UX design agency that also builds (through tkxel)'. Never stack the keyword in front of another noun ('fintech UX design project cost'): write 'a fintech project' or 'fintech UX design work' instead.",
+    "density": "Industry pages run about 900–1,300 visible words. 'fintech ux design' is 3 words. At about 1.5% word share that is 4–6 uses in the body copy, plus the H1, abstract, meta and the H2s listed below. Vary with 'fintech product design', 'UX for financial products' and 'design for money apps'."
+  },
+  "volume": 300,
+  "kd": 3,
+  "trafficPotential": 450,
+  "clusterVolume": 800,
+  "dataSource": "Ahrefs Keywords Explorer v3, country=us, pulled 2026-10-13 (docs/content-system/keywords-2026-10.json → industries). Exact row: 'fintech ux design' volume 300, KD 3, parent topic 'fintech ux', TP 450. The calendar.json figure of 800 is not an exact-match volume. It equals the cluster sum of the rows this page owns: fintech ux design 300 + fintech ui ux design 150 + fintech ux 150 + fintech app design 100 + fintech ux design agency 60 + fintech ux agency 40 = 800. banking ux design (150, parent 'ux design for fintech') and banking app design (150) were merged into this page by clusters.json, so they are secondary or lexical terms. Semrush returned no_api_units on 2026-10-16, so Semrush has no data for this run. No GSC export exists (docs/data/gsc/latest.json missing). No warehouse terms or SERP file exists for fintech: a grep for 'fintech|kyc|financial services' over docs/content-system/warehouse/ found only side rows (best ux agency for fintech ai design 50, fintech digital product & design consulting firm 50, onboarding kyc process flow 50 / TP 400, kyc onboarding process flow chart 40). Those go into lexical terms and meta keywords only. The live SERP was studied with WebSearch on 2026-10-16. WebFetch failed with ENOTFOUND for every external domain tried (uiuxdesignservices.us, www.uiuxdesignservices.us, lyssna.com, fuselabcreative.com, thealien.design), so competitor coverage comes from search snippets.",
+  "dataSourceDate": "2026-10-16",
+  "intent": "Mixed: informational with commercial investigation. Page 1 for 'fintech ux design' is mostly guides (lyssna, extentia, thealien.design, fuselabcreative, webstacks, sdk.finance, parallelhq, dashdevs) on principles and trends. The 'fintech ux design agency' variant returns agency service pages and 'best fintech design agencies' lists (halo-lab, flatstudio, onething, 925studios, fuselab). Searchers are founders, product managers and design leads at US fintech SaaS companies and at SaaS or AI companies adding money features (payments, payouts, trading analytics, lending, wealth). They want to know what makes fintech UX different, then whether a partner can handle KYC, trust, dashboards, AI and compliance-aware flows. The page answers the 'what is different and what does good look like' question in the challenges and solutions blocks, so it satisfies the guide intent, and it converts through case studies, services and the consultation form.",
+  "centralEntity": "fintech UX design",
+  "sourceContext": "ui-ux.agency, the UI UX design team of tkxel (remote-first, office in Reston, VA, since 2017, 200+ products designed), writes for US founders and product teams building fintech SaaS and AI-powered financial products. It is product-led: we design the screens, flows and AI patterns. We do not give legal advice and we do not certify compliance. We design flows that a client's compliance team, counsel and auditors can review. Two real fintech case studies back the page: TradeZella (trading journal and analytics SaaS) and Anyday App (wallet and same-day payout platform).",
+  "funnel": "mofu",
+  "funnelWhy": "Industry money page. The SERP is mostly guides, but the page sells. MOFU matches funnel.json for 'planning the work / choosing a partner'. The case-study rail and the free consultation form are the conversion path.",
+  "serviceSupport": 5,
+  "metaTitle": "Fintech UX Design for SaaS and AI Financial Products",
+  "metaTitleLength": 52,
+  "metaDescription": "Fintech UX design for SaaS and AI financial products: KYC onboarding, trust cues, dashboards and compliance-aware flows. Book a free consultation.",
+  "metaDescriptionLength": 146,
+  "keywords": [
+    "fintech ux design",
+    "fintech ui ux design",
+    "fintech app design",
+    "banking ux design",
+    "fintech ux design agency",
+    "kyc onboarding ux",
+    "ai financial product design"
+  ],
+  "title": "Fintech",
+  "titleWhy": "page.tsx builds fixed strings from `title`: breadcrumb, the case-study H2 '{title} UI UX case studies', the ServiceGrid fallback and the Service schema name '{title} UI UX Design Services'. 'Fintech' keeps all of them grammatical. Do not set title to 'Fintech UX design'.",
+  "order": 1,
+  "hero": {
+    "eyebrow": "Fintech UX design",
+    "h1": "Fintech UX design for SaaS and AI-powered financial products",
+    "sub": "Sign-up and identity checks people finish, money screens that show status and fees, and AI answers that cite their source. Designed with your compliance team in the review loop."
+  },
+  "abstract": "Fintech UX design is the user experience (UX) and user interface (UI) work behind software that moves, tracks or advises on money: account opening and identity checks, payments and payouts, portfolio and P&L dashboards, and AI assistants that answer money questions. ui-ux.agency, the design team of tkxel, designs fintech SaaS and AI products for US teams, with the rules that shape each screen (KYC, FINRA, PCI DSS, SOC 2, WCAG 2.2 AA) built into the flows from the first sketch.",
+  "abstractNote": "The keyword sits in word 1–3, and the abstract is 77 words. Keep the abstract under 80 words. If the writer shortens it, keep 'fintech UX design', 'SaaS', 'AI' and at least two named rules in the first 60 words.",
+  "summary": "Fintech UX design for SaaS and AI financial products: KYC onboarding, payment and payout flows, trading and spending dashboards, and AI assistants built to pass compliance review.",
+  "intro": "Our fintech UX design work starts where money products lose people: the identity check, the first transfer and the first number nobody can explain. Here is what we design.",
+  "introNote": "intro renders under the fixed H2 'How we design for fintech' (page.tsx line 88, not overridable) and on the home page industry tab. It is the direct answer to that H2, so it needs a sentence that answers 'how'. Keep it under 35 words.",
+  "bullets": [
+    "KYC and account-opening flows that ask for the Customer Identification Program fields (name, date of birth, address, ID number) in short, saveable steps",
+    "Payment, transfer and payout screens that show fees, timing and status before and after the user taps send",
+    "Trading, portfolio, P&L and spending dashboards that put the one number a user checks first on top",
+    "AI assistants and copilots for money questions that cite sources, state their limits and hand off to a person",
+    "Consent, disclosure, dispute and data-sharing screens annotated for your compliance team's review"
+  ],
+  "stats": [
+    { "value": "+40%", "label": "user interaction after the TradeZella dashboard redesign" },
+    { "value": "+25%", "label": "user retention for TradeZella after the redesign" },
+    { "value": "14 hrs", "label": "saved per week with automated payouts in the Anyday App" },
+    { "value": "48.3%", "label": "of banked US households use mobile banking as their main access method (FDIC, 2023)" }
+  ],
+  "statsNote": "Stats render in the case-study section under the fixed H2 'Fintech UI UX case studies' (page.tsx line 71). The first 3 are copied verbatim from content/case-studies/tradezella.md and anyday-app.md results. The 4th is the FDIC 2023 figure (source below). Do not add '200+ products' here: it already shows in the hero trust block. Do not add the Anyday '$51,000 per location' or '+40% employee satisfaction' unless the label keeps the case study's own cause ('from immediate access to wages').",
+  "challenges": {
+    "headingOverride": "Why is fintech UX design harder than other SaaS design?",
+    "answerNote": "CardList on industry pages gets no `intro` prop (page.tsx line 97), so the H2 is followed by H3 cards, not by an answer paragraph. That breaks the layout rule 'h2-then-text'. Either the orchestrator passes an intro (one-line template change: intro={i.challengesIntro}) or the first card opens with the bold answer. Proposed answer sentence: '<strong>Fintech UX design carries the same jobs as any SaaS design plus a regulator, a fraud team and a user who is nervous about money.</strong>'",
+    "cards": [
+      {
+        "title": "Identity checks sit in the sign-up flow",
+        "points": [
+          "US banks must collect at least name, date of birth, address and an identification number before opening an account (FinCEN CIP rule, 31 CFR 1020.220). Fintechs and their partner banks run similar checks.",
+          "Document capture, selfie or liveness checks and manual review add waiting time a normal SaaS trial never has.",
+          "Design job: explain why each field is needed, save progress, show live verification status, give a clear path when a check fails."
+        ]
+      },
+      {
+        "title": "Trust has to exist before the first deposit",
+        "points": [
+          "A user hands over a bank login or a Social Security number before seeing any value.",
+          "Design job: say who holds the money, show fees and transfer timing up front, write error messages that say what happens to the funds."
+        ]
+      },
+      {
+        "title": "Disclosures and marketing copy are regulated",
+        "points": [
+          "FINRA Rule 2210 requires broker-dealer communications, including websites, apps and social posts, to be fair and balanced and to state material risks. It bans promissory claims.",
+          "Design job: place risk text where the decision is made, not in a footer link, and give compliance a screen-by-screen review file."
+        ]
+      },
+      {
+        "title": "Dense numbers on a phone screen",
+        "points": [
+          "P&L, balances, positions and limits compete for the same space.",
+          "TradeZella's old interface hid the metrics traders care about under clutter (case study). Tie this to the case-study rail above."
+        ]
+      },
+      {
+        "title": "AI answers about money carry real risk",
+        "points": [
+          "CFPB estimated that about 37% of the US population (98 million+) interacted with a bank chatbot in 2022. Its June 2023 issue spotlight warns about wrong answers, 'doom loops' with no way to reach a person, and privacy risks.",
+          "Design job: scope what the assistant answers, show the source, and offer a visible human handoff."
+        ]
+      },
+      {
+        "title": "Accessibility is a legal exposure, and so is login",
+        "points": [
+          "DOJ's March 18, 2022 ADA guidance says businesses open to the public must make web content accessible and names WCAG as helpful guidance.",
+          "WCAG 2.2 (W3C Recommendation, October 5, 2023) adds SC 3.3.8 Accessible Authentication (AA): no memory or puzzle test at login without an alternative such as paste and password-manager support. It also adds SC 2.5.8 Target Size (Minimum): 24×24 CSS pixels.",
+          "Design job: one-time codes that can be pasted, passkey support (NIST SP 800-63-4, July 2025, covers syncable authenticators), and tap targets that pass 2.5.8."
+        ]
+      }
+    ],
+    "cardLength": "30–55 words per card body. Each card names one rule or fact with its value and one design job. No card may list rule names without explaining them."
+  },
+  "services": {
+    "headingOverride": "Which of our services fit a fintech product?",
+    "relatedServices": [
+      "saas-design-agency",
+      "ai-ux-design-agency",
+      "saas-onboarding-design",
+      "saas-product-redesign",
+      "chatbot-ui-design",
+      "mvp-design-agency"
+    ],
+    "why": "All 6 slugs exist in content/services/. saas-design-agency: new fintech SaaS and dashboards. ai-ux-design-agency: AI copilots and advice features. saas-onboarding-design: KYC and account opening (the biggest fintech drop-off point). saas-product-redesign: both fintech case studies were product revamps (TradeZella and Anyday list it in `services`). chatbot-ui-design: support and money-question assistants (CFPB spotlight). mvp-design-agency: seed-stage fintech founders. Not picked: product-design-agency (overlaps saas-design-agency here, though Anyday lists it; acceptable 7th if the grid allows), ai-product-discovery-workshop, design-sprint, hiring and pricing pages (linked from the cost FAQ instead).",
+    "note": "ServiceGrid renders an H2 and service cards only, with no intro text. The services H2 carries no keyword on purpose: 5 other H2s do (see headingPlan)."
+  },
+  "solutions": {
+    "headingOverride": "What does our fintech UX design work cover?",
+    "renderNote": "page.tsx renders `solutions` only when the page has NO `sections` (line 110). Keep `sections` empty or the challenges, bullets and solutions blocks all disappear.",
+    "cards": [
+      {
+        "title": "KYC and account opening",
+        "points": [
+          "Step order that asks for the easy fields first and the ID document last, a progress indicator, save-and-resume, camera guidance for document capture, and a clear 'we are reviewing' state with expected timing.",
+          "Designed around your identity verification vendor's SDK screens. We do not choose the vendor or set your risk rules.",
+          "Link: <a href=\"/services/saas-products/saas-onboarding-design/\">SaaS onboarding design</a> (anchor = hub anchor)."
+        ]
+      },
+      {
+        "title": "Payments, transfers and payouts",
+        "points": [
+          "Fee and timing shown before confirm, a status tracker after send (pending, sent, arrived), and receipts users can find again.",
+          "Card entry: keep card fields inside the processor's hosted fields. PCI DSS v4.0.1 requirements 6.4.3 and 11.6.1 (mandatory since March 31, 2025) cover scripts on payment pages, so fewer third-party scripts on that page is a design decision as well as a security one.",
+          "Proof: the Anyday App redesign added real-time transfers and a balance that sits above recent activity (case study wording)."
+        ]
+      },
+      {
+        "title": "Trading, portfolio and spending dashboards",
+        "points": [
+          "One headline number per view, color plus sign or label for gain and loss (never color alone, WCAG 1.4.1), and drill-down from summary to transaction.",
+          "Proof: TradeZella net daily P&L, win-rate and profit-factor widgets and a dashboard each trader can arrange (case study wording). Link: <a href=\"/case-studies/tradezella/\">TradeZella trading journal redesign</a>."
+        ]
+      },
+      {
+        "title": "AI assistants and copilots for money questions",
+        "points": [
+          "Answer cards that cite the account data or policy they used, a stated scope ('I can explain fees, I cannot give investment advice'), confidence and refusal states, and a one-tap handoff to a person.",
+          "Link: <a href=\"/services/ai-products/ai-ux-design-agency/\">AI UX design agency</a>. Do NOT also link chatbot-ui-design here: it already sits in the services grid."
+        ]
+      },
+      {
+        "title": "Compliance-aware flows",
+        "points": [
+          "Consent screens for sharing bank data with third parties. Note: the CFPB personal financial data rights rule (Section 1033), finalized in October 2024, is under reconsideration (ANPR August 2025), so design consent to be clear and revocable, not to one rule text.",
+          "Disclosures placed at the decision point, dispute and error-report flows, audit-trail views for admins.",
+          "SOC 2: the AICPA Trust Services Criteria have 5 categories (security required; availability, processing integrity, confidentiality, privacy optional). Design supports controls such as role-based access, session timeouts and activity logs. The auditor, not the designer, attests."
+        ]
+      },
+      {
+        "title": "Accessible fintech by default",
+        "points": [
+          "WCAG 2.2 AA as the design target: contrast, focus order, 24×24 px targets, accessible authentication, and error messages that say how to fix the field.",
+          "If you also sell in the EU, the same flows have to meet GDPR consent and data-access rights. This is the only GDPR mention on the page."
+        ]
+      }
+    ],
+    "cardLength": "40–60 words per card body, with at most 1 link per card and 3 links in the block."
+  },
+  "cta": {
+    "heading": "Where does your fintech product lose people before the first deposit?",
+    "body": "Book a 45-minute product review. A senior designer walks through your sign-up, identity check and first transfer, then names the three changes with the biggest effect.",
+    "cta": "Book a product review",
+    "why": "Reuses the home.ts ctaBand offer (45-minute product review) so the offer is consistent, but the question is fintech-specific."
+  },
+  "benefits": {
+    "headingOverride": "What changes when fintech UX design is done well?",
+    "cards": [
+      { "title": "More people finish sign-up and verification", "points": ["Fewer abandoned identity checks means more funded accounts. Give no generic % and no benchmark: none is sourced."] },
+      { "title": "Fewer 'where is my money' tickets", "points": ["Status trackers and plain-language errors answer the question before it reaches support or the chatbot."] },
+      { "title": "Users who come back", "points": ["Proof only from the case study: TradeZella saw +25% user retention after the dashboard redesign. Say 'after the redesign', not 'because of design alone'."] },
+      { "title": "Shorter compliance review cycles", "points": ["Method claim only: we annotate each regulated screen (disclosure, consent, risk text) so reviewers comment on one file. Do not claim a measured time saving."] },
+      { "title": "Designs your engineers can ship", "points": ["As part of tkxel, our designers check build effort with engineers. tkxel can build the product when you need development too (pillars.ts startups FAQ)."] }
+    ],
+    "cardLength": "20–40 words each. The Benefits component adds its own CTA tile ('Ready to see your design opportunities?')."
+  },
+  "process": {
+    "headingOverride": "How does a fintech UX design project run, step by step?",
+    "note": "Industry type supports `process` (types.ts line 156), but the _template does not list it. Include it: it adds a steps block with an ordered list and real timelines. Timelines are copied from content/home.ts process steps. Do not change them.",
+    "steps": [
+      { "title": "Discovery with product, risk and compliance", "timeline": "1–2 weeks", "deliverables": "Research findings, regulated-screen inventory", "points": ["User interviews, analytics and a list of every screen a rule touches (KYC, disclosures, consent, card entry)."] },
+      { "title": "Flows and prototypes for the riskiest paths", "timeline": "2–4 weeks", "deliverables": "User flows, tested prototypes", "points": ["Account opening, first transfer and AI answers first. AI prototypes use real or recorded model output (home.ts)."] },
+      { "title": "Interface and design system", "timeline": "2–6 weeks", "deliverables": "Final UI, component library", "points": ["Money components (amount input, status tracker, fee row, P&L chart) built once and reused."] },
+      { "title": "Testing with real users", "timeline": "1–2 weeks", "deliverables": "Test results, iteration log", "points": ["5 to 8 target users run real tasks before engineering starts (home.ts). TradeZella was tested with traders before launch (case study)."] },
+      { "title": "Compliance review and build support", "timeline": "Through launch", "deliverables": "Annotated review file, dev-ready specs, design QA", "points": ["Your compliance team or counsel signs off. We revise the screens and stay in sprints until launch."] }
+    ]
+  },
+  "faqs": {
+    "headingOverride": "What do US product teams ask about fintech UX design?",
+    "items": [
+      {
+        "q": "Do you design KYC and identity verification flows?",
+        "aHint": "Yes. Cover the step order, CIP fields, save-and-resume and failure paths, and design around the client's verification vendor SDK. Link SaaS onboarding design only if it is not already linked in the solutions card (one link per target per page)."
+      },
+      {
+        "q": "Can UX design make our fintech product compliant with SEC, FINRA or PCI DSS rules?",
+        "aHint": "No. Compliance is decided by your compliance team, counsel and auditors. Fintech UX design makes the required disclosures, consent and controls usable, and hands reviewers an annotated screen file. Mention the SEC's predictive data analytics proposal for broker-dealers and advisers, withdrawn June 12, 2025: there is no SEC rule on AI-driven 'nudges' in apps today, but FINRA Rule 2210 still governs communications."
+      },
+      {
+        "q": "How do you design AI assistants for financial products?",
+        "aHint": "Scope, sources, refusal and low-confidence states, human handoff, CFPB 2023 spotlight risks (wrong answers, doom loops). Link the TradeZella or Anyday case study only if it is not used elsewhere. Neither case study includes an AI feature, so do not imply one did."
+      },
+      {
+        "q": "Which accessibility standard do you design fintech products to?",
+        "aHint": "WCAG 2.2 Level AA. Mention DOJ ADA guidance from 2022, SC 3.3.8 and SC 2.5.8, and Section 508 when a product sells to federal agencies."
+      },
+      {
+        "q": "Have you designed fintech products before?",
+        "aHint": "Yes. TradeZella: a SaaS trading journal and analytics product, redesigned for web and mobile: +40% user interaction, +25% retention, +30% new customers. Anyday App: a wallet and payout platform from XTM Inc. that lets hourly staff reach earned wages right away: 14 hours per week saved with automated payouts, +20% business clients. Use the case-study wording only. Do not call TradeZella a broker or regulated platform. Do not say we did KYC or compliance work on either."
+      },
+      {
+        "q": "How much does fintech UX design cost?",
+        "aHint": "There is no separate fintech price, so do not invent a fintech premium. Use the published ranges: MVP design $15,000–$50,000, AI UX design $25,000–$90,000, SaaS product design $40,000–$180,000, a SaaS product redesign $50,000–$200,000 (service JSON priceRange). Link <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a>. Note: home.ts says 'SaaS product design $40,000–$180,000' and the saas-product-redesign hub says $50,000–$200,000, and both are correct for their scope. Name each range with its service."
+      }
+    ],
+    "answerLength": "40–70 words each. A Yes/No question opens with 'Yes.' or 'No.' (RULES.md). FAQ answers render open.",
+    "notThese": "Do not use definitional FAQs ('What is fintech UX design?', 'What is fintech UI/UX?', 'Why is UX important in fintech?'). The guides on page 1 all use them and a sister finance page most likely does too. The abstract already answers the definition."
+  },
+  "headings": {
+    "challenges": "Why is fintech UX design harder than other SaaS design?",
+    "services": "Which of our services fit a fintech product?",
+    "solutions": "What does our fintech UX design work cover?",
+    "benefits": "What changes when fintech UX design is done well?",
+    "process": "How does a fintech UX design project run, step by step?",
+    "faqs": "What do US product teams ask about fintech UX design?"
+  },
+  "headingPlan": {
+    "renderedOrder": [
+      "H1 (hero): Fintech UX design for SaaS and AI-powered financial products",
+      "H2 (fixed, page.tsx l.71): Fintech UI UX case studies, with stats row and TradeZella + Anyday rail",
+      "H2 (fixed, page.tsx l.88): How we design for fintech, with intro + 5 bullets",
+      "H2 (override): Why is fintech UX design harder than other SaaS design?",
+      "H2 (override): Which of our services fit a fintech product?",
+      "H2 (override): What does our fintech UX design work cover?",
+      "H2 (cta.heading): Where does your fintech product lose people before the first deposit?",
+      "H2 (override): What changes when fintech UX design is done well?",
+      "H2 (override): How does a fintech UX design project run, step by step?",
+      "H2 (override): What do US product teams ask about fintech UX design?",
+      "H2 (fixed, FinalCta default): Ready to launch faster and convert more users?"
+    ],
+    "keywordInH2": "5 of 10 H2s carry 'fintech UX design' (50%, rule ≥ 40%). 'Fintech UI UX case studies' carries the secondary 'fintech ui ux'.",
+    "questionH2s": "6 of 10 are questions (60%, rule ≥ 60%). The fixed H2s cannot be overridden. If the orchestrator adds a `headings.caseStudies` override to page.tsx line 71 (the template lists it but the page ignores it), use 'Which fintech products have we redesigned?'.",
+    "notRendered": "The `posts` heading does not render (no blog post has industries: [fintech]). headings.caseStudies is ignored by page.tsx (template gap, see above)."
+  },
+  "entities": [
+    "fintech UX design",
+    "fintech SaaS",
+    "AI-powered financial products",
+    "know your customer (KYC)",
+    "Customer Identification Program (FinCEN, 31 CFR 1020.220)",
+    "identity verification (document capture, selfie or liveness check)",
+    "NIST SP 800-63-4 Digital Identity Guidelines",
+    "passkeys / multi-factor authentication",
+    "Securities and Exchange Commission (SEC)",
+    "FINRA Rule 2210 (communications with the public)",
+    "Consumer Financial Protection Bureau (CFPB)",
+    "Personal Financial Data Rights rule (Section 1033)",
+    "PCI DSS v4.0.1",
+    "SOC 2 (AICPA Trust Services Criteria)",
+    "ADA Title III (DOJ web accessibility guidance)",
+    "WCAG 2.2 Level AA",
+    "Section 508",
+    "trading and P&L dashboard",
+    "payments, transfers and payouts",
+    "earned wage access / same-day pay",
+    "AI chatbot / copilot",
+    "human handoff",
+    "FDIC National Survey of Unbanked and Underbanked Households",
+    "mobile banking",
+    "TradeZella",
+    "Anyday App (XTM Inc.)",
+    "GDPR (only if you also sell in the EU)"
+  ],
+  "attributes": [
+    "trust signals (who holds the money, fees, timing)",
+    "sign-up and KYC completion",
+    "verification status visibility",
+    "transaction and transfer status",
+    "disclosure placement",
+    "data density on dashboards",
+    "AI answer sourcing and scope",
+    "human handoff availability",
+    "authentication friction",
+    "accessibility conformance level",
+    "retention after redesign",
+    "time to launch / project timeline"
+  ],
+  "eav": [
+    { "attribute": "definition", "value": "UX and UI design of software that moves, tracks or advises on money: account opening, payments and payouts, dashboards, AI money assistants", "source": "ui-ux.agency (this page's abstract)" },
+    { "attribute": "US channel share", "value": "48.3% of banked US households used mobile banking as their primary access method in 2023", "source": "https://fdic.gov/household-survey/2023-fdic-national-survey-unbanked-and-underbanked-households-report" },
+    { "attribute": "AI chatbot reach", "value": "About 37% of the US population (98 million+ users) interacted with a bank chatbot in 2022", "source": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-issue-spotlight-analyzes-artificial-intelligence-chatbots-in-banking" },
+    { "attribute": "AI chatbot risks", "value": "Wrong answers, 'doom loops' without a path to a person, privacy and security risk (CFPB issue spotlight, June 2023)", "source": "https://files.consumerfinance.gov/f/documents/cfpb_chatbot-issue-spotlight_2023-06.pdf" },
+    { "attribute": "KYC minimum data (banks)", "value": "Name, date of birth, address and identification number before account opening", "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.220" },
+    { "attribute": "digital identity standard", "value": "NIST SP 800-63-4, final July 2025, 4 volumes; adds syncable authenticators (synced passkeys) and controls for injection attacks and forged media", "source": "https://csrc.nist.gov/pubs/sp/800/63/4/final" },
+    { "attribute": "card data standard", "value": "PCI DSS v4.0.1 published June 11, 2024 (no new requirements); future-dated requirements, including 6.4.3 and 11.6.1 for payment-page scripts, mandatory since March 31, 2025", "source": "https://blog.pcisecuritystandards.org/just-published-pci-dss-v4-0-1 ; https://blog.pcisecuritystandards.org/coffee-with-the-council-podcast-guidance-for-pci-dss-e-commerce-requirements-effective-after-31-march-2025" },
+    { "attribute": "SOC 2 scope", "value": "5 Trust Services Criteria categories; security mandatory, availability, processing integrity, confidentiality and privacy optional", "source": "https://secureframe.com/hub/soc-2/trust-services-criteria (secondary; fact-checker to confirm against AICPA wording)" },
+    { "attribute": "broker-dealer communications", "value": "FINRA Rule 2210: communications, including websites, apps and social media, must be fair and balanced, with no promissory or exaggerated claims", "source": "https://www.finra.org/rules-guidance/guidance/reports/2026-finra-annual-regulatory-oversight-report/communication-with-public" },
+    { "attribute": "SEC AI rule status", "value": "Predictive data analytics conflicts proposal for broker-dealers and advisers (July 2023) withdrawn June 12, 2025", "source": "https://www.paulhastings.com/insights/client-alerts/sec-withdraws-14-pending-rule-proposals (secondary; SEC page https://www.sec.gov/rules/2023/07/s7-12-23 for the proposal)" },
+    { "attribute": "open banking rule status", "value": "CFPB Section 1033 rule finalized October 2024; reconsideration ANPR August 22, 2025; litigation stayed; not in force as of October 2026", "source": "https://finsights.cooley.com/cfpb-reconsiders-section-1033-rule-signaling-potential-overhaul-of-personal-financial-data-rights-framework/ (secondary; fact-checker to confirm on consumerfinance.gov)" },
+    { "attribute": "accessibility law", "value": "DOJ guidance of March 18, 2022: ADA Title III businesses must make web content accessible; WCAG and Section 508 named as helpful guidance", "source": "https://www.morganlewis.com/pubs/2022/04/doj-breaks-silence-on-ada-web-accessibility-with-new-guidance (secondary; ada.gov guidance page is the primary)" },
+    { "attribute": "accessibility standard", "value": "WCAG 2.2, W3C Recommendation October 5, 2023 (current version December 12, 2024); SC 3.3.8 Accessible Authentication (Minimum) AA; SC 2.5.8 Target Size (Minimum) 24×24 CSS px", "source": "https://www.w3.org/TR/WCAG22/ ; https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication.html" },
+    { "attribute": "EU frame", "value": "GDPR applies only if you also sell in the EU", "source": "RULES.md US market rule" },
+    { "attribute": "case: trading analytics SaaS", "value": "TradeZella: +40% user interaction, +25% user retention, +30% new customers after the web and mobile dashboard redesign", "source": "content/case-studies/tradezella.md" },
+    { "attribute": "case: wallet and payouts", "value": "Anyday App: 14 hours per week saved with automated payouts; +20% business clients; +40% employee satisfaction from immediate access to wages", "source": "content/case-studies/anyday-app.md" },
+    { "attribute": "engagement price", "value": "MVP design $15,000–$50,000; AI UX design $25,000–$90,000; SaaS product design $40,000–$180,000; SaaS product redesign $50,000–$200,000", "source": "content/services/*.json priceRange; content/home.ts pricing" },
+    { "attribute": "project timeline", "value": "Discovery 1–2 weeks, flows and prototypes 2–4 weeks, interface and design system 2–6 weeks, testing with 5–8 users 1–2 weeks", "source": "content/home.ts process" },
+    { "attribute": "unique: AI money-answer pattern", "value": "Cite the data or policy used, state scope, show refusal and low-confidence states, one-tap human handoff", "source": "ui-ux.agency method (AI UX design agency service); CFPB spotlight for the risk" },
+    { "attribute": "unique: compliance review file", "value": "Every regulated screen (KYC, disclosure, consent, card entry) annotated for compliance review before build", "source": "ui-ux.agency method; phrase as method, not as a measured result" }
+  ],
+  "ngrams": [
+    "fintech ux design",
+    "fintech ui ux design",
+    "fintech app design",
+    "banking ux design",
+    "kyc onboarding",
+    "identity verification",
+    "ai-powered financial products",
+    "fintech saas",
+    "financial dashboard",
+    "trust signals",
+    "transfer status",
+    "human handoff",
+    "compliance team",
+    "wcag 2.2 aa",
+    "pci dss"
+  ],
+  "skipgrams": [
+    ["kyc", "drop-off"],
+    ["identity", "verification status"],
+    ["fees", "before"],
+    ["transfer", "status"],
+    ["dashboard", "p&l"],
+    ["ai", "sources"],
+    ["chatbot", "handoff"],
+    ["fair and balanced", "disclosure"],
+    ["wcag 2.2", "authentication"],
+    ["pci dss", "payment page"],
+    ["soc 2", "controls"],
+    ["consent", "data sharing"],
+    ["compliance team", "review"],
+    ["trust", "first deposit"]
+  ],
+  "lexical": {
+    "synonyms": ["fintech user experience design", "fintech product design", "UX for financial products", "money app design"],
+    "hypernyms": ["user experience design", "SaaS product design", "product design", "AI product design"],
+    "hyponyms": ["banking app design", "neobank onboarding", "trading platform UX", "payments UX", "earned wage access app design", "wealth and robo-advisor UX", "lending app UX", "B2B finance software UX"],
+    "meronyms": ["account-opening form", "document capture screen", "selfie or liveness check", "one-time code prompt", "transaction list", "transfer status tracker", "fee row", "P&L chart", "consent screen", "dispute form", "AI answer card", "audit log view"]
+  },
+  "internalLinks": [
+    { "href": "/services/saas-products/saas-onboarding-design/", "anchor": "SaaS onboarding design", "where": "solutions card 'KYC and account opening'", "verified": "content/services/saas-onboarding-design.json (category SaaS products → /services/saas-products/)" },
+    { "href": "/services/ai-products/ai-ux-design-agency/", "anchor": "AI UX design agency", "where": "solutions card 'AI assistants and copilots'", "verified": "content/services/ai-ux-design-agency.json" },
+    { "href": "/case-studies/tradezella/", "anchor": "TradeZella trading journal redesign", "where": "solutions card 'dashboards'", "verified": "content/case-studies/tradezella.md" },
+    { "href": "/case-studies/anyday-app/", "anchor": "Anyday App payout redesign", "where": "FAQ 'Have you designed fintech products before?'", "verified": "content/case-studies/anyday-app.md" },
+    { "href": "/services/ui-ux-design-cost/", "anchor": "UI UX design cost", "where": "FAQ 'How much does fintech UX design cost?'", "verified": "content/services/ui-ux-design-cost.json (Hiring & pricing, no pillar → /services/ui-ux-design-cost/)" },
+    { "href": "/services/saas-products/saas-design-agency/", "anchor": "SaaS design agency", "where": "benefits card 'Designs your engineers can ship' or process step 3 (one only)", "verified": "content/services/saas-design-agency.json" },
+    { "href": "/blog/saas-onboarding/", "anchor": "12-point SaaS onboarding audit", "where": "optional, in the KYC FAQ answer if SaaS onboarding design is linked elsewhere", "verified": "content/blog/saas-onboarding.md", "priority": "conditional", "blocker": "Use it only if the FAQ needs a how-to link. Skip it if the page already has 6 or more in-body links." }
+  ],
+  "internalLinkRules": "Services grid and case-study rail link automatically (relatedServices + case studies with industries: [fintech]). In-body links: one per target, anchors are each page's `anchor` or a descriptive variant. Never link to uiuxdesignservices.us.",
+  "sources": [
+    { "url": "https://fdic.gov/household-survey/2023-fdic-national-survey-unbanked-and-underbanked-households-report", "why": "48.3% of banked US households use mobile banking as their primary access method (2023). US primary source." },
+    { "url": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-issue-spotlight-analyzes-artificial-intelligence-chatbots-in-banking", "why": "CFPB press release: about 37% of the US population used a bank chatbot in 2022. Chatbot risks." },
+    { "url": "https://files.consumerfinance.gov/f/documents/cfpb_chatbot-issue-spotlight_2023-06.pdf", "why": "CFPB Chatbots in Consumer Finance (June 2023): 98 million users, doom loops, wrong answers." },
+    { "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.220", "why": "FinCEN CIP rule for banks: minimum identifying information at account opening." },
+    { "url": "https://csrc.nist.gov/pubs/sp/800/63/4/final", "why": "NIST SP 800-63-4 final (July 2025): identity proofing, authentication, syncable authenticators." },
+    { "url": "https://blog.pcisecuritystandards.org/just-published-pci-dss-v4-0-1", "why": "PCI SSC: v4.0.1 limited revision (June 2024)." },
+    { "url": "https://blog.pcisecuritystandards.org/coffee-with-the-council-podcast-guidance-for-pci-dss-e-commerce-requirements-effective-after-31-march-2025", "why": "PCI SSC: e-commerce requirements 6.4.3 and 11.6.1 effective after March 31, 2025." },
+    { "url": "https://www.finra.org/rules-guidance/guidance/reports/2026-finra-annual-regulatory-oversight-report/communication-with-public", "why": "FINRA 2026 oversight report on Rule 2210 communications (fair and balanced, digital channels)." },
+    { "url": "https://www.sec.gov/rules/2023/07/s7-12-23", "why": "SEC proposal on predictive data analytics conflicts (context for the withdrawal)." },
+    { "url": "https://www.paulhastings.com/insights/client-alerts/sec-withdraws-14-pending-rule-proposals", "why": "June 12, 2025 withdrawal of 14 SEC proposals including predictive data analytics (secondary)." },
+    { "url": "https://finsights.cooley.com/cfpb-reconsiders-section-1033-rule-signaling-potential-overhaul-of-personal-financial-data-rights-framework/", "why": "CFPB Section 1033 reconsideration (secondary). The fact-checker confirms current status on consumerfinance.gov." },
+    { "url": "https://www.morganlewis.com/pubs/2022/04/doj-breaks-silence-on-ada-web-accessibility-with-new-guidance", "why": "DOJ March 2022 ADA web guidance summary (secondary; ada.gov is primary)." },
+    { "url": "https://www.w3.org/TR/WCAG22/", "why": "WCAG 2.2 W3C Recommendation (normative)." },
+    { "url": "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication.html", "why": "SC 3.3.8 Accessible Authentication (Minimum): login without memory tests, paste and password managers." },
+    { "url": "https://secureframe.com/hub/soc-2/trust-services-criteria", "why": "SOC 2 Trust Services Criteria: 5 categories, security required (secondary)." }
+  ],
+  "sourceNote": "Every URL above appeared in a WebSearch result in this run (lesson 2026-10-13). WebFetch was blocked (ENOTFOUND), so the fact-checker must open the primary pages. Prefer the primary source in visible citations: FDIC, CFPB, eCFR, NIST, PCI SSC, FINRA, W3C. Use secondary law-firm URLs only for the SEC withdrawal and the 1033 status if the SEC or CFPB pages cannot be confirmed.",
+  "competitorPagesStudied": [
+    { "url": "https://lyssna.com/blog/fintech-ux-design", "type": "guide", "coverage": "definition, principles; snippet only (fetch ENOTFOUND)" },
+    { "url": "https://www.thealien.design/insights/fintech-ux-design-trends", "type": "trends listicle", "coverage": "10 best practices/trends 2026; carries unsourced robo-advisor growth figure" },
+    { "url": "https://fuselabcreative.com/fintech-ux-design-guide-2026-user-experience", "type": "agency guide", "coverage": "trust, security, usability" },
+    { "url": "https://webstacks.com/blog/fintech-ux-design", "type": "guide", "coverage": "best practices, challenges, trends 2025" },
+    { "url": "https://sdk.finance/blog/uiux-design-of-fintech-products/", "type": "vendor guide", "coverage": "key principles; unsourced '67% privacy concern' figure" },
+    { "url": "https://www.halo-lab.com/service/ui-ux-design-fintech", "type": "agency service page", "coverage": "KYC/onboarding, dashboards, payment flows, trust signals" },
+    { "url": "https://www.flatstudio.co/industries/fintech-product-design-agency", "type": "agency industry page", "coverage": "KYC/AML, liveness, risk scoring, audit trails, neobank onboarding" }
+  ],
+  "serpGaps": [
+    "No page-1 page links each design decision to the specific US rule that triggers it (CIP fields, FINRA 2210, PCI DSS 6.4.3/11.6.1, WCAG 2.2 SC 3.3.8 and 2.5.8, CFPB chatbot spotlight). Guides list 'security' and 'compliance' as abstract principles.",
+    "AI in fintech appears only as 'personalization' or 'robo-advisor growth'. No page covers designing AI money answers (scope, sources, refusals, handoff) against CFPB's documented chatbot risks.",
+    "Few pages state current rule status (SEC predictive analytics proposal withdrawn in 2025; CFPB 1033 under reconsideration). Most are frozen at 2023–2024.",
+    "Agency pages show results without naming the product type. We show 2 real fintech case studies with their own numbers and say what we did not do (no compliance certification)."
+  ],
+  "visuals": [
+    { "type": "infographic (rule → screen map)", "idea": "Left column: CIP, FINRA 2210, PCI DSS 6.4.3, WCAG 3.3.8, CFPB chatbot spotlight. Right column: the screen each one shapes (account opening, disclosure, card entry, login, AI answer card). Text version: 5 lines." },
+    { "type": "flow", "idea": "KYC account-opening flow: easy fields → ID number → document capture → selfie → review state → approved / needs more info, with save-and-resume points marked." },
+    { "type": "annotated UI", "idea": "Transfer status tracker: fee and arrival time before confirm, pending → sent → arrived after, receipt link." },
+    { "type": "framework", "idea": "AI money-answer card anatomy: answer, cited source, scope note, confidence state, 'talk to a person' button." }
+  ],
+  "visualsNote": "Industry pages in template mode (no `sections`) render no inline figures, so seo-check will WARN 'no image' for /industries/fintech/. Option 1 (default, matches the task): ship template mode, accept the warning, use visual 1 as the OG image (/og/industries/fintech.png). Option 2 (orchestrator decision): move the rule → screen map into a single `sections` entry. That hides bullets, challenges and solutions (page.tsx lines 79–112), so it needs the full heading vector rebuilt as sections. Do not do it half-way.",
+  "backlinkSuggestions": [
+    {
+      "page": "content/case-studies/tradezella.md",
+      "change": "In the closing line ('Need that lift for your analytics product?…'), or in About, add one link to /industries/fintech/ with anchor 'fintech UX design'. Example: '…TradeZella is one of our fintech UX design projects.'",
+      "priority": "required",
+      "why": "Indexed page with real fintech topic match. The case study already tags industries: [fintech]."
+    },
+    {
+      "page": "content/case-studies/anyday-app.md",
+      "change": "In 'About the Anyday App', link 'a fintech company' context with anchor 'fintech app design' → /industries/fintech/ (varied anchor, not exact match).",
+      "priority": "required",
+      "why": "Wallet and payout product, the strongest fintech topic match on the site, with a varied anchor."
+    },
+    {
+      "page": "content/services/saas-design-agency.json",
+      "change": "Card 'B2B platforms' (section 'Which SaaS products does our SaaS design agency design?'): change 'Tools for finance, HR…' to 'Tools for finance (see our <a href=\"/industries/fintech/\">fintech UX design</a> work), HR…' or similar. Also add \"relatedIndustries\": [\"fintech\"] so the industry chips cross-link.",
+      "priority": "required",
+      "why": "Hub that already names finance customers. Sends service authority to the industry page."
+    },
+    {
+      "page": "content/services/ai-ux-design-agency.json",
+      "change": "Card 'Internal AI tools' mentions finance staff.",
+      "priority": "skip",
+      "why": "Weak match: the card is about internal ops tools, not fintech products. Three required links are enough for launch (RULES.md: fewer, well-placed links)."
+    }
+  ],
+  "sisterSeparation": {
+    "sisterUrl": "https://uiuxdesignservices.us/industries/finance/",
+    "fetchStatus": "FAILED on 2026-10-16: WebFetch ENOTFOUND for uiuxdesignservices.us and www.uiuxdesignservices.us. WebSearch 'site:uiuxdesignservices.us finance' returned no pages from the domain, so this run could not read its headings, FAQs or wording.",
+    "howSeparated": [
+      "Keyword variant: we own 'fintech UX design' (anchor). The sister page is a 'finance' page and, given its positioning in home.ts ('uiuxdesignservices.us keeps the \"UI UX design services\" queries'), it likely targets 'finance UI UX design' or 'UI UX design services for finance'. Never use 'finance UI UX design', 'UI UX design services for finance', 'financial services UI UX design' or 'UX agency for finance' as a heading or meta phrase.",
+      "Angle: SaaS and AI product-led (KYC flows, AI money answers, dashboards from real SaaS cases, rule → screen mapping). No generic bank-branch or website-redesign framing.",
+      "FAQs: none definitional. All 6 are buyer-specific (KYC, compliance limits, AI assistants, WCAG 2.2, our fintech cases, cost).",
+      "No link between the two sites in either direction."
+    ],
+    "qaInstruction": "QA must fetch the sister page when it resolves (curl -sS -A 'Mozilla/5.0' https://uiuxdesignservices.us/industries/finance/) and measure 5-gram overlap against our rendered page. The target is 2% or lower, and any shared H2 or FAQ question is a fail. If it still does not resolve, QA records 'sister overlap unverifiable' and the orchestrator decides whether to publish."
+  },
+  "honesty": {
+    "caseStudies": "Only TradeZella and Anyday App tag industries: [fintech]. Quote only their files. TradeZella is a SaaS trading journal and analytics product (live data, charts, order execution, journal, analytics). Do not call it a broker, exchange or FINRA-regulated firm. Anyday App is a wallet and payout platform from XTM Inc. (offices in Miami and Toronto). Neither file mentions KYC, PCI DSS, SOC 2, AI features or compliance work, so never imply we did any of that for them. Do not attribute their results to design alone: say 'after the redesign'.",
+    "quote": "The Anyday quote is from Crystal Yeoman of Boston Pizza, an Anyday customer, and it praises the payout product. Do not present it as a testimonial about us (lesson 2026-10-11).",
+    "clients": "home.ts lists Fintua and RCN Capital as 'tkxel teams have designed and built for', under a TODO(owner) to confirm. Do not name them on this page.",
+    "compliance": "We do not give legal advice, certify compliance or hold any certification this page could imply. Phrase it as 'designed for review by your compliance team, counsel and auditors'.",
+    "doNotUse": [
+      "'over 67% of users are more concerned about data privacy in fintech apps' (sdk.finance / SERP snippet, unsourced)",
+      "'robo-advisors market will grow 8.06% annually 2026–2028' (thealien.design, unsourced)",
+      "'reduced onboarding abandonment… 60% drop-off' (Gapsy via designveloper, vendor claim)",
+      "925studios and Dribbble package prices ($8,000 per project, $1,999 per month)",
+      "any KYC drop-off percentage: no primary US source was found this run"
+    ],
+    "office": "Remote-first team. The Reston, VA office is the only physical address. No city claims."
+  },
+  "variety": {
+    "type": "industry page (template mode)",
+    "differsFrom": "No other industry page exists yet (content/industries/ holds only _template.json), so this sets the pattern. Later industry pages (ecommerce, healthcare, enterprise) must not copy its 'rule → screen' card framing word for word.",
+    "ctaAngle": "45-minute product review of sign-up, identity check and first transfer"
+  },
+  "overlapCheck": {
+    "cannibalisation": "No page on the site targets fintech. Grep 'fintech|financ|bank' over content/: only the two case studies, one saas-design-agency card ('Tools for finance'), one ai-ux-design-agency card and passing mentions in blog/saas-onboarding.md. The saas-onboarding-design hub owns 'SaaS onboarding design': this page says 'KYC onboarding' and 'account opening' and links up to it rather than explaining onboarding in general.",
+    "result": "clear"
+  },
+  "templateGaps": [
+    "page.tsx ignores headings.caseStudies (line 71 hard-codes '{title} UI UX case studies').",
+    "The challenges CardList gets no intro on industry pages (line 97), so the H2 is followed by cards, which breaks 'h2-then-text'.",
+    "The fixed H2 'How we design for fintech' (line 88) cannot be overridden.",
+    "Template mode renders no figure, so seo-check warns 'no image'."
+  ],
+  "notes": [
+    "Write content/industries/fintech.json with: slug, title 'Fintech', order, anchor 'fintech UX design', centralEntity, sourceContext, metaTitle, metaDescription, keywords, hero, abstract, summary, intro, bullets, stats, challenges, solutions, benefits, process, faqs, relatedServices, headings, cta, semantic { entities, ngrams, skipgrams }, updated. No `sections`. useDefaults false (own benefits and process).",
+    "American English, USD, dates like 'October 5, 2023'. Expand on first use: user experience (UX), user interface (UI), know your customer (KYC), Consumer Financial Protection Bureau (CFPB), Financial Industry Regulatory Authority (FINRA), Payment Card Industry Data Security Standard (PCI DSS), Web Content Accessibility Guidelines (WCAG).",
+    "Banned words from RULES.md apply (seamless, leverage, cutting-edge, 'According to', hedges).",
+    "Rule status facts change. The fact-checker must confirm on publish day: CFPB 1033 status, the SEC withdrawal, PCI DSS version and the WCAG 2.2 current version date.",
+    "competitors.json not updated in this run (no Edit tool; large shared file, lesson 2026-10-15). Domains to add for the fintech silo: lyssna.com, thealien.design, fuselabcreative.com, webstacks.com, sdk.finance, parallelhq.com, dashdevs.com, halo-lab.com, flatstudio.co, onething.design, 925studios.co."
+  ],
+  "rejectedCandidates": [
+    { "keyword": "fintech ux design agency", "why": "60/mo, KD 0. Kept as a secondary. The primary carries 5× the volume and the guide-heavy SERP rewards a broader page." },
+    { "keyword": "banking ux design / banking app design", "why": "150 each, merged here by clusters.json ('no separate banking page'). Banking-first wording is also closer to the sister's 'finance' framing." },
+    { "keyword": "finance ui ux design", "why": "Sister-site territory (its /industries/finance/ page). Avoided entirely." }
+  ],
+  "updated": "2026-10-16"
+}
