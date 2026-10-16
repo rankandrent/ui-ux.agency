@@ -1,0 +1,293 @@
+{
+  "slug": "fintech",
+  "title": "Fintech",
+  "order": 1,
+  "anchor": "fintech UX design",
+  "centralEntity": "fintech UX design",
+  "sourceContext": "ui-ux.agency, the UI UX design team of tkxel (remote-first, office in Reston, VA, since 2017, 200+ products designed), writes for US founders and product teams building fintech SaaS and AI-powered financial products. Product-led: we design the screens, flows and AI patterns. We do not give legal advice or certify compliance; we design flows that a client's compliance team, counsel and auditors review. Real fintech case studies: TradeZella and Anyday App.",
+  "metaTitle": "Fintech UX Design for SaaS and AI Financial Products",
+  "metaDescription": "Fintech UX design for SaaS and AI financial products: KYC onboarding, trust cues, dashboards and compliance-aware flows. Book a free consultation.",
+  "keywords": [
+    "fintech ux design",
+    "fintech ui ux design",
+    "fintech app design",
+    "banking ux design",
+    "fintech ux design agency",
+    "kyc onboarding ux",
+    "ai financial product design"
+  ],
+  "hero": {
+    "eyebrow": "Fintech UX design",
+    "h1": "Fintech UX design for SaaS and AI-powered financial products",
+    "sub": "Sign-up and identity checks people finish, money screens that show status and fees, and AI answers that cite their source. Designed with your compliance team in the review loop."
+  },
+  "abstract": "Fintech UX design shapes the user experience (UX) of software that moves, tracks or advises on money, along with its user interface (UI). ui-ux.agency, tkxel's design team, designs fintech SaaS and AI-powered financial products for US teams: account opening with know your customer (KYC) checks, payments and payouts, trading and spending dashboards, and AI money assistants. Rules such as the Customer Identification Program and Financial Industry Regulatory Authority (FINRA) Rule 2210 shape the flows they cover from day one.",
+  "summary": "Fintech UX design for SaaS and AI financial products: KYC onboarding, payment and payout flows, trading and spending dashboards, and AI assistants built for compliance review.",
+  "intro": "Our fintech UX design work starts where money products lose people: the identity check, the first transfer and the first number nobody can explain. We design and test those paths before anything else.",
+  "bullets": [
+    "KYC onboarding and account-opening flows that collect the Customer Identification Program basics in short steps a user can pause and resume",
+    "Payment, transfer and payout screens that show the fee and arrival time before the user taps send, and the transfer status after",
+    "Trading, portfolio and spending dashboards that put the number a user checks first at the top of the screen",
+    "AI assistants and copilots for money questions that cite their sources, state their limits and hand off to a person",
+    "Consent, disclosure, dispute and data-sharing screens, flagged for your compliance team in the same annotated Figma files developers build from"
+  ],
+  "stats": [
+    {
+      "value": "+40%",
+      "label": "user interaction after the TradeZella dashboard redesign"
+    },
+    {
+      "value": "+25%",
+      "label": "user retention for TradeZella after the redesign"
+    },
+    {
+      "value": "14 hrs",
+      "label": "saved per week with automated payouts in the Anyday App"
+    },
+    {
+      "value": "48.3%",
+      "label": "of banked US households used mobile banking as their primary access method in 2023, per the Federal Deposit Insurance Corporation (FDIC)"
+    }
+  ],
+  "challengesIntro": "<strong>Fintech UX design carries every job of SaaS design, plus a regulator, a fraud team and a user who is nervous about money.</strong>",
+  "challenges": [
+    {
+      "title": "Identity checks sit inside sign-up",
+      "body": "The Customer Identification Program rule (31 CFR 1020.220) has US banks collect name, address, date of birth and an identification number before opening an account, and fintechs that work with partner banks run similar checks. Document capture, a selfie or liveness check and manual review add waits a SaaS trial never has. Design job: explain each field and show the identity check's verification status."
+    },
+    {
+      "title": "Trust has to exist before the first deposit",
+      "body": "A new user hands over a bank login or a Social Security number before seeing any value, so trust signals carry the screen. That is where banking UX design for neobanks and budgeting apps starts. Design job: say who holds the money, show fees and transfer timing up front, and write error messages that say what happens to the funds."
+    },
+    {
+      "title": "Disclosures and marketing copy are regulated",
+      "body": "FINRA Rule 2210 requires broker-dealer communications, including websites, apps and social posts, to be fair and balanced, and it allows a legend or footnote only when that placement does not inhibit an investor's understanding. The rule also bars promissory or exaggerated claims. Design job: put the risk disclosure where the decision happens, right next to the button it qualifies."
+    },
+    {
+      "title": "Dense numbers on a small screen",
+      "body": "Profit-and-loss (P&L) figures, balances, positions and limits compete for one phone screen. TradeZella's old interface hid the metrics traders care about most under clutter, and its dashboard redesign put net daily P&L in a single glance. Design job: one headline number per view, with drill-down to each trade."
+    },
+    {
+      "title": "AI answers about money carry real risk",
+      "body": "The Consumer Financial Protection Bureau (CFPB) estimated that about 37% of the US population, more than 98 million users, interacted with a bank chatbot in 2022. Its June 2023 issue spotlight warns of wrong answers, privacy risks and \"doom loops\" with no route to a person. Design job: scope the assistant and keep a person within reach."
+    },
+    {
+      "title": "Accessibility is a legal exposure",
+      "body": "In March 2022 the Department of Justice (DOJ) said the Americans with Disabilities Act (ADA) applies to the web content of businesses open to the public, and it named WCAG, the Web Content Accessibility Guidelines, as helpful guidance. Design job: target WCAG 2.2 AA, including success criterion (SC) 2.5.8, which sets a 24×24 CSS pixel minimum for tap targets."
+    },
+    {
+      "title": "Login is an accessibility test too",
+      "body": "WCAG 2.2 adds Accessible Authentication (Minimum), SC 3.3.8, at Level AA: no step can demand recalling a password or transcribing a code unless an alternative or a helper such as paste or a password manager works. Design job: pasteable one-time codes and passkeys; the National Institute of Standards and Technology (NIST) SP 800-63-4 (final, 2025) covers synced passkeys as syncable authenticators."
+    }
+  ],
+  "solutionsIntro": "<strong>Our fintech UI UX design work covers seven areas, from the first identity check to the controls an auditor asks about, each designed for review by your compliance team.</strong>",
+  "solutions": [
+    {
+      "title": "KYC and account opening",
+      "body": "To cut KYC drop-off, we put easy fields first and the ID document last, with a progress bar, save-and-resume, camera guidance for document capture and a \"we're reviewing\" state with expected timing. Screens follow your identity vendor's software development kit (SDK); we don't pick the vendor or set risk rules. See <a href=\"/services/saas-products/saas-onboarding-design/\">SaaS onboarding design</a>."
+    },
+    {
+      "title": "Payments, transfers and payouts",
+      "body": "Users see the fee and arrival time before they confirm, then a transfer status tracker (pending, sent, arrived) and a receipt they can find again. Card fields live in your processor's hosted form with few third-party scripts nearby: Payment Card Industry Data Security Standard (PCI DSS) v4.0.1 governs payment page scripts under requirements 6.4.3 and 11.6.1, mandatory since March 31, 2025."
+    },
+    {
+      "title": "Trading, portfolio and spending dashboards",
+      "body": "A financial dashboard gets one headline number per view, gains and losses marked by color plus a sign or label (never color alone, WCAG SC 1.4.1), and drill-down from summary to each transaction. In our <a href=\"/case-studies/tradezella/\">TradeZella trading journal redesign</a>, win-rate and profit-factor widgets sit on a dashboard each trader arranges."
+    },
+    {
+      "title": "AI assistants and copilots for money questions",
+      "body": "Each AI answer card cites its sources, the account data or policy it used, and states its scope (\"I can explain fees; I can't give investment advice\"). Refusal and low-confidence states are designed, and a support chatbot keeps the human handoff one tap away. Our <a href=\"/services/ai-products/ai-ux-design-agency/\">AI UX design agency</a> team prototypes these with real model output."
+    },
+    {
+      "title": "Consent, disclosure and dispute flows",
+      "body": "Consent screens for data sharing stay clear and revocable. The CFPB finalized its Personal Financial Data Rights rule (Section 1033) in October 2024 and reopened it for reconsideration in August 2025; a federal court has barred enforcement until that review ends, so we design to the principle. Disclosures sit at the decision point, dispute flows say what happens next, and audit logs record each consent change."
+    },
+    {
+      "title": "Controls your auditor will ask about",
+      "body": "SOC 2 (System and Organization Controls 2) reports test the American Institute of Certified Public Accountants (AICPA) Trust Services Criteria: security is required, while availability, processing integrity, confidentiality and privacy are optional. Design supports SOC 2 controls such as role-based access, session timeouts and activity logs. Your auditor, not your designer, attests to them."
+    },
+    {
+      "title": "Accessible fintech by default",
+      "body": "WCAG 2.2 AA is the design target on every flow: contrast, focus order, target size, accessible authentication and error messages that say how to fix the field. Products sold to federal agencies also need Section 508. If you also sell in the EU, the same consent and data-access flows have to meet the General Data Protection Regulation (GDPR)."
+    }
+  ],
+  "benefits": [
+    {
+      "title": "More people finish sign-up and verification",
+      "body": "Short steps, saved progress and a visible review status remove reasons to quit an identity check, and every approved check is an account that can be funded."
+    },
+    {
+      "title": "Fewer \"where is my money?\" tickets",
+      "body": "A transfer status tracker and plain-language errors answer the question before it reaches support or the chatbot."
+    },
+    {
+      "title": "Users who come back",
+      "body": "TradeZella saw a 25% boost in user retention after its web and mobile redesign. That figure belongs to the whole redesign project, not to one screen."
+    },
+    {
+      "title": "Compliance comments in one file",
+      "body": "Our annotated Figma files mark each regulated screen (disclosure, consent, risk text), so your compliance team and counsel review one file instead of a folder of screenshots."
+    },
+    {
+      "title": "Designs your engineers can ship",
+      "body": "Our designers work beside tkxel engineers, who check build effort before a screen reaches you, and tkxel can build the product too. See our <a href=\"/services/saas-products/saas-design-agency/\">SaaS design agency</a> work."
+    }
+  ],
+  "process": [
+    {
+      "title": "Discovery with product, risk and compliance",
+      "body": "We interview users, read your analytics and list every screen a rule touches: KYC, disclosures, consent and card entry. Bring your risk and compliance leads to the first session.",
+      "deliverables": "Research findings, priority list",
+      "timeline": "1–2 weeks"
+    },
+    {
+      "title": "Flows and prototypes for the riskiest paths",
+      "body": "Account opening, the first transfer and AI answers come first, as clickable prototypes. AI prototypes show real or recorded model output, never placeholder text.",
+      "deliverables": "User flows, tested prototypes",
+      "timeline": "2–4 weeks"
+    },
+    {
+      "title": "Interface and design system",
+      "body": "Money components are built once: the amount input, fee row, transfer status tracker and P&L chart. Reusing them keeps fintech app design consistent across iOS, Android and web.",
+      "deliverables": "Final UI, component library",
+      "timeline": "2–6 weeks"
+    },
+    {
+      "title": "Testing with real users",
+      "body": "Between 5 and 8 target users run real tasks before engineering starts. TradeZella's redesign, for example, was tested with traders before it went live.",
+      "deliverables": "Test results, iteration log",
+      "timeline": "1–2 weeks"
+    },
+    {
+      "title": "Compliance review and build support",
+      "body": "Your compliance team or counsel signs off on the annotated Figma files, we revise the screens, and our designers stay in your sprints until launch, or tkxel engineers build it with us.",
+      "deliverables": "Dev-ready specs, design QA",
+      "timeline": "Through launch"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you design our KYC and identity verification flow?",
+      "a": "Yes. We order the steps so easy fields come first and the ID document comes last, give each Customer Identification Program field a one-line reason, let users save and return, and design a clear next step when a document or selfie check fails. The screens follow your verification vendor's SDK, so your vendor and risk rules stay as they are."
+    },
+    {
+      "q": "Can UX design make a fintech product compliant on its own?",
+      "a": "No. Your compliance team, counsel and auditors decide compliance under Securities and Exchange Commission (SEC) and FINRA rules and the PCI DSS standard. Fintech UX design makes the required disclosures, consent and controls usable and marks them in the annotated Figma files your reviewers and developers share. One status note: the SEC withdrew its 2023 predictive data analytics proposal for broker-dealers and advisers on June 12, 2025, while FINRA Rule 2210 still governs communications."
+    },
+    {
+      "q": "How do you design AI assistants for financial products?",
+      "a": "We scope what the assistant answers, show the account data or policy behind each answer, and design refusal and low-confidence states plus a visible route to a person. Those choices answer the risks in the CFPB's 2023 chatbot spotlight: wrong answers, doom loops and privacy gaps. Neither of our fintech case studies included an AI feature; this pattern comes from our AI UX design service."
+    },
+    {
+      "q": "Which accessibility standard do you design fintech products to?",
+      "a": "WCAG 2.2 Level AA. We design each flow to that target: contrast, focus order, chart summaries a screen reader can announce, target size and accessible login. If you sell to federal agencies, Section 508 applies as well; its web standard is WCAG 2.0 Level AA, so a WCAG 2.2 AA design starts from a higher bar."
+    },
+    {
+      "q": "Which fintech case studies can we review?",
+      "a": "Two are published. TradeZella, a SaaS trading journal and analytics product, saw 40% more user interaction, a 25% boost in retention and 30% more new customers after its web and mobile redesign. The <a href=\"/case-studies/anyday-app/\">Anyday App payout redesign</a> was for XTM Inc., whose wallet gives hourly staff earned wage access the same day; automated payouts save 14 hours per week, and business clients rose 20%."
+    },
+    {
+      "q": "What does fintech UX design cost?",
+      "a": "There is no separate fintech price, so the service you need sets the range: minimum viable product (MVP) design runs $15,000–$50,000, AI UX design $25,000–$90,000, SaaS product design $40,000–$180,000 and a SaaS product redesign $50,000–$200,000. Our <a href=\"/services/ui-ux-design-cost/\">UI UX design cost</a> guide explains what moves a quote, and every quote arrives as a fixed-scope proposal."
+    }
+  ],
+  "relatedServices": [
+    "saas-design-agency",
+    "ai-ux-design-agency",
+    "saas-onboarding-design",
+    "saas-product-redesign",
+    "chatbot-ui-design",
+    "mvp-design-agency"
+  ],
+  "useDefaults": false,
+  "headings": {
+    "challenges": "Why is fintech UX design harder than other SaaS design?",
+    "services": "Which of our services fit a fintech product?",
+    "solutions": "What does our fintech UX design work cover?",
+    "benefits": "What changes when fintech UX design is done well?",
+    "process": "How does a fintech UX design project run, step by step?",
+    "caseStudies": "Which fintech products have we redesigned?",
+    "faqs": "What do US product teams ask about fintech UX design?"
+  },
+  "cta": {
+    "heading": "Where does your fintech product lose people before the first deposit?",
+    "body": "A 45-minute product review covers your sign-up, identity check and first transfer. A senior designer walks through each one and tells you which fixes to make first.",
+    "cta": "Book a product review"
+  },
+  "semantic": {
+    "entities": [
+      "fintech UX design",
+      "fintech SaaS",
+      "AI-powered financial products",
+      "know your customer (KYC)",
+      "Customer Identification Program",
+      "identity verification",
+      "liveness check",
+      "NIST SP 800-63-4",
+      "passkeys",
+      "Securities and Exchange Commission (SEC)",
+      "FINRA Rule 2210",
+      "Consumer Financial Protection Bureau (CFPB)",
+      "Personal Financial Data Rights rule",
+      "PCI DSS",
+      "SOC 2",
+      "Trust Services Criteria",
+      "Americans with Disabilities Act (ADA)",
+      "WCAG 2.2",
+      "Section 508",
+      "dashboard",
+      "transfer status",
+      "payouts",
+      "earned wage access",
+      "chatbot",
+      "human handoff",
+      "mobile banking",
+      "TradeZella",
+      "Anyday App",
+      "GDPR"
+    ],
+    "ngrams": [
+      "fintech ux design",
+      "fintech saas",
+      "kyc drop-off",
+      "identity verification",
+      "ai-powered financial products",
+      "financial dashboard",
+      "trust signals",
+      "transfer status",
+      "human handoff",
+      "compliance team",
+      "wcag 2.2 aa",
+      "pci dss"
+    ],
+    "skipgrams": [
+      "kyc + drop-off",
+      "identity + verification status",
+      "fee + before",
+      "transfer + status",
+      "dashboard + p&l",
+      "ai + sources",
+      "chatbot + handoff",
+      "fair and balanced + disclosure",
+      "wcag 2.2 + authentication",
+      "pci dss + payment page",
+      "soc 2 + controls",
+      "consent + data sharing",
+      "compliance team + review",
+      "trust + first deposit"
+    ],
+    "nlpKeywords": [
+      "fintech ui ux design",
+      "fintech app design",
+      "banking ux design",
+      "fintech ux design agency",
+      "account opening",
+      "document capture",
+      "neobank onboarding",
+      "trading platform UX",
+      "payments UX"
+    ]
+  },
+  "updated": "2026-10-16",
+  "draft": false
+}

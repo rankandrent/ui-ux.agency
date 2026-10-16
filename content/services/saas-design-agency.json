@@ -77,9 +77,9 @@
       "format": "cards",
       "answer": "<strong>Our SaaS design agency works on 4 kinds of software as a service:</strong>",
       "items": [
-        { "title": "B2B platforms", "body": "Tools for finance, HR, operations and sales teams, with complex roles and data tables." },
+        { "title": "B2B platforms", "body": "Tools for finance (see our <a href=\"/industries/fintech/\">fintech UX design</a> work), HR, operations and sales teams, with <a href=\"/industries/enterprise/\">complex roles and data tables</a>." },
         { "title": "AI-powered SaaS", "body": "Products with copilots and generated content, designed with our <a href=\"/services/ai-products/ai-ux-design-agency/\">AI UX design agency</a> team." },
-        { "title": "Vertical SaaS", "body": "Software for one industry, such as healthcare clinics, logistics firms or property managers." },
+        { "title": "Vertical SaaS", "body": "Software for one industry, such as <a href=\"/industries/healthcare/\">healthcare clinics</a>, logistics firms or property managers." },
         { "title": "Product-led growth tools", "body": "Self-serve products where the free plan and onboarding do the selling." }
       ]
     },
@@ -109,5 +109,6 @@
     "nlpKeywords": ["trial", "retention", "billing", "roles and permissions", "dashboards"]
   },
   "mentions": ["software as a service", "Figma", "Jira", "Linear", "product-led growth"],
+  "relatedIndustries": ["fintech", "healthcare", "enterprise"],
   "relatedServices": ["saas-product-redesign", "ai-ux-design-agency", "hire-ui-ux-designers"]
 }

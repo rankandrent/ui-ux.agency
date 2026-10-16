@@ -57,7 +57,7 @@ export default async function IndustryPage({ params }: Props) {
         sub={i.hero.sub}
         trust
         aside={
-          <FormCard title="Get a free consultation" sub="Free consultation · reply within one business day">
+          <FormCard title="Get a free consultation" sub="No-cost project review · answer within one business day, ET">
             <LeadForm interests={formInterests} source={`industry: ${i.slug}`} />
           </FormCard>
         }
@@ -68,7 +68,7 @@ export default async function IndustryPage({ params }: Props) {
           <div className="container">
             <div className="shead">
               <span className="tk-eyebrow" style={{ display: "block", marginBottom: 20 }}>Case studies</span>
-              <h2 id="ind-work-h">{i.title} UI UX case studies</h2>
+              <h2 id="ind-work-h">{i.headings?.caseStudies ?? `${i.title} UI UX case studies`}</h2>
             </div>
             <StatsRow items={i.stats} />
             <WorkRail items={cases.slice(0, 8)} id="industry-rail" label={`${i.title} case studies`} />
@@ -94,7 +94,7 @@ export default async function IndustryPage({ params }: Props) {
               </div>
             </section>
           ) : null}
-          <CardList id="challenges" tone="warm" eyebrow="The problem" heading={h.challenges ?? `${i.title} UX challenges we solve`} items={i.challenges} />
+          <CardList id="challenges" tone="warm" eyebrow="The problem" heading={h.challenges ?? `${i.title} UX challenges we solve`} intro={i.challengesIntro} items={i.challenges} />
         </>
       )}
 
@@ -108,7 +108,7 @@ export default async function IndustryPage({ params }: Props) {
       />
 
       {!i.sections?.length && (
-        <CardList id="solutions" tone="warm" eyebrow="What we do" heading={h.solutions ?? `${i.title} design solutions`} items={i.solutions} />
+        <CardList id="solutions" tone="warm" eyebrow="What we do" heading={h.solutions ?? `${i.title} design solutions`} intro={i.solutionsIntro} items={i.solutions} />
       )}
 
       {b.ctaBand && <CtaBand {...(i.cta ?? home.ctaBand)} />}

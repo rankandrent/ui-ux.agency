@@ -66,7 +66,7 @@ export default async function LocationPage({ params }: Props) {
         sub={l.hero.sub}
         trust
         aside={
-          <FormCard title="Get a free consultation" sub={`Free consultation for ${l.city} teams · reply within one business day`}>
+          <FormCard title="Book a free consultation" sub={`${l.city} teams: a senior designer answers within one business day (ET)`}>
             <LeadForm interests={formInterests} source={`location: ${l.slug}`} />
           </FormCard>
         }
@@ -77,19 +77,19 @@ export default async function LocationPage({ params }: Props) {
       <ServiceGrid
         id="location-services"
         eyebrow="Services"
-        heading={`UI UX design services for ${l.city} teams`}
+        heading={`Design services for ${l.city} AI and SaaS products`}
         services={services}
         allHref={routes.services}
       />
 
       <CtaBand {...(l.cta ?? home.ctaBand)} />
 
-      <WorkGrid heading="Products we designed" items={cases} />
+      <WorkGrid heading="Recent product work, with results" items={cases} />
 
       <Faq heading={faqSection?.h2 ?? `${cap(anchorOf(l))} FAQs`} intro={faqSection?.answer} items={faqs} />
 
       <LinkChips
-        heading="We also work with teams in"
+        heading="Other cities our team designs for"
         tone="warm"
         items={nearby.map((x) => ({ title: cap(anchorOf(x)), href: routes.location(x.slug) }))}
       />

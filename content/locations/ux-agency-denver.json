@@ -1,0 +1,404 @@
+{
+  "draft": false,
+  "order": 2,
+  "title": "Denver",
+  "city": "Denver",
+  "state": "CO",
+  "keyword": "ux agency denver",
+  "anchor": "UX agency Denver",
+  "metaTitle": "UX Agency Denver | AI & SaaS Design for Colorado Startups",
+  "metaDescription": "A UX agency Denver startups hire remotely: AI and SaaS product design, a 2-hour time gap, published prices and real case studies. Free consultation.",
+  "keywords": [
+    "ux agency denver",
+    "ux design denver",
+    "ux designer denver",
+    "AI product design Denver",
+    "SaaS design Colorado",
+    "remote UX agency Mountain Time"
+  ],
+  "hero": {
+    "eyebrow": "UX agency Denver",
+    "h1": "UX agency Denver teams hire for AI and SaaS product design",
+    "sub": "Senior designers for Colorado startups and software companies building AI features, SaaS products and MVPs. We work remotely across a 2-hour time gap, with published prices and tested prototypes."
+  },
+  "summary": "Remote AI and SaaS product design for Denver and Colorado software teams.",
+  "abstract": "ui-ux.agency is a UX agency Denver startups and software companies hire remotely to design artificial intelligence (AI) features, software as a service (SaaS) products and minimum viable products (MVPs). ui-ux.agency has no Denver office; its only office is in Reston, Virginia. Denver runs 2 hours behind Eastern Time (ET), every service has a published price, and risky flows are tested with 5 to 8 real users.",
+  "centralEntity": "UX agency Denver",
+  "priceRange": "$8,000–$200,000",
+  "updated": "2026-10-16",
+  "semantic": {
+    "entities": [
+      "Denver",
+      "Colorado",
+      "Boulder",
+      "Mountain Time",
+      "Eastern Time",
+      "Reston, Virginia",
+      "tkxel",
+      "Colorado Startup Week",
+      "Techstars",
+      "U.S. Bureau of Labor Statistics (BLS)",
+      "CBRE Scoring Tech Talent",
+      "Colorado Office of Economic Development and International Trade (OEDIT)",
+      "SB 26-189",
+      "Colorado Attorney General",
+      "Colorado Privacy Act",
+      "large language model (LLM)",
+      "AI copilot",
+      "chatbot",
+      "SaaS onboarding",
+      "minimum viable product (MVP)",
+      "design sprint",
+      "Figma",
+      "FigJam",
+      "Maze",
+      "usability testing"
+    ],
+    "ngrams": [
+      "ux agency denver",
+      "ux design denver",
+      "ux designer denver",
+      "AI product design",
+      "SaaS product design",
+      "Mountain Time",
+      "Eastern Time",
+      "remote design team",
+      "Colorado startups",
+      "human review",
+      "clickable prototype",
+      "published prices"
+    ],
+    "skipgrams": [
+      ["Denver", "Mountain Time"],
+      ["Mountain Time", "Eastern Time"],
+      ["remote", "Figma"],
+      ["AI feature", "human review"],
+      ["notice", "explanation"],
+      ["SB 26-189", "January 1, 2027"],
+      ["Colorado", "startups"],
+      ["Boulder", "Techstars"],
+      ["SaaS", "activation"],
+      ["prototype", "real users"],
+      ["Reston", "office"],
+      ["tech talent", "Denver"]
+    ],
+    "nlpKeywords": [
+      "product design partner",
+      "user experience design",
+      "AI UX design",
+      "chatbot UI design",
+      "SaaS onboarding design",
+      "MVP design",
+      "discovery workshop",
+      "user flows",
+      "wireframes",
+      "clickable prototype",
+      "design handoff",
+      "human-review request flow"
+    ]
+  },
+  "mentions": [
+    "Denver",
+    "Colorado",
+    "Boulder",
+    "Mountain Time Zone",
+    "Reston, Virginia",
+    "Figma"
+  ],
+  "sections": [
+    {
+      "h2": "What can a UX agency Denver teams hire remotely design?",
+      "format": "paragraph",
+      "answer": "<strong>Our designers shape the user experience (UX) and user interface (UI) of AI features, SaaS products and startup MVPs, from research and flows to a tested clickable prototype.</strong> Your engineers build from those files, and we stay through the build to answer their questions.",
+      "body": "<p>As a remote design team, we keep every design file in Figma and walk through it on video calls across the 2-hour gap. Typical work: an AI copilot inside an existing app, a support chatbot, SaaS onboarding that lifts activation, or a seed-stage MVP. ui-ux.agency is the design team of tkxel, so designs are checked for build effort, and we have designed 200+ products since 2017. Start with <a href=\"/services/ai-products/\">AI product design</a> or <a href=\"/services/saas-products/\">SaaS product design</a>.</p>",
+      "image": {
+        "src": "/locations/ux-agency-denver.svg",
+        "alt": "UX design for Denver, CO product teams: AI feature design, SaaS onboarding and a 2-hour time gap, tested with real users",
+        "caption": "UX design for Denver teams: AI feature design, SaaS onboarding and a 2-hour time gap",
+        "text": ["Denver, CO", "AI feature design", "SaaS onboarding", "2-hour time gap", "Tested with real users"]
+      }
+    },
+    {
+      "h2": "What does Denver's tech scene look like in 2026?",
+      "format": "cards",
+      "answer": "<strong>Denver's tech talent pool is one of North America's larger ones: CBRE's 2025 Scoring Tech Talent report counted 116,970 tech specialists, the 13th largest market it measured.</strong> Each card below gives a sourced figure and its year.",
+      "items": [
+        {
+          "title": "Talent pool and pay",
+          "body": "CBRE ranked Denver 14th overall in 2025, with tech at 6.8% of local employment against a 5.3% average for the top 50 markets; the 2026 edition placed it 16th. In May 2025, computer and math jobs made up 5.4% of metro employment against 3.4% nationally, at a mean of $62.33 an hour against $57.73. Sources: <a href=\"https://milehighcre.com/cbres-annual-scoring-tech-talent-ranks-denver-14th-overall/\">CBRE 2025, via Mile High CRE</a>, <a href=\"https://milehighcre.com/denver-remains-major-tech-hub-as-colorado-springs-ranks-among-top-emerging-markets/\">CBRE 2026</a> and the <a href=\"https://www.bls.gov/regions/mountain-plains/news-release/occupationalemploymentandwages_denver.htm\">U.S. Bureau of Labor Statistics (BLS)</a>."
+        },
+        {
+          "title": "Software and IT",
+          "body": "The Colorado Office of Economic Development and International Trade (OEDIT) puts software and information technology (IT) at 10% of state employment and 20% of state gross domestic product (GDP), with more than 47,000 new jobs added. Source: <a href=\"https://spl.cde.state.co.us/artemis/govserials/gov3423internet/gov3423202526internet.pdf\">OEDIT FY 2026 performance plan</a>."
+        },
+        {
+          "title": "Startup week",
+          "body": "Colorado Startup Week, in its 15th year, ran September 14–18, 2026 across metro Denver. It was free to attend, with 10,000+ expected participants and 200+ community events. Sources: <a href=\"https://coloradobiz.com/colorado-startup-week-15th-year-ai-denver/\">ColoradoBiz</a> and the <a href=\"https://jakejabscenter.org/event/colorado-startup-week-2026/\">Jake Jabs Center</a>."
+        },
+        {
+          "title": "Boulder roots",
+          "body": "Techstars was founded in Boulder in 2006 and ran its first accelerator program there in summer 2007. Source: <a href=\"https://www.techstars.com/about\">Techstars</a>."
+        }
+      ]
+    },
+    {
+      "h2": "How does Colorado's new AI law change AI product design?",
+      "format": "table",
+      "answer": "<strong>From January 1, 2027, Colorado's Senate Bill 26-189 (SB 26-189) turns four duties into interface work: notice, an explanation after an adverse outcome, human review and data correction.</strong> The table maps each duty to the screen and design deliverable it needs. This is design guidance, not legal advice; confirm scope with counsel.",
+      "caption": "SB 26-189 duties and the screens they need",
+      "columns": [
+        "Duty",
+        "What the user must see",
+        "Design deliverable"
+      ],
+      "rows": [
+        [
+          "Scope",
+          "Nothing on screen yet. The law covers automated decision-making technology that materially influences consequential decisions, such as employment, housing, lending or insurance.",
+          "An inventory of the AI features that shape those decisions, often the first output of an AI product discovery workshop."
+        ],
+        [
+          "Notice of use",
+          "A clear disclosure, before the automated tool is used, that it will shape the decision.",
+          "A notice pattern and its copy for each decision point."
+        ],
+        [
+          "Explanation after an adverse outcome",
+          "A plain-language explanation of the tool's role within 30 days, on screen or by email.",
+          "An explanation template the team fills for each adverse outcome."
+        ],
+        [
+          "Human review",
+          "After an adverse outcome, a way to request meaningful human review and reconsideration, which the law requires to the extent commercially reasonable.",
+          "A human-review request flow with status tracking, plus an admin queue for reviewers."
+        ],
+        [
+          "Data correction",
+          "A form to correct factually incorrect personal data the tool used.",
+          "A correction flow linked to the record behind the decision."
+        ],
+        [
+          "Records (3 years)",
+          "Nothing on screen.",
+          "An audit-log field spec for engineers."
+        ],
+        [
+          "Developer documentation",
+          "Nothing on screen for consumers.",
+          "Human-review instructions and screens for the documentation a developer gives deployers."
+        ]
+      ],
+      "links": [
+        {
+          "anchor": "AI UX design agency",
+          "to": "/services/ai-products/ai-ux-design-agency/"
+        },
+        {
+          "anchor": "the extra discovery checks an AI feature needs",
+          "to": "/blog/product-discovery/#what-changes-in-product-discovery-for-ai-features"
+        }
+      ]
+    },
+    {
+      "h2": "How does a UX agency Denver founders hire remotely run a project?",
+      "format": "steps",
+      "answer": "<strong>Our remote projects move through 4 steps, from kickoff to build support, and a tested prototype comes before any code.</strong> Each step ends with a file your engineers can use, shared in Figma or FigJam.",
+      "items": [
+        {
+          "title": "Kickoff and discovery (1–2 weeks)",
+          "body": "Video interviews and an analytics review; for AI products, a ranking of use cases by user value, data readiness and risk."
+        },
+        {
+          "title": "Flows and wireframes (1–4 weeks)",
+          "body": "User flows and wireframes start with the riskiest path, often SaaS onboarding or the human-review step of an AI feature."
+        },
+        {
+          "title": "Prototype and test (1–3 weeks)",
+          "body": "Usability testing puts the clickable prototype before 5 to 8 real users in Maze or on video calls, with real or recorded large language model (LLM) output for AI features."
+        },
+        {
+          "title": "Handoff and build support (1–4 weeks)",
+          "body": "Specs and components live in Figma; our designers sit in on sprint reviews and compare each built screen with the file."
+        }
+      ]
+    },
+    {
+      "h2": "How do Mountain Time and Eastern Time working hours overlap?",
+      "format": "table",
+      "answer": "<strong>Denver, on Mountain Time, runs 2 hours behind Eastern Time all year, so a Denver morning meets an East Coast midday.</strong> Every dedicated designer overlaps at least 4 hours with US Eastern time, and many teams choose full overlap. If those 4 hours run 9 a.m.–1 p.m. ET (7–11 a.m. in Denver), only 9–11 a.m. falls inside a 9-to-5 Denver day, so agree the shared hours first; the example table shows how the clocks line up.",
+      "caption": "Example: Denver and Eastern clock times for remote design work",
+      "columns": [
+        "Denver time (example)",
+        "Eastern time",
+        "Example use"
+      ],
+      "rows": [
+        ["8 a.m.", "10 a.m.", "Daily stand-up."],
+        ["10 a.m.", "12 p.m.", "Design review in Figma."],
+        ["1 p.m.", "3 p.m.", "Moderated usability session."],
+        ["3 p.m.", "5 p.m.", "End-of-day questions."],
+        ["After 3 p.m.", "After 5 p.m.", "Async comments in Figma and FigJam."]
+      ],
+      "links": [
+        {
+          "anchor": "hire UI UX designers",
+          "to": "/services/hire-ui-ux-designers/"
+        }
+      ]
+    },
+    {
+      "h2": "Which AI and SaaS services fit a Denver team's stage?",
+      "format": "table",
+      "answer": "<strong>The right service depends on what your team has today: an AI idea, a live SaaS product losing trial users or a first version to test.</strong> The table matches each stage to a service with published prices and timelines.",
+      "caption": "ui-ux.agency services by product stage, with price and timeline",
+      "columns": [
+        "If your team has…",
+        "Start with",
+        "Price",
+        "Timeline"
+      ],
+      "rows": [
+        ["An AI idea with no scope yet.", "AI product discovery workshop.", "$8,000–$20,000.", "1–2 weeks."],
+        ["An AI feature to design.", "AI UX design.", "$25,000–$90,000.", "4–10 weeks."],
+        ["A support bot or assistant.", "Chatbot UI design.", "$15,000–$60,000.", "3–8 weeks."],
+        ["Trial users who stall before their first result.", "SaaS onboarding design.", "$15,000–$45,000.", "3–6 weeks."],
+        ["A new SaaS product or module.", "A SaaS design agency project.", "$40,000–$180,000.", "6–16 weeks."],
+        ["A startup idea to test.", "MVP design.", "$15,000–$50,000.", "4–8 weeks."]
+      ],
+      "links": [
+        {
+          "anchor": "AI product discovery workshop",
+          "to": "/services/ai-products/ai-product-discovery-workshop/"
+        },
+        {
+          "anchor": "chatbot UI design",
+          "to": "/services/ai-products/chatbot-ui-design/"
+        },
+        {
+          "anchor": "SaaS onboarding design",
+          "to": "/services/saas-products/saas-onboarding-design/"
+        },
+        {
+          "anchor": "SaaS design agency",
+          "to": "/services/saas-products/saas-design-agency/"
+        },
+        {
+          "anchor": "MVP design agency",
+          "to": "/services/startups/mvp-design-agency/"
+        },
+        {
+          "anchor": "UI UX design cost",
+          "to": "/services/ui-ux-design-cost/"
+        }
+      ]
+    },
+    {
+      "h2": "Which case studies show our AI and SaaS product work?",
+      "format": "cards",
+      "answer": "<strong>Four projects show the AI and SaaS work this page covers: two AI products built from zero and two SaaS redesigns.</strong> None of the four is presented as a Colorado client, and every figure is taken from that client's case study page.",
+      "items": [
+        {
+          "title": "Vocable: AI writing workspace",
+          "body": "We took this AI content marketing SaaS from idea to MVP. Its editor lets writers move between OpenAI, Google, Anthropic and Meta models, and overall workflow efficiency went up 35%. Read the <a href=\"/case-studies/vocable/\">Vocable</a> story."
+        },
+        {
+          "title": "Digno: AI scores for HR teams",
+          "body": "A human resources (HR) tech SaaS whose AI engine sorts employees into bands from Poor to Pro. Requirements from stakeholders and end users pinned down the scoring formula, and overall revenue grew 5x. In our view, a score that rates people is where explanation and human review matter most. See <a href=\"/case-studies/digno/\">Digno</a>."
+        },
+        {
+          "title": "TradeZella: trading journal redesign",
+          "body": "We redesigned this trading journal SaaS for web and mobile around how traders review their own results. Reported results: 40% more user interaction and a 25% boost in retention. See <a href=\"/case-studies/tradezella/\">TradeZella</a>."
+        },
+        {
+          "title": "Mass Media Co.: one order platform",
+          "body": "Our revamp of this marketing company's business-to-business (B2B) platform brought a 30% increase in order processing efficiency, with the order error rate down from 25%. See <a href=\"/case-studies/mass-media-co/\">Mass Media Co.</a>"
+        }
+      ]
+    },
+    {
+      "h2": "What should you ask a UX agency Denver teams are shortlisting?",
+      "format": "table",
+      "answer": "<strong>Ask five questions before you sign: who does the work, how the time gap is handled, whether prices are published, how designs are tested and who builds them.</strong> The table pairs each question with our answer and why it matters.",
+      "caption": "Five questions for any UX agency, with our answers",
+      "columns": [
+        "Question",
+        "Our answer",
+        "Why it matters"
+      ],
+      "rows": [
+        [
+          "Who does the work?",
+          "Senior designers; even a single dedicated designer gets a weekly review by a design lead.",
+          "A junior handoff after the pitch lowers quality."
+        ],
+        [
+          "How is the time gap handled?",
+          "Denver is 2 hours behind ET, every dedicated designer overlaps at least 4 hours with US Eastern time, and comments run async in Figma.",
+          "Missed reviews slow every sprint."
+        ],
+        [
+          "Are prices published?",
+          "Yes. Every engagement has a published range, and every proposal has a fixed scope.",
+          "You can plan the budget before the first call."
+        ],
+        [
+          "How are designs tested?",
+          "Each risky flow goes to 5 to 8 users as a clickable prototype before build.",
+          "Untested flows pass their problems on to customers."
+        ],
+        [
+          "Who builds it?",
+          "Your engineers, or tkxel engineers when you need development as well.",
+          "Gaps between design and code cost rework."
+        ]
+      ]
+    },
+    {
+      "h2": "Is our UX agency Denver-based?",
+      "format": "paragraph",
+      "answer": "<strong>No. Our team works remotely with US clients, and ui-ux.agency's only office is in Reston, Virginia.</strong> Denver teams work with us on video calls and in shared Figma files, and a design sprint can also run on-site, with travel.",
+      "body": "<p>A remote <a href=\"/services/startups/design-sprint/\">design sprint</a> sits at the lower end of its $12,000–$25,000 range, and an on-site sprint with travel sits at the upper end. Bring one AI feature or SaaS flow you want to fix and <a href=\"/contact/\">book a free consultation</a>. Expect an answer from a senior designer within one business day, ET, and ask for a call time that suits a Denver morning.</p>"
+    },
+    {
+      "h2": "UX agency Denver FAQs",
+      "format": "faq",
+      "answer": "<strong>Short answers to what Denver and Boulder product teams ask before they hire a remote design partner.</strong>",
+      "faqs": [
+        {
+          "q": "What does UX design Denver teams outsource usually cost?",
+          "a": "<p>Our published ranges start at $8,000 for a one-week AI discovery workshop and reach $200,000 for a large SaaS product redesign. MVP design runs $15,000–$50,000, and the UI UX design cost guide lists what moves each price.</p>"
+        },
+        {
+          "q": "Can we hire one UX designer Denver teams can add to their sprints?",
+          "a": "<p>Yes. A single dedicated designer is possible, with a weekly design-lead review. Teams of 2 to 5 designers cost $15,000–$40,000 per month, and plans run month to month with 30 days notice.</p>"
+        },
+        {
+          "q": "Do you design AI features for Colorado's SB 26-189?",
+          "a": "<p>Yes, we design the notice, explanation and correction flows the law describes, plus the request path for an AI feature that needs human review. Signed on May 14, 2026, the law replaced SB 24-205, whose duties never took effect. The Colorado Attorney General enforces it, but under an April 27, 2026 federal court order in xAI v. Weiser, the office will not start enforcement until its rules are final and the court rules on a preliminary injunction. Your counsel confirms whether a feature is covered.</p>"
+        },
+        {
+          "q": "Does the Colorado Privacy Act affect our consent screens?",
+          "a": "<p>Yes, if your company meets one of its thresholds, such as processing personal data of 100,000 or more Colorado consumers in a calendar year; its biometric-data rules apply regardless of size. The law has applied since July 1, 2023, and gives people rights to access, correct and delete their data, so consent and data-request screens belong in the design.</p>"
+        },
+        {
+          "q": "Can your designers join our sprint reviews from another time zone?",
+          "a": "<p>Yes. Our designers join sprint reviews and compare built screens with the Figma design, in hours your team shares with them. Mountain Time and Eastern Time change clocks on the same dates, next on November 1, 2026, so the 2-hour gap stays the same in working hours all year.</p>"
+        },
+        {
+          "q": "When can designers start on a Denver startup's product?",
+          "a": "<p>Dedicated designers start within 1 to 2 weeks of the first call. For a new AI feature, the AI product discovery workshop then fills the first 1 to 2 weeks and ends with a tested concept and a scoped plan.</p>"
+        }
+      ]
+    }
+  ],
+  "faqs": [],
+  "visual": {
+    "landmark": "mountains",
+    "scenes": [
+      { "icon": "robot", "label": "AI feature design" },
+      { "icon": "cloud", "label": "SaaS onboarding" },
+      { "icon": "calendar", "label": "2-hour time gap" },
+      { "icon": "rocket", "label": "Startup MVPs" }
+    ]
+  }
+}

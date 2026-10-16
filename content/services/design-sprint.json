@@ -95,7 +95,7 @@
       "format": "faq",
       "answer": "<strong>Answers to common questions about running a design sprint.</strong>",
       "faqs": [
-        { "q": "Can a design sprint run remotely?", "a": "<p>Yes. We run remote sprints in FigJam and Figma, with shorter daily sessions spread over 5 days.</p>" },
+        { "q": "Can a design sprint run remotely?", "a": "<p>Yes. We run remote sprints in FigJam and Figma, with shorter daily sessions spread over 5 days. It is the format a <a href=\"/location/ux-agency-minneapolis/\">UX agency Minneapolis AI teams hire remotely</a> would use.</p>" },
         { "q": "Who needs to attend the design sprint?", "a": "<p>A decision maker, plus 3 to 5 people from product, engineering, sales or support for the first 3 days.</p>" },
         { "q": "Do you recruit the test users?", "a": "<p>Yes. We recruit 5 users who match your target customer, or invite your own customers if you prefer.</p>" },
         { "q": "Is a design sprint useful for an existing product?", "a": "<p>Yes. Sprints work well for big new features, pricing changes or a redesign of a key workflow.</p>" }

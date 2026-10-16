@@ -6,7 +6,7 @@ client: Digno
 logo: Digno
 result: "Overall revenue up 5x"
 services: [mvp-design-agency, saas-design-agency, ai-ux-design-agency]
-industries: []
+industries: [enterprise]
 tags: [HR tech, SaaS, AI scoring]
 results:
   - { value: "126%", label: "higher profits than competitors" }

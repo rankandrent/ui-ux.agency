@@ -90,7 +90,7 @@ export const pillars: Pillar[] = [
           { title: "Startups building on a model", body: "Founders who need a first version people trust; many start with our MVP design agency team." },
           { title: "SaaS companies adding a copilot", body: "Product teams that want AI inside existing workflows without breaking them." },
           { title: "Support and operations teams", body: "Teams that want bots and internal tools that answer correctly and hand over cleanly." },
-          { title: "Enterprises with AI pilots", body: "Organizations that built a proof of concept and now need an interface staff will actually use." },
+          { title: "Enterprises with AI pilots", body: "Organizations that built a proof of concept and now need an interface staff will actually use; see our <a href=\"/industries/enterprise/\">enterprise UX</a> work for roles, review and rollout." },
         ],
       },
     ],

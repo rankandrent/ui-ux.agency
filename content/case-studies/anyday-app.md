@@ -24,7 +24,7 @@ image: /work/anyday-app/cover.webp
 
 ## About the Anyday App
 
-The Anyday App is a mobile wallet and payout platform from XTM Inc., a fintech company with offices in Miami and Toronto. It targets payroll pain in service businesses like hospitality and personal care.
+The Anyday App is a mobile wallet and payout platform from XTM Inc., a fintech company (see our [fintech app design](/industries/fintech/) work) with offices in Miami and Toronto. It targets payroll pain in service businesses like hospitality and personal care.
 
 Bi-weekly pay leaves hourly staff short between paychecks, so Anyday lets them reach wages they have already earned right away. The concept was sound, yet the first release felt clumsy to use. XTM brought us in to turn it into a product that employees enjoy and that makes payroll lighter for employers.
 

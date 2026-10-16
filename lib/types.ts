@@ -137,6 +137,8 @@ export type Location = Brief & {
 
 export type Industry = Brief & {
   slug: string;
+  /** Draft industries are left out of the build (shown only with SHOW_DRAFTS=1) */
+  draft?: boolean;
   priceRange?: string;
   /** Reuse the home "why us" + process content when the industry has none of its own */
   useDefaults?: boolean;
@@ -151,7 +153,11 @@ export type Industry = Brief & {
   bullets?: string[];
   stats?: Stat[];
   challenges?: Card[];
+  /** Bold answer printed under the challenges H2 */
+  challengesIntro?: string;
   solutions?: Card[];
+  /** Bold answer printed under the solutions H2 */
+  solutionsIntro?: string;
   benefits?: Card[];
   process?: Step[];
   faqs?: Faq[];

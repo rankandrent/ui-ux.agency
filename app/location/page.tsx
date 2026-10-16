@@ -10,10 +10,10 @@ import { cap, routes } from "@/lib/site";
 
 export const metadata = pageMetadata({
   noindex: !getLocations().length,
-  title: "UX Design Agency Locations | US Cities We Serve",
-  description: "UI UX design for product teams across the US: New York, San Francisco, Los Angeles, Chicago, Austin, Boston, Seattle and more. Remote-first, senior-led.",
+  title: "UX Agency Locations | AI and SaaS Design by US City",
+  description: "AI and SaaS product design for US tech teams by city: Denver, San Diego, Minneapolis and more. Remote team, senior designers, published prices.",
   path: routes.locations,
-  keywords: ["UX design agency locations", "UI UX design agency USA", "UX design agency near me"],
+  keywords: ["ux agency locations", "ai and saas product design by city", "remote ux agency usa"],
 });
 
 export default function LocationsHub() {
@@ -26,7 +26,7 @@ export default function LocationsHub() {
         crumbs={[{ name: "Locations", path: routes.locations }]}
         eyebrow="Locations"
         h1={<>UI UX design for product teams <em>across the US</em></>}
-        sub="Senior researchers and designers working with teams in every major US tech market, remote-first with on-site workshops when the work needs it."
+        sub="Senior designers working remotely with AI and SaaS product teams in US tech cities. Our only office is in Reston, VA."
         stats={home.hero.stats}
       />
       <section className="section section--light" aria-labelledby="loc-h">
