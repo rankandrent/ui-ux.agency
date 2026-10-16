@@ -51,7 +51,7 @@
       "label": "average System Usability Scale score 870 US physicians gave their electronic health records (EHRs) (Mayo Clinic Proceedings, 2019)"
     }
   ],
-  "challengesIntro": "Healthcare UX design has to serve three readers of one record, fit workflows clinicians already rate poorly, make AI output checkable and turn privacy and device rules into interface copy. Each problem below names the screen decision it forces.",
+  "challengesIntro": "<strong>Healthcare UX design has to serve three readers of one record, fit workflows clinicians already rate poorly, make AI output checkable and turn privacy and device rules into interface copy.</strong> Each problem below names the screen decision it forces.",
   "challenges": [
     {
       "title": "Three users read the same record",
@@ -74,7 +74,7 @@
       "body": "<strong>A new patient app lands on a phone that already holds several portals, so sign-in, account linking and record import are its first hurdles.</strong> ASTP/ONC reports that app-based access to online medical records rose from 38% in 2020 to 57% in 2024. We design those first-run steps, plus the <a href=\"/services/saas-products/saas-onboarding-design/\">clinic onboarding flows</a> on the staff side, before any feature screen."
     }
   ],
-  "solutionsIntro": "Healthcare UX design turns FDA guidance, HIPAA rules and AI review into screen elements that a clinician or patient sees at the moment of use. The six patterns below cover AI review, patient-facing limits, model updates, privacy, telehealth visits and WCAG 2.2 AA; your regulatory counsel decides which rules apply.",
+  "solutionsIntro": "<strong>Healthcare UX design turns FDA guidance, HIPAA rules and AI review into screen elements that a clinician or patient sees at the moment of use.</strong> The six patterns below cover AI review, patient-facing limits, model updates, privacy, telehealth visits and WCAG 2.2 AA; your regulatory counsel decides which rules apply.",
   "solutions": [
     {
       "title": "Recommendation panels clinicians can verify",

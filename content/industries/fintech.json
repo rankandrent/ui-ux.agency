@@ -49,7 +49,7 @@
       "label": "of banked US households used mobile banking as their primary access method in 2023, per the Federal Deposit Insurance Corporation (FDIC)"
     }
   ],
-  "challengesIntro": "Fintech UX design carries every job of SaaS design, plus a regulator, a fraud team and a user who is nervous about money.",
+  "challengesIntro": "<strong>Fintech UX design carries every job of SaaS design, plus a regulator, a fraud team and a user who is nervous about money.</strong>",
   "challenges": [
     {
       "title": "Identity checks sit inside sign-up",
@@ -80,7 +80,7 @@
       "body": "WCAG 2.2 adds Accessible Authentication (Minimum), SC 3.3.8, at Level AA: no step can demand recalling a password or transcribing a code unless an alternative or a helper such as paste or a password manager works. Design job: pasteable one-time codes and passkeys; the National Institute of Standards and Technology (NIST) SP 800-63-4 (final, 2025) covers synced passkeys as syncable authenticators."
     }
   ],
-  "solutionsIntro": "Our fintech UI UX design work covers seven areas, from the first identity check to the controls an auditor asks about, each designed for review by your compliance team.",
+  "solutionsIntro": "<strong>Our fintech UI UX design work covers seven areas, from the first identity check to the controls an auditor asks about, each designed for review by your compliance team.</strong>",
   "solutions": [
     {
       "title": "KYC and account opening",

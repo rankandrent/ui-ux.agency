@@ -49,7 +49,7 @@
       "label": "apps per company, global average (Okta Businesses at Work 2025)"
     }
   ],
-  "challengesIntro": "Enterprise UX is harder because six pressures stack up: many roles, dense data, security reviews, accessibility rules, AI features staff must trust and a legacy workflow to replace.",
+  "challengesIntro": "<strong>Enterprise UX is harder because six pressures stack up: many roles, dense data, security reviews, accessibility rules, AI features staff must trust and a legacy workflow to replace.</strong>",
   "challenges": [
     {
       "title": "One product, many roles",
@@ -76,7 +76,7 @@
       "body": "Power users build habits, shortcuts and saved views, and a changed interface wipes them out on launch day. Staff already juggle many tools: Okta's Businesses at Work 2025 report puts the 2024 global average at 101 apps per company. Adoption stalls when a rollout has no plan, and the help desk queue fills instead."
     }
   ],
-  "solutionsIntro": "In enterprise software UX, we handle roles with a permission matrix, dense data with reusable table patterns and AI with review and approval steps, matching each challenge above.",
+  "solutionsIntro": "<strong>In enterprise software UX, we handle roles with a permission matrix, dense data with reusable table patterns and AI with review and approval steps, matching each challenge above.</strong>",
   "solutions": [
     {
       "title": "Role-permission matrix first",
