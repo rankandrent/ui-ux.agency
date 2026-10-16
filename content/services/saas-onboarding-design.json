@@ -98,7 +98,7 @@
       "faqs": [
         { "q": "How do you measure SaaS onboarding success?", "a": "<p>By activation rate, time to first value and day-7 return rate, each measured before and after the new onboarding ships. Here is how to <a href=\"/blog/saas-onboarding/#where-does-saas-onboarding-end\">choose the activation event</a> those numbers depend on.</p>" },
         { "q": "Do you need access to our analytics?", "a": "<p>Yes. Read access to product analytics such as Mixpanel, Amplitude or Google Analytics 4 shows where new users drop off.</p>" },
-        { "q": "Can onboarding tools like Appcues or Userpilot be used?", "a": "<p>Yes. We design onboarding that your team builds in code or in tools such as Appcues, Userpilot or Pendo.</p>" },
+        { "q": "Can onboarding tools like Appcues or Userpilot be used?", "a": "<p>Yes. We design onboarding that your team builds in code or in tools such as Appcues, Userpilot or Pendo. Before you pick a tool, decide <a href=\"/blog/user-onboarding-automation/\">which onboarding moments to automate</a> and which to keep human.</p>" },
         { "q": "Do you design onboarding for invited team members too?", "a": "<p>Yes. Invited members get their own shorter path, since the admin has already set up the account.</p>" }
       ]
     }
