@@ -1,0 +1,172 @@
+{
+  "title": "Enterprise software",
+  "order": 1,
+  "draft": true,
+  "updated": "2026-10-16",
+  "anchor": "enterprise UX",
+  "centralEntity": "enterprise UX",
+  "sourceContext": "ui-ux.agency, the design team of tkxel: a remote-first US agency (Reston, VA, since 2017) that designs SaaS platforms, internal tools and AI features for US software companies and the IT and product teams that buy and roll them out.",
+  "metaTitle": "Enterprise UX Design for SaaS, AI and Internal Tools",
+  "metaDescription": "Enterprise UX for SaaS and internal tools with AI: roles and permissions, data-dense dashboards, design systems and WCAG 2.2 AA. Book a free consultation.",
+  "keywords": ["enterprise ux", "enterprise ux design", "enterprise ux design agency", "enterprise software ux", "internal tools ux", "enterprise dashboard design"],
+  "hero": {
+    "eyebrow": "Enterprise UX",
+    "h1": "Enterprise UX for SaaS platforms and internal tools your teams adopt",
+    "sub": "Complex workflows, roles and permissions, data-dense dashboards and AI features, designed to pass security and accessibility reviews and to be used every day after rollout."
+  },
+  "abstract": "Enterprise UX is the user experience (UX) design of software that organizations buy, roll out and govern: software as a service (SaaS) platforms, internal tools and artificial intelligence (AI) features used by many roles at once. ui-ux.agency, the design team of tkxel, designs enterprise UX for complex workflows, permissions, data-dense dashboards and design systems that hold up in security and accessibility reviews.",
+  "summary": "Enterprise UX design for SaaS platforms, admin consoles and internal AI tools: role-based workflows, dense data screens and accessible design systems.",
+  "intro": "IT and procurement approve enterprise software, while operators, analysts, approvers and admins use it all day. Our enterprise UX work designs for both groups, from the security review to the daily task.",
+  "bullets": [
+    "Role-based workflows and a role-permission matrix for admins, managers, operators and guests",
+    "Data-dense dashboards and tables with filters, bulk actions and saved views",
+    "Admin consoles: single sign-on (SSO) settings, user provisioning, audit logs and access reviews",
+    "AI features with sources, human review, approval steps and an activity log",
+    "Accessible Figma design systems with tokens, annotated for WCAG 2.2 AA (Web Content Accessibility Guidelines)"
+  ],
+  "stats": [
+    { "value": "200+", "label": "digital products designed" },
+    { "value": "30%", "label": "increase in order processing efficiency (Mass Media Co.)" },
+    { "value": "37%", "label": "of US firms with 250+ employees use AI (US Census Bureau, 2026)" },
+    { "value": "101", "label": "apps per company, global average (Okta Businesses at Work 2025)" }
+  ],
+  "challenges": [
+    {
+      "title": "One product, many roles",
+      "body": "The buyer is rarely the end user: IT, procurement and security approve the purchase, while admins, managers, operators, approvers and guests work in different modules. The National Institute of Standards and Technology (NIST) defines role-based access control (RBAC) as access authorizations attached to roles, not individuals, so each screen depends on the signed-in role."
+    },
+    {
+      "title": "Screens full of data",
+      "body": "Operations teams filter a dashboard, then edit tables with dozens of columns and bulk actions. IBM Carbon Design System data tables offer sortable headers, expandable rows and batch actions. Salesforce's lightning-datatable, built on the Salesforce Lightning Design System blueprint, is not supported on mobile, so plan enterprise dashboard design desktop-first."
+    },
+    {
+      "title": "Security reviews before purchase",
+      "body": "Enterprise buyers ask for a SOC 2 report, a System and Organization Controls attestation from an independent certified public accountant (CPA) firm. The firm tests controls against the American Institute of CPAs (AICPA) Trust Services Criteria, where security is required. Their security review then checks SSO, multi-factor authentication (MFA), role changes and the audit log."
+    },
+    {
+      "title": "Accessibility in the contract",
+      "body": "Federal procurement follows the US Access Board's Revised Section 508 Standards, in effect since January 18, 2018, which incorporate WCAG 2.0 A and AA. Vendors document conformance in an Accessibility Conformance Report (ACR) built on the VPAT (Voluntary Product Accessibility Template). The Americans with Disabilities Act (ADA) Title II rule sets WCAG 2.1 AA for state and local government websites and apps."
+    },
+    {
+      "title": "AI features staff do not trust",
+      "body": "The US Census Bureau reported in May 2026 that 37% of US firms with 250 or more employees were using AI. A wrong answer inside a finance or human resources approval flow costs more than in a consumer app, so staff need sources, human review and undo. Teams running several pilots can first <a href=\"/services/ai-products/ai-product-discovery-workshop/\">pick the AI pilot worth taking to production</a>."
+    },
+    {
+      "title": "Adoption after rollout",
+      "body": "Power users build habits, shortcuts and saved views, and a changed interface wipes them out on launch day. Staff already juggle many tools: Okta's Businesses at Work 2025 report puts the 2024 global average at 101 apps per company. Adoption stalls when a rollout has no plan, and the help desk queue fills instead."
+    }
+  ],
+  "solutions": [
+    {
+      "title": "Role-permission matrix first",
+      "body": "Before wireframes, we agree on a role-permission matrix of roles, objects, actions and permission levels with your product and security teams. Role-based views then hide modules a role cannot use. In <a href=\"/case-studies/digno/\">Digno's three-level performance scores</a>, the Digno score is computed at three levels: organization, department and individual employee."
+    },
+    {
+      "title": "Dense screens that stay readable",
+      "body": "The data table, filter bar, bulk actions and saved views become reusable patterns that manage data density: summary first, detail on demand. For Mass Media Co., a single dashboard now covers open tasks, sales operations, recent tasks and how work flows for each client. New modules reuse those patterns in our <a href=\"/services/saas-products/saas-design-agency/\">enterprise SaaS product design</a> work."
+    },
+    {
+      "title": "Admin and security surfaces",
+      "body": "We design the admin console a security review inspects: SSO settings, SCIM (System for Cross-domain Identity Management) user provisioning, published as RFC 7644 in September 2015, an admin audit log viewer, access reviews and session settings. Those screens hold the security review evidence a SOC 2 auditor or a buyer asks for. We design them; we do not perform or certify audits."
+    },
+    {
+      "title": "Accessible design system",
+      "body": "The design system ships Figma components with design tokens that match your front-end code. WCAG 2.2 target size (success criterion 2.5.8) sets a 24 × 24 CSS pixel minimum at AA; the notes also mark contrast, focus not obscured and accessible authentication (3.3.8). Empty state, loading and error variants are components too, which raises design system coverage. Your team or an auditor uses the notes for the ACR."
+    },
+    {
+      "title": "AI with review and approval",
+      "body": "AI review and approval is part of the design: answers show sources and confidence cues with inline edit, regenerate and undo, and AI agents get approval steps, an activity log and an easy stop button. These patterns give risk teams evidence under the four functions of the voluntary NIST AI Risk Management Framework: Govern, Map, Measure and Manage."
+    },
+    {
+      "title": "Rollout teams accept",
+      "body": "New areas ship in phases behind feature flags, with a beta group first, in-app announcements, a short tour and an optional switch back during the beta. Adoption rate, task time, error rate, training time and support tickets are agreed at kick-off and compared before and after the rollout."
+    }
+  ],
+  "cta": {
+    "heading": "Is enterprise UX slowing your rollout or your security review?",
+    "body": "Book a 45-minute product review. A senior designer walks through your admin, roles and core workflow and names the three changes with the biggest effect.",
+    "cta": "Book an enterprise UX review"
+  },
+  "benefits": [
+    {
+      "title": "Design next to engineering",
+      "body": "As an enterprise UX design agency inside tkxel, our designers check each design with tkxel engineers for build effort before you see it. You get annotated Figma files, components and specs, and a designer joins your sprint reviews until the screens are live."
+    },
+    {
+      "title": "Proof on a B2B platform",
+      "body": "Mass Media Co. (MMC) is a digital marketing company that now runs one business-to-business (B2B) platform. MMC's order work was spread across tools that did not talk to each other. After our <a href=\"/case-studies/mass-media-co/\">Mass Media Co. B2B platform revamp</a>, order processing efficiency rose 30% and the order processing error rate was 2+, reduced from 25%."
+    },
+    {
+      "title": "Tested with every role",
+      "body": "Every flow that carries risk is tested with 5 to 8 real users before engineering starts. On enterprise software, those testers come from several roles, so an approver, an admin and an operator each try the flow, not only end users."
+    },
+    {
+      "title": "Works inside your process",
+      "body": "We sign a mutual non-disclosure agreement (NDA) before the first detailed call and work in your Figma, Jira or Linear workspace. All design files, research and components belong to your company from day one of the engagement."
+    }
+  ],
+  "process": [
+    {
+      "title": "Role and workflow review",
+      "timeline": "1–2 weeks",
+      "body": "We read your analytics, watch session recordings, review support tickets and interview 6 to 10 users across roles. A stakeholder map covers product, IT, security and procurement, because each of them can stop a rollout.",
+      "deliverables": "Role map, workflow map, priority list"
+    },
+    {
+      "title": "Permissions, flows and wireframes",
+      "timeline": "2–4 weeks",
+      "body": "The role-permission matrix gets signed off, then the riskiest workflow steps are redesigned first. Clickable wireframes are tested with each role, so an approver and an admin both finish their tasks before visual design starts.",
+      "deliverables": "Permission matrix, tested wireframes"
+    },
+    {
+      "title": "UI and accessible design system",
+      "timeline": "2–6 weeks",
+      "body": "Final screens cover the data-dense patterns, the admin console and every AI state. They are built from Figma components with tokens and WCAG 2.2 AA annotations that your engineers reuse in every sprint.",
+      "deliverables": "Final screens, component library, accessibility notes"
+    },
+    {
+      "title": "Build support and rollout",
+      "timeline": "1–4 weeks",
+      "body": "Our designers join sprint reviews, run design QA on built screens and plan the beta group and phased release. Adoption metrics are compared before and after. Later, an <a href=\"/services/hire-ui-ux-designers/\">embedded design team for long enterprise roadmaps</a> keeps the system current.",
+      "deliverables": "Design QA log, rollout plan"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is enterprise UX?",
+      "a": "<strong>Enterprise UX covers how employees and partners work in the software their organization buys and deploys, such as SaaS platforms, internal tools, enterprise resource planning (ERP) and customer relationship management (CRM) systems.</strong> It differs from consumer UX in four ways: many roles share one product, the buyer is not the user, screens carry dense data and sessions last most of the workday. Teams judge it by task time and error rate rather than delight."
+    },
+    {
+      "q": "How is enterprise UX design different for AI features?",
+      "a": "<strong>Enterprise UX design for AI features adds sources, human review, approval steps and an activity log, because AI output changes and can be wrong.</strong> NIST released its AI Risk Management Framework (AI RMF) 1.0 on January 26, 2023, as a voluntary framework, and the Generative AI Profile (NIST-AI-600-1) followed on July 26, 2024. Our <a href=\"/services/ai-products/ai-ux-design-agency/\">AI UX design for copilots and internal AI tools</a> applies these patterns to AI copilot UX and agents."
+    },
+    {
+      "q": "Can you design enterprise software for Section 508 and WCAG 2.2 AA?",
+      "a": "Yes. <strong>We design enterprise software to WCAG 2.2 AA, which also covers the WCAG 2.0 A and AA criteria that Section 508 references.</strong> The World Wide Web Consortium (W3C) published WCAG 2.2 as a Recommendation on October 5, 2023, with 9 new success criteria over 2.1, and content that conforms to 2.2 also conforms to 2.1 and 2.0. We annotate each screen for the AA accessibility conformance level; your team or an accessibility auditor completes the ACR."
+    },
+    {
+      "q": "Do you help enterprise products pass SOC 2 security reviews?",
+      "a": "Yes, on the interface side only. <strong>We design the screens a SOC 2 auditor or a buyer's security team asks to see: SSO and MFA settings, SCIM provisioning, role changes, audit logs and access reviews.</strong> The SOC 2 report itself comes from an independent CPA firm: a Type 1 report covers control design at a point in time, and a Type 2 report covers operating effectiveness over a period of time. We do not audit or certify."
+    },
+    {
+      "q": "How do you get employees to adopt a redesigned enterprise tool?",
+      "a": "<strong>Employees adopt a redesigned enterprise tool when they keep their legacy workflow during a beta and switch over one area at a time.</strong> Change management starts in research: the power users who rely on shortcuts join the beta group first, and their feedback decides what changes before full release. Measure task time and support tickets before and after each phase. Our <a href=\"/services/saas-products/saas-product-redesign/#how-does-our-saas-product-redesign-avoid-a-big-bang-launch\">phased redesign of a legacy tool</a> follows the same order."
+    },
+    {
+      "q": "How much does enterprise UX design cost?",
+      "a": "<strong>Enterprise UX design with us costs $40,000–$180,000 for a full SaaS product, or $50,000–$200,000 for a phased redesign over 8–20 weeks.</strong> AI UX design runs $25,000–$90,000, and an embedded team costs $15,000–$40,000 per month. The number of roles, workflows and platforms sets the final price. Our guide to <a href=\"/services/ui-ux-design-cost/\">UI UX design cost by engagement</a> explains each price factor."
+    }
+  ],
+  "relatedServices": ["saas-design-agency", "saas-product-redesign", "ai-ux-design-agency", "ai-product-discovery-workshop", "hire-ui-ux-designers"],
+  "headings": {
+    "caseStudies": "Which enterprise UX projects have we shipped?",
+    "challenges": "What makes enterprise UX harder than consumer UX?",
+    "services": "Which services cover enterprise UX design?",
+    "solutions": "How does our enterprise UX design handle roles, data and AI?",
+    "benefits": "Why do software teams hire us for enterprise UX?",
+    "process": "How does an enterprise UX engagement run?",
+    "faqs": "Enterprise UX FAQs from product, IT and security leads",
+    "posts": "Enterprise UX guides"
+  },
+  "mentions": ["enterprise software", "role-based access control", "single sign-on", "SCIM", "SOC 2", "Section 508", "WCAG 2.2", "Accessibility Conformance Report", "NIST AI Risk Management Framework", "design system", "Figma"]
+}

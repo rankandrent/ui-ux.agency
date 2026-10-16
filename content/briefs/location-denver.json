@@ -40,15 +40,16 @@
       "ux design denver": "Carrier: 'UX design Denver teams outsource' (FAQ 1: 'What does UX design Denver teams outsource usually cost?'). Read aloud as 'UX design [that] Denver teams outsource'. Do not write 'UX design Denver companies' or 'UX design Denver services'.",
       "ux designer denver": "Carrier: 'a UX designer Denver teams can add to their sprints' (FAQ 2). Do not write 'a UX designer Denver job' or 'UX designer Denver salary' (job-seeker intent; see rejected)."
     },
-    "density": "Word share 1–1.5%. The page body (sections + FAQs) runs about 1,100–1,300 words, so 'ux agency denver' (3 words) appears 4–6 times in visible text. H1, abstract, H2 1, H2 4, H2 8 and H2 9 already make 6. Do not add more in section bodies; use the lexical variants instead."
+    "density": "Exact phrase 'ux agency denver': 7–8 uses in visible text. H1, abstract, H2 1, H2 4, H2 8, H2 9 and the FAQ heading make 7; add at most one more, in the H2 9 body. Word share is about 1.5–2% of a 1,100–1,300-word page, and the template text (service grid, case cards) dilutes it further.",
+    "salienceMath": "scripts/onpage-audit.mjs line 269: the keyword count must be ≥ 0.5 × the count of the most frequent related entity in `semantic.entities`. Entity forms are counted as raw substrings (countIn, line 202), so every 'Colorado Startup Week' or 'Colorado Privacy Act' also counts as 'Colorado'. Caps for the writer: 'Colorado' in any form ≤ 12 uses (watch H2 2 and H2 3), 'Mountain Time' ≤ 6, 'AI product design' ≤ 5, 'Boulder' ≤ 3. 'Denver' is not a rival, because all its words sit inside the keyword (line 267). H2 share (line 268) counts any H2 that holds a keyword word longer than 3 letters, so every H2 with 'Denver' or 'agency' qualifies; do not force the full phrase into more H2s."
   },
   "variety": {
-    "type": "Location page (first one on the site; no location fingerprints exist yet)",
+    "type": "Location page (first Denver/Mountain-region page; check other location briefs written today, e.g. Minneapolis, for shared patterns)",
     "introStyle": "Not applicable (location template: hero + abstract). The abstract leads with the keyword and the honesty line, not a scenario.",
     "h2Frames": ["what (definition)", "what (local facts)", "how (regulation → design)", "how (process steps)", "how (time-zone table)", "which (service-fit table)", "which (case-study cards)", "checklist (questions to ask, table)", "is (Yes/No honesty)"],
-    "visualTypes": ["location hero illustration (scripts/location-visuals.mjs, landmark mountains)", "law-to-screen table", "time-zone overlap table", "process steps"],
+    "visualTypes": ["location hero illustration (scripts/location-visuals.mjs, landmark mountains)", "law-to-screen table", "time-zone clock table", "process steps"],
     "ctaAngle": "Bring one AI feature or SaaS flow to a free consultation; reply within one business day, ET.",
-    "differsFrom": "This sets the pattern for future city pages. Future cities must NOT reuse: the SB 26-189 law-to-screen table (Colorado only), the MT/ET overlap table wording, the 'questions to ask' table rows, or the H2 9 honesty heading verbatim. Rotate per city: each city gets one unique local hook (a state law, a local event, a local industry) as its table H2."
+    "differsFrom": "Other city pages must NOT reuse: the SB 26-189 law-to-screen table (Colorado only), the MT/ET clock table wording, the 'questions to ask' table rows, or the H2 9 honesty heading verbatim. Each city gets one unique local hook (a state law, a local event, a local industry) as its table H2."
   },
   "leadAngle": "Two moments. (1) H2 3: a Colorado team whose AI feature touches consequential decisions (e.g. hiring, lending, housing, insurance, health care, education; confirm the list on the statute) learns that SB 26-189 requires notice, explanation and human-review flows from January 1, 2027. Those are UX deliverables. Offer: start with the AI product discovery workshop ($8,000–$20,000, 1–2 weeks) or AI UX design. (2) H2 5: the 2-hour gap is the main objection to a remote East Coast team. The table shows how the clocks line up. Offer: a free consultation scheduled in the Denver morning.",
   "serpGaps": [
@@ -68,6 +69,7 @@
   "beats": null,
   "beatsNote": "No single page to out-do: the SERP is directories and self-ranking listicles. Never copy their agency names, rankings or rates. Do not name or compare against any Denver agency.",
   "sisterSeparation": {
+    "fetchStatus": "FAILED",
     "attempted": [
       "WebFetch https://uiuxdesignservices.us/sitemap.xml → ENOTFOUND",
       "WebFetch https://www.uiuxdesignservices.us/sitemap.xml → ENOTFOUND",
@@ -75,11 +77,12 @@
       "WebFetch web.archive.org copy → tool refused the domain",
       "WebSearch 'site:uiuxdesignservices.us ux design agency phoenix' and '\"uiuxdesignservices.us\" location' → no sister pages in results"
     ],
-    "result": "Could not read the sister's Phoenix/Austin/Seattle pages this run. Separation is by design, not by measured overlap. QA MUST fetch https://uiuxdesignservices.us/location/ux-design-agency-phoenix/ (nearest Mountain Time city on the sister site), https://uiuxdesignservices.us/location/ux-design-agency-austin/ and https://uiuxdesignservices.us/location/ux-design-agency-seattle/ with curl through the proxy, and fail the page if 5-gram overlap > 2% or any H2/FAQ matches.",
+    "result": "Could not read the sister's Phoenix/Austin/Seattle pages this run. Separation is by design, not by measured overlap. Publish blocker for QA: fetch https://uiuxdesignservices.us/location/ux-design-agency-phoenix/ (nearest Mountain Time city on the sister site), https://uiuxdesignservices.us/location/ux-design-agency-austin/ and https://uiuxdesignservices.us/location/ux-design-agency-seattle/ with `curl -sSL -A 'Mozilla/5.0' <url>` through the proxy, and fail the page if 5-gram overlap > 2% or any H2/FAQ matches.",
     "byDesign": [
       "Slug pattern differs: ours /location/ux-agency-denver/; the sister's is /location/ux-design-agency-<city>/ (sister-site.json urls).",
       "Keyword differs: 'ux agency <city>', never 'ux design agency <city>' (the sister's slug phrase).",
       "Our 9 body H2s are question-form and tied to Denver-only facts (Colorado law, MT/ET, Colorado Startup Week, CBRE/BLS Denver data). Avoid generic city-page H2 families the sister likely uses: 'Why choose our UX design agency in <city>', 'Our UX design services in <city>', 'Industries we serve', 'Our design process', 'Top UX design agency in <city>', 'Get in touch'.",
+      "Never name a sister-site city on this page (Phoenix, Austin, Seattle, Dallas and the rest in sister-site.json), not even as a time-zone example. Write 'Mountain Time' and 'Eastern Time'.",
       "No link to uiuxdesignservices.us anywhere on the page, and no mention of it."
     ]
   },
@@ -87,8 +90,8 @@
     "Denver",
     "Colorado",
     "Boulder",
-    "Mountain Time (MT)",
-    "Eastern Time (ET)",
+    "Mountain Time",
+    "Eastern Time",
     "Reston, Virginia",
     "tkxel",
     "Colorado Startup Week",
@@ -96,9 +99,9 @@
     "U.S. Bureau of Labor Statistics (BLS)",
     "CBRE Scoring Tech Talent",
     "Colorado Office of Economic Development and International Trade (OEDIT)",
-    "SB 26-189 (Colorado automated decision-making technology law)",
+    "SB 26-189",
     "Colorado Attorney General",
-    "Colorado Privacy Act (CPA)",
+    "Colorado Privacy Act",
     "large language model (LLM)",
     "AI copilot",
     "chatbot",
@@ -110,6 +113,7 @@
     "Maze",
     "usability testing"
   ],
+  "entitiesNote": "Copy this list into the page's `semantic.entities`. 'Mountain Time' and 'Eastern Time' carry no '(MT)'/'(ET)' because entityForms() would count the 2-letter forms as substrings ('et' sits inside 'get', 'meet', 'market'), which would wreck the salience check. In the copy the writer still expands them once: 'Eastern Time (ET)'.",
   "attributes": [
     "time-zone gap (2 hours behind ET)",
     "remote collaboration tools",
@@ -140,11 +144,11 @@
     { "attribute": "SaaS design price/time", "value": "$40,000–$180,000, 6 to 16 weeks (or $15,000–$40,000 per month embedded)", "source": "content/services/saas-design-agency.json" },
     { "attribute": "SaaS onboarding design price/time", "value": "$15,000–$45,000, 3 to 6 weeks", "source": "content/services/saas-onboarding-design.json priceRange; content/pillars.ts SaaS table" },
     { "attribute": "MVP design price/time", "value": "$15,000–$50,000, 4 to 8 weeks", "source": "content/services/mvp-design-agency.json" },
-    { "attribute": "Denver tech talent pool", "value": "116,970 tech specialists, 13th largest in North America; tech is 6.8% of employment vs 5.3% top-50 average (CBRE 2025, Denver ranked 14th); CBRE 2026 ranks Denver 16th", "source": "https://milehighcre.com/?p=57101 ; https://milehighcre.com/?p=62070" },
-    { "attribute": "computer and math employment share", "value": "5.4% of Denver-Aurora-Centennial employment vs 3.4% nationally; mean hourly wage $62.33 vs $57.73 (May 2025)", "source": "https://www.bls.gov/regions/mountain-plains/news-release/occupationalemploymentandwages_denver.htm" },
-    { "attribute": "Colorado software and IT", "value": "Software and IT: 10% of Colorado employment, 20% of state GDP, 47,000+ jobs added in 5 years", "source": "OEDIT FY 2026 performance plan: https://spl.cde.state.co.us/artemis/govserials/gov3423internet/gov3423202526internet.pdf" },
+    { "attribute": "Denver tech talent pool", "value": "116,970 tech specialists, 13th largest in North America; tech is 6.8% of employment vs 5.3% top-50 average (CBRE 2025, Denver ranked 14th); CBRE 2026 ranks Denver 16th", "source": "https://milehighcre.com/?p=57101 ; https://milehighcre.com/?p=62070 (verify: snippet only)" },
+    { "attribute": "computer and math employment share", "value": "5.4% of Denver-Aurora-Centennial employment vs 3.4% nationally; mean hourly wage $62.33 vs $57.73 (May 2025)", "source": "https://www.bls.gov/regions/mountain-plains/news-release/occupationalemploymentandwages_denver.htm (verify: snippet only)" },
+    { "attribute": "Colorado software and IT", "value": "Software and IT: 10% of Colorado employment, 20% of state GDP, 47,000+ jobs added in 5 years", "source": "OEDIT FY 2026 performance plan: https://spl.cde.state.co.us/artemis/govserials/gov3423internet/gov3423202526internet.pdf (verify: snippet only)" },
     { "attribute": "startup community event", "value": "Colorado Startup Week (Denver Startup Week until 2025): September 14–18, 2026, free, 10,000+ expected participants, 40+ HQ sessions, 200+ community events across metro Denver", "source": "https://coloradobiz.com/colorado-startup-week-15th-year-ai-denver/ ; https://jakejabscenter.org/event/colorado-startup-week-2026/" },
-    { "attribute": "Colorado AI law (unique)", "value": "SB 26-189 signed May 14, 2026; from January 1, 2027 deployers of covered automated decision-making technology give notice, a plain-language explanation within 30 days of an adverse outcome, human review on request and data correction; records kept 3 years", "source": "https://leg.colorado.gov/bills/sb26-189 ; https://coag.gov/ai/ ; https://coloradosun.com/2026/05/12/colorado-ai-law-rewrite-passes/" }
+    { "attribute": "Colorado AI law (unique)", "value": "SB 26-189 signed May 14, 2026; from January 1, 2027 deployers of covered automated decision-making technology give notice, a plain-language explanation within 30 days of an adverse outcome, human review on request and data correction; records kept 3 years", "source": "https://leg.colorado.gov/bills/sb26-189 ; https://coag.gov/ai/ ; https://coloradosun.com/2026/05/12/colorado-ai-law-rewrite-passes/ (verify against the statute)" }
   ],
   "ngrams": [
     "ux agency denver",
@@ -200,7 +204,7 @@
         "Card 'Software and IT': OEDIT FY 2026 plan — 10% of Colorado employment, 20% of GDP, 47,000+ jobs in 5 years.",
         "Card 'Startup week': Colorado Startup Week (Denver Startup Week until 2025), September 14–18, 2026, free, 10,000+ participants, 200+ community events.",
         "Card 'Boulder roots': Techstars was founded in Boulder in 2006 and ran its first accelerator there in 2007 (techstars.com/about).",
-        "Each card 1–2 sentences with its source link. State the year on every number. No 'thriving hub' filler. Do not name Palantir (see notes)."
+        "Each card 1–2 sentences with its source link. State the year on every number. No 'thriving hub' filler. Do not name Palantir (see notes). Watch the 'Colorado' cap (salienceMath)."
       ]
     },
     {
@@ -208,7 +212,7 @@
       "format": "table",
       "answerHint": "30–50 words, bold: Colorado's SB 26-189, signed May 14, 2026, turns three duties into interface work from January 1, 2027: telling people an automated tool is used, explaining an adverse outcome, and letting them ask for human review and data correction.",
       "points": [
-        "Intro sentence before the table, then 'Table: Colorado SB 26-189 duties and the screens they need'.",
+        "Intro sentence before the table, then 'Table: SB 26-189 duties and the screens they need'.",
         "Columns: Duty (row header) | What the user must see | Design deliverable. Rows: Notice of use → disclosure at the decision point → notice pattern + copy; Explanation after an adverse outcome (within 30 days) → plain-language reason screen or email → explanation template; Human review → request flow with status → review-request flow + admin queue; Data correction → edit or appeal form → correction flow; Records (3 years) → nothing on screen → audit-log fields spec for engineers.",
         "Scope line: applies to covered automated decision-making technology used in consequential decisions; developers must give deployers documentation that includes human-review instructions. Take the decision categories from the statute (leg.colorado.gov) or coag.gov, not from this brief.",
         "Context line: it replaced SB 24-205, whose duties never took effect. Do not present the old June 30, 2026 date as current.",
@@ -233,9 +237,9 @@
       "format": "table",
       "answerHint": "30–50 words, bold: Denver runs 2 hours behind Eastern Time all year, so a Denver morning meets an East Coast midday. A 9 a.m. stand-up in Denver is 11 a.m. ET, and a 3 p.m. Denver review is 5 p.m. ET.",
       "points": [
-        "Intro sentence, then 'Table: Denver (MT) and Eastern (ET) clock times for remote design work'.",
-        "Columns: Denver time (MT) (row header) | Eastern time (ET) | Good slot for. Rows: 8 a.m. | 10 a.m. | daily stand-up; 10 a.m. | 12 p.m. | design review; 1 p.m. | 3 p.m. | moderated usability session; 3 p.m. | 5 p.m. | end-of-day questions; after 3 p.m. | after 5 p.m. | async comments in Figma and FigJam.",
-        "Body: dedicated designers overlap at least 4 hours with ET, and many teams choose full overlap (hire-ui-ux-designers.json). Do NOT promise a fixed number of overlap hours with Denver; the site publishes no working hours (see notes CONFLICT).",
+        "Intro sentence, then 'Table: Denver and Eastern clock times for remote design work'.",
+        "Columns: Denver time (row header) | Eastern time | Good slot for. Rows: 8 a.m. | 10 a.m. | daily stand-up; 10 a.m. | 12 p.m. | design review; 1 p.m. | 3 p.m. | moderated usability session; 3 p.m. | 5 p.m. | end-of-day questions; after 3 p.m. | after 5 p.m. | async comments in Figma and FigJam.",
+        "Body: dedicated designers overlap at least 4 hours with Eastern Time, and many teams choose full overlap (hire-ui-ux-designers.json). Do NOT promise a fixed number of overlap hours with Denver; the site publishes no working hours (see notes CONFLICT).",
         "Link: /services/hire-ui-ux-designers/ (anchor 'hire UI UX designers')."
       ]
     },
@@ -246,7 +250,7 @@
       "points": [
         "Intro sentence, then 'Table: ui-ux.agency services by product stage, with price and timeline'.",
         "Columns: If your team has… (row header) | Start with | Price | Timeline. Rows: An AI idea, no scope → AI product discovery workshop → $8,000–$20,000 → 1–2 weeks; An AI feature to design → AI UX design → $25,000–$90,000 → 4–10 weeks; A support bot or assistant → chatbot UI design → $15,000–$60,000 → 3–8 weeks; Trial users who never activate → SaaS onboarding design → $15,000–$45,000 → 3–6 weeks; A new SaaS product or module → SaaS design agency project → $40,000–$180,000 → 6–16 weeks; A startup idea to test → MVP design → $15,000–$50,000 → 4–8 weeks.",
-        "Table `links` (one per service, its anchor): /services/ai-products/ai-product-discovery-workshop/, /services/ai-products/chatbot-ui-design/, /services/saas-products/saas-onboarding-design/, /services/saas-products/saas-design-agency/, /services/startups/mvp-design-agency/. The AI UX design agency row stays unlinked here because H2 3 already links it (one link per target).",
+        "Table `links` (one per service, its anchor): /services/ai-products/ai-product-discovery-workshop/, /services/ai-products/chatbot-ui-design/, /services/saas-products/saas-onboarding-design/, /services/saas-products/saas-design-agency/, /services/startups/mvp-design-agency/. The AI UX design row stays unlinked here because H2 3 already links it (one link per target).",
         "The H2 avoids 'cost/price' so SemanticSections does not render it as a pricing block that duplicates the service grid. Body: 1 sentence linking /services/ui-ux-design-cost/ (anchor 'UI UX design cost')."
       ]
     },
@@ -268,7 +272,7 @@
       "answerHint": "30–50 words, bold: Ask five questions before you sign: who does the work, how the time gap is handled, whether prices are published, how designs are tested, and who builds them. Our answers are in the table.",
       "points": [
         "Intro sentence, then 'Table: Five questions for any UX agency, with our answers'.",
-        "Columns: Question (row header) | Why it matters | Our answer. Rows: Who does the work? | junior handoff risk | senior designers, weekly design-lead review (hire-ui-ux-designers.json FAQ); How is the time gap handled? | missed reviews | 2-hour gap, at least 4 hours of ET overlap, async Figma comments; Are prices published? | budget planning | every service has a published range (about.md 'Publish prices'); How are designs tested? | untested flows ship | 5 to 8 real users per risky flow; Who builds it? | design-to-code gaps | your engineers, or tkxel engineers.",
+        "Columns: Question (row header) | Why it matters | Our answer. Rows: Who does the work? | junior handoff risk | senior designers, weekly design-lead review (hire-ui-ux-designers.json FAQ); How is the time gap handled? | missed reviews | 2-hour gap, at least 4 hours of Eastern Time overlap, async Figma comments; Are prices published? | budget planning | every service has a published range (about.md 'Publish prices'); How are designs tested? | untested flows ship | 5 to 8 real users per risky flow; Who builds it? | design-to-code gaps | your engineers, or tkxel engineers.",
         "Never describe or rank other Denver agencies. No 'unlike local agencies' claims."
       ]
     },
@@ -289,13 +293,13 @@
       "points": []
     }
   ],
-  "h2KeywordCoverage": "Keyword in H2 1, 4, 8, 9 and the FAQ heading = 5 of 10 (50%), above the 40% rule. Question H2s: 9 of 9 body H2s.",
+  "h2KeywordCoverage": "Full phrase in H2 1, 4, 8, 9 and the FAQ heading; 'Denver' in H2 2, 6 and in the full-phrase H2s. Under onpage-audit.mjs line 268, 8 of 10 H2s count (80%). Question H2s: 9 of 9 body H2s.",
   "faqs": [
     {
       "q": "What does UX design Denver teams outsource usually cost?",
       "a": "Our published ranges run from $8,000 for a one-week AI discovery workshop to $200,000 for a large SaaS product redesign. MVP design costs $15,000–$50,000; the UI UX design cost guide explains every price factor.",
       "carries": "ux design denver",
-      "link": "/services/ui-ux-design-cost/",
+      "link": "/services/ui-ux-design-cost/ (plain-text mention if H2 6 already links it)",
       "source": "ai-product-discovery-workshop.json (one-week workshop near $8,000); saas-product-redesign.json priceRange $50,000–$200,000; mvp-design-agency.json"
     },
     {
@@ -323,10 +327,10 @@
       "q": "Who owns the designs and research files?",
       "a": "You do. All files, prototypes and research belong to your company.",
       "source": "content/pillars.ts startups FAQ",
-      "priority": "skip if the page already has 5 FAQs (it repeats a pillar FAQ)"
+      "priority": "skip unless the owner wants six FAQs (it repeats a pillar FAQ)"
     }
   ],
-  "faqNote": "Use FAQs 1–5; FAQ 6 only if the owner wants six. Answers 25–45 words, rendered open. Do not copy pillar FAQ sentences.",
+  "faqNote": "Use FAQs 1–5. Answers 25–45 words, rendered open. Do not copy pillar FAQ sentences.",
   "visual": {
     "landmark": "mountains",
     "scenes": [
@@ -340,7 +344,7 @@
   "visuals": [
     { "type": "location hero illustration", "idea": "scripts/location-visuals.mjs with landmark 'mountains' and the 4 scenes above → public/locations/ux-agency-denver.svg." },
     { "type": "table (rendered)", "idea": "SB 26-189 duty → screen → deliverable (H2 3). The unique Colorado block." },
-    { "type": "table (rendered)", "idea": "MT vs ET clock times (H2 5)." },
+    { "type": "table (rendered)", "idea": "Denver vs Eastern clock times (H2 5)." },
     { "type": "table (rendered)", "idea": "Service by stage with price and timeline (H2 6)." }
   ],
   "internalTargets": [
@@ -354,7 +358,7 @@
     { "href": "/services/startups/mvp-design-agency/", "anchor": "MVP design agency", "where": "H2 6 table", "verified": "content/services/mvp-design-agency.json" },
     { "href": "/services/startups/design-sprint/", "anchor": "design sprint", "where": "H2 9", "verified": "content/services/design-sprint.json" },
     { "href": "/services/hire-ui-ux-designers/", "anchor": "hire UI UX designers", "where": "H2 5", "verified": "content/services/hire-ui-ux-designers.json, category Hiring & pricing (no pillar → /services/<slug>/ via servicePath in lib/content.ts)" },
-    { "href": "/services/ui-ux-design-cost/", "anchor": "UI UX design cost", "where": "H2 6 body + FAQ 1 (one link only; FAQ 1 mentions it in plain text if H2 6 already links)", "verified": "content/services/ui-ux-design-cost.json" },
+    { "href": "/services/ui-ux-design-cost/", "anchor": "UI UX design cost", "where": "H2 6 body (FAQ 1 mentions it in plain text)", "verified": "content/services/ui-ux-design-cost.json" },
     { "href": "/blog/product-discovery/#what-changes-in-product-discovery-for-ai-features", "anchor": "the extra discovery checks an AI feature needs", "where": "H2 3", "verified": "content/blog/product-discovery.md H2 at line 170, draft:false; id via slugify() in lib/blog.ts" },
     { "href": "/blog/saas-onboarding/#saas-onboarding-best-practices-a-12-point-audit", "anchor": "12-point SaaS onboarding audit", "where": "H2 6 body, next to the onboarding row", "priority": "conditional", "blocker": "H2 body 50–70 word limit; drop it if the section runs over", "verified": "content/blog/saas-onboarding.md H2 at line 249, draft:false" },
     { "href": "/case-studies/vocable/", "anchor": "Vocable", "where": "H2 7", "verified": "content/case-studies/vocable.md" },
@@ -366,7 +370,7 @@
   "internalLinkNote": "The template already renders a 6-service grid, the case-study grid and the lead forms. Body links add context; one link per target page. No links to uiuxdesignservices.us. No industry pages exist yet (content/industries/ has only _template.json), so there are no industry links.",
   "externalSources": [
     { "url": "https://www.bls.gov/regions/mountain-plains/news-release/occupationalemploymentandwages_denver.htm", "why": "Primary (US gov): May 2025 OEWS, computer and math 5.4% of Denver employment vs 3.4% US; mean hourly $62.33 vs $57.73. H2 2.", "status": "search snippet; WebFetch DNS-blocked. Fact-checker confirms the figures and that the page now shows May 2025 (it showed May 2024 until the August 2026 update)." },
-    { "url": "https://milehighcre.com/?p=57101", "why": "CBRE Scoring Tech Talent 2025: Denver 14th; 116,970 specialists, 13th largest; 6.8% vs 5.3%; +5.6% 2021–2024. H2 2.", "status": "snippet" },
+    { "url": "https://milehighcre.com/?p=57101", "why": "CBRE Scoring Tech Talent 2025: Denver 14th; 116,970 specialists, 13th largest; 6.8% vs 5.3%; +5.6% 2021–2024. H2 2.", "status": "snippet; trade publication reporting CBRE. Prefer the cbre.com report page if the fact-checker finds it." },
     { "url": "https://milehighcre.com/?p=62070", "why": "CBRE 2026: Denver 16th of top 50; Colorado Springs 3rd emerging market. H2 2.", "status": "snippet" },
     { "url": "https://www.builtincolorado.com/articles/cbre-report-tech-talent-denver-colorado-springs", "why": "Second source for the CBRE figures.", "status": "snippet; confirm which edition it covers" },
     { "url": "https://spl.cde.state.co.us/artemis/govserials/gov3423internet/gov3423202526internet.pdf", "why": "OEDIT FY 2026 performance plan (Colorado State Publications Library): software and IT 10% of employment, 20% of GDP, 47,000+ jobs in 5 years. H2 2.", "status": "snippet; fact-checker confirms it is the OEDIT plan and checks the exact wording" },
@@ -417,7 +421,7 @@
   ],
   "notes": [
     "HONESTY: no Denver office, team, clients, testimonials or events attended. The only office is Reston, VA (about.md). Do not write 'we're part of the Denver tech community', 'we attend Colorado Startup Week' or 'our Denver clients'.",
-    "DO NOT USE: 'Palantir is headquartered in Denver' (Palantir moved its HQ to Aventura, FL in February 2026: https://www.denvergazette.com/2026/02/17/palantir-moves-hq-from-denver-to-miami/; directory pages are stale). 'Colorado AI Act takes effect June 30, 2026' (SB 24-205 was replaced by SB 26-189, and its duties never took effect). Denver7's '13,000 attendees' (an older Denver Startup Week). Vendelux attendee claims. Any agency rates from DesignRush, uxplanet or other directories. The self-ranked agency lists (parallelhq, flatirons).",
+    "DO NOT USE: 'Palantir is headquartered in Denver' (Palantir moved its HQ to Aventura, FL in February 2026: https://www.denvergazette.com/2026/02/17/palantir-moves-hq-from-denver-to-miami/; directory pages are stale). 'Colorado AI Act takes effect June 30, 2026' (SB 24-205 was replaced by SB 26-189, and its duties never took effect). Denver7's '13,000 attendees' (an older Denver Startup Week). Vendelux attendee claims. Third-party metro numbers such as wagedex/tradecareerpath/orbyt '27,010 software developers, $137,610 median' (secondary sites citing BLS; use the BLS release only). Any agency rates from DesignRush, uxplanet or other directories. The self-ranked agency lists (parallelhq, flatirons).",
     "OPTIONAL local AI examples, only after fact-checker confirmation: Crusoe (Denver-based, builds data centers for AI firms, large rounds in October 2025) and MagicSchool (Denver AI ed-tech, raised $45M), both from BusinessDen roundups (https://businessden.com/?p=128019 , https://businessden.com/?p=128252). Name them only as examples of Denver AI companies, never as clients or prospects.",
     "CONFLICT (working hours): the site publishes no fixed working hours. hire-ui-ux-designers.json says 'Every designer overlaps at least 4 hours with US Eastern time', which guarantees no overlap count with Mountain Time. The writer states the 2-hour gap and the ET-overlap fact and gives clock-time examples, but must not promise 'X hours of overlap with Denver'. The owner may publish hours later.",
     "CONFLICT (remote case studies): the case studies do not say the work was remote. Write 'None of these clients is in Colorado' and stop there.",
