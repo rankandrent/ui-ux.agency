@@ -147,7 +147,7 @@
   ],
   "sections": [
     {
-      "h2": "What does a UX agency Minneapolis teams hire remotely do?",
+      "h2": "What work does a remote UX agency do for Minneapolis teams?",
       "format": "paragraph",
       "answer": "<strong>A UX agency Minneapolis teams hire remotely researches users, designs AI and SaaS product flows, tests them as clickable prototypes and supports engineers during the build.</strong> Our team does this from Reston, VA, in shared Figma files, with reviews in the hours Central and Eastern Time share.",
       "body": "<p>AI features need prompt input, answers with sources and edit, retry or reject controls, the core of our <a href=\"/services/ai-products/ai-ux-design-agency/\">AI UX design agency</a> work. SaaS products need onboarding, dashboards and phased redesigns, which our <a href=\"/services/saas-products/saas-design-agency/\">SaaS design agency</a> team handles. Startup MVPs need a first version users trust. We keep no Minneapolis office; the team is remote by design.</p>",
@@ -165,7 +165,7 @@
       }
     },
     {
-      "h2": "What does the Minneapolis–Saint Paul tech scene look like?",
+      "h2": "How big is the Minneapolis–Saint Paul tech economy?",
       "format": "table",
       "answer": "<strong>Minneapolis–Saint Paul pairs a large enterprise base with an active startup community: Minnesota counted nearly 110,000 information technology (IT) workers in 2024, about one in every 25 jobs.</strong> The table compares the main parts of the Twin Cities tech economy and where each figure comes from.",
       "caption": "Minneapolis–Saint Paul tech scene facts and sources",
@@ -332,7 +332,7 @@
       ]
     },
     {
-      "h2": "Which AI and SaaS case studies show how we work?",
+      "h2": "Which AI and SaaS client results can you check?",
       "format": "cards",
       "answer": "<strong>Four client projects trace our AI and SaaS process, from stakeholder input to measured results.</strong> They show the process a Minneapolis team would get, with the figures each client page reports.",
       "items": [
@@ -404,7 +404,7 @@
       ]
     },
     {
-      "h2": "UX agency Minneapolis FAQs",
+      "h2": "What do Minneapolis teams ask a remote UX agency?",
       "format": "faq",
       "answer": "<strong>These answers cover the questions Minneapolis–Saint Paul teams raise before hiring a remote UX agency.</strong> Topics run from the office question and customer research to monthly designers, start dates, health tech work and the build.",
       "faqs": [
