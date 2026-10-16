@@ -27,8 +27,8 @@ export function HeroTrust() {
       </div>
       <ul className="htrust__checks">
         <li>Senior designers only</li>
-        <li>NDA before the first call</li>
-        <li>Reply within 1 business day</li>
+        <li>NDA signed on request</li>
+        <li>Answer within one business day, ET</li>
       </ul>
     </div>
   );

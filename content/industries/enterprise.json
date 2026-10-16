@@ -8,7 +8,14 @@
   "sourceContext": "ui-ux.agency, the design team of tkxel: a remote-first US agency (Reston, VA, since 2017) that designs SaaS platforms, internal tools and AI features for US software companies and the IT and product teams that buy and roll them out.",
   "metaTitle": "Enterprise UX Design for SaaS, AI and Internal Tools",
   "metaDescription": "Enterprise UX for SaaS and internal tools with AI: roles and permissions, data-dense dashboards, design systems and WCAG 2.2 AA. Book a free consultation.",
-  "keywords": ["enterprise ux", "enterprise ux design", "enterprise ux design agency", "enterprise software ux", "internal tools ux", "enterprise dashboard design"],
+  "keywords": [
+    "enterprise ux",
+    "enterprise ux design",
+    "enterprise ux design agency",
+    "enterprise software ux",
+    "internal tools ux",
+    "enterprise dashboard design"
+  ],
   "hero": {
     "eyebrow": "Enterprise UX",
     "h1": "Enterprise UX for SaaS platforms and internal tools your teams adopt",
@@ -25,10 +32,22 @@
     "Accessible Figma design systems with tokens, annotated for WCAG 2.2 AA (Web Content Accessibility Guidelines)"
   ],
   "stats": [
-    { "value": "200+", "label": "digital products designed" },
-    { "value": "30%", "label": "increase in order processing efficiency (Mass Media Co.)" },
-    { "value": "37%", "label": "of US firms with 250+ employees use AI (US Census Bureau, 2026)" },
-    { "value": "101", "label": "apps per company, global average (Okta Businesses at Work 2025)" }
+    {
+      "value": "200+",
+      "label": "digital products designed"
+    },
+    {
+      "value": "30%",
+      "label": "increase in order processing efficiency (Mass Media Co.)"
+    },
+    {
+      "value": "37%",
+      "label": "of US firms with 250+ employees use AI (US Census Bureau, 2026)"
+    },
+    {
+      "value": "101",
+      "label": "apps per company, global average (Okta Businesses at Work 2025)"
+    }
   ],
   "challenges": [
     {
@@ -157,7 +176,13 @@
       "a": "<strong>Enterprise UX design with us costs $40,000–$180,000 for a full SaaS product, or $50,000–$200,000 for a phased redesign over 8–20 weeks.</strong> AI UX design runs $25,000–$90,000, and an embedded team costs $15,000–$40,000 per month. The number of roles, workflows and platforms sets the final price. Our guide to <a href=\"/services/ui-ux-design-cost/\">UI UX design cost by engagement</a> explains each price factor."
     }
   ],
-  "relatedServices": ["saas-design-agency", "saas-product-redesign", "ai-ux-design-agency", "ai-product-discovery-workshop", "hire-ui-ux-designers"],
+  "relatedServices": [
+    "saas-design-agency",
+    "saas-product-redesign",
+    "ai-ux-design-agency",
+    "ai-product-discovery-workshop",
+    "hire-ui-ux-designers"
+  ],
   "headings": {
     "caseStudies": "Which enterprise UX projects have we shipped?",
     "challenges": "What makes enterprise UX harder than consumer UX?",
@@ -168,5 +193,17 @@
     "faqs": "Enterprise UX FAQs from product, IT and security leads",
     "posts": "Enterprise UX guides"
   },
-  "mentions": ["enterprise software", "role-based access control", "single sign-on", "SCIM", "SOC 2", "Section 508", "WCAG 2.2", "Accessibility Conformance Report", "NIST AI Risk Management Framework", "design system", "Figma"]
+  "mentions": [
+    "enterprise software",
+    "role-based access control",
+    "single sign-on",
+    "SCIM",
+    "SOC 2",
+    "Section 508",
+    "WCAG 2.2",
+    "Accessibility Conformance Report",
+    "NIST AI Risk Management Framework",
+    "design system",
+    "Figma"
+  ]
 }

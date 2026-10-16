@@ -148,7 +148,7 @@ function load() {
 }
 
 export const getServices = () => load().services;
-export const getIndustries = () => load().industries;
+export const getIndustries = () => load().industries.filter((i) => !i.draft || process.env.SHOW_DRAFTS === "1");
 /** Published city pages. Drafts are left out of the build entirely (set SHOW_DRAFTS=1 to preview them locally). */
 export const getLocations = () => load().locations.filter((l) => !l.draft || process.env.SHOW_DRAFTS === "1");
 export const getLocation = (slug: string) => getLocations().find((l) => l.slug === slug);

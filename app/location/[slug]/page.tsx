@@ -89,7 +89,7 @@ export default async function LocationPage({ params }: Props) {
       <Faq heading={faqSection?.h2 ?? `${cap(anchorOf(l))} FAQs`} intro={faqSection?.answer} items={faqs} />
 
       <LinkChips
-        heading="We also work with teams in"
+        heading="Other cities our team designs for"
         tone="warm"
         items={nearby.map((x) => ({ title: cap(anchorOf(x)), href: routes.location(x.slug) }))}
       />

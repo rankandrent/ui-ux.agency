@@ -80,7 +80,7 @@ export function ServiceView({ s }: { s: Service }) {
         sub={s.hero.sub}
         trust
         aside={
-          <FormCard title="Get a free consultation" sub="Free consultation · reply within one business day">
+          <FormCard title="Get a free consultation" sub="No-cost project review · answer within one business day, ET">
             <LeadForm interests={[s.title, ...formInterests.filter((i) => i !== s.title)]} source={`service: ${s.slug}`} />
           </FormCard>
         }

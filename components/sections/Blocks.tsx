@@ -109,7 +109,7 @@ export function ServiceGrid({
         </div>
         {allHref && (
           <div style={{ marginTop: 40 }}>
-            <Link href={allHref} className="btn btn--dark-outline">View all UI UX design services</Link>
+            <Link href={allHref} className="btn btn--dark-outline">See every design service</Link>
           </div>
         )}
       </div>
@@ -207,8 +207,8 @@ export function Benefits({ heading, items, ctaTitle, cta = "Book a discovery cal
 
 /* ---------- Final CTA with form (form is passed in) ---------- */
 export function FinalCta({
-  heading = "Ready to launch faster and convert more users?",
-  sub = "Send us your project. A design lead reviews it and schedules a call within one business day. We sign an NDA before the first technical discussion if you prefer.",
+  heading = "Have an AI or SaaS product to design?",
+  sub = "Tell us what you are building. A senior designer reads it, replies within one business day (ET) and books a call. Need an NDA first? We sign one before any technical detail.",
   testimonial,
   children,
 }: {
@@ -258,7 +258,7 @@ export function Faq({
           <Html as="p" className="faq2__intro" html={intro} />
           <div className="faq2__card">
             <p className="faq2__card-title">Still have a question?</p>
-            <p>A design lead answers every message within one business day.</p>
+            <p>A senior designer replies to every message within one business day (ET).</p>
             <a href="#cta-form" className="btn">Talk to a design lead</a>
           </div>
         </div>

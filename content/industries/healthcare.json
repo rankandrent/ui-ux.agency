@@ -1,0 +1,242 @@
+{
+  "title": "Healthcare",
+  "order": 1,
+  "draft": true,
+  "updated": "2026-10-16",
+  "anchor": "healthcare UX design",
+  "centralEntity": "healthcare UX design",
+  "sourceContext": "ui-ux.agency (the design team of tkxel, Reston, VA, in business since 2017, 200+ products designed) designs AI and SaaS products. This page frames healthcare UX design for US digital health SaaS, clinical AI, telehealth and wellness apps, with HIPAA, FTC, FDA, ONC, Section 504/508, ADA and WCAG 2.2 AA shown as screen decisions. We are designers, not regulatory counsel.",
+  "metaTitle": "Healthcare UX Design | AI, SaaS and Telehealth Products",
+  "metaDescription": "Healthcare UX design for digital health SaaS, clinical AI and telehealth apps, built around HIPAA, FDA CDS guidance and WCAG 2.2 AA. Book a free consultation.",
+  "keywords": [
+    "healthcare ux design",
+    "healthcare app design",
+    "healthcare ux",
+    "healthcare ux design agency",
+    "healthcare ui ux design",
+    "digital health ux",
+    "clinical ai ux",
+    "telehealth app design"
+  ],
+  "hero": {
+    "eyebrow": "Healthcare UX design",
+    "h1": "Healthcare UX design for digital health SaaS, clinical AI and telehealth apps",
+    "sub": "We design patient, caregiver and clinician experiences where AI output is checkable, protected health information stays out of sight until it is needed, and every screen is built to WCAG 2.2 AA (Web Content Accessibility Guidelines)."
+  },
+  "abstract": "Healthcare UX design is the user experience (UX) design of digital health products, so patients, caregivers and clinicians can act on health information safely and quickly. At ui-ux.agency, part of tkxel, we design software as a service (SaaS), clinical artificial intelligence (AI), telehealth and wellness products for US companies, turning privacy, medical-device and accessibility rules into screen decisions.",
+  "summary": "Healthcare UX design for digital health SaaS, clinical AI copilots, telehealth and wellness apps, built for patients, caregivers and clinicians.",
+  "intro": "A patient, a caregiver with proxy access and a clinician often open the same record on three different screens. Good health app UX decides what each of them sees first, what stays hidden and where AI output waits for a human check.",
+  "bullets": [
+    "Clinical AI copilots and clinical decision support screens that show the basis for every suggestion",
+    "Digital health SaaS for clinics, care teams and payers: scheduling, intake forms, admin and reporting",
+    "Telehealth, virtual-care and remote patient monitoring apps, from the device check to the visit summary",
+    "Patient portal design and caregiver apps with proxy access settings and plain-language results views",
+    "Wellness app design for coaching and habits, like the Elia Wellness platform for adults over 50"
+  ],
+  "stats": [
+    {
+      "value": "65%",
+      "label": "of US individuals were offered and accessed an online medical record or patient portal in 2024 (ASTP/ONC Data Brief 77)"
+    },
+    {
+      "value": "59%",
+      "label": "of US individuals had more than one patient portal in 2024; only 7% used an app to combine them (ASTP/ONC)"
+    },
+    {
+      "value": "66%",
+      "label": "of physicians in an American Medical Association (AMA) survey used health AI in 2024, up from 38% in 2023"
+    },
+    {
+      "value": "45.9/100",
+      "label": "average System Usability Scale score 870 US physicians gave their electronic health records (EHRs) (Mayo Clinic Proceedings, 2019)"
+    }
+  ],
+  "challenges": [
+    {
+      "title": "Three users read the same record",
+      "body": "<strong>One chart has to open three ways: for the patient, the caregiver and the clinician.</strong> The patient wants a plain-language results view, the caregiver needs only the access the patient approved, and clinician dashboard design leads with trends and open orders. Data from the Assistant Secretary for Technology Policy and Office of the National Coordinator for Health IT (ASTP/ONC) show caregiver proxy access rising between 2020 and 2024. We design role-based views and consent-aware proxy flows."
+    },
+    {
+      "title": "Clinicians have seconds, not minutes",
+      "body": "<strong>Clinicians judge a new tool by the clicks it adds to a clinical workflow they already rate poorly.</strong> In a 2019 Mayo Clinic Proceedings study of 870 US physicians, EHR usability averaged 45.9 out of 100, and each 1-point gain was linked to about 3% lower odds of burnout. That finding is a correlation, not a cause. We time each task in the current workflow before we add a single screen to it."
+    },
+    {
+      "title": "AI output has to be checkable",
+      "body": "<strong>Physicians set conditions before they adopt AI, and each condition becomes a screen.</strong> In the AMA's 2024 physician survey, the top requirements were a designated feedback channel (88%), data privacy assurances (87%) and EHR integration (84%). We turn them into a flag-this-answer control, a privacy note at the point of use and a launch from inside the EHR, with the source of each AI answer one tap away."
+    },
+    {
+      "title": "Regulation shows up as interface copy",
+      "body": "<strong>Consent screens, notification text and result labels in digital health carry legal weight.</strong> The Health Insurance Portability and Accountability Act (HIPAA) minimum necessary standard shapes how much each role's view shows. Wellness apps outside HIPAA still fall under the Federal Trade Commission (FTC) Health Breach Notification Rule, amended effective July 29, 2024. For sensor-based products, the Food and Drug Administration (FDA) general wellness guidance, reissued January 2026, keeps disease names and 'abnormal' labels out. Your regulatory counsel confirms which rules apply."
+    },
+    {
+      "title": "Patients juggle portals and devices",
+      "body": "<strong>A new patient app lands on a phone that already holds several portals, so sign-in, account linking and record import are its first hurdles.</strong> ASTP/ONC reports that app-based access to online medical records rose from 38% in 2020 to 57% in 2024. We design those first-run steps, plus the <a href=\"/services/saas-products/saas-onboarding-design/\">clinic onboarding flows</a> on the staff side, before any feature screen."
+    }
+  ],
+  "solutions": [
+    {
+      "title": "Recommendation panels clinicians can verify",
+      "body": "<strong>A recommendation panel shows the clinician the basis for each suggestion before they act on it.</strong> FDA's clinical decision support (CDS) guidance, revised January 6, 2026, explains the four non-device criteria in section 520(o)(1)(E) of the Federal Food, Drug, and Cosmetic Act; one is that a health care professional can independently review that basis. We place inputs, source, logic summary and known limits beside accept, edit and dismiss. Your regulatory counsel makes the classification call."
+    },
+    {
+      "title": "Patient-facing AI with clear limits",
+      "body": "<strong>Patient-facing AI gets no CDS exclusion, because the non-device criteria cover only software that supports health care professionals.</strong> A symptom checker or triage chat therefore opens with a scope statement, shows what the tool cannot do, avoids diagnosis wording and offers a clear route to a person. Our <a href=\"/services/ai-products/chatbot-ui-design/\">conversational intake and triage design</a> builds these states in. Your regulatory counsel judges whether the tool is a device."
+    },
+    {
+      "title": "AI interfaces ready for model updates",
+      "body": "<strong>Version labels, 'what changed' notes and stable controls let a model update ship without forcing clinicians to relearn the screen.</strong> FDA's final guidance on Predetermined Change Control Plans (PCCPs) lets makers of AI-enabled device software describe planned model changes in advance. ONC's HTI-1 (Health Data, Technology, and Interoperability) rule asks certified health IT to show source attributes for predictive decision support; the HTI-5 proposal would remove that requirement and is not final. Your regulatory counsel confirms which applies."
+    },
+    {
+      "title": "Privacy patterns for protected health information",
+      "body": "<strong>Protected health information (PHI) stays off lock screens and shared views until the right user opens it.</strong> For apps under HIPAA, notification text reads 'You have a new message' and carries no PHI. We mask fields during screen sharing, add session timeouts that keep work, write consent and data sharing choices in plain language, let patients switch caregiver access off, and give admins an audit log. These patterns support a HIPAA or FTC program; on their own, they do not make an app compliant."
+    },
+    {
+      "title": "Telehealth visits that start on time",
+      "body": "<strong>Healthcare app design for telehealth and wellness visits starts before the video connects.</strong> In a telehealth app, a visit waiting room shows status while a camera and microphone check runs. We map telehealth UX as states: one-tap joining for a caregiver or interpreter, an audio-only fallback and a plain-language summary at the end. The Department of Health and Human Services Office for Civil Rights (HHS OCR) has published guidance on audio-only telehealth under HIPAA."
+    },
+    {
+      "title": "Accessible components to WCAG 2.2 AA",
+      "body": "<strong>Our design system builds WCAG 2.2 AA into every component, so accessibility work does not restart on each new screen.</strong> Of the WCAG 2.2 additions, we apply Target Size (Minimum) 2.5.8 at 24 by 24 CSS pixels, Accessible Authentication (Minimum) 3.3.8 so sign-in needs no memory test, Focus Not Obscured (Minimum) 2.4.11, and Consistent Help 3.2.6, which keeps a 'call the clinic' link in the same relative place. Content that conforms to WCAG 2.2 also conforms to 2.1 and 2.0."
+    }
+  ],
+  "cta": {
+    "heading": "Planning a clinical AI feature or a telehealth launch?",
+    "body": "Send us the workflow and the user roles. A senior designer replies within one business day, Eastern Time (ET).",
+    "cta": "Get a free consultation"
+  },
+  "benefits": [
+    {
+      "title": "AI UX is our core work",
+      "body": "<strong>Clinical AI UX needs the input, output, review and correction patterns that our <a href=\"/services/ai-products/ai-ux-design-agency/\">AI UX design</a> service is built on.</strong> We prototype with real or recorded model output, so testers meet the model's actual errors instead of tidy sample text. That is the version of the tool a clinician will meet on a busy shift."
+    },
+    {
+      "title": "SaaS metrics, not only screens",
+      "body": "<strong>We design digital health SaaS around activation, retention and expansion, the metrics every subscription business runs on.</strong> For a clinic product, that means onboarding a whole practice, seats and roles for each staff member, and admin areas that billing and IT teams can run alone. Our <a href=\"/services/saas-products/saas-design-agency/\">digital health SaaS design</a> work ties each flow to one of those numbers."
+    },
+    {
+      "title": "Proof from a real wellness platform",
+      "body": "<strong>We designed the <a href=\"/case-studies/elia-wellness/\">Elia Wellness platform for adults over 50</a>, a wellness learning product with a website, web app and mobile app.</strong> It joins seven wellness dimensions in one score, badges and bucket-list rewards, a community feed, and a tablet questionnaire with big tap areas and simple rating scales. Registrations grew 40%. For an older audience, wellness app design starts with plain navigation and readable layouts."
+    },
+    {
+      "title": "US hours, one office",
+      "body": "<strong>Senior designers work remotely with US teams in ET and Pacific Time (PT) hours, and our only office is in Reston, VA.</strong> We have designed 200+ products since 2017. Medical UX design needs the right people in the room, so our designers work beside your regulatory, privacy and quality leads and follow their decisions. We do not replace them."
+    }
+  ],
+  "process": [
+    {
+      "title": "Workflow and risk map (1–2 weeks)",
+      "body": "We map each user role, where PHI appears, where AI output enters a decision and which regulations your counsel says apply."
+    },
+    {
+      "title": "Flows and patterns (2–3 weeks)",
+      "body": "We design role-based flows, consent and notification copy, AI review states and accessible components."
+    },
+    {
+      "title": "Prototype and test (1–3 weeks)",
+      "body": "We prototype with realistic sample data that holds no real patient records and test with 5 to 8 target users on real tasks."
+    },
+    {
+      "title": "Handoff (1 week)",
+      "body": "You get specs, a WCAG 2.2 AA checklist per component and a digital health UX pattern guide your engineers and quality team can use."
+    }
+  ],
+  "useDefaults": false,
+  "faqs": [
+    {
+      "q": "Can UX design make a health app HIPAA compliant?",
+      "a": "No. HIPAA compliance comes from administrative, physical and technical safeguards, a risk analysis and business associate agreements (BAAs); HHS OCR treats a cloud provider that stores electronic PHI as a business associate even when the data is encrypted. Design supports that program with minimum-necessary views, PHI-free notifications, timeouts and clear consent. The HIPAA Security Rule update proposed on January 6, 2025 is not final, so your regulatory counsel decides what your app needs."
+    },
+    {
+      "q": "When does an AI feature make health software an FDA medical device?",
+      "a": "An AI feature makes health software a device when its intended use meets the FDA device definition and no exclusion applies. For clinician-facing clinical decision support, the four criteria in section 520(o)(1)(E) decide, and one is a design question: can the clinician independently review the basis for the recommendation? Patient-facing tools do not get that exclusion, and wellness-only products can fall under the general wellness policy. Your regulatory counsel decides whether you have software as a medical device; we design to that decision."
+    },
+    {
+      "q": "Which accessibility standard should a US digital health product meet?",
+      "a": "Design to WCAG 2.2 AA, because 2.2 AA conformance also meets the 2.1 and 2.0 levels that US rules cite. HHS's Section 504 rule sets WCAG 2.1 AA for the websites and apps of HHS-funded recipients, and an interim final rule announced May 7, 2026 moved compliance to May 11, 2027 (15+ employees) and May 10, 2028 (smaller recipients). Section 508 uses WCAG 2.0 AA for federal technology, and Americans with Disabilities Act (ADA) Title II reaches public hospitals run by state and local governments."
+    },
+    {
+      "q": "Do wellness apps outside HIPAA still have privacy rules?",
+      "a": "Yes. The FTC Health Breach Notification Rule covers health apps and connected devices that HIPAA does not, and since its amendments took effect on July 29, 2024, an unauthorized disclosure counts as a breach. Notice is due no later than 60 calendar days after discovery. The FTC Act and state laws such as California's Consumer Privacy Act and Privacy Rights Act (CCPA/CPRA) apply too, and the General Data Protection Regulation (GDPR) matters if you also sell in the EU. Your regulatory counsel confirms the list."
+    },
+    {
+      "q": "How do 21st Century Cures Act rules change a patient app's UX?",
+      "a": "The Cures Act rules let patients send their records to the apps they choose, so connecting records becomes a core flow. Certified health IT must offer a standardized FHIR API that each patient app connects to (FHIR is Fast Healthcare Interoperability Resources), and information blocking rules bind providers, certified health IT developers and health information networks and exchanges. HHS OCR says a provider cannot refuse access only because an app does not encrypt data at rest. We design a plain notice that HIPAA stops protecting data once it reaches an app HIPAA does not cover, and your regulatory counsel approves its wording."
+    },
+    {
+      "q": "How much does a digital health design project cost?",
+      "a": "We price by service, with no separate healthcare rate: MVP design runs $15,000–$50,000 over 4–8 weeks, AI UX design $25,000–$90,000 over 4–10 weeks, and SaaS design $40,000–$180,000 over 6–16 weeks. The number of user types and platforms moves the price most; see <a href=\"/services/ui-ux-design-cost/#which-factors-change-ui-ux-design-cost\">what changes the price of a design project</a>. For a new product, start with <a href=\"/services/startups/mvp-design-agency/\">digital health MVP design</a>. A healthcare UX design agency like ours follows the first call with a fixed-scope proposal."
+    }
+  ],
+  "relatedServices": [
+    "ai-ux-design-agency",
+    "saas-design-agency",
+    "mvp-design-agency",
+    "chatbot-ui-design",
+    "ai-product-discovery-workshop",
+    "product-design-agency"
+  ],
+  "headings": {
+    "challenges": "What makes healthcare UX design harder than other SaaS design?",
+    "services": "Which of our services cover healthcare UX design?",
+    "solutions": "How does healthcare UX design handle AI, FDA and HIPAA on the screen?",
+    "benefits": "Why do digital health teams choose our healthcare UX design team?",
+    "process": "How does a healthcare UX design project run?",
+    "faqs": "What do digital health founders ask about healthcare UX design?",
+    "posts": "Healthcare product design guides"
+  },
+  "mentions": [
+    "HIPAA",
+    "FTC Health Breach Notification Rule",
+    "FDA clinical decision support",
+    "general wellness",
+    "Predetermined Change Control Plan",
+    "21st Century Cures Act",
+    "WCAG 2.2 AA",
+    "Section 504",
+    "Section 508",
+    "telehealth"
+  ],
+  "semantic": {
+    "entities": [
+      "healthcare UX design",
+      "digital health",
+      "HIPAA",
+      "protected health information",
+      "business associate agreement",
+      "FTC Health Breach Notification Rule",
+      "FDA",
+      "clinical decision support",
+      "software as a medical device",
+      "general wellness",
+      "Predetermined Change Control Plan",
+      "ONC / ASTP",
+      "21st Century Cures Act",
+      "information blocking",
+      "FHIR API",
+      "HTI-1",
+      "EHR",
+      "patient portal",
+      "telehealth",
+      "caregiver proxy access",
+      "clinician",
+      "WCAG 2.2 AA",
+      "Section 504",
+      "Section 508",
+      "ADA"
+    ],
+    "ngrams": [
+      "healthcare ux design",
+      "healthcare app design",
+      "healthcare ux",
+      "digital health",
+      "clinical decision support",
+      "patient portal",
+      "protected health information",
+      "telehealth app",
+      "software as a medical device",
+      "wcag 2.2 aa",
+      "clinical workflow",
+      "caregiver access"
+    ]
+  }
+}

@@ -23,7 +23,7 @@ export function PillarPage({ p }: { p: Pillar }) {
         sub={p.hero.sub}
         trust
         aside={
-          <FormCard title="Get a free consultation" sub="Free consultation · reply within one business day">
+          <FormCard title="Get a free consultation" sub="No-cost project review · answer within one business day, ET">
             <LeadForm interests={formInterests} source={`pillar: ${p.slug}`} />
           </FormCard>
         }

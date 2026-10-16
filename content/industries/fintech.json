@@ -32,10 +32,22 @@
     "Consent, disclosure, dispute and data-sharing screens annotated for your compliance team's review"
   ],
   "stats": [
-    { "value": "+40%", "label": "user interaction after the TradeZella dashboard redesign" },
-    { "value": "+25%", "label": "user retention for TradeZella after the redesign" },
-    { "value": "14 hrs", "label": "saved per week with automated payouts in the Anyday App" },
-    { "value": "48.3%", "label": "of banked US households used mobile banking as their primary access method in 2023 (FDIC survey)" }
+    {
+      "value": "+40%",
+      "label": "user interaction after the TradeZella dashboard redesign"
+    },
+    {
+      "value": "+25%",
+      "label": "user retention for TradeZella after the redesign"
+    },
+    {
+      "value": "14 hrs",
+      "label": "saved per week with automated payouts in the Anyday App"
+    },
+    {
+      "value": "48.3%",
+      "label": "of banked US households used mobile banking as their primary access method in 2023 (FDIC survey)"
+    }
   ],
   "challengesIntro": "<strong>Fintech UX design carries every job of SaaS design, plus a regulator, a fraud team and a user who is nervous about money.</strong>",
   "challenges": [
@@ -276,5 +288,6 @@
       "payments UX"
     ]
   },
-  "updated": "2026-10-16"
+  "updated": "2026-10-16",
+  "draft": true
 }

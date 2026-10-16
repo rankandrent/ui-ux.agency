@@ -93,7 +93,7 @@ export function Header({ serviceGroups, industries, locations }: { serviceGroups
           {!!locations.length && <div className="hdr__dd hdr__dd--mega">
             <Link href={routes.locations}>Locations</Link>
             <div className="hdr__dd-panel mega mega--ind mega--loc">
-              <p className="mega__cat">UX design agency near you</p>
+              <p className="mega__cat">Cities we design for</p>
               <ul className="mega__grid">
                 {locations.map((i) => (
                   <li key={i.href}>
