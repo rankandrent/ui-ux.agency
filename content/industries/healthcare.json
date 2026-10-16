@@ -1,7 +1,7 @@
 {
   "title": "Healthcare",
   "order": 1,
-  "draft": true,
+  "draft": false,
   "updated": "2026-10-16",
   "anchor": "healthcare UX design",
   "centralEntity": "healthcare UX design",

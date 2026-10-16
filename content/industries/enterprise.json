@@ -1,7 +1,7 @@
 {
   "title": "Enterprise software",
   "order": 1,
-  "draft": true,
+  "draft": false,
   "updated": "2026-10-16",
   "anchor": "enterprise UX",
   "centralEntity": "enterprise UX",

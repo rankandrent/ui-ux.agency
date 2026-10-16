@@ -1,5 +1,5 @@
 {
-  "draft": true,
+  "draft": false,
   "order": 3,
   "title": "San Diego",
   "city": "San Diego",
@@ -283,7 +283,7 @@
     {
       "h2": "How do Eastern and Pacific Time line up for reviews?",
       "format": "table",
-      "answer": "<strong>San Diego runs on Pacific Time (PT), 3 hours behind Eastern Time (ET) all year, so a call set for 1 p.m. ET begins at 10 a.m. in San Diego.</strong> The example table converts common meeting times between the two time zones.",
+      "answer": "<strong>San Diego keeps Pacific Time (PT), which trails Eastern Time (ET) by 3 hours year-round: a 1 p.m. ET design review opens at 10 a.m. in San Diego.</strong> The example table converts common meeting times between the two time zones.",
       "caption": "Example: how meeting times convert from Eastern Time to San Diego's Pacific Time",
       "columns": [
         "Eastern Time (ET)",

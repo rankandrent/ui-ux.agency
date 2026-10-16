@@ -81,6 +81,19 @@
       "skipped": [
         "ai use cases in cyber security, saas homepage design, enterprise ai use cases (off-audience, as on 2026-10-15)"
       ]
+    },
+    {
+      "date": "2026-10-16",
+      "goal": "3 location pages + 3 industry pages (owner request)",
+      "jobs": [
+        "/industries/fintech/",
+        "/industries/healthcare/",
+        "/industries/enterprise/",
+        "/location/ux-agency-denver/",
+        "/location/ux-design-san-diego/",
+        "/location/ux-agency-minneapolis/"
+      ],
+      "qa": "all PASS (Denver fact-check 1 loop, Minneapolis QA 1 loop)"
     }
   ]
 }

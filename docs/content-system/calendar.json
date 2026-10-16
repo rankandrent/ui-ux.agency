@@ -27,9 +27,11 @@
         "ux design denver",
         "ux designer denver"
       ],
-      "volume": 180,
+      "volume": 80,
       "source": "Ahrefs US 2026-10-14",
-      "status": "todo"
+      "status": "done",
+      "published": "2026-10-16",
+      "clusterVolume": 180
     },
     {
       "type": "location",
@@ -39,9 +41,11 @@
         "ux designer san diego",
         "ux design company san diego"
       ],
-      "volume": 110,
+      "volume": 40,
       "source": "Ahrefs US 2026-10-14",
-      "status": "todo"
+      "status": "done",
+      "published": "2026-10-16",
+      "clusterVolume": 110
     },
     {
       "type": "location",
@@ -50,7 +54,8 @@
       "secondary": [],
       "volume": 70,
       "source": "Ahrefs US 2026-10-14",
-      "status": "todo"
+      "status": "done",
+      "published": "2026-10-16"
     },
     {
       "type": "location",
@@ -201,8 +206,10 @@
       "type": "industry",
       "slug": "fintech",
       "keyword": "fintech ux design",
-      "volume": 800,
-      "status": "todo"
+      "volume": 300,
+      "status": "done",
+      "published": "2026-10-16",
+      "clusterVolume": 800
     },
     {
       "type": "location",
@@ -228,8 +235,10 @@
       "type": "industry",
       "slug": "healthcare",
       "keyword": "healthcare ux design",
-      "volume": 800,
-      "status": "todo"
+      "volume": 200,
+      "status": "done",
+      "published": "2026-10-16",
+      "clusterVolume": 800
     },
     {
       "type": "location",
@@ -246,7 +255,8 @@
       "slug": "enterprise",
       "keyword": "enterprise ux",
       "volume": 150,
-      "status": "todo"
+      "status": "done",
+      "published": "2026-10-16"
     },
     {
       "type": "location",
