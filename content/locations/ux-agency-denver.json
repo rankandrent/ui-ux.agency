@@ -110,7 +110,13 @@
       "h2": "What can a UX agency Denver teams hire remotely design?",
       "format": "paragraph",
       "answer": "<strong>Our designers shape the user experience (UX) and user interface (UI) of AI features, SaaS products and startup MVPs, from research and flows to a tested clickable prototype.</strong> Your engineers build from those files, and we stay through the build to answer their questions.",
-      "body": "<p>As a remote design team, we keep every file in Figma and walk through it on video calls across the 2-hour gap. Typical work: an AI copilot inside an existing app, a support chatbot, SaaS onboarding that lifts activation, or a seed-stage MVP. ui-ux.agency is the design team of tkxel, so designs are checked for build effort, and we have designed 200+ products since 2017. Start with <a href=\"/services/ai-products/\">AI product design</a> or <a href=\"/services/saas-products/\">SaaS product design</a>.</p>"
+      "body": "<p>As a remote design team, we keep every design file in Figma and walk through it on video calls across the 2-hour gap. Typical work: an AI copilot inside an existing app, a support chatbot, SaaS onboarding that lifts activation, or a seed-stage MVP. ui-ux.agency is the design team of tkxel, so designs are checked for build effort, and we have designed 200+ products since 2017. Start with <a href=\"/services/ai-products/\">AI product design</a> or <a href=\"/services/saas-products/\">SaaS product design</a>.</p>",
+      "image": {
+        "src": "/locations/ux-agency-denver.svg",
+        "alt": "UX design for Denver, CO product teams: AI feature design, SaaS onboarding and a 2-hour time gap, tested with real users",
+        "caption": "UX design for Denver teams: AI feature design, SaaS onboarding and a 2-hour time gap",
+        "text": ["Denver, CO", "AI feature design", "SaaS onboarding", "2-hour time gap", "Tested with real users"]
+      }
     },
     {
       "h2": "What does Denver's tech scene look like in 2026?",
@@ -119,7 +125,7 @@
       "items": [
         {
           "title": "Talent pool and pay",
-          "body": "CBRE ranked Denver 14th overall in 2025, with tech at 6.8% of local employment against a 5.3% average for the top 50 markets; the 2026 edition placed it 16th. In May 2025, computer and math jobs in the metro paid a mean of $62.33 an hour. Sources: <a href=\"https://milehighcre.com/cbres-annual-scoring-tech-talent-ranks-denver-14th-overall/\">CBRE 2025, via Mile High CRE</a>, <a href=\"https://milehighcre.com/denver-remains-major-tech-hub-as-colorado-springs-ranks-among-top-emerging-markets/\">CBRE 2026</a> and the <a href=\"https://www.bls.gov/regions/mountain-plains/news-release/occupationalemploymentandwages_denver.htm\">U.S. Bureau of Labor Statistics (BLS)</a>."
+          "body": "CBRE ranked Denver 14th overall in 2025, with tech at 6.8% of local employment against a 5.3% average for the top 50 markets; the 2026 edition placed it 16th. In May 2025, computer and math jobs made up 5.4% of metro employment against 3.4% nationally, at a mean of $62.33 an hour against $57.73. Sources: <a href=\"https://milehighcre.com/cbres-annual-scoring-tech-talent-ranks-denver-14th-overall/\">CBRE 2025, via Mile High CRE</a>, <a href=\"https://milehighcre.com/denver-remains-major-tech-hub-as-colorado-springs-ranks-among-top-emerging-markets/\">CBRE 2026</a> and the <a href=\"https://www.bls.gov/regions/mountain-plains/news-release/occupationalemploymentandwages_denver.htm\">U.S. Bureau of Labor Statistics (BLS)</a>."
         },
         {
           "title": "Software and IT",
@@ -138,7 +144,7 @@
     {
       "h2": "How does Colorado's new AI law change AI product design?",
       "format": "table",
-      "answer": "<strong>From January 1, 2027, Colorado's SB 26-189 turns four duties into interface work: notice, an explanation after an adverse outcome, human review and data correction.</strong> The table maps each duty to the screen and design deliverable it needs. This is design guidance, not legal advice; confirm scope with counsel.",
+      "answer": "<strong>From January 1, 2027, Colorado's Senate Bill 26-189 (SB 26-189) turns four duties into interface work: notice, an explanation after an adverse outcome, human review and data correction.</strong> The table maps each duty to the screen and design deliverable it needs. This is design guidance, not legal advice; confirm scope with counsel.",
       "caption": "SB 26-189 duties and the screens they need",
       "columns": [
         "Duty",
@@ -219,7 +225,7 @@
     {
       "h2": "How do Mountain Time and Eastern Time working hours overlap?",
       "format": "table",
-      "answer": "<strong>Denver, on Mountain Time, runs 2 hours behind Eastern Time all year, so a Denver morning meets an East Coast midday.</strong> Every dedicated designer overlaps at least 4 hours with US Eastern time, and many teams choose full overlap. If those 4 hours run 9 a.m.–1 p.m. ET, only 9–11 a.m. falls inside a 9-to-5 Denver day, so agree the shared hours first; the example table shows how the clocks line up.",
+      "answer": "<strong>Denver, on Mountain Time, runs 2 hours behind Eastern Time all year, so a Denver morning meets an East Coast midday.</strong> Every dedicated designer overlaps at least 4 hours with US Eastern time, and many teams choose full overlap. If those 4 hours run 9 a.m.–1 p.m. ET (7–11 a.m. in Denver), only 9–11 a.m. falls inside a 9-to-5 Denver day, so agree the shared hours first; the example table shows how the clocks line up.",
       "caption": "Example: Denver and Eastern clock times for remote design work",
       "columns": [
         "Denver time (example)",
@@ -243,7 +249,7 @@
     {
       "h2": "Which AI and SaaS services fit a Denver team's stage?",
       "format": "table",
-      "answer": "<strong>The right service depends on what your team has today: an AI idea, a live SaaS product losing trial users, or a first version to test.</strong> The table matches each stage to a service with published prices and timelines.",
+      "answer": "<strong>The right service depends on what your team has today: an AI idea, a live SaaS product losing trial users or a first version to test.</strong> The table matches each stage to a service with published prices and timelines.",
       "caption": "ui-ux.agency services by product stage, with price and timeline",
       "columns": [
         "If your team has…",
@@ -289,7 +295,7 @@
     {
       "h2": "Which case studies show our AI and SaaS product work?",
       "format": "cards",
-      "answer": "<strong>Four projects show the AI and SaaS work Denver teams ask about most: two AI products built from zero and two SaaS redesigns.</strong> We do not present any of these clients as Colorado clients, and each figure comes from the client's case study page.",
+      "answer": "<strong>Four projects show the AI and SaaS work this page covers: two AI products built from zero and two SaaS redesigns.</strong> None of the four is presented as a Colorado client, and every figure is taken from that client's case study page.",
       "items": [
         {
           "title": "Vocable: AI writing workspace",
@@ -368,7 +374,7 @@
         },
         {
           "q": "Do you design AI features for Colorado's SB 26-189?",
-          "a": "<p>Yes. We design the notice, explanation and correction flows the law describes, plus the request path for an AI feature that needs human review, then test them with users. Signed on May 14, 2026, the law replaced SB 24-205, whose duties never took effect. The Colorado Attorney General enforces it, but under an April 27, 2026 federal court order in xAI v. Weiser, the office will not start enforcement until its rules are final and the court rules on a preliminary injunction. Your counsel confirms whether a feature is covered.</p>"
+          "a": "<p>Yes, we design the notice, explanation and correction flows the law describes, plus the request path for an AI feature that needs human review. Signed on May 14, 2026, the law replaced SB 24-205, whose duties never took effect. The Colorado Attorney General enforces it, but under an April 27, 2026 federal court order in xAI v. Weiser, the office will not start enforcement until its rules are final and the court rules on a preliminary injunction. Your counsel confirms whether a feature is covered.</p>"
         },
         {
           "q": "Does the Colorado Privacy Act affect our consent screens?",
@@ -376,7 +382,7 @@
         },
         {
           "q": "Can your designers join our sprint reviews from another time zone?",
-          "a": "<p>Yes. Our designers join sprint reviews and compare built screens with the Figma design, in hours your team shares with them. Denver and the Eastern zone change clocks on the same dates, next on November 1, 2026, so the 2-hour gap stays the same in working hours all year.</p>"
+          "a": "<p>Yes. Our designers join sprint reviews and compare built screens with the Figma design, in hours your team shares with them. Mountain Time and Eastern Time change clocks on the same dates, next on November 1, 2026, so the 2-hour gap stays the same in working hours all year.</p>"
         },
         {
           "q": "When can designers start on a Denver startup's product?",

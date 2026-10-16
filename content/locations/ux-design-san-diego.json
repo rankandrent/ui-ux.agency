@@ -1,6 +1,6 @@
 {
   "draft": true,
-  "order": 2,
+  "order": 3,
   "title": "San Diego",
   "city": "San Diego",
   "state": "CA",
@@ -145,9 +145,15 @@
   "sections": [
     {
       "h2": "What is UX design for San Diego AI and SaaS teams?",
+      "image": {
+        "src": "/locations/ux-design-san-diego.svg",
+        "alt": "San Diego, CA product design illustration: AI answers users trust, SaaS activation and lab data screens, tested with real users",
+        "caption": "San Diego, CA product design: AI answers users trust, SaaS activation and lab data screens, tested with real users",
+        "text": ["San Diego, CA", "AI answers users trust", "SaaS activation", "Lab data screens", "Tested with real users"]
+      },
       "format": "paragraph",
       "answer": "<strong>UX design San Diego teams can run remotely covers user research, user flows, interface design and clickable prototypes tested with real users, for AI and SaaS products.</strong> ui-ux.agency, tkxel's design team, handles the AI product design and SaaS product design over video calls and shared files.",
-      "body": "<p>The work suits founders and product leads at San Diego software, AI and life sciences companies. Engineers receive annotated design files, a component library and answers during every sprint. Products that answer with large language models (LLMs) follow our <a href=\"/services/ai-products/ai-ux-design-agency/\">AI UX design</a> method for review and correction. Our designers have worked on 200+ digital products since 2017. ui-ux.agency's only office is in Reston, Virginia; we have no San Diego office or local team.</p>"
+      "body": "<p>The work suits founders and product leads at San Diego software, AI and life sciences companies. Engineers receive annotated design files, a component library and answers during every sprint. Products that answer with large language models (LLMs) get our <a href=\"/services/ai-products/ai-ux-design-agency/\">AI UX design</a> method, built around how users review and correct each answer. Our designers have worked on 200+ digital products since 2017. ui-ux.agency's only office is in Reston, Virginia; we have no San Diego office or local team.</p>"
     },
     {
       "h2": "How does the UX design San Diego firms need vary by sector?",
@@ -156,7 +162,7 @@
       "items": [
         {
           "title": "Software and SaaS",
-          "body": "The <a href=\"https://www.sandiegobusiness.org/about-the-region/software/\">San Diego Regional Economic Development Corporation (EDC)</a> profiles software as one of the region's core industries. In SaaS products, activation rate rises or falls in onboarding, so dashboard design, admin and billing come after it."
+          "body": "The <a href=\"https://www.sandiegobusiness.org/about-the-region/software/\">San Diego Regional Economic Development Corporation (EDC)</a> profiles software as one of the region's core industries. In SaaS products, activation rate rises or falls in onboarding, so we design the path from sign-up to first result before dashboards, admin and billing."
         },
         {
           "title": "Life sciences software",
@@ -164,11 +170,11 @@
         },
         {
           "title": "Cybersecurity",
-          "body": "A 2025 study by San Diego Regional EDC and the <a href=\"https://www.sandiegobusiness.org/blog/study-san-diegos-4-3b-cyber-cluster-expands-amid-tech-contraction/\">Cyber Center of Excellence</a> counts 14,875 cybersecurity jobs at 1,350 establishments and a $4.3 billion regional economic impact. Cybersecurity products need alerts analysts can triage fast, role-based admin and SOC 2 evidence screens."
+          "body": "A 2025 study by San Diego Regional EDC and the <a href=\"https://www.sandiegobusiness.org/blog/study-san-diegos-4-3b-cyber-cluster-expands-amid-tech-contraction/\">Cyber Center of Excellence</a> counts 14,875 cybersecurity jobs at 1,350 establishments and a $4.3 billion regional economic impact. Cybersecurity products need alerts analysts can triage fast, role-based admin and System and Organization Controls (SOC) 2 evidence screens."
         },
         {
           "title": "Research spinouts",
-          "body": "<a href=\"https://today.ucsd.edu/story/uc-san-diegos-fy26-awards-reflect-larger-grants-in-a-more-competitive-landscape\">UC San Diego</a> won nearly $1.8 billion in research awards in fiscal year 2026, and the nonprofit incubator <a href=\"https://evonexus.org/application/\">EvoNexus</a> gives accepted startups up to two years of rent-free residency and mentorship for 1% common equity. MVP design turns a lab result into the smallest version of a product that real users can try, starting with a clickable prototype tested with 5 to 8 target users."
+          "body": "<a href=\"https://today.ucsd.edu/story/uc-san-diegos-fy26-awards-reflect-larger-grants-in-a-more-competitive-landscape\">UC San Diego</a> won nearly $1.8 billion in research awards in fiscal year 2026, and the nonprofit incubator <a href=\"https://evonexus.org/application/\">EvoNexus</a> gives accepted startups up to two years of rent-free residency and mentorship for 1% common equity. Minimum viable product (MVP) design turns a lab result into the smallest version of a product that real users can try, starting with a clickable prototype tested with 5 to 8 target users."
         }
       ]
     },
@@ -323,7 +329,7 @@
           "body": "From idea to MVP: one document editor where writers switch between OpenAI, Google, Anthropic and Meta models without opening another tab. The <a href=\"/case-studies/vocable/\">Vocable AI content platform</a> lifted overall workflow efficiency by 35%."
         },
         {
-          "title": "Digno, AI-scored HR software",
+          "title": "Digno, AI-scored human resources software",
           "body": "An AI engine scores each employee on finished tasks, consistency and engagement, then sorts results into four bands from Poor to Pro. Digno's overall revenue increased 5x, as the <a href=\"/case-studies/digno/\">Digno AI scoring case study</a> reports."
         },
         {
@@ -344,11 +350,11 @@
       "h3s": [
         {
           "h3": "When does remote collaboration work best?",
-          "body": "<p>Remote collaboration works best for software used on a screen, with users across the US and a team already on Slack, Figma and video calls. A fixed scope with set review points keeps both sides on schedule.</p>"
+          "body": "<p>Remote collaboration works best when one product owner can answer design questions within a day and the team already works in Slack, Figma and video calls. A fixed scope with set review points, such as a flow review before UI starts and a user test before handoff, keeps both sides on schedule.</p>"
         },
         {
           "h3": "When should you pick a local partner?",
-          "body": "<p>Pick a local partner when you need frequent on-site contextual inquiry in labs, clinics or hardware test rooms. Remote sprints sit at the lower end of our $12,000–$25,000 design sprint price, and an on-site sprint with travel lands near the top.</p>"
+          "body": "<p>Pick a local partner when you need frequent on-site contextual inquiry in labs, clinics or hardware test rooms. For a one-off visit, an on-site design sprint with travel costs more than a remote one and lands near the top of our $12,000–$25,000 sprint range, which includes recruiting 5 test users.</p>"
         }
       ]
     },
@@ -369,7 +375,7 @@
         },
         {
           "q": "Can you design life sciences software that handles patient data?",
-          "a": "<p>Yes, at the design level: role-based screens, audit trails, consent flows and data entry. Your regulatory and legal team decides whether HIPAA or Software as a Medical Device (SaMD) rules from the Food and Drug Administration (FDA) apply, and we design to the requirements they set.</p>"
+          "a": "<p>Yes, at the design level: role-based screens, audit trails, consent flows and data entry. Your regulatory and legal team decides whether HIPAA or Software as a Medical Device (SaMD) rules from the Food and Drug Administration (FDA) apply, and we design to the requirements they set. The same split covers the California Consumer Privacy Act (CCPA): your counsel decides whether it applies to your business, and we design the privacy notice and opt-out screens it calls for.</p>"
         },
         {
           "q": "Once a proposal is signed, when does design work begin?",
@@ -400,7 +406,7 @@
       },
       {
         "icon": "chart",
-        "label": "SaaS activation flows"
+        "label": "SaaS activation"
       },
       {
         "icon": "flask",
