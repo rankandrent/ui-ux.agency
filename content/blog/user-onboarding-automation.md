@@ -178,7 +178,9 @@ The second is Google's [Gmail email sender guidelines](https://support.google.co
 
 Bulk senders set up Sender Policy Framework (SPF), DomainKeys Identified Mail (DKIM) and Domain-based Message Authentication, Reporting and Conformance (DMARC). They offer one-click unsubscribe on marketing and subscribed messages, and Google's subscription guidelines ask senders to honor unsubscribe requests within 48 hours. They keep the spam rate in Postmaster Tools below 0.3%. Gmail stepped up enforcement in November 2025, including rejections for mail that fails these rules.
 
-The design consequence: fewer emails, each fired by behavior, keep complaints down. That protects the password resets and invites that must arrive. A user who can unsubscribe from onboarding emails in one click has less reason to press "report spam." If you also sell in the European Union (EU), the General Data Protection Regulation (GDPR) adds consent rules. Count your emails per user per 7 days before adding another, because some users need a person instead.
+The design consequence: fewer emails, each fired by behavior, keep complaints down. That protects the password resets and invites that must arrive.
+
+A user who can unsubscribe from onboarding emails in one click has less reason to press "report spam." If you also sell in the European Union (EU), the General Data Protection Regulation (GDPR) adds consent rules. Count your emails per user per 7 days before adding another, because some users need a person instead.
 
 ## When should user onboarding automation hand off to a person?
 

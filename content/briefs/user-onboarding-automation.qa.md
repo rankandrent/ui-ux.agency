@@ -78,3 +78,23 @@ Tested together on scratch copy `qa-fc`: all 13 fact-check fixes match exactly o
 - `learnings/content-qa.md`: rerun the paragraph counter after fixes; test the combined FC + QA fix set; check `beats` redirects.
 
 VERDICT: PASS
+
+# QA loop 2 re-check (2026-10-16, after fact-check F1–F10 and F13 were applied)
+
+Scope: structure/layout, bold answers, paragraph lengths, image lead-ins, contradictions, US spelling and links. The gates ran on a fresh scratch copy (`scratchpad/qa-l2`, tar + `cp -al node_modules`), so the shared `out/` was not touched.
+
+| Check | Result | Notes |
+|---|---|---|
+| Bold answers | PASS | 11 H2s, each one sentence, 22–30 words. |
+| Paragraphs ≤ 4 sentences | PASS after fix | L181 had 5 sentences after the merge. QA fix L2-F1 split it (below). The counter now reports 0. |
+| Image lead-ins | PASS | All 6 figures have their lead-in sentence directly above them (L63, L88, L150, L194 = FC F7 text, L240, L277). Every `astext` panel and table has its intro + `Table:` line. |
+| Contradictions | PASS | Rule sheet orientation (column per rule / row per field) is consistent across the prose (L237, L264), the panel header "Field", the alt and the title. The holdout wording (L272) is consistent with hub L274. Step 6 (1 month, 14-day cohorts) agrees with Braze L270 and the outcome reads at L300. CAN-SPAM L171–L173 agrees with FAQ 4. The 48-hour Gmail unsubscribe (L179) is consistent. The relay/ladder 10-minute note from loop 1 stays non-blocking. |
+| US spelling | PASS | No British forms in the post; seo:check US English passes. |
+| Links | PASS | Unchanged from loop 1: 7 internal body links (hub, sibling, sibling#emails, chatbot hub, hub#cost, pillar, /contact/). The external links are the FTC, Gmail sender guidelines, the WCAG 1.4.13 page, PAIR and Braze (5). |
+| Gates | PASS | `SHOW_DRAFTS=1 npm run build` 0 errors; `seo:check` 0 errors, 0 warnings, feed 0 errors; `lint` 0 errors (pre-existing warning onpage-audit.mjs L77); `onpage` 100, failed none; `semantic-score` 100/100. |
+
+## Fix applied by QA in loop 2
+
+- L2-F1 (L181, paragraph cap): `That protects the password resets and invites that must arrive. A user who` → `That protects the password resets and invites that must arrive.` + blank line + `A user who` (split at the existing sentence boundary; no wording changed).
+
+VERDICT: PASS
