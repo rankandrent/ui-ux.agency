@@ -25,9 +25,13 @@ qa: pending
 
 Here's a user onboarding automation rule from a hypothetical US revenue-analytics software as a service (SaaS) product. "When a trial is 3 days old and the setup checklist is under half done, send 'Need a hand getting started?'" User onboarding automation is that kind of rule at scale: logic that watches what new users do and sends the next nudge without anyone picking each message.
 
-This rule fired on the account's most active user. In this example, the admin connected the company's data warehouse within 20 minutes of sign-up. She used the application programming interface (API), not the setup screen. That path sent no event, so the checklist still read 1 of 4 steps done. The email asked an expert whether she needed a hand.
+This rule fired on the account's most active user. In this example, the admin connected the company's data warehouse within 20 minutes of sign-up. She used the application programming interface (API), not the setup screen.
 
-I'm Talha Saleem, a senior user interface (UI) and user experience (UX) designer at ui-ux.agency. We're the design team of tkxel, and we've designed 200+ products since 2017. When I review rules like this one, the copy is rarely the problem. The problem is a rule nobody checked against its events, or a rule patching a screen that needed fixing. That second case is why our [SaaS onboarding design](/services/saas-products/saas-onboarding-design/) work starts with the screens, not the messages.
+That path sent no event, so the checklist still read 1 of 4 steps done. The email asked an expert whether she needed a hand.
+
+I'm Talha Saleem, a senior user interface (UI) and user experience (UX) designer at ui-ux.agency. We're the design team of tkxel, and we've designed 200+ products since 2017.
+
+When I review rules like this one, the copy is rarely the problem. The problem is a rule nobody checked against its events, or a rule patching a screen that needed fixing. That second case is why our [SaaS onboarding design](/services/saas-products/saas-onboarding-design/) work starts with the screens, not the messages.
 
 Below: what to automate, how a rule is built, when email or a person takes over, where artificial intelligence (AI) helps, how to prove lift and when automation hurts.
 
@@ -102,9 +106,13 @@ Table: The 6 parts of one onboarding automation rule, with example values
 
 </details>
 
-Behavior-based triggers come first. A behavior trigger fires on what the user does, such as opening the chart builder, so the message lands mid-task. Triggered onboarding beats a calendar because it follows the user's pace. A time-based fallback fires only when the expected event never arrives inside its window, such as 24 hours. A pure time rule fires at 24 hours even for a user who finished in 5 minutes on another device.
+Behavior-based triggers come first. A behavior trigger fires on what the user does, such as opening the chart builder, so the message lands mid-task. Triggered onboarding beats a calendar because it follows the user's pace.
 
-A suppression rule skips anyone who already did the step, by any route. Each rule's segment condition and exit condition are only as good as the event tracking plan behind them. Those product analytics events usually live in Mixpanel or Amplitude. The intro's misfire came from a missing event: the API path never sent `warehouse_connected`, so the suppression rule had nothing to read. Before I write a rule, I check that every path to the step fires the same event.
+A time-based fallback fires only when the expected event never arrives inside its window, such as 24 hours. A pure time rule fires at 24 hours even for a user who finished in 5 minutes on another device.
+
+A suppression rule skips anyone who already did the step, by any route. Each rule's segment condition and exit condition are only as good as the event tracking plan behind them. Those product analytics events usually live in Mixpanel or Amplitude.
+
+The intro's misfire came from a missing event: the API path never sent `warehouse_connected`, so the suppression rule had nothing to read. Before I write a rule, I check that every path to the step fires the same event.
 
 Onboarding tools model rules the same way. Userpilot's documentation describes segments built from user data, company data and event conditions, which then serve as audiences for in-app flows. The same logic can live in your own code. List every path to your next milestone and confirm each one fires its event, then turn to the channel closest to the action: the app itself.
 
@@ -112,7 +120,7 @@ Onboarding tools model rules the same way. Userpilot's documentation describes s
 
 **In-app guidance gets used when it appears at the moment of the task it explains, offers one action, closes in one click and retires once the user succeeds.**
 
-Most in-app engagement for user onboarding fails for a timing reason, not a copy reason. Nielsen Norman Group (NN/g) splits proactive help into [push and pull revelations](https://www.nngroup.com/articles/help-and-documentation/). Push revelations appear regardless of what the user is doing, such as tips at launch, and users often ignore them. Pull revelations are contextual and tied to the task the user is working on right now.
+Most in-app engagement for user onboarding fails for a timing reason, not a copy reason. In its article on help and documentation, Nielsen Norman Group (NN/g) splits proactive help into push and pull revelations. Push revelations appear regardless of what the user is doing, such as tips at launch, and users often ignore them. Pull revelations are contextual and tied to the task the user is working on right now.
 
 I turn that idea into behavior-triggered in-app guidance, with one trigger per guidance type:
 
@@ -121,12 +129,12 @@ I turn that idea into behavior-triggered in-app guidance, with one trigger per g
 - **Short product tour:** 3 steps or fewer, reserved for one new feature and started only when the user asks for it.
 - **Empty-state prompt:** shown when a screen has no data yet, pointing to the one action that fills it.
 
-Every guide I design gets a retire rule. In this example, it stops after the user succeeds, after a number of dismissals your team picks, or 7 days after the guide first appears. It gets a way back too: a help-menu entry, so a dismissed guide is never lost. In our onboarding work, we rate a product tour's effect on activation as small and a guided first task's as direct.
+Every guide I design gets a retire rule. In this example, a tooltip or tour stops after the user succeeds, after a number of dismissals your team picks, or 7 days after it first appears; the checklist retires at activation. It gets a way back too: a help-menu entry, so a dismissed guide is never lost. In our onboarding work, we rate a product tour's effect on activation as small and a guided first task's as direct.
 
 Accessibility belongs in the trigger design, not in a later audit. I design to Web Content Accessibility Guidelines (WCAG) 2.2 AA. It's the standard I use as the US frame for the Americans with Disabilities Act (ADA) and Section 508. WCAG 2.2 has 2 success criteria (SC) that apply to guidance directly:
 
 - **[SC 1.4.13 Content on Hover or Focus](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html):** a tooltip must be dismissible without moving the pointer or focus, and hoverable. It must stay persistent until the trigger is removed, the user dismisses it or its information is no longer valid.
-- **[SC 2.4.11 Focus Not Obscured (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html):** a control that receives keyboard focus must not be entirely hidden by author-created content, such as a tour popover or a sticky banner.
+- **SC 2.4.11 Focus Not Obscured (Minimum):** in the W3C's Understanding WCAG 2.2 notes, a control that receives keyboard focus must not be entirely hidden by author-created content, such as a tour popover or a sticky banner.
 
 Users closing your tooltips on sight? Our onboarding redesigns cover in-app guidance together with the screens beneath it. In-app guidance reaches only people who are in the app, and when they leave, email takes over.
 
@@ -160,9 +168,15 @@ Table: Channel handoff by user state in automated onboarding
 
 One suppression list shared across channels keeps a user from getting the in-app prompt and the email for the same step. If your emails run in a marketing automation platform, connect it to the same product events. The broader guide shows how to [map each onboarding email to the screen it opens](/blog/saas-onboarding/#how-do-saas-onboarding-emails-fit-the-in-app-flow), so I won't rebuild that table here.
 
-These emails answer to 2 US rule sets. The first is the Controlling the Assault of Non-Solicited Pornography and Marketing (CAN-SPAM) Act of 2003. The CAN-SPAM Act sorts an email by its primary purpose. The [Federal Trade Commission (FTC) compliance guide](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) covers any message whose primary purpose is the commercial advertisement or promotion of a product or service. Commercial email needs a working opt-out. You must honor an opt-out request within 10 business days, which is 2 weeks of working days. The FAQs below cover how that applies to onboarding emails. This is not legal advice, so ask your counsel.
+These emails answer to 2 US rule sets. The first is the Controlling the Assault of Non-Solicited Pornography and Marketing (CAN-SPAM) Act of 2003. The CAN-SPAM Act sorts an email by its primary purpose.
 
-The second is Google's [Gmail email sender guidelines](https://support.google.com/mail/answer/81126?hl=en), which set the technical bar. A bulk sender sends [close to 5,000 or more messages to personal Gmail accounts](https://support.google.com/mail/answer/14229414?hl=en) in 24 hours, and that status is permanent once reached. Bulk senders set up Sender Policy Framework (SPF), DomainKeys Identified Mail (DKIM) and Domain-based Message Authentication, Reporting and Conformance (DMARC). They offer one-click unsubscribe on marketing and subscribed messages and process it within 2 days. They keep the spam rate in Postmaster Tools below 0.3%. Gmail stepped up enforcement in November 2025, including rejections for mail that fails these rules.
+The [Federal Trade Commission (FTC) compliance guide](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) covers any message whose primary purpose is the commercial advertisement or promotion of a product or service. Commercial email needs a working opt-out. You must honor an opt-out request within 10 business days.
+
+The FAQs below cover how that applies to onboarding emails. This is not legal advice, so ask your counsel.
+
+The second is Google's [Gmail email sender guidelines](https://support.google.com/mail/answer/81126?hl=en), which set the technical bar. Google's sender guidelines FAQ defines a bulk sender as one that sends close to 5,000 or more messages to personal Gmail accounts in 24 hours, and that status is permanent once reached.
+
+Bulk senders set up Sender Policy Framework (SPF), DomainKeys Identified Mail (DKIM) and Domain-based Message Authentication, Reporting and Conformance (DMARC). They offer one-click unsubscribe on marketing and subscribed messages and process it within 2 days. They keep the spam rate in Postmaster Tools below 0.3%. Gmail stepped up enforcement in November 2025, including rejections for mail that fails these rules.
 
 The design consequence: fewer emails, each fired by behavior, keep complaints down. That protects the password resets and invites that must arrive. A user who can unsubscribe from onboarding emails in one click has less reason to press "report spam." If you also sell in the European Union (EU), the General Data Protection Regulation (GDPR) adds consent rules. Count your emails per user per 7 days before adding another, because some users need a person instead.
 
@@ -170,7 +184,9 @@ The design consequence: fewer emails, each fired by behavior, keep complaints do
 
 **User onboarding automation should hand off to a person when a high-fit account stalls, when product use crosses your product-qualified lead (PQL) threshold, or when the user asks.**
 
-[TechTarget defines a PQL](https://www.techtarget.com/enterprise-software/definition/product-qualified-lead-PQL) as a person or business that has experienced value from a product through first-hand use. That use can come from a free trial, a limited-feature version or other first-hand experience. I set the product-qualified lead threshold just past your activation event, never from a published conversion rate. Every product defines activation differently. An illustrative threshold for the analytics product: 3 users invited and 2 reports shared within 14 days.
+TechTarget defines a PQL as a person or business that has experienced value from a product through first-hand use. That use can come from a free trial, a limited-feature version or other first-hand experience.
+
+I set the product-qualified lead threshold just past your activation event, never from a published conversion rate. Every product defines activation differently. An illustrative threshold for the analytics product: 3 users invited and 2 reports shared within 14 days.
 
 Admins of high-fit accounts are the usual handoff candidates, since invited members land in a workspace someone already set up. A customer success manager (CSM) takes their setup problems, and sales takes the accounts that cross the PQL line. That split is sales-assisted onboarding, with automation doing the watching.
 
@@ -191,7 +207,9 @@ The ladder below climbs from automation alone to a person, with the owner of eac
 
 </details>
 
-A sales-assist handoff fails when the person starts cold. I design the handoff note as part of the rule, and I aim for a note a rep reads in 30 seconds. When sales accepts the handoff, automation pauses every onboarding rule for that user. The person and the bot then don't talk over each other. Write your 5 rungs with a named owner on each before you build a single alert. More teams now put an AI assistant between the user and that person.
+A sales-assist handoff fails when the person starts cold. I design the handoff note as part of the rule, and I aim for a note a rep reads in 30 seconds.
+
+When sales accepts the handoff, automation pauses every onboarding rule for that user. The person and the bot then don't talk over each other. Write your 5 rungs with a named owner on each before you build a single alert. More teams now put an AI assistant between the user and that person.
 
 ## Where does AI fit in user onboarding automation?
 
@@ -216,7 +234,7 @@ If your product is itself AI, onboarding sets expectations about its answers bef
 5. **Test with people new to the product.** I'd put the messages in front of at least 5 users who have never seen the product. In our onboarding projects, we talk to 5 to 8 recent sign-ups, both activated and lost, about what they expected. We test the prototype with new users too.
 6. **Release in stages behind a holdout group**, a few rules at a time, and give each batch 14 days so its effect stays readable.
 
-The onboarding automation rule sheet is the template I'd fill in before building anything. One row holds one rule, and its last column asks whether the rule is patching a screen.
+The onboarding automation rule sheet is the template I'd fill in before building anything. Each rule fills one column, and its last row asks whether the rule is patching a screen.
 
 
 The worksheet below lists 9 fields as rows, with 2 hypothetical rules filled in and 4 blank columns for yours.
@@ -225,11 +243,11 @@ The worksheet below lists 9 fields as rows, with 2 hypothetical rules filled in 
 
 <details class="astext"><summary>Show as text</summary>
 
-This table shows each column of the rule sheet with two hypothetical rules filled in.
+This table shows each field of the rule sheet with two hypothetical rules filled in.
 
 Table: Onboarding automation rule sheet with two hypothetical rules
 
-| Column | Rule 1: warehouse reminder | Rule 2: chart builder help |
+| Field | Rule 1: warehouse reminder | Rule 2: chart builder help |
 |---|---|---|
 | Moment | Admin hasn't connected a warehouse. | Analyst opens the chart builder and leaves without saving. |
 | Trigger event | No `warehouse_connected` 24 hours after sign-up. | `chart_builder_opened` with no `chart_saved` within 10 minutes. |
@@ -243,13 +261,15 @@ Table: Onboarding automation rule sheet with two hypothetical rules
 
 </details>
 
-A rule whose message job is "explain," not "connect," "invite" or "try," usually patches a screen. Rule 2 exists because the builder's fields are unclear, so its real fix is in the screen. Fill in one row per live rule and count the patches. Shipping the rules is half the job; proving they help is the other half.
+A rule whose message job is "explain," not "connect," "invite" or "try," usually patches a screen. Rule 2 exists because the builder's fields are unclear, so its real fix is in the screen. Fill in one column per live rule and count the patches. Shipping the rules is half the job; proving they help is the other half.
 
 ## How do you measure user onboarding automation?
 
 **Measure user onboarding automation against a holdout group: compare activation for users who got the rules with a random group that got none, then check each rule for harm.**
 
-Without a holdout, a team credits its emails for activations that would have happened anyway. Braze, one engagement platform, documents a [global control group of 1% to 15% of users](https://www.braze.com/docs/user_guide/audience/global_control_group) who receive no campaigns. Its documentation suggests reading results over at least 1 month, because shorter windows fluctuate. The method is tool-neutral, and a random flag in your own code does the same job. In the hypothetical analytics product, I'd hold out 10% of users and read lift from the holdout, never from a before-and-after chart.
+Without a holdout, a team credits its emails for activations that would have happened anyway. Braze, one engagement platform, documents a [global control group of 1% to 15% of users](https://www.braze.com/docs/user_guide/audience/global_control_group) who receive no campaigns. Its documentation suggests reading results over at least 1 month, because shorter windows fluctuate.
+
+The method is tool-neutral, and a random flag in your own code does the same job. In the hypothetical analytics product, I'd hold out 10% of users and read the rules' lift from the holdout, not from a before-and-after chart alone.
 
 In our onboarding projects, we help set up an A/B test where possible and compare activation before and after.
 
@@ -277,7 +297,9 @@ Table: Metrics for measuring onboarding automation, rule by rule
 
 </details>
 
-For the outcome row, I use the 3 metrics we track in our onboarding projects: activation rate, time to first value and day-7 return rate. I compare each one with the holdout, reading activation within the first 7 days and again within 14 days. I quote no benchmark rates for these, because they vary by product; pause any rule whose dismissals or complaints climb. Sometimes the numbers say the rules make things worse.
+For the outcome row, I use the 3 metrics we track in our onboarding projects: activation rate, time to first value and day-7 return rate. I compare each one with the holdout, reading activation within the first 7 days and again within 14 days.
+
+I quote no benchmark rates for these, because they vary by product. Pause any rule whose dismissals or complaints climb. Sometimes the numbers say the rules make things worse.
 
 ## When does user onboarding automation hurt?
 
@@ -291,7 +313,9 @@ These 5 failure modes cover most of the damage:
 - **Wrong segment:** personalization runs on a welcome answer the user picked at random to get past the screen. Every later message misses.
 - **No exit:** a tour of 9 steps with no close button, an AI assistant without a handoff, an email without an unsubscribe link. Each one traps a user who wanted out.
 
-Go back to the patch-or-fix row. If more than a few rules say "patch," the screens underneath need user experience design, not another rule. That's the screen-first work described at the top of this guide. In our services, an onboarding redesign runs in 4 steps over 3 to 6 weeks, and here's [what that redesign costs](/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost): $15,000–$45,000. We design onboarding that your team builds in code or in tools such as Appcues, Userpilot or Pendo. We judge it by the 3 outcome metrics above.
+Go back to the patch-or-fix row. If more than a few rules say "patch," the screens underneath need user experience design, not another rule. That's the screen-first work described at the top of this guide.
+
+In our services, an onboarding redesign runs in 4 steps over 3 to 6 weeks, and here's [what that redesign costs](/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost): $15,000–$45,000. We design onboarding that your team builds in code or in tools such as Appcues, Userpilot or Pendo. We judge it by the 3 outcome metrics above.
 
 If your problems go well past onboarding, our wider [SaaS product design](/services/saas-products/) practice covers the rest of the product. Either way, mark every patch in your sheet before the next sprint planning.
 

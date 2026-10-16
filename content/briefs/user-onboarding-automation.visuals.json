@@ -17,7 +17,7 @@
   },
   {
     "marker": "<!-- visual: the lead asset as a fill-in rule sheet drawn as a ruled worksheet with a sticky-note callout (not the saas-onboarding 12-point audit grid and not the web-app-design-rfp fill-in table look). Columns: moment, trigger event, segment, channel, message job, exit, owner, metric, patch or fix. Two illustrative rows filled as in the text panel, 4 blank rows. The patch cell of rule 2 highlighted, with a sticky note: patch means fix the screen behind it. File onboarding-automation-rule-sheet.svg -->",
-    "markdown": "![Onboarding automation rule sheet worksheet with nine columns, two filled example rules and a highlighted patch-or-fix cell that flags a screen to redesign](/blog/user-onboarding-automation/onboarding-automation-rule-sheet.svg \"Onboarding automation rule sheet: one row per rule, with a patch-or-fix column\")"
+    "markdown": "![Onboarding automation rule sheet worksheet with nine fields as rows, two filled example rules and a highlighted patch-or-fix cell that flags a screen to redesign](/blog/user-onboarding-automation/onboarding-automation-rule-sheet.svg \"Onboarding automation rule sheet: one row per rule, with a patch-or-fix column\")"
   },
   {
     "marker": "<!-- visual: holdout comparison chart with 2 cumulative activation curves over the first 14 days, rules on vs holdout, with the gap labeled lift you can credit to automation. Mark it clearly as illustrative, no real data, and print no axis numbers that read as benchmarks. Beside it, a small table of the rule-level warning signs. Text panel: the metrics table. File onboarding-automation-holdout.svg -->",
