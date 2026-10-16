@@ -147,7 +147,7 @@
       "h2": "What is UX design for San Diego AI and SaaS teams?",
       "format": "paragraph",
       "answer": "<strong>UX design San Diego teams can run remotely covers user research, user flows, interface design and clickable prototypes tested with real users, for AI and SaaS products.</strong> ui-ux.agency, tkxel's design team, handles the AI product design and SaaS product design over video calls and shared files.",
-      "body": "<p>The work suits founders and product leads at San Diego software, AI and life sciences companies. Engineers receive annotated design files, a component library and answers during every sprint. Products that answer with large language models (LLMs) follow our <a href=\"/services/ai-products/ai-ux-design-agency/\">AI UX design</a> method for review and correction. Our designers have worked on 200+ digital products since 2017. tkxel's only office is in Reston; we have no San Diego office or local team.</p>"
+      "body": "<p>The work suits founders and product leads at San Diego software, AI and life sciences companies. Engineers receive annotated design files, a component library and answers during every sprint. Products that answer with large language models (LLMs) follow our <a href=\"/services/ai-products/ai-ux-design-agency/\">AI UX design</a> method for review and correction. Our designers have worked on 200+ digital products since 2017. ui-ux.agency's only office is in Reston, Virginia; we have no San Diego office or local team.</p>"
     },
     {
       "h2": "How does the UX design San Diego firms need vary by sector?",
@@ -156,11 +156,11 @@
       "items": [
         {
           "title": "Software and SaaS",
-          "body": "The <a href=\"https://www.sandiegobusiness.org/about-the-region/software/\">San Diego Regional Economic Development Corporation (EDC)</a> counts 28,617 software jobs across 2,949 establishments, about one in six innovation economy jobs. In SaaS products, activation rate rises or falls in onboarding, so dashboard design, admin and billing come after it."
+          "body": "The <a href=\"https://www.sandiegobusiness.org/about-the-region/\">San Diego Regional Economic Development Corporation (EDC)</a> counted more than 3,100 software establishments in the region as of October 2026. In SaaS products, activation rate rises or falls in onboarding, so dashboard design, admin and billing come after it."
         },
         {
           "title": "Life sciences software",
-          "body": "<a href=\"https://www.genengnews.com/topics/translational-medicine/california-still-golden-despite-job-losses-industry-group/\">Biocom California</a> counted 61,866 San Diego life sciences jobs at the end of 2025, down 2.55%. Lab and clinical data need dense tables and audit trails. Patient records bring in the Health Insurance Portability and Accountability Act (HIPAA); your regulatory team decides which rules apply."
+          "body": "<a href=\"https://www.genengnews.com/topics/translational-medicine/california-still-golden-despite-job-losses-industry-group/\">Biocom California</a> counted 61,866 San Diego life sciences jobs at the end of 2025, down 2.55%. Lab and clinical data need dense tables and audit trails. Patient records bring in the Health Insurance Portability and Accountability Act (HIPAA) when a covered health care provider, health plan or their business associate handles them; your regulatory team decides which rules apply."
         },
         {
           "title": "Cybersecurity",
@@ -168,7 +168,7 @@
         },
         {
           "title": "Research spinouts",
-          "body": "<a href=\"https://today.ucsd.edu/story/uc-san-diegos-fy26-awards-reflect-larger-grants-in-a-more-competitive-landscape\">UC San Diego</a> won nearly $1.8 billion in research awards in fiscal year 2026, and <a href=\"https://evonexus.org/evonexus-tech-incubator-welcomes-new-class-of-software-hardware-and-life-science-startups/\">EvoNexus</a>, the incubator of the nonprofit CommNexus, gives startups space and services free of charge. A lab result becomes a startup's minimum viable product (MVP) once first users finish one task in a clickable prototype."
+          "body": "<a href=\"https://today.ucsd.edu/story/uc-san-diegos-fy26-awards-reflect-larger-grants-in-a-more-competitive-landscape\">UC San Diego</a> won nearly $1.8 billion in research awards in fiscal year 2026, and the nonprofit incubator <a href=\"https://evonexus.org/application/\">EvoNexus</a> gives accepted startups up to two years of rent-free residency and mentorship for 1% common equity. MVP design turns a lab result into the smallest version of a product that real users can try, starting with a clickable prototype tested with 5 to 8 target users."
         }
       ]
     },
@@ -178,7 +178,7 @@
       "answer": "<strong>Six starting points cover most San Diego startups, and the right one depends on what already exists.</strong> Match your situation to one line below; prices and timelines follow in the next table.",
       "items": [
         "An AI idea and nothing built: a remote <a href=\"/services/ai-products/ai-product-discovery-workshop/\">AI product discovery workshop</a> in Figma and FigJam picks the use case worth building.",
-        "A funded startup concept and no product yet: <a href=\"/services/startups/mvp-design-agency/\">MVP design</a> turns it into a clickable product for users and investors.",
+        "A funded startup concept and no product yet: <a href=\"/services/startups/mvp-design-agency/\">MVP design</a> turns it into a clickable prototype you can test with users and show investors.",
         "A live SaaS product whose trial users never activate: <a href=\"/services/saas-products/saas-onboarding-design/\">SaaS onboarding design</a>, from sign-up to first result.",
         "An AI feature users do not trust or keep correcting: AI UX design or chatbot UI design, built around reviewing and fixing model output.",
         "Paying customers but dated flows: a <a href=\"/services/saas-products/saas-product-redesign/\">phased SaaS product redesign</a> that ships one area at a time.",
@@ -270,7 +270,7 @@
         },
         {
           "title": "Usability testing and design handoff",
-          "body": "Between 5 and 8 target users test the prototype in remote Maze sessions. Engineers then get the Figma handoff with a component library, and designers answer build questions in sprints."
+          "body": "Between 5 and 8 target users test the prototype in remote sessions, often run in Maze. Engineers then get the Figma handoff with a component library, and designers answer build questions in sprints."
         }
       ]
     },
@@ -309,7 +309,7 @@
       "h3s": [
         {
           "h3": "What changes with daylight saving and dedicated designers?",
-          "body": "<p>The gap stays the same: both zones switch on the same dates, so it remains 3 hours after daylight saving time ends on November 1, 2026. For dedicated designers, the time overlap with the US Eastern workday is at least 4 hours, and written comments cover the rest. Name two meeting times that suit your team in the form; a senior designer answers within one business day, ET.</p>"
+          "body": "<p>The gap stays the same: both zones switch on the same dates, so it remains 3 hours after daylight saving time ends on November 1, 2026. For dedicated designers, every designer overlaps at least 4 hours with US Eastern time, and written comments cover the rest. Name two meeting times that suit your team in the form; a senior designer answers within one business day, ET.</p>"
         }
       ]
     },
@@ -356,7 +356,7 @@
       "h2": "When is a UX designer San Diego teams embed the better fit?",
       "format": "paragraph",
       "answer": "<strong>A UX designer San Diego teams embed beats a fixed project when design work never stops: a weekly release train, a growing design system or several squads.</strong> Dedicated designers cost $15,000 to $40,000 per month and can begin within 1 to 2 weeks.",
-      "body": "<p>A project ends with a design handoff; an embedded designer stays inside your sprints. You can hire <a href=\"/services/hire-ui-ux-designers/\">dedicated UI UX designers</a> as one person or a team of 2 to 5, month to month with 30 days notice. A design lead reviews the work weekly, and each designer shares at least 4 hours with the US Eastern workday. This page is for companies hiring design help, not for job seekers.</p>"
+      "body": "<p>A project ends with a design handoff; an embedded designer stays inside your sprints. You can hire <a href=\"/services/hire-ui-ux-designers/\">dedicated UI UX designers</a> as one person or a team of 2 to 5, month to month with 30 days notice. A design lead reviews the work weekly, and every designer overlaps at least 4 hours with US Eastern time. This page is for companies hiring design help, not for job seekers.</p>"
     },
     {
       "h2": "Questions San Diego founders ask before a UX project",
@@ -365,7 +365,7 @@
       "faqs": [
         {
           "q": "Is ui-ux.agency a San Diego company?",
-          "a": "<p>No. We are tkxel's design team, and tkxel's one office is in Reston, Virginia. The team works remotely with US companies, so San Diego teams work with us over video calls and shared design files rather than at a local office.</p>"
+          "a": "<p>No. We are the design team of tkxel, a software engineering company headquartered in Reston, Virginia, and Reston is our only office. The team works remotely with US companies, so San Diego teams work with us over video calls and shared design files rather than at a local office.</p>"
         },
         {
           "q": "Can you design life sciences software that handles patient data?",
