@@ -26,6 +26,7 @@
   "metaTitleChars": 59,
   "metaDescription": "UX design San Diego startups can book remotely: AI and SaaS product design, Pacific Time reviews, published prices from $15,000. Book a free consultation.",
   "metaDescriptionChars": 154,
+  "metaDescriptionNote": "'from $15,000' is the lowest design-project price (MVP design, SaaS onboarding design, dedicated designers per month). The AI product discovery workshop starts at $8,000; if the writer prefers the lowest figure overall, use 'from $8,000' and keep 140–158 chars.",
   "keywords": ["ux design san diego", "ux designer san diego", "ux design company san diego", "ux agency san diego", "app design company san diego", "ai product design san diego", "saas design san diego"],
   "keywordsNote": "The last two meta keywords have no volume row in the warehouse: lexical/meta only, never a heading target.",
   "hero": {
@@ -75,6 +76,7 @@
       "TradeZella",
       "Mass Media Co."
     ],
+    "entitiesNote": "28 listed; the page needs ≥ 80% in visible text. If the fact-checker drops Qualcomm and Shield AI, remove them here too so coverage is measured on what the page may say.",
     "ngrams": [
       "ux design san diego",
       "ux designer san diego",
@@ -105,7 +107,7 @@
       ["reston", "office"],
       ["cybersecurity", "alerts"]
     ],
-    "nlpKeywords": ["product design partner", "senior designers", "user interviews", "dashboards", "activation rate", "design system", "time zone", "Sorrento Valley is NOT to be used (weak source)"]
+    "nlpKeywords": ["product design partner", "senior designers", "user interviews", "dashboards", "activation rate", "design system", "time zone", "fixed-scope proposal"]
   },
   "lexical": {
     "synonyms": ["user experience design", "UX/UI design", "product design", "UI UX design"],
@@ -148,7 +150,7 @@
     { "attribute": "San Diego cybersecurity", "value": "14,875 jobs across 1,350 establishments, $4.3 billion regional economic impact (2025 study, San Diego Regional EDC + Cyber Center of Excellence)", "source": "https://www.sandiegobusiness.org/blog/study-san-diegos-4-3b-cyber-cluster-expands-amid-tech-contraction/" },
     { "attribute": "UC San Diego research", "value": "nearly $1.8 billion in research awards in fiscal year 2026", "source": "https://today.ucsd.edu/story/uc-san-diegos-fy26-awards-reflect-larger-grants-in-a-more-competitive-landscape" },
     { "attribute": "regional economy", "value": "about 1.6 million jobs, gross regional product $266.9 billion (2024), population 3.2 million+", "source": "https://www.sandiegobusiness.org/ (EDC homepage figures)" },
-    { "attribute": "startup support", "value": "EvoNexus, the free technology incubator of the nonprofit CommNexus, founded 2009; startups pay no rent or equity", "source": "https://evonexus.org/evonexus-tech-incubator-welcomes-new-class-of-software-hardware-and-life-science-startups/ (founding year varies 2008/2009 across sources: say 'since 2009' only if the fact-checker confirms, else omit the year)" },
+    { "attribute": "startup support", "value": "EvoNexus, the free technology incubator of the nonprofit CommNexus; startups get space and services free of charge", "source": "https://evonexus.org/evonexus-tech-incubator-welcomes-new-class-of-software-hardware-and-life-science-startups/ (founding year varies 2008/2009 across sources: omit the year unless the fact-checker confirms it)" },
     { "attribute": "AI companies headquartered locally", "value": "Shield AI (defense AI, Hivemind) and Qualcomm (wireless and chips) are headquartered in San Diego", "source": "Shield AI: https://www.builtinla.com/company/shield-ai/offices (secondary); Qualcomm: confirm on qualcomm.com. Fact-checker must verify both; if not verified, drop the names and keep the EDC numbers." },
     { "attribute": "accessibility standard", "value": "WCAG 2.2 became a W3C Recommendation on October 5, 2023; we design to WCAG 2.2 AA (ADA/Section 508 frame)", "source": "https://www.w3.org/WAI/news/2023-10-05/wcag22rec" },
     { "attribute": "FDA SaMD (life sciences software)", "value": "Software as a Medical Device = software intended for one or more medical purposes that performs them without being part of a hardware medical device", "source": "https://fda.gov/media/100714/download (FDA SaMD Clinical Evaluation guidance, 2017)" },
@@ -200,7 +202,7 @@
       "h2": "What does UX design San Diego startups book with us cost?",
       "format": "table",
       "answerHint": "<strong>Our engagements cost $8,000 to $200,000 per project, or $15,000 to $40,000 per month for dedicated designers.</strong> Every proposal has a fixed scope; the table lists each published range and timeline.",
-      "tableIntro": "One sentence before the table: 'The table compares our six engagements by price, timeline and the stage they fit.'",
+      "tableIntro": "One sentence before the table: 'The table compares our seven engagements by price, timeline and the stage they fit.'",
       "caption": "Price and timeline of each engagement for San Diego AI and SaaS teams",
       "columns": ["Engagement", "Price", "Timeline", "Fits when"],
       "rows": [
@@ -213,8 +215,8 @@
         ["Dedicated UI UX designers", "$15,000–$40,000 per month", "Start in 1–2 weeks", "Design every sprint"]
       ],
       "points": [
-        "Row headers in the first column; 'Table: …' caption line handled by template caption.",
-        "Do not invent a redesign timeline: the saas-product-redesign JSON gives no week range in its metaTitle; writer checks the hub and uses its number or 'phased'.",
+        "Row headers in the first column; the template renders the caption.",
+        "Do not invent a redesign timeline: the writer takes the week range from saas-product-redesign.json sections if one exists, else 'Phased'.",
         "Link: UI UX design cost guide for the full breakdown. This is the leadAngle spot (see leadAngle)."
       ]
     },
@@ -225,7 +227,7 @@
       "points": [
         "1 Kickoff and access (live, PT window): goals, metrics, analytics and support data.",
         "2 Research: remote user interviews; the about page says every project starts with interviews, analytics or support data.",
-        "3 Flows and wireframes: reviewed in Figma comments plus one live review per week (keep cadence generic: 'a weekly live review' is a process proposal, mark as typical, not a guarantee).",
+        "3 Flows and wireframes: reviewed in Figma comments plus a live review (describe cadence as typical, not guaranteed).",
         "4 UI and prototype: AI features use real or recorded model output (AI UX hub).",
         "5 Test and hand off: 5 to 8 users in remote sessions (Maze), then specs and components for engineers; designers answer build questions in sprints.",
         "Steps are an ol; each body 1–2 sentences. Do not copy the AI UX hub's 4-step titles."
@@ -249,7 +251,7 @@
         "Mention the daylight-saving point once: both zones shift together, so the gap stays 3 hours (DST ends November 1, 2026).",
         "Reply time: 'within one business day, ET'."
       ],
-      "image": { "idea": "Two parallel 24-hour bars (ET on top, PT below) with the shared noon–5 p.m. ET / 9 a.m.–2 p.m. PT band highlighted", "alt": "Timeline of Eastern and Pacific Time working hours with the shared 9 a.m. to 2 p.m. PT window highlighted", "text": ["ET 9 a.m.–5 p.m. / PT 6 a.m.–2 p.m.", "Shared window: noon–5 p.m. ET = 9 a.m.–2 p.m. PT", "Live: workshops, reviews, user tests", "Outside the window: written Figma feedback"] }
+      "image": { "idea": "Two parallel day bars (ET on top, PT below) with the shared noon–5 p.m. ET / 9 a.m.–2 p.m. PT band highlighted", "alt": "Timeline of Eastern and Pacific Time working hours with the shared 9 a.m. to 2 p.m. PT window highlighted", "text": ["ET 9 a.m.–5 p.m. = PT 6 a.m.–2 p.m.", "Shared window: noon–5 p.m. ET = 9 a.m.–2 p.m. PT", "Live: workshops, reviews, user tests", "Outside the window: written Figma feedback"] }
     },
     {
       "h2": "What have we designed for AI and SaaS companies?",
@@ -268,12 +270,12 @@
       "format": "paragraph",
       "answerHint": "<strong>Yes, for most AI and SaaS products: research, reviews and user tests all run well online.</strong> A local studio fits better when the work needs weekly in-person observation, such as watching scientists use instruments in a wet lab.",
       "h3s": [
-        { "h3": "When does remote collaboration work best?", "body": "Software used on a screen; users spread across the US; a team already on Slack, Figma and video calls; a fixed scope with weekly reviews." },
+        { "h3": "When does remote collaboration work best?", "body": "Software used on a screen; users spread across the US; a team already on Slack, Figma and video calls; a fixed scope with regular reviews." },
         { "h3": "When should you pick a local partner?", "body": "Frequent on-site contextual inquiry (labs, clinics, hardware). Remote design sprints are possible; on-site sprints with travel sit at the upper end of the $12,000–$25,000 sprint range (design-sprint.json)." }
       ],
       "points": [
         "Honest, short. Holds the secondary 'ux design company san diego' via its carrier.",
-        "Optional decision-tree image (see visuals)."
+        "Decision-tree image (see visuals) goes after the answer paragraph, never directly under the H2."
       ]
     },
     {
@@ -290,7 +292,7 @@
   "faqSection": {
     "h2": "Questions San Diego founders ask before a UX project",
     "format": "faq",
-    "answer": "<strong>Short answers on location, hours, regulated data, start dates and development.</strong>"
+    "answer": "<strong>Short answers on location, hours, regulated data, start dates, testing and development.</strong>"
   },
   "faqs": [
     { "q": "Do you have an office or designers in San Diego?", "a": "No. Our only office is in Reston, VA, and our team works remotely with US companies. San Diego teams meet us on video calls inside the shared 9 a.m.–2 p.m. PT window." },
@@ -300,10 +302,10 @@
     { "q": "Can you also build the product?", "a": "Yes. ui-ux.agency is the design team of tkxel, a software engineering company, so you can hire us for design only or for design and development together." },
     { "q": "Which accessibility standard do your designs follow?", "a": "WCAG 2.2 AA, the W3C standard published as a Recommendation on October 5, 2023, which US teams use to meet ADA and Section 508 expectations." }
   ],
-  "faqNotes": "6 FAQs, each 25–45 words, open (not collapsed). None repeats a body H2. Generic city-page FAQs ('Why choose…', 'What industries do you serve in…', 'How much does UX design cost in…') are banned to keep distance from the sister site.",
+  "faqNotes": "6 FAQs, each 25–45 words, open (not collapsed). None repeats a body H2. Generic city-page FAQs ('Why choose…', 'What industries do you serve in…', 'How much does UX design cost in…') are banned to keep distance from the sister site. 'enquiry' in FAQ 3 must be 'inquiry' (US spelling).",
   "visual": {
     "landmark": "bridge",
-    "landmarkWhy": "Coronado Bridge silhouette; 'palms' would also fit but is the generic SoCal choice the sister's Los Angeles page is most likely to share.",
+    "landmarkWhy": "Coronado Bridge silhouette; 'palms' would also fit but is the generic Southern California choice the sister's Los Angeles page is most likely to share.",
     "scenes": [
       { "icon": "robot", "label": "AI answers users trust" },
       { "icon": "chart", "label": "SaaS dashboards" },
@@ -313,7 +315,7 @@
     "scenesNote": "Labels max 22 chars (checked: 22, 15, 16, 22). The template builds alt/caption from these labels."
   },
   "visuals": [
-    { "type": "location hero illustration", "idea": "scripts/location-visuals.mjs output: bridge landmark + 4 scenes above", "section": 1 },
+    { "type": "location hero illustration", "idea": "scripts/location-visuals.mjs output: bridge landmark + the 4 scenes above", "section": 1 },
     { "type": "sector map", "idea": "Five San Diego sectors (software, life sciences, cyber, AI/wireless, research) each linked to one design problem and its sourced number", "section": 2, "text": ["Software and SaaS: 28,617 jobs → onboarding and activation", "Life sciences: 61,866 jobs (2025) → dense data screens", "Cybersecurity: 14,875 jobs → alert triage", "AI and wireless → output users check and correct", "Research spinouts → first product (MVP)"] },
     { "type": "price/timeline range bars", "idea": "Horizontal range bars of the 7 engagements on a $0–$200,000 axis with weeks labeled", "section": 4 },
     { "type": "process flow", "idea": "5-step remote process with live steps marked on a PT clock", "section": 5 },
@@ -334,9 +336,9 @@
     { "href": "/case-studies/digno/", "anchor": "Digno AI scoring case study", "section": 7, "priority": "required", "verified": "content/case-studies/digno.md" },
     { "href": "/case-studies/tradezella/", "anchor": "TradeZella dashboard redesign", "section": 7, "priority": "required", "verified": "content/case-studies/tradezella.md" },
     { "href": "/case-studies/mass-media-co/", "anchor": "Mass Media Co. B2B platform", "section": 7, "priority": "required", "verified": "content/case-studies/mass-media-co.md" },
-    { "href": "/services/startups/design-sprint/", "anchor": "remote design sprint", "section": 8, "priority": "skip", "why": "Section 8 already carries enough links; mention the sprint price as text only. Override only if the link count is under 5." }
+    { "href": "/services/startups/design-sprint/", "anchor": "remote design sprint", "section": 8, "priority": "skip", "why": "Section 8 already carries enough links; mention the sprint price as text only. Override only if the page has fewer than 5 contextual links." }
   ],
-  "linkRules": "Location pages have no one-hub limit (they are not blog posts), but keep each target once per page with varied anchors. Never link to uiuxdesignservices.us or any of its pages.",
+  "linkRules": "Location pages have no one-hub limit (that rule is for blog posts), but link each target once per page with varied anchors. Never link to uiuxdesignservices.us or any of its pages.",
   "externalSources": [
     { "url": "https://www.sandiegobusiness.org/about-the-region/software/", "why": "San Diego Regional EDC software sector: 28,617 jobs, 2,949 establishments, $165,492 average wage, one in six innovation jobs. Page is undated: cite without a year." },
     { "url": "https://www.sandiegobusiness.org/blog/study-san-diegos-4-3b-cyber-cluster-expands-amid-tech-contraction/", "why": "2025 cybersecurity study (EDC + Cyber Center of Excellence): 14,875 jobs, 1,350 establishments, $4.3B impact." },
@@ -349,6 +351,7 @@
     { "url": "https://www.w3.org/WAI/news/2023-10-05/wcag22rec", "why": "WCAG 2.2 W3C Recommendation, October 5, 2023." },
     { "url": "https://fda.gov/media/100714/download", "why": "FDA SaMD Clinical Evaluation guidance (2017): definition of Software as a Medical Device." }
   ],
+  "externalSourcesNote": "Every URL came from a WebSearch result in this run. None could be opened (WebFetch DNS failure for sandiegobusiness.org, bls.gov and the sister site), so the fact-checker must open each before publish.",
   "sourcesDoNotUse": [
     "Q1/Q2 2026 San Diego venture totals ($3B+ Q1, '$1.6B across 30 deals Q2'): only a Substack roundup and an unverified search summary; do not use.",
     "BLS web and digital interface designer wages for the San Diego metro: the BLS page could not be fetched; the May 2025 figure ($123,850 median, ~1,270 jobs) is from wagedex.com, a secondary site. Do not use unless the fact-checker opens the BLS OEWS metro table.",
@@ -369,21 +372,21 @@
     "None explains how remote collaboration works across time zones; we give the exact ET/PT shared window and what happens outside it.",
     "None publishes prices on the city page; we show 7 published ranges and timelines.",
     "None covers AI product UX (trust, correction, real model output in prototypes); that is our angle.",
-    "None says when a local studio is the better choice; our honest section 8 does.",
-    "Several imply a local presence; we state the Reston-only office plainly, which matches the job-seeker/buyer mix without misleading either."
+    "None says when a local studio is the better choice; our section 8 does.",
+    "Several imply a local presence; we state the Reston-only office plainly."
   ],
   "competitorPagesStudied": [
     { "url": "https://www.designstudiouiux.com/usa/san-diego/", "how": "WebSearch snippets only (WebFetch ENOTFOUND)", "covers": "claims San Diego startup/biotech work since 2015, research-heavy software usability, 250+ projects" },
     { "url": "https://www.digitalauthority.me/locations/san-diego-ca/digital-design-company/san-diego-ux-design/", "how": "snippets", "covers": "generic UX services + scheduling CTA" },
     { "url": "https://arounda.agency/services/ui-ux-design/san-diego", "how": "snippets", "covers": "SaaS, fintech, healthcare, AI, Web3; Clutch reviews" },
     { "url": "https://irpr.agency/us/services/technology/san-diego/uiux-design", "how": "snippets", "covers": "visual design, research, wireframes, prototyping, testing; defense and biotech mention" },
-    { "url": "https://clutch.co/agencies/ui-ux/san-diego", "how": "snippets", "covers": "directory (skip as competitor, kept as SERP evidence)" }
+    { "url": "https://clutch.co/agencies/ui-ux/san-diego", "how": "snippets", "covers": "directory (not a competitor, kept as SERP evidence)" }
   ],
   "beats": "https://www.designstudiouiux.com/usa/san-diego/",
   "beatsNote": "Could not fetch or curl (no shell, WebFetch DNS failure). QA must run `curl -sSI -A 'Mozilla/5.0'` to confirm no redirect, then the 5-gram check (< 5%).",
   "sisterSeparation": {
     "sisterPages": ["https://uiuxdesignservices.us/location/ux-design-agency-los-angeles/", "https://uiuxdesignservices.us/location/ux-design-agency-san-francisco/"],
-    "fetchStatus": "FAILED this run: WebFetch returned getaddrinfo ENOTFOUND for both URLs and site: searches returned no sister pages. Headings and FAQs could not be compared.",
+    "fetchStatus": "FAILED this run: WebFetch returned getaddrinfo ENOTFOUND for both URLs, and site: searches returned no sister pages. Headings and FAQs could not be compared.",
     "measuresTaken": [
       "Different slug pattern: ours 'ux-design-san-diego' vs the sister's 'ux-design-agency-<city>'.",
       "Different primary variant: 'ux design san diego' (not 'ux design agency …').",
@@ -391,15 +394,15 @@
       "FAQs are about office honesty, hours, regulated data, start date, testing, build and WCAG: no generic 'Why choose…' FAQ.",
       "No links to uiuxdesignservices.us anywhere."
     ],
-    "qaAction": "QA must curl both sister pages and fail the page if 5-gram overlap > 2% or any H2/FAQ question matches. If either sister page uses the ET/PT window table or the 'remote vs local' framing, the writer rewords ours."
+    "qaAction": "QA must curl both sister pages and fail the page if 5-gram overlap > 2% or any H2/FAQ question matches. If either sister page uses an ET/PT window table or a 'remote vs local' framing, the writer rewords ours."
   },
   "variety": {
     "type": "Location",
-    "introStyle": "definition + honesty line in the lead (abstract), then sourced sector numbers in section 2. No prior location pages exist in content/locations/, so there is no location fingerprint to differ from; blog fingerprints do not apply.",
+    "introStyle": "definition + honesty line in the lead (abstract), then sourced sector numbers in section 2. No location pages exist in content/locations/ yet, so there is no location fingerprint to differ from; blog fingerprints do not apply.",
     "h2Frames": ["definition (remote scope)", "by sector (cards with sourced numbers)", "which starting point (situation → service)", "cost table", "steps (remote process)", "time-zone table", "case cards", "is (yes/no) remote vs local", "when to embed a designer", "FAQs"],
     "visualTypes": ["location hero illustration", "sector map", "range bars", "process flow", "time-zone timeline", "decision tree"],
     "ctaAngle": "pick a slot in the 9 a.m.–2 p.m. PT window → free consultation + fixed-scope proposal",
-    "differsFrom": "Denver (calendar item 3, todo) will be written from the same template and may run the same week. That brief must not reuse these H2 frames in this order, the ET/PT window table (Denver is Mountain Time: different window) or the sector-card device."
+    "differsFrom": "Denver (calendar item 3, todo) will be written from the same template and may run the same week. Its brief must not reuse these H2 frames in this order, the ET/PT window table (Denver is Mountain Time: a different window) or the sector-card device."
   },
   "leadAngle": "Right after the cost table (section 4) and again at the time-zone table (section 6): a founder who has seen the price range and the shared 9 a.m.–2 p.m. PT window wants to book. Offer: a free consultation inside that window, a reply within one business day ET, then a fixed-scope proposal. Writer adds one natural line, e.g. 'Send us your product link and two times between 9 a.m. and 2 p.m. PT; a senior designer replies within one business day, ET.'",
   "backlinkSuggestions": [
@@ -408,7 +411,7 @@
       "change": "Append one sentence: 'For Pacific Time teams, such as <a href=\"/location/ux-design-san-diego/\">UX design for San Diego startups</a>, live sessions sit between 9 a.m. and 2 p.m. PT.'",
       "priority": "conditional",
       "blocker": "Location page is draft:true (noindex) until scripts/publish-next-location.mjs publishes it; add the link on publish day.",
-      "why": "Real topic match (time-zone overlap), indexed hub page, one link out."
+      "why": "Real topic match (time-zone overlap), indexed service page, one link out."
     },
     {
       "source": "content/services/ai-product-discovery-workshop.json → FAQ 'Can the AI product discovery workshop run remotely?'",
@@ -425,7 +428,7 @@
     }
   ],
   "rejectedCandidates": [
-    { "keyword": "ux designer san diego (40, KD 0, TP 200)", "why": "Same volume as the primary and higher TP, but its parent topic is itself and the SERP leans to job/salary pages (hired.com, orbytjobs). Kept as secondary in H2 9 so the page does not become a jobs page." },
+    { "keyword": "ux designer san diego (40, KD 0, TP 200)", "why": "Same volume as the primary and higher TP, but the SERP leans to job/salary pages (hired.com, orbytjobs). Kept as secondary in H2 9 so the page does not become a jobs page." },
     { "keyword": "ux design company san diego (30)", "why": "Lower volume; kept as secondary in H2 8." },
     { "keyword": "ux agency san diego (10)", "why": "Low volume; meta keyword only." },
     { "keyword": "app design company san diego (10)", "why": "Mobile-app intent; meta keyword only." }
@@ -433,13 +436,13 @@
   "notes": [
     "HONESTY: no San Diego office, team or clients. None of the four case-study clients is in San Diego; section 7 says so in its answer. Do not use the Elia Wellness or Anyday quotes (not testimonials about our design work).",
     "CONFLICT (time zones): the owner brief says our team works ET hours, but content/services/hire-ui-ux-designers.json says dedicated designers overlap 'at least 4 hours with US Eastern time', which implies some designers are not on ET. Rule for the writer: state the shared ET/PT window as the slot where live sessions are booked; for dedicated designers state only the hire page's '≥ 4 hours overlap with Eastern time'. Never promise '5 hours of PT overlap' for embedded designers. Orchestrator: ask the owner to confirm team hours.",
-    "CONFLICT (redesign timeline): saas-product-redesign.json has no week range in the fields read; the writer takes the timeline from that hub's sections or writes 'phased'.",
+    "CONFLICT (redesign timeline): no week range for saas-product-redesign was read; the writer takes it from that hub's sections or writes 'Phased'.",
     "Hub-owned content NOT to restate: the AI UX hub's 5-problem list and 4-step process; the SaaS hub's 'agency vs in-house' table; the hire page's agency/freelance/full-time table. Link instead.",
     "Regulated industries: say what we design (screens, audit trails, consent flows) and that the client's regulatory team decides on HIPAA/FDA; give no legal advice.",
-    "US style: American spelling, USD, ET first then PT ('noon–5 p.m. ET (9 a.m.–2 p.m. PT)'), US date format.",
+    "US style: American spelling (inquiry, not enquiry), USD, ET first then PT ('noon–5 p.m. ET (9 a.m.–2 p.m. PT)'), US date format.",
     "Section bodies 50–70 words (90 max); answers 30–50 words, first sentence bold.",
     "competitors.json not rewritten (large shared file, no Edit tool). Orchestrator: add domains designstudiouiux.com, digitalauthority.me, arounda.agency, irpr.agency (role: local SERP for 'ux design san diego', 2026-10-16); no topPosts entry (location page, not a blog topic).",
-    "Calendar: mark the San Diego item's volume note as 'primary 40 + secondaries 70 = 110' when the item is closed."
+    "Calendar: when the San Diego item is closed, note the volume as 'primary 40 + secondaries 70 = 110'."
   ],
   "date": "2026-10-16"
 }
