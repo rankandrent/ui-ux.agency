@@ -21,7 +21,7 @@
     "h1": "Enterprise UX for SaaS platforms and internal tools your teams adopt",
     "sub": "Complex workflows, roles and permissions, data-dense dashboards and AI features, designed to pass security and accessibility reviews and to be used every day after rollout."
   },
-  "abstract": "Enterprise UX is the user experience (UX) design of software that organizations buy, roll out and govern: software as a service (SaaS) platforms, internal tools and artificial intelligence (AI) features used by many roles at once. ui-ux.agency, the design team of tkxel, designs enterprise UX for complex workflows, permissions, data-dense dashboards and design systems that hold up in security and accessibility reviews.",
+  "abstract": "Enterprise UX applies user experience (UX) design to software that organizations buy, roll out and govern for many roles at once: software as a service (SaaS) platforms, internal tools and artificial intelligence (AI) features. ui-ux.agency, the design team of tkxel, designs their complex workflows, permissions, data-dense dashboards and design systems so they hold up in security and accessibility reviews.",
   "summary": "Enterprise UX design for SaaS platforms, admin consoles and internal AI tools: role-based workflows, dense data screens and accessible design systems.",
   "intro": "IT and procurement approve enterprise software, while operators, analysts, approvers and admins use it all day. Our enterprise UX work designs for both groups, from the security review to the daily task.",
   "bullets": [
@@ -73,10 +73,10 @@
     },
     {
       "title": "Adoption after rollout",
-      "body": "Power users build habits, shortcuts and saved views, and a changed interface wipes them out on launch day. Staff already juggle many tools: Okta's Businesses at Work 2025 report puts the 2024 global average at 101 apps per company. Adoption stalls when a rollout has no plan, and the help desk queue fills instead."
+      "body": "Power users build habits, shortcuts and saved views in the legacy workflow, and a changed interface wipes them out on launch day. Staff already juggle many tools: Okta's Businesses at Work 2025 report puts the 2024 global average at 101 apps per company. Adoption stalls when a rollout has no plan, and the help desk queue fills instead."
     }
   ],
-  "solutionsIntro": "<strong>In enterprise software UX, we handle roles with a permission matrix, dense data with reusable table patterns and AI with review and approval steps, matching each challenge above.</strong>",
+  "solutionsIntro": "<strong>In enterprise software UX, each challenge above has its answer below: a role-permission matrix, table patterns, admin screens, an accessible design system, AI review steps and a phased rollout.</strong>",
   "solutions": [
     {
       "title": "Role-permission matrix first",
@@ -84,7 +84,7 @@
     },
     {
       "title": "Dense screens that stay readable",
-      "body": "The data table, filter bar, bulk actions and saved views become reusable patterns that manage data density: summary first, detail on demand. For Mass Media Co., a single dashboard now covers open tasks, sales operations, recent tasks and how work flows for each client. New modules reuse those patterns in our <a href=\"/services/saas-products/saas-design-agency/\">enterprise SaaS product design</a> work."
+      "body": "The data table, filter bar, bulk actions and saved views become our enterprise SaaS dashboard design patterns, which keep data density in check: summary first, detail on demand. For Mass Media Co., a single dashboard now covers open tasks, sales operations, recent tasks and how work flows for each client. New modules reuse those patterns in our <a href=\"/services/saas-products/saas-design-agency/\">enterprise SaaS product design</a> work."
     },
     {
       "title": "Admin and security surfaces",
@@ -188,10 +188,10 @@
   "headings": {
     "caseStudies": "Which enterprise UX projects have we shipped?",
     "challenges": "What makes enterprise UX harder than consumer UX?",
-    "services": "Which services cover enterprise UX design?",
-    "solutions": "How does our enterprise UX design handle roles, data and AI?",
-    "benefits": "Why do software teams hire us for enterprise UX?",
-    "process": "How does an enterprise UX engagement run?",
+    "services": "New build, redesign, AI or a team: which fits your enterprise UX?",
+    "solutions": "Which enterprise UX patterns answer each challenge?",
+    "benefits": "What do product and IT teams get when we design their enterprise UX?",
+    "process": "Which steps take enterprise UX from role map to rollout?",
     "faqs": "Enterprise UX FAQs from product, IT and security leads",
     "posts": "Enterprise UX guides"
   },
