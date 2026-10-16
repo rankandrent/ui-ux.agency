@@ -6,7 +6,7 @@ client: Mass Media Co.
 logo: Mass Media Co.
 result: "30% increase in order processing efficiency"
 services: [saas-product-redesign, saas-design-agency, product-design-agency]
-industries: []
+industries: [enterprise]
 tags: [Marketing technology, B2B platform, Web & mobile]
 results:
   - { value: "30%", label: "increase in order processing efficiency" }

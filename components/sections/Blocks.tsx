@@ -140,7 +140,7 @@ export function CardList({
         <div className="shead">
           {eyebrow && <span className="tk-eyebrow" style={{ display: "block", marginBottom: 20 }}>{eyebrow}</span>}
           <h2 id={`${id}-heading`}>{heading}</h2>
-          {intro && <p>{intro}</p>}
+          {intro && <Html as="p" html={intro} />}
         </div>
         <div className="plist">
           {items.map((c, i) => (
