@@ -156,7 +156,7 @@
       "items": [
         {
           "title": "Software and SaaS",
-          "body": "The <a href=\"https://www.sandiegobusiness.org/about-the-region/\">San Diego Regional Economic Development Corporation (EDC)</a> counted more than 3,100 software establishments in the region as of October 2026. In SaaS products, activation rate rises or falls in onboarding, so dashboard design, admin and billing come after it."
+          "body": "The <a href=\"https://www.sandiegobusiness.org/about-the-region/software/\">San Diego Regional Economic Development Corporation (EDC)</a> profiles software as one of the region's core industries. In SaaS products, activation rate rises or falls in onboarding, so dashboard design, admin and billing come after it."
         },
         {
           "title": "Life sciences software",
@@ -316,7 +316,7 @@
     {
       "h2": "What have we designed for AI and SaaS companies?",
       "format": "cards",
-      "answer": "<strong>Our AI and SaaS case studies include an AI content platform, an AI performance-scoring product, a trading analytics redesign and a business-to-business (B2B) order platform.</strong> None of these clients is in San Diego; the cards show the design work, not a local track record.",
+      "answer": "<strong>Our AI and SaaS case studies include an AI content platform, an AI performance-scoring product, a trading analytics redesign and a business-to-business (B2B) order platform.</strong> We do not claim any of these clients as San Diego clients; the cards show the design work, not a local track record.",
       "items": [
         {
           "title": "Vocable, multi-model AI editor",
@@ -332,7 +332,7 @@
         },
         {
           "title": "Mass Media Co., unified B2B platform",
-          "body": "Separate tools for audience data, orders and campaigns became one B2B platform for web and mobile. The <a href=\"/case-studies/mass-media-co/\">Mass Media Co. B2B platform</a> raised order processing efficiency 30% and cut the error rate from 25% to 2+."
+          "body": "Order work spread across separate tools became one B2B platform for audience data, orders and campaigns, on web and mobile. The <a href=\"/case-studies/mass-media-co/\">Mass Media Co. B2B platform</a> raised order processing efficiency 30% and cut the error rate from 25% to 2+."
         }
       ]
     },
@@ -385,7 +385,7 @@
         },
         {
           "q": "Which accessibility standard do your designs follow?",
-          "a": "<p>Our designs follow WCAG 2.2 AA, the AA level of the Web Content Accessibility Guidelines that the World Wide Web Consortium (W3C) published as a Recommendation on October 5, 2023. US teams use it to meet Americans with Disabilities Act (ADA) and Section 508 expectations.</p>"
+          "a": "<p>Our designs follow WCAG 2.2 AA, the AA level of the Web Content Accessibility Guidelines that the World Wide Web Consortium (W3C) published as a Recommendation on October 5, 2023. The W3C states that content conforming to WCAG 2.2 also conforms to WCAG 2.0 and 2.1, the versions referenced by the Section 508 standards and the Americans with Disabilities Act (ADA) Title II rule.</p>"
         }
       ]
     }

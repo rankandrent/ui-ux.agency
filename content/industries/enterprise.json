@@ -49,6 +49,7 @@
       "label": "apps per company, global average (Okta Businesses at Work 2025)"
     }
   ],
+  "challengesIntro": "Enterprise UX is harder because six pressures stack up: many roles, dense data, security reviews, accessibility rules, AI features staff must trust and a legacy workflow to replace.",
   "challenges": [
     {
       "title": "One product, many roles",
@@ -75,6 +76,7 @@
       "body": "Power users build habits, shortcuts and saved views, and a changed interface wipes them out on launch day. Staff already juggle many tools: Okta's Businesses at Work 2025 report puts the 2024 global average at 101 apps per company. Adoption stalls when a rollout has no plan, and the help desk queue fills instead."
     }
   ],
+  "solutionsIntro": "In enterprise software UX, we handle roles with a permission matrix, dense data with reusable table patterns and AI with review and approval steps, matching each challenge above.",
   "solutions": [
     {
       "title": "Role-permission matrix first",
@@ -90,7 +92,7 @@
     },
     {
       "title": "Accessible design system",
-      "body": "The design system ships Figma components with design tokens that match your front-end code. WCAG 2.2 target size (success criterion 2.5.8) sets a 24 × 24 CSS pixel minimum at AA; the notes also mark contrast, focus not obscured and accessible authentication (3.3.8). Empty state, loading and error variants are components too, which raises design system coverage. Your team or an auditor uses the notes for the ACR."
+      "body": "The design system ships Figma components with design tokens that match your front-end code. WCAG 2.2 target size (success criterion 2.5.8) sets a 24 × 24 CSS pixel minimum at AA; the notes also mark contrast, focus not obscured and accessible authentication (3.3.8). Empty state, loading and error variants are components, which raises design system coverage. Those notes feed the ACR."
     },
     {
       "title": "AI with review and approval",
@@ -103,13 +105,13 @@
   ],
   "cta": {
     "heading": "Is enterprise UX slowing your rollout or your security review?",
-    "body": "Book a 45-minute product review. A senior designer walks through your admin, roles and core workflow and names the three changes with the biggest effect.",
+    "body": "If it is, book a 45-minute product review. A senior designer walks through your admin, roles and core workflow and names the three changes with the biggest effect.",
     "cta": "Book an enterprise UX review"
   },
   "benefits": [
     {
       "title": "Design next to engineering",
-      "body": "As an enterprise UX design agency inside tkxel, our designers check each design with tkxel engineers for build effort before you see it. You get annotated Figma files, components and specs, and a designer joins your sprint reviews until the screens are live."
+      "body": "As an enterprise UX design agency inside tkxel, we check each design with tkxel engineers for build effort before you see it. You get annotated Figma files, components and specs, and a designer joins your sprint reviews until the screens are live."
     },
     {
       "title": "Proof on a B2B platform",
@@ -153,7 +155,7 @@
   "faqs": [
     {
       "q": "What is enterprise UX?",
-      "a": "<strong>Enterprise UX covers how employees and partners work in the software their organization buys and deploys, such as SaaS platforms, internal tools, enterprise resource planning (ERP) and customer relationship management (CRM) systems.</strong> It differs from consumer UX in four ways: many roles share one product, the buyer is not the user, screens carry dense data and sessions last most of the workday. Teams judge it by task time and error rate rather than delight."
+      "a": "<strong>Enterprise UX covers how employees and partners work in software their organization buys, such as SaaS platforms, internal tools, enterprise resource planning (ERP) and customer relationship management (CRM) systems.</strong> It differs from consumer UX in four ways: many roles share one product, the buyer is not the user, screens carry dense data and sessions last most of the workday. Teams judge it by task time and error rate rather than delight."
     },
     {
       "q": "How is enterprise UX design different for AI features?",
