@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 628" width="880" height="628" font-family="Plus Jakarta Sans, system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="UX design for San Diego, CA: AI answers users trust, SaaS activation, Lab data screens, Remote video reviews">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF4F7"/><stop offset="1" stop-color="#FDE3EC"/></linearGradient>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5F8FE"/><stop offset="1" stop-color="#E8EEFC"/></linearGradient>
 <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0755E9" flood-opacity=".12"/></filter>
 </defs>
-<g><rect width="880" height="628" fill="url(#bg)"/><path d="M0 610V564h76V610zM80 610V549h68V610zM152 610V536h52V610zM208 610V537h48V610zM260 610V547h79V610zM343 610V570h72V610zM419 610V509h62V610zM485 610V506h54V610zM543 610V514h50V610zM597 610V507h57V610zM658 610V526h71V610zM733 610V558h34V610zM771 610V519h65V610zM840 610V557h71V610z" fill="#F9D3E0"/><path d="M70 610V520h50v-70h20l10-30 10 30h20v70h50V610z" fill="#EC8DAE"/><rect y="610" width="880" height="18" fill="#EC8DAE"/></g>
+<g><rect width="880" height="628" fill="url(#bg)"/><path d="M0 610V564h76V610zM80 610V549h68V610zM152 610V536h52V610zM208 610V537h48V610zM260 610V547h79V610zM343 610V570h72V610zM419 610V509h62V610zM485 610V506h54V610zM543 610V514h50V610zM597 610V507h57V610zM658 610V526h71V610zM733 610V558h34V610zM771 610V519h65V610zM840 610V557h71V610z" fill="#CFDDFB"/><path d="M70 610V520h50v-70h20l10-30 10 30h20v70h50V610z" fill="#5B8DF5"/><rect y="610" width="880" height="18" fill="#5B8DF5"/></g>
 <g filter="url(#sh)"><rect x="40" y="36" width="263" height="50" rx="25" fill="#FFFFFF"/></g>
 <path d="M64 52a8 8 0 0 1 16 0c0 6-8 14-8 14s-8-8-8-14z" fill="#0755E9"/><circle cx="72" cy="52" r="3" fill="#FFFFFF"/>
 <text x="90" y="69" font-size="22" font-weight="800" fill="#1B232E">San Diego, CA</text>

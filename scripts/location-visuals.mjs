@@ -8,8 +8,8 @@ import path from "node:path";
 const DIR = "content/locations";
 const OUT = "public/locations";
 const W = 880, H = 628, BASE = 610; // 7:5, the .semv__visual frame
-const PINK = "#0755E9", TINT = "#E8EEFC", INK = "#1B232E";
-const SKY = "#F9D3E0", MARK = "#EC8DAE";
+const BLUE = "#0755E9", TINT = "#E8EEFC", INK = "#1B232E";
+const SKY = "#CFDDFB", MARK = "#5B8DF5"; // brand blue tints (owner rule 2026-10-14)
 
 // 24×24 stroke icons
 const ICONS = {
@@ -59,7 +59,7 @@ const LANDMARKS = {
   cactus: (x) => `<path d="M${x + 60} ${BASE}V${BASE - 170}a14 14 0 0 1 28 0V${BASE}zM${x + 60} ${BASE - 80}h-20a12 12 0 0 1-12-12v-40a10 10 0 0 1 20 0v32h12zM${x + 88} ${BASE - 100}h20v-40a10 10 0 0 1 20 0v48a12 12 0 0 1-12 12h-28z" fill="${MARK}"/><path d="M${x + 150} ${BASE}l30-70h90l30 70z" fill="${MARK}" opacity=".7"/>`,
   mountains: (x) => `<path d="M${x} ${BASE}l90-170 50 70 40-60 100 160z" fill="${MARK}"/><path d="M${x + 72} ${BASE - 136}L${x + 90} ${BASE - 170}L${x + 108} ${BASE - 136}L${x + 98} ${BASE - 128}L${x + 90} ${BASE - 138}L${x + 82} ${BASE - 128}z" fill="#FFF"/>`,
   steeple: (x) => `<g fill="${MARK}"><rect x="${x}" y="${BASE - 80}" width="160" height="80"/><rect x="${x + 58}" y="${BASE - 150}" width="44" height="70"/><rect x="${x + 64}" y="${BASE - 182}" width="32" height="32"/><path d="M${x + 66} ${BASE - 182}L${x + 80} ${BASE - 270}L${x + 94} ${BASE - 182}z"/></g>`,
-  rocket: (x) => `<path d="M${x + 60} ${BASE - 40}V${BASE - 230}q20-40 40 0V${BASE - 40}zM${x + 60} ${BASE - 90}l-24 50h24zM${x + 100} ${BASE - 90}l24 50h-24zM${x + 70} ${BASE - 40}h20l6 40h-32z" fill="${MARK}"/><path d="M${x + 60} ${BASE - 170}h40M${x + 60} ${BASE - 120}h40" stroke="#FDE3EC" stroke-width="4"/>`,
+  rocket: (x) => `<path d="M${x + 60} ${BASE - 40}V${BASE - 230}q20-40 40 0V${BASE - 40}zM${x + 60} ${BASE - 90}l-24 50h24zM${x + 100} ${BASE - 90}l24 50h-24zM${x + 70} ${BASE - 40}h20l6 40h-32z" fill="${MARK}"/><path d="M${x + 60} ${BASE - 170}h40M${x + 60} ${BASE - 120}h40" stroke="#EEF3FE" stroke-width="4"/>`,
   towers: (x) => `<path d="M${x} ${BASE}V${BASE - 150}l20-30 20 30V${BASE}zM${x + 50} ${BASE}V${BASE - 200}l24-36 24 36V${BASE}zM${x + 108} ${BASE}V${BASE - 120}h40V${BASE}z" fill="${MARK}"/>`,
 };
 
@@ -97,20 +97,20 @@ function svg(slug, l) {
   const tiles = scenes.slice(0, 3).map((s, i) => {
     const tx = 140 + i * 206, on = i === 0;
     const lines = wrap(s.label);
-    return `<g><rect x="${tx}" y="184" width="190" height="150" rx="18" fill="${on ? PINK : "#F6F6F7"}"/>` +
+    return `<g><rect x="${tx}" y="184" width="190" height="150" rx="18" fill="${on ? BLUE : "#F6F6F7"}"/>` +
       `<circle cx="${tx + 40}" cy="224" r="24" fill="${on ? "#FFFFFF" : TINT}"/>` +
-      `<path d="${ICONS[s.icon] ?? ICONS.spark}" transform="translate(${tx + 25} 209) scale(1.25)" fill="none" stroke="${PINK}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>` +
+      `<path d="${ICONS[s.icon] ?? ICONS.spark}" transform="translate(${tx + 25} 209) scale(1.25)" fill="none" stroke="${BLUE}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>` +
       lines.map((t, k) => `<text x="${tx + 18}" y="${282 + k * 26}" font-size="20" font-weight="700" fill="${on ? "#FFFFFF" : INK}">${esc(t)}</text>`).join("") +
       `</g>`;
   }).join("");
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="Plus Jakarta Sans, system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="${esc(`UX design for ${place}: ${scenes.map((s) => s.label).join(", ")}`)}">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF4F7"/><stop offset="1" stop-color="#FDE3EC"/></linearGradient>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5F8FE"/><stop offset="1" stop-color="#E8EEFC"/></linearGradient>
 <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0755E9" flood-opacity=".12"/></filter>
 </defs>
 <g><rect width="${W}" height="${H}" fill="url(#bg)"/>${skyline(slug)}${lm}<rect y="${BASE}" width="${W}" height="${H - BASE}" fill="${MARK}"/></g>
 <g filter="url(#sh)"><rect x="40" y="36" width="${Math.round(place.length * 14.5) + 74}" height="50" rx="25" fill="#FFFFFF"/></g>
-<path d="M64 52a8 8 0 0 1 16 0c0 6-8 14-8 14s-8-8-8-14z" fill="${PINK}"/><circle cx="72" cy="52" r="3" fill="#FFFFFF"/>
+<path d="M64 52a8 8 0 0 1 16 0c0 6-8 14-8 14s-8-8-8-14z" fill="${BLUE}"/><circle cx="72" cy="52" r="3" fill="#FFFFFF"/>
 <text x="90" y="69" font-size="22" font-weight="800" fill="${INK}">${esc(place)}</text>
 <g filter="url(#sh)"><rect x="110" y="106" width="660" height="256" rx="24" fill="#FFFFFF"/></g>
 <rect x="110" y="106" width="660" height="52" rx="24" fill="#F4F4F5"/><rect x="110" y="136" width="660" height="22" fill="#F4F4F5"/>
@@ -118,7 +118,7 @@ function svg(slug, l) {
 <rect x="220" y="122" width="220" height="20" rx="10" fill="#FFFFFF"/>
 ${tiles}
 <g filter="url(#sh)"><rect x="560" y="330" width="260" height="76" rx="18" fill="#FFFFFF"/></g>
-<circle cx="600" cy="368" r="20" fill="${TINT}"/><path d="M591 368l6 6 12-12" fill="none" stroke="${PINK}" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="600" cy="368" r="20" fill="${TINT}"/><path d="M591 368l6 6 12-12" fill="none" stroke="${BLUE}" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="632" y="362" font-size="18" font-weight="800" fill="${INK}">Tested with</text><text x="632" y="386" font-size="18" font-weight="800" fill="${INK}">real users</text>
 </svg>
 `;

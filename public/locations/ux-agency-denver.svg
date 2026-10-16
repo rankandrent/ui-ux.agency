@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 628" width="880" height="628" font-family="Plus Jakarta Sans, system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="UX design for Denver, CO: AI feature design, SaaS onboarding, 2-hour time gap, Startup MVPs">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF4F7"/><stop offset="1" stop-color="#FDE3EC"/></linearGradient>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5F8FE"/><stop offset="1" stop-color="#E8EEFC"/></linearGradient>
 <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0755E9" flood-opacity=".12"/></filter>
 </defs>
-<g><rect width="880" height="628" fill="url(#bg)"/><path d="M0 610V523h78V610zM82 610V513h46V610zM132 610V569h63V610zM199 610V508h78V610zM281 610V540h61V610zM346 610V546h62V610zM412 610V508h49V610zM465 610V547h75V610zM544 610V545h55V610zM603 610V534h35V610zM642 610V560h77V610zM723 610V512h70V610zM797 610V560h66V610zM867 610V569h74V610z" fill="#F9D3E0"/><path d="M70 610l90-170 50 70 40-60 100 160z" fill="#EC8DAE"/><path d="M142 474L160 440L178 474L168 482L160 472L152 482z" fill="#FFF"/><rect y="610" width="880" height="18" fill="#EC8DAE"/></g>
+<g><rect width="880" height="628" fill="url(#bg)"/><path d="M0 610V523h78V610zM82 610V513h46V610zM132 610V569h63V610zM199 610V508h78V610zM281 610V540h61V610zM346 610V546h62V610zM412 610V508h49V610zM465 610V547h75V610zM544 610V545h55V610zM603 610V534h35V610zM642 610V560h77V610zM723 610V512h70V610zM797 610V560h66V610zM867 610V569h74V610z" fill="#CFDDFB"/><path d="M70 610l90-170 50 70 40-60 100 160z" fill="#5B8DF5"/><path d="M142 474L160 440L178 474L168 482L160 472L152 482z" fill="#FFF"/><rect y="610" width="880" height="18" fill="#5B8DF5"/></g>
 <g filter="url(#sh)"><rect x="40" y="36" width="219" height="50" rx="25" fill="#FFFFFF"/></g>
 <path d="M64 52a8 8 0 0 1 16 0c0 6-8 14-8 14s-8-8-8-14z" fill="#0755E9"/><circle cx="72" cy="52" r="3" fill="#FFFFFF"/>
 <text x="90" y="69" font-size="22" font-weight="800" fill="#1B232E">Denver, CO</text>
