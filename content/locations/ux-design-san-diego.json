@@ -1,0 +1,415 @@
+{
+  "draft": true,
+  "order": 2,
+  "title": "San Diego",
+  "city": "San Diego",
+  "state": "CA",
+  "keyword": "ux design san diego",
+  "anchor": "UX design San Diego",
+  "metaTitle": "UX Design San Diego | AI & SaaS Product Design for Startups",
+  "metaDescription": "UX design San Diego startups can book remotely: AI and SaaS product design, video reviews, published prices from $8,000. Book a free consultation.",
+  "keywords": [
+    "ux design san diego",
+    "ux designer san diego",
+    "ux design company san diego",
+    "ux agency san diego",
+    "app design company san diego",
+    "ai product design san diego",
+    "saas design san diego"
+  ],
+  "hero": {
+    "eyebrow": "UX design San Diego",
+    "h1": "UX design San Diego startups can run remotely, for AI and SaaS products",
+    "sub": "Senior designers for San Diego software, life sciences and cybersecurity teams: research, flows, interface design and tested prototypes, delivered over video calls and shared Figma files."
+  },
+  "summary": "Remote AI and SaaS product design for San Diego startups, with published prices and prototypes tested with users.",
+  "abstract": "The UX design San Diego startups book from ui-ux.agency is remote. We design artificial intelligence (AI) and software as a service (SaaS) products: user experience (UX) research, user flows, user interface (UI) design and clickable prototypes tested with 5 to 8 users. Our one office is in Reston, Virginia, and we have no San Diego office.",
+  "centralEntity": "UX design San Diego",
+  "sourceContext": "ui-ux.agency, the design team of tkxel (Reston, VA; 200+ products since 2017), sells AI and SaaS product design to US startups. For San Diego it works remotely: no local office, no local team, no claimed local clients.",
+  "priceRange": "$8,000–$200,000",
+  "updated": "2026-10-16",
+  "semantic": {
+    "entities": [
+      "UX design San Diego",
+      "San Diego Regional EDC",
+      "Biocom California",
+      "UC San Diego",
+      "EvoNexus",
+      "Cyber Center of Excellence",
+      "Pacific Time (PT)",
+      "Eastern Time (ET)",
+      "Reston, Virginia",
+      "tkxel",
+      "SaaS product design",
+      "AI UX design",
+      "large language models (LLMs)",
+      "MVP design",
+      "AI product discovery workshop",
+      "usability testing",
+      "clickable prototype",
+      "Figma",
+      "Maze",
+      "WCAG 2.2 AA",
+      "HIPAA",
+      "FDA Software as a Medical Device (SaMD)",
+      "Vocable",
+      "Digno",
+      "TradeZella",
+      "Mass Media Co."
+    ],
+    "ngrams": [
+      "ux design san diego",
+      "ux designer san diego",
+      "ux design company san diego",
+      "san diego startups",
+      "saas product design",
+      "ai product design",
+      "pacific time",
+      "eastern time",
+      "remote collaboration",
+      "clickable prototype",
+      "usability testing",
+      "life sciences software",
+      "design handoff",
+      "fixed scope"
+    ],
+    "skipgrams": [
+      [
+        "san diego",
+        "software"
+      ],
+      [
+        "pacific",
+        "eastern"
+      ],
+      [
+        "remote",
+        "workshop"
+      ],
+      [
+        "ai",
+        "trust"
+      ],
+      [
+        "saas",
+        "activation"
+      ],
+      [
+        "prototype",
+        "users"
+      ],
+      [
+        "life sciences",
+        "data"
+      ],
+      [
+        "startup",
+        "mvp"
+      ],
+      [
+        "figma",
+        "handoff"
+      ],
+      [
+        "time",
+        "overlap"
+      ],
+      [
+        "reston",
+        "office"
+      ],
+      [
+        "cybersecurity",
+        "alerts"
+      ]
+    ],
+    "nlpKeywords": [
+      "product design partner",
+      "senior designers",
+      "user interviews",
+      "dashboards",
+      "activation rate",
+      "design system",
+      "time zone",
+      "fixed-scope proposal"
+    ]
+  },
+  "mentions": [
+    "San Diego",
+    "California",
+    "Pacific Time Zone",
+    "UC San Diego",
+    "Biocom California",
+    "Figma"
+  ],
+  "sections": [
+    {
+      "h2": "What is UX design for San Diego AI and SaaS teams?",
+      "format": "paragraph",
+      "answer": "<strong>UX design San Diego teams can run remotely covers user research, user flows, interface design and clickable prototypes tested with real users, for AI and SaaS products.</strong> ui-ux.agency, tkxel's design team, handles the AI product design and SaaS product design over video calls and shared files.",
+      "body": "<p>The work suits founders and product leads at San Diego software, AI and life sciences companies. Engineers receive annotated design files, a component library and answers during every sprint. Products that answer with large language models (LLMs) follow our <a href=\"/services/ai-products/ai-ux-design-agency/\">AI UX design</a> method for review and correction. Our designers have worked on 200+ digital products since 2017. tkxel's only office is in Reston; we have no San Diego office or local team.</p>"
+    },
+    {
+      "h2": "How does the UX design San Diego firms need vary by sector?",
+      "format": "cards",
+      "answer": "<strong>The UX design San Diego companies need changes with the sector.</strong> SaaS teams need activation and dashboards, life sciences teams need dense data screens, cybersecurity teams need alert views analysts trust, and university spinouts need a first product.",
+      "items": [
+        {
+          "title": "Software and SaaS",
+          "body": "The <a href=\"https://www.sandiegobusiness.org/about-the-region/software/\">San Diego Regional Economic Development Corporation (EDC)</a> counts 28,617 software jobs across 2,949 establishments, about one in six innovation economy jobs. In SaaS products, activation rate rises or falls in onboarding, so dashboard design, admin and billing come after it."
+        },
+        {
+          "title": "Life sciences software",
+          "body": "<a href=\"https://www.genengnews.com/topics/translational-medicine/california-still-golden-despite-job-losses-industry-group/\">Biocom California</a> counted 61,866 San Diego life sciences jobs at the end of 2025, down 2.55%. Lab and clinical data need dense tables and audit trails. Patient records bring in the Health Insurance Portability and Accountability Act (HIPAA); your regulatory team decides which rules apply."
+        },
+        {
+          "title": "Cybersecurity",
+          "body": "A 2025 study by San Diego Regional EDC and the <a href=\"https://www.sandiegobusiness.org/blog/study-san-diegos-4-3b-cyber-cluster-expands-amid-tech-contraction/\">Cyber Center of Excellence</a> counts 14,875 cybersecurity jobs at 1,350 establishments and a $4.3 billion regional economic impact. Cybersecurity products need alerts analysts can triage fast, role-based admin and SOC 2 evidence screens."
+        },
+        {
+          "title": "Research spinouts",
+          "body": "<a href=\"https://today.ucsd.edu/story/uc-san-diegos-fy26-awards-reflect-larger-grants-in-a-more-competitive-landscape\">UC San Diego</a> won nearly $1.8 billion in research awards in fiscal year 2026, and <a href=\"https://evonexus.org/evonexus-tech-incubator-welcomes-new-class-of-software-hardware-and-life-science-startups/\">EvoNexus</a>, the incubator of the nonprofit CommNexus, gives startups space and services free of charge. A lab result becomes a startup's minimum viable product (MVP) once first users finish one task in a clickable prototype."
+        }
+      ]
+    },
+    {
+      "h2": "Which starting point fits a San Diego AI or SaaS startup?",
+      "format": "list",
+      "answer": "<strong>Six starting points cover most San Diego startups, and the right one depends on what already exists.</strong> Match your situation to one line below; prices and timelines follow in the next table.",
+      "items": [
+        "An AI idea and nothing built: a remote <a href=\"/services/ai-products/ai-product-discovery-workshop/\">AI product discovery workshop</a> in Figma and FigJam picks the use case worth building.",
+        "A funded startup concept and no product yet: <a href=\"/services/startups/mvp-design-agency/\">MVP design</a> turns it into a clickable product for users and investors.",
+        "A live SaaS product whose trial users never activate: <a href=\"/services/saas-products/saas-onboarding-design/\">SaaS onboarding design</a>, from sign-up to first result.",
+        "An AI feature users do not trust or keep correcting: AI UX design or chatbot UI design, built around reviewing and fixing model output.",
+        "Paying customers but dated flows: a <a href=\"/services/saas-products/saas-product-redesign/\">phased SaaS product redesign</a> that ships one area at a time.",
+        "A backlog that needs a designer every sprint: dedicated designers on a monthly plan."
+      ]
+    },
+    {
+      "h2": "What does the UX design San Diego startups book cost?",
+      "format": "table",
+      "answer": "<strong>Our engagements cost $8,000 to $200,000 per project, or $15,000 to $40,000 per month for dedicated designers.</strong> The table compares our seven engagements by price, timeline and the stage they fit.",
+      "caption": "Price and timeline of each engagement for San Diego AI and SaaS teams",
+      "columns": [
+        "Engagement",
+        "Price",
+        "Timeline",
+        "Fits when"
+      ],
+      "rows": [
+        [
+          "AI product discovery workshop",
+          "$8,000–$20,000",
+          "1–2 weeks",
+          "You are choosing which AI use case to build."
+        ],
+        [
+          "MVP design",
+          "$15,000–$50,000",
+          "4–8 weeks",
+          "You need a first version for users and investors."
+        ],
+        [
+          "SaaS onboarding design",
+          "$15,000–$45,000",
+          "3–6 weeks",
+          "Trials sign up but do not activate."
+        ],
+        [
+          "AI UX design",
+          "$25,000–$90,000",
+          "4–10 weeks",
+          "AI features users must trust and correct."
+        ],
+        [
+          "SaaS design",
+          "$40,000–$180,000",
+          "6–16 weeks",
+          "A new or growing product needs full <a href=\"/services/saas-products/saas-design-agency/\">SaaS product design</a>."
+        ],
+        [
+          "SaaS product redesign",
+          "$50,000–$200,000",
+          "8–20 weeks, phased",
+          "A live product with paying customers."
+        ],
+        [
+          "Dedicated UI UX designers",
+          "$15,000–$40,000 per month",
+          "Start in 1–2 weeks",
+          "Design work lands in every sprint."
+        ]
+      ],
+      "h3s": [
+        {
+          "h3": "How do you get a price for your own product?",
+          "body": "<p>Scope moves a project inside its range: our service pages name user roles, platforms and AI features as the main price factors, and every proposal has a fixed scope. The <a href=\"/services/ui-ux-design-cost/\">full UI UX design cost breakdown</a> explains each factor. Send your product link through the form above, and the free consultation comes before any proposal.</p>"
+        }
+      ]
+    },
+    {
+      "h2": "What are the five steps of a remote San Diego project?",
+      "format": "steps",
+      "answer": "<strong>A remote project runs in five steps, with video sessions at kickoff, reviews and user tests.</strong> Comments in shared Figma files carry the work between sessions, so neither time zone waits on the other.",
+      "items": [
+        {
+          "title": "Kickoff and data access (video call)",
+          "body": "We agree on goals and success metrics, then get access to your analytics and support data."
+        },
+        {
+          "title": "User interviews (remote)",
+          "body": "Every project starts with interviews, analytics or support data, so early decisions rest on evidence rather than opinion."
+        },
+        {
+          "title": "User flows and wireframes (shared files)",
+          "body": "Your team comments on flows and wireframes at any hour, and open questions get settled in a video review."
+        },
+        {
+          "title": "UI and prototype with real output",
+          "body": "For AI features, the clickable prototype shows real or recorded model responses, mistakes included, so testers react to what the product will say."
+        },
+        {
+          "title": "Usability testing and design handoff",
+          "body": "Between 5 and 8 target users test the prototype in remote Maze sessions. Engineers then get the Figma handoff with a component library, and designers answer build questions in sprints."
+        }
+      ]
+    },
+    {
+      "h2": "How do Eastern and Pacific Time line up for reviews?",
+      "format": "table",
+      "answer": "<strong>San Diego runs on Pacific Time (PT), 3 hours behind Eastern Time (ET) all year, so a call set for 1 p.m. ET begins at 10 a.m. in San Diego.</strong> The example table converts common meeting times between the two time zones.",
+      "caption": "Example: how meeting times convert from Eastern Time to San Diego's Pacific Time",
+      "columns": [
+        "Eastern Time (ET)",
+        "Pacific Time (PT)",
+        "Example session"
+      ],
+      "rows": [
+        [
+          "11 a.m.",
+          "8 a.m.",
+          "Early kickoff call."
+        ],
+        [
+          "1 p.m.",
+          "10 a.m.",
+          "Design review."
+        ],
+        [
+          "3 p.m.",
+          "Noon",
+          "Usability test session."
+        ],
+        [
+          "5 p.m.",
+          "2 p.m.",
+          "Late working session."
+        ]
+      ],
+      "h3s": [
+        {
+          "h3": "What changes with daylight saving and dedicated designers?",
+          "body": "<p>The gap stays the same: both zones switch on the same dates, so it remains 3 hours after daylight saving time ends on November 1, 2026. For dedicated designers, the time overlap with the US Eastern workday is at least 4 hours, and written comments cover the rest. Name two meeting times that suit your team in the form; a senior designer answers within one business day, ET.</p>"
+        }
+      ]
+    },
+    {
+      "h2": "What have we designed for AI and SaaS companies?",
+      "format": "cards",
+      "answer": "<strong>Our AI and SaaS case studies include an AI content platform, an AI performance-scoring product, a trading analytics redesign and a business-to-business (B2B) order platform.</strong> None of these clients is in San Diego; the cards show the design work, not a local track record.",
+      "items": [
+        {
+          "title": "Vocable, multi-model AI editor",
+          "body": "From idea to MVP: one document editor where writers switch between OpenAI, Google, Anthropic and Meta models without opening another tab. The <a href=\"/case-studies/vocable/\">Vocable AI content platform</a> lifted overall workflow efficiency by 35%."
+        },
+        {
+          "title": "Digno, AI-scored HR software",
+          "body": "An AI engine scores each employee on finished tasks, consistency and engagement, then sorts results into four bands from Poor to Pro. Digno's overall revenue increased 5x, as the <a href=\"/case-studies/digno/\">Digno AI scoring case study</a> reports."
+        },
+        {
+          "title": "TradeZella, trading journal redesign",
+          "body": "Crowded dashboards were redrawn around the metrics traders check most, on web and mobile, and traders tested them before launch. The <a href=\"/case-studies/tradezella/\">TradeZella dashboard redesign</a> brought 40% more user interaction and a 25% boost in retention."
+        },
+        {
+          "title": "Mass Media Co., unified B2B platform",
+          "body": "Separate tools for audience data, orders and campaigns became one B2B platform for web and mobile. The <a href=\"/case-studies/mass-media-co/\">Mass Media Co. B2B platform</a> raised order processing efficiency 30% and cut the error rate from 25% to 2+."
+        }
+      ]
+    },
+    {
+      "h2": "Is a remote UX design company San Diego founders hire risky?",
+      "format": "paragraph",
+      "answer": "<strong>No, not for most AI and SaaS products, because research, reviews and user tests all run well online.</strong> A local studio fits better when the work needs regular in-person observation, such as watching scientists use instruments in a wet lab.",
+      "body": "<p>A remote UX design company San Diego startups hire works best when the product lives on a screen and its users are spread across the US, since recruiting testers nationwide is easier online than in one city. Whichever partner you weigh, remote or local, ask how it runs user interviews, prototype tests and the design handoff before you sign.</p>",
+      "h3s": [
+        {
+          "h3": "When does remote collaboration work best?",
+          "body": "<p>Remote collaboration works best for software used on a screen, with users across the US and a team already on Slack, Figma and video calls. A fixed scope with set review points keeps both sides on schedule.</p>"
+        },
+        {
+          "h3": "When should you pick a local partner?",
+          "body": "<p>Pick a local partner when you need frequent on-site contextual inquiry in labs, clinics or hardware test rooms. Remote sprints sit at the lower end of our $12,000–$25,000 design sprint price, and an on-site sprint with travel lands near the top.</p>"
+        }
+      ]
+    },
+    {
+      "h2": "When is a UX designer San Diego teams embed the better fit?",
+      "format": "paragraph",
+      "answer": "<strong>A UX designer San Diego teams embed beats a fixed project when design work never stops: a weekly release train, a growing design system or several squads.</strong> Dedicated designers cost $15,000 to $40,000 per month and can begin within 1 to 2 weeks.",
+      "body": "<p>A project ends with a design handoff; an embedded designer stays inside your sprints. You can hire <a href=\"/services/hire-ui-ux-designers/\">dedicated UI UX designers</a> as one person or a team of 2 to 5, month to month with 30 days notice. A design lead reviews the work weekly, and each designer shares at least 4 hours with the US Eastern workday. This page is for companies hiring design help, not for job seekers.</p>"
+    },
+    {
+      "h2": "Questions San Diego founders ask before a UX project",
+      "format": "faq",
+      "answer": "<strong>Short answers on location, regulated data, start dates, testing, development and accessibility.</strong>",
+      "faqs": [
+        {
+          "q": "Is ui-ux.agency a San Diego company?",
+          "a": "<p>No. We are tkxel's design team, and tkxel's one office is in Reston, Virginia. The team works remotely with US companies, so San Diego teams work with us over video calls and shared design files rather than at a local office.</p>"
+        },
+        {
+          "q": "Can you design life sciences software that handles patient data?",
+          "a": "<p>Yes, at the design level: role-based screens, audit trails, consent flows and data entry. Your regulatory and legal team decides whether HIPAA or Software as a Medical Device (SaMD) rules from the Food and Drug Administration (FDA) apply, and we design to the requirements they set.</p>"
+        },
+        {
+          "q": "Once a proposal is signed, when does design work begin?",
+          "a": "<p>A senior team usually starts within 1 to 2 weeks of a signed proposal. Dedicated designers begin on the same 1 to 2 week timeline, which leaves room to share analytics and support data before kickoff.</p>"
+        },
+        {
+          "q": "How are designs tested with real users?",
+          "a": "<p>Risky flows go to 5 to 8 target users as clickable prototypes in remote sessions, often run in Maze. Because sessions happen online, testers join from anywhere in the US, not only from San Diego.</p>"
+        },
+        {
+          "q": "Who writes the code after the design handoff?",
+          "a": "<p>You choose. Because ui-ux.agency belongs to tkxel, a software engineering company, one company can handle design and software development, or your own developers can take the design files and component library.</p>"
+        },
+        {
+          "q": "Which accessibility standard do your designs follow?",
+          "a": "<p>Our designs follow WCAG 2.2 AA, the AA level of the Web Content Accessibility Guidelines that the World Wide Web Consortium (W3C) published as a Recommendation on October 5, 2023. US teams use it to meet Americans with Disabilities Act (ADA) and Section 508 expectations.</p>"
+        }
+      ]
+    }
+  ],
+  "faqs": [],
+  "visual": {
+    "landmark": "bell",
+    "scenes": [
+      {
+        "icon": "robot",
+        "label": "AI answers users trust"
+      },
+      {
+        "icon": "chart",
+        "label": "SaaS activation flows"
+      },
+      {
+        "icon": "flask",
+        "label": "Lab data screens"
+      },
+      {
+        "icon": "calendar",
+        "label": "Remote video reviews"
+      }
+    ]
+  }
+}
