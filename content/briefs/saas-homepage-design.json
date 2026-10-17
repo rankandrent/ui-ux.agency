@@ -1,0 +1,479 @@
+{
+  "slug": "saas-homepage-design",
+  "keyword": "saas homepage design",
+  "secondary": ["web design for saas"],
+  "metaKeywordVariants": ["saas homepage", "saas website homepage", "b2b saas homepage", "saas website design"],
+  "intent": "Commercial investigation with a how-to core (Ahrefs intents: informational + commercial). SaaS founders, heads of product and growth or design leads at US software companies who are about to design or redesign their homepage, often while looking at templates and galleries, and who need to decide what the page says, which sections it needs, where the call to action (CTA) sends people and how to tell if it works. Our angle: the homepage is the first screen of onboarding, so its promise has to be the thing a new user sees in the first minutes after sign-up. Not designers shopping for a template file (page 1 is full of those), and not marketing-site builders looking for a Webflow or Framer tutorial.",
+  "volume": 150,
+  "kd": 0,
+  "trafficPotential": 2500,
+  "cpc": 3.5,
+  "clusterVolume": 300,
+  "dataSource": "Ahrefs US, raw rows in docs/content-system/warehouse/2026-10-14-terms-saas-design.json (pulled 2026-10-14): 'saas homepage design' 150 / KD 0 / CPC 350 cents / parent topic 'best saas websites' / TP 2500; 'web design for saas' 150 / KD 0 / CPC 900 cents / parent 'best saas websites' / TP 2600. Same figures as blog-opportunities.json (topic 'best saas websites', score 133.7, sumVolume 300, expected traffic 780). Semrush called once on 2026-10-17: no_api_units. No GSC export (docs/data/gsc/latest.json missing). DEVIATION from the 2026-10-12 owner rule (Semrush or GSC): measured Ahrefs volume used, as accepted by the orchestrator in the saas-onboarding, product-discovery and user-onboarding-automation precedents. SERP: Ahrefs warehouse docs/content-system/warehouse/2026-10-14-serp-saas-homepage-design.json plus live WebSearch on 2026-10-17. WebFetch returned ENOTFOUND for every page tried (huemor.rocks, poweredbysearch.com, merge.rocks, wearetenet.com, uiuxdesignservices.us), so competitor coverage comes from search snippets.",
+  "dataSourceDate": "2026-10-17",
+  "score": 133.7,
+  "expectedMonthlyTraffic": 780,
+  "opportunity": "docs/content-system/blog-opportunities.json, topic 'best saas websites' (main 'saas homepage design', 2 keywords, format 'complete guide (definition, process, examples, checklist)'). Matrix: ui-ux.agency, atlassian, userflow, userpilot and rocketlane not in the top 100; dribbble #2 and ramotion #3 (portfolio pages, not guides). Ledger: skipped on 2026-10-15 and 2026-10-16 as 'website-only design'. The orchestrator re-selected it on 2026-10-17 with the homepage → sign-up → first-run angle, which ties it to the hub FAQ 'Do you design SaaS marketing websites too?'.",
+  "hub": "saas-design-agency",
+  "hubUrl": "/services/saas-products/saas-design-agency/",
+  "pillar": "saas-products",
+  "services": ["saas-design-agency"],
+  "industries": [],
+  "author": "shahmir-farooq",
+  "authorWhy": "Shahmir Farooq is the Sr. Communication Designer (content/home.ts team list; content/authors.json bio empty). A homepage is a communication-design problem first: headline, hierarchy, proof, visuals and the CTA label. He has not written a post yet, so rotation favors him. Rejected: Talha Saleem wrote the last post (user-onboarding-automation, 2026-10-16); Ahmad Ullah wrote product-discovery (2026-10-15); Faizan Khan wrote saas-onboarding and would make the homepage → first-run handoff read like that onboarding post. Saliha Shahzad (UI/UX Designer) is the fallback if the owner prefers a UI voice. Sahar Asif (Senior Manager UX | KAM) suits the silo's next post (BOFU).",
+  "funnel": "mofu",
+  "funnelWhy": "SERP sets the stage (lesson 2026-10-06). Page 1 is template and inspiration pages (aura.build, dribbble, webflow, cogosite, pinterest), one agency portfolio (ramotion), a YouTube build video, a scope-of-work template (taskip) and a UX audit checklist (zoom). The live WebSearch adds guides (huemor, poweredbysearch, merge.rocks, sliderrevolution, wearetenet galleries). No cost, pricing or agency-comparison page dominates, so this is not BOFU. The reader is planning a homepage project, which is MOFU in funnel.json. Silo count: saas-design-agency has 0 published posts. The new-silo rule asks for 1 BOFU + 1 MOFU first, so this post is the MOFU half. The orchestrator chose it by opportunity score. Next post in this silo should be BOFU (candidates to test: 'saas design agency pricing' wording that the hub cost H2 does not own, or 'saas product design rfp / scope of work'; check hub ownership first).",
+  "serviceSupport": 4,
+  "serviceSupportWhy": "With the promise → first-run angle, the reader's real problem is the gap between what the homepage says and what the product shows in the first session. That gap spans the marketing site, the sign-up flow and onboarding, which is exactly the hub FAQ: 'We design the marketing site, pricing page and sign-up flow together, so the promise on the website matches the first minutes in the product.' Not a 5, because some searchers want only a template or a one-page refresh, which the hub does not sell (and the hub publishes no homepage-only price).",
+  "title": "SaaS homepage design: make a promise your product keeps",
+  "metaTitle": "SaaS Homepage Design: Promise, Sign-Up and First Run",
+  "metaDescription": "SaaS homepage design: write a promise your first-run screen keeps, order the sections, test the sign-up handoff. Then book a free consultation.",
+  "centralEntity": "SaaS homepage design",
+  "sourceContext": "ui-ux.agency (the design team of tkxel, Reston, VA) writes as a product design team that designs SaaS products end to end and, per the hub FAQ, designs the marketing site, pricing page and sign-up flow together with the product. It is not a template shop or a web-development agency, so the post judges a homepage by what happens after the click: sign-up completion, the first screen and the first result.",
+  "entities": [
+    "SaaS homepage",
+    "value proposition",
+    "tagline / hero headline",
+    "hero section",
+    "call to action (CTA)",
+    "free trial",
+    "freemium plan",
+    "book a demo (sales-led)",
+    "product-led growth",
+    "social proof (customer logos, named results)",
+    "sign-up form",
+    "single sign-on (Google or Microsoft sign-in)",
+    "first-run experience",
+    "empty state",
+    "time to first value",
+    "activation rate",
+    "perceived value vs experienced value",
+    "pricing page",
+    "five-second test",
+    "first-click test",
+    "A/B test",
+    "Core Web Vitals (LCP, INP)",
+    "WCAG 2.2 AA (ADA / Section 508 frame)",
+    "SOC 2 report / security page",
+    "ROSCA (Restore Online Shoppers' Confidence Act, FTC)",
+    "Nielsen Norman Group (NN/g)"
+  ],
+  "attributes": [
+    "promise (who it is for, the job, the result)",
+    "section order and the job of each section",
+    "above-the-fold content (first screenful)",
+    "CTA label and destination",
+    "conversion path (trial, freemium, demo)",
+    "proof type (logo, named result, real product screen)",
+    "sign-up fields and sign-in options",
+    "first screen after sign-up",
+    "page speed (LCP, INP thresholds)",
+    "accessibility (contrast, target size, focus not obscured)",
+    "measurement (visit-to-sign-up, sign-up completion, activation of homepage sign-ups)",
+    "trial terms disclosure (card required, auto-renewal)"
+  ],
+  "ngrams": [
+    "saas homepage design",
+    "saas homepage",
+    "web design for saas",
+    "value proposition",
+    "hero section",
+    "above the fold",
+    "call to action",
+    "free trial",
+    "book a demo",
+    "social proof",
+    "sign-up form",
+    "first-run experience",
+    "time to first value",
+    "activation rate",
+    "empty state",
+    "five-second test",
+    "promise ledger"
+  ],
+  "eav": [
+    { "attribute": "definition", "value": "SaaS homepage design is the design of the first page of a software company's marketing site: the headline, section order, product visuals, proof and the call to action that moves a visitor to start a trial or book a demo", "source": "Editorial working definition; matches the SERP consensus (poweredbysearch 'homepage is part of your SaaS sales funnel', sliderrevolution)" },
+    { "attribute": "core job (NN/g)", "value": "a homepage communicates what the organization does and what users can accomplish on the site; failing to communicate purpose at a glance makes potential customers leave", "source": "https://www.nngroup.com/articles/homepage-design-principles/" },
+    { "attribute": "tagline", "value": "a brief, direct tagline that summarizes what the company does, especially for a less-known company; vague or jargon-heavy taglines make users distrust the site", "source": "https://www.nngroup.com/articles/homepage-design-principles/ (fact-checker: confirm wording; seen in snippets)" },
+    { "attribute": "attention above the fold", "value": "57% of page-viewing time on the first screenful and 74% on the first two screenfuls (NN/g eyetracking, 2018; 80% above the fold in the 2010 study)", "source": "https://www.nngroup.com/articles/scrolling-and-attention/" },
+    { "attribute": "first-impression speed", "value": "visual-appeal ratings of home pages shown for 50 milliseconds agreed well with ratings after longer exposure (Lindgaard et al., Carleton University, Behaviour & Information Technology, 2006); the finding covers visual appeal only, not trust or usability", "source": "https://www.nature.com/news/2006/060109/full/news060109-13.html" },
+    { "attribute": "CTA label", "value": "'Get Started' is ambiguous; in an NN/g study of a meal-delivery site, 6 of 8 participants asked to find what the company offered clicked Get Started instead of scrolling; NN/g advises stating precisely what users should expect", "source": "https://www.nngroup.com/articles/get-started/" },
+    { "attribute": "promise vs delivery", "value": "product-led onboarding succeeds when perceived value (the promise made in the copy) matches experienced value (what the product delivers), which depends on time to value", "source": "https://www.productboard.com/blog/a-battle-tested-product-onboarding-framework-from-wes-bush/ (Wes Bush, ProductLed)" },
+    { "attribute": "where value perception happens", "value": "the moment of value perception usually happens during acquisition, before sign-up; realization and adoption follow in the product (Ramli John, Product-Led Onboarding)", "source": "https://productled.com/bowling (book page; the three moments were confirmed through a reader summary, antoinebuteau.com/product-led-onboarding-book-summary/; fact-checker: confirm on the book page or cite as 'Ramli John's book describes')" },
+    { "attribute": "sign-up form fields", "value": "collect the minimum, ideally email and password; offer Google or social sign-in; skip confirm-email and confirm-password fields", "source": "https://www.nngroup.com/articles/checklist-registration-login/" },
+    { "attribute": "first screen after sign-up (empty state)", "value": "empty states are common during onboarding in apps that are not set up yet; they should show system status, teach the feature in context and link directly to the step that fills them", "source": "https://www.nngroup.com/articles/empty-state-interface-design/" },
+    { "attribute": "conversion benchmark (landing pages, not homepages)", "value": "median conversion rate of SaaS landing pages: 3.8%, against 6.6% across all industries (Unbounce Conversion Benchmark Report, 2024)", "source": "https://unbounce.com/conversion-benchmark-report/saas-conversion-rate/ (label it as landing pages; do not present it as a homepage benchmark)" },
+    { "attribute": "page speed", "value": "good Largest Contentful Paint is 2.5 seconds or less and good Interaction to Next Paint is 200 milliseconds or less, measured at the 75th percentile of page loads", "source": "https://web.dev/articles/lcp ; https://web.dev/articles/inp" },
+    { "attribute": "accessibility: contrast", "value": "WCAG 2.2 SC 1.4.3 (AA): text contrast at least 4.5:1, large text 3:1, which covers hero text set over product screenshots or gradients", "source": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html" },
+    { "attribute": "accessibility: target size", "value": "WCAG 2.2 SC 2.5.8 (AA): pointer targets at least 24 by 24 CSS pixels or enough spacing; links inside sentences are exempt", "source": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html" },
+    { "attribute": "accessibility: sticky banners", "value": "WCAG 2.2 SC 2.4.11 (AA): a sticky cookie banner fails if it entirely hides a component that receives keyboard focus, such as the hero CTA", "source": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html" },
+    { "attribute": "free-trial terms (US law)", "value": "ROSCA requires an online seller with a negative option (e.g., a free trial that turns paid) to disclose all material terms before taking billing information, get express informed consent and offer a simple way to stop charges; the FTC's 2024 'click-to-cancel' Negative Option Rule was vacated by the Eighth Circuit on July 8, 2025; state auto-renewal laws still apply", "source": "https://www.ftc.gov/business-guidance/blog/2019/03/recipe-rosca-violation ; https://www.cooley.com/news/insight/2025/2025-07-11-click-to-cancel-just-got-cancelled-eighth-circuit-vacates-entirety-of-ftcs-negative-option-rule (not legal advice; one line 'ask your counsel')" },
+    { "attribute": "what the hub designs in sign-up", "value": "account creation, workspace setup, invites and a checklist that leads to the first result", "source": "content/services/saas-design-agency.json (deliverable 'Sign-up and onboarding')" },
+    { "attribute": "how we scope a marketing site (hub FAQ)", "value": "we design the marketing site, pricing page and sign-up flow together, so the promise on the website matches the first minutes in the product", "source": "content/services/saas-design-agency.json (FAQ 'Do you design SaaS marketing websites too?')" },
+    { "attribute": "success metrics (hub)", "value": "2 or 3 metrics agreed at kick-off, usually activation rate, time to first value and trial-to-paid conversion, compared before and after launch", "source": "content/services/saas-design-agency.json (FAQ 'How do you measure SaaS design success?')" },
+    { "attribute": "real example (our work)", "value": "Digno: we delivered the website and the web app; the homepage leads with 'Employee Scoring made Easy', walks visitors through how Digno works and invites them to try it free", "source": "content/case-studies/digno.md (lines 29, 91, 93). Do NOT attribute Digno's 5x revenue or other results to the homepage." },
+    { "attribute": "promise ledger (unique angle)", "value": "a one-page table that maps every homepage claim to the screen in the product where a new user experiences it and the minutes from sign-up to that screen; claims with no screen in the first session get rewritten or the first run gets redesigned", "source": "ui-ux.agency method (SERP gap). Write as the author's method in the first person, not as a measured finding." }
+  ],
+  "skipgrams": [
+    ["homepage", "promise"],
+    ["headline", "first screen"],
+    ["CTA", "sign-up"],
+    ["free trial", "credit card"],
+    ["social proof", "named"],
+    ["above the fold", "attention"],
+    ["sign-up form", "fields"],
+    ["empty state", "first result"],
+    ["perceived value", "experienced value"],
+    ["book a demo", "sales"],
+    ["product screenshot", "real"],
+    ["activation rate", "homepage sign-ups"],
+    ["five-second test", "headline"],
+    ["pricing page", "plan"]
+  ],
+  "lexical": {
+    "synonyms": ["SaaS website homepage", "SaaS home page", "software homepage", "SaaS marketing homepage", "front page of a SaaS site"],
+    "hypernyms": ["web design for SaaS", "SaaS website design", "marketing site design", "conversion-focused web design", "user experience design"],
+    "hyponyms": ["B2B SaaS homepage", "product-led homepage (free trial or freemium)", "sales-led homepage (book a demo)", "AI SaaS homepage", "vertical SaaS homepage"],
+    "meronyms": ["hero headline", "subheadline", "primary CTA", "secondary CTA", "product screenshot", "logo strip", "how-it-works steps", "use-case or role tabs", "integrations row", "security and compliance block", "pricing teaser", "FAQ block", "final CTA", "navigation bar", "sign-up form"]
+  },
+  "keywordCarrier": {
+    "primary": "Plain noun phrase, no carrier needed. Use it as a subject ('SaaS homepage design starts with…') or object ('plan your SaaS homepage design around…'). Required in: metaTitle (first words), description (first words), first meta keyword, H1, and the first 60 words of the body. Do not stack nouns after it ('SaaS homepage design project/checklist/process' is fine once, never as a habit).",
+    "density": "Word share as QA measures it: max uses = 0.02 × body words ÷ 3. For a 2,500–2,800-word body that is at most 16–18 uses. Aim for 11–14, mostly in bold answers and section openers. Vary with 'SaaS homepage', 'homepage', 'the page' and the lexical relations. Alt text does not count.",
+    "secondary": {
+      "web design for saas": "Noun phrase with a preposition; use it as a subject or object: 'Good web design for SaaS treats the homepage, pricing page and sign-up as one path.' Carry it once in the H2 'What does web design for SaaS need beyond the homepage?' and once in its first sentence. Never stack a noun after it ('web design for SaaS companies' only once at most). Read aloud: it must stay a complete phrase."
+    },
+    "metaTitle": "SaaS Homepage Design: Promise, Sign-Up and First Run (52 chars)",
+    "h1": "SaaS homepage design: make a promise your product keeps (55 chars)",
+    "description": "Use as written (143 chars, keyword first, MOFU next step; no pronouns): 'SaaS homepage design: write a promise your first-run screen keeps, order the sections, test the sign-up handoff. Then book a free consultation.'",
+    "metaKeywords": ["saas homepage design", "web design for saas", "saas homepage", "b2b saas homepage", "saas website design"]
+  },
+  "questions": [
+    "What makes a good SaaS homepage?",
+    "What should a SaaS homepage include?",
+    "What should be above the fold on a SaaS homepage?",
+    "Should the homepage CTA be a free trial, freemium sign-up or a demo?",
+    "How long should a SaaS homepage be?",
+    "Should a SaaS homepage show pricing?",
+    "How do you make the homepage match the onboarding experience?",
+    "How do you test a SaaS homepage?",
+    "What is the best homepage design for a website? (PAA in the warehouse SERP; answer for SaaS only)",
+    "Is a SaaS homepage the same as a landing page?",
+    "How is a B2B SaaS homepage different?"
+  ],
+  "serpGaps": [
+    "Page 1 (Ahrefs) is mostly templates and galleries (aura.build, dribbble, webflow, cogosite, pinterest) plus a portfolio (ramotion). They show what homepages look like, not how to decide what yours says. Avg DR 72 but 0 referring domains on the ranking URLs and 6 weak results: a complete, decision-led guide has room.",
+    "Every guide in the live SERP (huemor, poweredbysearch, merge.rocks, sliderrevolution, orbix, krishaweb, genesys growth) stops at the click. None follows the visitor through the sign-up form to the first screen and the first result, and none checks that the homepage promise is something the product shows in the first session. That handoff is our angle and the hub FAQ's promise.",
+    "No guide gives a method to audit claims against the product. We add the promise ledger: claim → screen → minutes from sign-up → kept or missing.",
+    "CTA advice is generic ('strong CTA', 'free trial or demo'). Nobody gives a decision rule for trial vs freemium vs demo by sales motion and price, or cites NN/g's 'Get Started' finding on vague labels.",
+    "Measurement is limited to 'A/B test your hero'. No page measures the homepage by what its sign-ups do next (sign-up completion, activation rate of homepage sign-ups, time to first value), which are the hub's own metrics.",
+    "No result covers the US frame for a homepage and trial sign-up: WCAG 2.2 AA (contrast over screenshots, 24 px targets, cookie banners hiding the CTA) with ADA/Section 508, ROSCA disclosure when the trial takes a card, and Core Web Vitals thresholds for heavy hero videos.",
+    "Statistics on page 1 are mostly unsourced ('3 seconds to convince', '3,000–5,000 pixels'). We use sourced figures only (NN/g 57%/74%, Unbounce 3.8% labeled as landing pages, web.dev thresholds)."
+  ],
+  "contentModules": {
+    "title": "SaaS homepage design: make a promise your product keeps",
+    "subtitle": "A design guide for SaaS founders and product teams: the promise, the section order, the CTA choice, the sign-up handoff and the first screen, plus how to test the whole path.",
+    "intro": "Try-this-now intro (see variety.introStyle): an instruction to the reader to open their own homepage and their product in a private window and compare the headline with the first screen after sign-up, then the author's point of view and the definition within the first 60 words.",
+    "dataModules": [
+      { "type": "promise formula + before/after rewrites", "h2": "What promise should a SaaS homepage make?", "what": "Formula (who + job + result you can see in the first session), three illustrative weak → specific headline rewrites for hypothetical US products. No real company's headline quoted as weak." },
+      { "type": "section table", "h2": "Which sections does a SaaS homepage need, and in what order?", "what": "Section → its job → what it must match in the product. 9–10 rows. Introduced by one sentence and a 'Table:' line." },
+      { "type": "decision tree", "h2": "Should the homepage CTA offer a free trial, freemium or a demo?", "what": "Routes by sales motion, price point and setup effort to: free trial (no card), free trial (card, ROSCA terms), freemium, book a demo, or both CTAs." },
+      { "type": "flow map", "h2": "How do you make the homepage promise match the first minutes in the product?", "what": "Homepage headline → CTA → sign-up form → first screen → first result, with the promise thread drawn through all five." },
+      { "type": "fill-in worksheet (lead asset)", "h2": "How do you make the homepage promise match the first minutes in the product?", "what": "The promise ledger: claim | where the user sees it in the product | minutes from sign-up | kept / missing | fix (copy or product)." },
+      { "type": "metrics table", "h2": "How do you test a SaaS homepage before and after launch?", "what": "Stage (visit, sign-up start, sign-up complete, first result) → metric → test that diagnoses it (five-second test, first-click test, session recordings, A/B test)." }
+    ]
+  },
+  "outline": [
+    {
+      "h2": "What is SaaS homepage design, and what is the homepage for?",
+      "answerHint": "**SaaS homepage design is the design of the first page of your marketing site, and its job is to make one promise clearly enough that the right visitor signs up expecting exactly what the product shows next.** (≤35 words)",
+      "points": [
+        "Definition from eav[0], then the twist: the homepage is the first screen of onboarding, not a brochure. Value perception happens before sign-up (Ramli John, eav[7]); realization happens in the product.",
+        "NN/g's core job (eav[1]): say what the company does and what users can accomplish. Expand Nielsen Norman Group (NN/g) on first use.",
+        "One sentence on the difference from a campaign landing page: a landing page serves one ad or audience; the homepage serves every visitor type, so it carries navigation and several paths. Keep it to one or two sentences (landing page is a separate future topic).",
+        "First UP link to the hub inside the first 300 words: as a SaaS design agency team, we design the homepage, pricing page and sign-up together (hub FAQ). Anchor: 'SaaS design agency' or 'our SaaS product design team' (vary from the closing).",
+        "Bridge: 'Everything on the page depends on one sentence: the promise.'"
+      ]
+    },
+    {
+      "h2": "What promise should a SaaS homepage make?",
+      "answerHint": "**A SaaS homepage should promise one result, for one kind of customer, that a new user can see inside the first session.**",
+      "points": [
+        "Promise formula as a short visual or inline line: who it is for + the job + the result you can see. NN/g tagline guidance (eav[2]): brief, direct, no jargon.",
+        "Perceived vs experienced value (eav[6], Wes Bush via Productboard): every word in the headline sets an expectation the first run must meet. A bigger promise raises sign-ups and lowers activation if the product cannot show it fast.",
+        "Three illustrative weak → specific rewrites for HYPOTHETICAL US products (e.g., a scheduling tool for dental offices, a revenue analytics tool, an AI meeting-notes app). Label them hypothetical. Do not quote a real company's headline as weak.",
+        "The test I use (first person): can a new user see this result before they close the first tab? If not, the headline promises the roadmap, not the product.",
+        "Bridge: 'A promise needs evidence, and the rest of the page is that evidence, in a set order.'"
+      ]
+    },
+    {
+      "h2": "Which sections does a SaaS homepage need, and in what order?",
+      "answerHint": "**Most SaaS homepages need 9 to 10 sections, ordered so the first screen carries the promise and the CTA, and every section below answers the next doubt a buyer has.**",
+      "points": [
+        "Attention data: NN/g 57% of viewing time on the first screenful, 74% on the first two (eav[3]). So the hero carries headline, subheadline, primary CTA and a real product screen; nothing important sits only at the bottom.",
+        "Section table (visual + astext): hero; proof strip (logos with a named result where possible); how it works in 3 steps that mirror the real first-run steps; product screens by job or role; outcomes; integrations; security and compliance (SOC 2 report if you have one; HIPAA only for health data); pricing teaser or link; FAQ; final CTA. Column 3: what each must match in the product.",
+        "Length: no pixel rule (the '3,000–5,000 px' figure in the SERP is unsourced). Length follows the number of doubts the buyer has: a $20/month tool needs fewer sections than a $50,000/year platform.",
+        "Real product UI beats abstract illustration, because the screenshot is a preview of the first run. Keep screenshots current with the shipped product.",
+        "Bridge: 'The section that decides whether any of this pays off is the button.'"
+      ]
+    },
+    {
+      "h2": "Should the homepage CTA offer a free trial, freemium or a demo?",
+      "answerHint": "**Choose the homepage CTA by how your product is sold: a free trial or freemium plan when users can reach value alone, a demo when setup or price needs a person, and both when buyers and users differ.**",
+      "points": [
+        "Decision tree visual (visuals[2]) with astext: self-serve setup under one session → free trial or freemium; setup needs data migration, integrations or security review → book a demo; mixed → primary trial + secondary demo.",
+        "CTA label: NN/g 'Get Started' finding (eav[5], 6 of 8 participants). Write labels that say what happens next ('Start a free trial', 'See a 20-minute demo', illustrative). One primary CTA per screen.",
+        "Card or no card: if the trial takes a card and turns paid, ROSCA applies (eav[15]): disclose material terms before billing details, get express consent, offer simple cancellation. Note the click-to-cancel rule was vacated on July 8, 2025, but ROSCA and state auto-renewal laws still apply. One line: not legal advice; ask your counsel. 'No credit card required' appears only if true.",
+        "Pricing on the homepage: a teaser or a clear link to the pricing page when plans are public; NN/g says an unclear business model makes users suspicious (eav[1] source page). Do not design the pricing page here (future post).",
+        "Bridge: 'Whatever the button says, the next screen has to agree with it.'"
+      ]
+    },
+    {
+      "h2": "How do you make the homepage promise match the first minutes in the product?",
+      "answerHint": "**Map every homepage claim to the screen where a new user experiences it, keep the sign-up form short, and make the first screen after sign-up start the exact job the headline promised.**",
+      "points": [
+        "THE CORE SERP GAP. Flow map visual (visuals[3]): headline → CTA → sign-up form → first screen → first result, with the promise as a thread.",
+        "Sign-up form: NN/g minimum fields, Google/Microsoft sign-in, no confirm fields (eav[8]). Echo the homepage promise on the sign-up page so the visitor knows they are on the same path. Name the hub deliverable: account creation, workspace setup, invites and a checklist (eav[16]).",
+        "First screen: if the promise is a report, the first screen offers sample data or one import step toward that report, not a blank dashboard. NN/g empty states: show status, teach in context, link to the step (eav[9]).",
+        "Cross-hub link (the post's ONE): when the gap sits in sign-up, setup and empty states, that is SaaS onboarding design work → /services/saas-products/saas-onboarding-design/. Do not explain onboarding patterns, checklists or tours here (that hub and its posts own them).",
+        "Lead asset: the promise ledger (visuals[4] + astext with 3 illustrative rows). Columns: homepage claim | screen where the user sees it | minutes from sign-up | kept / missing | fix in copy or in product.",
+        "DOWN link: Digno (eav[19]): we delivered the website and the web app together; the homepage explains how Digno works and invites visitors to try it free. Describe only what the case study says; no results attributed to the homepage.",
+        "LEAD ANGLE lives here (see leadAngle). End with one natural invitation in the 'we' voice from the hub FAQ."
+      ]
+    },
+    {
+      "h2": "How does a B2B SaaS homepage serve buyers and users at once?",
+      "answerHint": "**A B2B SaaS homepage serves two readers: the user who wants to see the job done and the buyer who needs proof, security and price, so it gives each a path without splitting the promise.**",
+      "points": [
+        "Hyponym H2 (B2B SaaS homepage). Roles: end user, admin, economic buyer, security reviewer. Use-case or role tabs as one pattern; one promise above them.",
+        "Trust for buyers: named results over anonymous logo walls; a security page with the SOC 2 report status; integrations they already run. Do not claim compliance the reader's product lacks.",
+        "Demo path: what the demo page asks (fields that route the lead, not 12 questions), and that the demo shows the same first-run screens the homepage pictures.",
+        "Admin vs invited member is an onboarding topic; one sentence only, no link to other-silo posts.",
+        "Bridge: 'The homepage is one page of several, and they have to read as one product.'"
+      ]
+    },
+    {
+      "h2": "What does web design for SaaS need beyond the homepage?",
+      "answerHint": "**Web design for SaaS needs a small set of pages that carry the homepage promise forward: pricing, product or feature pages, use cases, integrations, security, sign-up and the first screen in the app.**",
+      "points": [
+        "Carry the secondary keyword here (see keywordCarrier).",
+        "Page set as a short list with each page's job. The pricing page gets one sentence (plans, limits, upgrade path) and no deep design advice (future post 'saas pricing page design').",
+        "Consistency: one design system across site and product, so the screenshot on the homepage, the sign-up page and the first app screen use the same components and type. Tie to the hub deliverable 'Design system' (Figma library with tokens that match front-end code).",
+        "Pillar mention once: /services/saas-products/ (SaaS product design) for teams that need the site and product designed as one system.",
+        "Bridge: 'Once the pages exist, test the path, not just the page.'"
+      ]
+    },
+    {
+      "h2": "How do you test a SaaS homepage before and after launch?",
+      "answerHint": "**Test a SaaS homepage in two stages: before launch, check that people understand the promise and find the CTA; after launch, judge the page by what its sign-ups do in the product.**",
+      "points": [
+        "Before launch: five-second test (what does this company do, for whom?), first-click test on the CTA, a short moderated session that continues through sign-up into the first screen. Lindgaard (eav[4]) only as context that visual judgments form fast; state its limit (visual appeal only).",
+        "Metrics table (visuals[5] + astext): visit → sign-up start (CTA click rate), sign-up start → complete (form completion), sign-up → first result (activation rate of homepage sign-ups, time to first value), trial → paid. Hub metrics (eav[18]).",
+        "Benchmark with the right label: Unbounce 2024 median SaaS landing page conversion 3.8% (eav[10]); it is a landing-page figure, so compare trends in your own data, not your homepage against it.",
+        "Technical gates, US frame: LCP ≤ 2.5 s and INP ≤ 200 ms (eav[11]); heavy autoplay hero video is the usual LCP problem. WCAG 2.2 AA with ADA/Section 508 as the US frame: contrast 4.5:1 over screenshots (eav[12]), 24 px targets (eav[13]), cookie banner must not hide the focused CTA (eav[14]).",
+        "Session recordings and heatmaps after launch (Microsoft Clarity is in our tool list in content/home.ts). A/B test one element at a time once traffic allows; low-traffic B2B sites rely on qualitative tests.",
+        "Bridge: 'Most failed tests trace back to a handful of mistakes.'"
+      ]
+    },
+    {
+      "h2": "Which SaaS homepage design mistakes break the promise?",
+      "answerHint": "**The costliest SaaS homepage design mistakes are the ones that make a promise the first session can't keep: a vague headline, a generic CTA, stock art instead of the product, and a sign-up that asks too much.**",
+      "points": [
+        "Reasoned list, situation + because (not a numbered audit, which the onboarding silo used): vague category headline; 'Get Started' with no destination; abstract illustration or outdated screenshot; claims tied to roadmap features; three equal CTAs; logo wall with no named result; heavy hero video failing LCP; cookie banner covering the CTA; sign-up form with job title, company size and phone before value; first screen is a blank dashboard.",
+        "Each item names its fix in one clause and which part it belongs to (copy, page, sign-up, product). Items in the product column lead back to the hub service.",
+        "Second invitation (optional, short): we run the homepage, sign-up and first screen as one design project; describe only hub facts (6 to 16 weeks for full products, metrics agreed at kick-off). Do NOT quote a homepage-only price (the hub publishes none).",
+        "Bridge to Bottom line."
+      ]
+    },
+    {
+      "h2": "Bottom line",
+      "answerHint": "2–4 sentences, before the FAQs. Not counted in the content H2s.",
+      "points": [
+        "Restate the idea: write the promise the first session keeps, order the page around buyer doubts, and judge it by what sign-ups do next.",
+        "The author's recommendation in one first-person sentence with NO label ('My recommendation:' is used in saas-onboarding).",
+        "CTA (MOFU: case study + consultation): fill in the promise ledger; for every claim marked 'missing', book a free consultation. Second UP link to the hub (deep link to the FAQ section, varied anchor)."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Is a SaaS homepage the same as a landing page?", "a": "No. A landing page serves one campaign or audience with one CTA. A SaaS homepage serves every visitor type, so it carries navigation, several paths and the company's main promise." },
+    { "q": "Should a SaaS homepage show pricing?", "a": "Yes, when your plans are public: a short teaser or a clear link to the pricing page. NN/g notes that an unclear business model makes visitors suspicious. Sales-led products can link to a pricing overview and a demo instead." },
+    { "q": "How long should a SaaS homepage be?", "a": "As long as the buyer's doubts. A low-priced self-serve tool needs fewer sections than an enterprise platform. Keep the promise, the CTA and a real product screen on the first screen, where NN/g found 57% of viewing time goes." },
+    { "q": "Can we use a template for our SaaS homepage?", "a": "Yes, for layout. A template cannot write your promise or design your sign-up and first screen, and those decide whether homepage visitors activate." },
+    { "q": "How do you measure SaaS homepage success?", "a": "By what homepage visitors do next: CTA click rate, sign-up completion, activation rate of homepage sign-ups and time to first value, compared before and after the redesign." }
+  ],
+  "internalTargets": [
+    { "href": "/services/saas-products/saas-design-agency/", "anchor": "SaaS design agency", "priority": "required", "where": "Inside the first 300 words (H2 1 or intro). Hub link 1 of 2.", "verified": "content/services/saas-design-agency.json (category 'SaaS products' → pillar slug saas-products; same URL the Digno and TradeZella case studies link)" },
+    { "href": "/services/saas-products/saas-design-agency/#saas-design-agency-faqs", "anchor": "design the marketing site, pricing page and sign-up flow together", "priority": "required", "where": "Bottom line CTA. Hub link 2 of 2 (deep link to the FAQ that this post expands).", "verified": "hub h2 'SaaS design agency FAQs' → sectionId() rule (lowercase, non-alphanumerics to '-')" },
+    { "href": "/services/saas-products/saas-onboarding-design/", "anchor": "SaaS onboarding design", "priority": "required", "where": "H2 5, the sentence on sign-up, setup and empty states. The post's ONE cross-hub link (RULES.md silo rule).", "verified": "content/services/saas-onboarding-design.json" },
+    { "href": "/case-studies/digno/", "anchor": "Digno", "priority": "required", "where": "H2 5, DOWN link: website and web app designed together; homepage invites visitors to try it free.", "verified": "content/case-studies/digno.md (services include saas-design-agency; route app/case-studies/[slug])" },
+    { "href": "/services/saas-products/", "anchor": "SaaS product design", "priority": "required", "where": "H2 7, one mention (pillar / silo parent, not a separate service hub).", "verified": "content/pillars.ts slug 'saas-products'" },
+    { "href": "/contact/", "anchor": "book a free consultation", "priority": "required", "where": "Bottom line CTA only.", "verified": "app/contact/page.tsx" },
+    { "href": "/blog/saas-onboarding/", "anchor": "SaaS onboarding guide", "priority": "skip", "why": "Another silo's post (services[0] = saas-onboarding-design). RULES.md: never link to another silo's posts. The onboarding hub link in H2 5 carries that topic." },
+    { "href": "/services/saas-products/saas-product-redesign/", "anchor": "SaaS product redesign", "priority": "skip", "why": "Cross-hub cap of 1; saas-onboarding-design is the better fit for the sign-up handoff. Override only if the owner accepts two cross-hub links." },
+    { "href": "/services/ui-ux-design-cost/", "anchor": "UI UX design cost", "priority": "skip", "why": "Cross-hub cap, and the site publishes no homepage-only price, so a cost link would imply one." },
+    { "href": "/case-studies/tradezella/", "anchor": "TradeZella", "priority": "skip", "why": "The case study shows the marketing website image, but its 'What we covered' scope does not list the website. Linking it from a homepage post would imply we designed the site." }
+  ],
+  "related": {
+    "linkBuilderRun": "2026-10-17",
+    "internalLinks": [
+      { "href": "/services/saas-products/saas-design-agency/", "anchor": "SaaS design agency", "where": "Intro paragraph 3 (about word 115). Moved from the H2 1 marker, which sat at about word 330; the old sentence was reworded without the hub head phrase." },
+      { "href": "/services/saas-products/saas-onboarding-design/", "anchor": "SaaS onboarding design", "where": "H2 5, the post's one cross-hub link." },
+      { "href": "/case-studies/digno/", "anchor": "Digno", "where": "H3 'How one team designed Digno's website and web app' (DOWN link)." },
+      { "href": "/services/saas-products/", "anchor": "SaaS product design", "where": "H2 7, pillar (silo parent) mention." },
+      { "href": "/contact/", "anchor": "book a free consultation", "where": "Bottom line CTA." },
+      { "href": "/services/saas-products/saas-design-agency/#saas-design-agency-faqs", "anchor": "design the marketing site, pricing page and sign-up flow together", "where": "Bottom line, hub link 2 of 2." }
+    ],
+    "internalCount": "6 contextual links (MOFU range 6–10): hub 2, cross-hub 1, case study 1, pillar 1, contact 1. No sibling posts exist in this silo and content/industries holds no SaaS page, so no sideways or industry link was available.",
+    "externalLinks": [
+      { "url": "https://www.nngroup.com/articles/scrolling-and-attention/", "claim": "57% / 74% (2018) and 80% (2010) of viewing time", "verified": "nngroup.com-restricted WebSearch snippet (WebFetch ENOTFOUND)" },
+      { "url": "https://www.nngroup.com/articles/get-started/", "claim": "'Get Started' fits almost any goal; users wanting company details routed into surveys, onboarding flows and sales funnels; state precisely what users should expect", "verified": "nngroup.com-restricted WebSearch snippet. '6 of 8 participants' and the meal-delivery context were not in any snippet and are not in the post." },
+      { "url": "https://www.ftc.gov/business-guidance/blog/2019/03/recipe-rosca-violation", "claim": "ROSCA's three requirements", "verified": "ftc.gov-restricted WebSearch snippet quoting the post" },
+      { "url": "https://unbounce.com/conversion-benchmark-report/saas-conversion-rate/", "claim": "2024 median SaaS landing page conversion 3.8% vs 6.6% all industries", "verified": "unbounce.com-restricted WebSearch snippet" },
+      { "url": "https://web.dev/articles/lcp", "claim": "good LCP ≤ 2.5 s at the 75th percentile", "verified": "web.dev-restricted WebSearch snippet" }
+    ],
+    "removedExternalLinks": [
+      { "url": "https://www.nngroup.com/articles/homepage-design-principles/", "now": "Named citation ('In its five homepage design principles, NN/g…'). Rewritten to the snippet: tell first-time visitors who you are, what you do and the site's purpose; vague or jargon-heavy taglines make users mistrust the site. The writer's 'purpose not grasped at a glance sends customers away' was not in any snippet and was cut." },
+      { "url": "https://www.pocus.com/blog/product-led-sales-pls-ama-ramli-john", "now": "Named citation ('In a Pocus AMA, Ramli John…'). Snippet supports: first milestone = perceiving value, which can happen while reading a landing page; second = experiencing value after sign-up. 'Usually happens during acquisition' was not confirmed and was cut." },
+      { "url": "https://www.productboard.com/blog/a-battle-tested-product-onboarding-framework-from-wes-bush/", "now": "Named citation ('as Productboard summarizes it'). Rewritten to the snippet wording." },
+      { "url": "https://www.cooley.com/news/insight/2025/2025-07-11-click-to-cancel-just-got-cancelled-eighth-circuit-vacates-entirety-of-ftcs-negative-option-rule", "now": "Named citation ('as law firm Cooley reported'); July 8, 2025 and 'in its entirety' confirmed." },
+      { "url": "https://perkinscoie.com/insights/blog/ftc-kicks-new-negative-options-rulemaking", "now": "Replaced by the primary fact: FTC ANPRM issued March 11, 2026 (ftc.gov press release https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-seeks-public-comment-response-advance-notice-proposed-rulemaking-regarding-negative-option returned by search). No NPRM or final rule found as of 2026-10-17; fact-checker should re-check on publish day." },
+      { "url": "https://www.nngroup.com/articles/checklist-registration-login/", "now": "Named citation; email + password ideal, social/Google login, no repeated fields confirmed." },
+      { "url": "https://www.nngroup.com/articles/empty-state-interface-design/", "now": "Named citation; rewritten to the article's three uses (system status, discover features/learnability, direct pathways)." },
+      { "url": "https://www.nature.com/news/2006/060109/full/news060109-13.html", "now": "Named citation ('as Nature's news coverage of the study reported'); 50 ms visual-appeal finding confirmed." },
+      { "url": "https://web.dev/articles/inp", "now": "Named citation ('Its INP guide'); ≤ 200 ms at p75 confirmed." },
+      { "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html ; target-size-minimum.html ; focus-not-obscured-minimum.html", "now": "Named as 'WCAG 2.2 success criteria'. 4.5:1 / 3:1, 24×24 CSS px and 'at least partly visible' confirmed via w3.org-restricted search (contrast-minimum Understanding URL itself did not come back; figures shown on /TR/WCAG22/)." }
+    ],
+    "externalCountNote": "Cap of 5 applied in the post. Over-cap option for the orchestrator: re-link NN/g homepage-design-principles and the FTC ANPRM press release (both verified)."
+  },
+  "backlinkSuggestions": [
+    {
+      "source": "content/services/saas-design-agency.json → section 'SaaS design agency FAQs' → faq 'Do you design SaaS marketing websites too?' (answer is HTML <p>)",
+      "target": "/blog/saas-homepage-design/",
+      "anchor": "how we approach SaaS homepage design",
+      "priority": "required",
+      "why": "Hub to post (silo rule: the pillar links down to its posts) on the exact FAQ the post expands. Indexed money page.",
+      "sentence": "Append inside the <p>: 'Here is <a href=\"/blog/saas-homepage-design/\">how we approach SaaS homepage design</a>, from the promise to the first screen.'"
+    },
+    {
+      "source": "content/case-studies/digno.md → line 91 'The marketing site walks visitors through how Digno works and invites them to try it free.'",
+      "target": "/blog/saas-homepage-design/",
+      "anchor": "a homepage that hands visitors to the product",
+      "priority": "required",
+      "why": "Real topic match (the Digno homepage and its try-free path), indexed case study, varied descriptive anchor. Case studies are not silo posts, so the link is allowed.",
+      "sentence": "Extend the sentence: '… and invites them to try it free, the kind of <a href=\"/blog/saas-homepage-design/\">homepage that hands visitors to the product</a> we design alongside the app.'"
+    },
+    {
+      "source": "content/pillars.ts → saas-products pillar → section 'What does SaaS product design cover?' → body <p> (line 130), after 'Each pattern is a moment where customers either move forward or leave.'",
+      "target": "/blog/saas-homepage-design/",
+      "anchor": "SaaS homepage design",
+      "priority": "required",
+      "why": "Pillar linked from the homepage and nav; it already links one guide (saas-onboarding) in the same paragraph, so the pattern is accepted. The first moment in its list (free trials) starts on the homepage.",
+      "sentence": "Link builder 2026-10-17 revision: insert after 'SaaS product design treats those moments as one system.' (not after 'Each pattern…', where 'the same system' would precede the system sentence): ' The first of them happens before sign-up, on the homepage, which is why our guide to <a href=\"/blog/saas-homepage-design/\">SaaS homepage design</a> follows the visitor from the headline to the first screen.'"
+    },
+    {
+      "source": "content/home.ts line 138 (home page SaaS card)",
+      "target": "/blog/saas-homepage-design/",
+      "priority": "skip",
+      "why": "Conversion path: RULES.md step 6 keeps the home page lean, and the card already links the hub."
+    }
+  ],
+  "externalSources": [
+    { "url": "https://www.nngroup.com/articles/homepage-design-principles/", "why": "Primary (NN/g): homepage communicates what the company does; tagline guidance; clear business model. H2 1, H2 2, H2 4." },
+    { "url": "https://www.nngroup.com/articles/scrolling-and-attention/", "why": "Primary (NN/g, 2018): 57% of viewing time on the first screenful, 74% on the first two. H2 3 and FAQ 3." },
+    { "url": "https://www.nngroup.com/articles/get-started/", "why": "Primary (NN/g): 'Get Started' ambiguity, 6 of 8 participants. H2 4." },
+    { "url": "https://www.nngroup.com/articles/checklist-registration-login/", "why": "Primary (NN/g): minimum sign-up fields, social sign-in, no confirm fields. H2 5." },
+    { "url": "https://www.nngroup.com/articles/empty-state-interface-design/", "why": "Primary (NN/g): empty states during onboarding; status, learnability, direct pathways. H2 5." },
+    { "url": "https://www.productboard.com/blog/a-battle-tested-product-onboarding-framework-from-wes-bush/", "why": "Practitioner source (Wes Bush, ProductLed): perceived value must match experienced value. H2 2." },
+    { "url": "https://productled.com/bowling", "why": "Ramli John's Product-Led Onboarding book page: moment of value perception happens before sign-up. H2 1. Fact-checker: confirmed only via a reader summary; cite as 'Ramli John's book describes…'." },
+    { "url": "https://www.nature.com/news/2006/060109/full/news060109-13.html", "why": "Nature news on Lindgaard et al. (2006): 50 ms visual-appeal judgments. H2 8, with its limit stated." },
+    { "url": "https://unbounce.com/conversion-benchmark-report/saas-conversion-rate/", "why": "Unbounce 2024: median SaaS landing page conversion 3.8% vs 6.6% all industries. H2 8, labeled as landing pages." },
+    { "url": "https://web.dev/articles/lcp", "why": "Primary (Google): LCP good ≤ 2.5 s at the 75th percentile. H2 8." },
+    { "url": "https://web.dev/articles/inp", "why": "Primary (Google): INP good ≤ 200 ms. H2 8." },
+    { "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html", "why": "Primary (W3C): SC 1.4.3 contrast 4.5:1. H2 8." },
+    { "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html", "why": "Primary (W3C): SC 2.5.8 24 × 24 CSS px. H2 8." },
+    { "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html", "why": "Primary (W3C): SC 2.4.11; a sticky cookie banner that fully hides the focused CTA fails. H2 8." },
+    { "url": "https://www.ftc.gov/business-guidance/blog/2019/03/recipe-rosca-violation", "why": "Primary (US regulator): ROSCA three requirements for negative-option online sales. H2 4." },
+    { "url": "https://www.cooley.com/news/insight/2025/2025-07-11-click-to-cancel-just-got-cancelled-eighth-circuit-vacates-entirety-of-ftcs-negative-option-rule", "why": "Law-firm alert: Eighth Circuit vacated the FTC Negative Option Rule on July 8, 2025. H2 4, one clause. Fact-checker: confirm date and that no newer rule is in force on publish day." }
+  ],
+  "visuals": [
+    { "type": "overview flow map", "file": "saas-homepage-promise-flow.svg", "idea": "Five frames left to right: homepage hero (headline + CTA) → sign-up form (email, Google sign-in) → first screen (sample data, one highlighted action) → first result (the report or outcome the headline promised). A single colored 'promise' thread runs through the headline, the sign-up page echo and the first result. Text panel: the five steps with what each must say or show." },
+    { "type": "annotated long-scroll wireframe", "file": "saas-homepage-section-stack.svg", "idea": "A tall homepage wireframe with the 9–10 sections stacked, each tagged with its job ('promise', 'proof', 'how it works = first-run steps', 'security', 'pricing teaser'), and a side band showing NN/g's 57% (first screen) and 17% (second screen) attention split. Text panel: the section table." },
+    { "type": "decision tree", "file": "saas-homepage-cta-decision-tree.svg", "idea": "Start: 'Can a new user reach value alone in one session?' Branches by setup effort and price to: free trial (no card), free trial with card (ROSCA disclosure flag), freemium, book a demo, trial + demo. Must not look like the zigzag tree of design-system-roi or the mobile post's tree: use a horizontal tree with pill-shaped endpoints. Text panel: the routes as a list." },
+    { "type": "fill-in worksheet (lead asset)", "file": "saas-homepage-promise-ledger.svg", "idea": "The promise ledger as a ledger-book page: columns claim | screen where the user sees it | minutes from sign-up | kept / missing | fix in copy or product. 3 illustrative rows for a hypothetical analytics SaaS (one marked 'missing' in red), 3 blank. Not the rule-sheet look of user-onboarding-automation: use ledger ruling and a stamp for 'kept'. Text panel: columns and the 3 rows." },
+    { "type": "before/after pairs", "file": "saas-homepage-headline-rewrites.svg", "idea": "Three side-by-side hero cards for hypothetical US products: vague headline + 'Get Started' (before) vs specific promise + labeled CTA (after), each with a one-line note on what the first screen must then show. Text panel: the three pairs." },
+    { "type": "funnel with tests", "file": "saas-homepage-test-funnel.svg", "idea": "Four stages (visit → sign-up start → sign-up complete → first result) as a funnel with the metric at each step and the test that diagnoses each drop (five-second test, first-click test, session recordings, A/B test). No numbers presented as benchmarks. Text panel: the metrics table." }
+  ],
+  "leadAngle": "The moment: H2 5. The reader fills in the promise ledger and finds homepage claims with no screen in the first session, or a first screen that starts somewhere else. Copy can be fixed alone; a missing first-run path cannot. Offer, in hub facts only: we design the marketing site, pricing page and sign-up flow together so the promise on the website matches the first minutes in the product (hub FAQ), measured by 2 or 3 metrics agreed at kick-off (activation rate, time to first value, trial-to-paid conversion). DOWN proof: Digno (website + web app). Closing: 'For every claim marked missing, book a free consultation.' Do not promise a free audit, a homepage-only price, a reply time other than the site standard (within one business day, ET), or development work.",
+  "variety": {
+    "type": "Guide",
+    "introStyle": "Try-this-now instruction intro: open with two imperative sentences that ask the reader to do something right now ('Open your homepage and read only the headline. Now sign up in a private window and look at the first screen.'), then one question about whether the two match, then Shahmir's first-person point of view and the definition inside the first 60 words. No hypothetical company story, no blockquote log, no timed list, no stat opener. Intro styles already used: buyer scenario, myth, data point with source, question, definition, mini case, contrarian take, timed first-run log (blockquote), kill-list decision log (blockquote), itemized receipt, misfiring rule. An imperative reader exercise is new.",
+    "h2Frames": ["what + what for", "what promise", "which sections + order", "should (CTA choice)", "how to match (handoff)", "how (B2B two readers)", "what beyond (page set)", "how to test (before/after)", "which mistakes", "Bottom line", "FAQs"],
+    "sectionOrder": "definition → promise → page structure → CTA decision → promise-to-first-run handoff + ledger → B2B variant → wider page set → testing → mistakes → Bottom line → FAQs. Follows the visitor from reading the page to using the product. user-onboarding-automation went scope → decision matrix → rule anatomy → channels → AI → steps → holdout → failure modes; saas-onboarding went definition → user vs customer → end point → stages → cut → patterns → roles → emails → audit; product-discovery went definition → risks → stages → agile → length → AI → plan → example → checklist → partner.",
+    "visualTypes": ["overview flow map with promise thread", "annotated long-scroll wireframe with attention band", "horizontal decision tree", "ledger worksheet", "before/after hero pairs", "funnel with tests"],
+    "ctaAngle": "claims marked 'missing' in your promise ledger → book a free consultation. Not 'rules marked patch', 'send the recording', 'send your funnel', 'send your brief', 'send your three riskiest assumptions' or 'bring your baseline sheet'.",
+    "listStyle": "formula line + section table + routed decision tree + ledger worksheet + metrics table + reasoned mistake list (situation + because + fix column)",
+    "closingRule": "End the Bottom line with one first-person recommendation sentence and no label.",
+    "differsFrom": "Last 3 site-wide: user-onboarding-automation (2026-10-16), product-discovery (2026-10-15), saas-onboarding (2026-10-13). Silo saas-design-agency: no posts. Nearest structural relative: saas-onboarding (same pillar; touches sign-up and first run)."
+  },
+  "fingerprintCheck": {
+    "vs_user-onboarding-automation": "Differs on intro (imperative exercise vs misfiring rule), H2 frames, section order, visuals (flow map, wireframe, ledger, before/after, funnel vs matrix, blueprint, relay, ladder, holdout chart, rule sheet), CTA angle (missing claims vs patched rules), list style. Type 'Guide' repeats. 6 of 7 differ.",
+    "vs_product-discovery": "Differs on intro, H2 frames, order, visuals, CTA (consultation vs checklist), list style. Type repeats. 6 of 7 differ.",
+    "vs_saas-onboarding (nearest relative)": "Differs on intro (imperative exercise vs timed blockquote log), H2 frames, order, visuals, CTA, list style. Type repeats. 6 of 7 differ. Do NOT reuse: the scheduling-SaaS example (use a dental-office scheduling product only as a headline rewrite, or pick another), Slack 2,000 messages, the Userpilot 37.5% benchmark, the Bowling Alley 'straight line' framing (we cite Wes Bush only for perceived vs experienced value), the empty-state anatomy, the five first-run patterns, the 12-point audit, the TradeZella 'No onboarding guide' sentence, the 'My recommendation:' label.",
+    "result": "Passes the RULES.md variety rule (≥ 4 of 7 differ from each of the last 3 site-wide posts; silo has no posts)."
+  },
+  "overlapCheck": {
+    "method": "Outline-level check (no shell in this run). Compared planned H2s with the H2s of the three published posts and with every hub and pillar H2/FAQ in content/services and content/pillars.ts. QA runs the 5-gram body script on the draft.",
+    "headingOverlap": "0 shared 5-grams. Closest pair: 'How do you make the homepage promise match the first minutes in the product?' vs saas-onboarding 'Where does SaaS onboarding end?' (share no 5-gram; the phrase 'first minutes in the product' comes from our own hub FAQ).",
+    "intentOverlap": "No page in content/ targets homepage, website or web design keywords (grep of services, industries, locations, blog, briefs, case studies, pillars and home.ts). The hub owns 'SaaS design agency' and its FAQ only states that we design marketing sites; this post expands it. saas-onboarding-design hub and its posts own sign-up/onboarding patterns: this post touches sign-up only as the homepage handoff and links the onboarding hub.",
+    "residualRisk": "H2 5 sits closest to the onboarding silo. Writer: describe only the handoff (sign-up page echo, field count, the first screen starting the promised job); no checklist, tour or email patterns. QA: 5-gram check against content/blog/saas-onboarding.md, target ≤ 5%.",
+    "result": "PASS at outline level."
+  },
+  "sisterSiteCheck": {
+    "status": "UNVERIFIED (not a city keyword, so the city guard does not apply)",
+    "evidence": "docs/content-system/sister-site.json lists 14 cities and their city URLs only; 'saas homepage design' contains no city. WebFetch of https://uiuxdesignservices.us/sitemap.xml returned ENOTFOUND (2026-10-17). WebSearch 'site:uiuxdesignservices.us saas homepage OR website design' returned no pages from the domain.",
+    "qaStep": "Before publishing run: curl -sS https://uiuxdesignservices.us/sitemap.xml | grep -iE 'homepage|saas|website|landing'. If a sister blog page targets 'saas homepage design' or 'web design for saas', stop and report to the owner; otherwise PASS. No links to or from the sister site."
+  },
+  "rejectedCandidates": [
+    { "keyword": "saas landing page design (200, KD 0, TP 1700, parent 'saas landing page')", "why": "Different page type (campaign landing page) and a different Ahrefs parent topic. Answered in one FAQ only. Future post in this silo." },
+    { "keyword": "great saas website design (200, KD 4, TP 2000, parent 'saas landing page')", "why": "Separate opportunity ('saas landing page' topic) with gallery intent; same parent as the landing-page post above." },
+    { "keyword": "saas website design (450, KD 0, TP 10) / saas web design (350, KD 0, TP 20)", "why": "Separate blog-opportunities entries (scores 92.9 and 92.1). Tiny TP means their parent topics win: 'saas web design' has parent 'web design for saas', which is THIS brief's secondary. Used as meta keyword / lexical variant only. Orchestrator: mark both as covered by this post rather than writing separate posts, or they will cannibalize it." },
+    { "keyword": "saas website design agency (1000) / saas web design agency (900) / saas website design company (200, TP 2200) / saas web design services (150)", "why": "Agency/service intent: the hub's head term in website form. A blog post would compete with the hub. Hub-banking candidates for the hub FAQ instead (owner decision)." },
+    { "keyword": "saas pricing page design (100, KD n/a)", "why": "A separate page type the hub lists under 'Plans and billing'. Kept to one sentence here so a future post can own it." },
+    { "keyword": "saas landing page design trends 2025 (300, KD n/a) / landing page design patterns saas (150, KD n/a)", "why": "Dated year, no KD, landing-page meaning." },
+    { "keyword": "b2b saas website design (150, TP 20) / b2b saas website design best practices (150, KD 2)", "why": "Used as the B2B hyponym H2, not as secondary, to leave the B2B website angle open and avoid stacking three keywords in one post." }
+  ],
+  "beats": "https://huemor.rocks/blog/saas-homepage-design",
+  "competitorPagesStudied": [
+    { "url": "https://huemor.rocks/blog/saas-homepage-design", "seen": "Top live WebSearch result for the exact query. Agency guide (title 'saas homepage design'). WebFetch ENOTFOUND; coverage not retrievable beyond the title. QA: run curl -sSI on it before the overlap check; if it redirects off-topic, use poweredbysearch below.", "misses": "unknown in detail; no snippet shows sign-up or first-run coverage" },
+    { "url": "https://www.poweredbysearch.com/blog/b2b-saas-homepage-design/", "seen": "Define the homepage goal from first principles, clarity of who you are and what you do, simplicity, elements (headline, value, SEO, CTA, blog, testimonials), keep internal-page keywords off the homepage.", "misses": "CTA choice rule, sign-up and first-run handoff, measurement beyond the page, US accessibility and trial rules" },
+    { "url": "https://merge.rocks/resources/websites-playbook/what-key-elements-of-saas-homepage-design-drive-high-conversions", "seen": "Clear value proposition near the top, simple navigation, key elements list.", "misses": "the same gaps" },
+    { "url": "https://www.sliderrevolution.com/design/saas-homepage-design-examples/", "seen": "Example gallery; above/below-the-fold split, trust signals, A/B test hero messaging, do not copy famous sites; unsourced '3,000–5,000 px' length range.", "misses": "decision method, handoff, sourced data" },
+    { "url": "https://www.wearetenet.com/inspirations/saas-design-inspiration/saas-homepage-design-examples ; https://www.wearetenet.com/blog/saas-hero-section-best-practices", "seen": "Gallery plus a hero study of 20+/28 SaaS sites (fewer than half put social proof in the hero).", "misses": "anything after the click" },
+    { "url": "warehouse SERP (Ahrefs, Google US, 2026-10-14)", "seen": "aura.build #1, dribbble #2, ramotion #3, webflow #4, PAA at #5, YouTube #6, taskip #7, cogosite #8, pinterest #9, zoom #10: templates and inspiration; avg DR 72, 0 referring domains on ranking URLs, 6 weak results.", "misses": "a complete, design-led guide: the opening is real" }
+  ],
+  "competitorsJsonHandback": {
+    "note": "Not written to docs/content-system/competitors.json (large shared file, Write-only tooling; lesson 2026-10-15). Orchestrator: append these.",
+    "domains": [
+      { "domain": "huemor.rocks", "kind": "web design agency blog", "silos": ["saas-design-agency"], "seenFor": ["saas homepage design"], "source": "WebSearch 2026-10-17 (WebFetch ENOTFOUND)" },
+      { "domain": "poweredbysearch.com", "kind": "B2B SaaS marketing agency blog", "silos": ["saas-design-agency"], "seenFor": ["saas homepage design", "b2b saas homepage design"], "source": "WebSearch 2026-10-17" },
+      { "domain": "wearetenet.com", "kind": "design agency blog + galleries", "silos": ["saas-design-agency"], "seenFor": ["saas homepage design", "saas hero section"], "source": "WebSearch 2026-10-17" },
+      { "domain": "ramotion.com", "kind": "design agency (portfolio ranks)", "silos": ["saas-design-agency"], "seenFor": ["saas homepage design", "saas web design"], "source": "blog-opportunities.json matrix (#3)" }
+    ],
+    "topPost": { "domain": "huemor.rocks", "url": "https://huemor.rocks/blog/saas-homepage-design", "title": "saas homepage design", "keywords": ["saas homepage design"], "estTraffic": null, "silo": "saas-design-agency", "status": "briefed", "brief": "content/briefs/saas-homepage-design.json" }
+  },
+  "clustersHandback": "clusters.json has no owner for Ahrefs parent topic 'best saas websites' (parent of 'saas homepage design', 'web design for saas', 'saas website design company', 'b2b web design for saas companies'). Orchestrator: add { parentTopic: 'best saas websites', owner: '/blog/saas-homepage-design/', keywords: ['saas homepage design (150)', 'web design for saas (150)'] } after publish. 'saas website design company' (commercial) stays a hub-banking candidate, not a post keyword.",
+  "notes": [
+    "CANNIBALIZATION: no page in content/ targets homepage, website, landing page or web design keywords. The hub owns 'SaaS design agency' (anchor, H1, metaTitle), its 6 deliverables, the 4-step process, the agency vs in-house table, the cost H2 ($40,000–$180,000) and the FAQs. Never use 'SaaS design agency' as a keyword phrase in the post, only as link anchor text. Do not restate the hub process or price. saas-onboarding-design (another hub) owns sign-up, setup, empty states, checklists and tours as onboarding work: H2 5 covers only the handoff and links that hub once.",
+    "SCOPE CONFLICT (owner FYI): content/services/product-design-agency.json table says a UI design agency (not a product design agency) is 'best for brand refreshes and marketing sites', while the saas-design-agency FAQ says we design SaaS marketing websites. The post follows the hub FAQ: we design the marketing site together with sign-up and product. Stay silent on whether we build or host websites (open home.ts 'design and development' conflict from 2026-10-09).",
+    "NO PRICE: the site publishes no homepage-only or marketing-site price. Do not state or imply one. Do not link the hub cost section from this post.",
+    "CASE STUDIES: Digno is the only case study whose scope lists the website AND shows the homepage (lines 29, 91, 93): use it as the DOWN link, describing only the homepage headline, the 'How Digno works' block and the try-free invitation. Do not attribute Digno's 126% / 5x / 13:1 / 50% results to the homepage. Elia Wellness, Nitro and Anyday also list 'website' in scope, but only Nitro describes it (an NFT game site, off-audience). TradeZella shows a website image but its scope does not list the website: do not claim we designed it.",
+    "EXAMPLES: use HYPOTHETICAL US products for headline rewrites and the ledger (label them). Do not critique a real company's homepage, and do not describe a real SaaS homepage's current content (homepages change; facts must be verifiable on publish day). Digno is the only real homepage named.",
+    "DO NOT USE (unsourced, seen in the SERP): 'a SaaS homepage has 3 seconds to convince visitors'; '3,000 to 5,000 pixels' page length; 'one or two strong proof signals beat many weak ones' as a measured finding (tenet's 28-site study is a design review, not a conversion test; may be mentioned only as 'fewer than half of 28 SaaS homepages Tenet reviewed put social proof in the hero' if the fact-checker confirms the page); Dribbble/agency homepage prices ($400, $1,500, $2,900–$10,000, '$18k'); 'busy homepages slow load times' with no data; Unbounce's older 2.9% / 24.2% SaaS figures (undated); Tractinsky '10 ms'.",
+    "FACT-CHECKER FLAGS: (1) NN/g get-started: confirm '6 of 8' and the meal-delivery context. (2) NN/g homepage-design-principles: confirm the tagline and business-model wording. (3) Ramli John: 'moment of value perception before sign-up' confirmed only via a reader summary. (4) Unbounce 3.8% / 6.6%: confirm year 2024 on the page. (5) ROSCA: confirm the three requirements on the FTC page and that no replacement negative-option rule took effect after July 8, 2025. (6) Lindgaard: state only the visual-appeal finding.",
+    "ABBREVIATIONS to expand on first use: software as a service (SaaS), call to action (CTA), Nielsen Norman Group (NN/g), Largest Contentful Paint (LCP), Interaction to Next Paint (INP), Web Content Accessibility Guidelines (WCAG), Americans with Disabilities Act (ADA), Restore Online Shoppers' Confidence Act (ROSCA), Federal Trade Commission (FTC), System and Organization Controls 2 (SOC 2), single sign-on (SSO), user experience (UX).",
+    "VOICE: first person by Shahmir Farooq for method and judgment ('When I review a homepage, I read the headline and then sign up'). 'We' only for hub facts (marketing site + pricing page + sign-up designed together; metrics at kick-off; design system deliverable) and the Digno case study. No invented anecdotes or clients.",
+    "US FRAME: US example products, US law (ROSCA/FTC, state auto-renewal laws), WCAG 2.2 AA with ADA/Section 508, SOC 2 and HIPAA (health only) for trust blocks, USD if any money appears, American spelling (color, optimize, behavior, labeled). GDPR/cookie consent only as 'if you also sell in the EU'.",
+    "ENTITY SALIENCE: 'SaaS homepage' must be mentioned more than any related entity. Cap rivals at about 6 uses each: 'sign-up', 'first-run', 'onboarding', 'CTA'. Avoid the word 'onboarding' as a recurring noun; prefer 'the first session' / 'first minutes in the product'.",
+    "POST-PUBLISH MONITOR: if Google ranks the hub instead of the post for 'saas homepage design', add backlinkSuggestions #1 first (it is required anyway). If the future 'saas website design' or 'saas web design' opportunities are run, retarget them away from 'web design for saas'."
+  ]
+}

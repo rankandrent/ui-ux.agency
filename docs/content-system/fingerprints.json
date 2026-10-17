@@ -402,6 +402,42 @@
       "visuals": 6,
       "example": "hypothetical analytics SaaS: warehouse reminder rule, chart builder help rule, 10% holdout",
       "date": "2026-10-16"
+    },
+    {
+      "slug": "saas-homepage-design",
+      "hub": "saas-design-agency",
+      "type": "Guide",
+      "funnel": "mofu",
+      "introStyle": "try-this-now exercise for the reader",
+      "h2Frames": [
+        "definition + purpose",
+        "the promise",
+        "section order",
+        "CTA choice (trial/freemium/demo)",
+        "carry into product + promise ledger",
+        "B2B buyers vs users",
+        "web design beyond the homepage",
+        "testing",
+        "mistakes table",
+        "bottom line",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "What is SaaS homepage design, and what is it for?",
+        "What promise should a SaaS homepage make?",
+        "Which sections belong in SaaS homepage design, in order?",
+        "Should the homepage CTA be a free trial, freemium or demo?",
+        "How does SaaS homepage design carry into the product?",
+        "How does a B2B SaaS homepage serve buyers and users?",
+        "What does web design for SaaS need beyond the homepage?",
+        "When and how do you test SaaS homepage design?",
+        "Which SaaS homepage design mistakes break the promise?",
+        "Bottom line",
+        "FAQs"
+      ],
+      "visuals": 6,
+      "example": "hypothetical AI meeting-notes app ledger; invoicing tool for plumbing contractors headline rewrite",
+      "date": "2026-10-17"
     }
   ]
 }

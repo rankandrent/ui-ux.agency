@@ -48,6 +48,26 @@
         "/services/saas-products/saas-onboarding-design/ (FAQ: onboarding tools)",
         "/blog/saas-onboarding/ (designer vs tool section)"
       ]
+    },
+    {
+      "slug": "saas-homepage-design",
+      "hub": "saas-design-agency",
+      "keyword": "saas homepage design",
+      "date": "2026-10-17",
+      "words": 3792,
+      "images": 6,
+      "internalLinks": 6,
+      "externalLinks": 5,
+      "qaLoops": 1,
+      "factLoops": 2,
+      "semanticScore": 94,
+      "opportunityScore": 133.7,
+      "expectedMonthlyTraffic": 780,
+      "backlinks": [
+        "/services/saas-products/saas-design-agency/ (FAQ: marketing websites)",
+        "/case-studies/digno/ (marketing site line)",
+        "/services/saas-products/ (pillar: what SaaS product design covers)"
+      ]
     }
   ],
   "audits": [],
@@ -94,6 +114,18 @@
         "/location/ux-agency-minneapolis/"
       ],
       "qa": "all PASS (Denver fact-check 1 loop, Minneapolis QA 1 loop)"
+    },
+    {
+      "date": "2026-10-17",
+      "goal": "daily post: highest-scoring relevant topic (ai use cases in cyber security skipped: its hub had a post 2026-10-15)",
+      "jobs": [
+        {
+          "hub": "saas-design-agency",
+          "keyword": "saas homepage design",
+          "score": 133.7,
+          "format": "complete guide"
+        }
+      ]
     }
   ]
 }
