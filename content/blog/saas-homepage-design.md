@@ -51,7 +51,7 @@ Wes Bush of ProductLed explains why the wording matters after the click. In his 
 
 Here's the formula applied to three hypothetical US products.
 
-<!-- visual: saas-homepage-headline-rewrites.svg | before/after pairs | Three side-by-side hero cards for hypothetical US products: vague headline + "Get Started" (before) vs specific promise + labeled CTA (after), each with a one-line note on what the first screen must then show. No real company headline. | alt: Three before-and-after SaaS homepage hero cards for hypothetical US products, each rewriting a vague headline and a Get Started button into a specific promise and a labeled CTA | caption: SaaS homepage headline rewrites: vague promise before, specific promise and labeled CTA after -->
+![Three before-and-after SaaS homepage hero cards for hypothetical US products, each rewriting a vague headline and a Get Started button into a specific promise and a labeled CTA, with what the first screen must then show](/blog/saas-homepage-design/saas-homepage-headline-rewrites.svg "SaaS homepage headline rewrites: vague promise before, specific promise and labeled CTA after")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -73,7 +73,7 @@ A promise needs evidence, and the rest of the page supplies it in a set order.
 
 Above the fold is where attention concentrates. In [NN/g's 2018 eyetracking study of scrolling and attention](https://www.nngroup.com/articles/scrolling-and-attention/), 57% of page-viewing time went to the first screenful and 74% to the first two, down from 80% above the fold in its 2010 study. So the hero section carries the hero headline, a subheadline, the primary CTA and a real product screenshot.
 
-<!-- visual: saas-homepage-section-stack.svg | annotated long-scroll wireframe | A tall homepage wireframe with the 10 sections stacked, each tagged with its job (promise, proof, how it works = first-run steps, security, pricing teaser), and a side band showing NN/g's 2018 attention split: 57% on the first screenful, 74% on the first two. | alt: Annotated long-scroll SaaS homepage wireframe with 10 stacked sections, each tagged with its job, beside a band showing NN/g's attention split by screenful | caption: SaaS homepage section stack, with each section's job and the attention it gets -->
+![Annotated long-scroll SaaS homepage wireframe with 10 stacked sections, each tagged with its job, beside a band showing NN/g's attention split: 57% on the first screenful and 74% on the first two](/blog/saas-homepage-design/saas-homepage-section-stack.svg "SaaS homepage section stack, with each section's job and the attention it gets")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -108,7 +108,7 @@ The section that decides whether any of this pays off is the button.
 
 In product-led growth, the free plan or trial does the selling, so the CTA opens the product. In a sales-led motion, a "book a demo" path hands the visitor to sales.
 
-<!-- visual: saas-homepage-cta-decision-tree.svg | horizontal decision tree with pill-shaped endpoints | Start: "Can a new user reach value alone in one session?" Branches by setup effort, revenue model and buyer to: freemium plan, free trial (no card), free trial with card (ROSCA disclosure flag), book a demo, trial + demo. Must not look like the zigzag tree of design-system-roi or the mobile post's tree. | alt: Horizontal decision tree that routes a SaaS homepage CTA to freemium, a free trial with or without a card, a demo, or a trial plus a demo | caption: SaaS homepage CTA decision tree: free trial, freemium or book a demo -->
+![Horizontal decision tree that routes a SaaS homepage CTA to freemium, a free trial with or without a card, a demo, or a trial plus a demo](/blog/saas-homepage-design/saas-homepage-cta-decision-tree.svg "SaaS homepage CTA decision tree: free trial, freemium or book a demo")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -138,7 +138,7 @@ Whatever the button says, the next screen has to agree with it.
 
 Most homepage advice stops at the click. I follow the visitor four steps further.
 
-<!-- visual: saas-homepage-promise-flow.svg | overview flow map with promise thread | Five frames left to right: homepage headline, CTA, sign-up form (email, Google sign-in, promise echoed), first screen (sample call, one highlighted action), first result (the call summary the headline promised). One colored "promise" thread runs through the headline, the sign-up echo and the first result. Example: the hypothetical AI meeting-notes app. | alt: Flow map of a SaaS homepage promise moving from the hero headline and CTA through the sign-up form and first screen to the first result | caption: The SaaS homepage promise thread, from headline to first result -->
+![Flow map of a SaaS homepage promise moving from the hero headline and CTA through the sign-up form and first screen to the first result, with a blue promise thread linking the headline, the sign-up echo and the first result](/blog/saas-homepage-design/saas-homepage-promise-flow.svg "The SaaS homepage promise thread, from headline to first result")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -162,7 +162,7 @@ Our sign-up and onboarding deliverable covers account creation, workspace setup,
 
 The promise ledger is a one-page table I fill in before any visual design. Each homepage claim gets a row: the screen where a new user sees it, the minutes from sign-up to that screen, kept or missing, and the fix. A claim with no screen in the first session gets rewritten, or the first run gets redesigned.
 
-<!-- visual: saas-homepage-promise-ledger.svg | fill-in worksheet, ledger-book page | Columns: homepage claim, screen where the user sees it, minutes from sign-up, kept or missing, fix in copy or product. 3 illustrative rows for the hypothetical AI meeting-notes app (the CRM row marked missing in red), 3 blank rows. Ledger ruling and a stamp for kept; not the rule-sheet look of user-onboarding-automation. | alt: Promise ledger worksheet for a hypothetical AI meeting-notes app, mapping each SaaS homepage claim to a product screen, minutes from sign-up, kept or missing, and a fix | caption: The promise ledger: each SaaS homepage claim mapped to the screen that keeps it -->
+![Promise ledger worksheet for a hypothetical AI meeting-notes app, mapping each SaaS homepage claim to a product screen, minutes from sign-up, kept or missing, and a fix](/blog/saas-homepage-design/saas-homepage-promise-ledger.svg "The promise ledger: each SaaS homepage claim mapped to the screen that keeps it")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -231,7 +231,7 @@ First impressions form fast, but that evidence is narrow. In a 2006 Carleton Uni
 
 After launch, the funnel below ties each stage to a metric and a test.
 
-<!-- visual: saas-homepage-test-funnel.svg | funnel with tests | Four stages (visit to sign-up start, sign-up start to complete, sign-up to first result, trial to paid) as a funnel with the metric at each step and the test that diagnoses each drop (five-second test, first-click test, session recordings, moderated session, A/B test). No numbers presented as benchmarks. | alt: SaaS homepage test funnel from visit to first result, with the metric and diagnostic test at each stage | caption: SaaS homepage test funnel: one metric and one diagnostic test per stage -->
+![SaaS homepage test funnel from visit to trial to paid, with the metric and diagnostic test at each stage](/blog/saas-homepage-design/saas-homepage-test-funnel.svg "SaaS homepage test funnel: one metric and one diagnostic test per stage")
 
 <details class="astext"><summary>Show as text</summary>
 
