@@ -94,6 +94,18 @@
         "/location/ux-agency-minneapolis/"
       ],
       "qa": "all PASS (Denver fact-check 1 loop, Minneapolis QA 1 loop)"
+    },
+    {
+      "date": "2026-10-17",
+      "goal": "daily post: highest-scoring relevant topic (ai use cases in cyber security skipped: its hub had a post 2026-10-15)",
+      "jobs": [
+        {
+          "hub": "saas-design-agency",
+          "keyword": "saas homepage design",
+          "score": 133.7,
+          "format": "complete guide"
+        }
+      ]
     }
   ]
 }
