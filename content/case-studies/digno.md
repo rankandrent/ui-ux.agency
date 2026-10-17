@@ -88,7 +88,7 @@ Each department page splits its score into factors and sums up goals assigned, c
 
 ![Development Department in Digno: health at 77.2, a percentage per factor and a summary of goals](/work/digno/department-score.webp "Digno department score: health, factor percentages and a summary of goals")
 
-The marketing site walks visitors through how Digno works and invites them to try it free.
+The marketing site walks visitors through how Digno works and invites them to try it free, the kind of [homepage that hands visitors to the product](/blog/saas-homepage-design/) we design alongside the app.
 
 ![Digno homepage headline Employee Scoring made Easy, followed by a How Digno works block](/work/digno/website.webp "Digno homepage: Employee Scoring made Easy and how Digno works")
 

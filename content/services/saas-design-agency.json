@@ -94,7 +94,7 @@
       "format": "faq",
       "answer": "<strong>Answers to the questions SaaS founders and product leads ask most.</strong>",
       "faqs": [
-        { "q": "Do you design SaaS marketing websites too?", "a": "<p>Yes. We design the marketing site, pricing page and sign-up flow together, so the promise on the website matches the first minutes in the product.</p>" },
+        { "q": "Do you design SaaS marketing websites too?", "a": "<p>Yes. We design the marketing site, pricing page and sign-up flow together, so the promise on the website matches the first minutes in the product. Here is <a href=\"/blog/saas-homepage-design/\">how we approach SaaS homepage design</a>, from the promise to the first screen.</p>" },
         { "q": "How do you measure SaaS design success?", "a": "<p>We agree 2 or 3 metrics at kick-off, usually activation rate, time to first value and trial-to-paid conversion, and compare them before and after launch.</p>" },
         { "q": "Can your SaaS designers work in our sprints?", "a": "<p>Yes. Our designers join your planning, stand-ups and reviews, and work in your Figma, Jira or Linear workspace.</p>" },
         { "q": "Who owns the designs after the project?", "a": "<p>You do. All Figma files, components and research notes transfer to your company when the project ends.</p>" }
