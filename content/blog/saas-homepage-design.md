@@ -27,17 +27,17 @@ Put your software as a service (SaaS) homepage design to a test that takes 2 min
 
 I treat SaaS homepage design as the design of one promise and its handoff. The headline, sections, proof and call to action (CTA) on the front page of a SaaS site set an expectation. The first session in the product has to meet it.
 
-I'm Shahmir Farooq, senior communication designer at ui-ux.agency, tkxel's design team, with 200+ products designed since 2017. This guide walks through the promise, the section order, the CTA choice, the handoff to the first screen with a worksheet I call the promise ledger, and how to test the whole path.
+I'm Shahmir Farooq, senior communication designer at ui-ux.agency, tkxel's design team, with 200+ products designed since 2017. On our [SaaS design agency](/services/saas-products/saas-design-agency/) projects, the homepage is designed with the pricing page and sign-up, not as a separate website job. This guide walks through the promise, the section order, the CTA choice, the handoff to the first screen with a worksheet I call the promise ledger, and how to test the whole path.
 
 ## What is SaaS homepage design, and what is it for?
 
 **SaaS homepage design shapes the first page of a software company's marketing site so the right visitor signs up expecting exactly what the product shows next.**
 
-The work covers the headline, section order, product visuals, proof and the call to action that moves a visitor to start a trial or book a demo. Nielsen Norman Group (NN/g) frames the core job as communicating what the organization does and what users can accomplish on the site. <!-- source: https://www.nngroup.com/articles/homepage-design-principles/ --> A purpose visitors can't grasp at a glance sends potential customers away.
+The work covers the headline, section order, product visuals, proof and the call to action that moves a visitor to start a trial or book a demo. In its five homepage design principles, Nielsen Norman Group (NN/g) frames the first job as telling first-time visitors who you are, what you do and what the site is for. Only a very famous brand can skip that explanation.
 
-I'd add a second job: the homepage is the first screen of a new user's journey, not a brochure. Ramli John's book Product-Led Onboarding describes a moment of value perception that usually happens during acquisition, before sign-up; value realization comes later, inside the product. <!-- source: https://www.pocus.com/blog/product-led-sales-pls-ama-ramli-john --> So the best homepage design for a SaaS website is the one whose promise the product keeps.
+I'd add a second job: the homepage is the first screen of a new user's journey, not a brochure. In a Pocus AMA, Ramli John, author of Product-Led Onboarding, describes the first milestone as the moment a person perceives your product's value. That moment can happen while reading your landing page, before sign-up; experiencing the value comes later, inside the product. So the best homepage design for a SaaS website is the one whose promise the product keeps.
 
-Unlike a campaign landing page, a SaaS homepage serves every visitor type, so it carries a navigation bar and several paths. That's why our team, working as a SaaS design agency <!-- link: /services/saas-products/saas-design-agency/ | anchor "SaaS design agency" | hub link 1 of 2 -->, designs the homepage alongside the pricing page and sign-up, not as a separate website job.
+Unlike a campaign landing page, a SaaS homepage serves every visitor type, so it carries a navigation bar and several paths. Each of those paths still has to lead to the product the headline describes.
 
 Everything on the page depends on one sentence: the promise.
 
@@ -45,9 +45,9 @@ Everything on the page depends on one sentence: the promise.
 
 **Good SaaS homepage design promises one result, for one kind of customer, that a new user can see inside the first session.**
 
-The promise is your value proposition in one line, and my formula has three parts: who it's for, the job, and the result you can see. NN/g's tagline advice points the same way: say what the company does, especially when people don't know you yet. <!-- source: https://www.nngroup.com/articles/homepage-design-principles/ -->
+The promise is your value proposition in one line, and my formula has three parts: who it's for, the job, and the result you can see. NN/g's tagline advice points the same way: say what the company does, especially when people don't know you yet, because vague or jargon-heavy taglines make visitors mistrust the site.
 
-Wes Bush of ProductLed explains why the wording matters after the click. Product-led onboarding works when perceived value, the promise in your copy, matches experienced value, what the product delivers. <!-- source: https://www.productboard.com/blog/a-battle-tested-product-onboarding-framework-from-wes-bush/ --> So I treat the perceived value vs experienced value gap as a design spec. A bigger promise can lift sign-ups and then sink activation when the product can't show the result fast.
+Wes Bush of ProductLed explains why the wording matters after the click. In his onboarding framework, as Productboard summarizes it, perceived value is the promise your product makes and experienced value is how well the product delivers on it. The strongest product-led companies keep the two closely aligned. So I treat the perceived value vs experienced value gap as a design spec. A bigger promise can lift sign-ups and then sink activation when the product can't show the result fast.
 
 Here's the formula applied to three hypothetical US products.
 
@@ -71,7 +71,7 @@ A promise needs evidence, and the rest of the page supplies it in a set order.
 
 **Most SaaS homepages need 9 to 10 sections, ordered so the first screen carries the promise and the CTA, and each section below answers the buyer's next doubt.**
 
-Above the fold is where attention concentrates. In NN/g's 2018 eyetracking study, 57% of page-viewing time went to the first screenful and 74% to the first two, down from 80% above the fold in its 2010 study. <!-- source: https://www.nngroup.com/articles/scrolling-and-attention/ --> So the hero section carries the hero headline, a subheadline, the primary CTA and a real product screenshot.
+Above the fold is where attention concentrates. In [NN/g's 2018 eyetracking study of scrolling and attention](https://www.nngroup.com/articles/scrolling-and-attention/), 57% of page-viewing time went to the first screenful and 74% to the first two, down from 80% above the fold in its 2010 study. So the hero section carries the hero headline, a subheadline, the primary CTA and a real product screenshot.
 
 <!-- visual: saas-homepage-section-stack.svg | annotated long-scroll wireframe | A tall homepage wireframe with the 10 sections stacked, each tagged with its job (promise, proof, how it works = first-run steps, security, pricing teaser), and a side band showing NN/g's 2018 attention split: 57% on the first screenful, 74% on the first two. | alt: Annotated long-scroll SaaS homepage wireframe with 10 stacked sections, each tagged with its job, beside a band showing NN/g's attention split by screenful | caption: SaaS homepage section stack, with each section's job and the attention it gets -->
 
@@ -122,11 +122,11 @@ Start with one question: can a new user reach value alone in one session?
 
 </details>
 
-Label the button with what happens next. NN/g warns that a "Get Started" button looks like the right path for almost any task, so it can drop visitors into a sign-up flow when they wanted basic information. Its advice is to say precisely what users should expect. <!-- source: https://www.nngroup.com/articles/get-started/ --> "Start a free trial" passes that test. Keep one primary CTA per screen and a visually lighter secondary CTA.
+Label the button with what happens next. NN/g found that [a "Get Started" button stops users](https://www.nngroup.com/articles/get-started/) because the label fits almost any goal, so visitors who wanted details about the company land in surveys, onboarding flows or sales funnels instead. Its advice is to state precisely what users should expect. "Start a free trial" passes that test. Keep one primary CTA per screen and a visually lighter secondary CTA.
 
-If your free trial takes a credit card and turns paid, the Restore Online Shoppers' Confidence Act (ROSCA) applies. The Federal Trade Commission (FTC) reads it as three duties: disclose all material terms before collecting billing details, get express informed consent, and offer a simple way to stop charges. <!-- source: https://www.ftc.gov/business-guidance/blog/2019/03/recipe-rosca-violation -->
+If your free trial takes a credit card and turns paid, the Restore Online Shoppers' Confidence Act (ROSCA) applies. The Federal Trade Commission (FTC) [sums up ROSCA as three duties](https://www.ftc.gov/business-guidance/blog/2019/03/recipe-rosca-violation): disclose all material terms before collecting billing details, get express informed consent before the charge, and offer a simple way to stop recurring charges.
 
-The Eighth Circuit vacated the FTC's 2024 click-to-cancel rule on July 8, 2025. <!-- source: https://www.cooley.com/news/insight/2025/2025-07-11-click-to-cancel-just-got-cancelled-eighth-circuit-vacates-entirety-of-ftcs-negative-option-rule --> A new FTC rulemaking opened in March 2026 without proposed rule text, so ROSCA and state auto-renewal laws still set the bar. <!-- source: https://perkinscoie.com/insights/blog/ftc-kicks-new-negative-options-rulemaking --> This isn't legal advice; ask your counsel, and write "No credit card required" only when it's true.
+The Eighth Circuit vacated the FTC's 2024 click-to-cancel rule in its entirety on July 8, 2025, as law firm Cooley reported. The FTC restarted the process on March 11, 2026 with only an advance notice of proposed rulemaking, which poses questions instead of rule text. So ROSCA and state auto-renewal laws still set the bar. This isn't legal advice; ask your counsel, and write "No credit card required" only when it's true.
 
 When plans are public, I add a pricing teaser or a clear link to the pricing page, so visitors can find the plan that fits before they sign up.
 
@@ -152,11 +152,11 @@ The hypothetical AI meeting-notes app, step by step:
 
 </details>
 
-On the sign-up form, ask only for the fields the account needs. NN/g's registration checklist backs minimal fields, ideally 2 fields (email and password), sign-in with an existing Google account and no confirm-email or confirm-password fields. <!-- source: https://www.nngroup.com/articles/checklist-registration-login/ --> Single sign-on (SSO) through Google or Microsoft turns the form into one click for many business-to-business (B2B) visitors. I'd echo the homepage promise beside the form, so visitors know they're on the same path.
+On the sign-up form, ask only for the fields the account needs. NN/g's checklist for registration and login forms backs minimal fields, ideally 2 (email and password), plus social or Google sign-in and no repeated fields such as confirm password. Single sign-on (SSO) through Google or Microsoft turns the form into one click for many business-to-business (B2B) visitors. I'd echo the homepage promise beside the form, so visitors know they're on the same path.
 
-If the headline promises a call summary, the first screen offers a sample call or one connection step toward it, not a blank dashboard. NN/g notes that empty screens are common in apps that aren't set up yet; a designed empty state links to the first result, reports status and teaches the feature in place. <!-- source: https://www.nngroup.com/articles/empty-state-interface-design/ -->
+If the headline promises a call summary, the first screen offers a sample call or one connection step toward it, not a blank dashboard. In its guidelines for empty states in complex applications, NN/g treats a blank container as a design opportunity: a designed empty state communicates system status, teaches unused features and offers a direct path to the first key task.
 
-Our sign-up and onboarding deliverable covers account creation, workspace setup, invites and a checklist that leads to the first result. When your gap sits in sign-up, setup and empty states, that's SaaS onboarding design <!-- link: /services/saas-products/saas-onboarding-design/ | anchor "SaaS onboarding design" | the post's one cross-hub link --> work, and that service owns the patterns.
+Our sign-up and onboarding deliverable covers account creation, workspace setup, invites and a checklist that leads to the first result. When your gap sits in sign-up, setup and empty states, that's [SaaS onboarding design](/services/saas-products/saas-onboarding-design/) work, and that service owns the patterns.
 
 ### Fill in the promise ledger
 
@@ -183,7 +183,7 @@ Copy can be fixed alone in an afternoon; a missing first-run path can't. Found c
 
 ### How we handled the handoff for Digno
 
-For Digno <!-- link: /case-studies/digno/ | anchor "Digno" | DOWN link, website and web app designed together -->, a human resources (HR) tech SaaS with an artificial intelligence (AI) scoring engine, we delivered both the website and the web app. Its homepage leads with "Employee Scoring made Easy", walks visitors through how Digno works and invites them to try it free. One team shaped the promise and the product it points to.
+For [Digno](/case-studies/digno/), a human resources (HR) tech SaaS with an artificial intelligence (AI) scoring engine, we delivered both the website and the web app. Its homepage leads with "Employee Scoring made Easy", walks visitors through how Digno works and invites them to try it free. One team shaped the promise and the product it points to.
 
 B2B homepages add a twist: the person who signs up isn't always the one who signs the contract.
 
@@ -213,7 +213,7 @@ Good web design for SaaS treats those pages as one path, each with one job:
 
 Marketing site design and product design often sit with two teams, and that split is where screenshots drift. SaaS website design that stops at conversion-focused web design tunes the click and ignores what follows. So one design system runs across site and product; our design system deliverable is a Figma component library with tokens that match the front-end code.
 
-Teams that want the site and product designed as one system can see how our SaaS product design <!-- link: /services/saas-products/ | anchor "SaaS product design" | pillar mention, once --> work fits together. Start by listing the pages a visitor passes on the way to sign-up.
+Teams that want the site and product designed as one system can see how our [SaaS product design](/services/saas-products/) work fits together. Start by listing the pages a visitor passes on the way to sign-up.
 
 Once the pages exist, test the path, not just the page.
 
@@ -227,7 +227,7 @@ Before launch, I run three checks in this order:
 2. **First-click test:** ask testers where they'd click to start the job; the primary CTA should win.
 3. **Moderated session:** watch 5 users go from the homepage through sign-up to the first screen.
 
-First impressions form fast, but that evidence is narrow. In a 2006 Carleton University study by Lindgaard and colleagues, visual-appeal ratings of homepages seen for 50 milliseconds agreed well with ratings after longer viewing. <!-- source: https://www.nature.com/news/2006/060109/full/news060109-13.html --> The finding covers visual appeal only, not trust or understanding, so the five-second test asks about the promise.
+First impressions form fast, but that evidence is narrow. In a 2006 Carleton University study by Lindgaard and colleagues, visual-appeal ratings of homepages seen for 50 milliseconds agreed well with ratings after longer viewing, as Nature's news coverage of the study reported. The finding covers visual appeal only, not trust or understanding, so the five-second test asks about the promise.
 
 After launch, the funnel below ties each stage to a metric and a test.
 
@@ -248,15 +248,15 @@ Table: Homepage funnel stages, metrics and diagnostic tests
 
 </details>
 
-For context, Unbounce's 2024 Conversion Benchmark Report puts the median SaaS landing page conversion rate at 3.8%, against 6.6% across all industries. <!-- source: https://unbounce.com/conversion-benchmark-report/saas-conversion-rate/ --> That's a landing-page figure, so I compare a homepage with its own trend before and after a change.
+For context, [Unbounce's 2024 SaaS conversion benchmark](https://unbounce.com/conversion-benchmark-report/saas-conversion-rate/) puts the median SaaS landing page conversion rate at 3.8%, against 6.6% across all industries. That's a landing-page figure, so I compare a homepage with its own trend before and after a change.
 
-Two technical gates follow. For Core Web Vitals, a good Largest Contentful Paint (LCP) is 2.5 seconds or less. A good Interaction to Next Paint (INP) is 200 milliseconds or less, both measured at the 75th percentile of page loads. <!-- source: https://web.dev/articles/lcp --> <!-- source: https://web.dev/articles/inp --> A hero video or large image is often the LCP element, so I check it first.
+Two technical gates follow. For Core Web Vitals, Google's web.dev guidance sets [a good Largest Contentful Paint (LCP)](https://web.dev/articles/lcp) at 2.5 seconds or less. Its Interaction to Next Paint (INP) guide sets a good INP at 200 milliseconds or less, both measured at the 75th percentile of page loads. A hero video or large image is often the LCP element, so I check it first.
 
-For accessibility, I design to Web Content Accessibility Guidelines (WCAG) 2.2 AA, with the Americans with Disabilities Act (ADA) and Section 508 as the US frame. Three success criteria (SC) matter most on a homepage:
+For accessibility, I design to Web Content Accessibility Guidelines (WCAG) 2.2 AA, with the Americans with Disabilities Act (ADA) and Section 508 as the US frame. Three WCAG 2.2 success criteria (SC) matter most on a homepage:
 
-- **Contrast, SC 1.4.3:** text needs 4.5:1 and large text 3:1, including hero copy over screenshots or gradients. <!-- source: https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html -->
-- **Target size, SC 2.5.8:** buttons need at least 24 by 24 Cascading Style Sheets (CSS) pixels or enough spacing. <!-- source: https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html -->
-- **Focus not obscured, SC 2.4.11:** a sticky cookie banner fails if it entirely hides the focused hero CTA. <!-- source: https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html -->
+- **Contrast, SC 1.4.3:** text needs 4.5:1 and large text 3:1, including hero copy over screenshots or gradients.
+- **Target size, SC 2.5.8:** buttons need at least 24 by 24 Cascading Style Sheets (CSS) pixels or enough spacing.
+- **Focus not obscured, SC 2.4.11:** a focused control must stay at least partly visible, so a sticky cookie banner fails if it entirely hides the focused hero CTA.
 
 Microsoft Clarity session recordings and heatmaps then show where visitors stall. Run an A/B test on one element at a time once traffic allows, and I'd let each run for at least 2 full weeks so weekday and weekend visitors both count. A low-traffic B2B site learns more from moderated sessions.
 
@@ -285,7 +285,7 @@ Fixes in the product column need design work, not copy. When that column fills u
 
 **SaaS homepage design succeeds when the first session keeps the headline's promise, the sections answer buyer doubts in order, and the page is judged by what sign-ups do next.**
 
-Spend 30 minutes filling in the promise ledger for your homepage. For every claim marked missing, book a free consultation <!-- link: /contact/ | anchor "book a free consultation" | Bottom line CTA only -->. We design the marketing site, pricing page and sign-up flow together <!-- link: /services/saas-products/saas-design-agency/#saas-design-agency-faqs | anchor "design the marketing site, pricing page and sign-up flow together" | hub link 2 of 2 -->, so the homepage and the first minutes in the product tell one story. You'll get an answer from a senior designer in one business day (US Eastern Time).
+Spend 30 minutes filling in the promise ledger for your homepage. For every claim marked missing, [book a free consultation](/contact/). We [design the marketing site, pricing page and sign-up flow together](/services/saas-products/saas-design-agency/#saas-design-agency-faqs), so the homepage and the first minutes in the product tell one story. You'll get an answer from a senior designer in one business day (US Eastern Time).
 
 I'd rewrite a headline only after the first screen can show its result.
 
