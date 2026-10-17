@@ -48,6 +48,26 @@
         "/services/saas-products/saas-onboarding-design/ (FAQ: onboarding tools)",
         "/blog/saas-onboarding/ (designer vs tool section)"
       ]
+    },
+    {
+      "slug": "saas-homepage-design",
+      "hub": "saas-design-agency",
+      "keyword": "saas homepage design",
+      "date": "2026-10-17",
+      "words": 3792,
+      "images": 6,
+      "internalLinks": 6,
+      "externalLinks": 5,
+      "qaLoops": 1,
+      "factLoops": 2,
+      "semanticScore": 94,
+      "opportunityScore": 133.7,
+      "expectedMonthlyTraffic": 780,
+      "backlinks": [
+        "/services/saas-products/saas-design-agency/ (FAQ: marketing websites)",
+        "/case-studies/digno/ (marketing site line)",
+        "/services/saas-products/ (pillar: what SaaS product design covers)"
+      ]
     }
   ],
   "audits": [],

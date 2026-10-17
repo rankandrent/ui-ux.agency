@@ -19,8 +19,8 @@ takeaways:
   - "Map every homepage claim to a first-session screen in a promise ledger, then rewrite the claim or build the missing path."
   - "Judge the homepage by what its sign-ups do next: sign-up completion, activation rate and time to first value."
 image: /blog/saas-homepage-design/cover.svg
-draft: true
-qa: pending
+draft: false
+qa: pass
 ---
 
 Put your software as a service (SaaS) homepage design to a test that takes 2 minutes. Open your homepage and read only the headline, then sign up in a private window and look at the first screen after the form. Does that screen start the job the headline promised?

@@ -90,3 +90,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-16 (industry pages): When a template field is newly rendered (e.g. challengesIntro), grep the built HTML of every page that uses it for `&lt;` — onpage 100 does not catch escaped tags.
 - 2026-10-16: On industry pages the onpage section-body check never reads cards; count words and sentences per card with a script (90-word / 4-sentence caps).
 - 2026-10-16: Re-run the sister-overlap script after every fix set, not only on the first draft — a reworded definition can raise overlap.
+
+- 2026-10-17 (saas-homepage-design): Sibling-post overlap was only ~0.5%, yet intro credential/roadmap sentences repeated one shape across 4 posts. Rule: `grep -nE "^I'm |200\+ products|The guide below|This guide walks" content/blog/*.md` and FIX a repeated shape.
+- 2026-10-17: The MOFU template CTA renders the case study's `result` ("Overall revenue up 5x") under "See how we did this for Digno". Rule: grep the built post-cta for the case-study result and check it against the brief's do-not-attribute notes; report it as an owner/template note.
+- 2026-10-17: Fact fixes that each pass alone can combine into a 5-sentence paragraph or a lowercase sentence start. Rule: in the combined-fix scratch copy, re-check paragraph sentence counts and capitalisation.

@@ -142,3 +142,10 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 
 - 2026-10-16: Write a new industry page's H2s and FAQ questions side by side with its sibling industry pages; shared shapes ("harder than other SaaS design", "Can UX design make a … compliant") slip past 5-gram checks.
 - 2026-10-16: After an honesty-wording decision, grep the page for every synonym ("review file", "screen file", "annotated") and make them one consistent phrase.
+
+- 2026-10-17 (saas-homepage-design): For any "rule vacated / no replacement" claim, search "<agency> <rule> <current year> rulemaking" before drafting and state the current stage with a source (the FTC opened a new negative-option ANPRM on March 11, 2026).
+- 2026-10-17: When the keyword contains a shorter brief n-gram ("saas homepage"), budget the shorter one (keyword uses + hyponyms + headings) at ≤ 1.3%, and write FAQ headings and captions with "the homepage".
+- 2026-10-17: On standards-heavy briefs (ms, ratios, CSS px, SC numbers) the semantic scorer's unit regex counts few numbers; estimate facts density from the brief's EAV units before drafting and report a likely facts-check miss instead of padding.
+- 2026-10-17: Serial commas appeared 7 times (takeaways, formulas, alt text, captions). Grep `, [a-z ]+, (and|or) ` before handing over.
+- 2026-10-17: Routing summaries (bold answer, takeaway) must not add a criterion the decision tree lacks.
+- 2026-10-17: An H3 that names a case study must show the product side the case study documents, not only the homepage, and must not use the post's own coined term as a claim.

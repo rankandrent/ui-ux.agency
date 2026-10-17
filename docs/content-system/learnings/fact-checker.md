@@ -93,3 +93,10 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-16 (ux-design-san-diego). The RULES honesty line "only office Reston" is about ui-ux.agency; tkxel (parent) has other offices. Scope office sentences to ui-ux.agency and check parent contact pages.
 - 2026-10-16 (ux-design-san-diego). "Use standard X to meet law Y" fails if the law names another version (Section 508 = WCAG 2.0 AA; ADA Title II rule = WCAG 2.1 AA); cite W3C's statement that 2.2 conformance also meets 2.0/2.1.
 - 2026-10-16 (location pages). "None of these clients is in <city>" is unverifiable when case-study files give no client location; write "We do not present any of these clients as <city> clients".
+
+- 2026-10-17 (saas-homepage-design): A sentence naming NN/g's five homepage principles mixed in an exception from the 2001 113-guidelines page and called principle 2 "the first job". Rule: when a sentence names one article from a family of guideline pages, check each clause (exceptions, ordinals like "first"/"only") against that named article.
+- 2026-10-17: The SVG label "ROSCA disclosures before billing" moved the statute's trigger ("before obtaining billing information") to the charge. Rule: for every regulation label in an SVG or panel, compare its timing noun with the statute's trigger word.
+- 2026-10-17: A case-study H3 ("How we handled the handoff for Digno") used the post's coined term and claimed a process the case study never documents. Rule: treat headings over case-study sections as claims and check the case-study file shows that work.
+- 2026-10-17 (loop 2): When QA merges a fact fix into a reworded sentence, re-verify the new wording against the site source; a merge can move a team figure ("200+") onto the author.
+- 2026-10-17: Split QA-added case-study sentences with evaluative verbs ("keeps that promise", "prove") into factual parts (each must match a case-study line) and framing parts (fine only without a result metric).
+- 2026-10-17: federalregister.gov and ftc.gov fail via WebFetch and curl; an "as of" docket claim gets TRUE with the newest coverage date noted plus a publish-day re-check.

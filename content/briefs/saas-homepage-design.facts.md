@@ -89,4 +89,48 @@ Body L186 stays as is. Also update `content/briefs/saas-homepage-design.json` `r
 - Re-check the FTC negative option docket (federalregister.gov, ftc.gov Negative Option Rule page) on publish day. As of 2026-10-17 the latest action is the March 2026 ANPRM.
 - The brief's `removedExternalLinks` note for homepage-design-principles ("tell first-time visitors who you are, what you do and the site's purpose") blended the five-principles article with the Top 10 guidelines. That blend is the source of #3.
 
-VERDICT: FAIL
+Loop 1 result: FAIL (superseded by Loop 2 below)
+
+## Loop 2
+
+- Checked: 2026-10-17 by fact-checker, loop 2. Scope: the text that changed since loop 1 (F1–F8 merges, QA Q1–Q19 per `content/briefs/saas-homepage-design.qa.md`), the decision-tree SVG label and the FTC docket status. Line numbers refer to the current post.
+- Method: WebFetch to federalregister.gov failed again (`getaddrinfo ENOTFOUND`), so the docket was re-checked with two unrestricted extended WebSearches.
+
+### F items in place
+
+| F | Where now | Status |
+|---|---|---|
+| F1 | L36 | In place word for word. |
+| F2 | L121 panel: "with ROSCA disclosures before you collect card details." SVG y=415 "with ROSCA disclosures", y=445 "before card entry" (approved option). SVG `<desc>`/aria text says only "a free trial with card and ROSCA disclosures", with no timing, so it is fine. Brief JSON L225 "before billing details" is still the correct phrase. | In place. |
+| F3 | L159 | In place word for word. |
+| F4 | L161, now its own paragraph (QA merge note) | In place word for word. The paragraph has 2 sentences. |
+| F5 | L163 "a direct path to key tasks." | In place. |
+| F6 | L261 "Google's web.dev guide counts images and video poster images among LCP candidates, so I check the hero image or hero video first." | TRUE. web.dev is Google's, and https://web.dev/articles/lcp lists `<img>` elements and the poster image of `<video>` elements as LCP candidates. Capitalising the sentence start does not change the meaning. |
+| F7 | Merged by QA into L30 (see Q16 below) | TRUE: no personal 200+ claim. |
+| F8 | L190 H3 "How one team designed Digno's website and web app". Brief JSON L321 `where` is updated to the new H3. | In place. No stale record. |
+
+### Changed text
+
+| # | Claim (line) | Verdict | Source |
+|---|---|---|---|
+| L2-1 | Q16 L30: "Communication design is my job at ui-ux.agency, tkxel's design team, whose designers have worked on 200+ digital products since 2017." | TRUE | home.ts L202 role "Sr. Communication Designer"; about.md L9 "Our designers have worked on more than 200 digital products since 2017." The 200+ figure belongs to the team (the "whose designers" clause), not to the author. |
+| L2-2 | Q17 L30: the roadmap sentence (promise, section order, CTA choice, handoff with the promise ledger, tests) | TRUE | It is structure only, and it matches the H2/H3 order in the post. Nothing in it can be checked externally. |
+| L2-3 | Q3 L38: "In an Ask Me Anything (AMA) session hosted by Pocus, Ramli John…" | TRUE | Same source as #5 (pocus.com/blog/product-led-sales-pls-ama-ramli-john, a Pocus-hosted AMA). |
+| L2-4 | Q4 L109 bold answer and Q5 takeaway L18: trial/freemium when users reach value alone, demo when setup needs a person, both when a separate buyer signs | TRUE (internal consistency) | Matches all 5 leaves of the decision-tree panel L119–123 and the SVG. It has no price-based routing, and the "both" branch has a condition. |
+| L2-5 | Q6 L82 panel intro: NN/g 2018 split, 57% first screenful, 74% first two | TRUE | Same as #1. |
+| L2-6 | Q14 L103 / Q15 L316: keyword sentences ("I prefer a real product UI…"; "that part of SaaS homepage design decides whether homepage visitors reach a first result") | TRUE (author opinion) | Both are first-person judgment, with no figure and no attribution. |
+| L2-7 | Q18 L194 s1: "The product keeps that scoring promise on its main screens." | TRUE (grounded) | digno.md L75–79 (score computed at organization, department and individual level) and L83 (org dashboard). The homepage promise is "Employee Scoring made Easy" (L93), and the scoring screens are the case study's core experiences. |
+| L2-8 | Q18 L194 s2: "The organization dashboard puts the company health score and a leaderboard on one screen" | TRUE | digno.md L83 "The organization dashboard puts the health score, leaderboard, department charts, employees and departments on one screen."; L77 "a single health score for the company". The post names a subset of the listed items, which does not change the meaning. |
+| L2-9 | Q18 L194 s2: "each employee gets a My Digno Score page that explains the factors behind the number" | TRUE | digno.md L63 "Every employee has a personal Digno score page that explains the factors behind the number"; the L65 image alt and title read "My Digno Score page". |
+| L2-10 | Q18 L194 s3: "Name the product screen that proves your own headline, the way the score pages prove Digno's." | TRUE (author framing) | It is an instruction to the reader. "Prove" here means the screens show the scoring the headline names (L2-7 to L2-9). It attributes no Digno result (5x, 126%, 13:1, 50%) to the homepage. |
+| L2-11 | Q19 L296: "A senior designer replies within one business day, ET." | TRUE | about.md L38 "A senior designer replies within one business day." (word for word). "ET" follows the RULES.md US-market rule, with the same precedent as loop 1 #33. |
+| L2-12 | L133: no NPRM or final FTC negative-option rule since the March 11, 2026 ANPRM | TRUE (as of 2026-10-17) | Extended searches on 2026-10-17 found only the ANPRM coverage: https://www.ftc.gov/business-guidance/blog/2026/03/do-you-have-thoughts-negative-option-related-regulations-share-them-ftc ; https://www.cooley.com/news/insight/2026/2026-03-19-ftc-issues-new-advance-notice-of-proposed-rulemaking-on-negative-option-marketing ; https://www.cov.com/en/news-and-insights/insights/2026/03/ftc-launches-new-rulemaking-on-the-negative-option-rule ; https://advocacy.sba.gov/2026/03/17/ftc-seeks-public-feedback-on-negative-option-plans/ . None reports an NPRM or final rule. Limit: the newest indexed coverage dates from spring 2026 and federalregister.gov did not resolve. Re-check the docket on publish day. |
+
+### Honesty checks (loop 2)
+- The new Digno paragraph uses only facts stated in digno.md, and no Digno metric appears in the body.
+- The intro credential gives the 200+ figure to the team, not to the author. No new clients, prices, offices or certifications.
+
+### Fixes required (loop 2)
+None.
+
+VERDICT: PASS
