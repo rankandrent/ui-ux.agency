@@ -197,7 +197,7 @@ Table: UI fidelity ladder for a first version
 | Clickable gray-box | Whether users finish the core flow. | 5 target users. | Medium. |
 | High-fidelity prototype | Trust, clarity and the pitch. | Test users and investors. | Highest. |
 
-The top rung carries two badges, text contrast of at least 4.5:1 and targets of at least 24 by 24 CSS px, because the finished screens must pass both; set the color tokens and tap sizes from the first draft.
+From the clickable gray-box rung up, a band carries two badges: text contrast ≥ 4.5:1 (at least 4.5:1) and targets ≥ 24×24 CSS px (at least 24 by 24). Set the color tokens and tap sizes from the first draft.
 
 </details>
 

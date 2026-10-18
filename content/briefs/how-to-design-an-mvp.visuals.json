@@ -8,7 +8,7 @@
     "markdown": "![Vertical decision tree routing the riskiest assumption to one of five MVP types](/blog/how-to-design-an-mvp/mvp-type-decision-tree.svg \"MVP type decision tree: the riskiest assumption picks smoke test, concierge, Wizard of Oz, clickable prototype or single-feature product\")"
   },
   {
-    "marker": "<!-- visual: mvp-feature-cut-board.svg. Sticky-note cut board in three columns (Must / Later / Never) for the hypothetical groomer app, each note carrying a one-line reason; the Must column visibly short with 4 notes. Alt: Cut board sorting a dog groomer booking app's feature list into must-have, later and never with a reason on each note. Caption: Feature cut board for a hypothetical groomer app: must-have, later and never, each with its reason. -->",
+    "marker": "<!-- visual: mvp-feature-cut-board.svg. Sticky-note cut board in three lane rows (Must / Later / Never) for the hypothetical groomer app, each note carrying a one-line reason; the Must row on top with 4 notes. Alt: Cut board sorting a dog groomer booking app's feature list into must-have, later and never with a reason on each note. Caption: Feature cut board for a hypothetical groomer app: must-have, later and never, each with its reason. -->",
     "markdown": "![Cut board sorting a dog groomer booking app's feature list into must-have, later and never with a reason on each note](/blog/how-to-design-an-mvp/mvp-feature-cut-board.svg \"Feature cut board for a hypothetical groomer app: must-have, later and never, each with its reason\")"
   },
   {
@@ -16,7 +16,7 @@
     "markdown": "![Storyboard of a 5-screen booking flow with empty, loading, error and success states under each screen](/blog/how-to-design-an-mvp/mvp-core-flow-states.svg \"Core user flow storyboard for a hypothetical groomer app, with four states under each screen\")"
   },
   {
-    "marker": "<!-- visual: mvp-ui-fidelity-ladder.svg. Fidelity ladder with four rising steps (sketch, low-fidelity wireframe, clickable gray-box, high-fidelity prototype); each step shows what it tests, who sees it and its relative effort. Text contrast ≥ 4.5:1 and 24 by 24 px target badges on the top step. Alt: Fidelity ladder from sketch to high-fidelity prototype, with what each rung tests and who sees it. Caption: UI fidelity ladder: what each rung tests and who sees it, from sketch to high-fidelity prototype. -->",
+    "marker": "<!-- visual: mvp-ui-fidelity-ladder.svg. Fidelity ladder with four rising steps (sketch, low-fidelity wireframe, clickable gray-box, high-fidelity prototype); each step shows what it tests, who sees it and its relative effort. A band spanning the clickable gray-box and high-fidelity rungs carries the \"Text contrast ≥ 4.5:1\" and \"Targets ≥ 24×24 CSS px\" badges. Alt: Fidelity ladder from sketch to high-fidelity prototype, with what each rung tests and who sees it. Caption: UI fidelity ladder: what each rung tests and who sees it, from sketch to high-fidelity prototype. -->",
     "markdown": "![Fidelity ladder from sketch to high-fidelity prototype, with what each rung tests and who sees it](/blog/how-to-design-an-mvp/mvp-ui-fidelity-ladder.svg \"UI fidelity ladder: what each rung tests and who sees it, from sketch to high-fidelity prototype\")"
   },
   {
