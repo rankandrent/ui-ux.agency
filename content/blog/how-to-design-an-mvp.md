@@ -110,7 +110,7 @@ Whatever the type, the scope has to shrink to one flow.
 
 ## How do you cut an MVP down to one core flow?
 
-**Keep only the features the core flow needs to test your riskiest assumption, and write down why every other idea moves to later or never.**
+**To design an MVP around one flow, keep only the features the core flow needs to test your riskiest assumption, and write down why every other idea moves to later or never.**
 
 When founders ask me how to design an MVP quickly, my answer is to cut harder, not to draw faster. The best-known feature prioritization tool is the MoSCoW method, which sorts requirements into Must have, Should have, Could have and Won't have (this time); when time runs short, the two middle categories go first.<!-- source: https://airfocus.com/glossary/what-is-moscow-prioritization/ -->
 
@@ -154,7 +154,7 @@ With the cut done, draw the flow.
 
 ## How do you map the core user flow and wireframe it?
 
-**Map the core user flow from the first screen to the first result, then sketch each step as a low-fidelity wireframe with its empty, loading, error and success states.**
+**When you design an MVP, map the core user flow from the first screen to the first result, then sketch each step as a low-fidelity wireframe with its empty, loading, error and success states.**
 
 MVP UX design decides how the flow works; the user interface (UI) comes later. I map the steps before any screen: entry point, sign-up only if the test needs it, setup, the core action and the first result. Each step needs a reason from the brief, and the groomer app needs 5 steps.
 
@@ -268,7 +268,7 @@ Working out how to design an MVP alone is possible; here is where founders usual
 
 ## When does designing an MVP need a design team?
 
-**Designing an MVP needs a design team when tests fail for reasons you can't see, investors expect a credible prototype by a date or the product serves several user types.**
+**You need a design team to design an MVP when tests fail for reasons you can't see, investors expect a credible prototype by a date or the product serves several user types.**
 
 - **Two change verdicts in a row:** the scorecard shows where users fail, not why, and a designer who did not draw the flow reads the sessions without your assumptions.
 - **A pre-seed round date:** investors judge the prototype and the test results together, so both need to be ready on the same day.
