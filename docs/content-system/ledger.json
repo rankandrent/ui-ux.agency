@@ -126,6 +126,26 @@
           "format": "complete guide"
         }
       ]
+    },
+    {
+      "date": "2026-10-18",
+      "goal": "daily post: highest-scoring relevant topic",
+      "jobs": [
+        {
+          "hub": "mvp-design-agency",
+          "keyword": "design mvp",
+          "score": 80.3,
+          "format": "complete guide"
+        }
+      ],
+      "skipped": [
+        "hubs with a post in the last 3 days: saas-onboarding-design, saas-design-agency, ai-product-discovery-workshop",
+        "cost of a website design, medical website design cost (website-only design)",
+        "ai/ml use cases in telecom, ai business use cases (off-audience)",
+        "saas website design, saas web design (covered by saas-homepage-design)",
+        "ai product generator (tool roundup)",
+        "ai product design (owned by the AI products pillar)"
+      ]
     }
   ]
 }
