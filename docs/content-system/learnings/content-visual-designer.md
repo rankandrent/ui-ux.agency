@@ -96,3 +96,9 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-17: When one cell is much longer than the rest, give it a full-width line under its row and let a script choose the other column widths (ledger went from 8 to 7 body lines).
 - 2026-10-17: Use number badges only for real sequences, and test the bottom edge after any cross-column alignment.
 - 2026-10-17: The text panel must contain every label the SVG shows, including side bands and source lines (the 57%/74% band was missing from the panel).
+
+- 2026-10-18 (how-to-design-an-mvp): For sticky-note boards with uneven lane counts, run lanes as rows so the fullest lane gets the narrowest notes (3 lanes × 9 notes needed ~560px as columns, fit as rows).
+- 2026-10-18: Measure decision-tree leaf descriptions at full width before deciding a tree can't carry its panel text (trunk-and-branch rows fit 5 one-line descriptions).
+- 2026-10-18: A 4-state × 5-screen storyboard can carry state names and pictures only; tell the writer up front to keep per-state sentences out of the panel or accept a panel split.
+- 2026-10-18: Never copy British spellings ("grey-box") from a panel into an SVG; flag them so the writer fixes the panel and the generator is rerun.
+- 2026-10-18 (how-to-design-an-mvp): When a label applies from step N onward, draw one band spanning steps N to the end, not a badge on the last step, and flag any panel sentence that still names the old placement.

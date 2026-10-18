@@ -68,6 +68,25 @@
         "/case-studies/digno/ (marketing site line)",
         "/services/saas-products/ (pillar: what SaaS product design covers)"
       ]
+    },
+    {
+      "slug": "how-to-design-an-mvp",
+      "hub": "mvp-design-agency",
+      "keyword": "how to design an mvp",
+      "date": "2026-10-18",
+      "words": 3671,
+      "images": 6,
+      "internalLinks": 7,
+      "externalLinks": 5,
+      "qaLoops": 1,
+      "factLoops": 2,
+      "semanticScore": 94,
+      "opportunityScore": 80.3,
+      "backlinks": [
+        "/services/startups/mvp-design-agency/ (what an MVP design agency does)",
+        "/services/startups/ (pillar FAQ: design sprint or MVP design)",
+        "/case-studies/vocable/ (scope line)"
+      ]
     }
   ],
   "audits": [],
@@ -125,6 +144,26 @@
           "score": 133.7,
           "format": "complete guide"
         }
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "goal": "daily post: highest-scoring relevant topic",
+      "jobs": [
+        {
+          "hub": "mvp-design-agency",
+          "keyword": "design mvp",
+          "score": 80.3,
+          "format": "complete guide"
+        }
+      ],
+      "skipped": [
+        "hubs with a post in the last 3 days: saas-onboarding-design, saas-design-agency, ai-product-discovery-workshop",
+        "cost of a website design, medical website design cost (website-only design)",
+        "ai/ml use cases in telecom, ai business use cases (off-audience)",
+        "saas website design, saas web design (covered by saas-homepage-design)",
+        "ai product generator (tool roundup)",
+        "ai product design (owned by the AI products pillar)"
       ]
     }
   ]

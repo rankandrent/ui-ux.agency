@@ -14,6 +14,13 @@ import { articleLd, faqLd, pageMetadata } from "@/lib/seo";
 import { absoluteUrl, cap, routes } from "@/lib/site";
 import type { Faq } from "@/lib/types";
 
+/** "a" or "an" by sound: acronyms by letter name (an MVP, a UX), words by first vowel */
+const article = (phrase: string) => {
+  const w = phrase.trim().split(/\s+/)[0] ?? "";
+  if (/^[A-Z]{2,}$/.test(w)) return "AEFHILMNORSX".includes(w[0]) ? "an" : "a";
+  return /^[aeio]/i.test(w) ? "an" : "a";
+};
+
 type Props = { params: Promise<{ slug: string }> };
 
 export const dynamicParams = false;
@@ -268,7 +275,7 @@ export default async function PostPage({ params }: Props) {
       </section>
 
       <CtaBand
-        heading={hub ? `Talk to a ${anchorOf(hub)} lead` : home.ctaBand.heading}
+        heading={hub ? `Talk to ${article(anchorOf(hub))} ${anchorOf(hub)} lead` : home.ctaBand.heading}
         body={hub ? "Tell us about your product. A senior designer replies within one business day with next steps and a scoped estimate." : home.ctaBand.body}
         cta="Book a free consultation"
       />

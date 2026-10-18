@@ -40,7 +40,7 @@ Vocable had to automate the busywork so writers could get back to stories that m
 
 ## How we designed the product
 
-We built Vocable for people first and let AI take the tedious parts, from audits to first drafts. As an [MVP design agency](/services/startups/mvp-design-agency/), we kept the scope tight around the jobs writers named most often.
+We built Vocable for people first and let AI take the tedious parts, from audits to first drafts. As an [MVP design agency](/services/startups/mvp-design-agency/), we kept the scope tight around the jobs writers named most often. Our guide shows how to [cut a first version down to its core jobs](/blog/how-to-design-an-mvp/#how-do-you-cut-an-mvp-down-to-one-core-flow).
 
 ### Switch AI models inside the editor
 

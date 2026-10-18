@@ -53,3 +53,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-17 (saas-homepage-design): The writer's first hub marker landed at about word 330 because the intro ran ~145 words before H2 1. Rule: when the intro has a self-introduction paragraph, put the hub link there with the hub anchor.
 - 2026-10-17: The writer swapped the brief's Ramli John source for a Pocus AMA whose snippet did not support "usually during acquisition". Rule: when a source is swapped, check frequency words ("usually", "most") against the new source and cut unsupported ones.
 - 2026-10-17: For regulatory status claims, search the regulator's own domain first and cite the primary notice instead of a law firm's summary.
+
+- 2026-10-18 (how-to-design-an-mvp): When cutting one of two hub fragments that share a sentence, keep the cost link and fold the dropped topic into that sentence as a plain mention, so no sentence points at an unclickable page.
+- 2026-10-18: Check backlink suggestion text with the same honesty rules as body text (cut "for every founder"-style generalizations) and add the post's section jump when the matching topic sits in a later H2.
+- 2026-10-18: For any standard, run a search restricted to the standards body's domain before accepting a secondary source, and cite the primary page.

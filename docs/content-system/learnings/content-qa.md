@@ -94,3 +94,6 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-17 (saas-homepage-design): Sibling-post overlap was only ~0.5%, yet intro credential/roadmap sentences repeated one shape across 4 posts. Rule: `grep -nE "^I'm |200\+ products|The guide below|This guide walks" content/blog/*.md` and FIX a repeated shape.
 - 2026-10-17: The MOFU template CTA renders the case study's `result` ("Overall revenue up 5x") under "See how we did this for Digno". Rule: grep the built post-cta for the case-study result and check it against the brief's do-not-attribute notes; report it as an owner/template note.
 - 2026-10-17: Fact fixes that each pass alone can combine into a 5-sentence paragraph or a lowercase sentence start. Rule: in the combined-fix scratch copy, re-check paragraph sentence counts and capitalisation.
+
+- 2026-10-18 (how-to-design-an-mvp): A fact-check fix can bring back a shape QA was told to remove (intro credential shape, extra hub-phrase uses). Rule: run the intro-shape grep and hub-phrase count on the combined QA + fact-check copy.
+- 2026-10-18: 5-gram scores under 0.6% hid a WCAG/ADA sentence copied word for word in 2 other posts. Rule: also list shared 8-grams or longer and fix any full sentence reused across posts.

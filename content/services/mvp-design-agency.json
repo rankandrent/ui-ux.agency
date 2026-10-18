@@ -27,7 +27,7 @@
       "h2": "What does an MVP design agency do?",
       "format": "paragraph",
       "answer": "<strong>An MVP design agency decides what goes into the first version of a product, designs it and tests it with real users before any code is written.</strong> The main deliverable is a clickable prototype that looks and feels like the finished app.",
-      "body": "<p>Most first products fail because they solve the wrong problem or bury the right one under too many features. MVP design starts with the single job the product does better than anything else, then cuts every screen that does not serve it. The prototype is clickable in a browser or on a phone, so founders show it to users and investors the same week. After launch, growing products move on to our <a href=\"/services/startups/product-design-agency/\">product design agency</a> team.</p>",
+      "body": "<p>Most first products fail because they solve the wrong problem or bury the right one under too many features. MVP design starts with the single job the product does better than anything else, then cuts every screen that does not serve it. Founders who want to try it first can follow our guide on <a href=\"/blog/how-to-design-an-mvp/\">how to design an MVP</a>. The prototype is clickable in a browser or on a phone, so founders show it to users and investors the same week. After launch, growing products move on to our <a href=\"/services/startups/product-design-agency/\">product design agency</a> team.</p>",
       "image": {
         "src": "/images/services/mvp-design-agency.svg",
         "alt": "Funnel showing a long feature wishlist narrowed to one core user flow of four screens, then a clickable prototype on a phone",

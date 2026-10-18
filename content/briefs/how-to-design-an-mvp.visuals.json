@@ -1,0 +1,31 @@
+[
+  {
+    "marker": "<!-- visual: mvp-one-page-brief.svg. A punched index card with a torn edge and 8 labeled fields (target user, problem in their words, riskiest assumption, MVP type, core flow, must-haves, pass threshold, go / change / stop action), filled in with handwriting-style text for the hypothetical Austin dog groomer booking app. Label it \"Illustrative example\". Alt: One-page MVP brief card with 8 fields filled in for a hypothetical dog groomer booking app. Caption: The one-page MVP brief, filled in for a hypothetical dog groomer booking app. -->",
+    "markdown": "![One-page MVP brief card with 8 fields filled in for a hypothetical dog groomer booking app](/blog/how-to-design-an-mvp/mvp-one-page-brief.svg \"The one-page MVP brief, filled in for a hypothetical dog groomer booking app\")"
+  },
+  {
+    "marker": "<!-- visual: mvp-type-decision-tree.svg. Vertical decision tree. Top node: \"What would sink the idea if you were wrong?\" Five branches down to endpoints drawn as small artifact icons (landing page, person with a tray, curtain, phone with taps, repeat arrow): \"Will anyone want it?\" to landing page smoke test; \"Will they pay for the outcome?\" to concierge MVP; \"Can the experience work before the tech exists?\" to Wizard of Oz MVP; \"Can users complete the core flow?\" to clickable prototype; \"Will they come back?\" to single-feature product. Alt: Vertical decision tree routing the riskiest assumption to one of five MVP types. Caption: MVP type decision tree: the riskiest assumption picks smoke test, concierge, Wizard of Oz, clickable prototype or single-feature product. -->",
+    "markdown": "![Vertical decision tree routing the riskiest assumption to one of five MVP types](/blog/how-to-design-an-mvp/mvp-type-decision-tree.svg \"MVP type decision tree: the riskiest assumption picks smoke test, concierge, Wizard of Oz, clickable prototype or single-feature product\")"
+  },
+  {
+    "marker": "<!-- visual: mvp-feature-cut-board.svg. Sticky-note cut board in three lane rows (Must / Later / Never) for the hypothetical groomer app, each note carrying a one-line reason; the Must row on top with 4 notes. Alt: Cut board sorting a dog groomer booking app's feature list into must-have, later and never with a reason on each note. Caption: Feature cut board for a hypothetical groomer app: must-have, later and never, each with its reason. -->",
+    "markdown": "![Cut board sorting a dog groomer booking app's feature list into must-have, later and never with a reason on each note](/blog/how-to-design-an-mvp/mvp-feature-cut-board.svg \"Feature cut board for a hypothetical groomer app: must-have, later and never, each with its reason\")"
+  },
+  {
+    "marker": "<!-- visual: mvp-core-flow-states.svg. Flow storyboard: 5 gray-box phone frames left to right from the groomer's link to the booking summary, with a row of 4 tiny state thumbnails under each (empty, loading, error, success), labeled as a hypothetical example. Alt: Storyboard of a 5-screen booking flow with empty, loading, error and success states under each screen. Caption: Core user flow storyboard for a hypothetical groomer app, with four states under each screen. -->",
+    "markdown": "![Storyboard of a 5-screen booking flow with empty, loading, error and success states under each screen](/blog/how-to-design-an-mvp/mvp-core-flow-states.svg \"Core user flow storyboard for a hypothetical groomer app, with four states under each screen\")"
+  },
+  {
+    "marker": "<!-- visual: mvp-ui-fidelity-ladder.svg. Fidelity ladder with four rising steps (sketch, low-fidelity wireframe, clickable gray-box, high-fidelity prototype); each step shows what it tests, who sees it and its relative effort. A band spanning the clickable gray-box and high-fidelity rungs carries the \"Text contrast ≥ 4.5:1\" and \"Targets ≥ 24×24 CSS px\" badges. Alt: Fidelity ladder from sketch to high-fidelity prototype, with what each rung tests and who sees it. Caption: UI fidelity ladder: what each rung tests and who sees it, from sketch to high-fidelity prototype. -->",
+    "markdown": "![Fidelity ladder from sketch to high-fidelity prototype, with what each rung tests and who sees it](/blog/how-to-design-an-mvp/mvp-ui-fidelity-ladder.svg \"UI fidelity ladder: what each rung tests and who sees it, from sketch to high-fidelity prototype\")"
+  },
+  {
+    "marker": "<!-- visual: mvp-usability-test-scorecard.svg. Clipboard scorecard with 4 task rows and columns task | success measure | threshold | result (5 dots per row, one per participant) | verdict stamp (go / change / stop). Illustrative data for the hypothetical groomer app, labeled \"Example\". Alt: Usability test scorecard with 4 tasks, thresholds, results from 5 participants and a go or change verdict per task. Caption: Usability test scorecard for a hypothetical groomer app: thresholds set before the sessions, verdict per task. -->",
+    "markdown": "![Usability test scorecard with 4 tasks, thresholds, results from 5 participants and a go or change verdict per task](/blog/how-to-design-an-mvp/mvp-usability-test-scorecard.svg \"Usability test scorecard for a hypothetical groomer app: thresholds set before the sessions, verdict per task\")"
+  },
+  {
+    "frontmatter": {
+      "image": "/blog/how-to-design-an-mvp/cover.svg"
+    }
+  }
+]

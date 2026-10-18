@@ -438,6 +438,42 @@
       "visuals": 6,
       "example": "hypothetical AI meeting-notes app ledger; invoicing tool for plumbing contractors headline rewrite",
       "date": "2026-10-17"
+    },
+    {
+      "slug": "how-to-design-an-mvp",
+      "hub": "mvp-design-agency",
+      "type": "Guide",
+      "funnel": "mofu",
+      "introStyle": "Eric Ries quote opener",
+      "h2Frames": [
+        "definition",
+        "decide before design (one-page brief)",
+        "MVP type by riskiest assumption",
+        "cut to one core flow",
+        "map flow + wireframe with states",
+        "UI polish level",
+        "5-user prototype test with thresholds",
+        "developer handoff",
+        "when to hire a team",
+        "bottom line",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "What does it mean to design an MVP?",
+        "What should you decide before you design an MVP?",
+        "Which type of MVP should you design first?",
+        "How do you cut an MVP down to one core flow?",
+        "How do you map the core user flow and wireframe it?",
+        "How polished should MVP UI design be?",
+        "How do you test your MVP prototype with 5 users before code?",
+        "What should developers get when the design is done?",
+        "When does designing an MVP need a design team?",
+        "Bottom line",
+        "FAQs"
+      ],
+      "visuals": 6,
+      "example": "hypothetical dog groomer booking app in Austin, Texas",
+      "date": "2026-10-18"
     }
   ]
 }
