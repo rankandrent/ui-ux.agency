@@ -16,8 +16,8 @@ takeaways:
   - "Fill in a one-page brief before any screen: target user, problem, riskiest assumption, type, core flow, must-haves, pass threshold and the go, change or stop action."
   - "The riskiest assumption picks the type: smoke test, concierge, Wizard of Oz, clickable prototype or single-feature product."
   - "Sort every idea into must-have, later or never with a written reason, so the first version serves one core user flow."
-  - "Draw every screen in the flow with its empty, loading, error and success states, and meet WCAG 2.2 AA contrast (4.5:1) and target size from the first draft."
-  - "Test the clickable prototype with 5 target users against thresholds you set beforehand; NN/g's model estimates 5 users find about 85% of usability problems."
+  - "Draw every screen in the flow with its empty, loading, error and success states, and meet Web Content Accessibility Guidelines (WCAG) 2.2 AA contrast (4.5:1) and target size from the first draft."
+  - "Test the clickable prototype with 5 target users against thresholds you set beforehand; Nielsen Norman Group's model estimates 5 users find about 85% of usability problems."
 image: /blog/how-to-design-an-mvp/cover.svg
 draft: true
 qa: pending
@@ -25,9 +25,7 @@ qa: pending
 
 Eric Ries, author of The Lean Startup, says that despite its name the minimum viable product (MVP) ["is not about creating minimal products,"](https://leanstartup.co/resources/articles/what-is-an-mvp/) and that line is where learning how to design an MVP starts. Designing a first version means choosing the one assumption it tests, the user it serves and the single flow it needs, then drawing and testing that flow before code.
 
-I lead user experience (UX) at ui-ux.agency, the design team of tkxel in Reston, Virginia, where our [MVP design agency](/services/startups/mvp-design-agency/) team turns founders' ideas into prototypes tested with real users. The misreading I watch for most is a founder designing a small product when what they need is a small test.
-
-This guide follows the order I work in: a one-page brief, the type of MVP, the cut, the flow and its states, the visual bar, a 5-user test and the file developers build from.
+The misreading I watch for most is a founder designing a small product when what they need is a small test. I work as Senior Manager, User Experience (UX), at ui-ux.agency in Reston, Virginia, where our [MVP design agency](/services/startups/mvp-design-agency/) team turns founders' ideas into prototypes tested with real users.
 
 ## What does it mean to design an MVP?
 
@@ -39,17 +37,15 @@ So when I explain how to design an MVP, I describe minimum viable product design
 
 Design decides what the first version is and proves it on a clickable prototype; development builds what passed. I keep that order because a prototype change costs a designer an afternoon, while the same change in shipped code reopens finished work.
 
-That order is how our team works: a clickable prototype tested with real users comes before anyone writes code.
-
 Before any screen, though, one page of decisions.
 
 ## What should you decide before you design an MVP?
 
-**Before you open a design tool, decide who the first user is, their problem in their words, the assumption that would sink the idea and the result that counts as a pass.**
+**Before you open a design tool, name the first user, their problem in their words, the assumption that would sink the idea and the result that counts as a pass.**
 
-Skipping these decisions is how teams build for a need nobody has. In CB Insights' analysis of 101 startup post-mortems, no market need topped the list at 42%, as Startup News reported in 2018. A later CB Insights edition covering 111 post-mortems put no market need at 35%, second to running out of cash at 38%, [as SmartCompany reported](https://www.smartcompany.com.au/startupsmart/analysis/startups-fail-founders-capital/). Both are founders' own explanations, yet the lesson holds: market need gets tested before design, not after launch.
+Skipping these decisions is how teams build for a need nobody has. In CB Insights' analysis of 101 startup post-mortems, no market need topped the list at 42%, as Startup News reported in 2018. A later CB Insights edition covering 111 post-mortems put no market need at 35%, second to running out of cash or failing to raise capital at 38%, [as SmartCompany reported](https://www.smartcompany.com.au/startupsmart/analysis/startups-fail-founders-capital/). Both are founders' own explanations, yet the lesson holds: market need gets tested before design, not after launch.
 
-In Y Combinator's Startup Library video on how to build an MVP, group partner Michael Seibel explains the first version, and his YC advice is to narrow it to a few early users and their most pressing problems. The feature set comes out of talking to users, not the other way around.
+In Y Combinator's Startup Library video on how to build an MVP, group partner Michael Seibel walks through determining an MVP feature set, building prototypes and demos for user testing and presenting the MVP to early customers or investors. I build the feature set from what users say in interviews, not from the founder's wishlist.
 
 Founders who design MVP screens before they name the riskiest assumption usually end up redrawing them. So I put the decisions on one card, the one-page MVP brief, and fill it in before any screen exists. Here it is for a hypothetical booking app for independent dog groomers in Austin, Texas.
 
@@ -57,7 +53,7 @@ Founders who design MVP screens before they name the riskiest assumption usually
 
 <details class="astext"><summary>Show as text</summary>
 
-This table lists the 8 fields of the one-page brief with illustrative values for the hypothetical groomer app.
+This illustrative example lists the 8 fields of the one-page brief with values for the hypothetical groomer app.
 
 Table: One-page MVP brief for a hypothetical dog groomer booking app
 
@@ -80,7 +76,7 @@ The riskiest assumption also tells you what kind of MVP to design.
 
 ## Which type of MVP should you design first?
 
-**The riskiest assumption picks the MVP type: demand needs a smoke test, payment a concierge MVP, unbuilt tech a Wizard of Oz MVP, the flow a clickable prototype and repeat use a single-feature product.**
+**The riskiest assumption picks the MVP type: smoke test for demand, concierge for payment, Wizard of Oz for unbuilt tech, clickable prototype for usability and single-feature product for repeat use.**
 
 Each type answers one question and asks something different of design: copy and one form, a service script, a front end that looks real, a full flow with states or one working feature.
 
@@ -110,7 +106,7 @@ Whatever the type, the scope has to shrink to one flow.
 
 ## How do you cut an MVP down to one core flow?
 
-**To design an MVP around one flow, keep only the features the core flow needs to test your riskiest assumption, and write down why every other idea moves to later or never.**
+**To design an MVP around one core flow, keep the features that flow needs to test your riskiest assumption and log why every other idea moves to later or never.**
 
 When founders ask me how to design an MVP quickly, my answer is to cut harder, not to draw faster. A common feature prioritization tool is the MoSCoW method, which sorts requirements into Must have, Should have, Could have and Won't have. The airfocus glossary notes that teams often use it to define an MVP that holds only the must-haves.
 
@@ -138,7 +134,7 @@ Table: Feature cut for a hypothetical dog groomer booking app
 
 </details>
 
-Four must-have features stay; everything else moves to later or never. My rule of thumb: the core flow from entry to first result fits on one storyboard. In one example we use with founders, a 40-idea wishlist shrinks to 4 screens and 1 core flow; that is an illustration, not a quota.
+Four must-have features stay; everything else moves to later or never. My rule of thumb: the core flow from entry to first result fits on one storyboard. Our MVP service page shows the cut as a 40-idea wishlist that shrinks to 4 screens and 1 core flow; that is an illustration, not a quota.
 
 Five ideas creep back most often:
 
@@ -146,7 +142,7 @@ Five ideas creep back most often:
 - **Admin panels:** the first test runs with one user type, so the admin side can wait.
 - **Notifications:** they prove retention, which a clickable prototype cannot test.
 - **"Just one more" integration:** each adds edge cases to design before the core flow is proven.
-- **Several user types in version one:** each role needs its own flow, and user types move the price more than anything else.
+- **Several user types in version one:** each role needs its own flow, and our MVP service page names user types and platforms as the biggest drivers of price.
 
 When we designed [Vocable](/case-studies/vocable/), an AI content marketing platform, we kept the scope tight around the jobs writers named most often and tied each screen to a pain point from stakeholder interviews. Sort your own list into the three lanes and count what is left in must-have.
 
@@ -154,11 +150,11 @@ With the cut done, draw the flow.
 
 ## How do you map the core user flow and wireframe it?
 
-**When you design an MVP, map the core user flow from the first screen to the first result, then sketch each step as a low-fidelity wireframe with its empty, loading, error and success states.**
+**When you design an MVP, map the core user flow from first screen to first result, then wireframe each step in low fidelity with empty, loading, error and success states.**
 
 MVP UX design decides how the flow works; the user interface (UI) comes later. I map the steps before any screen: entry point, sign-up only if the test needs it, setup, the core action and the first result. Each step needs a reason from the brief, and the groomer app needs 5 steps.
 
-Then I draw low-fidelity wireframes: grey boxes, real words, no color. The Usability Body of Knowledge's entry on rapid prototyping treats paper prototypes as a way to evaluate many ideas quickly at very little cost, so a team covers more screens and changes them cheaply. I draw one wireframe for every step of the user flow, and on our projects the gray-box flow goes to users before any visual design.
+Then I draw low-fidelity wireframes: gray boxes, real words, no color. The Usability Body of Knowledge describes rapid prototyping as creating low-cost representations of the interface to brainstorm, test and communicate ideas, and notes that pencil-and-paper prototypes can be changed quickly as the design changes. That is why I cover more screens at this stage and change them cheaply. I draw one wireframe for every step of the user flow, and on our projects the gray-box flow goes to users before any visual design.
 
 Every screen in the flow gets four states. A first session starts with no data, so each empty state should lead straight to the first result. An error state says what went wrong and how to recover, and no onboarding screen goes in unless the test needs one.
 
@@ -166,7 +162,7 @@ Every screen in the flow gets four states. A first session starts with no data, 
 
 <details class="astext"><summary>Show as text</summary>
 
-The hypothetical groomer app's 5 screens and their states:
+This hypothetical example shows the groomer app's 5 screens and their states:
 
 1. **Groomer's page (entry).** Empty: no open slots this week, with a waitlist option. Loading: service list placeholder. Error: page not found, with the groomer's phone number. Success: services listed.
 2. **Service and dog size.** Empty: no size picked yet. Loading: price updating. Error: size not offered. Success: price and length shown.
@@ -178,13 +174,13 @@ The hypothetical groomer app's 5 screens and their states:
 
 Pick the platform where your first user does the job. Dog owners book from their phones, so the groomer app starts as a mobile web app MVP. Draw your flow as a row of boxes and list the four states under each before you add any color.
 
-Grey boxes prove the flow; then decide how finished the screens must look.
+Gray boxes prove the flow; then decide how finished the screens must look.
 
 ## How polished should MVP UI design be?
 
 **MVP UI design should look finished enough that users judge the idea, not the rough edges: a light brand style, consistent components, real copy and an accessible baseline.**
 
-Ries's warning about minimal products applies to quality too. Viable means usable and credible: early adopters forgive a missing feature, but a flow that breaks halfway ends the session.
+Ries's warning about minimal products applies to quality too. Viable means usable and credible: early adopters forgive a missing feature, but a flow that breaks halfway ends the session. Each rung of finish answers a different question for a different audience.
 
 ![Fidelity ladder from sketch to high-fidelity prototype, with what each rung tests and who sees it](/blog/how-to-design-an-mvp/mvp-ui-fidelity-ladder.svg "UI fidelity ladder: what each rung tests and who sees it, from sketch to high-fidelity prototype")
 
@@ -201,13 +197,17 @@ Table: UI fidelity ladder for a first version
 | Clickable gray-box | Whether users finish the core flow. | 5 target users. | Medium. |
 | High-fidelity prototype | Trust, clarity and the pitch. | Test users and investors. | Highest. |
 
+The top rung carries two badges, text contrast of at least 4.5:1 and targets of at least 24 by 24 CSS px, because the finished screens must pass both; set the color tokens and tap sizes from the first draft.
+
 </details>
 
-A gray-box prototype is enough for the first usability round. Investors see the high-fidelity prototype, because they read polish as a signal.
+A gray-box prototype is enough for the first usability round. Investors see the high-fidelity prototype, because a clickable prototype makes the pitch concrete.
 
 I build a starter component library instead of a full design system: buttons, fields and cards with their states. Developers build each component once and reuse it, which speeds the first build; our interface design deliverable includes one.
 
-Accessibility belongs in the first draft. I design to Web Content Accessibility Guidelines (WCAG) 2.2 AA, with the Americans with Disabilities Act (ADA) and Section 508 as the US frame. Under [success criterion (SC) 1.4.3](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html), text needs a contrast ratio of at least 4.5:1 and large text 3:1. Under [SC 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html), pointer targets need at least 24 by 24 Cascading Style Sheets (CSS) pixels or enough spacing, and links inside a sentence are exempt. Fixing contrast after launch means touching every component, so I set color tokens that pass from the start.
+Accessibility belongs in the first draft. I check every screen against level AA of the Web Content Accessibility Guidelines (WCAG) 2.2, and for US buyers the Americans with Disabilities Act (ADA) and Section 508 are the legal backdrop.
+
+The two WCAG 2.2 AA checks I run first are contrast and target size. Under [success criterion (SC) 1.4.3](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html), text needs a contrast ratio of at least 4.5:1 and large text 3:1. Under [SC 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html), a tap or click target must measure at least 24 by 24 Cascading Style Sheets (CSS) pixels unless spacing makes up for it, and links inside a sentence are exempt. Fixing contrast after launch means touching every component, so I set color tokens that pass from the start.
 
 For [Elia Wellness](/case-studies/elia-wellness/), a learning and wellness app for adults over 50, we designed plain navigation and readable layouts. Its questionnaire before each course uses big tap areas and simple rating scales on tablets. Check your palette's contrast before you design a second screen.
 
@@ -242,7 +242,7 @@ Table: Usability test scorecard for a hypothetical groomer app
 
 The success threshold decides go, change or stop for each task. A change verdict means fixing that step and running another round of 5 users. A stop verdict sends you back to the brief, not to more screens: if most owners still want to text, test demand first.
 
-Stuck on change after two rounds, or unsure why users fail? Our team designs the first version with research, a clickable Figma prototype tested with 5 to 8 target users and a build-ready handoff. The whole process runs 4 to 8 weeks, from discovery to handoff.
+Stuck on change after two rounds, or unsure why users fail? Our team designs the first version with research, a clickable Figma prototype tested with 5 to 8 target users and a build-ready handoff.
 
 A pass means the design is ready for developers, if the file is.
 
@@ -268,7 +268,7 @@ Working out how to design an MVP alone is possible; here is where founders usual
 
 ## When does designing an MVP need a design team?
 
-**You need a design team to design an MVP when tests fail for reasons you can't see, investors expect a credible prototype by a date or the product serves several user types.**
+**You need a team to help design an MVP when tests fail for unclear reasons, investors expect a credible prototype by a deadline or the product serves several user types.**
 
 - **Two change verdicts in a row:** the scorecard shows where users fail, not why, and a designer who did not draw the flow reads the sessions without your assumptions.
 - **A pre-seed round date:** investors judge the prototype and the test results together, so both need to be ready on the same day.
@@ -282,7 +282,7 @@ With our team, the work takes 4 to 8 weeks. You can check [what MVP design costs
 
 **How to design an MVP, in short: a brief, a type, a cut, a flow with states, a 5-user test against your thresholds and a build-ready file.**
 
-If your scorecard says change twice, [book a free consultation](/contact/). Vocable shows how our team keeps a first version tight around the jobs its users named, and we can design your first version with you. You'll hear from a senior designer within one business day, ET.
+If your scorecard says change twice, [book a free consultation](/contact/). Vocable shows that cut in a launched product, and we can design your first version with you. You'll hear from a senior designer within one business day, ET.
 
 I'd rather see a founder test one gray-box flow with 5 strangers than polish ten screens nobody has tried.
 

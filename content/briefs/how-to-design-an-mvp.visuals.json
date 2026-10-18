@@ -16,7 +16,7 @@
     "markdown": "![Storyboard of a 5-screen booking flow with empty, loading, error and success states under each screen](/blog/how-to-design-an-mvp/mvp-core-flow-states.svg \"Core user flow storyboard for a hypothetical groomer app, with four states under each screen\")"
   },
   {
-    "marker": "<!-- visual: mvp-ui-fidelity-ladder.svg. Fidelity ladder with four rising steps (sketch, low-fidelity wireframe, clickable gray-box, high-fidelity prototype); each step shows what it tests, who sees it and its relative effort. Contrast 4.5:1 and 24 by 24 px target badges on the top step. Alt: Fidelity ladder from sketch to high-fidelity prototype, with what each rung tests and who sees it. Caption: UI fidelity ladder: what each rung tests and who sees it, from sketch to high-fidelity prototype. -->",
+    "marker": "<!-- visual: mvp-ui-fidelity-ladder.svg. Fidelity ladder with four rising steps (sketch, low-fidelity wireframe, clickable gray-box, high-fidelity prototype); each step shows what it tests, who sees it and its relative effort. Text contrast ≥ 4.5:1 and 24 by 24 px target badges on the top step. Alt: Fidelity ladder from sketch to high-fidelity prototype, with what each rung tests and who sees it. Caption: UI fidelity ladder: what each rung tests and who sees it, from sketch to high-fidelity prototype. -->",
     "markdown": "![Fidelity ladder from sketch to high-fidelity prototype, with what each rung tests and who sees it](/blog/how-to-design-an-mvp/mvp-ui-fidelity-ladder.svg \"UI fidelity ladder: what each rung tests and who sees it, from sketch to high-fidelity prototype\")"
   },
   {

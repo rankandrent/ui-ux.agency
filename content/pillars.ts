@@ -253,7 +253,7 @@ export const pillars: Pillar[] = [
     faqs: [
       { q: "Do you work with pre-seed startups?", a: "Yes. A design sprint or MVP design suits founders who have no funding or developers yet." },
       { q: "Can you also build our startup product?", a: "Yes. tkxel's engineering team builds the product when you need development as well as design." },
-      { q: "Should we start with a design sprint or MVP design?", a: "Start with a design sprint when the idea is still unproven; start with MVP design when you already know the problem and the users." },
+      { q: "Should we start with a design sprint or MVP design?", a: "Start with a design sprint when the idea is still unproven; start with MVP design when you already know the problem and the users. Our guide to <a href=\"/blog/how-to-design-an-mvp/#which-type-of-mvp-should-you-design-first\">designing an MVP step by step</a> shows how to tell which comes first." },
       { q: "Who owns the designs we pay for?", a: "You do. All files, prototypes and research belong to your company." },
     ],
   },
