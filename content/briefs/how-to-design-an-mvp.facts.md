@@ -1,10 +1,14 @@
 # Fact-check: how-to-design-an-mvp
 
+> **Loop 1 (below) is superseded by the Loop 2 section at the end of this file.** Loop 1 is kept as the audit trail. Its verdict line has been renamed so that the file ends with exactly one VERDICT.
+
+## Loop 1 (superseded)
+
 Checked: 2026-10-18 against `content/blog/how-to-design-an-mvp.md` (draft, qa: pending), the brief, `content/services/mvp-design-agency.json`, `content/services/design-sprint.json`, `content/home.ts`, `content/authors.json`, `content/pages/about.md`, `content/case-studies/vocable.md`, `content/case-studies/elia-wellness.md` and the text nodes of all 7 SVGs in `public/blog/how-to-design-an-mvp/`.
 
 **Method note:** WebFetch returned `getaddrinfo ENOTFOUND` for every host tried (leanstartup.co, www.nngroup.com, www.w3.org). So all external checks used WebSearch, either limited to the source's domain or as exact-phrase searches. A claim is marked TRUE only when the cited URL came back as a top result with supporting text. Search summaries are weaker than a fetched page, so wording inside quotes is confirmed only as far as the snippets go.
 
-## Claims table
+### Claims table
 
 | # | Claim (post wording, short) | Verdict | Source | Fix |
 |---|---|---|---|---|
@@ -49,7 +53,7 @@ Checked: 2026-10-18 against `content/blog/how-to-design-an-mvp.md` (draft, qa: p
 | 39 | Decision-tree SVG: 5 questions → 5 types | TRUE | Each SVG leaf matches the astext list and the H2 bold answer (demand → smoke test, pay → concierge, tech → Wizard of Oz, flow → clickable prototype, return → single-feature). FAQ "Is a clickable prototype enough" (pay/return → concierge or single-feature) is consistent with the tree. | None |
 | 40 | Fidelity-ladder SVG badges "Contrast 4.5:1" and "24 by 24 px targets" (aria-label: "contrast 4.5:1 and 24 by 24 px target badges") | WRONG (label vs standard) | SC 2.5.8 is a *minimum* in *CSS* pixels with a spacing alternative, and SC 1.4.3's 4.5:1 is a minimum for (normal) text. As written, "24 by 24 px targets" reads as a fixed device-pixel size, and "Contrast 4.5:1" reads as an exact contrast for everything. Lesson 98: regulation labels must match the standard. Placement: both badges sit only on the top (high-fidelity) rung, while the post and takeaway 4 say the baseline applies "from the first draft". | SVG text: change "Contrast 4.5:1" to "Text contrast ≥ 4.5:1" and "24 by 24 px targets" to "Targets ≥ 24×24 CSS px". aria-label tail: "…the top step carries badges for text contrast of at least 4.5:1 and targets of at least 24 by 24 CSS px". Recommended (designer's call): move the target badge to the clickable gray-box rung, or add a small note "from the first clickable draft". Then grep `content/briefs/how-to-design-an-mvp.visuals.json` (line 19 matches "24 by 24" / "4.5:1") and update the same strings there. |
 
-## Honesty checks
+### Honesty checks
 
 - **Clients and results:** Only Vocable and Elia Wellness are named, both real case studies with services[0] = mvp-design-agency. No metrics are credited. Apex HCM, Fortna and ToolsGroup are not mentioned. No testimonial is used.
 - **Team and author:** The author slug exists. Fix #19 aligns the role with home.ts. No invented team members.
@@ -59,9 +63,52 @@ Checked: 2026-10-18 against `content/blog/how-to-design-an-mvp.md` (draft, qa: p
 - **First-person experience claims:** The "I" sentences are method or judgment ("I keep that order", "I use a stricter three-lane version", "I'd start there"), with no invented anecdotes. "A prototype change costs a designer an afternoon" is a plain-language judgment without a measured ratio, which the brief allows.
 - **US frame:** American spelling, a US example (Austin, TX), WCAG 2.2 AA with ADA/Section 508, and no GDPR.
 
-## Stale records for the orchestrator
+### Stale records for the orchestrator
 
 - The brief's `externalSources` still lists `https://leanstartup.co/what-is-an-mvp/`, `https://startupnews.com.au/news/...` and BOIA/DAISY for 2.5.8. The post correctly uses the swapped URLs. Update the brief if it is reused.
 - `related.factCheckerFlags` #4 ("Our service page's illustration…") is the sentence now covered by fix #23.
 
-VERDICT: FAIL
+Loop 1 verdict: FAIL (superseded by Loop 2)
+
+## Loop 2
+
+Checked: 2026-10-18 against the current `content/blog/how-to-design-an-mvp.md` (after QA fixes F1–F16 and merges C1–C6), `content/briefs/how-to-design-an-mvp.qa.md`, `content/home.ts` line 201, `content/services/mvp-design-agency.json` (lines 29–40, 148, 167), `content/case-studies/vocable.md`, the text nodes and aria-label of `public/blog/how-to-design-an-mvp/mvp-ui-fidelity-ladder.svg`, and `content/briefs/how-to-design-an-mvp.visuals.json` line 19.
+
+**Method:** WebFetch still fails with `getaddrinfo ENOTFOUND` (www.ycombinator.com this run). The one external re-check, the YC video wording and Seibel's title, used WebSearch. Its results list ycombinator.com/library/Io-how-to-build-an-mvp and ycombinator.com/people/michael-seibel. Every other loop 2 item is checked against repo files. Unchanged loop 1 TRUE items were not re-checked.
+
+### Resolution of the 8 loop 1 items
+
+| # | Post text now (short) | Verdict | Source | Fix |
+|---|---|---|---|---|
+| 5 | L46: "…no market need at 35%, second to running out of cash or failing to raise capital at 38%, [as SmartCompany reported](…startups-fail-founders-capital/)." | TRUE | Matches the loop 1 replacement word for word. https://www.smartcompany.com.au/startupsmart/analysis/startups-fail-founders-capital/ ("ran out of cash or failed to raise new capital", 38%; no market need 35%; 111 post-mortems) | None |
+| 7 | L48: "…group partner Michael Seibel walks through determining an MVP feature set, building prototypes and demos for user testing and presenting the MVP to early customers or investors. I build the feature set from what users say in interviews, not from the founder's wishlist." | TRUE | https://www.ycombinator.com/library/Io-how-to-build-an-mvp (summary: "Y Combinator Group Partner, Michael Seibel … walks through how to determine your MVP feature set, build prototypes and demos for user testing, and present your MVP to early customers or investors"); https://www.ycombinator.com/people/michael-seibel (Group Partner). The second sentence is the author's own method, now in first person, and is not attributed to YC. | None |
+| 10 | L157: Usability Body of Knowledge: "creating low-cost representations of the interface to brainstorm, test and communicate ideas … pencil-and-paper prototypes can be changed quickly…" | TRUE | Matches the loop 1 replacement word for word. https://www.usabilitybok.org/rapid-prototyping/ | None |
+| 19 | L28: "I work as Senior Manager, User Experience (UX), at ui-ux.agency in Reston, Virginia, where our [MVP design agency](/services/startups/mvp-design-agency/) team turns founders' ideas into prototypes tested with real users." | TRUE | content/home.ts L201: Sahar Asif, role "Senior Manager UX \| KAM". The post spells out "UX" and leaves out "KAM", which is a faithful partial title. It makes no leadership claim. Reston, VA and the founders-to-tested-prototype line are covered by loop 1 #20 and #21. | None |
+| 23 | L137: "Our MVP service page shows the cut as a 40-idea wishlist that shrinks to 4 screens and 1 core flow; that is an illustration, not a quota." | TRUE | mvp-design-agency.json L36–37 (image text): "Start: a feature wishlist of 40 ideas" / "Must-have: cut down to 4 screens and 1 core flow". The sentence credits the illustration to the page, not to a process. | None |
+| 24 | L145: "…our MVP service page names user types and platforms as the biggest drivers of price." | TRUE | mvp-design-agency.json L167: "The number of user types and platforms has the biggest effect on price." Both factors are now named. | None |
+| 27 | L204: "Investors see the high-fidelity prototype, because a clickable prototype makes the pitch concrete." | TRUE | mvp-design-agency.json L148: "A clickable prototype makes the pitch concrete and shows user demand." | None |
+| 40 | Ladder SVG badges "Text contrast ≥ 4.5:1" (x 632) and "Targets ≥ 24×24 CSS px" (x 859.7), on a band from the clickable gray-box rung (x 620) through the high-fidelity rung. aria-label: "…a band spanning the clickable gray-box and high-fidelity rungs carries badges for text contrast of at least 4.5:1 and targets of at least 24 by 24 CSS px". Panel L200: "From the clickable gray-box rung up, a band carries two badges: text contrast ≥ 4.5:1 (at least 4.5:1) and targets ≥ 24×24 CSS px (at least 24 by 24). Set the color tokens and tap sizes from the first draft." visuals.json L19 has the same strings. | TRUE | https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html (text minimum 4.5:1); https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html (at least 24 by 24 CSS px). Badge text, aria-label, panel and visuals.json all agree. The band now starts at the first clickable rung, which fixes the placement problem. Panel ⊇ image holds: both badges and the band span are described. | None. Optional, not blocking: the sketch and low-fidelity rungs have no color (L157 "no color"), so "from the first draft" in the panel and takeaway 4 really means the first clickable draft. That is a judgment phrase, not a standard claim, so no change is needed. |
+
+### Other changed text (QA F1–F16)
+
+| Item | Verdict | Source / note |
+|---|---|---|
+| F8 L208: "I check every screen against level AA of the Web Content Accessibility Guidelines (WCAG) 2.2, and for US buyers the Americans with Disabilities Act (ADA) and Section 508 are the legal backdrop." | TRUE (as framed) | Same as loop 1 #16. It does not say Section 508 requires WCAG 2.2 (508 incorporates WCAG 2.0 AA). Abbreviations are expanded correctly. |
+| F8 L210: SC 1.4.3 / SC 2.5.8 sentences, "24 by 24 Cascading Style Sheets (CSS) pixels unless spacing makes up for it, and links inside a sentence are exempt" | TRUE | W3C Understanding pages above (loop 1 #14, #15). Both links still go to the WCAG22 Understanding URLs. |
+| F16 takeaway 4: "meet Web Content Accessibility Guidelines (WCAG) 2.2 AA contrast (4.5:1) and target size from the first draft" | TRUE | 4.5:1 applied to all text meets AA, which is stricter than the 3:1 large-text floor. The expansion is correct. |
+| F16 takeaway 5: "Nielsen Norman Group's model estimates 5 users find about 85% of usability problems" | TRUE | https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/ (loop 1 #12) |
+| F15 L285: "Vocable shows that cut in a launched product" | TRUE | vocable.md L29 ("MVP launch strategy") and H2 L93 "The numbers after launch". No metrics are credited in the post. |
+| F3–F7 bold answers, F10–F12 panel labels, F13 ladder lead-in, F2/F14 deletions | n/a | No new checkable claims. The panel labels ("illustrative example", "hypothetical example") keep the groomer example clearly fictional. The "5 target users" and "4 of 5" figures are unchanged from loop 1 #38. |
+
+### Honesty checks (loop 2)
+
+- The author title now matches home.ts. It makes no leadership claim and names no invented team members.
+- The tkxel appositive was removed from the intro. Reston, Virginia is still the only location, and the post claims no local office.
+- Hub-derived "our" sentences (#23, #24, #27) are now credited to the page and match its wording.
+- Clients are still limited to Vocable and Elia Wellness. No results, testimonials, awards or certifications are claimed.
+
+### Stale records (carry-over)
+
+- The brief's `externalSources` (old leanstartup / startupnews URLs, BOIA/DAISY for 2.5.8) is still stale, as noted in loop 1. This does not affect the post.
+
+VERDICT: PASS

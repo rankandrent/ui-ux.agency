@@ -100,3 +100,10 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-17 (loop 2): When QA merges a fact fix into a reworded sentence, re-verify the new wording against the site source; a merge can move a team figure ("200+") onto the author.
 - 2026-10-17: Split QA-added case-study sentences with evaluative verbs ("keeps that promise", "prove") into factual parts (each must match a case-study line) and framing parts (fine only without a result metric).
 - 2026-10-17: federalregister.gov and ftc.gov fail via WebFetch and curl; an "as of" docket claim gets TRUE with the newest coverage date noted plus a publish-day re-check.
+
+- 2026-10-18 (how-to-design-an-mvp): When a post names one talk or video by a speaker with many, check each piece of attributed advice against that page's own summary; advice from other talks needs its own citation or must become the author's method.
+- 2026-10-18: When a post repeats a site sentence with a compound subject ("user types and platforms"), check every part survives; dropping one part is WRONG.
+- 2026-10-18: For survey or post-mortem categories, copy the outlet's full category label including any "or …" clause ("ran out of cash or failed to raise capital").
+- 2026-10-18 (loop 2): Re-check each QA-merged sentence against its own source, not against the loop 1 replacement text.
+- 2026-10-18: When a label fix is on an image, check SVG text, aria-label, panel and visuals.json in one pass, and check where the label sits, not only its wording.
+- 2026-10-18: A job title from home.ts may be spelled out or shortened to its main role, but never upgraded ("lead", "head").

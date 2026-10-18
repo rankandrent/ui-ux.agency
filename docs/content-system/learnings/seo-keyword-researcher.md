@@ -82,3 +82,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-17 (saas-homepage-design): A topic once skipped as off-audience ("website-only design") can return with a product-tied angle. Rule: write the angle into serviceSupportWhy and leadAngle, name the neighbouring hub that owns adjacent work and limit that section to a handoff with one link.
 - 2026-10-17: blog-opportunities.json can list a keyword as its own topic while it is another entry's parent topic. Rule: grep blog-opportunities.json and warehouse parent_topic fields before adding a secondary, and flag dependent entries to the orchestrator.
 - 2026-10-17: If the primary's Ahrefs parent_topic has no owner in clusters.json, hand the orchestrator a ready-to-append cluster entry.
+
+- 2026-10-18 (mvp-design-agency): Before accepting an opportunity's bare main keyword ("design mvp"), look for a question/how-to sibling in the same warehouse file; choose it when its volume is equal or higher and its top results overlap, and keep the original as a secondary with a sentence pattern.
+- 2026-10-18: When a named keyword file has no match, grep the warehouse terms files for the topic's root word and name the supplying file in dataSource.
+- 2026-10-18: After writing the outline, check every H2, title and meta string against the brief's banned hub phrases, and again after the first full brief draft.

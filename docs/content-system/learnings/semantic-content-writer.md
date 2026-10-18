@@ -149,3 +149,9 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-17: Serial commas appeared 7 times (takeaways, formulas, alt text, captions). Grep `, [a-z ]+, (and|or) ` before handing over.
 - 2026-10-17: Routing summaries (bold answer, takeaway) must not add a criterion the decision tree lacks.
 - 2026-10-17: An H3 that names a case study must show the product side the case study documents, not only the homepage, and must not use the post's own coined term as a claim.
+
+- 2026-10-18 (how-to-design-an-mvp): When the intro hangs on a verbatim quote, search the exact phrase before drafting and flag it if only secondary sources confirm it.
+- 2026-10-18: Grep `\bhub\b` outside comment markers before handing off; readers never see "the hub" — use the service name.
+- 2026-10-18: A 9-H2 MOFU post with 6 panels and 6 FAQs at 150 words per H2 still ran ~90 words over the 2,600 cap; cut stage-setting one-liners and asides first.
+- 2026-10-18: After a salience edit, recount each bold answer (≤ 30 words) and read it aloud for a repeated head word ("design team to design an MVP").
+- 2026-10-18: Don't reuse "the design team of tkxel" or a colon roadmap sentence in intros; write the WCAG/ADA sentence fresh each time.

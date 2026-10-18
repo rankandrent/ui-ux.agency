@@ -19,8 +19,8 @@ takeaways:
   - "Draw every screen in the flow with its empty, loading, error and success states, and meet Web Content Accessibility Guidelines (WCAG) 2.2 AA contrast (4.5:1) and target size from the first draft."
   - "Test the clickable prototype with 5 target users against thresholds you set beforehand; Nielsen Norman Group's model estimates 5 users find about 85% of usability problems."
 image: /blog/how-to-design-an-mvp/cover.svg
-draft: true
-qa: pending
+draft: false
+qa: pass
 ---
 
 Eric Ries, author of The Lean Startup, says that despite its name the minimum viable product (MVP) ["is not about creating minimal products,"](https://leanstartup.co/resources/articles/what-is-an-mvp/) and that line is where learning how to design an MVP starts. Designing a first version means choosing the one assumption it tests, the user it serves and the single flow it needs, then drawing and testing that flow before code.
