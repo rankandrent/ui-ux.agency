@@ -138,7 +138,7 @@ Table: Feature cut for a hypothetical dog groomer booking app
 
 </details>
 
-Four must-have features stay; everything else moves to later or never. My rule of thumb: the core flow from entry to first result fits on one storyboard. Our own illustration cuts a 40-idea wishlist to 4 screens and 1 core flow, which is an example, not a quota.
+Four must-have features stay; everything else moves to later or never. My rule of thumb: the core flow from entry to first result fits on one storyboard. In one example we use with founders, a 40-idea wishlist shrinks to 4 screens and 1 core flow; that is an illustration, not a quota.
 
 Five ideas creep back most often:
 
