@@ -53,7 +53,7 @@ In Y Combinator's Startup Library video on how to build an MVP, group partner Mi
 
 Founders who design MVP screens before they name the riskiest assumption usually end up redrawing them. So I put the decisions on one card, the one-page MVP brief, and fill it in before any screen exists. Here it is for a hypothetical booking app for independent dog groomers in Austin, Texas.
 
-<!-- visual: mvp-one-page-brief.svg. A punched index card with a torn edge and 8 labeled fields (target user, problem in their words, riskiest assumption, MVP type, core flow, must-haves, pass threshold, go / change / stop action), filled in with handwriting-style text for the hypothetical Austin dog groomer booking app. Label it "Illustrative example". Alt: One-page MVP brief card with 8 fields filled in for a hypothetical dog groomer booking app. Caption: The one-page MVP brief, filled in for a hypothetical dog groomer booking app. -->
+![One-page MVP brief card with 8 fields filled in for a hypothetical dog groomer booking app](/blog/how-to-design-an-mvp/mvp-one-page-brief.svg "The one-page MVP brief, filled in for a hypothetical dog groomer booking app")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -84,7 +84,7 @@ The riskiest assumption also tells you what kind of MVP to design.
 
 Each type answers one question and asks something different of design: copy and one form, a service script, a front end that looks real, a full flow with states or one working feature.
 
-<!-- visual: mvp-type-decision-tree.svg. Vertical decision tree. Top node: "What would sink the idea if you were wrong?" Five branches down to endpoints drawn as small artifact icons (landing page, person with a tray, curtain, phone with taps, repeat arrow): "Will anyone want it?" to landing page smoke test; "Will they pay for the outcome?" to concierge MVP; "Can the experience work before the tech exists?" to Wizard of Oz MVP; "Can users complete the core flow?" to clickable prototype; "Will they come back?" to single-feature product. Alt: Vertical decision tree routing the riskiest assumption to one of five MVP types. Caption: MVP type decision tree: the riskiest assumption picks smoke test, concierge, Wizard of Oz, clickable prototype or single-feature product. -->
+![Vertical decision tree routing the riskiest assumption to one of five MVP types](/blog/how-to-design-an-mvp/mvp-type-decision-tree.svg "MVP type decision tree: the riskiest assumption picks smoke test, concierge, Wizard of Oz, clickable prototype or single-feature product")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -116,7 +116,7 @@ When founders ask me how to design an MVP quickly, my answer is to cut harder, n
 
 I use a stricter three-lane version: must-have, later and never, with one written reason per idea. That reason turns feature prioritization into a decision log instead of a vote. Our feature priority list deliverable uses the same three lanes.
 
-<!-- visual: mvp-feature-cut-board.svg. Sticky-note cut board in three columns (Must / Later / Never) for the hypothetical groomer app, each note carrying a one-line reason; the Must column visibly short with 4 notes. Alt: Cut board sorting a dog groomer booking app's feature list into must-have, later and never with a reason on each note. Caption: Feature cut board for a hypothetical groomer app: must-have, later and never, each with its reason. -->
+![Cut board sorting a dog groomer booking app's feature list into must-have, later and never with a reason on each note](/blog/how-to-design-an-mvp/mvp-feature-cut-board.svg "Feature cut board for a hypothetical groomer app: must-have, later and never, each with its reason")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -158,11 +158,11 @@ With the cut done, draw the flow.
 
 MVP UX design decides how the flow works; the user interface (UI) comes later. I map the steps before any screen: entry point, sign-up only if the test needs it, setup, the core action and the first result. Each step needs a reason from the brief, and the groomer app needs 5 steps.
 
-Then I draw low-fidelity wireframes: grey boxes, real words, no color. The Usability Body of Knowledge's entry on rapid prototyping treats paper prototypes as a way to evaluate many ideas quickly at very little cost, so a team covers more screens and changes them cheaply. I draw one wireframe for every step of the user flow, and on our projects the grey-box flow goes to users before any visual design.
+Then I draw low-fidelity wireframes: grey boxes, real words, no color. The Usability Body of Knowledge's entry on rapid prototyping treats paper prototypes as a way to evaluate many ideas quickly at very little cost, so a team covers more screens and changes them cheaply. I draw one wireframe for every step of the user flow, and on our projects the gray-box flow goes to users before any visual design.
 
 Every screen in the flow gets four states. A first session starts with no data, so each empty state should lead straight to the first result. An error state says what went wrong and how to recover, and no onboarding screen goes in unless the test needs one.
 
-<!-- visual: mvp-core-flow-states.svg. Flow storyboard: 5 grey-box phone frames left to right from the groomer's link to the booking summary, with a row of 4 tiny state thumbnails under each (empty, loading, error, success), labeled as a hypothetical example. Alt: Storyboard of a 5-screen booking flow with empty, loading, error and success states under each screen. Caption: Core user flow storyboard for a hypothetical groomer app, with four states under each screen. -->
+![Storyboard of a 5-screen booking flow with empty, loading, error and success states under each screen](/blog/how-to-design-an-mvp/mvp-core-flow-states.svg "Core user flow storyboard for a hypothetical groomer app, with four states under each screen")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -186,7 +186,7 @@ Grey boxes prove the flow; then decide how finished the screens must look.
 
 Ries's warning about minimal products applies to quality too. Viable means usable and credible: early adopters forgive a missing feature, but a flow that breaks halfway ends the session.
 
-<!-- visual: mvp-ui-fidelity-ladder.svg. Fidelity ladder with four rising steps (sketch, low-fidelity wireframe, clickable grey-box, high-fidelity prototype); each step shows what it tests, who sees it and its relative effort. Contrast 4.5:1 and 24 by 24 px target badges on the top step. Alt: Fidelity ladder from sketch to high-fidelity prototype, with what each rung tests and who sees it. Caption: UI fidelity ladder: what each rung tests and who sees it, from sketch to high-fidelity prototype. -->
+![Fidelity ladder from sketch to high-fidelity prototype, with what each rung tests and who sees it](/blog/how-to-design-an-mvp/mvp-ui-fidelity-ladder.svg "UI fidelity ladder: what each rung tests and who sees it, from sketch to high-fidelity prototype")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -198,12 +198,12 @@ Table: UI fidelity ladder for a first version
 |---|---|---|---|
 | Sketch | Whether the flow makes sense at all. | You and your cofounder. | Lowest. |
 | Low-fidelity wireframe | Step order and labels. | Your team. | Low. |
-| Clickable grey-box | Whether users finish the core flow. | 5 target users. | Medium. |
+| Clickable gray-box | Whether users finish the core flow. | 5 target users. | Medium. |
 | High-fidelity prototype | Trust, clarity and the pitch. | Test users and investors. | Highest. |
 
 </details>
 
-A grey-box prototype is enough for the first usability round. Investors see the high-fidelity prototype, because they read polish as a signal.
+A gray-box prototype is enough for the first usability round. Investors see the high-fidelity prototype, because they read polish as a signal.
 
 I build a starter component library instead of a full design system: buttons, fields and cards with their states. Developers build each component once and reuse it, which speeds the first build; our interface design deliverable includes one.
 
@@ -223,7 +223,7 @@ Recruit from the target user on your card, not from friends. Two screener questi
 
 Figma's help center guides to prototyping and sharing explain that the first connection between two frames creates a flow starting point, and that you can copy a link to that starting point for testing. Write a test script with each task in the user's words. Then run the clickable prototype as a usability test, moderated over video calls or unmoderated in a tool such as Maze.
 
-<!-- visual: mvp-usability-test-scorecard.svg. Clipboard scorecard with 4 task rows and columns task | success measure | threshold | result (5 dots per row, one per participant) | verdict stamp (go / change / stop). Illustrative data for the hypothetical groomer app, labeled "Example". Alt: Usability test scorecard with 4 tasks, thresholds, results from 5 participants and a go or change verdict per task. Caption: Usability test scorecard for a hypothetical groomer app: thresholds set before the sessions, verdict per task. -->
+![Usability test scorecard with 4 tasks, thresholds, results from 5 participants and a go or change verdict per task](/blog/how-to-design-an-mvp/mvp-usability-test-scorecard.svg "Usability test scorecard for a hypothetical groomer app: thresholds set before the sessions, verdict per task")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -284,7 +284,7 @@ With our team, the work takes 4 to 8 weeks. You can check [what MVP design costs
 
 If your scorecard says change twice, [book a free consultation](/contact/). Vocable shows how our team keeps a first version tight around the jobs its users named, and we can design your first version with you. You'll hear from a senior designer within one business day, ET.
 
-I'd rather see a founder test one grey-box flow with 5 strangers than polish ten screens nobody has tried.
+I'd rather see a founder test one gray-box flow with 5 strangers than polish ten screens nobody has tried.
 
 ## FAQs
 
