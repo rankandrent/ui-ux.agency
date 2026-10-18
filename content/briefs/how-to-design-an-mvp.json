@@ -346,7 +346,8 @@
       "priority": "required",
       "why": "The pillar is linked from the homepage and nav; this FAQ is the exact sprint → MVP decision the post's H2 3 expands. The pattern is accepted: the ai-products pillar FAQ (line 101) already links a guide the same way, with backslash-escaped quotes inside a double-quoted string.",
       "old": "{ q: \"Should we start with a design sprint or MVP design?\", a: \"Start with a design sprint when the idea is still unproven; start with MVP design when you already know the problem and the users.\" },",
-      "new": "{ q: \"Should we start with a design sprint or MVP design?\", a: \"Start with a design sprint when the idea is still unproven; start with MVP design when you already know the problem and the users. Our guide to <a href=\\\"/blog/how-to-design-an-mvp/\\\">designing an MVP step by step</a> shows what that looks like.\" },"
+      "new": "{ q: \"Should we start with a design sprint or MVP design?\", a: \"Start with a design sprint when the idea is still unproven; start with MVP design when you already know the problem and the users. Our guide to <a href=\\\"/blog/how-to-design-an-mvp/#which-type-of-mvp-should-you-design-first\\\">designing an MVP step by step</a> shows how to tell which comes first.\" },",
+      "linkBuilderNote": "2026-10-18: section jump to H2 3 (sprint vs first version), id from slugify() in lib/blog.ts. Pillar faqs[].a render HTML via Blocks.tsx Faq and feed FAQPage schema."
     },
     {
       "source": "content/case-studies/vocable.md → 'How we designed the product' (line 43)",
@@ -355,7 +356,8 @@
       "priority": "required",
       "why": "Real topic match (scope kept tight around the jobs users named), case study in this silo, varied descriptive anchor. Case studies are not silo posts, so the link is allowed.",
       "old": "As an [MVP design agency](/services/startups/mvp-design-agency/), we kept the scope tight around the jobs writers named most often.",
-      "new": "As an [MVP design agency](/services/startups/mvp-design-agency/), we kept the scope tight around the jobs writers named most often, the same way we [cut a first version down to its core jobs](/blog/how-to-design-an-mvp/) for every founder."
+      "new": "As an [MVP design agency](/services/startups/mvp-design-agency/), we kept the scope tight around the jobs writers named most often. Our guide shows how to [cut a first version down to its core jobs](/blog/how-to-design-an-mvp/#how-do-you-cut-an-mvp-down-to-one-core-flow).",
+      "linkBuilderNote": "2026-10-18: dropped 'for every founder' (unsupported generalization) and added the section jump to H2 4 (slugify() in lib/blog.ts)."
     },
     {
       "source": "content/home.ts line 244 (home FAQ 'Do you work with early-stage startups?')",
@@ -365,6 +367,47 @@
     }
   ],
   "indexCheck": "WebSearch 'site:ui-ux.agency mvp design' on 2026-10-18 returned no ui-ux.agency pages (the operator was ignored), so indexing of the three sources could not be confirmed. Link builder: run `npm run build && npm run links:find -- \"/blog/how-to-design-an-mvp/\" \"design an mvp\" \"mvp design\"` and keep the three required sources unless a stronger indexed match appears.",
+  "related": {
+    "linkBuilderRun": "2026-10-18",
+    "internalLinks": [
+      { "href": "/services/startups/mvp-design-agency/", "anchor": "MVP design agency", "where": "intro credential paragraph (about word 75); hub link 1 of 2" },
+      { "href": "/services/startups/design-sprint/", "anchor": "5-day design sprint", "where": "H2 3; the one cross-hub link" },
+      { "href": "/services/startups/", "anchor": "startup product design", "where": "H2 3; pillar (not a service hub)" },
+      { "href": "/case-studies/vocable/", "anchor": "Vocable", "where": "H2 4" },
+      { "href": "/case-studies/elia-wellness/", "anchor": "Elia Wellness", "where": "H2 6" },
+      { "href": "/services/startups/mvp-design-agency/#how-much-does-an-mvp-design-agency-cost", "anchor": "what MVP design costs with our team", "where": "H2 9; hub link 2 of 2 (section id from sectionId() on the <section>)" },
+      { "href": "/contact/", "anchor": "book a free consultation", "where": "Bottom line CTA" }
+    ],
+    "internalCount": "7 (MOFU 6-10). No sibling posts exist in the silo; no industry in frontmatter.",
+    "droppedInternalMarkers": [
+      "H2 1 hub marker: moved to the intro (was about word 330); sentence now 'That order is how our team works' (head phrase removed).",
+      "H2 7 #how-does-the-mvp-design-process-work: plain text 'The whole process runs 4 to 8 weeks, from discovery to handoff.'",
+      "H2 9 #mvp-design-agency-vs-a-freelancer-vs-no-designer: plain mention inside the cost-link sentence ('on the same page that compares...').",
+      "Bottom line hub marker: plain text ('we can design your first version with you')."
+    ],
+    "externalLinks": [
+      "https://leanstartup.co/resources/articles/what-is-an-mvp/ (swapped from brief path /what-is-an-mvp/, which is the URL a leanstartup.co search did not return; Lean Startup Co. article 'What Is an MVP? Eric Ries Explains' - secondary to Ries's 2009 Startup Lessons Learned post)",
+      "https://www.smartcompany.com.au/startupsmart/analysis/startups-fail-founders-capital/",
+      "https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/",
+      "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html (replaces the brief's BOIA/DAISY secondary sources)"
+    ],
+    "removedExternalLinks": [
+      "https://startupnews.com.au/2018/02/07/top-20-reasons-startups-fail-cb-insights/ (verified; canonical path differs from brief's /news/...; named plain-text citation 'as Startup News reported in 2018')",
+      "https://www.ycombinator.com/library/Io-how-to-build-an-mvp (URL verified; snippet showed only 'explains how to build an MVP'; sentence rewritten to that plus Seibel's narrow-scope advice from related YC pages)",
+      "https://cspages.ucalgary.ca/~tam/2003/hci_topics/pdf_files/prototyping.pdf (brief's 2003/481F path not returned; named as University of Calgary HCI course notes)",
+      "https://airfocus.com/glossary/what-is-moscow-prioritization/ (verified; 'Should/Could cut first when time runs short' not in snippet, replaced with 'teams often use it to define an MVP that holds only the must-haves'; 'best-known' softened to 'common')",
+      "https://www.usabilitybok.org/rapid-prototyping/ (URL verified; wording only partly confirmed; sentence rewritten to 'evaluate many ideas quickly at very little cost')",
+      "https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma and https://help.figma.com/hc/en-us/articles/360040531773-Share-files-and-prototypes (verified; named plain-text citation)"
+    ],
+    "factCheckerFlags": [
+      "Ries quote 'not about creating minimal products' verified only on the Lean Startup Co. article (secondary-only).",
+      "H2 1 definition wording 'about customers' not shown in the snippet (snippet: 'most validated learning with the least effort').",
+      "NN/g line changed from 'as many small tests as you can afford' to 'several small rounds of testing over one big study' (snippet wording).",
+      "H2 4 'Our service page's illustration cuts a 40-idea wishlist...' refers to an unlinked page; not a marker, left for the orchestrator to reword (e.g. 'Our own illustration')."
+    ],
+    "backlinksPending": "Bash unavailable: orchestrator run `npm run build && npm run links:find -- \"/blog/how-to-design-an-mvp/\" \"design an mvp\" \"mvp design\" \"minimum viable product\"`. site:ui-ux.agency search returned no indexed pages."
+  },
   "externalSources": [
     { "url": "https://leanstartup.co/what-is-an-mvp/", "why": "Ries's MVP definition (validated learning, least effort) and 'not about creating minimal products'. Intro, H2 1 and H2 6." },
     { "url": "https://ycombinator.com/library/Io-how-to-build-an-mvp", "why": "Y Combinator Startup Library (Michael Seibel): MVP feature set, prototypes and demos for user testing. H2 2." },

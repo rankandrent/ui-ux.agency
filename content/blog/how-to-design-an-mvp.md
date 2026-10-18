@@ -23,9 +23,9 @@ draft: true
 qa: pending
 ---
 
-Eric Ries, author of The Lean Startup, says that despite its name the minimum viable product (MVP) "is not about creating minimal products," and that line is where learning how to design an MVP starts.<!-- source: https://leanstartup.co/what-is-an-mvp/ --> Designing a first version means choosing the one assumption it tests, the user it serves and the single flow it needs, then drawing and testing that flow before code.
+Eric Ries, author of The Lean Startup, says that despite its name the minimum viable product (MVP) ["is not about creating minimal products,"](https://leanstartup.co/resources/articles/what-is-an-mvp/) and that line is where learning how to design an MVP starts. Designing a first version means choosing the one assumption it tests, the user it serves and the single flow it needs, then drawing and testing that flow before code.
 
-I lead user experience (UX) at ui-ux.agency, the design team of tkxel in Reston, Virginia. The misreading I watch for most is a founder designing a small product when what they need is a small test.
+I lead user experience (UX) at ui-ux.agency, the design team of tkxel in Reston, Virginia, where our [MVP design agency](/services/startups/mvp-design-agency/) team turns founders' ideas into prototypes tested with real users. The misreading I watch for most is a founder designing a small product when what they need is a small test.
 
 This guide follows the order I work in: a one-page brief, the type of MVP, the cut, the flow and its states, the visual bar, a 5-user test and the file developers build from.
 
@@ -33,13 +33,13 @@ This guide follows the order I work in: a one-page brief, the type of MVP, the c
 
 **Designing an MVP is a learning job, not a drawing job: the design decides what the first version must prove, and a prototype proves it before development starts.**
 
-Ries defines the MVP as the version of a new product that lets a team collect the maximum amount of validated learning about customers with the least effort.<!-- source: https://leanstartup.co/what-is-an-mvp/ --> In the Lean Startup method, validated learning is how a team measures progress. The build-measure-learn loop produces it: build something small, measure what people do, learn whether the idea holds.
+Ries defines the MVP as the version of a new product that lets a team collect the maximum amount of validated learning about customers with the least effort, as the same Lean Startup Co. article explains. In the Lean Startup method, validated learning is how a team measures progress. The build-measure-learn loop produces it: build something small, measure what people do, learn whether the idea holds.
 
 So when I explain how to design an MVP, I describe minimum viable product design as product design at its leanest. It applies user experience design and prototyping to one question at a time.
 
 Design decides what the first version is and proves it on a clickable prototype; development builds what passed. I keep that order because a prototype change costs a designer an afternoon, while the same change in shipped code reopens finished work.
 
-That order is how our MVP design agency<!-- link: /services/startups/mvp-design-agency/ (hub link 1 of 2, anchor "MVP design agency") --> team works: a clickable prototype tested with real users comes before anyone writes code.
+That order is how our team works: a clickable prototype tested with real users comes before anyone writes code.
 
 Before any screen, though, one page of decisions.
 
@@ -47,9 +47,9 @@ Before any screen, though, one page of decisions.
 
 **Before you open a design tool, decide who the first user is, their problem in their words, the assumption that would sink the idea and the result that counts as a pass.**
 
-Skipping these decisions is how teams build for a need nobody has. In CB Insights' analysis of 101 startup post-mortems, 42% of founders named no market need as a reason they failed, as Startup News reported.<!-- source: https://startupnews.com.au/news/top-20-reasons-startups-fail-cb-insights/ --> A later CB Insights edition covering 111 post-mortems put no market need at 35%, second to running out of cash at 38%, as SmartCompany reported.<!-- source: https://www.smartcompany.com.au/startupsmart/analysis/startups-fail-founders-capital/ --> Both are founders' own explanations, yet the lesson holds: market need gets tested before design, not after launch.
+Skipping these decisions is how teams build for a need nobody has. In CB Insights' analysis of 101 startup post-mortems, no market need topped the list at 42%, as Startup News reported in 2018. A later CB Insights edition covering 111 post-mortems put no market need at 35%, second to running out of cash at 38%, [as SmartCompany reported](https://www.smartcompany.com.au/startupsmart/analysis/startups-fail-founders-capital/). Both are founders' own explanations, yet the lesson holds: market need gets tested before design, not after launch.
 
-Y Combinator's Startup Library session on building an MVP, led by Michael Seibel, covers deciding the feature set, building prototypes and demos for user testing and presenting the result to early customers or investors.<!-- source: https://ycombinator.com/library/Io-how-to-build-an-mvp --> The feature set comes out of talking to users, not the other way around.
+In Y Combinator's Startup Library video on how to build an MVP, group partner Michael Seibel explains the first version, and his YC advice is to narrow it to a few early users and their most pressing problems. The feature set comes out of talking to users, not the other way around.
 
 Founders who design MVP screens before they name the riskiest assumption usually end up redrawing them. So I put the decisions on one card, the one-page MVP brief, and fill it in before any screen exists. Here it is for a hypothetical booking app for independent dog groomers in Austin, Texas.
 
@@ -98,11 +98,11 @@ Start with one question: what would sink the idea if you were wrong?
 
 </details>
 
-A Wizard of Oz prototype has a person behind the scenes running what users believe is automated.<!-- source: https://cspages.ucalgary.ca/~tam/2003/481F/notes/acrobat/prototyping.pdf --> For an artificial intelligence (AI) product MVP, I'd start there: a person writes the answers the model will later give, so you test the experience before the model is ready.
+University of Calgary human-computer interaction course notes describe Wizard of Oz prototyping as testing a system that does not exist yet: a person behind the scenes makes the screen respond as the system would. For an artificial intelligence (AI) product MVP, I'd start there: a person writes the answers the model will later give, so you test the experience before the model is ready.
 
 Is a clickable prototype an MVP? Yes, it is one type: a clickable prototype MVP tests whether users can finish the flow and see value in it, not whether they pay or return.
 
-The tree assumes you already know the problem and the user. If you don't yet, I'd start one step earlier with a 5-day design sprint<!-- link: /services/startups/design-sprint/ (the post's one cross-hub link) -->, then come back here. Sprint, then first version, then full startup product design<!-- link: /services/startups/ (pillar) --> is the usual path.
+The tree assumes you already know the problem and the user. If you don't yet, I'd start one step earlier with a [5-day design sprint](/services/startups/design-sprint/), then come back here. Sprint, then first version, then full [startup product design](/services/startups/) is the usual path.
 
 The groomer app's assumption is about the flow, so it lands on a clickable prototype. Find your own question in the tree and write the type on your card.
 
@@ -112,7 +112,7 @@ Whatever the type, the scope has to shrink to one flow.
 
 **To design an MVP around one flow, keep only the features the core flow needs to test your riskiest assumption, and write down why every other idea moves to later or never.**
 
-When founders ask me how to design an MVP quickly, my answer is to cut harder, not to draw faster. The best-known feature prioritization tool is the MoSCoW method, which sorts requirements into Must have, Should have, Could have and Won't have (this time); when time runs short, the two middle categories go first.<!-- source: https://airfocus.com/glossary/what-is-moscow-prioritization/ -->
+When founders ask me how to design an MVP quickly, my answer is to cut harder, not to draw faster. A common feature prioritization tool is the MoSCoW method, which sorts requirements into Must have, Should have, Could have and Won't have. The airfocus glossary notes that teams often use it to define an MVP that holds only the must-haves.
 
 I use a stricter three-lane version: must-have, later and never, with one written reason per idea. That reason turns feature prioritization into a decision log instead of a vote. Our feature priority list deliverable uses the same three lanes.
 
@@ -138,7 +138,7 @@ Table: Feature cut for a hypothetical dog groomer booking app
 
 </details>
 
-Four must-have features stay; everything else moves to later or never. My rule of thumb: the core flow from entry to first result fits on one storyboard. Our service page's illustration cuts a 40-idea wishlist to 4 screens and 1 core flow, which is an example, not a quota.
+Four must-have features stay; everything else moves to later or never. My rule of thumb: the core flow from entry to first result fits on one storyboard. Our own illustration cuts a 40-idea wishlist to 4 screens and 1 core flow, which is an example, not a quota.
 
 Five ideas creep back most often:
 
@@ -148,7 +148,7 @@ Five ideas creep back most often:
 - **"Just one more" integration:** each adds edge cases to design before the core flow is proven.
 - **Several user types in version one:** each role needs its own flow, and user types move the price more than anything else.
 
-When we designed Vocable<!-- link: /case-studies/vocable/ -->, an AI content marketing platform, we kept the scope tight around the jobs writers named most often and tied each screen to a pain point from stakeholder interviews. Sort your own list into the three lanes and count what is left in must-have.
+When we designed [Vocable](/case-studies/vocable/), an AI content marketing platform, we kept the scope tight around the jobs writers named most often and tied each screen to a pain point from stakeholder interviews. Sort your own list into the three lanes and count what is left in must-have.
 
 With the cut done, draw the flow.
 
@@ -158,7 +158,7 @@ With the cut done, draw the flow.
 
 MVP UX design decides how the flow works; the user interface (UI) comes later. I map the steps before any screen: entry point, sign-up only if the test needs it, setup, the core action and the first result. Each step needs a reason from the brief, and the groomer app needs 5 steps.
 
-Then I draw low-fidelity wireframes: grey boxes, real words, no color. Low-fidelity prototypes take less time to prepare, so a team covers more screens and changes them cheaply.<!-- source: https://usabilitybok.org/rapid-prototyping --> I draw one wireframe for every step of the user flow, and on our projects the grey-box flow goes to users before any visual design.
+Then I draw low-fidelity wireframes: grey boxes, real words, no color. The Usability Body of Knowledge's entry on rapid prototyping treats paper prototypes as a way to evaluate many ideas quickly at very little cost, so a team covers more screens and changes them cheaply. I draw one wireframe for every step of the user flow, and on our projects the grey-box flow goes to users before any visual design.
 
 Every screen in the flow gets four states. A first session starts with no data, so each empty state should lead straight to the first result. An error state says what went wrong and how to recover, and no onboarding screen goes in unless the test needs one.
 
@@ -207,9 +207,9 @@ A grey-box prototype is enough for the first usability round. Investors see the 
 
 I build a starter component library instead of a full design system: buttons, fields and cards with their states. Developers build each component once and reuse it, which speeds the first build; our interface design deliverable includes one.
 
-Accessibility belongs in the first draft. I design to Web Content Accessibility Guidelines (WCAG) 2.2 AA, with the Americans with Disabilities Act (ADA) and Section 508 as the US frame. Under success criterion (SC) 1.4.3, text needs a contrast ratio of at least 4.5:1 and large text 3:1.<!-- source: https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html --> Under SC 2.5.8, pointer targets need at least 24 by 24 Cascading Style Sheets (CSS) pixels or enough spacing, and links inside a sentence are exempt.<!-- source: https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html --> Fixing contrast after launch means touching every component, so I set color tokens that pass from the start.
+Accessibility belongs in the first draft. I design to Web Content Accessibility Guidelines (WCAG) 2.2 AA, with the Americans with Disabilities Act (ADA) and Section 508 as the US frame. Under [success criterion (SC) 1.4.3](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html), text needs a contrast ratio of at least 4.5:1 and large text 3:1. Under [SC 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html), pointer targets need at least 24 by 24 Cascading Style Sheets (CSS) pixels or enough spacing, and links inside a sentence are exempt. Fixing contrast after launch means touching every component, so I set color tokens that pass from the start.
 
-For Elia Wellness<!-- link: /case-studies/elia-wellness/ -->, a learning and wellness app for adults over 50, we designed plain navigation and readable layouts. Its questionnaire before each course uses big tap areas and simple rating scales on tablets. Check your palette's contrast before you design a second screen.
+For [Elia Wellness](/case-studies/elia-wellness/), a learning and wellness app for adults over 50, we designed plain navigation and readable layouts. Its questionnaire before each course uses big tap areas and simple rating scales on tablets. Check your palette's contrast before you design a second screen.
 
 Now put the prototype in front of 5 people.
 
@@ -217,11 +217,11 @@ Now put the prototype in front of 5 people.
 
 **Give 5 target users the clickable prototype and 3 to 5 real tasks, score each task against a threshold you wrote down first, then decide go, change or stop.**
 
-Nielsen Norman Group (NN/g) explains why 5 is enough. In Jakob Nielsen's model, the share of usability problems found with n users is 1 − (1 − L)^n, where L averaged 31% across projects.<!-- source: https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/ --> At that rate, five users find about 85% of the problems, and NN/g advises as many small tests as you can afford over one big one. On our projects, 5 to 8 target users try the prototype before any code.
+Nielsen Norman Group (NN/g) explains why 5 is enough. In [Jakob Nielsen's model](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/), the share of usability problems found with n users is 1 − (1 − L)^n, where L averaged 31% across projects. At that rate, five users find about 85% of the problems, and NN/g advises several small rounds of testing over one big study. On our projects, 5 to 8 target users try the prototype before any code.
 
 Recruit from the target user on your card, not from friends. Two screener questions do it for the groomer app: do you own a dog, and did you book a groomer in the last 3 months?
 
-In Figma, the first connection between two frames creates a flow starting point, and you can share a link to that starting point for testing.<!-- source: https://help.figma.com/hc/en-us/articles/360040314193 --><!-- source: https://help.figma.com/hc/en-us/articles/360040531773 --> Write a test script with each task in the user's words. Then run the clickable prototype as a usability test, moderated over video calls or unmoderated in a tool such as Maze.
+Figma's help center guides to prototyping and sharing explain that the first connection between two frames creates a flow starting point, and that you can copy a link to that starting point for testing. Write a test script with each task in the user's words. Then run the clickable prototype as a usability test, moderated over video calls or unmoderated in a tool such as Maze.
 
 <!-- visual: mvp-usability-test-scorecard.svg. Clipboard scorecard with 4 task rows and columns task | success measure | threshold | result (5 dots per row, one per participant) | verdict stamp (go / change / stop). Illustrative data for the hypothetical groomer app, labeled "Example". Alt: Usability test scorecard with 4 tasks, thresholds, results from 5 participants and a go or change verdict per task. Caption: Usability test scorecard for a hypothetical groomer app: thresholds set before the sessions, verdict per task. -->
 
@@ -242,7 +242,7 @@ Table: Usability test scorecard for a hypothetical groomer app
 
 The success threshold decides go, change or stop for each task. A change verdict means fixing that step and running another round of 5 users. A stop verdict sends you back to the brief, not to more screens: if most owners still want to text, test demand first.
 
-Stuck on change after two rounds, or unsure why users fail? Our team designs the first version with research, a clickable Figma prototype tested with 5 to 8 target users and a build-ready handoff. Our 4-to-8-week process<!-- link: /services/startups/mvp-design-agency/#how-does-the-mvp-design-process-work (conditional; plain text if fragments count as the same target) --> shows each step.
+Stuck on change after two rounds, or unsure why users fail? Our team designs the first version with research, a clickable Figma prototype tested with 5 to 8 target users and a build-ready handoff. The whole process runs 4 to 8 weeks, from discovery to handoff.
 
 A pass means the design is ready for developers, if the file is.
 
@@ -276,13 +276,13 @@ Working out how to design an MVP alone is possible; here is where founders usual
 - **An AI feature whose behavior must be simulated:** a Wizard of Oz setup needs scripted answers and error states for replies the model gets wrong.
 - **Nobody on the team has run usability testing:** moderating without leading is a skill, and one leading question can turn a stop into a false go.
 
-With our team, the work takes 4 to 8 weeks. Our service page shows how an agency, a freelancer and a developer-only team compare<!-- link: /services/startups/mvp-design-agency/#mvp-design-agency-vs-a-freelancer-vs-no-designer (conditional; plain text if fragments count as the same target) -->, along with what MVP design costs with our team<!-- link: /services/startups/mvp-design-agency/#how-much-does-an-mvp-design-agency-cost (hub link 2 of 2) -->. If two of these bullets describe you, bring the brief and the scorecard to that conversation.
+With our team, the work takes 4 to 8 weeks. You can check [what MVP design costs with our team](/services/startups/mvp-design-agency/#how-much-does-an-mvp-design-agency-cost) on the same page that compares an agency, a freelancer and a developer-only team. If two of these bullets describe you, bring the brief and the scorecard to that conversation.
 
 ## Bottom line
 
 **How to design an MVP, in short: a brief, a type, a cut, a flow with states, a 5-user test against your thresholds and a build-ready file.**
 
-If your scorecard says change twice, book a free consultation<!-- link: /contact/ -->. Vocable shows how our team keeps a first version tight around the jobs its users named, and we can design your first version with you<!-- link: /services/startups/mvp-design-agency/ (varied hub anchor; use here if the cost fragment above does not count as hub link 2) -->. You'll hear from a senior designer within one business day, ET.
+If your scorecard says change twice, [book a free consultation](/contact/). Vocable shows how our team keeps a first version tight around the jobs its users named, and we can design your first version with you. You'll hear from a senior designer within one business day, ET.
 
 I'd rather see a founder test one grey-box flow with 5 strangers than polish ten screens nobody has tried.
 
