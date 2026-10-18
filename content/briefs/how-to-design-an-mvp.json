@@ -1,0 +1,471 @@
+{
+  "slug": "how-to-design-an-mvp",
+  "keyword": "how to design an mvp",
+  "secondary": ["design mvp", "mvp ux design", "mvp ui design"],
+  "metaKeywordVariants": ["designing an mvp", "minimum viable product design", "mvp design steps", "mvp prototype", "ux design mvp"],
+  "intent": "Informational how-to with planning intent (Ahrefs intents for 'how to design an mvp': informational only; 'design mvp': informational + commercial). Searchers are startup founders, often non-designers, and early product leads at US startups who have an idea and want to know how to turn it into a first version that users can try: what to decide first, what to cut, how to draw the flow, how polished it must look, how to test it and what developers need. Page 1 for both 'how to design an mvp' and 'design mvp' is agency and tool blog guides (upsilonit, purrweb, mockplus, uxtweak, uxplanet, capicua, ronasit, richux), with a few service pages (shakuro /services/design-mvp, dribbble and contra gigs). It is not the commercial 'MVP design agency' query; the hub owns that.",
+  "volume": 150,
+  "kd": null,
+  "trafficPotential": null,
+  "cpc": null,
+  "clusterVolume": 440,
+  "clusterVolumeNote": "keyword + secondary = 150 + 100 + 90 + 50 = 390; plus 'design an mvp' (10), 'how do i design an mvp quickly?' (20) and 'how do i design my mvp without a designer?' (30), answered as FAQs = 440. 'minimum viable product design' (80) is a meta variant and not counted. Do not present any cluster figure as the page's volume.",
+  "dataSource": "Ahrefs US, raw rows in docs/content-system/warehouse/2026-10-14-terms-mvp-design.json (pulled 2026-10-14): 'how to design an mvp' 150 / KD null / TP null / informational; 'design mvp' 100 / KD 0 / CPC 700 cents / parent 'mvp ux design' / TP 400; 'mvp ux design' 90 / KD 0 / CPC 350 / parent 'ux design mvp' / TP 400; 'mvp ui design' 50 / KD null; 'mvp design' 200 / KD 0 / TP 10 / parent 'mvp web design' (hub-owned, see notes). 'minimum viable product design' 80 / KD null from 2026-10-14-terms-minimum-viable-product.json. The task named docs/content-system/keywords-2026-10.json, but it has no MVP rows (grep 'mvp' = 0 matches); the warehouse file is the Ahrefs source. blog-opportunities.json entry 'mvp ux design' (main 'design mvp', score 80.3, expectedMonthlyTraffic 120, format 'complete guide') has NO serp block and NO rankings matrix, so competitor positions come from live WebSearch on 2026-10-18 only. Semrush called once on 2026-10-18: no_api_units. No GSC export (docs/data/gsc/latest.json missing). DEVIATION from the 2026-10-12 owner rule (Semrush or GSC): measured Ahrefs volume used, as accepted by the orchestrator in the saas-onboarding, product-discovery, user-onboarding-automation and saas-homepage-design precedents. KD for the primary is null in Ahrefs (not measured), not zero; 'design mvp' KD 0 is the nearest measured difficulty. WebFetch returned ENOTFOUND for every page tried (upsilonit.com, purrweb.com, mockplus.com, blog.uxtweak.com, uiuxdesignservices.us), so competitor coverage comes from search snippets.",
+  "dataSourceDate": "2026-10-18",
+  "primaryChoice": "Picked 'how to design an mvp' (150) over the opportunity's main 'design mvp' (100). Reasons: (1) it carries the exact informational intent the job asks for and reads naturally in the H1, title and first sentence; 'design mvp' is a bare verb + noun string that needs a carrier everywhere; (2) higher measured volume; (3) its SERP and the 'design mvp' SERP share the same top guides (upsilonit #2 on both, purrweb, mockplus, uxplanet), so one page can rank for both; (4) it avoids the hub-owned noun 'mvp design' (hub title 'MVP design', clusters.json parent 'mvp web design' → owner /services/startups/mvp-design-agency/, note 'retarget the service H1/meta to MVP design'). 'design mvp' stays as secondary with a carrier, so the opportunity is still served.",
+  "score": 80.3,
+  "expectedMonthlyTraffic": 120,
+  "opportunity": "docs/content-system/blog-opportunities.json, topic 'mvp ux design' (main 'design mvp', 1 keyword, sumVolume 100, TP 400, avgKd 0, score 80.3, format 'complete guide (definition, process, examples, checklist)'). No serp/matrix block in the entry. Ledger run 2026-10-18 selected it after skipping hubs with posts in the last 3 days and off-audience topics.",
+  "hub": "mvp-design-agency",
+  "hubUrl": "/services/startups/mvp-design-agency/",
+  "hubUrlVerified": "content/services/mvp-design-agency.json category 'Startups & product' → pillar slug 'startups' (content/pillars.ts line 185); the same URL is linked from content/home.ts (lines 83, 146, 244), content/case-studies/vocable.md line 43, nitro.md line 74, elia-wellness.md line 75 and content/services/design-sprint.json line 25. lib/ has no hard-coded path for this hub.",
+  "pillar": "startups",
+  "services": ["mvp-design-agency"],
+  "industries": [],
+  "author": "sahar-asif",
+  "authorWhy": "Sahar Asif is Senior Manager UX | KAM (content/home.ts line 201; content/authors.json bio empty). Designing an MVP is a UX-lead problem first: choosing the riskiest assumption, cutting scope with the founder, running the 5-user test and deciding go/change/stop. She has not written a post yet, so rotation favors her. Rejected: Shahmir Farooq wrote the last post (saas-homepage-design, 2026-10-17); Talha Saleem wrote user-onboarding-automation (2026-10-16); Ahmad Ullah wrote product-discovery (2026-10-15), whose risk framing sits closest to this topic, so his voice would make the two read alike; Faizan Khan (Sr. Product Designer) is the fallback if the owner prefers a product-design voice (last used 2026-10-13, 4 posts ago). Saliha Shahzad (UI/UX Designer) suits a future 'mvp ui design' or MVP design system post.",
+  "funnel": "mofu",
+  "funnelWhy": "SERP sets the stage (lesson 2026-10-06). Page 1 for 'how to design an mvp' and 'design mvp' is step-by-step guides from agency and tool blogs; service pages (shakuro, dribbble, contra) are a minority and no cost or vendor-comparison page dominates, so it is not BOFU. The reader is planning the first version, which funnel.json calls MOFU ('teams comparing approaches or planning the work'). Not TOFU: the searcher already has an idea and is about to produce screens, which is the moment the hub sells. Silo count: mvp-design-agency has 0 published posts; the new-silo rule asks for 1 BOFU + 1 MOFU, so this is the MOFU half. The orchestrator chose by opportunity score. Next post in this silo should be BOFU; test first that the hub does not own it (hub owns cost $15,000–$50,000, the 6 deliverables, the 4-step process and the agency vs freelancer vs no-designer table). Candidates: 'mvp design for startup funding / investor demo prototype' ('who can help design an mvp for startup funding?' 30), 'how to hire a firm for mvp design and validation?' (30) as a procurement checklist, or an RFP/scope-of-work angle.",
+  "serviceSupport": 4,
+  "serviceSupportWhy": "A founder learning how to design an MVP is weeks from needing the exact package the hub sells: research with 5–8 users, a feature priority list, user flows, UI, a clickable Figma prototype and developer handoff in 4 to 8 weeks. Many will try it themselves first, and the post shows where that breaks (no test plan, no states, no handoff). Not a 5, because some searchers are designers learning the craft or founders set on DIY with no budget.",
+  "title": "How to design an MVP: from riskiest assumption to tested prototype",
+  "metaTitle": "How to Design an MVP: Scope, Flows, Prototype, Test",
+  "metaDescription": "How to design an MVP: pick the riskiest assumption, cut to one core flow, prototype that flow, test it with 5 users. Then book a free consultation.",
+  "centralEntity": "how to design an MVP (designing a minimum viable product)",
+  "sourceContext": "ui-ux.agency (the design team of tkxel, Reston, VA) writes as a product design team that designs MVPs for startup founders: research with target users, a cut feature list, user flows, UI, a clickable prototype tested with 5–8 users, and a build-ready handoff to developers (tkxel engineers can build it). The post explains the method a founder can follow alone and shows where a design team changes the outcome, without restating the hub's package, process or price.",
+  "entities": [
+    "minimum viable product (MVP)",
+    "Eric Ries",
+    "The Lean Startup",
+    "build-measure-learn loop",
+    "validated learning",
+    "riskiest assumption",
+    "problem statement",
+    "target user (early adopter)",
+    "core user flow",
+    "feature prioritization",
+    "MoSCoW method",
+    "concierge MVP",
+    "Wizard of Oz MVP",
+    "landing page (smoke test)",
+    "wireframe",
+    "clickable prototype",
+    "Figma",
+    "usability testing",
+    "Nielsen Norman Group (NN/g)",
+    "Maze",
+    "empty state",
+    "WCAG 2.2 AA",
+    "developer handoff",
+    "component library",
+    "Y Combinator",
+    "pre-seed round"
+  ],
+  "attributes": [
+    "riskiest assumption the MVP tests",
+    "MVP type (smoke test, concierge, Wizard of Oz, clickable prototype, single-feature product)",
+    "scope: number of features and screens in the core flow",
+    "core flow length (steps from entry to first result)",
+    "screen states (empty, loading, error, success)",
+    "fidelity level (sketch, wireframe, clickable, high fidelity)",
+    "platform (web or mobile first)",
+    "accessibility baseline (contrast, target size)",
+    "test participants and tasks",
+    "success criteria and go / change / stop thresholds",
+    "handoff contents",
+    "timeline"
+  ],
+  "ngrams": [
+    "how to design an mvp",
+    "design mvp",
+    "mvp ux design",
+    "mvp ui design",
+    "minimum viable product",
+    "riskiest assumption",
+    "core user flow",
+    "validated learning",
+    "clickable prototype",
+    "usability test",
+    "low-fidelity wireframes",
+    "feature prioritization",
+    "must-have features",
+    "developer handoff",
+    "empty state",
+    "go, change or stop"
+  ],
+  "eav": [
+    { "attribute": "definition (originator)", "value": "Eric Ries defines the MVP as the version of a new product that lets a team collect the maximum amount of validated learning about customers with the least effort (2009, Startup Lessons Learned)", "source": "https://leanstartup.co/what-is-an-mvp/" },
+    { "attribute": "what an MVP is not", "value": "Ries adds that the MVP, despite the name, is not about creating minimal products; it is the smallest thing that still lets you learn", "source": "https://leanstartup.co/what-is-an-mvp/ (fact-checker: confirm wording on the page)" },
+    { "attribute": "design's job in an MVP", "value": "designing an MVP means deciding which single assumption the first version tests, which user it serves and which one flow it needs, then drawing and testing that flow before code", "source": "Editorial working definition, consistent with the hub abstract ('designs the smallest version of a product that real users can try') and the SERP consensus (one core flow, wireframes, prototype, test)" },
+    { "attribute": "why it matters (failure data)", "value": "in CB Insights' post-mortem analyses, 'no market need' was the top reason at 42% of 101 failed startups in an earlier edition, and 35% of 111 founder post-mortems in a later one, behind running out of cash (38%)", "source": "https://startupnews.com.au/news/top-20-reasons-startups-fail-cb-insights/ ; https://www.smartcompany.com.au/startupsmart/analysis/startups-fail-founders-capital/ (secondary coverage; fact-checker: find the CB Insights primary page or cite as 'CB Insights' analysis, as reported by…'; label figures as founders' own explanations, not a US census)" },
+    { "attribute": "how YC frames the MVP", "value": "Y Combinator's Startup Library session by Michael Seibel covers how to decide the MVP feature set, build prototypes and demos for user testing, and present the MVP to early customers or investors", "source": "https://ycombinator.com/library/Io-how-to-build-an-mvp" },
+    { "attribute": "MVP types (hyponyms)", "value": "landing page smoke test (tests demand), concierge MVP (a person delivers the service by hand), Wizard of Oz MVP (the interface looks automated while a person works behind it), clickable prototype (tests whether users can complete the core flow), single-feature product (tests retention with real use)", "source": "Wizard of Oz definition: https://cspages.ucalgary.ca/~tam/2003/481F/notes/acrobat/prototyping.pdf ; the rest are standard Lean Startup vocabulary. No numbers attached; write as definitions." },
+    { "attribute": "feature prioritization method", "value": "MoSCoW sorts requirements into Must have, Should have, Could have and Won't have (this time); when time runs short, the Should and Could items are cut first", "source": "https://wikipedia.com/wiki/MoSCoW ; https://airfocus.com/glossary/what-is-moscow-prioritization/" },
+    { "attribute": "how we cut scope (hub)", "value": "every idea sorted into must-have, later and never, so the first build stays small; the hub's illustration cuts a 40-idea wishlist to 4 screens and 1 core flow", "source": "content/services/mvp-design-agency.json (deliverable 'Feature priority list'; section 1 image text). Present the 40 → 4 figure only as the hub's illustration, not as a rule." },
+    { "attribute": "low-fidelity first", "value": "low-fidelity prototypes take less time to prepare, so a team can cover more screens and change them cheaply; paper prototypes let teams test ideas at very low cost", "source": "https://usabilitybok.org/rapid-prototyping (fact-checker: the NN/g originals were not returned by search; cite the Usability Body of Knowledge page)" },
+    { "attribute": "screen states", "value": "each screen in the core flow needs at least its empty, loading, error and success states, because the first session of an MVP starts with no data", "source": "ui-ux.agency method; write as the author's method in the first person, not as a measured finding" },
+    { "attribute": "test participants", "value": "Jakob Nielsen's model: the share of usability problems found with n users is 1 − (1 − L)^n, with L averaging 31% across projects; 5 users find about 85% of the problems, and more value comes from several small rounds than one big one", "source": "https://nngroup.com/articles/why-you-only-need-to-test-with-5-users/ (fact-checker: confirm the 85% wording and the 'several small tests' advice on the page)" },
+    { "attribute": "how we test (hub)", "value": "5 to 8 target users try the prototype before any code; the grey-box flow is tested with users before visual design", "source": "content/services/mvp-design-agency.json (process steps 2 and 4)" },
+    { "attribute": "prototype tool behavior (Figma)", "value": "Figma creates a flow starting point when you add the first connection between two frames; you can share the whole prototype or a link to one flow's starting point for testing", "source": "https://help.figma.com/hc/en-us/articles/360040314193 ; https://help.figma.com/hc/en-us/articles/360040531773" },
+    { "attribute": "accessibility baseline: contrast", "value": "WCAG 2.2 SC 1.4.3 (AA): text contrast at least 4.5:1, large text 3:1; ratios are thresholds, so 4.499:1 fails", "source": "https://w3.org/WAI/WCAG22/Understanding/contrast-minimum.html" },
+    { "attribute": "accessibility baseline: target size", "value": "WCAG 2.2 SC 2.5.8 (AA): pointer targets at least 24 by 24 CSS pixels or enough spacing; links inside a sentence are exempt", "source": "https://www.boia.org/blog/understanding-target-size-under-wcag-2.2-and-how-it-affects-people-with-disabilities ; https://kb.daisy.org/publishing/docs/wcag/target-size-minimum.html (the final w3.org Understanding page for 2.5.8 did not appear in search this run; fact-checker may swap in the w3.org URL)" },
+    { "attribute": "handoff contents (hub)", "value": "annotated screens, spacing and component specs that a development team builds from directly, plus a starter component library", "source": "content/services/mvp-design-agency.json (deliverables 'Interface design' and 'Developer handoff')" },
+    { "attribute": "timeline (hub)", "value": "MVP design with a team takes 4 to 8 weeks in 4 steps: discovery sprint (1 week), flows and wireframes (1–2 weeks), UI and prototype (1–3 weeks), testing and handoff (1–2 weeks)", "source": "content/services/mvp-design-agency.json ('How does the MVP design process work?'). Mention the 4–8 weeks once with a deep link; do not rebuild the 4-step list." },
+    { "attribute": "real example: scope tied to user jobs", "value": "Vocable: we kept the scope tight around the jobs writers named most often and tied each screen to a pain point from stakeholder interviews", "source": "content/case-studies/vocable.md lines 43 and 59. Do NOT attribute Vocable's 35% / 20% / 60+ / 35+ results to the MVP cut." },
+    { "attribute": "real example: accessible UI for a specific audience", "value": "Elia Wellness (adults over 50): plain navigation and readable layouts; the pre-course questionnaire uses big tap areas and simple rating scales on tablets", "source": "content/case-studies/elia-wellness.md lines 41 and 91. Do NOT attribute the 40% registration growth to these choices." },
+    { "attribute": "one-page MVP brief (unique angle)", "value": "a one-page brief written before any screen: target user, problem in their words, riskiest assumption, MVP type, the one core flow, must-have list, success threshold for the test, and what you will do on go / change / stop", "source": "ui-ux.agency method (SERP gap: no ranking guide gives a pre-design decision sheet). First person, method only." }
+  ],
+  "skipgrams": [
+    ["riskiest assumption", "MVP type"],
+    ["core flow", "screens"],
+    ["validated learning", "effort"],
+    ["must-have", "later"],
+    ["wireframe", "user flow"],
+    ["clickable prototype", "usability test"],
+    ["five users", "problems"],
+    ["empty state", "first result"],
+    ["contrast", "4.5:1"],
+    ["handoff", "developers"],
+    ["investors", "prototype"],
+    ["concierge", "by hand"],
+    ["success threshold", "go"]
+  ],
+  "lexical": {
+    "synonyms": ["designing an MVP", "minimum viable product design", "designing a first version", "MVP UX design", "MVP UI design"],
+    "hypernyms": ["product design", "user experience design", "Lean Startup method", "startup product design", "prototyping"],
+    "hyponyms": ["landing page smoke test", "concierge MVP", "Wizard of Oz MVP", "clickable prototype MVP", "single-feature MVP", "web app MVP", "mobile app MVP", "AI product MVP"],
+    "meronyms": ["problem statement", "target user", "riskiest assumption", "feature list", "core user flow", "wireframe", "empty state", "error state", "onboarding screen", "clickable prototype", "test script", "success threshold", "component library", "handoff file"]
+  },
+  "keywordCarrier": {
+    "primary": "Question phrase; it reads naturally as a heading or after 'learn / know / plan'. H1 opens with 'How to design an MVP'. First sentence pattern: 'Knowing how to design an MVP starts with one decision most founders skip: …'. Body patterns: 'when I show founders how to design an MVP, …', 'the hardest part of how to design an MVP is the cut'. Never stack a noun after it ('how to design an MVP checklist' is wrong). Required in: metaTitle (first words), description (first words), first meta keyword, H1, first 60 words.",
+    "density": "Word share as QA measures it: max uses = 0.02 × body words ÷ 5. For a 2,600–2,900-word body that is at most 10–11 exact uses. Aim for 6–8 (H1, first sentence, 1–2 H2s, Bottom line, 1 FAQ). Vary with 'designing an MVP', 'design an MVP', 'your first version' and the lexical relations. Alt text does not count.",
+    "secondary": {
+      "design mvp": "Bare verb + noun string; use only with MVP as a modifier of a following noun: 'Founders who design MVP screens before they name the riskiest assumption usually redraw them.' Once in the body (H2 2 or H2 4) and once in the meta keywords. Read aloud: 'design MVP screens' must be the verb + object. Never write 'to design MVP.' or 'how to design MVP' without an article.",
+      "mvp ux design": "Noun phrase; use as a subject: 'MVP UX design decides the flow; the visuals come later.' Carry it once in the first sentence under H2 5 (flow and wireframes) and once in an FAQ.",
+      "mvp ui design": "Noun phrase; carry it in the H2 'How polished should MVP UI design be?' and in that section's first sentence. Never stack nouns after it."
+    },
+    "metaTitle": "How to Design an MVP: Scope, Flows, Prototype, Test (51 chars)",
+    "h1": "How to design an MVP: from riskiest assumption to tested prototype (66 chars)",
+    "description": "Use as written (147 chars, keyword first, MOFU next step; 'that flow' and 'it' both refer to the core flow): 'How to design an MVP: pick the riskiest assumption, cut to one core flow, prototype that flow, test it with 5 users. Then book a free consultation.'",
+    "metaKeywords": ["how to design an mvp", "design mvp", "mvp ux design", "mvp ui design", "minimum viable product design"],
+    "hubAnchorBan": "Never use 'MVP design agency' as a keyword phrase; only as link anchor text. Use the bare noun 'MVP design' at most 4 times in the body and never in the title, H1, metaTitle, description or any H2 (hub title and clusters.json owner phrase). 'MVP UX design' and 'MVP UI design' are allowed (different strings)."
+  },
+  "questions": [
+    "How do you design an MVP?",
+    "What should you decide before designing an MVP?",
+    "How many features or screens should an MVP have?",
+    "What type of MVP should I build first?",
+    "Is a clickable prototype an MVP?",
+    "How polished should an MVP look?",
+    "How many users do you need to test an MVP prototype?",
+    "Can I design an MVP without a designer? ('how do i design my mvp without a designer?' 30)",
+    "How do I design an MVP quickly? ('how do i design an mvp quickly?' 20)",
+    "Should an MVP be web or mobile first?",
+    "What do developers need from the MVP designer?",
+    "How long does it take to design an MVP?",
+    "How much does it cost to build an MVP? (PAA in the warehouse SERP; link the hub cost section, never restate)"
+  ],
+  "serpGaps": [
+    "Every ranking guide (upsilonit, purrweb, mockplus, uxtweak, uxplanet, ronasit, richux, capicua, dbbsoftware, parallelhq) lists the same generic sequence: research → features → wireframes → prototype → test → iterate. None starts from the riskiest assumption and uses it to choose the MVP TYPE (smoke test, concierge, Wizard of Oz, clickable prototype, single feature). Our decision tree fills that gap.",
+    "No guide gives a pre-design decision sheet. We add the one-page MVP brief (lead asset), filled in before any screen exists.",
+    "Scope advice stops at 'pick one core feature'. Nobody shows how to cut with a written reason per item (must / later / never) or sets a screen budget for the core flow. We add the cut board with reasons.",
+    "Wireframe sections skip screen states. An MVP's first session starts empty; nobody covers empty, loading, error and success states for the core flow.",
+    "Testing advice is 'test with early users'. No guide writes the test before the test: tasks, success thresholds and what go / change / stop means, or cites the NN/g 5-user model with its formula and its 'several small rounds' caveat. We add the test scorecard.",
+    "No page covers the US accessibility baseline for an MVP (WCAG 2.2 AA contrast 4.5:1 and 24 px targets, with ADA/Section 508 as the frame), even though fixing it later means redrawing every component.",
+    "Handoff is a single line on most pages. We list what developers need from an MVP's design files (states, specs, prototype link, decision log, open questions), linked to the hub deliverable.",
+    "Statistics on page 1 are mostly unsourced or vendor prices ($1,490–$5,600 gigs, '$1,500 to $100,000+'). We use sourced facts only (Ries, NN/g, WCAG, Figma docs, CB Insights with edition labels) and the hub's published facts by deep link."
+  ],
+  "contentModules": {
+    "title": "How to design an MVP: from riskiest assumption to tested prototype",
+    "subtitle": "A founder's method for designing a minimum viable product: decide what the first version must prove, pick the MVP type, cut to one flow, wireframe it with its states, set the UI bar, test with 5 users and hand developers a build-ready file.",
+    "intro": "Originator-quote intro (see variety.introStyle): open with Eric Ries's own line that the MVP 'is not about creating minimal products', then Sahar's first-person point of view on the misreading she sees (founders designing a small product instead of a small test), then the keyword sentence and the definition inside the first 60 words.",
+    "dataModules": [
+      { "type": "fill-in worksheet (lead asset)", "h2": "What should you decide before you design an MVP?", "what": "The one-page MVP brief: 8 fields (target user, problem in their words, riskiest assumption, MVP type, core flow, must-have list, test threshold, go / change / stop action). One illustrative filled example for a hypothetical US product (see notes: EXAMPLES)." },
+      { "type": "decision tree", "h2": "Which type of MVP should you design first?", "what": "Riskiest assumption → MVP type: 'Will anyone want it?' → landing page smoke test; 'Will they pay for the outcome?' → concierge; 'Can the experience work before the tech exists?' → Wizard of Oz; 'Can users complete the core flow?' → clickable prototype; 'Will they come back?' → single-feature product." },
+      { "type": "cut table", "h2": "How do you cut an MVP down to one core flow?", "what": "Feature | must / later / never | the reason in one line (which assumption it serves). 8–10 rows for the hypothetical product. Introduced by one sentence and a 'Table:' line." },
+      { "type": "flow storyboard with state strip", "h2": "How do you map the core user flow and wireframe it?", "what": "4–6 screens from entry to first result, each with its empty / loading / error / success states listed underneath." },
+      { "type": "fidelity ladder", "h2": "How polished should MVP UI design be?", "what": "Sketch → low-fidelity wireframe → clickable grey-box → high-fidelity prototype; for each: what it tests, who sees it, rough effort." },
+      { "type": "test scorecard", "h2": "How do you test your MVP prototype with 5 users before code?", "what": "Task | success measure | threshold | result | go / change / stop. Thresholds are the founder's own, set before the sessions; no benchmark numbers invented." },
+      { "type": "handoff checklist", "h2": "What should developers get when you finish designing the MVP?", "what": "Bulleted checklist in text (no separate image needed): annotated screens, all states, component specs and tokens, prototype link with flow starting points, the decision log (what was cut and why), open questions." }
+    ]
+  },
+  "outline": [
+    {
+      "h2": "What does it mean to design an MVP?",
+      "answerHint": "**To design an MVP is to decide the smallest version of your product that tests one risky assumption with real users, then draw and test that version before anyone writes code.** (≤35 words)",
+      "points": [
+        "Ries's definition with link (eav[0]) and his 'not about minimal products' clause (eav[1]); expand minimum viable product (MVP) on first use. Name The Lean Startup and the build-measure-learn loop in one sentence each, with a real fact (validated learning = the measure of progress).",
+        "Design vs development: design decides what the first version is and proves it on a prototype; development builds it. One sentence on why that order saves money (changes on a prototype cost hours; no invented ratio).",
+        "First UP link to the hub inside the first 300 words: 'our MVP design agency team' anchor, one clause on what it delivers (clickable prototype tested with real users). Do not list the 6 deliverables.",
+        "Bridge: 'Before any screen, one page of decisions.'"
+      ]
+    },
+    {
+      "h2": "What should you decide before you design an MVP?",
+      "answerHint": "**Decide four things before you open a design tool: who the first user is, the problem in their words, the one assumption that would sink the idea if wrong, and what result would count as a pass.**",
+      "points": [
+        "Why it matters: CB Insights post-mortems (eav[3]) with edition labels; no market need is a problem you test before design, not after launch. One sentence, not a stat-led paragraph.",
+        "YC (eav[4]): feature set and user tests come from talking to users first. Do not quote unverified Seibel lines ('launch a crappy MVP in 30 days' is DO NOT USE).",
+        "The one-page MVP brief (visual 1 + astext) with the illustrative filled example. This is the post's lead asset.",
+        "Carry 'design mvp' here once (keywordCarrier.secondary).",
+        "Bridge: 'The riskiest assumption also tells you what kind of MVP to design.'"
+      ]
+    },
+    {
+      "h2": "Which type of MVP should you design first?",
+      "answerHint": "**Choose the MVP type by the assumption it has to test: a landing page tests demand, a concierge or Wizard of Oz MVP tests the outcome, a clickable prototype tests the flow, and a single-feature product tests whether people come back.**",
+      "points": [
+        "Decision tree (visual 2 + astext). Hyponyms as H3s if needed: landing page smoke test, concierge MVP, Wizard of Oz MVP, clickable prototype, single-feature product (eav[5]).",
+        "What each type asks of design: copy and one form; a service script and a thin interface; a front end that looks real; a full core flow with states.",
+        "Answer 'Is a clickable prototype an MVP?' here in one sentence (it is one MVP type: it tests usability and value perception, not retention or payment).",
+        "When the idea itself is unproven, a 5-day design sprint comes first (pillars.ts FAQ): the post's ONE cross-hub link (/services/startups/design-sprint/). Pillar mention /services/startups/ optional here.",
+        "AI products: a Wizard of Oz MVP lets founders test an AI feature's experience before the model is ready; one sentence, no extra hub link.",
+        "Bridge: 'Whatever the type, the scope has to shrink to one flow.'"
+      ]
+    },
+    {
+      "h2": "How do you cut an MVP down to one core flow?",
+      "answerHint": "**Cut an MVP by keeping only the features the core flow needs to test your riskiest assumption, and write down why every other idea moves to 'later' or 'never'.**",
+      "points": [
+        "MoSCoW (eav[6]) as the known method; our variant must-have / later / never (eav[7]) with a reason per item. Feature prioritization is a decision log, not a vote.",
+        "Cut table (visual 3 + astext) for the hypothetical product, 8–10 rows.",
+        "Screen budget as the author's rule of thumb: the core flow from entry to first result fits on one storyboard; the hub illustration shows 4 screens (state as illustration, not a rule).",
+        "Common traps in reasoned bullets: login and settings before value, admin panels, notifications, 'just one more' integration, multiple user types in v1 (the hub says user types drive price; deep link the hub cost section rather than stating figures).",
+        "DOWN link: Vocable (eav[17]): scope kept tight around the jobs writers named most often; each screen tied to an interview pain point.",
+        "Bridge: 'With the cut done, draw the flow.'"
+      ]
+    },
+    {
+      "h2": "How do you map the core user flow and wireframe it?",
+      "answerHint": "**Map the core user flow from the first screen to the first result, then sketch each step as a low-fidelity wireframe, including what the screen shows when there is no data, when it loads and when something fails.**",
+      "points": [
+        "First sentence after the bold answer carries 'MVP UX design' (keywordCarrier.secondary).",
+        "Flow first, screens second: entry point → sign-up only if needed → setup → the action → first result. Keep steps few; each step justified by the assumption.",
+        "Low-fidelity wireframes (eav[8]): grey boxes, real words, no colors. Test the grey-box flow before visual design (hub process step 2, eav[11]) without rebuilding the hub's 4-step list.",
+        "Screen states (eav[9]): empty, loading, error, success for every core screen; the empty state is the first thing a new user sees in an MVP.",
+        "Flow storyboard with state strip (visual 4 + astext).",
+        "Web or mobile first: pick the platform where the first user does the job (FAQ covers it).",
+        "Bridge: 'Grey boxes prove the flow; then decide how finished the screens must look.'"
+      ]
+    },
+    {
+      "h2": "How polished should MVP UI design be?",
+      "answerHint": "**MVP UI design should be polished enough that users trust it and judge the idea rather than the rough edges, and no more: a light brand style, consistent components, real copy and an accessible baseline.**",
+      "points": [
+        "Ries's 'not about minimal products' applies to quality: viable means usable and credible; early adopters forgive missing features, not broken flows.",
+        "Fidelity ladder (visual 5 + astext): which fidelity for which test and audience (investors see the high-fidelity clickable prototype; first usability round can be grey-box).",
+        "Starter component library rather than a full design system (hub deliverable 'Interface design', eav[15]); one sentence why it speeds the build.",
+        "Accessibility baseline, US frame: WCAG 2.2 AA contrast 4.5:1 (eav[13]) and 24×24 CSS px targets (eav[14]); ADA and Section 508 as the US frame in one clause; fixing contrast after launch means touching every component.",
+        "DOWN link: Elia Wellness (eav[18]): readable layouts and big tap areas for adults over 50 on tablets.",
+        "Bridge: 'Now put the prototype in front of five people.'"
+      ]
+    },
+    {
+      "h2": "How do you test your MVP prototype with 5 users before code?",
+      "answerHint": "**Give 5 target users the clickable prototype and 3 to 5 real tasks, measure each task against a pass threshold you wrote down beforehand, then decide go, change or stop.**",
+      "points": [
+        "NN/g 5-user model (eav[10]) with its formula, the 31% L value and the 'several small rounds' caveat; expand Nielsen Norman Group (NN/g). Hub runs 5 to 8 users (eav[11]); say so once.",
+        "Recruit the target user from the brief, not friends; one line on screener questions.",
+        "Figma: share a link to the flow starting point (eav[12]); remote unmoderated tests with Maze (tool listed in content/home.ts) or moderated video calls.",
+        "Test scorecard (visual 6 + astext): task | success measure | threshold | result | go / change / stop. The founder writes the thresholds; the post gives no benchmark rates.",
+        "What 'change' means in practice: fix the flow and run another small round; 'stop' sends you back to the brief, not to more screens.",
+        "LEAD ANGLE lives at the end of this section (see leadAngle). One natural invitation in the 'we' voice using hub facts only.",
+        "Bridge: 'A pass means the design is ready for developers, if the file is.'"
+      ]
+    },
+    {
+      "h2": "What should developers get when you finish designing the MVP?",
+      "answerHint": "**Developers should get a build-ready file: annotated screens with every state, component and spacing specs, the clickable prototype link and a short log of what was cut and why.**",
+      "points": [
+        "Handoff checklist as a ul (text only, no extra image): annotated screens; empty/loading/error/success states; component specs and tokens; prototype link with flow starting points; decision log; open questions and edge cases; analytics events for the test threshold metric.",
+        "Hub deliverable 'Developer handoff' (eav[15]); tkxel engineers can build it (hub FAQ) in one clause, no development promises beyond the FAQ.",
+        "Why the decision log matters: it stops the 'later' list from creeping back during the build.",
+        "Bridge: 'Doing all of this alone is possible; here is where founders usually need help.'"
+      ]
+    },
+    {
+      "h2": "When does designing an MVP need a design team?",
+      "answerHint": "**Designing an MVP needs a design team when the test keeps failing for reasons you cannot see, when investors need a credible prototype on a deadline, or when the product has more than one user type.**",
+      "points": [
+        "Reasoned bullets (situation + because): two 'change' results in a row; a pre-seed round date; marketplace or multi-role product; AI feature whose behavior must be simulated; no one on the team has run a usability test.",
+        "Timeline once: 4 to 8 weeks with a team (hub, eav[16]). Do NOT rebuild the agency vs freelancer vs no-designer table; link or mention it (hub section 'mvp-design-agency-vs-a-freelancer-vs-no-designer', conditional).",
+        "Price: do not state a number; link the hub cost section with a descriptive anchor ('what MVP design costs with our team' counts as one of the 4 allowed bare 'MVP design' uses).",
+        "Optional plain mention (no link): Nitro League, where discovery and stakeholder interviews gave the user flows and professional gamers tested the final product (nitro.md lines 74–76). Do NOT mention the $5M raise as a design result.",
+        "Answers 'how do i design my mvp without a designer?' in one sentence here or in the FAQ: yes, with this method; the risk is in testing and handoff.",
+        "Bridge to Bottom line."
+      ]
+    },
+    {
+      "h2": "Bottom line",
+      "answerHint": "2–4 sentences, before the FAQs. Not counted in the content H2s.",
+      "points": [
+        "Restate: write the brief, pick the type, cut to one flow, wireframe with states, test with 5 users against thresholds, hand over a build-ready file.",
+        "Sahar's own recommendation in one first-person sentence with NO label ('My recommendation:' is used in saas-onboarding).",
+        "CTA (MOFU: case study + consultation): if your scorecard says 'change' twice, book a free consultation; Vocable as the case study. Second UP link to the hub (varied anchor, e.g. 'design your MVP with our team')."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "How many screens should an MVP have?", "a": "As few as the core flow needs to reach the first result. Count the steps from entry to that result and design each with its states; anything outside that path waits for version two." },
+    { "q": "Can I design an MVP without a designer?", "a": "Yes. A founder can write the brief, sketch the flow and test a clickable prototype in Figma. The usual gaps are screen states, accessibility and a build-ready handoff, which is where a designer saves rework." },
+    { "q": "Is a clickable prototype enough for an MVP?", "a": "Yes, when the riskiest assumption is whether users can complete the core flow or want the result. No, when you need to know if they will pay or come back; that takes a concierge MVP or a working single-feature product." },
+    { "q": "Should an MVP be web or mobile first?", "a": "Design for the device your first users already use for the job. A B2B workflow tool usually starts on the web; an on-the-go consumer habit usually starts on a phone. Design one platform first." },
+    { "q": "How long does it take to design an MVP?", "a": "A founder can sketch and test a first flow in a few weeks. With our team it takes 4 to 8 weeks, including research, a clickable prototype, tests with 5 to 8 users and developer handoff." },
+    { "q": "What is MVP UX design?", "a": "MVP UX design is the part of designing an MVP that decides the user, the core flow and how the screens work, before the visual UI design. It is tested with users on low-fidelity wireframes first." }
+  ],
+  "internalTargets": [
+    { "href": "/services/startups/mvp-design-agency/", "anchor": "MVP design agency", "priority": "required", "where": "Inside the first 300 words (H2 1). Hub link 1 of 2.", "verified": "content/services/mvp-design-agency.json; pillar slug 'startups' in content/pillars.ts; same URL linked from home.ts and three case studies" },
+    { "href": "/services/startups/mvp-design-agency/#how-much-does-an-mvp-design-agency-cost", "anchor": "what MVP design costs with our team", "priority": "required", "where": "H2 9 (price question) as hub link 2 of 2; if the link builder prefers the plain hub URL for link 2, use it in the Bottom line instead and drop this fragment.", "verified": "hub h2 'How much does an MVP design agency cost?' → sectionId() in components/sections/SemanticSections.tsx (lowercase, non-alphanumerics to '-', trim leading/trailing '-')" },
+    { "href": "/services/startups/mvp-design-agency/#how-does-the-mvp-design-process-work", "anchor": "our 4-to-8-week process", "priority": "conditional", "blocker": "link-builder one-link-per-target rule (lesson 2026-10-16). If fragments count as separate targets, place in H2 9 on the timeline sentence; otherwise state 4 to 8 weeks in plain text.", "verified": "hub h2 'How does the MVP design process work?' → sectionId()" },
+    { "href": "/services/startups/mvp-design-agency/#mvp-design-agency-vs-a-freelancer-vs-no-designer", "anchor": "how an agency, a freelancer and a developer-only team compare", "priority": "conditional", "blocker": "same one-link-per-target rule; otherwise mention the comparison in plain text.", "verified": "hub h2 'MVP design agency vs a freelancer vs no designer' → sectionId()" },
+    { "href": "/services/startups/design-sprint/", "anchor": "5-day design sprint", "priority": "required", "where": "H2 3, one sentence: when the idea itself is unproven, a design sprint comes before designing the MVP (pillars.ts FAQ). The post's ONE cross-hub link.", "verified": "content/services/design-sprint.json; URL linked from content/pillars.ts line 207" },
+    { "href": "/services/startups/", "anchor": "startup product design", "priority": "required", "where": "H2 3 or H2 9, one mention (pillar, not a separate service hub): sprint → MVP → product design path.", "verified": "content/pillars.ts slug 'startups'" },
+    { "href": "/case-studies/vocable/", "anchor": "Vocable", "priority": "required", "where": "H2 4 (scope tied to user jobs); the Bottom line names Vocable without a second link.", "verified": "content/case-studies/vocable.md (services[0] = mvp-design-agency)" },
+    { "href": "/case-studies/elia-wellness/", "anchor": "Elia Wellness", "priority": "required", "where": "H2 6 (accessible UI for adults over 50).", "verified": "content/case-studies/elia-wellness.md (services[0] = mvp-design-agency)" },
+    { "href": "/contact/", "anchor": "book a free consultation", "priority": "required", "where": "Bottom line CTA only.", "verified": "contact route linked site-wide" },
+    { "href": "/case-studies/nitro/", "anchor": "Nitro League", "priority": "skip", "why": "A third case-study link would crowd a MOFU post, and a Web3 game is off-audience for most founders. Plain mention only if H2 9 needs it; never cite the $5M raise as a design result." },
+    { "href": "/services/ai-products/ai-ux-design-agency/", "anchor": "AI UX design agency", "priority": "skip", "why": "Cross-hub cap of 1 (design-sprint is the better fit). Override only if the owner accepts two cross-hub links." },
+    { "href": "/services/ui-ux-design-cost/", "anchor": "UI UX design cost", "priority": "skip", "why": "Cross-hub cap; the hub's own cost section answers the price question." },
+    { "href": "/blog/product-discovery/", "anchor": "product discovery", "priority": "skip", "why": "Another silo's post (services[0] = ai-product-discovery-workshop). RULES.md: never link to another silo's posts." }
+  ],
+  "backlinkSuggestions": [
+    {
+      "source": "content/services/mvp-design-agency.json → section 'What does an MVP design agency do?' → body <p>",
+      "target": "/blog/how-to-design-an-mvp/",
+      "anchor": "how to design an MVP",
+      "priority": "required",
+      "why": "Hub to post (silo rule: the pillar links down to its posts), on the exact sentence about cutting to the single job. The hub collects relevance for the informational variant without targeting it.",
+      "old": "MVP design starts with the single job the product does better than anything else, then cuts every screen that does not serve it.",
+      "new": "MVP design starts with the single job the product does better than anything else, then cuts every screen that does not serve it. Founders who want to try it first can follow our guide on <a href=\\\"/blog/how-to-design-an-mvp/\\\">how to design an MVP</a>.",
+      "escapeNote": "The service file stores HTML inside a JSON string, so the href quotes appear in the file as backslash + quote, exactly as the existing links in that <p> do."
+    },
+    {
+      "source": "content/pillars.ts → startups pillar → faqs → 'Should we start with a design sprint or MVP design?' (line 256)",
+      "target": "/blog/how-to-design-an-mvp/",
+      "anchor": "designing an MVP step by step",
+      "priority": "required",
+      "why": "The pillar is linked from the homepage and nav; this FAQ is the exact sprint → MVP decision the post's H2 3 expands. The pattern is accepted: the ai-products pillar FAQ (line 101) already links a guide the same way, with backslash-escaped quotes inside a double-quoted string.",
+      "old": "{ q: \"Should we start with a design sprint or MVP design?\", a: \"Start with a design sprint when the idea is still unproven; start with MVP design when you already know the problem and the users.\" },",
+      "new": "{ q: \"Should we start with a design sprint or MVP design?\", a: \"Start with a design sprint when the idea is still unproven; start with MVP design when you already know the problem and the users. Our guide to <a href=\\\"/blog/how-to-design-an-mvp/\\\">designing an MVP step by step</a> shows what that looks like.\" },"
+    },
+    {
+      "source": "content/case-studies/vocable.md → 'How we designed the product' (line 43)",
+      "target": "/blog/how-to-design-an-mvp/",
+      "anchor": "cut a first version down to its core jobs",
+      "priority": "required",
+      "why": "Real topic match (scope kept tight around the jobs users named), case study in this silo, varied descriptive anchor. Case studies are not silo posts, so the link is allowed.",
+      "old": "As an [MVP design agency](/services/startups/mvp-design-agency/), we kept the scope tight around the jobs writers named most often.",
+      "new": "As an [MVP design agency](/services/startups/mvp-design-agency/), we kept the scope tight around the jobs writers named most often, the same way we [cut a first version down to its core jobs](/blog/how-to-design-an-mvp/) for every founder."
+    },
+    {
+      "source": "content/home.ts line 244 (home FAQ 'Do you work with early-stage startups?')",
+      "target": "/blog/how-to-design-an-mvp/",
+      "priority": "skip",
+      "why": "Conversion path: RULES.md step 6 keeps the home page lean, and the FAQ already links the hub."
+    }
+  ],
+  "indexCheck": "WebSearch 'site:ui-ux.agency mvp design' on 2026-10-18 returned no ui-ux.agency pages (the operator was ignored), so indexing of the three sources could not be confirmed. Link builder: run `npm run build && npm run links:find -- \"/blog/how-to-design-an-mvp/\" \"design an mvp\" \"mvp design\"` and keep the three required sources unless a stronger indexed match appears.",
+  "externalSources": [
+    { "url": "https://leanstartup.co/what-is-an-mvp/", "why": "Ries's MVP definition (validated learning, least effort) and 'not about creating minimal products'. Intro, H2 1 and H2 6." },
+    { "url": "https://ycombinator.com/library/Io-how-to-build-an-mvp", "why": "Y Combinator Startup Library (Michael Seibel): MVP feature set, prototypes and demos for user testing. H2 2." },
+    { "url": "https://nngroup.com/articles/why-you-only-need-to-test-with-5-users/", "why": "Primary (NN/g): 5-user model, formula, L = 31%, ~85% of problems, several small rounds. H2 7." },
+    { "url": "https://w3.org/WAI/WCAG22/Understanding/contrast-minimum.html", "why": "Primary (W3C): SC 1.4.3 contrast 4.5:1 / 3:1. H2 6." },
+    { "url": "https://www.boia.org/blog/understanding-target-size-under-wcag-2.2-and-how-it-affects-people-with-disabilities", "why": "SC 2.5.8 24×24 CSS px and exceptions. H2 6. Fact-checker may swap in the w3.org Understanding page." },
+    { "url": "https://help.figma.com/hc/en-us/articles/360040314193", "why": "Primary (Figma): flow starting points created with the first connection. H2 7 / H2 8." },
+    { "url": "https://help.figma.com/hc/en-us/articles/360040531773", "why": "Primary (Figma): share the whole prototype or a flow starting point. H2 7." },
+    { "url": "https://airfocus.com/glossary/what-is-moscow-prioritization/", "why": "MoSCoW definition. H2 4." },
+    { "url": "https://wikipedia.com/wiki/MoSCoW", "why": "MoSCoW categories and 'Should/Could are cut first'. H2 4. Backup to airfocus." },
+    { "url": "https://usabilitybok.org/rapid-prototyping", "why": "Low-fidelity / rapid prototyping: less time to prepare, cheap to change. H2 5." },
+    { "url": "https://cspages.ucalgary.ca/~tam/2003/481F/notes/acrobat/prototyping.pdf", "why": "Wizard of Oz prototype definition (a person behind the scenes runs what looks automated). H2 3; definition only." },
+    { "url": "https://startupnews.com.au/news/top-20-reasons-startups-fail-cb-insights/", "why": "CB Insights earlier edition: no market need 42% of 101 post-mortems (secondary). H2 2. Fact-checker: prefer a CB Insights primary page." },
+    { "url": "https://www.smartcompany.com.au/startupsmart/analysis/startups-fail-founders-capital/", "why": "CB Insights later edition: 111 post-mortems, cash 38%, no market need 35% (secondary). H2 2." }
+  ],
+  "visuals": [
+    { "type": "fill-in worksheet (lead asset)", "file": "mvp-one-page-brief.svg", "idea": "A single index-card-style sheet with 8 labeled fields (target user, problem in their words, riskiest assumption, MVP type, core flow, must-haves, pass threshold, go / change / stop action), one filled in with handwriting-style text for the hypothetical product. Not the ledger ruling of saas-homepage-design or the rule sheet of user-onboarding-automation: use a punched index card with a torn edge. Text panel: the 8 fields and the example values." },
+    { "type": "vertical decision tree", "file": "mvp-type-decision-tree.svg", "idea": "Top node 'What would sink the idea if wrong?' branching down to 5 endpoints drawn as small artifact icons (landing page, person with a tray, curtain, phone with taps, repeat arrow) labeled smoke test, concierge, Wizard of Oz, clickable prototype, single-feature product. Vertical, not the horizontal pill tree of saas-homepage-design or the zigzag of design-system-roi. Text panel: the 5 routes as a list." },
+    { "type": "cut board", "file": "mvp-feature-cut-board.svg", "idea": "Three columns of sticky notes (Must / Later / Never) for the hypothetical product, each note with a one-line reason; the Must column visibly short. Text panel: the cut table." },
+    { "type": "flow storyboard with state strip", "file": "mvp-core-flow-states.svg", "idea": "4–6 grey-box phone or browser frames left to right from entry to first result, with a row of 4 tiny thumbnails under each (empty, loading, error, success). Text panel: each step and its states." },
+    { "type": "fidelity ladder", "file": "mvp-ui-fidelity-ladder.svg", "idea": "Four rising steps (sketch, low-fidelity wireframe, clickable grey-box, high-fidelity prototype), each with what it tests and who sees it (you, 5 users, investors). Contrast and 24 px target badges on the top step. Text panel: the four rungs." },
+    { "type": "test scorecard", "file": "mvp-usability-test-scorecard.svg", "idea": "A clipboard scorecard with 4 task rows, columns task | success measure | threshold | result (5 dots per row, one per participant) | verdict stamp (go / change / stop). Illustrative data for the hypothetical product, labeled as an example. Text panel: the columns and the rows." }
+  ],
+  "leadAngle": "The moment: end of H2 7. The founder has run (or planned) the 5-user test and either cannot reach the pass threshold or does not know why users fail. Offer, in hub facts only: we design the MVP with research, a clickable Figma prototype tested with 5 to 8 target users and a build-ready handoff in 4 to 8 weeks (link the hub), and tkxel engineers can build it (hub FAQ). Second moment: H2 9 (more than one user type, investor deadline). Closing CTA: 'If your scorecard says change twice, book a free consultation.' Do not promise a free audit or a free test, a reply time other than the site standard (within one business day, ET), or a price in the post; link the hub cost section instead.",
+  "variety": {
+    "type": "Guide",
+    "introStyle": "Originator-quote intro: open with Eric Ries's own clause that the MVP 'is not about creating minimal products' (linked to leanstartup.co), then one or two first-person sentences from Sahar on the misreading (founders design a small product when they need a small test), then the keyword sentence and definition inside the first 60 words. Device = a sourced quote from the concept's originator, used to correct a misreading. Used before (do not repeat): buyer scenario, myth, data point with source, question, definition, mini case, contrarian take, timed first-run log (blockquote), kill-list decision log (blockquote), itemized receipt, misfiring rule, try-this-now exercise. No hypothetical company story in the intro, no blockquote log, no imperative exercise, no stat opener.",
+    "h2Frames": ["what it means (definition)", "what to decide before", "which type (decision tree)", "how to cut", "how to map + wireframe", "how polished (UI)", "how to test (5 users)", "what developers get", "when a team", "Bottom line", "FAQs"],
+    "sectionOrder": "definition → pre-design decisions + brief → MVP type → scope cut → flow + wireframes + states → UI fidelity + accessibility → 5-user test → handoff → when to bring a team → Bottom line → FAQs. Follows the founder's chronology from idea to build-ready file. saas-homepage-design went definition → promise → sections → CTA choice → handoff ledger → B2B → page set → testing → mistakes; user-onboarding-automation went scope → 2x2 → rule anatomy → channels → AI → steps → holdout → failure modes; product-discovery went definition → four risks → stages → agile → length → AI → plan → example → checklist → partner.",
+    "visualTypes": ["index-card worksheet", "vertical decision tree with artifact icons", "sticky-note cut board", "flow storyboard with state strip", "fidelity ladder", "clipboard test scorecard"],
+    "ctaAngle": "scorecard says 'change' twice → book a free consultation (Vocable as the case study). Not 'claims marked missing', 'rules marked patch', 'send the recording', 'send your funnel', 'send your brief', 'send your three riskiest assumptions' or 'bring your baseline sheet'.",
+    "listStyle": "fill-in card + routed decision tree + reasoned cut table + per-screen state list + rung ladder + scorecard rows + handoff checklist (ul) + situation-because bullets",
+    "closingRule": "End the Bottom line with one first-person recommendation sentence and no label.",
+    "differsFrom": "Last 3 site-wide: saas-homepage-design (2026-10-17), user-onboarding-automation (2026-10-16), product-discovery (2026-10-15); 4th: saas-onboarding (2026-10-13). Silo mvp-design-agency: no posts. Nearest structural relative: product-discovery (riskiest assumptions, test before build, partner question)."
+  },
+  "fingerprintCheck": {
+    "vs_saas-homepage-design": "Differs on intro (originator quote vs imperative exercise), H2 frames, section order, visuals (card, vertical tree, cut board, storyboard, ladder, scorecard vs flow map, wireframe stack, horizontal tree, ledger, before/after, funnel), CTA angle, list style. Type 'Guide' repeats. 6 of 7 differ.",
+    "vs_user-onboarding-automation": "Differs on intro, H2 frames, order, visuals, CTA, list style. Type repeats. 6 of 7 differ.",
+    "vs_product-discovery (nearest relative)": "Differs on intro (quote vs kill-list blockquote log), H2 frames, order, visuals, CTA (consultation vs checklist), list style. Type repeats. 6 of 7 differ. Do NOT reuse: the four-risks framework (value, usability, feasibility, viability) as a section or table; the five-stage discovery process; the property-management SaaS example; the two-week plan; the exit-gate checklist; the in-house vs partner H2 frame. Our H2 3 routes by assumption to an MVP TYPE, not to a risk category.",
+    "vs_saas-onboarding": "Differs on intro, frames, order, visuals, CTA, list style. Do not reuse the scheduling-SaaS example, the empty-state anatomy, the Slack 2,000 messages figure or the 'My recommendation:' label.",
+    "result": "Passes the RULES.md variety rule (≥ 4 of 7 differ from each of the last 3 site-wide posts; silo has no posts)."
+  },
+  "overlapCheck": {
+    "method": "Outline-level check (no shell in this run). Compared planned H2s with the H2s of the 4 published posts and every hub, pillar and FAQ heading in content/services, content/pillars.ts and content/home.ts that mentions MVP. QA runs the 5-gram body script on the draft.",
+    "headingOverlap": "Closest pair: post H2 'How do you map the core user flow and wireframe it?' vs hub process step 'Flows and wireframes (1–2 weeks)'; no shared 5-gram. Post H2 9 'When does designing an MVP need a design team?' vs hub H2 'Which startups hire our MVP design agency?' (4 moments): the post's signals are different (failed test rounds, multi-role product, investor deadline) and it links the hub instead of listing its moments.",
+    "intentOverlap": "No page in content/ targets 'how to design an mvp', 'design mvp', 'mvp ux design' or 'mvp ui design' (grep of services, industries, locations, blog, briefs, case studies, pillars and home.ts). The hub owns 'MVP design agency' (anchor, H1, metaTitle), the noun 'MVP design' (title; clusters.json parent 'mvp web design'), the 6 deliverables, the 4-step process, the vs table, the cost H2 and 4 FAQs (technical co-founder, NDA, what to prepare, is a prototype enough to raise money). The post answers none of those again: it links them.",
+    "residualRisk": "H2 7 (testing) and H2 8 (handoff) sit close to hub process steps 2 and 4 and the hub deliverable list. Writer: describe the founder's method, cite hub facts once with a link, and never rebuild the 4-step timeline or the 6-item package. The hub FAQ 'Is a clickable prototype enough to raise money?' is close to our FAQ 3 'Is a clickable prototype enough for an MVP?': ours is about testing, not fundraising; keep investor talk out of that answer.",
+    "result": "PASS at outline level."
+  },
+  "sisterSiteCheck": {
+    "status": "UNVERIFIED",
+    "evidence": "WebFetch https://uiuxdesignservices.us/sitemap.xml returned ENOTFOUND (2026-10-18), as in earlier runs (this run had no shell, so the curl route the orchestrator mentioned was not available). WebSearch 'site:uiuxdesignservices.us mvp' and 'uiuxdesignservices.us blog MVP design startup' returned no pages from the domain. docs/content-system/sister-site.json holds city URLs only and contains no MVP, startup, prototype or blog entry. The keyword has no city, so the city guard does not apply.",
+    "qaStep": "Before publishing run: curl -sS https://uiuxdesignservices.us/sitemap.xml | grep -iE 'mvp|minimum-viable|prototype|startup'. If a sister page targets 'how to design an mvp', 'design mvp' or 'mvp ux design', stop and report to the owner; otherwise PASS. No links to or from the sister site; do not reuse its wording if a nearby page exists."
+  },
+  "rejectedCandidates": [
+    { "keyword": "mvp design (200, KD 0, TP 10, parent 'mvp web design')", "why": "Hub-owned: hub title 'MVP design', hub ngram, clusters.json owner /services/startups/mvp-design-agency/ with the note to retarget the hub H1/meta to 'MVP design'. TP 10 also means Google sends that traffic to the parent. Banned as a title/H2 phrase; max 4 bare uses in the body." },
+    { "keyword": "design mvp (100, KD 0, TP 400, parent 'mvp ux design')", "why": "Kept as secondary, not primary: bare verb + noun string with no natural carrier for the H1/title, lower volume than 'how to design an mvp', same SERP." },
+    { "keyword": "mvp design process (30, KD 1, TP 200)", "why": "The hub H2 'How does the MVP design process work?' answers it (lesson 2026-10-05: hub H2s block post keywords). Separate blog-opportunities entry (score 57); orchestrator should mark it hub-owned, not a future post." },
+    { "keyword": "ux design mvp (100, KD 5, TP 250) / mvp in ux design (70) / mvp in product design (50) / mvp in design (90, parent 'beta vs mvp')", "why": "Definitional 'what is an MVP in UX' intent; separate blog-opportunities entry 'mvp in design' (score 59.2). Our H2 1 and FAQ 6 answer it briefly. Orchestrator: mark that entry covered by this post, or a future definitional post will cannibalize this one (parent chain: design mvp → mvp ux design → ux design mvp → mvp in design)." },
+    { "keyword": "mvp web design (200, KD 3, parent 'mvp marketing') / mvp website design (150)", "why": "Mixed meaning (marketing-site MVP, sports 'MVP' sites); parent topic is marketing. Off-intent." },
+    { "keyword": "mvp software design (150, TP 800, parent 'mvp software development') / mvp system design (100) / mvp design pattern (20, parent 'model view presenter')", "why": "Engineering or architecture intent ('MVP' as Model-View-Presenter). Not a design-buyer query." },
+    { "keyword": "mvp design and development (150) / affordable mvp design and development services (20)", "why": "Development-agency intent; would pull the post toward build services and the open home.ts 'design and development' scope question." },
+    { "keyword": "minimum viable product design (80, KD n/a)", "why": "Synonym; used as a meta keyword and lexical variant, not a separate target." },
+    { "keyword": "who can help design an mvp for startup funding? (30) / how to hire a firm for mvp design and validation? (30)", "why": "BOFU buyer queries; parked for the silo's next (BOFU) post." },
+    { "keyword": "how to build a minimum viable product (warehouse SERP: YC, Steve Blank, Atlassian, Wikipedia)", "why": "Build/startup-strategy intent dominated by DR 92–97 sites; our angle is design, and the hub sells design." }
+  ],
+  "beats": "https://www.upsilonit.com/blog/how-to-design-an-mvp-for-your-startup",
+  "competitorPagesStudied": [
+    { "url": "https://www.upsilonit.com/blog/how-to-design-an-mvp-for-your-startup", "seen": "Ranks #2 in live WebSearch for both 'how to design an mvp' and 'design mvp'. Dev-agency guide; WebFetch ENOTFOUND and a targeted search did not return its headings. Snippet themes across the top set: specific problem + persona, PRD, one core feature, low-fi wireframes and user flows, test with early adopters, keep UX simple.", "misses": "MVP type choice by assumption, pre-design brief, cut reasons, screen states, written test thresholds, accessibility, handoff contents. QA: run curl -sSI -A 'Mozilla/5.0' on it before the overlap check; if it redirects off-topic, use purrweb below as `beats`." },
+    { "url": "https://www.purrweb.com/blog/mvp-design-process/", "seen": "Top result for 'design mvp' and in the 'how to design an mvp' top 10 (title 'mvp design process'). Snippets: MVP as a working product without extras; UX = how it works, UI = how it looks.", "misses": "the same gaps; process-led, dev-agency angle" },
+    { "url": "https://www.mockplus.com/blog/post/mvp-guide-in-ui-ux-design", "seen": "'MVP in UI/UX Design: A Complete Guide with Best Practices & Examples'; snippet: identify the most critical user flow and design around it.", "misses": "test design, thresholds, accessibility, MVP types" },
+    { "url": "https://blog.uxtweak.com/mvp-in-ux-design/", "seen": "'The UX of a Minimum Viable Product'; Ries definition, focus on the most important pain points of one user group.", "misses": "step detail not visible in snippets" },
+    { "url": "https://uxplanet.org/follow-these-7-key-steps-to-design-a-high-performing-mvp-for-your-clients-e7b46e5e0827", "seen": "7 steps written for designers serving clients; one core feature; low-fi wireframes then high-fi prototypes tested with users.", "misses": "founder perspective, MVP types, thresholds" },
+    { "url": "https://adamfard.com/download-ux-resources/mvp-design-sprint-checklist", "seen": "4-week MVP checklist: wireframes and prototype in week 2, ~5 users, revise in week 3, hi-fi and handoff in week 4.", "misses": "gated asset; no assumption-to-type routing" },
+    { "url": "warehouse SERP 'build a minimum viable product' (Ahrefs, 2026-10-14)", "seen": "AI overview sitelinks: YC Startup Library (plan / build an MVP), Steve Blank, Reddit r/startups, DigitalOcean, YouTube; organic Atlassian, Wikipedia, Salesforce, Delve.", "misses": "build/strategy pages, not design guides; confirms the design-specific angle is open" }
+  ],
+  "competitorsJsonHandback": {
+    "note": "Not written to docs/content-system/competitors.json (task instruction). Orchestrator: append these.",
+    "domains": [
+      { "domain": "upsilonit.com", "kind": "dev agency blog", "silos": ["mvp-design-agency"], "seenFor": ["how to design an mvp", "design mvp"], "source": "WebSearch 2026-10-18 (WebFetch ENOTFOUND)" },
+      { "domain": "purrweb.com", "kind": "design/dev agency blog", "silos": ["mvp-design-agency"], "seenFor": ["design mvp", "how to design an mvp", "mvp design process"], "source": "WebSearch 2026-10-18" },
+      { "domain": "mockplus.com", "kind": "design tool blog", "silos": ["mvp-design-agency"], "seenFor": ["how to design an mvp", "design mvp"], "source": "WebSearch 2026-10-18" },
+      { "domain": "uxtweak.com", "kind": "UX research tool blog", "silos": ["mvp-design-agency"], "seenFor": ["how to design an mvp", "mvp ux design"], "source": "WebSearch 2026-10-18" },
+      { "domain": "adamfard.com", "kind": "UX agency blog + resources", "silos": ["mvp-design-agency"], "seenFor": ["mvp ux design", "mvp ux"], "source": "WebSearch 2026-10-18" },
+      { "domain": "wearetenet.com", "kind": "design agency blog", "silos": ["mvp-design-agency", "saas-design-agency"], "seenFor": ["mvp ux design"], "source": "WebSearch 2026-10-18" }
+    ],
+    "topPost": { "domain": "upsilonit.com", "url": "https://www.upsilonit.com/blog/how-to-design-an-mvp-for-your-startup", "title": "How to Design an MVP for Your Startup", "keywords": ["how to design an mvp", "design mvp"], "estTraffic": null, "silo": "mvp-design-agency", "status": "briefed", "brief": "content/briefs/how-to-design-an-mvp.json" }
+  },
+  "clustersHandback": "clusters.json has an owner only for parent 'mvp web design' (the hub). Ahrefs parents 'mvp ux design' (of 'design mvp'), 'ux design mvp' (of 'mvp ux design') and 'mvp in design' (of 'ux design mvp', 'mvp in ux design', 'mvp in product design', 'mvp design meaning') have no owner. Orchestrator, after publish: add { parentTopic: 'mvp ux design', owner: '/blog/how-to-design-an-mvp/', keywords: ['how to design an mvp (150)', 'design mvp (100)', 'mvp ux design (90)', 'mvp ui design (50)'] } and note 'mvp in design' as covered by the same post unless the owner wants a separate definitional post. Dependent blog-opportunities entries: 'mvp in design' (main 'ux design mvp', score 59.2) and 'mvp ux' (main 'mvp design process', score 57; hub-owned).",
+  "notes": [
+    "CANNIBALIZATION: the hub owns 'MVP design agency' (anchor, H1, metaTitle), the noun 'MVP design' (title, ngram, clusters.json), its 6 deliverables, the 4-step process with weeks, the agency vs freelancer vs no-designer table, 'Which startups hire…' (4 moments), the cost H2 ($15,000–$50,000, single-platform near $15,000, marketplace near $50,000) and 4 FAQs. Never use 'MVP design agency' as a keyword phrase (link anchor only); cap bare 'MVP design' at 4 body uses, none in title/H1/meta/H2. Do not restate the process, the package or the price: link them (internalTargets).",
+    "PILLAR / SISTER HUB: content/pillars.ts startups FAQ says 'Start with a design sprint when the idea is still unproven; start with MVP design when you already know the problem and the users.' The post must agree: H2 3 says an unproven idea goes to a 5-day design sprint first (the one cross-hub link). Do not contradict the design-sprint hub's '5 target users' or the hub's '5 to 8 users'.",
+    "SCOPE NOTE (owner FYI, stay quiet in the post): the hub FAQ and content/home.ts say tkxel's engineering team can build the product, while earlier briefs flagged the open home.ts 'design and development' scope question (2026-10-09). The post may say once, as in the hub FAQ, that tkxel's engineering team builds it if needed; make no other development promises.",
+    "CASE STUDIES: Vocable (vocable.md lines 29, 43, 59: idea to product, stakeholder interviews, scope kept tight around the jobs writers named, screens tied to interview pain points) and Elia Wellness (elia-wellness.md lines 41, 91: plain navigation, readable layouts, big tap areas and simple rating scales on tablets for adults over 50) are the DOWN links. Do NOT attribute Vocable's 35% / 20% / 60+ / 35+ or Elia's 40% / 30+ results to MVP design choices. Elia's quote thanks the team for 'building' the platform: do not present it as a testimonial (lesson 2026-10-11). Nitro: only the discovery → user flows → tested by professional gamers line; never the $5M raise as a design result. Digno: idea to product, but no design-method detail relevant here; skip.",
+    "EXAMPLES: use ONE hypothetical US product across the brief card, cut table, storyboard and scorecard (suggestion: a booking and reminder tool for independent dog groomers in Texas, or a shift-swap app for nurses at small US clinics; pick one, label it hypothetical). Do not reuse the scheduling-SaaS (saas-onboarding), property-management (product-discovery), analytics (user-onboarding-automation) or meeting-notes / plumbing invoicing (saas-homepage-design) examples. No real startup critiqued.",
+    "DO NOT USE (seen in the SERP, unsourced or vendor marketing): Dribbble/Contra/Upwork MVP design prices ($500–$1,500, $1,490, $2,000, $5,600, '$20,000 four-week sprint'); '$1,500 (freelancer) to $100,000+ (enterprise agency)'; 'changes at the prototype stage cost hours, mid-development weeks' as a measured figure (fine only as the author's plain-language claim without numbers); 'fully-realized design in 6 weeks'; Michael Seibel 'launch a crappy MVP in 30 days' (unverified third-party page); Ries 'one-eighth as robust' (secondary archive note); any '90% of startups fail' line; any '1:10:100' cost-of-change rule without a primary source.",
+    "FACT-CHECKER FLAGS: (1) leanstartup.co: confirm the definition wording and 'not about creating minimal products'. (2) CB Insights: both editions come from secondary coverage; find a CB Insights page or cite 'as reported by'; label as founders' post-mortems. (3) NN/g: confirm ~85% wording, L = 31% and the 'several small tests' advice. (4) WCAG 2.5.8: confirm on w3.org if possible. (5) Figma help: confirm starting-point and sharing behavior; leave plan details (paid-plan prototype-only links) out unless confirmed. (6) YC library page: describe only what its summary says.",
+    "ABBREVIATIONS to expand on first use: minimum viable product (MVP), user experience (UX), user interface (UI), Nielsen Norman Group (NN/g), Web Content Accessibility Guidelines (WCAG), Americans with Disabilities Act (ADA), Y Combinator (YC) if abbreviated, product requirements document (PRD) if used.",
+    "VOICE: first person by Sahar Asif for method and judgment ('When I scope an MVP with a founder, I ask for the riskiest assumption before any feature'). 'We' only for hub facts (4–8 weeks, 5–8 users, clickable Figma prototype, handoff, tkxel builds if needed) and the Vocable / Elia Wellness case studies. No invented anecdotes, clients or numbers.",
+    "US FRAME: US example product and users, USD only if money appears (it should not, beyond the hub link), WCAG 2.2 AA with ADA/Section 508 as the frame, American spelling (prioritize, behavior, color, labeled). GDPR only as 'if you also sell in the EU', probably not needed.",
+    "ENTITY SALIENCE: 'MVP' and the keyword family must lead. Cap rival entities at about 6 uses each: 'prototype', 'user flow', 'wireframe', 'usability test'. The on-page script counts an H2 toward the 40% keyword share when it holds a keyword word longer than 3 letters ('design'): H2s 1, 2, 3, 6, 8 and 9 contain it (6 of 9 = 67%). H2s 4, 5 and 7 carry 'MVP' / 'core flow' / 'prototype' instead.",
+    "POST-PUBLISH MONITOR: if Google ranks the hub instead of the post for 'how to design an mvp', or the post starts ranking for 'mvp design agency', add backlinkSuggestions #1 first (required anyway) and check that the post does not use 'MVP design' as a phrase more than 4 times."
+  ]
+}
