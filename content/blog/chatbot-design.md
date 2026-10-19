@@ -172,7 +172,7 @@ Gate 5: pass when no state ends without a next action. One of those states is a 
 
 ## Step 6: When should the chatbot hand off to a person?
 
-**Hand off to a person when the user asks, after two failed turns and before any sensitive or irreversible action, and pass the chat history so nobody retells the story.**
+**Show a visible path to a person when users ask, after two failed turns or before a sensitive action, and pass the chat history so they never repeat themselves.**
 
 A chatbot without a handoff path traps the user who needed help most. So the handoff button sits in the chat from the first message, not only after failure. I write the human handoff triggers as an ordered list:
 
