@@ -107,3 +107,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-18 (loop 2): Re-check each QA-merged sentence against its own source, not against the loop 1 replacement text.
 - 2026-10-18: When a label fix is on an image, check SVG text, aria-label, panel and visuals.json in one pass, and check where the label sits, not only its wording.
 - 2026-10-18: A job title from home.ts may be spelled out or shortened to its main role, but never upgraded ("lead", "head").
+
+- 2026-10-19 (chatbot-design): When a newer survey edition replaces an old figure, write the replacement in the new edition's own question wording and age bracket (Pew 2026: "use" ChatGPT, ages 18–29).
+- 2026-10-19: A California bill "held under submission" in year one of a two-year session can still move in year two; search leginfo and news for second-year actions before calling it dead.
+- 2026-10-19: In each "we/our" sentence, diff the adjectives and nouns describing deliverables or test material against the service file's words, not only the numbers ("every system state", "recorded model answers", "jobs" vs "intents").

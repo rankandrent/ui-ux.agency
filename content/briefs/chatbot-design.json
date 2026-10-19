@@ -1,0 +1,519 @@
+{
+  "slug": "chatbot-design",
+  "keyword": "chatbot design",
+  "secondary": ["design chatbot", "ai chatbot design", "chatbot interaction design", "chatbot design process", "chatbot design principles", "best chatbot design"],
+  "metaKeywordVariants": ["how to design a chatbot", "designing a chatbot", "chatbot design steps", "ai assistant design", "chatbot design checklist"],
+  "intent": "Informational how-to with planning intent (Ahrefs intents for 'chatbot design': informational + commercial). Searchers are product managers, founders and design leads at US SaaS and AI companies who are adding a support bot or an in-product AI assistant and want to know how to design one: whether chat is the right pattern, what it should do first, how it talks, how it fails, when it hands off and how to test it. Page 1 (Ahrefs SERP 2026-10-19) is mixed: inspiration galleries (dribbble #1, figma community #2, mobbin #4, pinterest #6), one definition page (IBM #3), one guideline article (NN/g #7), reddit #9 and an examples list (sendbird #10); AI overview sitelinks add Intercom 'Principles of bot design' (2021) and Eleken's examples post. No ranking page is an ordered, decision-first method for LLM-era assistants. The commercial query 'chatbot UI design' belongs to the hub (different Ahrefs parent topic: 'chatbot template').",
+  "volume": 450,
+  "kd": 3,
+  "trafficPotential": 450,
+  "cpc": 350,
+  "clusterVolume": 800,
+  "clusterVolumeNote": "keyword + secondaries with measured rows: 450 + 150 + 40 + 30 + 30 + 40 + 50 = 790 (chatbot design, design chatbot, ai chatbot design, chatbot interaction design, chatbot design process, chatbot design principles, best chatbot design). blog-opportunities.json 'chatbot design' entry lists sumVolume 860 for its 7 rows, which includes 'chatbot interface design' (80) and 'chatbot ui examples' (60); those two are NOT targets here (hub anchor / examples post). Do not present any cluster figure as the page's volume.",
+  "dataSource": "Ahrefs US, raw rows in docs/content-system/warehouse/2026-10-19-terms-chatbot-design.json (pulled 2026-10-19): 'chatbot design' 450 / KD 3 / CPC 350 cents / parent 'chatbot design' / TP 450; 'design chatbot' 150 / KD 6 / TP 350 / parent 'chatbot design'; 'ai chatbot design' 40 / KD 0 / TP 450; 'chatbot interaction design' 30 / KD 8 / TP 250; 'best chatbot design' 50 / KD 4 / TP 300; 'chatbot design principles' 40 / KD null; 'chatbot design process' 30 / KD null. SERP from docs/content-system/warehouse/2026-10-19-serp-chatbot-design.json. blog-opportunities.json entry 'chatbot design' (score 78.5, expectedMonthlyTraffic 135, avgKd 3, serp.avgDr 89, weakResults 4, matrix: ui-ux.agency position 100). Semrush called once on 2026-10-19: no_api_units. No GSC export (docs/data/gsc/latest.json missing). The task mentioned AHREFS_API_KEY, but this run had no shell, so no live Ahrefs call was made; the warehouse file is the Ahrefs pull of the same day. DEVIATION from the 2026-10-12 owner rule (Semrush or GSC): measured Ahrefs volume used, as accepted in the saas-onboarding, product-discovery, user-onboarding-automation, saas-homepage-design and how-to-design-an-mvp precedents. 'how to design a chatbot' has NO Ahrefs row in any warehouse file (grep 'how to (design|create|make|build).{0,6}chat' found only conversation-flow variants), so it is a lexical variant and meta keyword only, with no volume claimed. WebFetch returned ENOTFOUND for ibm.com, nngroup.com and uiuxdesignservices.us (with and without www); competitor coverage comes from search snippets.",
+  "dataSourceDate": "2026-10-19",
+  "primaryChoice": "Kept the opportunity's main 'chatbot design' (450). Reasons: (1) highest measured volume in the cluster and its own Ahrefs parent topic, while the hub's 'chatbot ui design' rolls up to a different parent ('chatbot template'), so Google already treats the two as different SERPs; (2) the 'chatbot design' SERP is informational (IBM definition, NN/g guidelines, galleries), the hub is a commercial service page; (3) the hub's title 'Chatbot UI design', H1, anchor and metaTitle never contain the contiguous phrase 'chatbot design'; (4) the orchestrator's 'how to design a chatbot' intent has no volume row, so it rides along as the H1 framing and a lexical variant. The 2026-10-19 audit suggested banking 'chatbot design' on the hub; this brief answers that risk with a strict hub-phrase ban, a hub→post link with the anchor 'chatbot design checklist', and a post-publish monitor (notes).",
+  "score": 78.5,
+  "expectedMonthlyTraffic": 135,
+  "opportunity": "docs/content-system/blog-opportunities.json, topic 'chatbot design' (main 'chatbot design', 7 keywords, sumVolume 860, TP 450, avgKd 3, score 78.5, format 'complete guide (definition, process, examples, checklist)'). Ledger run 2026-10-19 selected it. Related entries: 'conversational ai design' (main 'conversational ui', 76.8), 'chat bot ui design' (main 'chatbot design examples', 73.8), 'chatbot conversation design' (58.1), 'chatbot best practices' (main 'chatbot ux design', 61.2), all handled in rejectedCandidates.",
+  "hub": "chatbot-ui-design",
+  "hubUrl": "/services/ai-products/chatbot-ui-design/",
+  "hubUrlVerified": "content/services/chatbot-ui-design.json category 'AI products' → pillar slug 'ai-products' (content/pillars.ts line 30; worker/index.ts line 171 maps chatbot-ui-design → ai-products). Same URL linked from content/pillars.ts line 52, content/home.ts line 134, content/pages/about.md line 15, content/services/ai-ux-design-agency.json line 25, ai-product-discovery-workshop.json line 87 and content/blog/user-onboarding-automation.md line 224.",
+  "pillar": "ai-products",
+  "services": ["chatbot-ui-design"],
+  "industries": [],
+  "author": "saliha-shahzad",
+  "authorWhy": "Saliha Shahzad is UI/UX Designer (content/home.ts line 204; content/authors.json bio empty). Chatbot design is hands-on interaction and interface work (message states, suggested replies, handoff, accessibility), which matches a UI/UX designer's role, and she has not written a post yet, so rotation favors her. Rejected: Sahar Asif wrote the last post (how-to-design-an-mvp, 2026-10-18); Shahmir Farooq wrote saas-homepage-design (2026-10-17); Ahmad Ullah (product-discovery) and Faizan Khan (saas-onboarding) are product/research voices. Talha Saleem (Senior UI/UX Designer, last used 2026-10-16, 3 posts ago) is the fallback if the owner prefers a senior byline; his user-onboarding-automation post already has an AI-assistant handoff section, so the two posts would read alike under one name.",
+  "funnel": "tofu",
+  "funnelWhy": "SERP sets the stage (lesson 2026-10-06). Page 1 is galleries, a definition page and a guideline article; no cost, pricing or vendor page appears, so it is not BOFU, and the dominant page type is learning material, not planning comparisons, so TOFU. Silo count: chatbot-ui-design has 0 published posts; the new-silo rule asks for 1 BOFU + 1 MOFU, so this is a deviation, chosen by the orchestrator by opportunity score (as in the product-discovery precedent, lesson 2026-10-15). Practical reason too: the MOFU template CTA shows the first related case study, and no case study in content/case-studies/ covers a chatbot (grep 'chat|assistant|conversation|bot': only Parents Connect's human-to-human chat), so a MOFU CTA would show an off-topic result (audit 2026-10-19 proposal 6). The TOFU checklist CTA fits the Checklist type. Next post in this silo: MOFU 'chatbot conversation design' (80 / KD 5, audit 2026-10-19 pick), then a BOFU candidate the hub does not own (hub owns cost, 6 deliverables, 4-step process, support-bot-vs-assistant table, 4 mistakes, 4 FAQs incl. redesign of a live bot): test 'chatbot redesign / chatbot audit' or 'ai assistant design rfp'.",
+  "serviceSupport": 4,
+  "serviceSupportWhy": "A SaaS or AI product team learning how to design a chatbot is planning the exact work the hub sells: conversation map, message components, input design, system states, human handoff and a personality guide in 3 to 8 weeks. Many readers will build a first FAQ bot in a builder tool themselves; the post shows where that breaks (repair paths, LLM answer states, handoff, accessibility, transcript testing). Not a 5: some searchers are students, designers looking for inspiration or developers choosing a framework.",
+  "title": "Chatbot design: an 8-step checklist for SaaS and AI product teams",
+  "metaTitle": "Chatbot Design: 8 Steps From Scope to a Tested Assistant",
+  "metaDescription": "Chatbot design in 8 steps for SaaS and AI teams: decide if chat fits, scope jobs, plan repair paths and AI answer states, then pass a gate at each step.",
+  "centralEntity": "chatbot design",
+  "sourceContext": "ui-ux.agency (the design team of tkxel, Reston, VA) writes as a product design team that designs chat windows, conversation flows, answer states and human handoff for AI assistants and support bots inside US SaaS and AI products. The post gives the method a product team can follow, step by step with a pass gate per step, and shows where a design team changes the outcome, without restating the hub's package, process, comparison table, mistakes or price.",
+  "entities": [
+    "chatbot",
+    "AI assistant",
+    "support bot",
+    "large language model (LLM)",
+    "conversation flow",
+    "intent",
+    "fallback",
+    "repair path",
+    "human handoff",
+    "suggested replies (quick replies)",
+    "starter prompts",
+    "answer card",
+    "streaming response",
+    "source citation",
+    "refusal state",
+    "chat transcripts",
+    "task success rate",
+    "containment rate",
+    "WCAG 2.2",
+    "screen reader",
+    "California bot disclosure law (B&P Code §17941)",
+    "IBM",
+    "Nielsen Norman Group (NN/g)",
+    "Google People + AI Guidebook (PAIR)",
+    "Figma"
+  ],
+  "attributes": [
+    "purpose: the jobs the chatbot owns on day one",
+    "scope: number of jobs/intents at launch",
+    "input style (buttons, free text, files, voice)",
+    "response length and answer format",
+    "repair strategy (reprompts, examples, escalation)",
+    "answer grounding (sources, confidence cues)",
+    "reply states (streaming, error, refusal, offline, handoff)",
+    "handoff trigger and context passed",
+    "bot disclosure (identity, capabilities, limits)",
+    "accessibility level (WCAG 2.2 AA: contrast, status messages, keyboard)",
+    "test method and pass thresholds (task success, turns per task)",
+    "timeline with a team"
+  ],
+  "ngrams": [
+    "chatbot design",
+    "design a chatbot",
+    "ai chatbot design",
+    "chatbot interaction design",
+    "chatbot design process",
+    "chatbot design principles",
+    "conversation flow",
+    "repair path",
+    "human handoff",
+    "suggested replies",
+    "starter prompts",
+    "answer card",
+    "streaming response",
+    "chat transcripts",
+    "task success",
+    "turns per task",
+    "status messages"
+  ],
+  "eav": [
+    { "attribute": "definition (scope of the discipline)", "value": "IBM describes chatbot design as a blend of UX design, UI design, copywriting, conversational AI and machine learning, covering chatbots, IVR systems and virtual agents", "source": "https://www.ibm.com/think/topics/chatbot-design" },
+    { "attribute": "UX vs UI split", "value": "what the chatbot says and why is UX design; how that dialogue is displayed (layout, buttons, input placement, window size) is UI design", "source": "https://www.ibm.com/think/topics/chatbot-design (fact-checker: confirm wording on the page; WebFetch blocked, seen in search summary)" },
+    { "attribute": "US user familiarity (why chat is expected)", "value": "34% of US adults had used ChatGPT (Pew, survey Feb 24–Mar 2, 2025, 5,123 adults), 58% of adults under 30", "source": "https://www.pewresearch.org/short-reads/2025/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023/" },
+    { "attribute": "US user familiarity (latest)", "value": "44% of US adults in a Feb 17–23, 2026 Pew survey (question also asked about other chatbots)", "source": "https://www.pewresearch.org/chart/majorities-of-adults-under-50-now-use-chatgpt/ (VERIFY: figure seen only in a search summary; if the chart does not show 44% and those dates, drop it and keep the 2025 figure)" },
+    { "attribute": "what users want from a site chatbot", "value": "helpful site-specific AI chatbots state their capabilities, offer relevant prompt suggestions and quickly show they know what the user is looking at; users come for quick answers, not conversation", "source": "https://nngroup.com/articles/ai-chatbots-design-guidelines (fact-checker: snippet-level confirmation only; quote nothing verbatim)" },
+    { "attribute": "one chat entry point", "value": "NN/g advises consolidating chat features: one bot that identifies itself, handles what it can and passes the rest to humans, rather than an AI chat beside a separate live chat", "source": "https://nngroup.com/articles/ai-chatbots-design-guidelines" },
+    { "attribute": "day-one scope (our published example)", "value": "a support widget with 20 to 30 intents on one website is the small end of our chatbot work", "source": "content/services/chatbot-ui-design.json ('How much does chatbot UI design cost?' body). Use as a scope fact; link the hub cost section instead of quoting the price here." },
+    { "attribute": "where the jobs come from", "value": "real support chats or search logs show the top questions and the words users actually use", "source": "content/services/chatbot-ui-design.json process step 1 'Transcript review (1 week)'" },
+    { "attribute": "repair: first reprompt", "value": "when the bot cannot interpret a reply, the first reprompt is short and does not repeat the original question word for word; later reprompts add options or examples", "source": "https://developers.google.com/assistant/conversation-design/errors (Google's conversation design guidelines, written for Google Assistant; the URL appeared in search with ?authuser=2)" },
+    { "attribute": "repair: escalation limit", "value": "after two failed turns, show a visible path to a person and pass the chat history so users never repeat themselves", "source": "content/services/chatbot-ui-design.json (mistake card 'No escape' + deliverable 'Human handoff'); consistent with Google's two-reprompt fallback pattern" },
+    { "attribute": "AI answer latency", "value": "generation takes 3 to 20 seconds, so the design needs streaming text, progress states and partial results", "source": "content/services/ai-ux-design-agency.json ('Slow responses' item)" },
+    { "attribute": "AI answer grounding", "value": "each AI answer gets a source, a plain-language confidence cue and a way to correct it (accept, edit, reject)", "source": "content/services/ai-ux-design-agency.json (section 1 caption and 'Unclear trust' item)" },
+    { "attribute": "errors as design input", "value": "Google's People + AI Guidebook asks teams to define what counts as an error, identify where errors come from and provide paths forward from failure", "source": "https://pair.withgoogle.com/chapter/errors-failing/" },
+    { "attribute": "reply states (what the hub designs)", "value": "typing, streaming, retry, error, refusal and offline states, each with a clear next action", "source": "content/services/chatbot-ui-design.json deliverable 'System states' (link, do not rebuild the 6-part list)" },
+    { "attribute": "accessibility: contrast", "value": "WCAG SC 1.4.3 (AA): message text at least 4.5:1, large text 3:1; our chat windows target at least 4.5:1 for message text", "source": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum ; content/services/chatbot-ui-design.json FAQ 'Does chatbot UI design include accessibility?'" },
+    { "attribute": "accessibility: announcing new messages", "value": "WCAG SC 4.1.3 Status Messages (AA, added in 2.1, carried into 2.2): status messages such as 'typing', progress and errors must be programmatically determinable so screen readers announce them without moving focus", "source": "https://www.w3.org/WAI/WCAG21/Understanding/status-messages" },
+    { "attribute": "US disclosure law", "value": "California's bot disclosure law (SB 1001, Bus. & Prof. Code §17940 et seq., in effect July 1, 2019) makes it unlawful to use a bot to mislead a person in California about its artificial identity to drive a sale or influence a vote; a clear, conspicuous disclosure that it is a bot avoids liability", "source": "https://perkinscoie.com/insights/blog/i-am-robot-californias-new-law-requires-disclosure-use-bots (US law firm alert, 2019). Fact-checker: AB 410 (2025) would amend §§17940–17942; LegiScan showed it held in committee; re-check status on publish day." },
+    { "attribute": "when a person must decide", "value": "Microsoft's responsible-bot guidelines (Nov 2018) ask whether a situation calls for people to provide judgment, expertise and empathy, especially in employment, finance and health", "source": "https://blogs.microsoft.com/blog/2018/11/14/microsoft-introduces-guidelines-for-developing-responsible-conversational-ai/" },
+    { "attribute": "how we test (hub)", "value": "users complete real tasks with a clickable prototype; we measure task success and the number of turns per task", "source": "content/services/chatbot-ui-design.json process step 4 'Conversation testing (1–2 weeks)'" },
+    { "attribute": "timeline with a team (hub)", "value": "3 to 8 weeks in 4 steps: transcript review, flow design, interface design, conversation testing", "source": "content/services/chatbot-ui-design.json; content/pillars.ts AI FAQ. Mention once with a deep link; do not rebuild the 4 steps." },
+    { "attribute": "chat-or-screen test (unique angle)", "value": "chat earns its place when requests are open-ended, phrased in many ways and answered from content the user cannot easily browse; a fixed task with known fields (change a plan, reset a password) is faster as a screen or form", "source": "ui-ux.agency method (SERP gap: no ranking page asks whether the product needs a chatbot at all). First person, method only, no numbers." },
+    { "attribute": "pass gate per step (unique angle)", "value": "each of the 8 steps ends with one yes/no gate the team must pass before the next step; the 8 gates form the closing checklist", "source": "ui-ux.agency method (format gap: all ranking pages are galleries, definitions or unordered guideline lists)" }
+  ],
+  "skipgrams": [
+    ["chatbot", "handoff"],
+    ["intent", "fallback"],
+    ["transcripts", "questions"],
+    ["streaming", "screen reader"],
+    ["source", "answer"],
+    ["refusal", "next step"],
+    ["bot", "disclose"],
+    ["task success", "turns"],
+    ["suggested replies", "typing"],
+    ["contrast", "4.5:1"],
+    ["AI assistant", "support bot"],
+    ["conversation flow", "repair"],
+    ["confidence", "person"],
+    ["starter prompts", "capabilities"]
+  ],
+  "lexical": {
+    "synonyms": ["designing a chatbot", "how to design a chatbot", "bot design", "conversational interface design", "AI assistant design"],
+    "hypernyms": ["conversational AI", "interaction design", "user experience design", "AI product design", "UX writing"],
+    "hyponyms": ["support bot", "in-app AI assistant", "copilot panel", "FAQ bot", "lead qualification bot", "voice assistant", "rule-based chatbot", "LLM chatbot"],
+    "meronyms": ["greeting message", "starter prompts", "message bubble", "answer card", "suggested reply chips", "input field", "typing indicator", "source link", "feedback buttons", "fallback message", "handoff button", "chat history", "personality guide"]
+  },
+  "keywordCarrier": {
+    "primary": "Noun phrase; use it as a subject or object ('Chatbot design starts…', 'good chatbot design keeps…'). H1 opens with 'Chatbot design:'. First sentence pattern (Saliha's voice): 'Before I open Figma for any chatbot design, I ask a product team three questions: …'. Never stack a noun after it except 'process', 'principles' or 'checklist' (all valid compounds); never write 'chatbot design agency', 'chatbot design services' or 'chatbot design cost' (hub territory). Required in: metaTitle (first words), description (first words), first meta keyword, H1, first 60 words.",
+    "density": "Word share as QA measures it: max uses = 0.02 × body words ÷ 2. For a 2,600–3,000-word body that is at most 26–30 exact uses; aim for 16–20 (about 1.2%). Vary with 'designing a chatbot', 'the bot', 'the assistant' and the lexical relations. Alt text does not count.",
+    "secondary": {
+      "design chatbot": "Bare verb + noun string; use only with chatbot as a modifier of a following noun: 'Teams that design chatbot flows before they read a single transcript usually redraw them.' Once in Step 2 and once in the meta keywords. Never 'how to design chatbot' without an article.",
+      "how to design a chatbot": "No volume row; lexical variant. Once in the intro paragraph after the definition ('…which is how to design a chatbot that people finish tasks with') and once in an FAQ answer.",
+      "ai chatbot design": "Noun phrase; carried in the H2 of Step 4 and the first sentence under it.",
+      "chatbot interaction design": "Noun phrase; first sentence under Step 5 ('Chatbot interaction design decides what each reply does while it loads, fails or hands off').",
+      "chatbot design process": "Noun phrase; once in the intro ('the chatbot design process below runs in 8 steps') and once in the closing checklist section.",
+      "chatbot design principles": "FAQ question 'What are the core chatbot design principles?' and its first sentence.",
+      "best chatbot design": "Use as a subject with a copula, never as a modifier: 'The best chatbot design is the one users finish a task with in the fewest turns.' Once, in the closing section."
+    },
+    "metaTitle": "Chatbot Design: 8 Steps From Scope to a Tested Assistant (56 chars)",
+    "h1": "Chatbot design: an 8-step checklist for SaaS and AI product teams (65 chars)",
+    "description": "Use as written (152 chars, keyword first, TOFU payoff ending, no apostrophe, no consultation CTA per audit 2026-10-19): 'Chatbot design in 8 steps for SaaS and AI teams: decide if chat fits, scope jobs, plan repair paths and AI answer states, then pass a gate at each step.' Every verb's subject is the reader; 'each step' refers to the 8 steps.",
+    "metaKeywords": ["chatbot design", "design chatbot", "ai chatbot design", "chatbot interaction design", "how to design a chatbot", "chatbot design process"],
+    "hubAnchorBan": "Never use 'chatbot UI design', 'chatbot interface design', 'chatbot UI', 'chatbot design UI', 'conversational UI' or 'conversational AI interfaces' as keyword phrases in the title, H1, metaTitle, description, any H2/H3 or alt text. 'chatbot UI design' and 'chatbot interface design' appear ONLY as link anchor text to the hub (once each at most). In body prose say 'chat window', 'interface' or 'screens' instead. 'chatbot conversation design' at most once in body text (reserved for the silo's next post)."
+  },
+  "questions": [
+    "How do you design a chatbot?",
+    "Does my product need a chatbot at all?",
+    "How many intents or jobs should a chatbot launch with?",
+    "What are the four types of chatbots? (PAA in the warehouse SERP)",
+    "Can I build my own AI chatbot? (PAA; answer as design, not engineering)",
+    "How much does it cost to build a chat bot? (PAA; link the hub cost section, never restate beyond the published range)",
+    "What should a chatbot do when it does not understand?",
+    "How should an AI chatbot show where its answer came from?",
+    "When should a chatbot hand off to a human?",
+    "Do chatbots have to say they are bots in the US?",
+    "How do you make a chatbot accessible to screen reader users?",
+    "How do you test a chatbot before launch?",
+    "What is the difference between chatbot UI and UX design?",
+    "What are the core chatbot design principles?"
+  ],
+  "serpGaps": [
+    "Half of page 1 is image galleries and template libraries (dribbble, figma, mobbin, pinterest). They show what chat windows look like, not how to decide what the bot does. Our post is a decision-first method.",
+    "IBM (#3) defines the discipline and splits UI from UX, but it is a definition page written for enterprise buyers of IBM tooling; no step order, no LLM answer states, no testing method.",
+    "NN/g (#7) gives guidelines for site-specific AI chatbots (capabilities, prompt suggestions, page context). It is an unordered list for websites, not an in-product SaaS assistant method, and it does not cover US disclosure law or accessibility of streamed replies.",
+    "No ranking page asks the first question: does this product need a chatbot, or a better screen? Our Step 1 decision flow fills that gap.",
+    "Example lists (sendbird, eleken, lazarev, arounda) critique screenshots. None gives a scope artifact; we add a one-job card (trigger phrases, details to collect, answer format, success signal, fallback).",
+    "Repair is reduced to 'add a fallback'. We cite Google's reprompt guidance and set a two-failed-turn handoff rule from our own published practice.",
+    "LLM-specific design (streaming, sources, confidence cues, refusals, wrong-but-confident answers) is missing from the older pages (Intercom 2021). We cover it with Google PAIR's error framing and our AI UX patterns.",
+    "No page covers the US frame: California's bot disclosure law (§17941) and WCAG 2.2 AA for chat (4.5:1 contrast, SC 4.1.3 status messages for 'typing' and streamed text) with ADA/Section 508 as context.",
+    "Testing advice stops at 'test and iterate'. We give a transcript scorecard with written pass thresholds (task success, turns per task, handoff rate, wrong-answer catches) set by the team before sessions.",
+    "Format gap: nothing on page 1 is a checklist with a pass gate per step; ours is, and the 8 gates are the TOFU lead asset."
+  ],
+  "contentModules": {
+    "title": "Chatbot design: an 8-step checklist for SaaS and AI product teams",
+    "subtitle": "How to design a chatbot or AI assistant that people finish tasks with: decide if chat fits, scope its first jobs, write the happy and repair paths, show sources, design every reply state, set handoff rules, meet US accessibility and disclosure rules, and test with transcripts. Each step ends with a pass gate.",
+    "intro": "Three-question gate opener (see variety.introStyle): Saliha's first sentence carries the keyword and lists the three questions she asks before opening Figma (What job will people bring to it? What happens when it is wrong? Who takes over?), as one sentence with an inline numbered list, not a blockquote. Then the IBM-based definition of chatbot design in one sentence (first 60 words), the Pew 34% line as the reason chat is now expected, and a one-line map of the 8 steps. First UP link to the hub inside the first 300 words.",
+    "dataModules": [
+      { "type": "decision flow (image + astext)", "h2": "Step 1", "what": "Chat or screen? 4 yes/no questions → 3 outcomes: improve the screen or form; guided bot with buttons; open AI assistant with free text." },
+      { "type": "one-job scope card (image + astext)", "h2": "Step 2", "what": "A card for one job of the hypothetical product: job name, trigger phrases from transcripts, details to collect, answer format, success signal, fallback, owner. Plus a short ranked job list (text table: job | share of transcripts | answer source | launch? yes/later)." },
+      { "type": "two-lane path table (text table)", "h2": "Step 3", "what": "Table: turn | happy path | repair path, 5 rows for one job, introduced by one sentence and a 'Table:' line." },
+      { "type": "reply state strip (image + astext)", "h2": "Step 5", "what": "One assistant reply drawn in 7 states: streaming, answer with source, low confidence, refusal, error with retry, offline, handoff, each with its next action." },
+      { "type": "handoff rule list (ol in text)", "h2": "Step 6", "what": "Numbered handoff triggers (asked for a person, two failed turns, sensitive topic, account/payment action, negative sentiment) + what context passes to the agent." },
+      { "type": "transcript scorecard (image + astext)", "h2": "Step 8", "what": "Columns: task | pass threshold (team-set) | result | turns | handoff? | wrong answer caught? | verdict. Illustrative rows for the hypothetical product, labeled as an example; no benchmark rates." },
+      { "type": "8-gate checklist (text table, lead asset)", "h2": "closing section", "what": "Step | gate question | pass when… One row per step; the TOFU checklist download mirrors it." }
+    ]
+  },
+  "outline": [
+    {
+      "h2": "Step 1: Does your product need a chatbot, or a better screen?",
+      "answerHint": "**A product needs a chatbot when users bring open-ended questions in their own words and the answer sits in content they cannot easily browse; when the task has fixed fields, a better screen or form beats chat.** (≤40 words)",
+      "points": [
+        "First H2 is a decision, not a definition (audit 2026-10-19). The definition already sits in the intro.",
+        "Chat-or-screen decision flow (visual 1 + astext): 4 questions (Do users phrase the request many ways? Is the answer in docs, data or policy they would otherwise search? Does the task need back-and-forth to collect details? Can a person take over when it fails?) → 3 outcomes.",
+        "Support bot vs AI assistant in one sentence each, then deep link to the hub comparison (conditional internal target) instead of rebuilding the hub's 5-row table.",
+        "NN/g: one chat entry point, not an AI chat beside a separate live chat (eav[5]).",
+        "Hypothetical example introduced here and used through the post: a US payroll and scheduling SaaS for restaurant groups adding an assistant that answers 'why is my paycheck different this week?' and 'can I swap Friday's shift?'. Label it hypothetical. Paycheck questions → assistant; shift swap → a better screen with a deep link from chat.",
+        "Gate 1 line at the end: 'Pass when you can name the screen the bot replaces or the search it shortcuts.'",
+        "Bridge: 'If chat wins, the next question is which jobs it takes first.'"
+      ]
+    },
+    {
+      "h2": "Step 2: Which jobs should the chatbot handle on day one?",
+      "answerHint": "**Launch the chatbot with the few jobs that make up most of your real support chats or searches, each with a known answer source, and park the rest for later.**",
+      "points": [
+        "Where jobs come from: transcripts and search logs (eav[7]); the words users actually use become trigger phrases. Carry 'design chatbot' here (keywordCarrier.secondary).",
+        "Scope fact: a support widget with 20 to 30 intents is the small end of our work (eav[6]); state as our published scope, link the hub cost section later, not here.",
+        "One-job scope card (visual 2 + astext) for 'explain a paycheck difference': trigger phrases, details to collect (pay period, location), answer format (answer card with line items), success signal, fallback, owner on the payroll team.",
+        "Ranked job list as a text table with 'launch / later' decision (illustrative shares labeled as example, not data).",
+        "Starter prompts come from the top jobs: NN/g says helpful bots state capabilities and offer relevant prompt suggestions (eav[4]).",
+        "Gate 2: 'Pass when every launch job has an answer source and an owner.'",
+        "Bridge: 'With the jobs fixed, write how each conversation goes, and how it goes wrong.'"
+      ]
+    },
+    {
+      "h2": "Step 3: How do you write the happy path and the repair paths?",
+      "answerHint": "**Write each job's conversation twice: the happy path in as few turns as possible, then the repair path for every turn where the bot can misunderstand, stall or lack data.**",
+      "points": [
+        "Happy path: greeting that states what the bot can do, collect details with suggested replies instead of typing, answer in a card, confirm, offer the next step.",
+        "Repair path: Google's reprompt guidance (eav[8]): first reprompt short and not a word-for-word repeat; second adds options or examples; then hand off (eav[9]).",
+        "Two-lane path table (text table) for one job, 5 turns. Introduce with one sentence and a 'Table:' line.",
+        "Tone and length: short replies, one question per turn; a personality guide fixes greeting, length and tone (link the hub deliverable 'Bot personality guide' only if the link budget allows; otherwise plain mention).",
+        "Mention once that the silo's deeper conversation-writing guide is planned (no link, no promise of date). Do NOT target 'chatbot conversation design' here.",
+        "Gate 3: 'Pass when every turn has a repair line and no repair loops back to the same question twice.'",
+        "Bridge: 'Rule-based bots stop there. An LLM assistant adds a new problem: answers that sound right and are not.'"
+      ]
+    },
+    {
+      "h2": "Step 4: How does AI chatbot design show where an answer came from?",
+      "answerHint": "**AI chatbot design shows the source of each answer, a plain-language confidence cue and a one-tap way to correct or reject it, so users can check the answer before they act on it.**",
+      "points": [
+        "Why: LLM output differs each time and can be confidently wrong; Google PAIR's three error questions (eav[12]).",
+        "Patterns: source link or quote under the answer, 'based on your March 14 pay stub' style grounding, confidence wording, feedback buttons, edit/regenerate (eav[11]).",
+        "The post's ONE cross-hub link: our AI UX design agency team designs these review and correction patterns (eav[11]).",
+        "Streaming: generation takes 3 to 20 seconds (eav[10]); stream text and show progress rather than a spinner.",
+        "Pillar mention: /services/ai-products/ (AI product design) once, in the sentence on trust.",
+        "Gate 4: 'Pass when every AI answer that can trigger an action shows its source.'",
+        "Bridge: 'Sources cover the good answer. The next step covers every other state a reply can be in.'"
+      ]
+    },
+    {
+      "h2": "Step 5: Which states does every chatbot reply need?",
+      "answerHint": "**Every chatbot reply needs a designed state for streaming, a sourced answer, low confidence, refusal, error with retry, offline and handoff, and each state ends with one clear next action.**",
+      "points": [
+        "First sentence after the bold answer carries 'chatbot interaction design' (keywordCarrier.secondary).",
+        "Reply state strip (visual 3 + astext), the hypothetical paycheck answer in 7 states.",
+        "Link the hub's 'System states' deliverable via the hub include section (conditional) instead of listing the hub's 6 parts.",
+        "Refusal copy says what the bot cannot do and what to try next; error copy keeps the user's typed message.",
+        "LEAD ANGLE 1 lives at the end of this section (see leadAngle).",
+        "Gate 5: 'Pass when no state ends without a next action.'",
+        "Bridge: 'One of those states is a person.'"
+      ]
+    },
+    {
+      "h2": "Step 6: When should the chatbot hand off to a person?",
+      "answerHint": "**Hand off to a person when the user asks for one, after two failed turns, and before any sensitive or irreversible action, and pass the full chat history so the user never repeats themselves.**",
+      "points": [
+        "Handoff rule list as an ol (text): asked for a person; two failed turns (eav[9]); pay, legal, health or account-closure topics (Microsoft guideline, eav[17]); negative sentiment; outside hours → ticket with expected reply time.",
+        "What passes to the agent: the job, details collected, the bot's last answer and its source.",
+        "Visible handoff button from the first message, not hidden behind failure.",
+        "Do NOT reuse the handoff ladder visual or wording from /blog/user-onboarding-automation/ (other silo).",
+        "Gate 6: 'Pass when a tester can reach a person in two taps from any state.'",
+        "Bridge: 'Handoff protects users who are stuck. The next step protects users who cannot see the screen and users who need to know it is a bot.'"
+      ]
+    },
+    {
+      "h2": "Step 7: How do you make chatbot design accessible and lawful in the US?",
+      "answerHint": "**Make chatbot design accessible by meeting WCAG 2.2 AA (4.5:1 text contrast, keyboard use and screen reader announcements for new messages), and lawful by stating clearly that users are talking to a bot.**",
+      "points": [
+        "Contrast 4.5:1 / 3:1 (eav[14]); our chat windows target at least 4.5:1 for message text (hub FAQ).",
+        "SC 4.1.3 Status Messages (eav[15]): announce 'typing', streamed answers and errors through a live region without moving focus; avoid announcing every streamed token (announce when the answer completes). Keyboard: focus stays in the input after send.",
+        "US frame in one clause: ADA and Section 508 cases cite WCAG; no legal advice, no case citations.",
+        "Disclosure: California bot law (eav[16]): a clear, conspicuous 'I'm an AI assistant' line in the greeting; one sentence that AB 410 would change the law, only if still pending on publish day (fact-checker).",
+        "Gate 7: 'Pass when a screen reader user can send, hear the answer and reach a person, and the greeting says it is a bot.'",
+        "Bridge: 'Now prove it works with people.'"
+      ]
+    },
+    {
+      "h2": "Step 8: How do you test chatbot design before launch?",
+      "answerHint": "**Test chatbot design by giving real users your launch jobs as tasks in a clickable or wired prototype, then scoring each transcript against pass thresholds you wrote before the sessions: task success, turns per task, handoffs and wrong answers caught.**",
+      "points": [
+        "Hub method in one sentence with deep link (conditional): real tasks, clickable prototype, task success and turns per task (eav[18]). Do not rebuild the hub's 4 steps.",
+        "Use real or recorded model output in the prototype, including wrong answers (ai-ux hub FAQ: 5 to 8 users, real answers incl. wrong ones; attribute to AI feature testing, not to the chatbot hub).",
+        "Transcript scorecard (visual 4 + astext): illustrative rows, thresholds set by the team; no invented benchmark rates.",
+        "After launch: read transcripts weekly; containment rate alone hides users who gave up (define containment rate in one sentence; hub table names it as a support-bot metric).",
+        "LEAD ANGLE 2 at the end of this section.",
+        "Gate 8: 'Pass when every launch job meets its threshold in the last round.'",
+        "Bridge to the checklist."
+      ]
+    },
+    {
+      "h2": "The 8-gate chatbot design checklist",
+      "answerHint": "**The chatbot design process passes when all 8 gates pass; any failed gate sends you back to that step, not forward to launch.** (closing section; replaces the repeated 'Bottom line' H2, audit 2026-10-19)",
+      "points": [
+        "8-gate table (text, lead asset): step | gate question | pass when…; introduced by one sentence and a 'Table:' line.",
+        "'chatbot design process' and 'best chatbot design' carriers here (keywordCarrier.secondary).",
+        "Saliha's own recommendation in one first-person sentence, no label ('My recommendation:' is banned).",
+        "TOFU CTA: get the checklist (template CTA); second UP link to the hub with a varied anchor (e.g. 'design and test your assistant with our team'), or the hub cost section if the link builder prefers it in the FAQ."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "What are the four types of chatbots?", "a": "Teams usually group chatbots by how they understand input: menu or button bots, rule-based keyword bots, intent-based bots trained on example phrases, and generative AI assistants built on a large language model. Many products mix two, such as buttons for known jobs and free text for the rest." },
+    { "q": "What is the difference between chatbot UI and UX design?", "a": "UX design decides what the bot says, which actions it offers and when a person takes over; UI design decides how that dialogue looks: layout, buttons, input and window size (IBM's split). Our hub page covers the interface side as chatbot interface design." },
+    { "q": "What are the core chatbot design principles?", "a": "Chatbot design principles in one line each: say what the bot can do, keep replies short, offer suggested replies, show sources for AI answers, repair before you repeat, hand off after two failed turns, and announce new messages to screen readers." },
+    { "q": "How long does chatbot design take?", "a": "With our team, 3 to 8 weeks: transcript review, flow design, interface design and conversation testing. The number of intents, channels and languages sets where a project falls in that range (chatbot-ui-design.json line 91; no FAQ-bot or file-upload claim)." },
+    { "q": "How much does it cost to design a chatbot?", "a": "Our published range is $15,000 to $60,000, depending on the number of intents, channels and languages; link the hub cost section and do not add any other price." },
+    { "q": "Can I design a chatbot without a designer?", "a": "Yes, for a narrow FAQ bot in a builder tool, if you follow the 8 gates. The usual gaps are repair paths, AI answer states, handoff and screen reader support, which is where a designer saves rework." }
+  ],
+  "internalTargets": [
+    { "href": "/services/ai-products/chatbot-ui-design/", "anchor": "chatbot UI design", "priority": "required", "where": "Intro, inside the first 300 words. Hub link 1 of 2.", "verified": "content/services/chatbot-ui-design.json; pillar slug 'ai-products' (content/pillars.ts line 30)" },
+    { "href": "/services/ai-products/chatbot-ui-design/#how-much-does-chatbot-ui-design-cost", "anchor": "what chatbot interface design costs with our team", "priority": "required", "where": "FAQ 'How much does it cost to design a chatbot?' (hub link 2 of 2). If the link builder wants the plain hub URL for link 2, put it in the closing section and keep this fragment as the FAQ link only if fragments count separately.", "verified": "hub h2 'How much does chatbot UI design cost?' → sectionId() in components/sections/SemanticSections.tsx" },
+    { "href": "/services/ai-products/chatbot-ui-design/#chatbot-ui-design-for-support-bots-vs-ai-assistants", "anchor": "how support bots and AI assistants differ", "priority": "conditional", "blocker": "link-builder one-link-per-target rule (lesson 2026-10-16). If fragments count as separate targets, place in Step 1; otherwise one plain-text sentence.", "verified": "hub h2 'Chatbot UI design for support bots vs AI assistants' → sectionId()" },
+    { "href": "/services/ai-products/chatbot-ui-design/#what-does-our-chatbot-ui-design-include", "anchor": "the system states we design", "priority": "conditional", "blocker": "same one-link-per-target rule; otherwise plain mention in Step 5.", "verified": "hub h2 'What does our chatbot UI design include?' → sectionId()" },
+    { "href": "/services/ai-products/chatbot-ui-design/#how-does-the-chatbot-ui-design-process-work", "anchor": "our conversation testing step", "priority": "conditional", "blocker": "same one-link-per-target rule; otherwise plain mention in Step 8.", "verified": "hub h2 'How does the chatbot UI design process work?' → sectionId()" },
+    { "href": "/services/ai-products/", "anchor": "AI product design", "priority": "required", "where": "Step 4, one mention (pillar, not a separate service hub).", "verified": "content/pillars.ts slug 'ai-products'" },
+    { "href": "/services/ai-products/ai-ux-design-agency/", "anchor": "AI UX design", "priority": "required", "where": "Step 4, the sentence on sources, confidence cues and correction. The post's ONE cross-hub link (RULES.md).", "verified": "content/services/ai-ux-design-agency.json (category 'AI products')" },
+    { "href": "/services/ai-products/ai-product-discovery-workshop/", "anchor": "AI product discovery workshop", "priority": "skip", "why": "Cross-hub cap of 1 (AI UX design is the better fit for Step 4). Override only if the owner accepts two cross-hub links; it would fit Step 1." },
+    { "href": "/blog/user-onboarding-automation/", "anchor": "onboarding automation", "priority": "skip", "why": "Another silo's post (services[0] = saas-onboarding-design). RULES.md: never link to another silo's posts." },
+    { "href": "/blog/product-discovery/", "anchor": "product discovery", "priority": "skip", "why": "Another silo's post. Same rule." },
+    { "href": "/case-studies/parents-connect/", "anchor": "Parents Connect", "priority": "skip", "why": "Its 'real-time chat' is person-to-person community chat, not a bot or assistant. No case study covers chatbot work; no DOWN link in this post." },
+    { "href": "/contact/", "anchor": "contact", "priority": "skip", "why": "TOFU post: the template's checklist CTA is the conversion path; RULES.md step 6 keeps conversion links lean, and the audit limits consultation CTAs." }
+  ],
+  "backlinkSuggestions": [
+    {
+      "source": "content/services/chatbot-ui-design.json → section 'What is chatbot UI design?' → body <p> (line 25)",
+      "target": "/blog/chatbot-design/",
+      "anchor": "8-step chatbot design checklist",
+      "priority": "required",
+      "why": "Hub to post (silo rule: the pillar/hub links down to its posts, plus an in-body link per hub JSON, audit 2026-10-19). It is also the hub-banking answer to the audit's concern: the hub hands 'chatbot design' to the post with a descriptive anchor instead of competing for it.",
+      "old": "Chatbot UI design is one part of the wider user experience (UX) of an AI product; the rest of that work sits with our <a href=\\\"/services/ai-products/ai-ux-design-agency/\\\">AI UX design agency</a> team.</p>",
+      "new": "Chatbot UI design is one part of the wider user experience (UX) of an AI product; the rest of that work sits with our <a href=\\\"/services/ai-products/ai-ux-design-agency/\\\">AI UX design agency</a> team. Teams planning their first bot can start with our <a href=\\\"/blog/chatbot-design/\\\">8-step chatbot design checklist</a>.</p>",
+      "escapeNote": "The service file stores HTML inside a JSON string, so the href quotes appear in the file as backslash + quote, exactly like the existing link in that <p>."
+    },
+    {
+      "source": "content/pillars.ts → ai-products pillar → section 'Which teams need AI product design?' → card 'Support and operations teams' (line 92)",
+      "target": "/blog/chatbot-design/#step-6-when-should-the-chatbot-hand-off-to-a-person",
+      "anchor": "when a bot should pass a chat to a person",
+      "priority": "required",
+      "why": "The pillar is linked from the homepage and nav; this card is about bots that 'hand over cleanly', which is exactly Step 6. Cards render HTML (line 93 already holds an <a> inside a double-quoted string with backslash-escaped quotes). Fragment id from slugify() in lib/blog.ts applied to the planned H2 'Step 6: When should the chatbot hand off to a person?'; if the writer changes that H2, update the fragment or drop it.",
+      "old": "{ title: \"Support and operations teams\", body: \"Teams that want bots and internal tools that answer correctly and hand over cleanly.\" },",
+      "new": "{ title: \"Support and operations teams\", body: \"Teams that want bots and internal tools that answer correctly and hand over cleanly; our chatbot design steps show <a href=\\\"/blog/chatbot-design/#step-6-when-should-the-chatbot-hand-off-to-a-person\\\">when a bot should pass a chat to a person</a>.\" },"
+    },
+    {
+      "source": "content/services/ai-ux-design-agency.json → section 'Which AI UX design problems does our agency solve?' → item 'Blank-prompt paralysis.' (line 42)",
+      "target": "/blog/chatbot-design/#step-2-which-jobs-should-the-chatbot-handle-on-day-one",
+      "anchor": "choosing a chatbot's day-one jobs",
+      "priority": "required",
+      "why": "Real topic match: Step 2 turns the top jobs into starter prompts. Same pillar (AI products), and the ai-ux hub already links the chatbot hub in its first section. The silo rule restricts links inside posts; a service page linking a sibling hub's guide sends one link out of the ai-ux silo, accepted. Skip it only if the owner wants service pages to link their own silo's posts only.",
+      "old": "{ \"title\": \"Blank-prompt paralysis.\", \"body\": \"Users stare at an empty input. We design starter prompts, templates and examples taken from real tasks.\" },",
+      "new": "{ \"title\": \"Blank-prompt paralysis.\", \"body\": \"Users stare at an empty input. We design starter prompts, templates and examples taken from real tasks. In a chat assistant, those prompts come from the top launch jobs; see our guide to <a href=\\\"/blog/chatbot-design/#step-2-which-jobs-should-the-chatbot-handle-on-day-one\\\">choosing a chatbot's day-one jobs</a>.\" },"
+    },
+    {
+      "source": "content/home.ts line 134 (card 'Chat and assistant interfaces')",
+      "target": "/blog/chatbot-design/",
+      "priority": "skip",
+      "why": "Conversion path: RULES.md step 6 keeps the home page lean, and the card already links the hub."
+    },
+    {
+      "source": "content/blog/user-onboarding-automation.md line 224",
+      "target": "/blog/chatbot-design/",
+      "priority": "skip",
+      "why": "Cross-silo post-to-post link; RULES.md forbids it."
+    }
+  ],
+  "related": {
+    "linkBuilderRun": "2026-10-19",
+    "internalLinks": [
+      { "href": "/about/", "anchor": "the UI UX design agency of tkxel", "where": "intro self-introduction" },
+      { "href": "/services/ai-products/chatbot-ui-design/", "anchor": "chatbot UI design", "where": "intro, about word 120 (hub link 1 of 2, hub anchor)" },
+      { "href": "/services/ai-products/", "anchor": "AI product design", "where": "Step 4 (pillar)" },
+      { "href": "/services/ai-products/ai-ux-design-agency/", "anchor": "AI UX design", "where": "Step 4 (the one cross-service link)" },
+      { "href": "/services/ai-products/chatbot-ui-design/#how-much-does-chatbot-ui-design-cost", "anchor": "what chatbot interface design costs with our team", "where": "FAQ cost answer (hub link 2 of 2; fragment verified against sectionId())" }
+    ],
+    "droppedInternalMarkers": [
+      "Step 1 #chatbot-ui-design-for-support-bots-vs-ai-assistants: sentence rewritten without the page reference ('The two also differ in risk: a support bot can trap users in a loop, while an AI assistant can lead users to trust a wrong answer.', from the hub table's 'Key risk' row).",
+      "Step 5 #what-does-our-chatbot-ui-design-include: sentence 'Our service page lists the system states we design for every chat window.' deleted (it only carried the link; the next paragraph already states that our team designs every system state).",
+      "Step 8 #how-does-the-chatbot-ui-design-process-work: kept as plain text 'In our conversation testing step, ...'.",
+      "Closing section hub link ('design and test your assistant with you') de-linked to keep the hub at 2 links and let the TOFU checklist CTA win."
+    ],
+    "internalCountException": "5 contextual internal links (4 unique pages) vs TOFU 8-12. Orchestrator exception (product-discovery precedent): new silo with no sibling posts, no case study covering chatbot or assistant work, frontmatter industries [], hub capped at 2 by the orchestrator, cross-service cap 1, /contact/ skipped for TOFU. The 6th link arrives with the silo's next post (MOFU 'chatbot conversation design'), which can be linked from Step 3.",
+    "externalLinks": [
+      { "url": "https://www.ibm.com/think/topics/chatbot-design", "claim": "definition (UX, UI, copywriting, conversational AI, ML)", "verified": "ibm.com-restricted search returned the URL with matching snippet" },
+      { "url": "https://www.pewresearch.org/short-reads/2025/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023/", "claim": "34% of US adults, 58% under 30, Feb 24-Mar 2, 2025", "verified": "pewresearch.org-restricted search; snippet shows all three. Note: Pew's 2026 report shows 44% (question widened to other chatbots); fact-checker may add it" },
+      { "url": "https://www.nngroup.com/articles/ai-chatbots-design-guidelines/", "claim": "one chat entry point; state capabilities and offer prompt suggestions", "verified": "nngroup.com-restricted search; canonical www + trailing-slash URL swapped in for the writer's bare-domain URL" },
+      { "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html", "claim": "SC 1.4.3, 4.5:1 and 3:1", "verified": "w3.org-restricted search; WCAG22 path swapped in for the WCAG21 path because the post frames WCAG 2.2" },
+      { "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180SB1001", "claim": "SB 1001, B&P Code §17940 et seq., operative July 1, 2019, mislead about artificial identity to drive a sale or influence a vote, clear and conspicuous disclosure", "verified": "leginfo-restricted search; primary bill text replaces the Perkins Coie law-firm alert (lesson 2026-10-17)" }
+    ],
+    "removedExternalLinks": [
+      { "url": "https://developers.google.com/assistant/conversation-design/errors", "now": "named citation 'Google's conversation design guidance on errors, written for Google Assistant'", "verified": "developers.google.com search: short first reprompt, not verbatim, examples on the second; legacy Actions platform" },
+      { "url": "https://pair.withgoogle.com/chapter/errors-failing/", "now": "named citation 'The \"Errors + Graceful Failure\" chapter of the Google People + AI Guidebook'", "verified": "pair.withgoogle.com search" },
+      { "url": "https://blogs.microsoft.com/blog/2018/11/14/microsoft-introduces-guidelines-for-developing-responsible-conversational-ai/", "now": "named citation 'Microsoft's 2018 guidelines for responsible bots'", "verified": "microsoft.com search: 'judgement, expertise and empathy'; employment, finances and health as consequential areas" },
+      { "url": "https://www.w3.org/WAI/WCAG21/Understanding/status-messages", "now": "named citation 'SC 4.1.3 Status Messages'", "verified": "w3.org search returned https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html" },
+      { "url": "https://perkinscoie.com/insights/blog/i-am-robot-californias-new-law-requires-disclosure-use-bots", "now": "replaced by the primary leginfo SB 1001 bill text", "verified": "n/a (replaced)" }
+    ],
+    "factCheckerFlags": [
+      "AB 410 (2025-2026) still shows 'held under submission' (Aug 29, 2025) in leginfo/LegiScan results; no 2026 enactment found. Re-check on publish day; the post does not mention AB 410.",
+      "Pew 34% is the 2025 figure; Pew's June 17, 2026 report shows 44% with a widened question. The sentence is dated correctly; optional update is the writer's call."
+    ]
+  },
+  "indexCheck": "Not run: no shell and the search tool ignores site:. Link builder: run `npm run build && npm run links:find -- \"/blog/chatbot-design/\" \"chatbot design\" \"chatbot\" \"assistant\"` and keep the three required sources unless a stronger indexed match appears.",
+  "externalSources": [
+    { "url": "https://www.ibm.com/think/topics/chatbot-design", "why": "Primary (US): definition of chatbot design and the UI vs UX split. Intro + FAQ 2. Also the `beats` page." },
+    { "url": "https://www.pewresearch.org/short-reads/2025/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023/", "why": "Primary (US): 34% of US adults have used ChatGPT, 58% under 30 (Feb 24–Mar 2, 2025, n = 5,123). Intro." },
+    { "url": "https://www.pewresearch.org/chart/majorities-of-adults-under-50-now-use-chatgpt/", "why": "Primary (US): later chart, 44% in Feb 2026 per search summary. VERIFY before use; drop if not confirmed." },
+    { "url": "https://nngroup.com/articles/ai-chatbots-design-guidelines", "why": "Primary (US research firm): site AI chatbots state capabilities, offer prompt suggestions, show page context, consolidate chat entry points. Steps 1–2. Paraphrase only." },
+    { "url": "https://developers.google.com/assistant/conversation-design/errors", "why": "Primary (Google): No Match reprompts, short first reprompt, examples in later reprompts, fallback after two. Step 3. Label as guidance written for Google Assistant." },
+    { "url": "https://pair.withgoogle.com/chapter/errors-failing/", "why": "Primary (Google PAIR People + AI Guidebook): define errors, identify sources, provide paths forward. Step 4." },
+    { "url": "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum", "why": "Primary (W3C): SC 1.4.3 4.5:1 / 3:1, unchanged in WCAG 2.2. Step 7. Writer may swap to the WCAG22 Understanding path if the fact-checker confirms it." },
+    { "url": "https://www.w3.org/WAI/WCAG21/Understanding/status-messages", "why": "Primary (W3C): SC 4.1.3 Status Messages (AA), announced without focus change; introduced in 2.1, carried into 2.2. Step 7." },
+    { "url": "https://perkinscoie.com/insights/blog/i-am-robot-californias-new-law-requires-disclosure-use-bots", "why": "US outlet (law firm alert): California SB 1001 / B&P §17940 et seq., effective July 1, 2019, clear and conspicuous bot disclosure. Step 7. Not legal advice; one sentence." },
+    { "url": "https://blogs.microsoft.com/blog/2018/11/14/microsoft-introduces-guidelines-for-developing-responsible-conversational-ai/", "why": "Primary (Microsoft, Nov 2018): responsible bot guidelines; people provide judgment in employment, finance and health. Step 6." }
+  ],
+  "visuals": [
+    { "type": "decision flow", "file": "chatbot-design-chat-or-screen.svg", "idea": "Horizontal flow of 4 yes/no diamonds ending in 3 outcome tiles (better screen or form; guided bot with buttons; open AI assistant), with the hypothetical payroll examples as small labels under the tiles (shift swap → screen, paycheck question → assistant). Text panel: the 4 questions and 3 outcomes." },
+    { "type": "one-job scope card", "file": "chatbot-design-job-card.svg", "idea": "A single job card styled like a ticket stub with 7 labeled fields (job, trigger phrases, details to collect, answer format, success signal, fallback, owner), filled for 'explain a paycheck difference'. Not the index card of how-to-design-an-mvp or the rule sheet of user-onboarding-automation. Text panel: the 7 fields and values." },
+    { "type": "reply state strip", "file": "chatbot-design-reply-states.svg", "idea": "Seven narrow chat-bubble panels in a row showing the same paycheck answer as: streaming, answered with source, low confidence, refusal, error with retry, offline, handoff to a person; each panel's footer names its next action. Text panel: state → what the user sees → next action." },
+    { "type": "transcript scorecard", "file": "chatbot-design-transcript-scorecard.svg", "idea": "A chat transcript on the left with three margin markers (turn count, handoff, wrong answer caught) feeding a scorecard on the right: task | threshold | result | turns | handoff | verdict. Illustrative values labeled as an example. Not the clipboard of how-to-design-an-mvp. Text panel: the columns and rows." }
+  ],
+  "visualCountNote": "4 inline visuals (audit 2026-10-19: every live post had exactly 6). The 8-gate checklist, the job list, the two-lane path table and the handoff rules stay as text tables/lists. Cover image optional (template generates one).",
+  "leadAngle": "Moment 1: end of Step 5. The reader has just seen 7 states for one reply and realizes their bot has 2. Offer in hub facts only: we design the chat window, message components and every system state for web, iOS, Android or an embedded widget, and test the flows with users before launch, in 3 to 8 weeks (link the hub). Moment 2: end of Step 8, when the team's transcripts fail a threshold and they cannot see why: one 'we' sentence on our conversation testing (task success, turns per task). Closing CTA (TOFU): get the 8-gate checklist; the hub link is the second option. No free audit, no reply-time promise other than the site standard, no price outside the cost FAQ, no claim that we build or host the bot.",
+  "variety": {
+    "type": "Checklist",
+    "introStyle": "Three-question gate opener: Saliha's first sentence carries the keyword and lists, inline and numbered, the three questions she asks a product team before opening Figma; then the definition and the Pew line. Device = the author's pre-work questions as an inline list. Used before (do not repeat): buyer scenario, myth, data point with source, question, definition, mini case, contrarian take, timed first-run log (blockquote), kill-list decision log (blockquote), itemized receipt, misfiring rule, try-this-now exercise, originator quote. No blockquote, no hypothetical-company story in the intro (the payroll example starts in Step 1), no stat-led first sentence.",
+    "h2Frames": ["Step 1: does (decision)", "Step 2: which (scope)", "Step 3: how to write (paths)", "Step 4: how does (AI sources)", "Step 5: which states", "Step 6: when (handoff)", "Step 7: how (accessible + lawful)", "Step 8: how to test", "checklist (closing, no 'Bottom line')", "FAQs"],
+    "sectionOrder": "decision → scope → conversation paths → AI grounding → reply states → handoff → accessibility + US law → testing → 8-gate checklist → FAQs. Numbered steps with a pass gate at the end of each; no definition H2 and no 'Bottom line' H2. how-to-design-an-mvp went definition → decisions → type → cut → flow → UI → test → handoff → team → Bottom line; saas-homepage-design went definition → promise → sections → CTA → product handoff → B2B → page set → testing → mistakes → Bottom line; user-onboarding-automation went definition → 2x2 → rule anatomy → channels → handoff → AI → steps → measurement → failure → Bottom line.",
+    "visualTypes": ["horizontal yes/no decision flow", "ticket-stub job card", "seven-panel reply state strip", "transcript-to-scorecard diagram"],
+    "ctaAngle": "pass the 8 gates → get the checklist (TOFU email capture). Not 'book a free consultation', 'scorecard says change twice', 'send your funnel/brief/RFP' or 'bring your baseline sheet'.",
+    "listStyle": "step H2s each closed by a one-line pass gate + scope card + two-lane path table + ordered handoff rules + state strip + scorecard + gate table",
+    "closingRule": "Closing H2 is the checklist itself; end it with one first-person recommendation sentence, no label.",
+    "metaDescriptionEnding": "Ends on the post's own payoff ('then pass a gate at each step'), not a consultation CTA (audit 2026-10-19: 4 of 5 posts end with 'Book a free consultation').",
+    "differsFrom": "Last 3 site-wide: how-to-design-an-mvp (2026-10-18), saas-homepage-design (2026-10-17), user-onboarding-automation (2026-10-16). Silo chatbot-ui-design: no posts. Nearest structural relative: how-to-design-an-mvp (step-by-step how-to with a test scorecard). Do NOT reuse from it: the definition H2 opener, the decision tree routed to 'types', the index-card worksheet, the clipboard scorecard look, the fidelity ladder, the 'Bottom line' closing, the dog-groomer example, the Ries quote device. Nearest topical relative: user-onboarding-automation (AI assistant + handoff section): do NOT reuse its handoff ladder, its 'two failed turns' sentence wording, its 2x2 or its analytics-SaaS example."
+  },
+  "fingerprintCheck": {
+    "vs_how-to-design-an-mvp": "Differs on type (Checklist vs Guide), intro (question-gate list vs originator quote), H2 frames (numbered steps with gates), section order (no definition, no Bottom line), visuals (4: flow, ticket card, state strip, transcript scorecard vs 6), CTA angle (TOFU checklist vs consultation), list style. 7 of 7 differ.",
+    "vs_saas-homepage-design": "Differs on type, intro, frames, order, visuals, CTA, list style. 7 of 7.",
+    "vs_user-onboarding-automation": "Differs on type, intro, frames, order, visuals, CTA, list style. Shared topic fragment (handoff) handled by the do-not-reuse list. 7 of 7.",
+    "audit_2026-10-19_rules": "Type is not Guide (PASS); first H2 is a decision, not a definition (PASS); 4 visuals, not 6 (PASS); description ends on the payoff, not 'Book a free consultation' (PASS); closing H2 is not 'Bottom line' and not 'Have an AI or … to design?' (PASS).",
+    "result": "Passes the RULES.md variety rule (≥ 4 of 7 differ from each of the last 3 site-wide posts; silo has no posts)."
+  },
+  "overlapCheck": {
+    "method": "Outline-level check (no shell in this run). Compared planned H2s with every heading and FAQ in content/services/chatbot-ui-design.json, ai-ux-design-agency.json, content/pillars.ts, content/home.ts and the 5 live posts. QA runs the 5-gram body script on the draft and against the `beats` page.",
+    "headingOverlap": "Closest pairs: Step 5 'Which states does every chatbot reply need?' vs hub deliverable 'System states' (list item, not an H2; no shared 5-gram). Step 8 'How do you test chatbot design before launch?' vs hub process step 'Conversation testing'. Step 6 vs hub deliverable 'Human handoff' and mistake card 'No escape'. FAQ 'How long does chatbot design take?' vs pillar FAQ 'How long does AI product design take?' (different subject).",
+    "intentOverlap": "grep of content/ (services, industries, locations, blog, briefs, case studies, pillars.ts, home.ts) for 'chatbot design|chat bot design|design (a )?chatbot|conversation design|conversational ui' found only the hub's summary ('Conversation design and interface design…') and tags ('Conversational UI'). No page targets 'chatbot design'. The hub owns 'chatbot UI design' (anchor, H1, metaTitle, centralEntity), 'chatbot interface' and 'chat window' n-grams, the 6 deliverables, the 4-step process, the support-bot-vs-assistant table, 4 mistakes, the cost H2 and 4 FAQs (answers written, redesign of a live bot, platforms, accessibility). The post answers none of those again: it links them.",
+    "residualRisk": "Step 5 and Step 8 sit close to hub deliverables and process step 4; Step 6 restates the hub's two-failed-turns rule (allowed as a cited fact, once). FAQ 'How much does it cost…' states the hub range once with a link. If Google swaps hub and post for 'chatbot design' or 'chatbot ui design', see notes POST-PUBLISH MONITOR.",
+    "result": "PASS at outline level."
+  },
+  "sisterSiteCheck": {
+    "status": "UNVERIFIED",
+    "evidence": "WebFetch https://uiuxdesignservices.us/sitemap.xml and https://www.uiuxdesignservices.us/sitemap.xml both returned ENOTFOUND (2026-10-19). This run had no shell, so the curl route in the task was not available. WebSearch 'uiuxdesignservices.us chatbot design' returned no pages from the domain. docs/content-system/sister-site.json (checked 2026-10-19) lists city URLs only; no chatbot, conversational or blog entry. The keyword has no city, so the city guard does not apply.",
+    "qaStep": "Before publishing run: curl -sS https://uiuxdesignservices.us/sitemap.xml | grep -iE 'chat|bot|conversational|assistant'. If a sister page targets 'chatbot design', 'chatbot ui design' or 'conversational ui', stop and report to the owner; otherwise PASS. No links to or from the sister site; if a nearby page exists, fetch it and fail the post above 2% 5-gram overlap."
+  },
+  "rejectedCandidates": [
+    { "keyword": "chatbot ui design (350, KD 0, parent 'chatbot template')", "why": "Hub head term (anchor, H1, metaTitle, centralEntity); clusters.json owner /services/ai-products/chatbot-ui-design/." },
+    { "keyword": "chatbot design ui (150, KD 0, Ahrefs parent 'chatbot design')", "why": "clusters.json files it under the hub ('chatbot template' owner). Its Ahrefs parent is 'chatbot design', so the post may pick it up passively; never use the string. Flagged in clustersHandback." },
+    { "keyword": "chatbot interface design (80, KD 0, parent 'chatbot design')", "why": "Too close to the hub n-gram 'chatbot interface'; used only as hub link anchor text (hub banking)." },
+    { "keyword": "chatbot ui (1000, KD 28) / ai chatbot ui (150)", "why": "clusters.json parent 'chatbot ui' owner 'blog (planned)': a separate future post. Never use the string here." },
+    { "keyword": "conversational ui (200, KD 3) / conversational ui design (150, KD 3)", "why": "Audit 2026-10-19: sits too close to the hub metaTitle 'Conversational AI Interfaces'; bank on the hub. Separate opportunity 'conversational ai design' (76.8); orchestrator decides." },
+    { "keyword": "chatbot design examples (150, TP 10, parent 'chat bot ui design') / chatbot ui examples (60) / best chatbot ui design (150)", "why": "Examples/gallery intent dominated by dribbble, mobbin, eleken, sendbird, lazarev, arounda; separate opportunity 'chat bot ui design' (73.8). Candidate for a later TOFU examples post with annotated patterns." },
+    { "keyword": "chatbot conversation design (80, KD 5) / how to design chatbot conversation (60, KD 15) / how to design a chatbot conversation flow? (40)", "why": "Audit 2026-10-19 pick for this silo's next post (MOFU). This post keeps Step 3 short so that post can own conversation writing." },
+    { "keyword": "chatbot ux design (60, KD 29, parent 'chatbot best practices')", "why": "KD 29 and a different parent topic; separate opportunity 'chatbot best practices' (61.2). Our principles FAQ touches it; orchestrator should mark that entry partly covered or retarget it as a mistakes/audit angle the hub does not own." },
+    { "keyword": "chatbot system design (60, KD 0)", "why": "Engineering/architecture intent (system design interviews). Not a design-buyer query." },
+    { "keyword": "chatbot design template (60) / chatbot ui design templates (20)", "why": "Parent 'chatbot template' (hub-owned cluster); SERP is Figma community and template libraries." },
+    { "keyword": "react chatbot ui / open source chatbot ui", "why": "Developer intent; service-support 1–2." },
+    { "keyword": "chatbot small talk design (80) / chatbot personality design (20)", "why": "Narrow sub-topics; fit inside a future conversation-design post." },
+    { "keyword": "how to design a chatbot", "why": "No Ahrefs row in any warehouse file; used as lexical variant and meta keyword, never as the primary (owner rule 2026-10-12)." }
+  ],
+  "beats": "https://www.ibm.com/think/topics/chatbot-design",
+  "competitorPagesStudied": [
+    { "url": "https://www.ibm.com/think/topics/chatbot-design", "seen": "Ranks #3 (Ahrefs 2026-10-19, 38 referring domains) and is an AI overview sitelink. Sitelinks 'What is chatbot design?' and 'Chatbot UI design versus chatbot UX design'. Search snippets: blend of UX, UI, copywriting, conversational AI and ML; covers chatbots, IVR and virtual agents; process mining in enterprise settings; UI = visual, UX = logic and when a case goes to a human agent.", "misses": "Step order, chat-or-screen decision, scope artifact, repair paths, LLM answer states, US accessibility and disclosure, transcript testing. WebFetch ENOTFOUND; QA: run curl -sSI -A 'Mozilla/5.0' on it before the overlap check; if it redirects off-topic, use the NN/g article below as `beats`." },
+    { "url": "https://nngroup.com/articles/ai-chatbots-design-guidelines", "seen": "Ranks #7; '10 Guidelines for Designing Your Site's AI Chatbots'. Snippets: state capabilities, relevant prompt suggestions, page context, consolidate chat features, keep the bot available across pages.", "misses": "Website-focused, unordered; no in-product SaaS assistant, no US law, no streaming accessibility, no test thresholds." },
+    { "url": "https://www.intercom.com/blog/principles-bot-design/", "seen": "AI overview sitelink; 'Principles of Bot Design: Successful Chatbot Design in 2021'.", "misses": "Pre-LLM era (2021); vendor angle." },
+    { "url": "https://sendbird.com/blog/chatbot-ui", "seen": "Ranks #10; '15 Chatbot UI examples', sitelinks for no-code builders.", "misses": "Examples and builder list; vendor angle." },
+    { "url": "https://www.eleken.co/blog-posts/chatbot-ui-examples", "seen": "AI overview sitelink; '31 Chatbot UI Design Examples from Designers in the Field' (updated May 1, 2026 per search).", "misses": "Examples intent; no method." },
+    { "url": "https://musemind.agency/chatbot-design-process/", "seen": "Search result for 'how to design a chatbot step by step'; design-process guide (May 2026 per search summary).", "misses": "Not inspected beyond the summary; treat as process competitor for the writer's originality check." }
+  ],
+  "competitorsJsonHandback": {
+    "note": "Not written to docs/content-system/competitors.json (task instruction). Orchestrator: append these.",
+    "domains": [
+      { "domain": "ibm.com", "kind": "publisher (citable source and target)", "silos": ["chatbot-ui-design"], "seenFor": ["chatbot design"], "source": "Ahrefs SERP warehouse 2026-10-19" },
+      { "domain": "nngroup.com", "kind": "UX research firm (citable source)", "silos": ["chatbot-ui-design"], "seenFor": ["chatbot design"], "source": "Ahrefs SERP warehouse 2026-10-19" },
+      { "domain": "sendbird.com", "kind": "chat vendor blog", "silos": ["chatbot-ui-design"], "seenFor": ["chatbot design", "chatbot ui examples"], "source": "Ahrefs SERP warehouse 2026-10-19" },
+      { "domain": "eleken.co", "kind": "UI/UX agency blog", "silos": ["chatbot-ui-design"], "seenFor": ["chatbot design (AI overview)", "chatbot ui examples"], "source": "Ahrefs SERP + WebSearch 2026-10-19" },
+      { "domain": "lazarev.agency", "kind": "UI/UX agency blog", "silos": ["chatbot-ui-design"], "seenFor": ["chatbot design best practices", "chatbot ui examples"], "source": "WebSearch 2026-10-19" },
+      { "domain": "arounda.agency", "kind": "UI/UX agency blog", "silos": ["chatbot-ui-design"], "seenFor": ["chatbot ui examples"], "source": "WebSearch 2026-10-19" },
+      { "domain": "musemind.agency", "kind": "UI/UX agency blog", "silos": ["chatbot-ui-design"], "seenFor": ["chatbot design process"], "source": "WebSearch 2026-10-19" }
+    ],
+    "topPost": { "domain": "ibm.com", "url": "https://www.ibm.com/think/topics/chatbot-design", "title": "What Is Chatbot Design?", "keywords": ["chatbot design"], "estTraffic": null, "silo": "chatbot-ui-design", "status": "briefed", "brief": "content/briefs/chatbot-design.json" }
+  },
+  "clustersHandback": "clusters.json has no owner for the Ahrefs parent topic 'chatbot design'. Orchestrator, after publish: add { parentTopic: 'chatbot design', owner: '/blog/chatbot-design/', keywords: ['chatbot design (450, KD3)', 'design chatbot (150, KD6)', 'best chatbot design (50)', 'ai chatbot design (40)', 'chatbot interaction design (30)'] }, with the note that 'chatbot interface design (80)' and 'chatbot design ui (150)' also roll up to this parent in Ahrefs but stay with the hub (anchor / existing 'chatbot template' entry). Dependent blog-opportunities entries: 'chatbot best practices' (main 'chatbot ux design', 61.2) is partly covered by the principles FAQ; 'chatbot conversation design' (58.1) stays open as the silo's next MOFU post.",
+  "notes": [
+    "CANNIBALIZATION: the hub owns 'chatbot UI design' (anchor, H1 'Chatbot UI design that keeps conversations short…', metaTitle 'Chatbot UI Design | Conversational AI Interfaces', centralEntity), the n-grams 'chatbot interface', 'chat window', 'suggested replies', 'human handoff', the 6 deliverables, the 4-step process with weeks, the support-bot-vs-AI-assistant table, the 4 mistake cards, the cost H2 ($15,000–$60,000) and 4 FAQs. Follow keywordCarrier.hubAnchorBan. 'Chat window', 'suggested replies' and 'human handoff' may appear in prose (they are generic), but never in the title, H1, metaTitle or description.",
+    "AUDIT CONFLICT (owner FYI): the 2026-10-19 audit suggested banking 'chatbot design' on the hub and writing 'chatbot conversation design' first. The orchestrator assigned 'chatbot design' with the informational intent. This brief keeps it because the Ahrefs parent topics differ and the SERPs differ (see primaryChoice); backlinkSuggestions #1 gives the hub a link to the post with the anchor '8-step chatbot design checklist'.",
+    "POST-PUBLISH MONITOR: if Google ranks the hub instead of the post for 'chatbot design', or the post starts ranking for 'chatbot ui design', (1) confirm backlink #1 is live, (2) check the post's hubAnchorBan compliance, (3) consider adding 'chatbot design' to the hub's semantic.ngrams only as a link anchor, never to its title.",
+    "CASE STUDIES: none cover chatbot or assistant work (grep content/case-studies for chat|assistant|conversation|bot: only Parents Connect's person-to-person chat). No DOWN link, no client results, no mini case. The payroll/scheduling product is hypothetical and must be labeled as such; do not reuse the dog-groomer (MVP), property-management (discovery), analytics (automation), scheduling SaaS (onboarding) or meeting-notes/plumbing (homepage) examples.",
+    "SCOPE (stay quiet in the post): content/home.ts and the startups pillar say tkxel engineers can build products; the chatbot hub sells design only. Do not say we build, host, train or integrate the bot or the model. Do not name a bot platform as our stack. The ai-ux hub FAQ says we prototype with OpenAI or Anthropic playground recordings; may be mentioned once in Step 8 as an AI UX practice.",
+    "CONSISTENCY: the hub says accessibility target 'at least 4.5:1 for message text' (matches WCAG 1.4.3). The hub says handoff after two failed turns; the post must say the same number. The ai-ux hub says 5 to 8 users and 3 to 20 seconds; attribute those to AI feature design, not to the chatbot hub, which does not state a participant count.",
+    "DO NOT USE (seen in the SERP or summaries, vendor or unsourced): Intercom Fin resolution rates (66%, 71%, 76%, '42–50%' independent estimates, Forrester ~50%), the 'Salesforce to acquire Fin for $3.6B' claim, '77% say AI meets expectations', Nuuly/Lightspeed CSAT figures, 'a minimum viable bot ships in 2–4 weeks', 'responses 2–3 sentences max' as a rule, any 'chatbots will handle X% of interactions by 20XX' forecast, any Air Canada chatbot ruling (non-US; skip unless labeled Canada, preferably skip).",
+    "FACT-CHECKER FLAGS: (1) IBM: confirm the definition and the UI/UX split wording (WebFetch blocked). (2) Pew 2026 chart: confirm 44% and dates, else drop. (3) NN/g: snippet-level only; paraphrase. (4) Google conversation design page is for the legacy Google Assistant platform; describe it as Google's conversation design guidance, no claims about current products. (5) California law: confirm §17941 text and AB 410 status on publish day; one sentence, no legal advice. (6) W3C: 4.1.3 Level AA, added in 2.1; may swap to WCAG22 Understanding URLs if confirmed live.",
+    "ABBREVIATIONS to expand on first use: user experience (UX), user interface (UI), large language model (LLM), artificial intelligence (AI) if needed, Web Content Accessibility Guidelines (WCAG), Americans with Disabilities Act (ADA), Nielsen Norman Group (NN/g), People + AI Research (PAIR), interactive voice response (IVR) if used, frequently asked questions (FAQ).",
+    "VOICE: first person by Saliha Shahzad for method and judgment ('When I map a bot's repair paths, I write the second reprompt first'). 'We' only for hub facts (3–8 weeks, 4 steps, two-failed-turn handoff, 4.5:1, task success and turns per task, 20–30 intent widget) and ai-ux hub facts. No invented anecdotes, clients or numbers.",
+    "US FRAME: US example product and users, USD only in the cost FAQ, WCAG 2.2 AA with ADA/Section 508 as context, California bot law as the US disclosure frame, American spelling (behavior, color, labeled, prioritize). GDPR and the EU AI Act only as 'if you also sell in the EU', probably not needed.",
+    "ENTITY SALIENCE: 'chatbot design' and 'chatbot' must lead. Cap rival entities at about 6 uses each: 'AI assistant', 'handoff', 'prompt', 'transcript'. The on-page script counts an H2 toward the 40% keyword share when it holds a keyword word longer than 3 letters ('chatbot' or 'design'): Steps 1, 2, 5, 6, 7, 8, Step 4 ('AI chatbot design') and the checklist H2 all contain one (8 of 9 = 89%)."
+  ]
+}

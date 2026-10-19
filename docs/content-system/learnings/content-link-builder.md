@@ -57,3 +57,8 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-18 (how-to-design-an-mvp): When cutting one of two hub fragments that share a sentence, keep the cost link and fold the dropped topic into that sentence as a plain mention, so no sentence points at an unclickable page.
 - 2026-10-18: Check backlink suggestion text with the same honesty rules as body text (cut "for every founder"-style generalizations) and add the post's section jump when the matching topic sits in a later H2.
 - 2026-10-18: For any standard, run a search restricted to the standards body's domain before accepting a secondary source, and cite the primary page.
+
+- 2026-10-19 (chatbot-design): For a state law, search the legislature's own site for the bill text (e.g. leginfo SB 1001) and use it instead of a law-firm article.
+- 2026-10-19: When over the 5-external cap with several W3C pages, keep the one that carries a number (4.5:1) and cite the other success criterion by name; use the WCAG22 Understanding path when the post frames WCAG 2.2.
+- 2026-10-19: Read each backlink old→new string as a full sentence and rewrite repeated words before handing it back.
+- 2026-10-19: When you drop an external link to save the link budget, either keep the URL or stop naming the source; a named source without a link fails QA.

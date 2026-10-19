@@ -87,6 +87,26 @@
         "/services/startups/ (pillar FAQ: design sprint or MVP design)",
         "/case-studies/vocable/ (scope line)"
       ]
+    },
+    {
+      "slug": "chatbot-design",
+      "hub": "chatbot-ui-design",
+      "keyword": "chatbot design",
+      "date": "2026-10-19",
+      "words": 3709,
+      "images": 4,
+      "internalLinks": 5,
+      "externalLinks": 9,
+      "qaLoops": 1,
+      "factLoops": 1,
+      "semanticScore": 94,
+      "opportunityScore": 78.5,
+      "expectedMonthlyTraffic": 135,
+      "backlinks": [
+        "/services/ai-products/chatbot-ui-design/ (what is chatbot UI design)",
+        "/services/ai-products/ (pillar card: support and operations teams)",
+        "/services/ai-products/ai-ux-design-agency/ (blank-prompt paralysis card)"
+      ]
     }
   ],
   "audits": [
@@ -182,6 +202,25 @@
         "saas website design, saas web design (covered by saas-homepage-design)",
         "ai product generator (tool roundup)",
         "ai product design (owned by the AI products pillar)"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "goal": "daily post: highest-scoring relevant topic",
+      "jobs": [
+        {
+          "hub": "chatbot-ui-design",
+          "keyword": "chatbot design",
+          "score": 78.5,
+          "format": "complete guide"
+        }
+      ],
+      "skipped": [
+        "integrating ai with cyber security, telecom ai, generative ai in healthcare/retail (off-audience)",
+        "product discovery process, discovery product, product discovery framework/techniques (fold into /blog/product-discovery/ per audit 2026-10-19)",
+        "design tools, ai design generator, ai design tools, product discovery platform (tool roundups)",
+        "ai for product design (tool-led intent; revisit with a buyer angle)",
+        "hubs with a post in the last 3 days: saas-onboarding-design, saas-design-agency, mvp-design-agency"
       ]
     }
   ]
