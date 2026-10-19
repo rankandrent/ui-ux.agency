@@ -13,8 +13,12 @@ type Props = { params: Promise<{ slug: string }> };
 export const dynamicParams = false;
 export const generateStaticParams = () => staticParams("slug", categories.map((c) => c.slug));
 
-const describe = (name: string, services: string[]) =>
-  `${name} guides from our design team on ${services.map(getService).filter((s) => !!s).map((s) => anchorOf(s!)).slice(0, 4).join(", ")} and more.`;
+const describe = (name: string, services: string[]) => {
+  const base = `${name} guides from our design team on ${services.map(getService).filter((s) => !!s).map((s) => anchorOf(s!)).slice(0, 4).join(", ")} and more.`;
+  // add the next step only when it fits (an ampersand adds 4 chars in the built HTML)
+  const full = `${base} See the service each one supports.`;
+  return full.length <= 154 ? full : base;
+};
 
 export async function generateMetadata({ params }: Props) {
   const c = getCategory((await params).slug);

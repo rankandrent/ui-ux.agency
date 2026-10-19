@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-metaTitle: "Privacy Policy | ui-ux.agency"
+metaTitle: "Privacy Policy | What ui-ux.agency Collects and Why"
 description: "What personal data ui-ux.agency collects through its forms and website, why we keep it, who processes it and how to ask us to delete it."
 ---
 
@@ -10,7 +10,7 @@ ui-ux.agency is the UI UX design agency of tkxel. This policy covers the ui-ux.a
 
 ## What we collect
 
-**What you type into a form.** Our consultation, contact and checklist forms ask for some or all of the following:
+**What you type into a form.** Our consultation, [contact](/contact/) and checklist forms ask for some or all of the following:
 
 - name, work email and phone number
 - job title and the service you are interested in
@@ -38,13 +38,13 @@ We do not sell personal data, and we do not use it for automated decisions about
 - **Cloudflare** hosts the site and delivers form submissions to our inbox.
 - **Google** (Google Analytics and Search Console) measures site visits and how the site appears in Google Search.
 - **Microsoft** (Clarity and our business email) stores analytics and the emails we receive.
-- **tkxel**, our parent company, may see your enquiry when you ask for development work as well as design.
+- **tkxel**, our parent company, may see your inquiry when you ask for development work as well as design.
 
 Each of them processes data only to provide its service to us. We share data with others only when the law requires it.
 
 ## How long we keep it
 
-We keep enquiry emails for as long as we are discussing or delivering work with you, and for up to three years after our last contact. Marketing consent lasts until you withdraw it. Analytics data follows the retention periods of Google Analytics and Microsoft Clarity.
+We keep inquiry emails for as long as we are discussing or delivering work with you, and for up to three years after our last contact. Marketing consent lasts until you withdraw it. Analytics data follows the retention periods of Google Analytics and Microsoft Clarity.
 
 ## Your choices and rights
 

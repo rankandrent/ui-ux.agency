@@ -147,7 +147,7 @@
       "h2": "UI UX design cost: agency vs freelancer vs in-house",
       "format": "table",
       "answer": "<strong>A freelancer usually has the lowest UI UX design cost per hour; an agency usually has the lowest cost per finished, tested product.</strong>",
-      "caption": "UI UX design cost by hiring model",
+      "caption": "UI UX design cost by hiring model, from agency pricing to an in-house designer",
       "columns": [
         "Model",
         "Typical cost",
@@ -170,7 +170,7 @@
           "One person's design time"
         ],
         [
-          "In-house senior designer",
+          "Senior in-house designer",
           "Annual salary plus benefits and recruiting fees",
           "One person, after 2–4 months of hiring"
         ]

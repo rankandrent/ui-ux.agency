@@ -71,7 +71,7 @@ The marketing site covers the game, roadmap, whitepaper and tokenomics, then sen
 
 ## How we got there
 
-We opened with product discovery and interviews with stakeholders, as every [MVP design agency](/services/startups/mvp-design-agency/) project of ours begins. Those sessions gave us the user flows and the material for a detailed whitepaper.
+We opened with [product discovery](/blog/product-discovery/) and interviews with stakeholders, as every [MVP design agency](/services/startups/mvp-design-agency/) project of ours begins. Those sessions gave us the user flows and the material for a detailed whitepaper.
 
 Branding workshops then produced a bold identity for the brand. CG artists brought the gameplay to life, and design thinking guided the garage and website. Professional gamers tested and approved the final product.
 

@@ -27,7 +27,7 @@ Put your software as a service (SaaS) homepage design to a test that takes 2 min
 
 I treat SaaS homepage design as the design of one promise and its handoff. The headline, sections, proof and call to action (CTA) on the front page of a SaaS site set an expectation. The first session in the product has to meet it.
 
-Communication design is my job at ui-ux.agency, tkxel's design team, whose designers have worked on 200+ digital products since 2017. On our [SaaS design agency](/services/saas-products/saas-design-agency/) projects, the homepage is designed with the pricing page and sign-up, not as a separate website job. Below, I follow a visitor from the headline to the first result: the promise, the section order, the CTA choice, the handoff with a worksheet I call the promise ledger and the tests for the whole path.
+Communication design is my job at ui-ux.agency, [tkxel's design team](/about/), whose designers have worked on 200+ digital products since 2017. On our [SaaS design agency](/services/saas-products/saas-design-agency/) projects, the homepage is designed with the pricing page and sign-up, not as a separate website job. Below, I follow a visitor from the headline to the first result: the promise, the section order, the CTA choice, the handoff with a worksheet I call the promise ledger and the tests for the whole path.
 
 ## What is SaaS homepage design, and what is it for?
 

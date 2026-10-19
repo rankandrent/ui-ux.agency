@@ -33,7 +33,7 @@ When I review a software as a service (SaaS) product, the first number I check i
 
 After 6 minutes, nothing they came for has happened, and that's where a trial quietly ends.
 
-At ui-ux.agency, the design team of tkxel, our designers have worked on more than 200 digital products since 2017. Our onboarding work starts the same way: we watch new-user session recordings and measure drop-off from sign-up to first value. Everything between that form and the first result worth a second visit is new user onboarding.
+At ui-ux.agency, [the design team of tkxel](/about/), our designers have worked on more than 200 digital products since 2017. Our onboarding work starts the same way: we watch new-user session recordings and measure drop-off from sign-up to first value. Everything between that form and the first result worth a second visit is new user onboarding.
 
 ## What is SaaS onboarding, from a designer's view?
 

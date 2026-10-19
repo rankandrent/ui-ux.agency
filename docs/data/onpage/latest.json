@@ -1,0 +1,575 @@
+{
+ "generated": "2026-10-19T05:25:42.023Z",
+ "pages": [
+  {
+   "type": "content",
+   "route": "/",
+   "keyword": "ui ux design services",
+   "score": 78,
+   "failed": [
+    "title-keyword: title contains \"ui ux design services\"",
+    "h1-keyword: H1 contains \"ui ux design services\"",
+    "desc-keyword: meta description contains the keyword",
+    "first-100-words: keyword appears near the top of the page (first ~100 words)",
+    "meta-keywords-keyword: meta keywords start with \"ui ux design services\" (first is \"UI UX design agency\")",
+    "og-keyword: og:title and og:description contain the keyword"
+   ],
+   "title": "UI UX Design Agency for AI, SaaS & Startups | by tkxel",
+   "h1": "The UI UX design agency for AI, SaaS and startup products",
+   "words": 2205
+  },
+  {
+   "type": "content",
+   "route": "/about/",
+   "keyword": null,
+   "score": 86,
+   "failed": [
+    "content-depth: ≥ 600 words of content (has 423)",
+    "internal-in: ≥ 3 pages link here (has 2)"
+   ],
+   "title": "About ui-ux.agency | The UI UX Design Agency of tkxel",
+   "h1": "About ui-ux.agency",
+   "words": 423
+  },
+  {
+   "type": "content",
+   "route": "/case-studies/nitro/",
+   "keyword": null,
+   "score": 93,
+   "failed": [
+    "internal-in: ≥ 3 pages link here (has 2)"
+   ],
+   "title": "Nitro League: P2E Racing Game Design That Raised $5M",
+   "h1": "Nitro League: the play-to-earn racing game design behind a $5M raise in 3 months",
+   "words": 772
+  },
+  {
+   "type": "content",
+   "route": "/services/saas-products/",
+   "keyword": "saas product design",
+   "score": 97,
+   "failed": [
+    "section-body-short: section detail text ≤ 90 words, entity-dense, no filler (1 longer)"
+   ],
+   "title": "SaaS Product Design | New Products, Onboarding, Redesign",
+   "h1": "SaaS product design for every stage of your software",
+   "words": 992
+  },
+  {
+   "type": "content",
+   "route": "/services/hire-product-designer/",
+   "keyword": "hire product designer",
+   "score": 98,
+   "failed": [
+    "meta-keywords-keyword: meta keywords start with \"hire product designer\" (first is \"hire a product designer\")"
+   ],
+   "title": "Hire a Product Designer | Senior, SaaS and AI Ready",
+   "h1": "Hire a product designer who owns the feature, not just the screens",
+   "words": 1291
+  },
+  {
+   "type": "content",
+   "route": "/services/saas-products/saas-onboarding-design/",
+   "keyword": "saas onboarding design",
+   "score": 98,
+   "failed": [
+    "section-body-short: section detail text ≤ 90 words, entity-dense, no filler (1 longer)"
+   ],
+   "title": "SaaS Onboarding Design | Raise Activation in 3 to 6 Weeks",
+   "h1": "SaaS onboarding design that turns sign-ups into active customers",
+   "words": 1339
+  },
+  {
+   "type": "content",
+   "route": "/services/startups/mvp-design-agency/",
+   "keyword": "mvp design agency",
+   "score": 98,
+   "failed": [
+    "section-body-short: section detail text ≤ 90 words, entity-dense, no filler (1 longer)"
+   ],
+   "title": "MVP Design Agency | Clickable Product in 4 to 8 Weeks",
+   "h1": "MVP design agency that turns a startup idea into a product users can test",
+   "words": 1450
+  },
+  {
+   "type": "archive",
+   "route": "/blog/author/ahmad-ullah/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Ahmad Ullah, Principal UX Designer | Author",
+   "h1": "Ahmad Ullah",
+   "words": 70
+  },
+  {
+   "type": "archive",
+   "route": "/blog/author/faizan-khan/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Faizan Khan, Sr. Product Designer | Author",
+   "h1": "Faizan Khan",
+   "words": 70
+  },
+  {
+   "type": "archive",
+   "route": "/blog/author/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Blog Authors: Our UX and Product Designers",
+   "h1": "The designers behind our guides",
+   "words": 188
+  },
+  {
+   "type": "archive",
+   "route": "/blog/author/sahar-asif/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Sahar Asif, Senior Manager UX | Author",
+   "h1": "Sahar Asif",
+   "words": 71
+  },
+  {
+   "type": "archive",
+   "route": "/blog/author/shahmir-farooq/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Shahmir Farooq, Sr. Communication Designer | Author",
+   "h1": "Shahmir Farooq",
+   "words": 67
+  },
+  {
+   "type": "archive",
+   "route": "/blog/author/talha-saleem/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Talha Saleem, Senior UI/UX Designer | Author",
+   "h1": "Talha Saleem",
+   "words": 72
+  },
+  {
+   "type": "archive",
+   "route": "/blog/author/umar-sarwar/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Umar Sarwar, SEO Manager | Author",
+   "h1": "Umar Sarwar",
+   "words": 160
+  },
+  {
+   "type": "archive",
+   "route": "/blog/category/ai-products/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "AI products guides | UI UX Design Blog",
+   "h1": "AI products guides",
+   "words": 90
+  },
+  {
+   "type": "archive",
+   "route": "/blog/category/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Blog Categories: UI UX Design Topics",
+   "h1": "Browse UI UX design topics",
+   "words": 98
+  },
+  {
+   "type": "archive",
+   "route": "/blog/category/saas-products/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "SaaS products guides | UI UX Design Blog",
+   "h1": "SaaS products guides",
+   "words": 132
+  },
+  {
+   "type": "archive",
+   "route": "/blog/category/startups-and-product/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Startups & product guides | UI UX Design Blog",
+   "h1": "Startups & product guides",
+   "words": 88
+  },
+  {
+   "type": "blog",
+   "route": "/blog/how-to-design-an-mvp/",
+   "keyword": "how to design an mvp",
+   "score": 100,
+   "failed": [],
+   "title": "How to Design an MVP: Scope, Flows, Prototype, Test",
+   "h1": "How to design an MVP: from riskiest assumption to tested prototype",
+   "words": 4306
+  },
+  {
+   "type": "archive",
+   "route": "/blog/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "UI UX Design Blog: Guides From Our Design Team",
+   "h1": "UI UX design guides from our team",
+   "words": 251
+  },
+  {
+   "type": "blog",
+   "route": "/blog/product-discovery/",
+   "keyword": "product discovery",
+   "score": 100,
+   "failed": [],
+   "title": "Product Discovery: Process, Examples and an AI Checklist",
+   "h1": "Product discovery: a practical guide for AI and SaaS product teams",
+   "words": 4438
+  },
+  {
+   "type": "blog",
+   "route": "/blog/saas-homepage-design/",
+   "keyword": "saas homepage design",
+   "score": 100,
+   "failed": [],
+   "title": "SaaS Homepage Design: Promise, Sign-Up and First Run",
+   "h1": "SaaS homepage design: make a promise your product keeps",
+   "words": 4376
+  },
+  {
+   "type": "blog",
+   "route": "/blog/saas-onboarding/",
+   "keyword": "saas onboarding",
+   "score": 100,
+   "failed": [],
+   "title": "SaaS Onboarding: A Design Guide From Sign-Up to First Value",
+   "h1": "SaaS onboarding: how to design the path from sign-up to first value",
+   "words": 3791
+  },
+  {
+   "type": "blog",
+   "route": "/blog/user-onboarding-automation/",
+   "keyword": "user onboarding automation",
+   "score": 100,
+   "failed": [],
+   "title": "User Onboarding Automation: What to Automate and Keep Human",
+   "h1": "User onboarding automation: what to automate and what to keep human",
+   "words": 5100
+  },
+  {
+   "type": "content",
+   "route": "/case-studies/anyday-app/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Anyday App: Fintech Wallet and Payout UX Redesign",
+   "h1": "Anyday App: redesigning a fintech wallet that pays workers the same day",
+   "words": 932
+  },
+  {
+   "type": "content",
+   "route": "/case-studies/digno/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Digno: Employee Performance SaaS with AI Scoring",
+   "h1": "Digno: building an AI-scored performance platform for whole organizations",
+   "words": 848
+  },
+  {
+   "type": "content",
+   "route": "/case-studies/elia-wellness/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Elia Wellness: Wellness Learning App for Adults 50+",
+   "h1": "Elia Wellness: a learning and wellness app built for people over 50",
+   "words": 943
+  },
+  {
+   "type": "archive",
+   "route": "/case-studies/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "UI UX Design Case Studies | Our Work & Results",
+   "h1": "Products we designed, and the results they drove",
+   "words": 313
+  },
+  {
+   "type": "content",
+   "route": "/case-studies/mass-media-co/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Mass Media Co.: B2B Marketing Platform Redesign",
+   "h1": "Mass Media Co.: one B2B platform for audience data, orders and campaigns",
+   "words": 897
+  },
+  {
+   "type": "content",
+   "route": "/case-studies/parents-connect/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Parents Connect: Parenting Community Platform Design",
+   "h1": "Parents Connect: a global parenting community platform designed for every parent",
+   "words": 772
+  },
+  {
+   "type": "content",
+   "route": "/case-studies/tradezella/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "TradeZella: Trading Journal Dashboard Redesign",
+   "h1": "TradeZella: a trading journal redesign that turns trade data into clear decisions",
+   "words": 776
+  },
+  {
+   "type": "content",
+   "route": "/case-studies/vocable/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Vocable: AI Content Marketing SaaS, Idea to MVP",
+   "h1": "Vocable: designing an AI content marketing platform from zero to MVP",
+   "words": 862
+  },
+  {
+   "type": "archive",
+   "route": "/contact/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Contact Us | Free UI UX Design Consultation",
+   "h1": "Let's talk about your product",
+   "words": 403
+  },
+  {
+   "type": "content",
+   "route": "/industries/enterprise/",
+   "keyword": "enterprise ux",
+   "score": 100,
+   "failed": [],
+   "title": "Enterprise UX Design for SaaS, AI and Internal Tools",
+   "h1": "Enterprise UX for SaaS platforms and internal tools your teams adopt",
+   "words": 2471
+  },
+  {
+   "type": "content",
+   "route": "/industries/fintech/",
+   "keyword": "fintech ux design",
+   "score": 100,
+   "failed": [],
+   "title": "Fintech UX Design for SaaS and AI Financial Products",
+   "h1": "Fintech UX design for SaaS and AI-powered financial products",
+   "words": 2612
+  },
+  {
+   "type": "content",
+   "route": "/industries/healthcare/",
+   "keyword": "healthcare ux design",
+   "score": 100,
+   "failed": [],
+   "title": "Healthcare UX Design | AI, SaaS and Telehealth Products",
+   "h1": "Healthcare UX design for digital health SaaS, clinical AI and telehealth apps",
+   "words": 2851
+  },
+  {
+   "type": "archive",
+   "route": "/industries/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "UI UX Design by Industry | Healthcare, Fintech & SaaS",
+   "h1": "UI UX design services for your industry",
+   "words": 211
+  },
+  {
+   "type": "archive",
+   "route": "/location/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "UX Agency Locations | AI and SaaS Design by US City",
+   "h1": "UI UX design for product teams across the US",
+   "words": 175
+  },
+  {
+   "type": "content",
+   "route": "/location/ux-agency-denver/",
+   "keyword": "ux agency denver",
+   "score": 100,
+   "failed": [],
+   "title": "UX Agency Denver | AI & SaaS Design for Colorado Startups",
+   "h1": "UX agency Denver teams hire for AI and SaaS product design",
+   "words": 2712
+  },
+  {
+   "type": "content",
+   "route": "/location/ux-agency-minneapolis/",
+   "keyword": "ux agency minneapolis",
+   "score": 100,
+   "failed": [],
+   "title": "UX Agency Minneapolis | AI and SaaS Product Design",
+   "h1": "The UX agency Minneapolis AI and SaaS teams can work with remotely",
+   "words": 2599
+  },
+  {
+   "type": "content",
+   "route": "/location/ux-design-san-diego/",
+   "keyword": "ux design san diego",
+   "score": 100,
+   "failed": [],
+   "title": "UX Design San Diego | AI & SaaS Product Design for Startups",
+   "h1": "UX design San Diego startups can run remotely, for AI and SaaS products",
+   "words": 2763
+  },
+  {
+   "type": "archive",
+   "route": "/privacy/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Privacy Policy | What ui-ux.agency Collects and Why",
+   "h1": "Privacy Policy",
+   "words": 705
+  },
+  {
+   "type": "content",
+   "route": "/services/ai-products/ai-product-discovery-workshop/",
+   "keyword": "ai product discovery workshop",
+   "score": 100,
+   "failed": [],
+   "title": "AI Product Discovery Workshop | Pick AI Use Cases in 2 Weeks",
+   "h1": "AI product discovery workshop: decide what AI should do before you build it",
+   "words": 1428
+  },
+  {
+   "type": "content",
+   "route": "/services/ai-products/ai-ux-design-agency/",
+   "keyword": "ai ux design agency",
+   "score": 100,
+   "failed": [],
+   "title": "AI UX Design Agency | Interfaces People Trust and Use",
+   "h1": "AI UX design agency for products people trust, check and keep using",
+   "words": 1540
+  },
+  {
+   "type": "content",
+   "route": "/services/ai-products/chatbot-ui-design/",
+   "keyword": "chatbot ui design",
+   "score": 100,
+   "failed": [],
+   "title": "Chatbot UI Design | Conversational AI Interfaces",
+   "h1": "Chatbot UI design that keeps conversations short, clear and useful",
+   "words": 1356
+  },
+  {
+   "type": "content",
+   "route": "/services/ai-products/",
+   "keyword": "ai product design",
+   "score": 100,
+   "failed": [],
+   "title": "AI Product Design | UX for LLM Apps, Copilots and Bots",
+   "h1": "AI product design, from the first workshop to a tested interface",
+   "words": 1099
+  },
+  {
+   "type": "content",
+   "route": "/services/hire-ui-ux-designers/",
+   "keyword": "hire ui ux designers",
+   "score": 100,
+   "failed": [],
+   "title": "Hire UI UX Designers | Dedicated Designers in 1–2 Weeks",
+   "h1": "Hire UI UX designers who join your team in 1 to 2 weeks",
+   "words": 1574
+  },
+  {
+   "type": "archive",
+   "route": "/services/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "What Our UI UX Design Agency Does | AI, SaaS & MVPs",
+   "h1": "Our design service catalog, grouped by what you need",
+   "words": 652
+  },
+  {
+   "type": "content",
+   "route": "/services/saas-products/saas-design-agency/",
+   "keyword": "saas design agency",
+   "score": 100,
+   "failed": [],
+   "title": "SaaS Design Agency | Product Design for Activation",
+   "h1": "SaaS design agency for software people sign up for and stay with",
+   "words": 1465
+  },
+  {
+   "type": "content",
+   "route": "/services/saas-products/saas-product-redesign/",
+   "keyword": "saas product redesign",
+   "score": 100,
+   "failed": [],
+   "title": "SaaS Product Redesign | Modernize Without Losing Users",
+   "h1": "SaaS product redesign that modernizes your software without upsetting customers",
+   "words": 1330
+  },
+  {
+   "type": "content",
+   "route": "/services/startups/design-sprint/",
+   "keyword": "design sprint",
+   "score": 100,
+   "failed": [],
+   "title": "Design Sprint | Test a Product Idea With Users in 5 Days",
+   "h1": "Design sprint: test a product idea with real users in 5 days",
+   "words": 1237
+  },
+  {
+   "type": "content",
+   "route": "/services/startups/",
+   "keyword": "startup product design",
+   "score": 100,
+   "failed": [],
+   "title": "Startup Product Design | Sprints, MVPs and Growth Design",
+   "h1": "Startup product design, from a 5-day sprint to version two",
+   "words": 975
+  },
+  {
+   "type": "content",
+   "route": "/services/startups/product-design-agency/",
+   "keyword": "product design agency",
+   "score": 100,
+   "failed": [],
+   "title": "Product Design Agency | Research, UX, UI and Delivery",
+   "h1": "Product design agency for startups growing past their first version",
+   "words": 1330
+  },
+  {
+   "type": "content",
+   "route": "/services/ui-ux-design-cost/",
+   "keyword": "ui ux design cost",
+   "score": 100,
+   "failed": [],
+   "title": "UI UX Design Cost in 2026 | Agency Prices by Project",
+   "h1": "UI UX design cost: what an agency charges and why",
+   "words": 1201
+  },
+  {
+   "type": "archive",
+   "route": "/terms/",
+   "keyword": null,
+   "score": 100,
+   "failed": [],
+   "title": "Terms of Service | ui-ux.agency",
+   "h1": "Terms of Service",
+   "words": 498
+  }
+ ]
+}

@@ -15,9 +15,16 @@ export const generateStaticParams = () => staticParams("slug", authors.map((a) =
 export async function generateMetadata({ params }: Props) {
   const a = getAuthor((await params).slug);
   if (!a) return {};
+  // longest description that fits 158 chars without cutting a word (an apostrophe adds 5 chars in the built HTML)
+  const whose = a.person ? `${a.name.split(" ")[0]}'s` : "the team's";
+  const description = [
+    `${a.bio} Read ${whose} guides on UI UX design, research and product design for SaaS, AI and startup teams.`,
+    `${a.bio} Read ${whose} guides on UI UX design, research and product design.`,
+    `${a.bio} Read ${whose} UI UX design guides.`,
+  ].find((d) => d.length <= 153) ?? a.bio.slice(0, 158);
   return pageMetadata({
-    title: `${a.name}, ${a.role} | Author`,
-    description: `${a.bio} Read ${a.person ? `${a.name.split(" ")[0]}'s` : "the team's"} guides on UI UX design, research and product design.`.slice(0, 158),
+    title: `${a.name}, ${a.role.split("|")[0].trim()} | Author`,
+    description,
     path: blogRoutes.author(a.slug),
     image: "/og/home.png",
     noindex: postsByAuthor(a.slug).length + postsContributedBy(a.slug).length === 0,

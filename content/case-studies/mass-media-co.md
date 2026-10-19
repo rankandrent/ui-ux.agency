@@ -1,7 +1,7 @@
 ---
 title: "Mass Media Co.: one B2B platform for audience data, orders and campaigns"
 metaTitle: "Mass Media Co.: B2B Marketing Platform Redesign"
-description: "We merged Mass Media Co.'s separate order tools into a single B2B marketing platform and raised order processing efficiency 30%. Book a free consultation."
+description: "We merged Mass Media Co.'s separate order tools into one B2B marketing platform and raised order processing efficiency 30%. Book a free consultation."
 client: Mass Media Co.
 logo: Mass Media Co.
 result: "30% increase in order processing efficiency"

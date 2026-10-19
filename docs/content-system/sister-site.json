@@ -1,7 +1,7 @@
 {
   "note": "Cities the sister site uiuxdesignservices.us covers. ui-ux.agency must not build city pages for these (scripts/sister-guard.mjs).",
   "domain": "uiuxdesignservices.us",
-  "checked": "2026-10-16",
+  "checked": "2026-10-19",
   "cities": [
     "atlanta",
     "austin",
@@ -9,6 +9,7 @@
     "chicago",
     "columbus",
     "dallas",
+    "denver",
     "los angeles",
     "new york",
     "philadelphia",
@@ -32,6 +33,7 @@
     "https://uiuxdesignservices.us/location/ux-design-agency-austin/",
     "https://uiuxdesignservices.us/location/ux-design-agency-atlanta/",
     "https://uiuxdesignservices.us/location/ux-design-agency-washington-dc/",
-    "https://uiuxdesignservices.us/location/ux-design-agency-dallas/"
+    "https://uiuxdesignservices.us/location/ux-design-agency-dallas/",
+    "https://uiuxdesignservices.us/location/ux-design-agency-denver/"
   ]
 }
