@@ -1,6 +1,6 @@
 {
   "note": "Blog opportunity scores (patent US11468139B2 method). Higher score = more demand and buyer value where competition is weak. The content pipeline publishes from the top; re-run weekly, and after each post compare expectedMonthlyTraffic with real clicks to tune the weights.",
-  "generated": "2026-10-14",
+  "generated": "2026-10-19",
   "site": "ui-ux.agency",
   "weights": {
     "HUB_WEIGHT": {
@@ -16,103 +16,10 @@
     "atlassian.com",
     "userflow.com",
     "userpilot.com",
-    "ramotion.com",
-    "rocketlane.com"
+    "rocketlane.com",
+    "community.atlassian.com"
   ],
   "opportunities": [
-    {
-      "topic": "onboarding automation",
-      "hub": "saas-onboarding-design",
-      "hubCategory": "SaaS products",
-      "main": "user onboarding automation",
-      "count": 1,
-      "sumVolume": 100,
-      "trafficPotential": 600,
-      "avgKd": 0,
-      "avgCpc": 20,
-      "done": true,
-      "score": 162.6,
-      "serp": {
-        "avgDr": 53,
-        "avgRefdomains": 1,
-        "weakResults": 6,
-        "ease": 1.17,
-        "ourPosition": 100,
-        "top": [
-          {
-            "pos": 1,
-            "domain": "reddit.com",
-            "dr": 95,
-            "rd": null,
-            "title": "How to automate personalized onboarding journeys ..."
-          },
-          {
-            "pos": 4,
-            "domain": "guidecx.com",
-            "dr": 56,
-            "rd": 2,
-            "title": "How to Automate Your Client Onboarding Process"
-          },
-          {
-            "pos": 5,
-            "domain": "zendesk.hk",
-            "dr": 43,
-            "rd": 0,
-            "title": "Employee onboarding automation process: What it is + benefits"
-          },
-          {
-            "pos": 7,
-            "domain": "productfruits.com",
-            "dr": 73,
-            "rd": 2,
-            "title": "Best User Onboarding Software for SaaS in 2026: 24 Tools"
-          },
-          {
-            "pos": 8,
-            "domain": "brilo.ai",
-            "dr": 44,
-            "rd": 1,
-            "title": "Customer Onboarding Automation with AI"
-          },
-          {
-            "pos": 9,
-            "domain": "cloudviewpartners.com",
-            "dr": 22,
-            "rd": null,
-            "title": "Employee Onboarding Automation: A Complete Guide for IT ..."
-          },
-          {
-            "pos": 10,
-            "domain": "learn.flowstudio.app",
-            "dr": 38,
-            "rd": 0,
-            "title": "Create User Onboarding Workflow with Power Automate"
-          }
-        ],
-        "matrix": {
-          "ui-ux.agency": 100,
-          "dribbble.com": 100,
-          "atlassian.com": 100,
-          "userflow.com": 100,
-          "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
-        }
-      },
-      "format": "complete guide (definition, process, examples, checklist)",
-      "expectedMonthlyTraffic": 180,
-      "keywords": [
-        {
-          "keyword": "user onboarding automation",
-          "volume": 100,
-          "kd": 0,
-          "cpc": 2000,
-          "tp": 600
-        }
-      ],
-      "doneUrl": "/blog/user-onboarding-automation/",
-      "doneDate": "2026-10-16"
-    },
     {
       "topic": "integrating ai with cyber security",
       "hub": "ai-product-discovery-workshop",
@@ -136,7 +43,7 @@
             "pos": 1,
             "domain": "cybersecuritydive.com",
             "dr": 80,
-            "rd": 11,
+            "rd": 10,
             "title": "AI is transforming enterprise data risk. Here's how security ..."
           },
           {
@@ -191,7 +98,7 @@
           {
             "pos": 10,
             "domain": "ampcuscyber.com",
-            "dr": 57,
+            "dr": 58,
             "rd": 0,
             "title": "AI in Cybersecurity: A New Risk Challenge Emerges"
           }
@@ -202,8 +109,8 @@
           "atlassian.com": 100,
           "userflow.com": 100,
           "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
         }
       },
       "format": "complete guide (definition, process, examples, checklist)",
@@ -219,118 +126,6 @@
       ]
     },
     {
-      "topic": "best saas websites",
-      "hub": "saas-design-agency",
-      "hubCategory": "SaaS products",
-      "main": "saas homepage design",
-      "count": 2,
-      "sumVolume": 300,
-      "trafficPotential": 2600,
-      "avgKd": 0,
-      "avgCpc": 6.25,
-      "done": false,
-      "score": 133.7,
-      "serp": {
-        "avgDr": 72,
-        "avgRefdomains": 0,
-        "weakResults": 6,
-        "ease": 1.08,
-        "ourPosition": 100,
-        "top": [
-          {
-            "pos": 1,
-            "domain": "aura.build",
-            "dr": 52,
-            "rd": 0,
-            "title": "Futuristic SaaS Landing Page Template - Aura"
-          },
-          {
-            "pos": 2,
-            "domain": "dribbble.com",
-            "dr": 93,
-            "rd": null,
-            "title": "Taskko - SAAS Website Template"
-          },
-          {
-            "pos": 3,
-            "domain": "ramotion.com",
-            "dr": 74,
-            "rd": 0,
-            "title": "SaaS Case Studies & Portfolio"
-          },
-          {
-            "pos": 4,
-            "domain": "webflow.com",
-            "dr": 92,
-            "rd": 0,
-            "title": "North Website Page Template for Webflow - SaaS"
-          },
-          {
-            "pos": 6,
-            "domain": "youtube.com",
-            "dr": 99,
-            "rd": null,
-            "title": "How to Build a Viral SaaS Landing Page (Part-3)"
-          },
-          {
-            "pos": 7,
-            "domain": "taskip.net",
-            "dr": 46,
-            "rd": 0,
-            "title": "SaaS Website or App Development Scope of Work Template"
-          },
-          {
-            "pos": 8,
-            "domain": "cogosite.com",
-            "dr": 0,
-            "rd": 0,
-            "title": "SaaS Website Templates — Product Marketing Structures"
-          },
-          {
-            "pos": 9,
-            "domain": "se.pinterest.com",
-            "dr": 97,
-            "rd": null,
-            "title": "Cardinal - SaaS Landing Page Design"
-          },
-          {
-            "pos": 10,
-            "domain": "zoom.com",
-            "dr": 92,
-            "rd": 0,
-            "title": "SaaS Website UX Audit Checklist"
-          }
-        ],
-        "matrix": {
-          "ui-ux.agency": 100,
-          "dribbble.com": 2,
-          "atlassian.com": 100,
-          "userflow.com": 100,
-          "userpilot.com": 100,
-          "ramotion.com": 3,
-          "rocketlane.com": 100
-        }
-      },
-      "format": "complete guide (definition, process, examples, checklist)",
-      "expectedMonthlyTraffic": 780,
-      "keywords": [
-        {
-          "keyword": "saas homepage design",
-          "volume": 150,
-          "kd": 0,
-          "cpc": 350,
-          "tp": 2500
-        },
-        {
-          "keyword": "web design for saas",
-          "volume": 150,
-          "kd": 0,
-          "cpc": 900,
-          "tp": 2600
-        }
-      ]
-    },
-    {
       "topic": "ai business use cases",
       "hub": "ai-product-discovery-workshop",
       "hubCategory": "AI products",
@@ -341,12 +136,12 @@
       "avgKd": 0,
       "avgCpc": 9,
       "done": false,
-      "score": 121.1,
+      "score": 115.9,
       "serp": {
         "avgDr": 79,
-        "avgRefdomains": 29,
-        "weakResults": 4,
-        "ease": 0.93,
+        "avgRefdomains": 26,
+        "weakResults": 3,
+        "ease": 0.89,
         "ourPosition": 100,
         "top": [
           {
@@ -374,7 +169,7 @@
             "pos": 5,
             "domain": "blog.hubspot.com",
             "dr": 93,
-            "rd": 164,
+            "rd": 125,
             "title": "Enterprise generative AI tools that actually work"
           },
           {
@@ -395,7 +190,7 @@
             "pos": 9,
             "domain": "community.databricks.com",
             "dr": 89,
-            "rd": 1,
+            "rd": null,
             "title": "Enterprise AI Has a Serious Context Problem"
           },
           {
@@ -412,8 +207,8 @@
           "atlassian.com": 100,
           "userflow.com": 100,
           "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
         }
       },
       "format": "complete guide (definition, process, examples, checklist)",
@@ -425,344 +220,6 @@
           "kd": 0,
           "cpc": 900,
           "tp": 1600
-        }
-      ]
-    },
-    {
-      "topic": "product discovery",
-      "hub": "ai-product-discovery-workshop",
-      "hubCategory": "AI products",
-      "main": "product discovery",
-      "count": 3,
-      "sumVolume": 1460,
-      "trafficPotential": 1600,
-      "avgKd": 1,
-      "avgCpc": 1.75,
-      "done": true,
-      "score": 108.1,
-      "serp": {
-        "avgDr": 74,
-        "avgRefdomains": 3,
-        "weakResults": 5,
-        "ease": 1.03,
-        "ourPosition": 100,
-        "top": [
-          {
-            "pos": 4,
-            "domain": "slidegeeks.com",
-            "dr": 48,
-            "rd": 0,
-            "title": "Managing Product Discovery Process And Techniques ..."
-          },
-          {
-            "pos": 5,
-            "domain": "producthunt.com",
-            "dr": 91,
-            "rd": 14,
-            "title": "Zeda.io: AI-powered Product Discovery For Customer- ..."
-          },
-          {
-            "pos": 6,
-            "domain": "au.linkedin.com",
-            "dr": 99,
-            "rd": null,
-            "title": "Christina Li - Design & Research Leader"
-          },
-          {
-            "pos": 7,
-            "domain": "netguru.com",
-            "dr": 79,
-            "rd": 2,
-            "title": "Design Process for Pros — Discovery | Comprehensive ..."
-          },
-          {
-            "pos": 8,
-            "domain": "aykansoft.com",
-            "dr": 18,
-            "rd": 0,
-            "title": "AI-Driven Product Discovery : From a Seed document ... - Aykan"
-          },
-          {
-            "pos": 9,
-            "domain": "foodnavigator.com",
-            "dr": 82,
-            "rd": 2,
-            "title": "RangeMe streamlines product discovery for Target, Jet.com"
-          },
-          {
-            "pos": 10,
-            "domain": "youtube.com",
-            "dr": 99,
-            "rd": 1,
-            "title": "The Product Operating Model Meets LeSS"
-          }
-        ],
-        "matrix": {
-          "ui-ux.agency": 100,
-          "dribbble.com": 100,
-          "atlassian.com": 100,
-          "userflow.com": 100,
-          "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
-        }
-      },
-      "format": "complete guide (definition, process, examples, checklist)",
-      "expectedMonthlyTraffic": 480,
-      "keywords": [
-        {
-          "keyword": "product discovery",
-          "volume": 1300,
-          "kd": 0,
-          "cpc": 300,
-          "tp": 800
-        },
-        {
-          "keyword": "product discovery definition",
-          "volume": 90,
-          "kd": 0,
-          "cpc": null,
-          "tp": 350
-        },
-        {
-          "keyword": "product discovery process in agile",
-          "volume": 70,
-          "kd": 4,
-          "cpc": 50,
-          "tp": 1600
-        }
-      ],
-      "doneUrl": "/blog/product-discovery/",
-      "doneDate": "2026-10-15"
-    },
-    {
-      "topic": "product discovery process",
-      "hub": "ai-product-discovery-workshop",
-      "hubCategory": "AI products",
-      "main": "product discovery phase",
-      "count": 2,
-      "sumVolume": 170,
-      "trafficPotential": 600,
-      "avgKd": 0,
-      "avgCpc": 1.9,
-      "done": false,
-      "score": 101.6,
-      "serp": {
-        "avgDr": 61,
-        "avgRefdomains": 1,
-        "weakResults": 5,
-        "ease": 1.1,
-        "ourPosition": 100,
-        "top": [
-          {
-            "pos": 1,
-            "domain": "geeksforgeeks.org",
-            "dr": 90,
-            "rd": 1,
-            "title": "What is Product Discovery? | Definition and Overview"
-          },
-          {
-            "pos": 3,
-            "domain": "linkedin.com",
-            "dr": 99,
-            "rd": null,
-            "title": "What Does a Product Discovery Process Actually Include?"
-          },
-          {
-            "pos": 4,
-            "domain": "reddit.com",
-            "dr": 95,
-            "rd": null,
-            "title": "What part of the product discovery process you actually like ..."
-          },
-          {
-            "pos": 5,
-            "domain": "orangesoft.co",
-            "dr": 62,
-            "rd": 0,
-            "title": "Why is a Discovery Phase Crucial for Your Project Success?"
-          },
-          {
-            "pos": 6,
-            "domain": "q.agency",
-            "dr": 46,
-            "rd": null,
-            "title": "New Product Discovery | Tech Consulting"
-          },
-          {
-            "pos": 7,
-            "domain": "roadmap.one",
-            "dr": 8,
-            "rd": null,
-            "title": "Product Discovery in Roadmaps: Why Your Invisible ..."
-          },
-          {
-            "pos": 8,
-            "domain": "techslang.com",
-            "dr": 57,
-            "rd": 0,
-            "title": "Product Discovery: Everything You Need To Know"
-          },
-          {
-            "pos": 9,
-            "domain": "lexogrine.com",
-            "dr": 27,
-            "rd": 1,
-            "title": "Why Your AI Project Needs a Product Discovery Phase, and ..."
-          }
-        ],
-        "matrix": {
-          "ui-ux.agency": 100,
-          "dribbble.com": 100,
-          "atlassian.com": 100,
-          "userflow.com": 100,
-          "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
-        }
-      },
-      "format": "complete guide (definition, process, examples, checklist)",
-      "expectedMonthlyTraffic": 180,
-      "keywords": [
-        {
-          "keyword": "product discovery phase",
-          "volume": 100,
-          "kd": 0,
-          "cpc": null,
-          "tp": 600
-        },
-        {
-          "keyword": "how to do product discovery",
-          "volume": 70,
-          "kd": 0,
-          "cpc": 190,
-          "tp": 150
-        }
-      ]
-    },
-    {
-      "topic": "website design cost",
-      "hub": "ui-ux-design-cost",
-      "hubCategory": "Hiring & pricing",
-      "main": "cost of a website design",
-      "count": 6,
-      "sumVolume": 440,
-      "trafficPotential": 7000,
-      "avgKd": 0,
-      "avgCpc": 3.9,
-      "done": false,
-      "score": 98.7,
-      "serp": {
-        "avgDr": 63,
-        "avgRefdomains": 0,
-        "weakResults": 3,
-        "ease": 1.01,
-        "ourPosition": 100,
-        "top": [
-          {
-            "pos": 2,
-            "domain": "reddit.com",
-            "dr": 95,
-            "rd": null,
-            "title": "How much to charge for this website : r/webdesign"
-          },
-          {
-            "pos": 4,
-            "domain": "norakramerdesigns.com",
-            "dr": 42,
-            "rd": null,
-            "title": "The Hidden Cost of \"Cheap\" Web Design"
-          },
-          {
-            "pos": 6,
-            "domain": "austinwebanddesign.com",
-            "dr": 63,
-            "rd": 0,
-            "title": "The Basics Website – $7500 - Austin Web & Design"
-          },
-          {
-            "pos": 7,
-            "domain": "radiantelephant.com",
-            "dr": 44,
-            "rd": 0,
-            "title": "How Much Does Web Design & Development Cost?"
-          },
-          {
-            "pos": 8,
-            "domain": "saltwebdesigner.com",
-            "dr": 1,
-            "rd": null,
-            "title": "Small Business Website Cost Guide 2026"
-          },
-          {
-            "pos": 9,
-            "domain": "reddit.com",
-            "dr": 95,
-            "rd": null,
-            "title": "What is the market rate for designing and then building a 5 ..."
-          },
-          {
-            "pos": 10,
-            "domain": "linkedin.com",
-            "dr": 99,
-            "rd": null,
-            "title": "Average Cost of Website Design for Small Businesses"
-          }
-        ],
-        "matrix": {
-          "ui-ux.agency": 100,
-          "dribbble.com": 100,
-          "atlassian.com": 100,
-          "userflow.com": 100,
-          "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
-        }
-      },
-      "format": "cost breakdown (price table by scope)",
-      "expectedMonthlyTraffic": 2100,
-      "keywords": [
-        {
-          "keyword": "cost of a website design",
-          "volume": 100,
-          "kd": 0,
-          "cpc": 350,
-          "tp": 7000
-        },
-        {
-          "keyword": "professional website design cost",
-          "volume": 100,
-          "kd": 0,
-          "cpc": 700,
-          "tp": 7000
-        },
-        {
-          "keyword": "website design services cost",
-          "volume": 70,
-          "kd": 0,
-          "cpc": 400,
-          "tp": 6400
-        },
-        {
-          "keyword": "how much does it cost for website design",
-          "volume": 70,
-          "kd": 0,
-          "cpc": 200,
-          "tp": 7000
-        },
-        {
-          "keyword": "cost for a website design",
-          "volume": 50,
-          "kd": 0,
-          "cpc": null,
-          "tp": 6500
-        },
-        {
-          "keyword": "how much website design cost",
-          "volume": 50,
-          "kd": 0,
-          "cpc": 300,
-          "tp": 7000
         }
       ]
     },
@@ -802,7 +259,7 @@
           {
             "pos": 4,
             "domain": "rocketlane.com",
-            "dr": 69,
+            "dr": 70,
             "rd": 10,
             "title": "Customer Onboarding Process: Flow, Steps & Template ..."
           },
@@ -848,8 +305,8 @@
           "atlassian.com": 100,
           "userflow.com": 100,
           "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 4
+          "rocketlane.com": 4,
+          "community.atlassian.com": 100
         }
       },
       "format": "step-by-step guide (ordered steps + worked example)",
@@ -886,7 +343,7 @@
           {
             "pos": 1,
             "domain": "smartdev.com",
-            "dr": 63,
+            "dr": 64,
             "rd": null,
             "title": "Unlock AI Use Cases in Telecom: The Ultimate Guide"
           },
@@ -946,8 +403,8 @@
           "atlassian.com": 100,
           "userflow.com": 100,
           "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
         }
       },
       "format": "complete guide (definition, process, examples, checklist)",
@@ -1044,8 +501,8 @@
           "atlassian.com": 100,
           "userflow.com": 100,
           "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
         }
       },
       "format": "cost breakdown (price table by scope)",
@@ -1057,6 +514,111 @@
           "kd": 0,
           "cpc": 3000,
           "tp": 0
+        }
+      ]
+    },
+    {
+      "topic": "product discovery process",
+      "hub": "ai-product-discovery-workshop",
+      "hubCategory": "AI products",
+      "main": "product discovery phase",
+      "count": 2,
+      "sumVolume": 170,
+      "trafficPotential": 600,
+      "avgKd": 6,
+      "avgCpc": 1.9,
+      "done": false,
+      "score": 95.5,
+      "serp": {
+        "avgDr": 61,
+        "avgRefdomains": 1,
+        "weakResults": 5,
+        "ease": 1.1,
+        "ourPosition": 100,
+        "top": [
+          {
+            "pos": 1,
+            "domain": "geeksforgeeks.org",
+            "dr": 90,
+            "rd": 1,
+            "title": "What is Product Discovery? | Definition and Overview"
+          },
+          {
+            "pos": 3,
+            "domain": "linkedin.com",
+            "dr": 99,
+            "rd": null,
+            "title": "What Does a Product Discovery Process Actually Include?"
+          },
+          {
+            "pos": 4,
+            "domain": "reddit.com",
+            "dr": 95,
+            "rd": null,
+            "title": "What part of the product discovery process you actually like ..."
+          },
+          {
+            "pos": 5,
+            "domain": "orangesoft.co",
+            "dr": 62,
+            "rd": 0,
+            "title": "Why is a Discovery Phase Crucial for Your Project Success?"
+          },
+          {
+            "pos": 6,
+            "domain": "q.agency",
+            "dr": 46,
+            "rd": null,
+            "title": "New Product Discovery | Tech Consulting"
+          },
+          {
+            "pos": 7,
+            "domain": "roadmap.one",
+            "dr": 8,
+            "rd": null,
+            "title": "Product Discovery in Roadmaps: Why Your Invisible ..."
+          },
+          {
+            "pos": 8,
+            "domain": "techslang.com",
+            "dr": 57,
+            "rd": 0,
+            "title": "Product Discovery: Everything You Need To Know"
+          },
+          {
+            "pos": 9,
+            "domain": "lexogrine.com",
+            "dr": 28,
+            "rd": 1,
+            "title": "Why Your AI Project Needs a Product Discovery Phase, and ..."
+          }
+        ],
+        "matrix": {
+          "ui-ux.agency": 100,
+          "dribbble.com": 100,
+          "atlassian.com": 100,
+          "userflow.com": 100,
+          "userpilot.com": 100,
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
+        }
+      },
+      "format": "complete guide (definition, process, examples, checklist)",
+      "expectedMonthlyTraffic": 180,
+      "keywords": [
+        {
+          "keyword": "product discovery phase",
+          "volume": 100,
+          "kd": 0,
+          "cpc": null,
+          "tp": 600
+        },
+        {
+          "keyword": "how to do product discovery",
+          "volume": 70,
+          "kd": 12,
+          "cpc": 190,
+          "tp": 90
         }
       ]
     },
@@ -1142,8 +704,8 @@
           "atlassian.com": 2,
           "userflow.com": 100,
           "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 4
         }
       },
       "format": "complete guide (definition, process, examples, checklist)",
@@ -1180,7 +742,7 @@
           {
             "pos": 2,
             "domain": "saaspo.com",
-            "dr": 56,
+            "dr": 55,
             "rd": 0,
             "title": "Interactive SaaS Landing Pages for design inspiration"
           },
@@ -1240,8 +802,8 @@
           "atlassian.com": 100,
           "userflow.com": 100,
           "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
         }
       },
       "format": "complete guide (definition, process, examples, checklist)",
@@ -1292,7 +854,7 @@
           {
             "pos": 5,
             "domain": "razegrowth.com",
-            "dr": 13,
+            "dr": 14,
             "rd": 0,
             "title": "SaaS Homepage Design: Simplify for More Conversions - Raze"
           },
@@ -1338,8 +900,8 @@
           "atlassian.com": 100,
           "userflow.com": 100,
           "userpilot.com": 100,
-          "ramotion.com": 9,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
         }
       },
       "format": "complete guide (definition, process, examples, checklist)",
@@ -1411,7 +973,7 @@
           {
             "pos": 9,
             "domain": "evangelistsoftware.com",
-            "dr": 9,
+            "dr": 10,
             "rd": null,
             "title": "11 Best Generative AI Use Cases for Enterprises"
           },
@@ -1429,8 +991,8 @@
           "atlassian.com": 100,
           "userflow.com": 100,
           "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
         }
       },
       "format": "complete guide (definition, process, examples, checklist)",
@@ -1541,8 +1103,8 @@
           "atlassian.com": 100,
           "userflow.com": 100,
           "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 6
         }
       },
       "format": "cost breakdown (price table by scope)",
@@ -1580,7 +1142,7 @@
             "pos": 1,
             "domain": "gainsight.com",
             "dr": 80,
-            "rd": 57,
+            "rd": 59,
             "title": "Customer Onboarding: Best Practices and Actionable Tips"
           },
           {
@@ -1594,7 +1156,7 @@
             "pos": 4,
             "domain": "planhat.com",
             "dr": 68,
-            "rd": 5,
+            "rd": 7,
             "title": "The Complete Guide to Customer Onboarding & ..."
           },
           {
@@ -1639,8 +1201,8 @@
           "atlassian.com": 100,
           "userflow.com": 8,
           "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
         }
       },
       "format": "step-by-step guide (ordered steps + worked example)",
@@ -1652,6 +1214,61 @@
           "kd": 4,
           "cpc": 140,
           "tp": 1900
+        }
+      ]
+    },
+    {
+      "topic": "discovery product",
+      "hub": "ai-product-discovery-workshop",
+      "hubCategory": "AI products",
+      "main": "discovery product",
+      "count": 1,
+      "sumVolume": 70,
+      "trafficPotential": 800,
+      "avgKd": 14,
+      "avgCpc": 2.5,
+      "done": false,
+      "score": 84.5,
+      "format": "complete guide (definition, process, examples, checklist)",
+      "expectedMonthlyTraffic": 240,
+      "keywords": [
+        {
+          "keyword": "discovery product",
+          "volume": 70,
+          "kd": 14,
+          "cpc": 250,
+          "tp": 800
+        }
+      ]
+    },
+    {
+      "topic": "design tools",
+      "hub": "ai-ux-design-agency",
+      "hubCategory": "AI products",
+      "main": "best ai for product design",
+      "count": 2,
+      "sumVolume": 350,
+      "trafficPotential": 1000,
+      "avgKd": 17,
+      "avgCpc": 2.5,
+      "done": false,
+      "score": 84.3,
+      "format": "complete guide (definition, process, examples, checklist)",
+      "expectedMonthlyTraffic": 300,
+      "keywords": [
+        {
+          "keyword": "best ai for product design",
+          "volume": 200,
+          "kd": 10,
+          "cpc": 350,
+          "tp": 1000
+        },
+        {
+          "keyword": "product design ai tools",
+          "volume": 150,
+          "kd": 23,
+          "cpc": 150,
+          "tp": 1000
         }
       ]
     },
@@ -1735,30 +1352,6 @@
       ]
     },
     {
-      "topic": "ai design tools",
-      "hub": "ai-ux-design-agency",
-      "hubCategory": "AI products",
-      "main": "ai product design",
-      "count": 1,
-      "sumVolume": 400,
-      "trafficPotential": 1400,
-      "avgKd": 25,
-      "avgCpc": 3,
-      "done": false,
-      "score": 81.1,
-      "format": "complete guide (definition, process, examples, checklist)",
-      "expectedMonthlyTraffic": 420,
-      "keywords": [
-        {
-          "keyword": "ai product design",
-          "volume": 400,
-          "kd": 25,
-          "cpc": 300,
-          "tp": 1400
-        }
-      ]
-    },
-    {
       "topic": "product discovery framework",
       "hub": "ai-product-discovery-workshop",
       "hubCategory": "AI products",
@@ -1766,10 +1359,10 @@
       "count": 3,
       "sumVolume": 330,
       "trafficPotential": 300,
-      "avgKd": 5,
+      "avgKd": 4,
       "avgCpc": 3,
       "done": false,
-      "score": 80.9,
+      "score": 81.8,
       "format": "complete guide (definition, process, examples, checklist)",
       "expectedMonthlyTraffic": 90,
       "keywords": [
@@ -1790,9 +1383,33 @@
         {
           "keyword": "discovery phase of product development",
           "volume": 80,
-          "kd": 12,
+          "kd": 8,
           "cpc": 300,
-          "tp": 300
+          "tp": 200
+        }
+      ]
+    },
+    {
+      "topic": "ai design tools",
+      "hub": "ai-ux-design-agency",
+      "hubCategory": "AI products",
+      "main": "ai product design",
+      "count": 1,
+      "sumVolume": 400,
+      "trafficPotential": 1400,
+      "avgKd": 25,
+      "avgCpc": 3,
+      "done": false,
+      "score": 81.1,
+      "format": "complete guide (definition, process, examples, checklist)",
+      "expectedMonthlyTraffic": 420,
+      "keywords": [
+        {
+          "keyword": "ai product design",
+          "volume": 400,
+          "kd": 25,
+          "cpc": 300,
+          "tp": 1400
         }
       ]
     },
@@ -1938,244 +1555,6 @@
       ]
     },
     {
-      "topic": "chatbot design",
-      "hub": "chatbot-ui-design",
-      "hubCategory": "AI products",
-      "main": "chatbot design",
-      "count": 8,
-      "sumVolume": 1010,
-      "trafficPotential": 500,
-      "avgKd": 4,
-      "avgCpc": 2.83,
-      "done": false,
-      "score": 79.8,
-      "serp": {
-        "avgDr": 89,
-        "avgRefdomains": 15,
-        "weakResults": 4,
-        "ease": 0.9,
-        "ourPosition": 100,
-        "top": [
-          {
-            "pos": 1,
-            "domain": "dribbble.com",
-            "dr": 93,
-            "rd": 1,
-            "title": "Browse thousands of Chatbot images for design inspiration"
-          },
-          {
-            "pos": 2,
-            "domain": "figma.com",
-            "dr": 92,
-            "rd": 0,
-            "title": "Free Chatbot Templates You Can Edit & Download"
-          },
-          {
-            "pos": 3,
-            "domain": "ibm.com",
-            "dr": 93,
-            "rd": 38,
-            "title": "What Is Chatbot Design?"
-          },
-          {
-            "pos": 4,
-            "domain": "mobbin.com",
-            "dr": 76,
-            "rd": 4,
-            "title": "Chatbot UI Design Examples for Web Apps"
-          },
-          {
-            "pos": 6,
-            "domain": "pinterest.com",
-            "dr": 97,
-            "rd": 0,
-            "title": "Chatbot Ui Design"
-          },
-          {
-            "pos": 7,
-            "domain": "nngroup.com",
-            "dr": 91,
-            "rd": 62,
-            "title": "10 Guidelines for Designing Your Site's AI Chatbots"
-          },
-          {
-            "pos": 9,
-            "domain": "reddit.com",
-            "dr": 95,
-            "rd": 2,
-            "title": "I'm incredibly bored by chatbot UX, so I curated a list of ..."
-          },
-          {
-            "pos": 10,
-            "domain": "sendbird.com",
-            "dr": 75,
-            "rd": 15,
-            "title": "15 Chatbot UI examples for designing an effective user ..."
-          }
-        ],
-        "matrix": {
-          "ui-ux.agency": 100,
-          "dribbble.com": 1,
-          "atlassian.com": 100,
-          "userflow.com": 100,
-          "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
-        }
-      },
-      "format": "complete guide (definition, process, examples, checklist)",
-      "expectedMonthlyTraffic": 150,
-      "keywords": [
-        {
-          "keyword": "chatbot design",
-          "volume": 450,
-          "kd": 3,
-          "cpc": 350,
-          "tp": 450
-        },
-        {
-          "keyword": "design chatbot",
-          "volume": 150,
-          "kd": 6,
-          "cpc": 300,
-          "tp": 350
-        },
-        {
-          "keyword": "chatbot design examples",
-          "volume": 150,
-          "kd": 4,
-          "cpc": 250,
-          "tp": 450
-        },
-        {
-          "keyword": "chatbot interface design",
-          "volume": 80,
-          "kd": 0,
-          "cpc": 250,
-          "tp": 450
-        },
-        {
-          "keyword": "chatbot ui examples",
-          "volume": 60,
-          "kd": 3,
-          "cpc": 140,
-          "tp": 500
-        },
-        {
-          "keyword": "best chatbot design",
-          "volume": 50,
-          "kd": 9,
-          "cpc": 190,
-          "tp": 450
-        },
-        {
-          "keyword": "ai chatbot design",
-          "volume": 40,
-          "kd": 0,
-          "cpc": 500,
-          "tp": 450
-        },
-        {
-          "keyword": "chatbot interaction design",
-          "volume": 30,
-          "kd": 8,
-          "cpc": null,
-          "tp": 250
-        }
-      ]
-    },
-    {
-      "topic": "onboarding flow",
-      "hub": "saas-onboarding-design",
-      "hubCategory": "SaaS products",
-      "main": "best onboarding flow",
-      "count": 1,
-      "sumVolume": 100,
-      "trafficPotential": 2000,
-      "avgKd": 11,
-      "avgCpc": 6,
-      "done": false,
-      "score": 79.3,
-      "serp": {
-        "avgDr": 77,
-        "avgRefdomains": 54,
-        "weakResults": 0,
-        "ease": 0.75,
-        "ourPosition": 100,
-        "top": [
-          {
-            "pos": 1,
-            "domain": "designerup.co",
-            "dr": 48,
-            "rd": 30,
-            "title": "I studied the UX/UI of over 200 onboarding flows"
-          },
-          {
-            "pos": 2,
-            "domain": "dribbble.com",
-            "dr": 93,
-            "rd": 9,
-            "title": "Onboarding"
-          },
-          {
-            "pos": 3,
-            "domain": "mobbin.com",
-            "dr": 76,
-            "rd": 5,
-            "title": "Mobile App Onboarding Screen User Flow Design"
-          },
-          {
-            "pos": 4,
-            "domain": "reddit.com",
-            "dr": 95,
-            "rd": null,
-            "title": "What are the best SaaS onboarding flows you've seen?"
-          },
-          {
-            "pos": 5,
-            "domain": "userflow.com",
-            "dr": 70,
-            "rd": 15,
-            "title": "Onboarding Flows 101: How to Achieve User Retention ..."
-          },
-          {
-            "pos": 8,
-            "domain": "appcues.com",
-            "dr": 78,
-            "rd": 130,
-            "title": "Best User Onboarding Examples: 12 Flows Worth ..."
-          },
-          {
-            "pos": 9,
-            "domain": "userpilot.com",
-            "dr": 79,
-            "rd": 132,
-            "title": "Best User Onboarding Experiences in 2026: Examples and ..."
-          }
-        ],
-        "matrix": {
-          "ui-ux.agency": 100,
-          "dribbble.com": 2,
-          "atlassian.com": 100,
-          "userflow.com": 5,
-          "userpilot.com": 9,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
-        }
-      },
-      "format": "complete guide (definition, process, examples, checklist)",
-      "expectedMonthlyTraffic": 600,
-      "keywords": [
-        {
-          "keyword": "best onboarding flow",
-          "volume": 100,
-          "kd": 11,
-          "cpc": 600,
-          "tp": 2000
-        }
-      ]
-    },
-    {
       "topic": "product discovery techniques",
       "hub": "ai-product-discovery-workshop",
       "hubCategory": "AI products",
@@ -2207,6 +1586,146 @@
       ]
     },
     {
+      "topic": "chatbot design",
+      "hub": "chatbot-ui-design",
+      "hubCategory": "AI products",
+      "main": "chatbot design",
+      "count": 7,
+      "sumVolume": 860,
+      "trafficPotential": 450,
+      "avgKd": 3,
+      "avgCpc": 2.88,
+      "done": false,
+      "score": 78.5,
+      "serp": {
+        "avgDr": 89,
+        "avgRefdomains": 16,
+        "weakResults": 4,
+        "ease": 0.89,
+        "ourPosition": 100,
+        "top": [
+          {
+            "pos": 1,
+            "domain": "dribbble.com",
+            "dr": 93,
+            "rd": 1,
+            "title": "Browse thousands of Chatbot images for design inspiration"
+          },
+          {
+            "pos": 2,
+            "domain": "figma.com",
+            "dr": 92,
+            "rd": 0,
+            "title": "Free Chatbot Templates You Can Edit & Download"
+          },
+          {
+            "pos": 3,
+            "domain": "ibm.com",
+            "dr": 93,
+            "rd": 38,
+            "title": "What Is Chatbot Design?"
+          },
+          {
+            "pos": 4,
+            "domain": "mobbin.com",
+            "dr": 76,
+            "rd": 3,
+            "title": "Chatbot UI Design Examples for Web Apps"
+          },
+          {
+            "pos": 6,
+            "domain": "pinterest.com",
+            "dr": 97,
+            "rd": 0,
+            "title": "Chatbot Ui Design"
+          },
+          {
+            "pos": 7,
+            "domain": "nngroup.com",
+            "dr": 91,
+            "rd": 66,
+            "title": "10 Guidelines for Designing Your Site's AI Chatbots"
+          },
+          {
+            "pos": 9,
+            "domain": "reddit.com",
+            "dr": 95,
+            "rd": 2,
+            "title": "I'm incredibly bored by chatbot UX, so I curated a list of ..."
+          },
+          {
+            "pos": 10,
+            "domain": "sendbird.com",
+            "dr": 76,
+            "rd": 15,
+            "title": "15 Chatbot UI examples for designing an effective user ..."
+          }
+        ],
+        "matrix": {
+          "ui-ux.agency": 100,
+          "dribbble.com": 1,
+          "atlassian.com": 100,
+          "userflow.com": 100,
+          "userpilot.com": 100,
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
+        }
+      },
+      "format": "complete guide (definition, process, examples, checklist)",
+      "expectedMonthlyTraffic": 135,
+      "keywords": [
+        {
+          "keyword": "chatbot design",
+          "volume": 450,
+          "kd": 3,
+          "cpc": 350,
+          "tp": 450
+        },
+        {
+          "keyword": "design chatbot",
+          "volume": 150,
+          "kd": 6,
+          "cpc": 300,
+          "tp": 350
+        },
+        {
+          "keyword": "chatbot interface design",
+          "volume": 80,
+          "kd": 0,
+          "cpc": 250,
+          "tp": 450
+        },
+        {
+          "keyword": "chatbot ui examples",
+          "volume": 60,
+          "kd": 1,
+          "cpc": 140,
+          "tp": 300
+        },
+        {
+          "keyword": "best chatbot design",
+          "volume": 50,
+          "kd": 4,
+          "cpc": 190,
+          "tp": 300
+        },
+        {
+          "keyword": "ai chatbot design",
+          "volume": 40,
+          "kd": 0,
+          "cpc": 500,
+          "tp": 450
+        },
+        {
+          "keyword": "chatbot interaction design",
+          "volume": 30,
+          "kd": 8,
+          "cpc": null,
+          "tp": 250
+        }
+      ]
+    },
+    {
       "topic": "kyc onboarding",
       "hub": "saas-onboarding-design",
       "hubCategory": "SaaS products",
@@ -2227,125 +1746,6 @@
           "kd": 0,
           "cpc": null,
           "tp": 400
-        }
-      ]
-    },
-    {
-      "topic": "jira product discovery",
-      "hub": "ai-product-discovery-workshop",
-      "hubCategory": "AI products",
-      "main": "what is jira product discovery",
-      "count": 4,
-      "sumVolume": 630,
-      "trafficPotential": 1800,
-      "avgKd": 4,
-      "avgCpc": 1.86,
-      "done": false,
-      "score": 77.8,
-      "serp": {
-        "avgDr": 92,
-        "avgRefdomains": 61,
-        "weakResults": 2,
-        "ease": 0.75,
-        "ourPosition": 100,
-        "top": [
-          {
-            "pos": 2,
-            "domain": "support.atlassian.com",
-            "dr": 92,
-            "rd": 13,
-            "title": "What is Jira Product Discovery?"
-          },
-          {
-            "pos": 4,
-            "domain": "atlassian.com",
-            "dr": 92,
-            "rd": 378,
-            "title": "Jira Product Discovery | Prioritization & Roadmapping"
-          },
-          {
-            "pos": 5,
-            "domain": "atlassian.com",
-            "dr": 92,
-            "rd": 7,
-            "title": "4 ways Jira Product Discovery helps program managers ..."
-          },
-          {
-            "pos": 6,
-            "domain": "reddit.com",
-            "dr": 95,
-            "rd": 2,
-            "title": "Jira Product Discovery seems to be a good alternative"
-          },
-          {
-            "pos": 7,
-            "domain": "support.atlassian.com",
-            "dr": 92,
-            "rd": 7,
-            "title": "Jira Product Discovery resources"
-          },
-          {
-            "pos": 8,
-            "domain": "atlassian.com",
-            "dr": 92,
-            "rd": 73,
-            "title": "Jira Product Discovery: Pricing Plans to Fuel Innovation"
-          },
-          {
-            "pos": 9,
-            "domain": "atlassian.com",
-            "dr": 92,
-            "rd": 5,
-            "title": "Introduction to Jira Product Discovery views"
-          },
-          {
-            "pos": 10,
-            "domain": "featurebase.app",
-            "dr": 85,
-            "rd": 1,
-            "title": "Jira Product Discovery Pricing 2026: Is it Worth .. ..."
-          }
-        ],
-        "matrix": {
-          "ui-ux.agency": 100,
-          "dribbble.com": 100,
-          "atlassian.com": 4,
-          "userflow.com": 100,
-          "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
-        }
-      },
-      "format": "definition guide (what, why, how, examples)",
-      "expectedMonthlyTraffic": 540,
-      "keywords": [
-        {
-          "keyword": "what is jira product discovery",
-          "volume": 300,
-          "kd": 5,
-          "cpc": 35,
-          "tp": 600
-        },
-        {
-          "keyword": "what is product discovery",
-          "volume": 200,
-          "kd": 8,
-          "cpc": 60,
-          "tp": 450
-        },
-        {
-          "keyword": "product discovery jira",
-          "volume": 70,
-          "kd": 4,
-          "cpc": 250,
-          "tp": 1400
-        },
-        {
-          "keyword": "atlassian product discovery",
-          "volume": 60,
-          "kd": 0,
-          "cpc": 400,
-          "tp": 1800
         }
       ]
     },
@@ -2441,8 +1841,8 @@
       "done": false,
       "score": 77.1,
       "serp": {
-        "avgDr": 80,
-        "avgRefdomains": 375,
+        "avgDr": 81,
+        "avgRefdomains": 373,
         "weakResults": 1,
         "ease": 0.59,
         "ourPosition": 100,
@@ -2451,7 +1851,7 @@
             "pos": 2,
             "domain": "userpilot.com",
             "dr": 79,
-            "rd": 72,
+            "rd": 69,
             "title": "Best User Onboarding Tools for SaaS [Categorized by Use ..."
           },
           {
@@ -2492,15 +1892,15 @@
           {
             "pos": 9,
             "domain": "rocketlane.com",
-            "dr": 69,
-            "rd": 22,
+            "dr": 70,
+            "rd": 21,
             "title": "Best customer onboarding tools for 2026"
           },
           {
             "pos": 10,
             "domain": "userflow.com",
             "dr": 70,
-            "rd": 2858,
+            "rd": 2847,
             "title": "Userflow: The AI-Powered Product Adoption & Onboarding ..."
           }
         ],
@@ -2510,8 +1910,8 @@
           "atlassian.com": 100,
           "userflow.com": 10,
           "userpilot.com": 2,
-          "ramotion.com": 100,
-          "rocketlane.com": 9
+          "rocketlane.com": 9,
+          "community.atlassian.com": 100
         }
       },
       "format": "complete guide (definition, process, examples, checklist)",
@@ -2792,6 +2192,111 @@
       ]
     },
     {
+      "topic": "jira product discovery",
+      "hub": "ai-product-discovery-workshop",
+      "hubCategory": "AI products",
+      "main": "jira product discovery",
+      "count": 5,
+      "sumVolume": 3830,
+      "trafficPotential": 3200,
+      "avgKd": 4,
+      "avgCpc": 1.87,
+      "done": false,
+      "score": 74.8,
+      "serp": {
+        "avgDr": 93,
+        "avgRefdomains": 82,
+        "weakResults": 1,
+        "ease": 0.67,
+        "ourPosition": 100,
+        "top": [
+          {
+            "pos": 1,
+            "domain": "atlassian.com",
+            "dr": 92,
+            "rd": 380,
+            "title": "Jira Product Discovery | Prioritization & Roadmapping"
+          },
+          {
+            "pos": 4,
+            "domain": "support.atlassian.com",
+            "dr": 92,
+            "rd": 15,
+            "title": "What is Jira Product Discovery?"
+          },
+          {
+            "pos": 5,
+            "domain": "atlassian.com",
+            "dr": 92,
+            "rd": 8,
+            "title": "Jira Product Discovery Pricing & Licensing"
+          },
+          {
+            "pos": 6,
+            "domain": "reddit.com",
+            "dr": 95,
+            "rd": 2,
+            "title": "Jira Product Discovery seems to be a good alternative"
+          },
+          {
+            "pos": 7,
+            "domain": "atlassian.com",
+            "dr": 92,
+            "rd": 7,
+            "title": "4 ways Jira Product Discovery helps program managers ..."
+          }
+        ],
+        "matrix": {
+          "ui-ux.agency": 100,
+          "dribbble.com": 100,
+          "atlassian.com": 1,
+          "userflow.com": 100,
+          "userpilot.com": 100,
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
+        }
+      },
+      "format": "complete guide (definition, process, examples, checklist)",
+      "expectedMonthlyTraffic": 960,
+      "keywords": [
+        {
+          "keyword": "jira product discovery",
+          "volume": 3200,
+          "kd": 5,
+          "cpc": 190,
+          "tp": 1300
+        },
+        {
+          "keyword": "what is jira product discovery",
+          "volume": 300,
+          "kd": 5,
+          "cpc": 35,
+          "tp": 600
+        },
+        {
+          "keyword": "what is product discovery",
+          "volume": 200,
+          "kd": 8,
+          "cpc": 60,
+          "tp": 450
+        },
+        {
+          "keyword": "product discovery jira",
+          "volume": 70,
+          "kd": 4,
+          "cpc": 250,
+          "tp": 1400
+        },
+        {
+          "keyword": "atlassian product discovery",
+          "volume": 60,
+          "kd": 0,
+          "cpc": 400,
+          "tp": 1800
+        }
+      ]
+    },
+    {
       "topic": "great saas onboarding",
       "hub": "saas-onboarding-design",
       "hubCategory": "SaaS products",
@@ -2816,111 +2321,6 @@
       ]
     },
     {
-      "topic": "discovery product",
-      "hub": "ai-product-discovery-workshop",
-      "hubCategory": "AI products",
-      "main": "discovery product",
-      "count": 1,
-      "sumVolume": 70,
-      "trafficPotential": 800,
-      "avgKd": 14,
-      "avgCpc": 2.5,
-      "done": false,
-      "score": 74.4,
-      "serp": {
-        "avgDr": 71,
-        "avgRefdomains": 35,
-        "weakResults": 2,
-        "ease": 0.88,
-        "ourPosition": 100,
-        "top": [
-          {
-            "pos": 1,
-            "domain": "productboard.com",
-            "dr": 81,
-            "rd": 42,
-            "title": "Guide: Product Discovery Process & Techniques"
-          },
-          {
-            "pos": 3,
-            "domain": "productplan.com",
-            "dr": 80,
-            "rd": 24,
-            "title": "What is Product Discovery? | Definition and Overview"
-          },
-          {
-            "pos": 4,
-            "domain": "producttalk.org",
-            "dr": 73,
-            "rd": 134,
-            "title": "Product Discovery Basics: Everything You Need to Know"
-          },
-          {
-            "pos": 5,
-            "domain": "maze.co",
-            "dr": 79,
-            "rd": 24,
-            "title": "Product Discovery Guide: 4 Stages to Understanding Users"
-          },
-          {
-            "pos": 6,
-            "domain": "herbig.co",
-            "dr": 51,
-            "rd": 79,
-            "title": "Product Discovery: A Practical Guide for Product Teams"
-          },
-          {
-            "pos": 7,
-            "domain": "netsolutions.com",
-            "dr": 71,
-            "rd": 2,
-            "title": "What is Product Discovery? A Comprehensive Guide"
-          },
-          {
-            "pos": 8,
-            "domain": "aha.io",
-            "dr": 81,
-            "rd": 5,
-            "title": "What is product discovery?"
-          },
-          {
-            "pos": 9,
-            "domain": "thefountaininstitute.com",
-            "dr": 47,
-            "rd": 3,
-            "title": "What is Product Discovery? [Process, Methods, and Benefits]"
-          },
-          {
-            "pos": 10,
-            "domain": "airfocus.com",
-            "dr": 74,
-            "rd": 0,
-            "title": "Definition of Product Discovery"
-          }
-        ],
-        "matrix": {
-          "ui-ux.agency": 100,
-          "dribbble.com": 100,
-          "atlassian.com": 100,
-          "userflow.com": 100,
-          "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
-        }
-      },
-      "format": "complete guide (definition, process, examples, checklist)",
-      "expectedMonthlyTraffic": 240,
-      "keywords": [
-        {
-          "keyword": "discovery product",
-          "volume": 70,
-          "kd": 14,
-          "cpc": 250,
-          "tp": 800
-        }
-      ]
-    },
-    {
       "topic": "client onboarding process flow chart",
       "hub": "saas-onboarding-design",
       "hubCategory": "SaaS products",
@@ -2941,6 +2341,214 @@
           "kd": 0,
           "cpc": 700,
           "tp": 30
+        }
+      ]
+    },
+    {
+      "topic": "enterprise use cases for generative ai",
+      "hub": "ai-product-discovery-workshop",
+      "hubCategory": "AI products",
+      "main": "enterprise use cases for generative ai",
+      "count": 2,
+      "sumVolume": 500,
+      "trafficPotential": 800,
+      "avgKd": 28,
+      "avgCpc": 4,
+      "done": false,
+      "score": 74,
+      "format": "complete guide (definition, process, examples, checklist)",
+      "expectedMonthlyTraffic": 240,
+      "keywords": [
+        {
+          "keyword": "enterprise use cases for generative ai",
+          "volume": 300,
+          "kd": 23,
+          "cpc": null,
+          "tp": 700
+        },
+        {
+          "keyword": "generative ai business use cases",
+          "volume": 200,
+          "kd": 32,
+          "cpc": 400,
+          "tp": 800
+        }
+      ]
+    },
+    {
+      "topic": "how much does it cost to design a website?",
+      "hub": "ui-ux-design-cost",
+      "hubCategory": "Hiring & pricing",
+      "main": "how much does a website design cost",
+      "count": 1,
+      "sumVolume": 150,
+      "trafficPotential": 4900,
+      "avgKd": 19,
+      "avgCpc": 3,
+      "done": false,
+      "score": 74,
+      "format": "cost breakdown (price table by scope)",
+      "expectedMonthlyTraffic": 1470,
+      "keywords": [
+        {
+          "keyword": "how much does a website design cost",
+          "volume": 150,
+          "kd": 19,
+          "cpc": 300,
+          "tp": 4900
+        }
+      ]
+    },
+    {
+      "topic": "chat bot ui design",
+      "hub": "chatbot-ui-design",
+      "hubCategory": "AI products",
+      "main": "chatbot design examples",
+      "count": 1,
+      "sumVolume": 150,
+      "trafficPotential": 150,
+      "avgKd": 0,
+      "avgCpc": 2.5,
+      "done": false,
+      "score": 73.8,
+      "format": "examples gallery (annotated screens)",
+      "expectedMonthlyTraffic": 45,
+      "keywords": [
+        {
+          "keyword": "chatbot design examples",
+          "volume": 150,
+          "kd": 0,
+          "cpc": 250,
+          "tp": 10
+        }
+      ]
+    },
+    {
+      "topic": "onboarding flow",
+      "hub": "saas-onboarding-design",
+      "hubCategory": "SaaS products",
+      "main": "best onboarding flow",
+      "count": 3,
+      "sumVolume": 300,
+      "trafficPotential": 2000,
+      "avgKd": 12,
+      "avgCpc": 3.83,
+      "done": false,
+      "score": 73.7,
+      "serp": {
+        "avgDr": 77,
+        "avgRefdomains": 53,
+        "weakResults": 0,
+        "ease": 0.75,
+        "ourPosition": 100,
+        "top": [
+          {
+            "pos": 1,
+            "domain": "designerup.co",
+            "dr": 48,
+            "rd": 30,
+            "title": "I studied the UX/UI of over 200 onboarding flows"
+          },
+          {
+            "pos": 2,
+            "domain": "dribbble.com",
+            "dr": 93,
+            "rd": 10,
+            "title": "Onboarding"
+          },
+          {
+            "pos": 3,
+            "domain": "mobbin.com",
+            "dr": 76,
+            "rd": 6,
+            "title": "Mobile App Onboarding Screen User Flow Design"
+          },
+          {
+            "pos": 4,
+            "domain": "reddit.com",
+            "dr": 95,
+            "rd": null,
+            "title": "What are the best SaaS onboarding flows you've seen?"
+          },
+          {
+            "pos": 5,
+            "domain": "userflow.com",
+            "dr": 70,
+            "rd": 14,
+            "title": "Onboarding Flows 101: How to Achieve User Retention ..."
+          },
+          {
+            "pos": 8,
+            "domain": "appcues.com",
+            "dr": 78,
+            "rd": 130,
+            "title": "Best User Onboarding Examples: 12 Flows Worth ..."
+          },
+          {
+            "pos": 9,
+            "domain": "userpilot.com",
+            "dr": 79,
+            "rd": 130,
+            "title": "Best User Onboarding Experiences in 2026: Examples and ..."
+          }
+        ],
+        "matrix": {
+          "ui-ux.agency": 100,
+          "dribbble.com": 2,
+          "atlassian.com": 100,
+          "userflow.com": 5,
+          "userpilot.com": 9,
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
+        }
+      },
+      "format": "complete guide (definition, process, examples, checklist)",
+      "expectedMonthlyTraffic": 600,
+      "keywords": [
+        {
+          "keyword": "best onboarding flow",
+          "volume": 100,
+          "kd": 11,
+          "cpc": 600,
+          "tp": 2000
+        },
+        {
+          "keyword": "onboarding flow ux",
+          "volume": 100,
+          "kd": 18,
+          "cpc": 300,
+          "tp": 2000
+        },
+        {
+          "keyword": "onboarding flow ui",
+          "volume": 100,
+          "kd": 8,
+          "cpc": 250,
+          "tp": 2000
+        }
+      ]
+    },
+    {
+      "topic": "saas user onboarding",
+      "hub": "saas-onboarding-design",
+      "hubCategory": "SaaS products",
+      "main": "saas user onboarding",
+      "count": 1,
+      "sumVolume": 150,
+      "trafficPotential": 150,
+      "avgKd": 6,
+      "avgCpc": 6,
+      "done": false,
+      "score": 73.7,
+      "format": "complete guide (definition, process, examples, checklist)",
+      "expectedMonthlyTraffic": 45,
+      "keywords": [
+        {
+          "keyword": "saas user onboarding",
+          "volume": 150,
+          "kd": 6,
+          "cpc": 600,
+          "tp": 100
         }
       ]
     },
@@ -3012,7 +2620,7 @@
       "hubCategory": "Startups & product",
       "main": "digital product design",
       "count": 4,
-      "sumVolume": 1730,
+      "sumVolume": 1780,
       "trafficPotential": 1300,
       "avgKd": 3,
       "avgCpc": 4.45,
@@ -3029,7 +2637,7 @@
             "pos": 2,
             "domain": "boldare.com",
             "dr": 59,
-            "rd": 10,
+            "rd": 9,
             "title": "Digital Product Designer: Skills & Responsibilities"
           },
           {
@@ -3064,7 +2672,7 @@
             "pos": 8,
             "domain": "en.wikipedia.org",
             "dr": 97,
-            "rd": 82,
+            "rd": 83,
             "title": "Digital product design"
           },
           {
@@ -3081,8 +2689,8 @@
           "atlassian.com": 100,
           "userflow.com": 100,
           "userpilot.com": 100,
-          "ramotion.com": 10,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
         }
       },
       "format": "complete guide (definition, process, examples, checklist)",
@@ -3097,7 +2705,7 @@
         },
         {
           "keyword": "what is digital product design",
-          "volume": 200,
+          "volume": 250,
           "kd": 0,
           "cpc": 80,
           "tp": 0
@@ -3211,7 +2819,7 @@
       "score": 72.3,
       "serp": {
         "avgDr": 79,
-        "avgRefdomains": 477,
+        "avgRefdomains": 466,
         "weakResults": 3,
         "ease": 0.67,
         "ourPosition": 100,
@@ -3220,7 +2828,7 @@
             "pos": 1,
             "domain": "saaslandingpage.com",
             "dr": 54,
-            "rd": 3281,
+            "rd": 3204,
             "title": "SaaS Landing Page: The Best Landing Page Examples For ..."
           },
           {
@@ -3279,8 +2887,8 @@
           "atlassian.com": 100,
           "userflow.com": 100,
           "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
         }
       },
       "format": "complete guide (definition, process, examples, checklist)",
@@ -3447,37 +3055,6 @@
       ]
     },
     {
-      "topic": "how much does it cost to design a website?",
-      "hub": "ui-ux-design-cost",
-      "hubCategory": "Hiring & pricing",
-      "main": "cost of website design",
-      "count": 2,
-      "sumVolume": 500,
-      "trafficPotential": 5800,
-      "avgKd": 25,
-      "avgCpc": 3.25,
-      "done": false,
-      "score": 70.4,
-      "format": "cost breakdown (price table by scope)",
-      "expectedMonthlyTraffic": 1740,
-      "keywords": [
-        {
-          "keyword": "cost of website design",
-          "volume": 350,
-          "kd": 30,
-          "cpc": 350,
-          "tp": 5800
-        },
-        {
-          "keyword": "how much does a website design cost",
-          "volume": 150,
-          "kd": 19,
-          "cpc": 300,
-          "tp": 4900
-        }
-      ]
-    },
-    {
       "topic": "minimum viable marketing",
       "hub": "mvp-design-agency",
       "hubCategory": "Startups & product",
@@ -3562,7 +3139,7 @@
       "done": false,
       "score": 69.5,
       "serp": {
-        "avgDr": 80,
+        "avgDr": 81,
         "avgRefdomains": 24,
         "weakResults": 1,
         "ease": 0.81,
@@ -3579,7 +3156,7 @@
             "pos": 5,
             "domain": "ignitionapp.com",
             "dr": 74,
-            "rd": 23,
+            "rd": 25,
             "title": "Guide to client onboarding: 8 steps for happy clients"
           },
           {
@@ -3599,8 +3176,8 @@
           {
             "pos": 8,
             "domain": "rocketlane.com",
-            "dr": 69,
-            "rd": 29,
+            "dr": 70,
+            "rd": 30,
             "title": "9 Client Onboarding Best Practices for PS Teams 2026"
           },
           {
@@ -3617,8 +3194,8 @@
           "atlassian.com": 100,
           "userflow.com": 100,
           "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 8
+          "rocketlane.com": 8,
+          "community.atlassian.com": 100
         }
       },
       "format": "step-by-step guide (ordered steps + worked example)",
@@ -3682,6 +3259,30 @@
       ]
     },
     {
+      "topic": "average cost of website design for small business",
+      "hub": "ui-ux-design-cost",
+      "hubCategory": "Hiring & pricing",
+      "main": "average cost of website design for small business",
+      "count": 1,
+      "sumVolume": 450,
+      "trafficPotential": 700,
+      "avgKd": 0,
+      "avgCpc": 2,
+      "done": false,
+      "score": 68.3,
+      "format": "cost breakdown (price table by scope)",
+      "expectedMonthlyTraffic": 210,
+      "keywords": [
+        {
+          "keyword": "average cost of website design for small business",
+          "volume": 450,
+          "kd": 0,
+          "cpc": 200,
+          "tp": 700
+        }
+      ]
+    },
+    {
       "topic": "ai use cases in telecom",
       "hub": "ai-product-discovery-workshop",
       "hubCategory": "AI products",
@@ -3706,6 +3307,30 @@
       ]
     },
     {
+      "topic": "ux pilot",
+      "hub": "ai-ux-design-agency",
+      "hubCategory": "AI products",
+      "main": "ux design for ai",
+      "count": 1,
+      "sumVolume": 150,
+      "trafficPotential": 1100,
+      "avgKd": 36,
+      "avgCpc": 3.5,
+      "done": false,
+      "score": 67.9,
+      "format": "complete guide (definition, process, examples, checklist)",
+      "expectedMonthlyTraffic": 330,
+      "keywords": [
+        {
+          "keyword": "ux design for ai",
+          "volume": 150,
+          "kd": 36,
+          "cpc": 350,
+          "tp": 1100
+        }
+      ]
+    },
+    {
       "topic": "new product development process",
       "hub": "product-design-agency",
       "hubCategory": "Startups & product",
@@ -3726,37 +3351,6 @@
           "kd": 17,
           "cpc": null,
           "tp": 1700
-        }
-      ]
-    },
-    {
-      "topic": "enterprise use cases for generative ai",
-      "hub": "ai-product-discovery-workshop",
-      "hubCategory": "AI products",
-      "main": "enterprise use cases for generative ai",
-      "count": 2,
-      "sumVolume": 500,
-      "trafficPotential": 1000,
-      "avgKd": 37,
-      "avgCpc": 4,
-      "done": false,
-      "score": 66.9,
-      "format": "complete guide (definition, process, examples, checklist)",
-      "expectedMonthlyTraffic": 300,
-      "keywords": [
-        {
-          "keyword": "enterprise use cases for generative ai",
-          "volume": 300,
-          "kd": 42,
-          "cpc": null,
-          "tp": 1000
-        },
-        {
-          "keyword": "generative ai business use cases",
-          "volume": 200,
-          "kd": 32,
-          "cpc": 400,
-          "tp": 800
         }
       ]
     },
@@ -3921,8 +3515,8 @@
           "atlassian.com": 100,
           "userflow.com": 100,
           "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
         }
       },
       "format": "complete guide (definition, process, examples, checklist)",
@@ -4024,7 +3618,7 @@
       "score": 65.5,
       "serp": {
         "avgDr": 85,
-        "avgRefdomains": 86,
+        "avgRefdomains": 87,
         "weakResults": 2,
         "ease": 0.75,
         "ourPosition": 100,
@@ -4047,7 +3641,7 @@
             "pos": 5,
             "domain": "shrm.org",
             "dr": 90,
-            "rd": 610,
+            "rd": 620,
             "title": "Complete Employee Onboarding Guide"
           },
           {
@@ -4075,7 +3669,7 @@
             "pos": 9,
             "domain": "atlassian.com",
             "dr": 92,
-            "rd": 17,
+            "rd": 16,
             "title": "Onboarding Workflow: Step-by-Step Guide"
           },
           {
@@ -4092,8 +3686,8 @@
           "atlassian.com": 9,
           "userflow.com": 100,
           "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
         }
       },
       "format": "step-by-step guide (ordered steps + worked example)",
@@ -4140,57 +3734,12 @@
       ]
     },
     {
-      "topic": "ai product design",
-      "hub": "ai-ux-design-agency",
-      "hubCategory": "AI products",
-      "main": "generative ai for product design",
-      "count": 4,
-      "sumVolume": 360,
-      "trafficPotential": 250,
-      "avgKd": 26,
-      "avgCpc": 4.83,
-      "done": false,
-      "score": 64.4,
-      "format": "complete guide (definition, process, examples, checklist)",
-      "expectedMonthlyTraffic": 75,
-      "keywords": [
-        {
-          "keyword": "generative ai for product design",
-          "volume": 150,
-          "kd": 48,
-          "cpc": 700,
-          "tp": null
-        },
-        {
-          "keyword": "using ai for product design",
-          "volume": 90,
-          "kd": 11,
-          "cpc": null,
-          "tp": 250
-        },
-        {
-          "keyword": "ai and product design",
-          "volume": 70,
-          "kd": 23,
-          "cpc": 300,
-          "tp": 200
-        },
-        {
-          "keyword": "ai in product design",
-          "volume": 50,
-          "kd": 23,
-          "cpc": 450,
-          "tp": 200
-        }
-      ]
-    },
-    {
       "topic": "minimum viable product",
       "hub": "mvp-design-agency",
       "hubCategory": "Startups & product",
       "main": "minimum viable product",
-      "count": 9,
-      "sumVolume": 10960,
+      "count": 10,
+      "sumVolume": 11050,
       "trafficPotential": 9100,
       "avgKd": 40,
       "avgCpc": 2.51,
@@ -4306,6 +3855,58 @@
       ]
     },
     {
+      "topic": "ai product design",
+      "hub": "ai-ux-design-agency",
+      "hubCategory": "AI products",
+      "main": "how to use ai for product design",
+      "count": 5,
+      "sumVolume": 560,
+      "trafficPotential": 250,
+      "avgKd": 27,
+      "avgCpc": 4.83,
+      "done": false,
+      "score": 63.6,
+      "format": "step-by-step guide (ordered steps + worked example)",
+      "expectedMonthlyTraffic": 75,
+      "keywords": [
+        {
+          "keyword": "how to use ai for product design",
+          "volume": 200,
+          "kd": 30,
+          "cpc": null,
+          "tp": null
+        },
+        {
+          "keyword": "generative ai for product design",
+          "volume": 150,
+          "kd": 48,
+          "cpc": 700,
+          "tp": null
+        },
+        {
+          "keyword": "using ai for product design",
+          "volume": 90,
+          "kd": 11,
+          "cpc": null,
+          "tp": 250
+        },
+        {
+          "keyword": "ai and product design",
+          "volume": 70,
+          "kd": 23,
+          "cpc": 300,
+          "tp": 200
+        },
+        {
+          "keyword": "ai in product design",
+          "volume": 50,
+          "kd": 23,
+          "cpc": 450,
+          "tp": 200
+        }
+      ]
+    },
+    {
       "topic": "why might a team consider conducting a design sprint",
       "hub": "design-sprint",
       "hubCategory": "Startups & product",
@@ -4326,30 +3927,6 @@
           "kd": 0,
           "cpc": 500,
           "tp": 0
-        }
-      ]
-    },
-    {
-      "topic": "digital product design consultancy",
-      "hub": "product-design-agency",
-      "hubCategory": "Startups & product",
-      "main": "digital product design consultancy",
-      "count": 1,
-      "sumVolume": 150,
-      "trafficPotential": 150,
-      "avgKd": 3,
-      "avgCpc": 6,
-      "done": false,
-      "score": 63.4,
-      "format": "complete guide (definition, process, examples, checklist)",
-      "expectedMonthlyTraffic": 45,
-      "keywords": [
-        {
-          "keyword": "digital product design consultancy",
-          "volume": 150,
-          "kd": 3,
-          "cpc": 600,
-          "tp": 90
         }
       ]
     },
@@ -4378,20 +3955,44 @@
       ]
     },
     {
+      "topic": "conversational ui examples",
+      "hub": "chatbot-ui-design",
+      "hubCategory": "AI products",
+      "main": "conversational ui examples",
+      "count": 1,
+      "sumVolume": 90,
+      "trafficPotential": 100,
+      "avgKd": 0,
+      "avgCpc": 0,
+      "done": false,
+      "score": 62.6,
+      "format": "examples gallery (annotated screens)",
+      "expectedMonthlyTraffic": 30,
+      "keywords": [
+        {
+          "keyword": "conversational ui examples",
+          "volume": 90,
+          "kd": 0,
+          "cpc": null,
+          "tp": 100
+        }
+      ]
+    },
+    {
       "topic": "user onboarding best practices",
       "hub": "saas-onboarding-design",
       "hubCategory": "SaaS products",
       "main": "user onboarding best practices",
-      "count": 10,
-      "sumVolume": 1720,
+      "count": 8,
+      "sumVolume": 1520,
       "trafficPotential": 3300,
-      "avgKd": 9,
-      "avgCpc": 4.31,
+      "avgKd": 11,
+      "avgCpc": 4.83,
       "done": false,
-      "score": 62.6,
+      "score": 62.2,
       "serp": {
         "avgDr": 76,
-        "avgRefdomains": 214,
+        "avgRefdomains": 215,
         "weakResults": 0,
         "ease": 0.57,
         "ourPosition": 100,
@@ -4400,7 +4001,7 @@
             "pos": 2,
             "domain": "chameleon.io",
             "dr": 75,
-            "rd": 16,
+            "rd": 17,
             "title": "User Onboarding Best Practices for SaaS Teams"
           },
           {
@@ -4428,7 +4029,7 @@
             "pos": 6,
             "domain": "formbricks.com",
             "dr": 76,
-            "rd": 28,
+            "rd": 27,
             "title": "9 User Onboarding Best Practices for 2026"
           },
           {
@@ -4442,14 +4043,14 @@
             "pos": 8,
             "domain": "nngroup.com",
             "dr": 91,
-            "rd": 136,
+            "rd": 144,
             "title": "Mobile-App Onboarding: An Analysis of Components and ..."
           },
           {
             "pos": 10,
             "domain": "userpilot.com",
             "dr": 79,
-            "rd": 1419,
+            "rd": 1415,
             "title": "12 Web and Mobile App Onboarding Best Practices"
           }
         ],
@@ -4459,8 +4060,8 @@
           "atlassian.com": 100,
           "userflow.com": 100,
           "userpilot.com": 10,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
         }
       },
       "format": "best practices (numbered list with before/after)",
@@ -4516,35 +4117,11 @@
           "tp": 3200
         },
         {
-          "keyword": "onboarding flow ux",
-          "volume": 100,
-          "kd": 4,
-          "cpc": 300,
-          "tp": 3100
-        }
-      ]
-    },
-    {
-      "topic": "conversational ui examples",
-      "hub": "chatbot-ui-design",
-      "hubCategory": "AI products",
-      "main": "conversational ui examples",
-      "count": 1,
-      "sumVolume": 90,
-      "trafficPotential": 100,
-      "avgKd": 0,
-      "avgCpc": 0,
-      "done": false,
-      "score": 62.6,
-      "format": "examples gallery (annotated screens)",
-      "expectedMonthlyTraffic": 30,
-      "keywords": [
-        {
-          "keyword": "conversational ui examples",
-          "volume": 90,
-          "kd": 0,
+          "keyword": "best user onboarding",
+          "volume": 70,
+          "kd": 9,
           "cpc": null,
-          "tp": 100
+          "tp": 3200
         }
       ]
     },
@@ -4573,96 +4150,103 @@
       ]
     },
     {
-      "topic": "ecommerce website price list",
-      "hub": "ui-ux-design-cost",
-      "hubCategory": "Hiring & pricing",
-      "main": "ecommerce website design cost",
+      "topic": "digital product design consultancy",
+      "hub": "product-design-agency",
+      "hubCategory": "Startups & product",
+      "main": "digital product design consultancy",
       "count": 1,
-      "sumVolume": 250,
-      "trafficPotential": 450,
-      "avgKd": 0,
-      "avgCpc": 1.1,
+      "sumVolume": 150,
+      "trafficPotential": 150,
+      "avgKd": 5,
+      "avgCpc": 6,
       "done": false,
-      "score": 61.9,
-      "format": "cost breakdown (price table by scope)",
-      "expectedMonthlyTraffic": 135,
+      "score": 62.1,
+      "format": "complete guide (definition, process, examples, checklist)",
+      "expectedMonthlyTraffic": 45,
       "keywords": [
         {
-          "keyword": "ecommerce website design cost",
-          "volume": 250,
-          "kd": 0,
-          "cpc": 110,
-          "tp": 450
+          "keyword": "digital product design consultancy",
+          "volume": 150,
+          "kd": 5,
+          "cpc": 600,
+          "tp": 150
         }
       ]
     },
     {
-      "topic": "design tools",
-      "hub": "ai-ux-design-agency",
-      "hubCategory": "AI products",
-      "main": "best ai for product design",
-      "count": 2,
-      "sumVolume": 350,
-      "trafficPotential": 1000,
-      "avgKd": 17,
-      "avgCpc": 2.5,
+      "topic": "website design cost",
+      "hub": "ui-ux-design-cost",
+      "hubCategory": "Hiring & pricing",
+      "main": "cost of website design",
+      "count": 7,
+      "sumVolume": 790,
+      "trafficPotential": 7000,
+      "avgKd": 9,
+      "avgCpc": 3.83,
       "done": false,
-      "score": 61.5,
+      "score": 61.3,
       "serp": {
-        "avgDr": 81,
-        "avgRefdomains": 53,
-        "weakResults": 0,
-        "ease": 0.73,
+        "avgDr": 83,
+        "avgRefdomains": 110,
+        "weakResults": 1,
+        "ease": 0.69,
         "ourPosition": 100,
         "top": [
           {
             "pos": 2,
-            "domain": "uxpilot.ai",
-            "dr": 67,
-            "rd": 14,
-            "title": "My 7 Favorite Product Design Tools for 2026"
-          },
-          {
-            "pos": 3,
-            "domain": "cieden.com",
-            "dr": 57,
-            "rd": 130,
-            "title": "Best AI Tools for Product Designers in 2027"
+            "domain": "reddit.com",
+            "dr": 95,
+            "rd": 3,
+            "title": "What's the average price to build a website in North America?"
           },
           {
             "pos": 4,
-            "domain": "reddit.com",
-            "dr": 95,
-            "rd": null,
-            "title": "Best AI platform to use for product design?"
+            "domain": "forbes.com",
+            "dr": 94,
+            "rd": 516,
+            "title": "How Much Does a Website Cost? (2026 Guide)"
+          },
+          {
+            "pos": 5,
+            "domain": "youtube.com",
+            "dr": 99,
+            "rd": 3,
+            "title": "How Much Does It Cost To Design A Website In 2026"
           },
           {
             "pos": 6,
-            "domain": "ibm.com",
+            "domain": "godaddy.com",
             "dr": 93,
-            "rd": 129,
-            "title": "AI in Product Design"
+            "rd": 225,
+            "title": "How much does a website cost in 2026?"
           },
           {
             "pos": 7,
-            "domain": "maze.co",
-            "dr": 79,
-            "rd": 13,
-            "title": "20 Best AI Tools & Software for Product Designers in 2026"
+            "domain": "leadpages.com",
+            "dr": 85,
+            "rd": 66,
+            "title": "How Much Does a Website Cost? 2026 Design Price Guide"
+          },
+          {
+            "pos": 8,
+            "domain": "webyking.com",
+            "dr": 31,
+            "rd": 33,
+            "title": "Website Design Cost in 2026: Real Pricing for Every Budget"
           },
           {
             "pos": 9,
-            "domain": "medium.muz.li",
-            "dr": 77,
-            "rd": 20,
-            "title": "6 Best AI UI Design Tools I Tested With the Same Prompt ..."
+            "domain": "elementor.com",
+            "dr": 92,
+            "rd": 31,
+            "title": "How Much Does It Cost to Build a Website in 2026 ..."
           },
           {
             "pos": 10,
-            "domain": "shopify.com",
-            "dr": 96,
-            "rd": 12,
-            "title": "AI Product Design: Tools and Tips (2026)"
+            "domain": "webwave.me",
+            "dr": 74,
+            "rd": 4,
+            "title": "Website Design Cost in 2026: Complete Pricing Guide ..."
           }
         ],
         "matrix": {
@@ -4671,26 +4255,61 @@
           "atlassian.com": 100,
           "userflow.com": 100,
           "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
         }
       },
-      "format": "complete guide (definition, process, examples, checklist)",
-      "expectedMonthlyTraffic": 300,
+      "format": "cost breakdown (price table by scope)",
+      "expectedMonthlyTraffic": 2100,
       "keywords": [
         {
-          "keyword": "best ai for product design",
-          "volume": 200,
-          "kd": 10,
+          "keyword": "cost of website design",
+          "volume": 350,
+          "kd": 37,
           "cpc": 350,
-          "tp": 1000
+          "tp": 4300
         },
         {
-          "keyword": "product design ai tools",
-          "volume": 150,
-          "kd": 23,
-          "cpc": 150,
-          "tp": 1000
+          "keyword": "cost of a website design",
+          "volume": 100,
+          "kd": 0,
+          "cpc": 350,
+          "tp": 7000
+        },
+        {
+          "keyword": "professional website design cost",
+          "volume": 100,
+          "kd": 0,
+          "cpc": 700,
+          "tp": 7000
+        },
+        {
+          "keyword": "website design services cost",
+          "volume": 70,
+          "kd": 0,
+          "cpc": 400,
+          "tp": 6400
+        },
+        {
+          "keyword": "how much does it cost for website design",
+          "volume": 70,
+          "kd": 0,
+          "cpc": 200,
+          "tp": 7000
+        },
+        {
+          "keyword": "cost for a website design",
+          "volume": 50,
+          "kd": 28,
+          "cpc": null,
+          "tp": 4300
+        },
+        {
+          "keyword": "how much website design cost",
+          "volume": 50,
+          "kd": 0,
+          "cpc": 300,
+          "tp": 7000
         }
       ]
     },
@@ -4811,6 +4430,30 @@
           "kd": 8,
           "cpc": null,
           "tp": null
+        }
+      ]
+    },
+    {
+      "topic": "website cost calculator",
+      "hub": "ui-ux-design-cost",
+      "hubCategory": "Hiring & pricing",
+      "main": "website design cost calculator",
+      "count": 1,
+      "sumVolume": 300,
+      "trafficPotential": 450,
+      "avgKd": 6,
+      "avgCpc": 1.7,
+      "done": false,
+      "score": 59.3,
+      "format": "cost breakdown (price table by scope)",
+      "expectedMonthlyTraffic": 135,
+      "keywords": [
+        {
+          "keyword": "website design cost calculator",
+          "volume": 300,
+          "kd": 6,
+          "cpc": 170,
+          "tp": 450
         }
       ]
     },
@@ -4938,7 +4581,7 @@
       "score": 58.7,
       "serp": {
         "avgDr": 77,
-        "avgRefdomains": 542,
+        "avgRefdomains": 538,
         "weakResults": 0,
         "ease": 0.57,
         "ourPosition": 100,
@@ -4947,21 +4590,21 @@
             "pos": 1,
             "domain": "useronboard.com",
             "dr": 72,
-            "rd": 1269,
+            "rd": 1248,
             "title": "User Onboarding | A frequently-updated compendium of web ..."
           },
           {
             "pos": 4,
             "domain": "pendo.io",
             "dr": 81,
-            "rd": 19,
+            "rd": 18,
             "title": "What is User Onboarding? Definition and examples"
           },
           {
             "pos": 5,
             "domain": "en.wikipedia.org",
             "dr": 97,
-            "rd": 78,
+            "rd": 80,
             "title": "User onboarding"
           },
           {
@@ -4975,7 +4618,7 @@
             "pos": 7,
             "domain": "userpilot.com",
             "dr": 79,
-            "rd": 48,
+            "rd": 50,
             "title": "User Onboarding in 2026: Is Yours Ready for PLG in the AI ..."
           },
           {
@@ -4989,7 +4632,7 @@
             "pos": 9,
             "domain": "userflow.com",
             "dr": 70,
-            "rd": 2858,
+            "rd": 2847,
             "title": "Userflow: The AI-Powered Product Adoption & Onboarding ..."
           },
           {
@@ -5006,8 +4649,8 @@
           "atlassian.com": 100,
           "userflow.com": 9,
           "userpilot.com": 7,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
         }
       },
       "format": "complete guide (definition, process, examples, checklist)",
@@ -5075,30 +4718,6 @@
       ]
     },
     {
-      "topic": "website cost calculator",
-      "hub": "ui-ux-design-cost",
-      "hubCategory": "Hiring & pricing",
-      "main": "website design cost calculator",
-      "count": 1,
-      "sumVolume": 350,
-      "trafficPotential": 500,
-      "avgKd": 8,
-      "avgCpc": 1.4,
-      "done": false,
-      "score": 58.5,
-      "format": "cost breakdown (price table by scope)",
-      "expectedMonthlyTraffic": 150,
-      "keywords": [
-        {
-          "keyword": "website design cost calculator",
-          "volume": 350,
-          "kd": 8,
-          "cpc": 140,
-          "tp": 500
-        }
-      ]
-    },
-    {
       "topic": "ai use cases examples",
       "hub": "ai-product-discovery-workshop",
       "hubCategory": "AI products",
@@ -5126,6 +4745,30 @@
           "kd": 32,
           "cpc": 140,
           "tp": null
+        }
+      ]
+    },
+    {
+      "topic": "ecommerce website price list",
+      "hub": "ui-ux-design-cost",
+      "hubCategory": "Hiring & pricing",
+      "main": "ecommerce website design cost",
+      "count": 1,
+      "sumVolume": 250,
+      "trafficPotential": 450,
+      "avgKd": 6,
+      "avgCpc": 1.1,
+      "done": false,
+      "score": 58.2,
+      "format": "cost breakdown (price table by scope)",
+      "expectedMonthlyTraffic": 135,
+      "keywords": [
+        {
+          "keyword": "ecommerce website design cost",
+          "volume": 250,
+          "kd": 6,
+          "cpc": 110,
+          "tp": 450
         }
       ]
     },
@@ -5181,44 +4824,6 @@
           "kd": 15,
           "cpc": null,
           "tp": 20
-        }
-      ]
-    },
-    {
-      "topic": "average cost of website design for small business",
-      "hub": "ui-ux-design-cost",
-      "hubCategory": "Hiring & pricing",
-      "main": "average cost of website design for small business",
-      "count": 3,
-      "sumVolume": 570,
-      "trafficPotential": 700,
-      "avgKd": 19,
-      "avgCpc": 3.33,
-      "done": false,
-      "score": 57.6,
-      "format": "cost breakdown (price table by scope)",
-      "expectedMonthlyTraffic": 210,
-      "keywords": [
-        {
-          "keyword": "average cost of website design for small business",
-          "volume": 450,
-          "kd": 0,
-          "cpc": 200,
-          "tp": 700
-        },
-        {
-          "keyword": "small business website design cost",
-          "volume": 70,
-          "kd": 27,
-          "cpc": 300,
-          "tp": 700
-        },
-        {
-          "keyword": "basic website design cost",
-          "volume": 50,
-          "kd": 29,
-          "cpc": 500,
-          "tp": 700
         }
       ]
     },
@@ -5367,104 +4972,6 @@
       ]
     },
     {
-      "topic": "mvp meaning",
-      "hub": "mvp-design-agency",
-      "hubCategory": "Startups & product",
-      "main": "build a minimum viable product",
-      "count": 3,
-      "sumVolume": 360,
-      "trafficPotential": 6100,
-      "avgKd": 4,
-      "avgCpc": 6,
-      "done": false,
-      "score": 55.6,
-      "serp": {
-        "avgDr": 89,
-        "avgRefdomains": 1701,
-        "weakResults": 0,
-        "ease": 0.51,
-        "ourPosition": 100,
-        "top": [
-          {
-            "pos": 2,
-            "domain": "atlassian.com",
-            "dr": 92,
-            "rd": 2240,
-            "title": "What is a Minimum Viable Product (MVP)? How to Get ..."
-          },
-          {
-            "pos": 3,
-            "domain": "medium.com",
-            "dr": 94,
-            "rd": 17,
-            "title": "A Path to the Minimum Viable Product | by Steve Blank"
-          },
-          {
-            "pos": 4,
-            "domain": "reddit.com",
-            "dr": 95,
-            "rd": null,
-            "title": "How to Build an MVP (Minimum Viable Product): The ..."
-          },
-          {
-            "pos": 7,
-            "domain": "delve.com",
-            "dr": 61,
-            "rd": 3,
-            "title": "The Core Principles for Creating an MVP - Delve"
-          },
-          {
-            "pos": 8,
-            "domain": "salesforce.com",
-            "dr": 92,
-            "rd": 7,
-            "title": "Minimum Viable Product: How to Set Up Your MVP"
-          },
-          {
-            "pos": 10,
-            "domain": "en.wikipedia.org",
-            "dr": 97,
-            "rd": 6238,
-            "title": "Minimum viable product"
-          }
-        ],
-        "matrix": {
-          "ui-ux.agency": 100,
-          "dribbble.com": 100,
-          "atlassian.com": 2,
-          "userflow.com": 100,
-          "userpilot.com": 100,
-          "ramotion.com": 100,
-          "rocketlane.com": 100
-        }
-      },
-      "format": "complete guide (definition, process, examples, checklist)",
-      "expectedMonthlyTraffic": 1830,
-      "keywords": [
-        {
-          "keyword": "build a minimum viable product",
-          "volume": 200,
-          "kd": 12,
-          "cpc": 600,
-          "tp": 5600
-        },
-        {
-          "keyword": "how to develop minimum viable product",
-          "volume": 90,
-          "kd": 0,
-          "cpc": null,
-          "tp": 6100
-        },
-        {
-          "keyword": "minimum viable product lean startup",
-          "volume": 70,
-          "kd": 0,
-          "cpc": null,
-          "tp": 1100
-        }
-      ]
-    },
-    {
       "topic": "dental website cost",
       "hub": "ui-ux-design-cost",
       "hubCategory": "Hiring & pricing",
@@ -5537,6 +5044,97 @@
       ]
     },
     {
+      "topic": "mvp meaning",
+      "hub": "mvp-design-agency",
+      "hubCategory": "Startups & product",
+      "main": "build a minimum viable product",
+      "count": 2,
+      "sumVolume": 270,
+      "trafficPotential": 5600,
+      "avgKd": 6,
+      "avgCpc": 6,
+      "done": false,
+      "score": 53.9,
+      "serp": {
+        "avgDr": 89,
+        "avgRefdomains": 1670,
+        "weakResults": 0,
+        "ease": 0.51,
+        "ourPosition": 100,
+        "top": [
+          {
+            "pos": 2,
+            "domain": "atlassian.com",
+            "dr": 92,
+            "rd": 2148,
+            "title": "What is a Minimum Viable Product (MVP)? How to Get ..."
+          },
+          {
+            "pos": 3,
+            "domain": "medium.com",
+            "dr": 94,
+            "rd": 18,
+            "title": "A Path to the Minimum Viable Product | by Steve Blank"
+          },
+          {
+            "pos": 4,
+            "domain": "reddit.com",
+            "dr": 95,
+            "rd": null,
+            "title": "How to Build an MVP (Minimum Viable Product): The ..."
+          },
+          {
+            "pos": 7,
+            "domain": "delve.com",
+            "dr": 61,
+            "rd": 3,
+            "title": "The Core Principles for Creating an MVP - Delve"
+          },
+          {
+            "pos": 8,
+            "domain": "salesforce.com",
+            "dr": 92,
+            "rd": 7,
+            "title": "Minimum Viable Product: How to Set Up Your MVP"
+          },
+          {
+            "pos": 10,
+            "domain": "en.wikipedia.org",
+            "dr": 97,
+            "rd": 6175,
+            "title": "Minimum viable product"
+          }
+        ],
+        "matrix": {
+          "ui-ux.agency": 100,
+          "dribbble.com": 100,
+          "atlassian.com": 2,
+          "userflow.com": 100,
+          "userpilot.com": 100,
+          "rocketlane.com": 100,
+          "community.atlassian.com": 100
+        }
+      },
+      "format": "complete guide (definition, process, examples, checklist)",
+      "expectedMonthlyTraffic": 1680,
+      "keywords": [
+        {
+          "keyword": "build a minimum viable product",
+          "volume": 200,
+          "kd": 12,
+          "cpc": 600,
+          "tp": 5600
+        },
+        {
+          "keyword": "minimum viable product lean startup",
+          "volume": 70,
+          "kd": 0,
+          "cpc": null,
+          "tp": 1100
+        }
+      ]
+    },
+    {
       "topic": "ai in healthcare",
       "hub": "ai-product-discovery-workshop",
       "hubCategory": "AI products",
@@ -5604,30 +5202,6 @@
           "volume": 60,
           "kd": 7,
           "cpc": 160,
-          "tp": 150
-        }
-      ]
-    },
-    {
-      "topic": "website development cost in india",
-      "hub": "ui-ux-design-cost",
-      "hubCategory": "Hiring & pricing",
-      "main": "website design cost in india",
-      "count": 1,
-      "sumVolume": 50,
-      "trafficPotential": 150,
-      "avgKd": 0,
-      "avgCpc": 2.5,
-      "done": false,
-      "score": 53.1,
-      "format": "cost breakdown (price table by scope)",
-      "expectedMonthlyTraffic": 45,
-      "keywords": [
-        {
-          "keyword": "website design cost in india",
-          "volume": 50,
-          "kd": 0,
-          "cpc": 250,
           "tp": 150
         }
       ]
@@ -5705,6 +5279,30 @@
       ]
     },
     {
+      "topic": "low cost website",
+      "hub": "ui-ux-design-cost",
+      "hubCategory": "Hiring & pricing",
+      "main": "low cost website design and hosting",
+      "count": 1,
+      "sumVolume": 60,
+      "trafficPotential": 300,
+      "avgKd": 7,
+      "avgCpc": 0,
+      "done": false,
+      "score": 51.9,
+      "format": "cost breakdown (price table by scope)",
+      "expectedMonthlyTraffic": 90,
+      "keywords": [
+        {
+          "keyword": "low cost website design and hosting",
+          "volume": 60,
+          "kd": 7,
+          "cpc": null,
+          "tp": 300
+        }
+      ]
+    },
+    {
       "topic": "onboarding new users",
       "hub": "saas-onboarding-design",
       "hubCategory": "SaaS products",
@@ -5725,6 +5323,51 @@
           "kd": 21,
           "cpc": null,
           "tp": 150
+        }
+      ]
+    },
+    {
+      "topic": "small business website cost",
+      "hub": "ui-ux-design-cost",
+      "hubCategory": "Hiring & pricing",
+      "main": "average cost website design small business",
+      "count": 4,
+      "sumVolume": 330,
+      "trafficPotential": 500,
+      "avgKd": 25,
+      "avgCpc": 3.83,
+      "done": false,
+      "score": 51.4,
+      "format": "cost breakdown (price table by scope)",
+      "expectedMonthlyTraffic": 150,
+      "keywords": [
+        {
+          "keyword": "average cost website design small business",
+          "volume": 150,
+          "kd": 27,
+          "cpc": null,
+          "tp": 500
+        },
+        {
+          "keyword": "small business website design cost",
+          "volume": 70,
+          "kd": 33,
+          "cpc": 300,
+          "tp": 500
+        },
+        {
+          "keyword": "cost of website design for small business",
+          "volume": 60,
+          "kd": 31,
+          "cpc": 350,
+          "tp": 500
+        },
+        {
+          "keyword": "basic website design cost",
+          "volume": 50,
+          "kd": 9,
+          "cpc": 500,
+          "tp": 500
         }
       ]
     },
@@ -5942,33 +5585,26 @@
       ]
     },
     {
-      "topic": "small business website cost",
+      "topic": "web development cost in india",
       "hub": "ui-ux-design-cost",
       "hubCategory": "Hiring & pricing",
-      "main": "average cost website design small business",
-      "count": 2,
-      "sumVolume": 210,
-      "trafficPotential": 500,
-      "avgKd": 29,
-      "avgCpc": 3.5,
+      "main": "website design cost in india",
+      "count": 1,
+      "sumVolume": 50,
+      "trafficPotential": 100,
+      "avgKd": 2,
+      "avgCpc": 2.5,
       "done": false,
-      "score": 48.2,
+      "score": 47.9,
       "format": "cost breakdown (price table by scope)",
-      "expectedMonthlyTraffic": 150,
+      "expectedMonthlyTraffic": 30,
       "keywords": [
         {
-          "keyword": "average cost website design small business",
-          "volume": 150,
-          "kd": 27,
-          "cpc": null,
-          "tp": 500
-        },
-        {
-          "keyword": "cost of website design for small business",
-          "volume": 60,
-          "kd": 31,
-          "cpc": 350,
-          "tp": 500
+          "keyword": "website design cost in india",
+          "volume": 50,
+          "kd": 2,
+          "cpc": 250,
+          "tp": 100
         }
       ]
     },
@@ -6093,6 +5729,30 @@
       ]
     },
     {
+      "topic": "usability design sprint",
+      "hub": "design-sprint",
+      "hubCategory": "Startups & product",
+      "main": "usability design sprint",
+      "count": 1,
+      "sumVolume": 70,
+      "trafficPotential": 70,
+      "avgKd": 0,
+      "avgCpc": 0,
+      "done": false,
+      "score": 46.3,
+      "format": "complete guide (definition, process, examples, checklist)",
+      "expectedMonthlyTraffic": 21,
+      "keywords": [
+        {
+          "keyword": "usability design sprint",
+          "volume": 70,
+          "kd": 0,
+          "cpc": null,
+          "tp": 20
+        }
+      ]
+    },
+    {
       "topic": "medical device product design process",
       "hub": "product-design-agency",
       "hubCategory": "Startups & product",
@@ -6148,67 +5808,19 @@
       "count": 1,
       "sumVolume": 40,
       "trafficPotential": 40,
-      "avgKd": 0,
+      "avgKd": 1,
       "avgCpc": 3.5,
       "done": false,
-      "score": 45,
+      "score": 44.6,
       "format": "complete guide (definition, process, examples, checklist)",
       "expectedMonthlyTraffic": 12,
       "keywords": [
         {
           "keyword": "design sprint facilitator",
           "volume": 40,
-          "kd": 0,
+          "kd": 1,
           "cpc": 350,
           "tp": 10
-        }
-      ]
-    },
-    {
-      "topic": "usability design sprint",
-      "hub": "design-sprint",
-      "hubCategory": "Startups & product",
-      "main": "usability design sprint",
-      "count": 1,
-      "sumVolume": 60,
-      "trafficPotential": 60,
-      "avgKd": 0,
-      "avgCpc": 0,
-      "done": false,
-      "score": 44.6,
-      "format": "complete guide (definition, process, examples, checklist)",
-      "expectedMonthlyTraffic": 18,
-      "keywords": [
-        {
-          "keyword": "usability design sprint",
-          "volume": 60,
-          "kd": 0,
-          "cpc": null,
-          "tp": 20
-        }
-      ]
-    },
-    {
-      "topic": "what is a design sprint brief",
-      "hub": "design-sprint",
-      "hubCategory": "Startups & product",
-      "main": "what is a design sprint brief",
-      "count": 1,
-      "sumVolume": 60,
-      "trafficPotential": 60,
-      "avgKd": 1,
-      "avgCpc": 0,
-      "done": false,
-      "score": 44.2,
-      "format": "definition guide (what, why, how, examples)",
-      "expectedMonthlyTraffic": 18,
-      "keywords": [
-        {
-          "keyword": "what is a design sprint brief",
-          "volume": 60,
-          "kd": 1,
-          "cpc": null,
-          "tp": 60
         }
       ]
     },
@@ -6257,6 +5869,30 @@
           "kd": 7,
           "cpc": null,
           "tp": 70
+        }
+      ]
+    },
+    {
+      "topic": "what is a design sprint brief",
+      "hub": "design-sprint",
+      "hubCategory": "Startups & product",
+      "main": "what is a design sprint brief",
+      "count": 1,
+      "sumVolume": 60,
+      "trafficPotential": 60,
+      "avgKd": 4,
+      "avgCpc": 0,
+      "done": false,
+      "score": 42.8,
+      "format": "definition guide (what, why, how, examples)",
+      "expectedMonthlyTraffic": 18,
+      "keywords": [
+        {
+          "keyword": "what is a design sprint brief",
+          "volume": 60,
+          "kd": 4,
+          "cpc": null,
+          "tp": 20
         }
       ]
     },
@@ -6381,26 +6017,26 @@
       ]
     },
     {
-      "topic": "average cost of website design for small business uk",
+      "topic": "how much does a website cost uk",
       "hub": "ui-ux-design-cost",
       "hubCategory": "Hiring & pricing",
       "main": "average cost of website design for small business uk",
       "count": 1,
       "sumVolume": 60,
-      "trafficPotential": 80,
-      "avgKd": 12,
+      "trafficPotential": 70,
+      "avgKd": 9,
       "avgCpc": 0,
       "done": false,
-      "score": 37.8,
+      "score": 37.9,
       "format": "cost breakdown (price table by scope)",
-      "expectedMonthlyTraffic": 24,
+      "expectedMonthlyTraffic": 21,
       "keywords": [
         {
           "keyword": "average cost of website design for small business uk",
           "volume": 60,
-          "kd": 12,
+          "kd": 9,
           "cpc": null,
-          "tp": 80
+          "tp": 70
         }
       ]
     },
@@ -6573,30 +6209,6 @@
       ]
     },
     {
-      "topic": "ux pilot",
-      "hub": "ai-ux-design-agency",
-      "hubCategory": "AI products",
-      "main": "ux design for ai",
-      "count": 1,
-      "sumVolume": 150,
-      "trafficPotential": 3200,
-      "avgKd": 73,
-      "avgCpc": 3.5,
-      "done": false,
-      "score": 33,
-      "format": "complete guide (definition, process, examples, checklist)",
-      "expectedMonthlyTraffic": 960,
-      "keywords": [
-        {
-          "keyword": "ux design for ai",
-          "volume": 150,
-          "kd": 73,
-          "cpc": 350,
-          "tp": 3200
-        }
-      ]
-    },
-    {
       "topic": "qubstudio",
       "hub": "product-design-agency",
       "hubCategory": "Startups & product",
@@ -6676,50 +6288,50 @@
       ]
     },
     {
-      "topic": "design sprint planning",
+      "topic": "sorint",
       "hub": "design-sprint",
       "hubCategory": "Startups & product",
-      "main": "how to run a design sprint",
+      "main": "design sprint examples",
       "count": 1,
-      "sumVolume": 30,
-      "trafficPotential": 60,
-      "avgKd": 48,
-      "avgCpc": 1.9,
+      "sumVolume": 80,
+      "trafficPotential": 3400,
+      "avgKd": 79,
+      "avgCpc": 1.6,
       "done": false,
-      "score": 24.7,
-      "format": "step-by-step guide (ordered steps + worked example)",
-      "expectedMonthlyTraffic": 18,
+      "score": 19.5,
+      "format": "examples gallery (annotated screens)",
+      "expectedMonthlyTraffic": 1020,
       "keywords": [
         {
-          "keyword": "how to run a design sprint",
-          "volume": 30,
-          "kd": 48,
-          "cpc": 190,
-          "tp": 60
+          "keyword": "design sprint examples",
+          "volume": 80,
+          "kd": 79,
+          "cpc": 160,
+          "tp": 3400
         }
       ]
     },
     {
-      "topic": "react-chat-ui",
+      "topic": "javascript chat ui",
       "hub": "chatbot-ui-design",
       "hubCategory": "AI products",
       "main": "open source chatbot ui",
       "count": 1,
       "sumVolume": 50,
-      "trafficPotential": 150,
-      "avgKd": 76,
+      "trafficPotential": 50,
+      "avgKd": 67,
       "avgCpc": 0,
       "done": false,
-      "score": 16.3,
+      "score": 17.6,
       "format": "complete guide (definition, process, examples, checklist)",
-      "expectedMonthlyTraffic": 45,
+      "expectedMonthlyTraffic": 15,
       "keywords": [
         {
           "keyword": "open source chatbot ui",
           "volume": 50,
-          "kd": 76,
+          "kd": 67,
           "cpc": null,
-          "tp": 150
+          "tp": 50
         }
       ]
     }
