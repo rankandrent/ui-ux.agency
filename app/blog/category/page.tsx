@@ -7,7 +7,7 @@ import { anchorOf, getPosts, getService, servicePath } from "@/lib/content";
 import { collectionLd, pageMetadata } from "@/lib/seo";
 import { cap, routes } from "@/lib/site";
 
-const description = "Every topic on our UI UX design blog: research and strategy, product design, platforms, dashboards and data, and industry-specific design.";
+const description = "Every topic on our UI UX design blog: AI product design, SaaS products, startup and MVP design, and hiring and pricing a design team. Pick a category.";
 
 export const metadata = pageMetadata({ title: "Blog Categories: UI UX Design Topics", description, path: blogRoutes.categories, noindex: getPosts().length === 0 });
 

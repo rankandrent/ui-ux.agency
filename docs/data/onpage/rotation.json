@@ -1,0 +1,237 @@
+{
+  "updated": "2026-10-19",
+  "note": "Pick the 3 routes with the oldest lastAudited (null first) each run; add new routes from latest.json.",
+  "pages": {
+    "/": {
+      "lastAudited": "2026-10-19",
+      "score": 78,
+      "reason": "lowest 5"
+    },
+    "/about/": {
+      "lastAudited": "2026-10-19",
+      "score": 86,
+      "reason": "lowest 5"
+    },
+    "/blog/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/blog/author/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/blog/author/ahmad-ullah/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/blog/author/faizan-khan/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/blog/author/sahar-asif/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/blog/author/shahmir-farooq/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/blog/author/talha-saleem/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/blog/author/umar-sarwar/": {
+      "lastAudited": "2026-10-19",
+      "score": 100,
+      "reason": "lowest 5"
+    },
+    "/blog/category/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/blog/category/ai-products/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/blog/category/saas-products/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/blog/category/startups-and-product/": {
+      "lastAudited": "2026-10-19",
+      "score": 100,
+      "reason": "lowest 5"
+    },
+    "/blog/how-to-design-an-mvp/": {
+      "lastAudited": "2026-10-19",
+      "score": 100,
+      "reason": "new post"
+    },
+    "/blog/product-discovery/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/blog/saas-homepage-design/": {
+      "lastAudited": "2026-10-19",
+      "score": 100,
+      "reason": "new post"
+    },
+    "/blog/saas-onboarding/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/blog/user-onboarding-automation/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/case-studies/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/case-studies/anyday-app/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/case-studies/digno/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/case-studies/elia-wellness/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/case-studies/mass-media-co/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/case-studies/nitro/": {
+      "lastAudited": "2026-10-19",
+      "score": 93,
+      "reason": "rotation"
+    },
+    "/case-studies/parents-connect/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/case-studies/tradezella/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/case-studies/vocable/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/contact/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/industries/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/industries/enterprise/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/industries/fintech/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/industries/healthcare/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/location/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/location/ux-agency-denver/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/location/ux-agency-minneapolis/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/location/ux-design-san-diego/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/privacy/": {
+      "lastAudited": "2026-10-19",
+      "score": 100,
+      "reason": "lowest 5"
+    },
+    "/services/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/services/ai-products/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/services/ai-products/ai-product-discovery-workshop/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/services/ai-products/ai-ux-design-agency/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/services/ai-products/chatbot-ui-design/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/services/hire-product-designer/": {
+      "lastAudited": "2026-10-19",
+      "score": 98,
+      "reason": "rotation"
+    },
+    "/services/hire-ui-ux-designers/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/services/saas-products/": {
+      "lastAudited": null,
+      "score": 97
+    },
+    "/services/saas-products/saas-design-agency/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/services/saas-products/saas-onboarding-design/": {
+      "lastAudited": null,
+      "score": 98
+    },
+    "/services/saas-products/saas-product-redesign/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/services/startups/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/services/startups/design-sprint/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/services/startups/mvp-design-agency/": {
+      "lastAudited": null,
+      "score": 98
+    },
+    "/services/startups/product-design-agency/": {
+      "lastAudited": null,
+      "score": 100
+    },
+    "/services/ui-ux-design-cost/": {
+      "lastAudited": "2026-10-19",
+      "score": 100,
+      "reason": "rotation"
+    },
+    "/terms/": {
+      "lastAudited": "2026-10-19",
+      "score": 100,
+      "reason": "lowest (tie)"
+    }
+  }
+}

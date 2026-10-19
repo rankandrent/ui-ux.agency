@@ -7,7 +7,7 @@ noindex: true
 
 ## Your message is with our design team
 
-A senior designer reads every enquiry and replies within one business day. Expect a short email with two or three questions about your product and a few times for a free consultation.
+A senior designer reads every inquiry and replies within one business day. Expect a short email with two or three questions about your product and a few times for a free consultation.
 
 ## What happens next
 

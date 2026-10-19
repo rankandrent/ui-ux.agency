@@ -19,7 +19,7 @@ You may read, share and link to our pages. You may not:
 
 ## Information on the site is not an offer
 
-Our service pages, guides and cost ranges explain how we usually work and what projects usually cost. They help you plan; they are not a quote. Every engagement starts with a free consultation and a written proposal, and the signed proposal or contract decides scope, price and timeline.
+Our service pages, guides and [cost ranges](/services/ui-ux-design-cost/) explain how we usually work and what projects usually cost. They help you plan; they are not a quote. Every engagement starts with a free consultation and a written proposal, and the signed proposal or contract decides scope, price and timeline.
 
 ## Our content
 
