@@ -24,7 +24,7 @@ qa: pending
 
 I ask a product team three questions before I open Figma for any chatbot design: (1) what job will people bring to the bot, (2) what happens when it is wrong and (3) who takes over when it cannot help. The answers drive the 8 steps below, and each step closes with a yes-or-no gate you pass before moving on.
 
-[IBM](https://www.ibm.com/think/topics/chatbot-design) describes chatbot design as a blend of user experience (UX) design, user interface (UI) design, copywriting, conversational artificial intelligence (AI) and machine learning. Users arrive expecting that blend to work: in a [Pew Research Center survey](https://www.pewresearch.org/short-reads/2025/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023/) run February 24 to March 2, 2025, 34% of US adults said they had used ChatGPT, including 58% of adults under 30. <!-- source: https://www.pewresearch.org/short-reads/2025/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023/ -->
+[IBM](https://www.ibm.com/think/topics/chatbot-design) describes chatbot design as a blend of user experience (UX) design, user interface (UI) design, copywriting, conversational artificial intelligence (AI) and machine learning. Users arrive expecting that blend to work: in a [Pew Research Center survey](https://www.pewresearch.org/short-reads/2025/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023/) run February 24 to March 2, 2025, 34% of US adults said they had used ChatGPT, including 58% of adults under 30.
 
 I'm a UI/UX designer at ui-ux.agency, [the UI UX design agency of tkxel](/about/), whose designers have worked on more than 200 digital products since 2017. The chatbot design process below fits a support bot or an in-app AI assistant inside a software as a service (SaaS) product. It follows the order our [chatbot UI design](/services/ai-products/chatbot-ui-design/) work starts from, real transcripts first, and shows how to design a chatbot people finish tasks with.
 
@@ -48,9 +48,9 @@ Start at question 1 and follow each answer.
 
 </details>
 
-A guided support bot covers a known list of questions with buttons, while an AI assistant uses conversational AI to take open requests in free text. Our service page sets out [how support bots and AI assistants differ](/services/ai-products/chatbot-ui-design/#chatbot-ui-design-for-support-bots-vs-ai-assistants) on input, answer format and risk. <!-- link: conditional fragment of the service page; keep the anchor words as plain text if fragments count as the same target -->
+A guided support bot covers a known list of questions with buttons, while an AI assistant uses conversational AI to take open requests in free text. The two also differ in risk: a support bot can trap users in a loop, while an AI assistant can lead users to trust a wrong answer.
 
-Either way, give it one entry point. [Nielsen Norman Group (NN/g)](https://nngroup.com/articles/ai-chatbots-design-guidelines) recommends one bot that says what it is, handles what it can and passes the rest to people, not an AI chat beside a separate live chat.
+Either way, give it one entry point. [Nielsen Norman Group (NN/g)](https://www.nngroup.com/articles/ai-chatbots-design-guidelines/) recommends one bot that says what it is, handles what it can and passes the rest to people, not an AI chat beside a separate live chat.
 
 Say you design a hypothetical payroll and scheduling SaaS for US restaurant groups. "Why is my paycheck different this week?" arrives in many phrasings, the answer sits in payroll records and the payroll team can step in, so it goes to an open AI assistant in a copilot panel beside the pay stub. "Can I swap Friday's shift?" is an action with two known fields, so it stays a screen and the assistant links to it.
 
@@ -62,7 +62,7 @@ Gate 1: pass when you can name the screen the bot replaces or the search it shor
 
 I start from chat transcripts, where users' top questions and their exact words both sit. Each intent gets those trigger phrases and a fallback for the misses. If you design chatbot flows from a feature wishlist instead, the launch list ends up guessed.
 
-Day-one scope stays small. A support widget with 20 to 30 intents on one website is the small end of the chatbot work our team takes on. <!-- source: content/services/chatbot-ui-design.json (cost section body) --> Five jobs answered well beat thirty jobs guessed at, so I write one card per job before any flow.
+Day-one scope stays small. A support widget with 20 to 30 intents on one website is the small end of the chatbot work our team takes on. Five jobs answered well beat thirty jobs guessed at, so I write one card per job before any flow.
 
 <!-- visual: one-job scope card styled like a ticket stub with a perforated edge, 7 labeled fields filled for "explain a paycheck difference" in the hypothetical payroll product. Not an index card or a rule sheet. -->
 ![Ticket-stub scope card with seven fields filled in for one chatbot job, explaining a paycheck difference in a hypothetical payroll product](/blog/chatbot-design/chatbot-design-job-card.svg "One-job scope card for a hypothetical payroll chatbot: explain a paycheck difference in seven fields")
@@ -107,7 +107,7 @@ Gate 2: pass when every launch job has an answer source and an owner. With the j
 
 The happy path opens with a greeting that says what the bot can do. It collects details through suggested replies instead of typing, answers in an answer card and offers the next step.
 
-The repair path is where I spend most of my time. [Google's conversation design guidance](https://developers.google.com/assistant/conversation-design/errors), written for Google Assistant, says the first reprompt after a missed reply should be quick and should not repeat the original question word for word; later reprompts add detail. I follow that ladder and cap it: after two failed turns, the bot offers a person. Every conversation flow I hand over has a repair line under each turn.
+The repair path is where I spend most of my time. Google's conversation design guidance on errors, written for Google Assistant, says the first reprompt after a missed reply should be quick and should not repeat the original question word for word; later reprompts add detail. I follow that ladder and cap it: after two failed turns, the bot offers a person. Every conversation flow I hand over has a repair line under each turn.
 
 The table below shows one job, explaining a paycheck difference, in both lanes across 5 turns.
 
@@ -129,11 +129,11 @@ Gate 3: pass when every turn has a repair line and no repair asks the same quest
 
 **AI chatbot design shows each answer's source, a plain-language confidence cue and a one-tap way to correct or reject it, so users check before they act.**
 
-An LLM writes a new answer each time, and a fluent answer can still be wrong. The [Google People + AI Guidebook](https://pair.withgoogle.com/chapter/errors-failing/), from Google's People + AI Research (PAIR) team, asks product teams to define what counts as an error, find where errors come from and give users a path forward from failure.
+An LLM writes a new answer each time, and a fluent answer can still be wrong. The "Errors + Graceful Failure" chapter of the Google People + AI Guidebook, from Google's People + AI Research (PAIR) team, asks product teams to define what counts as an error, find where errors come from and give users a path forward from failure.
 
 For the hypothetical payroll assistant, that means tying every answer to a source in the user's own data. A source citation sits under the answer card as a source link ("Based on your pay stub for October 6–12"). When confidence is low, the bot offers a person instead of a guess. Feedback buttons and an edit or regenerate option let users correct the reply.
 
-Trust is the center of [AI product design](/services/ai-products/), so in AI assistant design these parts are not extras. Our [AI UX design](/services/ai-products/ai-ux-design-agency/) team designs citations, source previews and plain-language confidence cues for AI features beyond chat too. That team plans for generation that takes 3 to 20 seconds, which is why I design a streaming response with a progress state instead of a bare spinner. <!-- source: content/services/ai-ux-design-agency.json ("Slow responses" item) -->
+Trust is the center of [AI product design](/services/ai-products/), so in AI assistant design these parts are not extras. Our [AI UX design](/services/ai-products/ai-ux-design-agency/) team designs citations, source previews and plain-language confidence cues for AI features beyond chat too. That team plans for generation that takes 3 to 20 seconds, which is why I design a streaming response with a progress state instead of a bare spinner.
 
 Gate 4: pass when every AI answer that can trigger an action shows its source. Sources cover the good answer; the next step covers every other state a reply can be in.
 
@@ -164,8 +164,7 @@ Table: Seven reply states for one answer in a hypothetical payroll chatbot
 
 </details>
 
-A refusal state always names the next step, so a "no" never ends the conversation cold. An error keeps the user's typed message, because retyping a long question is where people quit. Our service page lists [the system states we design](/services/ai-products/chatbot-ui-design/#what-does-our-chatbot-ui-design-include) for every chat window. <!-- link: conditional fragment of the service page; keep the anchor words as plain text if fragments count as the same target -->
-
+A refusal state always names the next step, so a "no" never ends the conversation cold. An error keeps the user's typed message, because retyping a long question is where people quit.
 Counted only two states in your own bot? Our team designs the chat window, message components and every system state for web, iOS, Android or an embedded widget. We test those flows with users before launch.
 
 Gate 5: pass when no state ends without a next action. One of those states is a person.
@@ -182,7 +181,7 @@ A chatbot without a handoff path traps the user who needed help most. So the han
 4. The user's messages turn angry or upset.
 5. The request arrives outside support hours, so the bot opens a ticket and shows when a reply is due.
 
-Trigger 3 comes from consequence, not confusion. [Microsoft's 2018 guidelines for responsible bots](https://blogs.microsoft.com/blog/2018/11/14/microsoft-introduces-guidelines-for-developing-responsible-conversational-ai/) ask whether a situation needs people to provide judgment, expertise and empathy, and name employment, finances and health among the consequential areas.
+Trigger 3 comes from consequence, not confusion. Microsoft's 2018 guidelines for responsible bots ask whether a situation needs people to provide judgment, expertise and empathy, and name employment, finances and health among the consequential areas.
 
 The agent receives the job, the details collected, the bot's last answer and its source. In the hypothetical payroll product, a server disputing a short paycheck reaches the payroll team with the pay period already on screen.
 
@@ -192,13 +191,13 @@ Gate 6: pass when a tester can reach a person in two taps from any state. Next, 
 
 **Accessible chatbot design meets Web Content Accessibility Guidelines (WCAG) 2.2 AA, and lawful design says plainly that users are talking to a bot.**
 
-Three WCAG checks carry most of the weight in a chat window: contrast, announced messages and keyboard use. [Success criterion (SC) 1.4.3](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) sets minimum contrast at 4.5:1 for message text and 3:1 for large text. Our chat windows target at least 4.5:1 for message text, and I check gray timestamps and placeholder text first.
+Three WCAG checks carry most of the weight in a chat window: contrast, announced messages and keyboard use. [Success criterion (SC) 1.4.3](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) sets minimum contrast at 4.5:1 for message text and 3:1 for large text. Our chat windows target at least 4.5:1 for message text, and I check gray timestamps and placeholder text first.
 
-[SC 4.1.3 Status Messages](https://www.w3.org/WAI/WCAG21/Understanding/status-messages), added in WCAG 2.1 and kept in 2.2, covers notices like "typing", progress and errors. Status messages must be exposed so a screen reader announces them without moving focus. Streaming text floods a screen reader if every chunk is announced, so I announce the finished answer once. Focus stays in the input field after each send, and every chip works from the keyboard.
+SC 4.1.3 Status Messages, added in WCAG 2.1 and kept in 2.2, covers notices like "typing", progress and errors. Status messages must be exposed so a screen reader announces them without moving focus. Streaming text floods a screen reader if every chunk is announced, so I announce the finished answer once. Focus stays in the input field after each send, and every chip works from the keyboard.
 
 In the US, WCAG 2.2 AA is the usual yardstick when Americans with Disabilities Act (ADA) or Section 508 questions come up. Read this step as design guidance, not legal advice.
 
-The [California bot disclosure law](https://perkinscoie.com/insights/blog/i-am-robot-californias-new-law-requires-disclosure-use-bots), Senate Bill (SB) 1001, sits in Business and Professions Code §17940 and the sections after it and took effect on July 1, 2019. It bars using a bot to mislead a person in California about its artificial identity to drive a sale or influence a vote, and a clear and conspicuous disclosure avoids that liability. So the bot has to disclose what it is in the greeting's first line, as the payroll assistant does in Step 3.
+The [California bot disclosure law](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180SB1001), Senate Bill (SB) 1001, sits in Business and Professions Code §17940 and the sections after it and took effect on July 1, 2019. It bars using a bot to mislead a person in California about its artificial identity to drive a sale or influence a vote, and a clear and conspicuous disclosure avoids that liability. So the bot has to disclose what it is in the greeting's first line, as the payroll assistant does in Step 3.
 
 Gate 7: pass when a screen reader user can send a message, hear the answer and reach a person, and the greeting says it is a bot. Now prove it works with people.
 
@@ -206,7 +205,7 @@ Gate 7: pass when a screen reader user can send a message, hear the answer and r
 
 **Test chatbot design by giving real users your launch jobs as tasks in a prototype, then scoring each transcript against pass thresholds you wrote before the sessions.**
 
-In [our conversation testing step](/services/ai-products/chatbot-ui-design/#how-does-the-chatbot-ui-design-process-work), users complete real tasks with a clickable prototype while we measure task success and the number of turns per task. <!-- link: conditional fragment of the service page; keep the anchor words as plain text if fragments count as the same target --> I build that prototype in Figma and write every threshold before the first session, so a weak result cannot be renamed a pass afterward.
+In our conversation testing step, users complete real tasks with a clickable prototype while we measure task success and the number of turns per task. I build that prototype in Figma and write every threshold before the first session, so a weak result cannot be renamed a pass afterward.
 
 AI answers need real model output in the prototype, wrong answers included. In our AI feature tests, 5 to 8 users run real tasks against recorded model answers, and we count how often they accept, edit or reject each one.
 
@@ -252,7 +251,7 @@ Table: The 8 gates of the chatbot design checklist
 | 7. Access and law | Can everyone use it, and does it say it is a bot? | A screen reader user can send, hear the answer and reach a person, and the greeting says it is a bot. |
 | 8. Testing | Did the last round pass? | Every launch job meets its threshold in the last round. |
 
-The best chatbot design is the one users finish a task with in the fewest turns, and each gate protects that. If you are designing a chatbot now, copy the 8 rows into your sprint board and mark each one pass or fail. When you want a team to [design and test your assistant with you](/services/ai-products/chatbot-ui-design/), ours starts from your transcripts.
+The best chatbot design is the one users finish a task with in the fewest turns, and each gate protects that. If you are designing a chatbot now, copy the 8 rows into your sprint board and mark each one pass or fail. When you want a team to design and test your assistant with you, ours starts from your transcripts.
 
 If you run only one gate this week, run gate 1, because a better screen beats a bot nobody needed.
 
