@@ -102,3 +102,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-18: A 4-state × 5-screen storyboard can carry state names and pictures only; tell the writer up front to keep per-state sentences out of the panel or accept a panel split.
 - 2026-10-18: Never copy British spellings ("grey-box") from a panel into an SVG; flag them so the writer fixes the panel and the generator is rerun.
 - 2026-10-18 (how-to-design-an-mvp): When a label applies from step N onward, draw one band spanning steps N to the end, not a badge on the last step, and flag any panel sentence that still names the old placement.
+
+- 2026-10-19 (chatbot-design): For panels with a top bubble and a bottom-pinned button, row height is the largest per-panel bubble+button total (not tallest bubble + tallest button); a per-row width search with a minimum panel width fits 7 panels in 2 rows at 26px.
+- 2026-10-19: When transcript markers run in a different order from scorecard rows, match them with icons instead of crossing connector lines; rotate a scorecard (fields as rows) to fit 3 tasks × 6 fields.
+- 2026-10-19: When image lines already sit under the markers, tell the orchestrator to delete the markers instead of swapping, or images appear twice.

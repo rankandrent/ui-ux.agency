@@ -39,7 +39,7 @@
       "format": "list",
       "answer": "<strong>Our AI UX design agency works on 5 problems that block adoption of AI features:</strong>",
       "items": [
-        { "title": "Blank-prompt paralysis.", "body": "Users stare at an empty input. We design starter prompts, templates and examples taken from real tasks." },
+        { "title": "Blank-prompt paralysis.", "body": "Users stare at an empty input. We design starter prompts, templates and examples taken from real tasks. In a chat assistant, those prompts come from the top launch jobs; see our guide to <a href=\"/blog/chatbot-design/#step-2-which-jobs-should-the-chatbot-handle-on-day-one\">choosing a chatbot's day-one jobs</a>." },
         { "title": "Unclear trust.", "body": "Users cannot tell a good answer from a bad one. We add citations, source previews and plain-language confidence cues. Clinical tools need this most: see our <a href=\"/industries/healthcare/\">healthcare UX design</a> work for AI that clinicians must be able to check." },
         { "title": "Slow responses.", "body": "Generation takes 3 to 20 seconds. We design streaming text, progress states and partial results so waiting feels shorter." },
         { "title": "No way to correct.", "body": "A wrong answer forces a restart. We design inline edit, regenerate and undo, and we keep the user's work safe." },

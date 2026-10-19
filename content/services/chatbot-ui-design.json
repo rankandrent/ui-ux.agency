@@ -22,7 +22,7 @@
       "h2": "What is chatbot UI design?",
       "format": "paragraph",
       "answer": "<strong>Chatbot UI design decides how a conversation looks and behaves: where messages sit, how users type or tap, and how the bot shows results that plain text cannot hold.</strong> It covers the visual interface and the conversation flow together.",
-      "body": "<p>A good chatbot interface does more than show bubbles. It shows a product as a card with a price and a button, a booking as a calendar, and a long answer as short steps. It tells users what the bot can do before they type. Chatbot UI design is one part of the wider user experience (UX) of an AI product; the rest of that work sits with our <a href=\"/services/ai-products/ai-ux-design-agency/\">AI UX design agency</a> team.</p>",
+      "body": "<p>A good chatbot interface does more than show bubbles. It shows a product as a card with a price and a button, a booking as a calendar, and a long answer as short steps. It tells users what the bot can do before they type. Chatbot UI design is one part of the wider user experience (UX) of an AI product; the rest of that work sits with our <a href=\"/services/ai-products/ai-ux-design-agency/\">AI UX design agency</a> team. Teams planning their first bot can start with our <a href=\"/blog/chatbot-design/\">8-step chatbot design checklist</a>.</p>",
       "image": {
         "src": "/images/services/chatbot-ui-design.svg",
         "alt": "Chat window layout with bot and user messages, a product answer card, three suggested reply chips and a message input with an attach button",

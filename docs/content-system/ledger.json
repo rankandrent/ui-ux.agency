@@ -87,6 +87,26 @@
         "/services/startups/ (pillar FAQ: design sprint or MVP design)",
         "/case-studies/vocable/ (scope line)"
       ]
+    },
+    {
+      "slug": "chatbot-design",
+      "hub": "chatbot-ui-design",
+      "keyword": "chatbot design",
+      "date": "2026-10-19",
+      "words": 3709,
+      "images": 4,
+      "internalLinks": 5,
+      "externalLinks": 9,
+      "qaLoops": 1,
+      "factLoops": 1,
+      "semanticScore": 94,
+      "opportunityScore": 78.5,
+      "expectedMonthlyTraffic": 135,
+      "backlinks": [
+        "/services/ai-products/chatbot-ui-design/ (what is chatbot UI design)",
+        "/services/ai-products/ (pillar card: support and operations teams)",
+        "/services/ai-products/ai-ux-design-agency/ (blank-prompt paralysis card)"
+      ]
     }
   ],
   "audits": [

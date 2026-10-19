@@ -474,6 +474,40 @@
       "visuals": 6,
       "example": "hypothetical dog groomer booking app in Austin, Texas",
       "date": "2026-10-18"
+    },
+    {
+      "slug": "chatbot-design",
+      "hub": "chatbot-ui-design",
+      "type": "Checklist",
+      "funnel": "tofu",
+      "introStyle": "author's three questions as an inline list",
+      "h2Frames": [
+        "decision: chat or better screen",
+        "day-one jobs",
+        "happy and repair paths",
+        "AI answers with sources",
+        "reply states",
+        "handoff to a person",
+        "accessible and lawful",
+        "transcript testing",
+        "8-gate checklist",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "Step 1: Does your product need a chatbot or a better screen?",
+        "Step 2: Which jobs should the chatbot handle on day one?",
+        "Step 3: How do you write the happy and repair paths?",
+        "Step 4: How does AI chatbot design show its sources?",
+        "Step 5: Which states does every chatbot reply need?",
+        "Step 6: When should the chatbot hand off to a person?",
+        "Step 7: How do you make a chatbot accessible and lawful?",
+        "Step 8: How do you test chatbot design before launch?",
+        "The 8-gate chatbot design checklist",
+        "FAQs"
+      ],
+      "visuals": 4,
+      "example": "hypothetical payroll and scheduling SaaS for US restaurant groups",
+      "date": "2026-10-19"
     }
   ]
 }

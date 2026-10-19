@@ -16,18 +16,18 @@ takeaways:
   - "Decide chat or screen first: a fixed task with known fields is faster as a form than as a conversation."
   - "Launch with the few jobs your real support chats show most often, each with an answer source and an owner."
   - "Give every turn a repair line and offer a person after two failed turns, with the chat history attached."
-  - "Every AI answer that can trigger an action shows its source, and every reply state ends in one next action."
+  - "Every AI answer that can trigger an action shows its source, and every reply state ends in a clear next action."
   - "Meet Web Content Accessibility Guidelines (WCAG) 2.2 AA, say plainly that it is a bot and test against thresholds set before the sessions."
 image: /blog/chatbot-design/cover.svg
-draft: true
-qa: pending
+draft: false
+qa: pass
 ---
 
 I ask a product team three questions before I open Figma for any chatbot design: (1) what job will people bring to the bot, (2) what happens when it is wrong and (3) who takes over when it cannot help. The answers drive the 8 steps below, and each step closes with a yes-or-no gate you pass before moving on.
 
-[IBM](https://www.ibm.com/think/topics/chatbot-design) describes chatbot design as a blend of user experience (UX) design, user interface (UI) design, copywriting, conversational artificial intelligence (AI) and machine learning. Users arrive expecting that blend to work: in a [Pew Research Center survey](https://www.pewresearch.org/short-reads/2025/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023/) run February 24 to March 2, 2025, 34% of US adults said they had used ChatGPT, including 58% of adults under 30.
+[IBM](https://www.ibm.com/think/topics/chatbot-design) describes chatbot design as a blend of user experience (UX) design, user interface (UI) design, copywriting, conversational artificial intelligence (AI) and machine learning. Users arrive expecting that blend to work: in a [Pew Research Center survey](https://www.pewresearch.org/internet/2026/06/17/how-opinions-and-use-of-ai-differ-by-age/) run February 17 to 23, 2026, 44% of US adults said they use ChatGPT, including 61% of adults ages 18 to 29.
 
-I'm a UI/UX designer at ui-ux.agency, [the UI UX design agency of tkxel](/about/), whose designers have worked on more than 200 digital products since 2017. The chatbot design process below fits a support bot or an in-app AI assistant inside a software as a service (SaaS) product. It follows the order our [chatbot UI design](/services/ai-products/chatbot-ui-design/) work starts from, real transcripts first, and shows how to design a chatbot people finish tasks with.
+I work as a UI/UX designer at [the UI UX design agency of tkxel](/about/). The chatbot design process below fits a support bot or an in-app AI assistant inside a software as a service (SaaS) product. It follows the order our [chatbot UI design](/services/ai-products/chatbot-ui-design/) work starts from, real transcripts first, and shows how to design a chatbot people finish tasks with.
 
 ## Step 1: Does your product need a chatbot or a better screen?
 
@@ -64,7 +64,7 @@ Gate 1: pass when you can name the screen the bot replaces or the search it shor
 
 I start from chat transcripts, where users' top questions and their exact words both sit. Each intent gets those trigger phrases and a fallback for the misses. If you design chatbot flows from a feature wishlist instead, the launch list ends up guessed.
 
-Day-one scope stays small. A support widget with 20 to 30 intents on one website is the small end of the chatbot work our team takes on. Five jobs answered well beat thirty jobs guessed at, so I write one card per job before any flow.
+Day-one scope stays small. Our published pricing puts a support widget with 20 to 30 intents on one website at the low end of the range. Five jobs answered well beat thirty jobs guessed at, so I write one card per job before any flow.
 
 ![Ticket-stub scope card with seven fields filled in for one chatbot job, explaining a paycheck difference in a hypothetical payroll product](/blog/chatbot-design/chatbot-design-job-card.svg "One-job scope card for a hypothetical payroll chatbot: explain a paycheck difference in seven fields")
 
@@ -108,7 +108,7 @@ Gate 2: pass when every launch job has an answer source and an owner. With the j
 
 The happy path opens with a greeting that says what the bot can do. It collects details through suggested replies instead of typing, answers in an answer card and offers the next step.
 
-The repair path is where I spend most of my time. Google's conversation design guidance on errors, written for Google Assistant, says the first reprompt after a missed reply should be quick and should not repeat the original question word for word; later reprompts add detail. I follow that ladder and cap it: after two failed turns, the bot offers a person. Every conversation flow I hand over has a repair line under each turn.
+The repair path is where I spend most of my time. [Google's conversation design guidance on errors](https://developers.google.com/assistant/conversation-design/errors), written for Google Assistant, says the first reprompt after a missed reply should be quick and should not repeat the original question word for word; later reprompts add detail. My repair strategy follows that ladder and caps it: after two failed turns, the bot offers a person. Every conversation flow I hand over has a repair line under each turn.
 
 The table below shows one job, explaining a paycheck difference, in both lanes across 5 turns.
 
@@ -130,9 +130,9 @@ Gate 3: pass when every turn has a repair line and no repair asks the same quest
 
 **AI chatbot design shows each answer's source, a plain-language confidence cue and a one-tap way to correct or reject it, so users check before they act.**
 
-An LLM writes a new answer each time, and a fluent answer can still be wrong. The "Errors + Graceful Failure" chapter of the Google People + AI Guidebook, from Google's People + AI Research (PAIR) team, asks product teams to define what counts as an error, find where errors come from and give users a path forward from failure.
+An LLM writes a new answer each time, and a fluent answer can still be wrong. The Google People + AI Guidebook, written by Google's People + AI Research (PAIR) team, gives this its own chapter, ["Errors + Graceful Failure"](https://pair.withgoogle.com/chapter/errors-failing/), which asks product teams to define what counts as an error, find where errors come from and give users a path forward from failure.
 
-For the hypothetical payroll assistant, that means tying every answer to a source in the user's own data. A source citation sits under the answer card as a source link ("Based on your pay stub for October 6–12"). When confidence is low, the bot offers a person instead of a guess. Feedback buttons and an edit or regenerate option let users correct the reply.
+For the hypothetical payroll assistant, answer grounding means tying every answer to a source in the user's own data. A source citation sits under the answer card as a source link ("Based on your pay stub for October 6–12"). When confidence is low, the bot offers a person instead of a guess. Feedback buttons and an edit or regenerate option let users correct the reply.
 
 Trust is the center of [AI product design](/services/ai-products/), so in AI assistant design these parts are not extras. Our [AI UX design](/services/ai-products/ai-ux-design-agency/) team designs citations, source previews and plain-language confidence cues for AI features beyond chat too. That team plans for generation that takes 3 to 20 seconds, which is why I design a streaming response with a progress state instead of a bare spinner.
 
@@ -140,9 +140,9 @@ Gate 4: pass when every AI answer that can trigger an action shows its source. S
 
 ## Step 5: Which states does every chatbot reply need?
 
-**In chatbot interaction design, every reply needs a designed state for streaming, a sourced answer, low confidence, refusal, error, offline and handoff, each ending in one next action.**
+**In chatbot interaction design, every reply needs a designed state for streaming, a sourced answer, low confidence, refusal, error, offline and handoff, each ending in a clear next action.**
 
-Many first drafts stop at two states: typing and answered. The panels below draw one paycheck answer from the hypothetical product in all 7.
+A draft that stops at two states, typing and answered, leaves five states undesigned. The panels below draw one paycheck answer from the hypothetical product in all 7.
 
 ![Seven chat panels showing one paycheck answer as streaming, sourced answer, low confidence, refusal, error with retry, offline and handoff, each with its next action](/blog/chatbot-design/chatbot-design-reply-states.svg "Reply state strip for a hypothetical payroll chatbot: one answer in seven states, each with its next action")
 
@@ -164,8 +164,9 @@ Table: Seven reply states for one answer in a hypothetical payroll chatbot
 
 </details>
 
-A refusal state always names the next step, so a "no" never ends the conversation cold. An error keeps the user's typed message, because retyping a long question is where people quit.
-Counted only two states in your own bot? Our team designs the chat window, message components and every system state for web, iOS, Android or an embedded widget. We test those flows with users before launch.
+A refusal state always names the next step, so a "no" never ends the conversation cold. An error keeps the user's typed message, so nobody has to retype a long question.
+
+Counted only two states in your own bot? Our team designs the chat window, message components and system states such as typing, streaming, retry, error, refusal and offline for web, iOS and Android, or for an embedded widget. We test every conversation flow with real users before launch.
 
 Gate 5: pass when no state ends without a next action. One of those states is a person.
 
@@ -181,23 +182,23 @@ A chatbot without a handoff path traps the user who needed help most. So the han
 4. The user's messages turn angry or upset.
 5. The request arrives outside support hours, so the bot opens a ticket and shows when a reply is due.
 
-Trigger 3 comes from consequence, not confusion. Microsoft's 2018 guidelines for responsible bots ask whether a situation needs people to provide judgment, expertise and empathy, and name employment, finances and health among the consequential areas.
+Trigger 3 comes from consequence, not confusion. [Microsoft's 2018 guidelines for responsible bots](https://blogs.microsoft.com/blog/2018/11/14/microsoft-introduces-guidelines-for-developing-responsible-conversational-ai/) ask whether a situation needs people to provide judgment, expertise and empathy, and name employment, finances and health among the consequential areas.
 
 The agent receives the job, the details collected, the bot's last answer and its source. In the hypothetical payroll product, a server disputing a short paycheck reaches the payroll team with the pay period already on screen.
 
-Gate 6: pass when a tester can reach a person in two taps from any state. Next, protect users who cannot see the screen and users who need to know it is a bot.
+Gate 6: pass when a tester can reach a person, or a ticket when no one is on shift, in two taps from any state. Next, protect users who cannot see the screen and users who need to know it is a bot.
 
 ## Step 7: How do you make a chatbot accessible and lawful?
 
-**Accessible chatbot design meets Web Content Accessibility Guidelines (WCAG) 2.2 AA, and lawful design says plainly that users are talking to a bot.**
+**Accessible chatbot design meets Web Content Accessibility Guidelines (WCAG) 2.2 Level AA, and lawful design says plainly that users are talking to a bot.**
 
 Three WCAG checks carry most of the weight in a chat window: contrast, announced messages and keyboard use. [Success criterion (SC) 1.4.3](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) sets minimum contrast at 4.5:1 for message text and 3:1 for large text. Our chat windows target at least 4.5:1 for message text, and I check gray timestamps and placeholder text first.
 
-SC 4.1.3 Status Messages, added in WCAG 2.1 and kept in 2.2, covers notices like "typing", progress and errors. Status messages must be exposed so a screen reader announces them without moving focus. Streaming text floods a screen reader if every chunk is announced, so I announce the finished answer once. Focus stays in the input field after each send, and every chip works from the keyboard.
+[SC 4.1.3 Status Messages](https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html), added in WCAG 2.1 and kept in 2.2, covers notices like "typing", progress and errors. Status messages must be exposed so a screen reader announces them without moving focus. Streaming text floods a screen reader if every chunk is announced, so I announce the finished answer once. Focus stays in the input field after each send, and every chip works from the keyboard.
 
-In the US, WCAG 2.2 AA is the usual yardstick when Americans with Disabilities Act (ADA) or Section 508 questions come up. Read this step as design guidance, not legal advice.
+In the US, the Section 508 standards point to WCAG 2.0 AA, and the Americans with Disabilities Act (ADA) Title II rule for state and local governments points to WCAG 2.1 AA. The World Wide Web Consortium (W3C) states that content meeting WCAG 2.2 also meets 2.0 and 2.1, so I design to 2.2 AA. Read this step as design guidance, not legal advice.
 
-The [California bot disclosure law](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180SB1001), Senate Bill (SB) 1001, sits in Business and Professions Code §17940 and the sections after it and took effect on July 1, 2019. It bars using a bot to mislead a person in California about its artificial identity to drive a sale or influence a vote, and a clear and conspicuous disclosure avoids that liability. So the bot has to disclose what it is in the greeting's first line, as the payroll assistant does in Step 3.
+The [California bot disclosure law](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180SB1001), Senate Bill (SB) 1001, sits in Business and Professions Code §17940 and the sections after it and became operative on July 1, 2019. It bars using a bot to mislead a person in California about its artificial identity to drive a sale or influence a vote, and a clear and conspicuous disclosure avoids that liability. The law does not say where the disclosure goes, so the first line of the greeting is my design choice: the payroll assistant says it is an AI bot there, as in Step 3.
 
 Gate 7: pass when a screen reader user can send a message, hear the answer and reach a person, and the greeting says it is a bot. Now prove it works with people.
 
@@ -205,9 +206,9 @@ Gate 7: pass when a screen reader user can send a message, hear the answer and r
 
 **Test chatbot design by giving real users your launch jobs as tasks in a prototype, then scoring each transcript against pass thresholds you wrote before the sessions.**
 
-In our conversation testing step, users complete real tasks with a clickable prototype while we measure task success and the number of turns per task. I build that prototype in Figma and write every threshold before the first session, so a weak result cannot be renamed a pass afterward.
+In our conversation testing step, users work through real tasks in a clickable prototype while we count task success and turns per task. I build that prototype in Figma and write every threshold before the first session, so a weak result cannot be renamed a pass afterward.
 
-AI answers need real model output in the prototype, wrong answers included. In our AI feature tests, 5 to 8 users run real tasks against recorded model answers, and we count how often they accept, edit or reject each one.
+AI answers need real model output in the prototype, wrong answers included. In our AI feature tests, 5 to 8 users run real tasks in a prototype that shows real model answers, and we measure how often they accept, edit or reject each answer. Each transcript then gets scored against its threshold, as in the example below.
 
 ![Chat transcript with margin markers for turns, handoff and a caught wrong answer, feeding a scorecard with a threshold, result and verdict per task](/blog/chatbot-design/chatbot-design-transcript-scorecard.svg "Transcript scorecard for a hypothetical payroll chatbot: thresholds set before testing, verdict per task")
 
@@ -235,7 +236,7 @@ Gate 8: pass when every launch job meets its threshold in the last round. The ch
 
 **The chatbot design process passes only when all 8 gates pass; a failed gate sends you back to that step, not forward to launch.**
 
-The table below collects the gate from each step, the question it asks and the result that counts as a pass.
+The table below collects the gate from each step, the question it asks and what a pass looks like.
 
 Table: The 8 gates of the chatbot design checklist
 
@@ -246,7 +247,7 @@ Table: The 8 gates of the chatbot design checklist
 | 3. Paths | Can every turn recover? | Every turn has a repair line and no repair asks the same question twice. |
 | 4. Sources | Can users check AI answers? | Every AI answer that can trigger an action shows its source. |
 | 5. Reply states | Does every state lead somewhere? | No state ends without a next action. |
-| 6. Handoff | Can users reach a person fast? | A tester reaches a person in two taps from any state. |
+| 6. Handoff | Can users reach a person fast? | A tester reaches a person, or a ticket when no one is on shift, in two taps from any state. |
 | 7. Access and law | Can everyone use it, and does it say it is a bot? | A screen reader user can send, hear the answer and reach a person, and the greeting says it is a bot. |
 | 8. Testing | Did the last round pass? | Every launch job meets its threshold in the last round. |
 
@@ -258,19 +259,19 @@ If you run only one gate this week, run gate 1, because a better screen beats a 
 
 ### What are the four types of chatbots?
 
-Teams usually group chatbots by how they read input: menu bots driven by buttons, rule-based bots that match keywords, intent-based bots trained on example phrases and generative assistants built on a large language model. A frequently asked questions (FAQ) bot or a lead qualification bot is often one of the first two, and many products mix buttons for known jobs with free text for the rest.
+Teams usually group chatbots by how they read input: menu bots driven by buttons, rule-based bots that match keywords, intent-based bots trained on example phrases and generative assistants built on an LLM. A frequently asked questions (FAQ) bot or a lead qualification bot is usually one of the first two.
 
 ### How do UI and UX split the work on a chatbot?
 
-UX design decides what the bot says, which actions it offers and when a person takes over, while UI design decides how that dialogue looks on screen. IBM draws the same line, and since both halves of this user experience design work read the same transcripts, I keep them with one designer or one tightly paired team.
+UX design decides what the bot says, which actions it offers and when a person takes over, while UI design decides how that dialogue looks on screen. IBM draws the same line. Both halves of this user experience design work read the same transcripts, so I keep them with one designer.
 
 ### What are the core chatbot design principles?
 
-Chatbot design principles fit in one line each: say what the bot can do, keep replies short, offer suggested replies, show sources for AI answers, repair before you repeat, offer a person after two failed turns and announce new messages to screen readers. Each principle maps to one of the 8 gates, so the checklist doubles as a principles audit.
+Chatbot design principles fit in one line each: say what the bot can do, keep replies short, offer suggested replies, show sources for AI answers, repair before you repeat, offer a person after two failed turns and announce new messages to screen readers. The 8-gate checklist turns four of them into pass-or-fail tests.
 
 ### How long does it take to design a chatbot?
 
-With our team it takes 3 to 8 weeks across transcript review, flow design, interface design and conversation testing. The number of jobs, channels and languages moves a project within that range, with a narrow FAQ bot at the short end.
+With our team it takes 3 to 8 weeks across transcript review, flow design, interface design and conversation testing. The number of intents, channels and languages sets where a project falls in that range.
 
 ### How much does it cost to design a chatbot?
 
