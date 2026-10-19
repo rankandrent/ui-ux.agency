@@ -89,7 +89,25 @@
       ]
     }
   ],
-  "audits": [],
+  "audits": [
+    {
+      "date": "2026-10-19",
+      "edits": 6,
+      "proposals": [
+        "Denver keyword conflict with sister site (owner)",
+        "GSC export / Semrush units",
+        "dead Userpilot source on /blog/saas-onboarding/",
+        "links to city pages from about/team",
+        "WCAG/AAA badge (owner)",
+        "per-post CTA case study",
+        "repeated closing H2s",
+        "homepage keyword choice (owner)",
+        "fold product discovery process/phase into existing post",
+        "re-check queue: Section 1033, HTI-5, Colorado rules",
+        "stale fingerprints"
+      ]
+    }
+  ],
   "runs": [
     {
       "date": "2026-10-13",

@@ -40,7 +40,7 @@ The features were strong, but four UX problems kept satisfaction and engagement 
 
 - **A busy, crowded interface.** The metrics traders care about most were hidden under clutter.
 - **Hard to learn.** New users took long to get productive.
-- **No onboarding guide.** First-time traders had nothing to walk them through setup.
+- **No onboarding guide.** First-time traders had nothing to [walk them through setup](/blog/saas-onboarding/).
 - **Different on every device.** Web and mobile did not behave the same way.
 
 With TradeZella's founders, we aimed to lift the whole experience, with **dashboard analytics** as the main focus.
