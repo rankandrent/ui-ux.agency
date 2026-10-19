@@ -18,6 +18,7 @@ takeaways:
   - "Give every turn a repair line and offer a person after two failed turns, with the chat history attached."
   - "Every AI answer that can trigger an action shows its source, and every reply state ends in one next action."
   - "Meet Web Content Accessibility Guidelines (WCAG) 2.2 AA, say plainly that it is a bot and test against thresholds set before the sessions."
+image: /blog/chatbot-design/cover.svg
 draft: true
 qa: pending
 ---
@@ -34,7 +35,6 @@ I'm a UI/UX designer at ui-ux.agency, [the UI UX design agency of tkxel](/about/
 
 A fixed task with known fields, such as changing a plan or resetting a password, is faster as a screen or form. Chat adds typing, waiting and guessing to a job one button finishes. So I run four yes-or-no questions before anyone draws a message bubble.
 
-<!-- visual: horizontal yes/no decision flow, 4 diamonds left to right (phrased many ways? answer in docs, data or policy? needs back-and-forth? a person can take over?) ending in 3 outcome tiles (improve the screen or form; guided bot with buttons; open AI assistant with free text). Small labels under the tiles from the hypothetical payroll product: shift swap to screen, paycheck question to assistant. Not a vertical tree. -->
 ![Horizontal decision flow with four yes or no questions that route a product request to a better screen, a guided bot with buttons or an open AI assistant](/blog/chatbot-design/chatbot-design-chat-or-screen.svg "Chat or screen decision flow: four yes or no questions route each request to a better screen, a guided bot or an open AI assistant")
 
 <details class="astext"><summary>Show as text</summary>
@@ -45,6 +45,8 @@ Start at question 1 and follow each answer.
 2. Is the answer in docs, data or policy that users would otherwise search for? No: improve the screen or form, and let chat link to it. Yes: go to question 3.
 3. Does the job need back-and-forth to collect details or answer follow-ups? No: guided bot with buttons. Yes: go to question 4.
 4. Can a person take over when the bot fails? No: guided bot with buttons until someone can. Yes: open AI assistant with free text.
+
+Hypothetical payroll example: "Can I swap Friday's shift?" stays a screen; "Why is my paycheck different this week?" goes to the open AI assistant.
 
 </details>
 
@@ -64,7 +66,6 @@ I start from chat transcripts, where users' top questions and their exact words 
 
 Day-one scope stays small. A support widget with 20 to 30 intents on one website is the small end of the chatbot work our team takes on. Five jobs answered well beat thirty jobs guessed at, so I write one card per job before any flow.
 
-<!-- visual: one-job scope card styled like a ticket stub with a perforated edge, 7 labeled fields filled for "explain a paycheck difference" in the hypothetical payroll product. Not an index card or a rule sheet. -->
 ![Ticket-stub scope card with seven fields filled in for one chatbot job, explaining a paycheck difference in a hypothetical payroll product](/blog/chatbot-design/chatbot-design-job-card.svg "One-job scope card for a hypothetical payroll chatbot: explain a paycheck difference in seven fields")
 
 <details class="astext"><summary>Show as text</summary>
@@ -141,9 +142,8 @@ Gate 4: pass when every AI answer that can trigger an action shows its source. S
 
 **In chatbot interaction design, every reply needs a designed state for streaming, a sourced answer, low confidence, refusal, error, offline and handoff, each ending in one next action.**
 
-Many first drafts stop at two states: typing and answered. The strip below draws one paycheck answer from the hypothetical product in all 7.
+Many first drafts stop at two states: typing and answered. The panels below draw one paycheck answer from the hypothetical product in all 7.
 
-<!-- visual: seven narrow chat-bubble panels in a row showing the same hypothetical paycheck answer as streaming, answered with source, low confidence, refusal, error with retry, offline and handoff to a person; each panel's footer names its next action. -->
 ![Seven chat panels showing one paycheck answer as streaming, sourced answer, low confidence, refusal, error with retry, offline and handoff, each with its next action](/blog/chatbot-design/chatbot-design-reply-states.svg "Reply state strip for a hypothetical payroll chatbot: one answer in seven states, each with its next action")
 
 <details class="astext"><summary>Show as text</summary>
@@ -209,7 +209,6 @@ In our conversation testing step, users complete real tasks with a clickable pro
 
 AI answers need real model output in the prototype, wrong answers included. In our AI feature tests, 5 to 8 users run real tasks against recorded model answers, and we count how often they accept, edit or reject each one.
 
-<!-- visual: chat transcript on the left with three margin markers (turn count, handoff, wrong answer caught) feeding a scorecard on the right with columns task, threshold, result, turns, handoff, wrong answer caught, verdict. Illustrative values for the hypothetical payroll product, labeled "example". Not a clipboard. -->
 ![Chat transcript with margin markers for turns, handoff and a caught wrong answer, feeding a scorecard with a threshold, result and verdict per task](/blog/chatbot-design/chatbot-design-transcript-scorecard.svg "Transcript scorecard for a hypothetical payroll chatbot: thresholds set before testing, verdict per task")
 
 <details class="astext"><summary>Show as text</summary>
