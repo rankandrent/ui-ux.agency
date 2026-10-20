@@ -328,7 +328,8 @@
       "priority": "required",
       "why": "Same silo (sideways link allowed). The sibling currently calls financial client onboarding 'compliance work rather than product guidance', which contradicts the new post's premise; the added sentence reconciles the two and passes relevance from an indexed page.",
       "old": "- **Client onboarding in financial services:** identity checks and account opening, which is compliance work rather than product guidance.",
-      "new": "- **Client onboarding in financial services:** identity checks and account opening, which is compliance work rather than product guidance. Its screens still need design, and we chart them in [the onboarding KYC process flow](/blog/onboarding-kyc-process-flow/)."
+      "new": "- **Client onboarding in financial services:** identity checks and account opening, which is compliance work rather than product guidance. The screens on top of those checks still need design, and our guide to the [onboarding KYC process flow](/blog/onboarding-kyc-process-flow/) charts them step by step.",
+      "linkBuilderNote": "2026-10-20: re-verified old string at line 45 (exact). Reworded: the old 'we chart them in [the onboarding KYC process flow]' made the flow itself sound like the page; anchor is now 'onboarding KYC process flow'."
     },
     {
       "source": "content/industries/fintech.json → solutions → 'KYC and account opening' → body (line 87)",
@@ -337,7 +338,7 @@
       "priority": "required",
       "why": "The industry page's KYC paragraph is the strongest topical source on the site; the post goes one level deeper (9 steps, 4 outcomes, pending state). Industry page → post is allowed (silo rules restrict links inside posts). The anchor is a measured secondary (40/mo), not the fintech page's own 'kyc onboarding ux'.",
       "old": "See <a href=\\\"/services/saas-products/saas-onboarding-design/\\\">SaaS onboarding design</a>.",
-      "new": "See <a href=\\\"/services/saas-products/saas-onboarding-design/\\\">SaaS onboarding design</a>, or follow our <a href=\\\"/blog/onboarding-kyc-process-flow/\\\">KYC onboarding process flow chart</a> step by step.",
+      "new": "See <a href=\\\"/services/saas-products/saas-onboarding-design/\\\">SaaS onboarding design</a>, or walk through the 9 steps of our <a href=\\\"/blog/onboarding-kyc-process-flow/\\\">KYC onboarding process flow chart</a>.",
       "escapeNote": "fintech.json stores HTML inside a JSON string, so href quotes appear in the file as backslash + quote. The old string occurs exactly once in the file (grep count 1)."
     },
     {
@@ -347,9 +348,31 @@
       "priority": "required",
       "why": "Hub → post (silo rule: the pillar/hub links down to its posts). List item bodies render HTML (components/sections/SemanticSections.tsx lines 175/198/215 use <Html>). Varied anchor, not exact match.",
       "old": "{ \"title\": \"Account setup.\", \"body\": \"Only the questions the product needs now; the rest moves to later.\" },",
-      "new": "{ \"title\": \"Account setup.\", \"body\": \"Only the questions the product needs now; the rest moves to later. Fintech sign-ups add identity checks here; see <a href=\\\"/blog/onboarding-kyc-process-flow/\\\">how a KYC process flow orders them</a>.\" },"
+      "new": "{ \"title\": \"Account setup.\", \"body\": \"Only the questions the product needs now; the rest moves to later. Fintech sign-ups add identity checks at this step; see <a href=\\\"/blog/onboarding-kyc-process-flow/#what-does-the-kyc-process-flow-collect-and-in-what-order\\\">how a KYC process flow orders them</a>.\" },",
+      "linkBuilderNote": "2026-10-20: added the section jump (slugify of H2 'What does the KYC process flow collect, and in what order?'), since 'orders them' matches that section, not the chart at the top."
     }
   ],
+  "related": {
+    "linkBuilderDate": "2026-10-20",
+    "externalLinks": [
+      "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.220 (ecfr.gov-restricted search: TIN for a US person, notice before opening + sample heading, documentary/non-documentary; bank text says verification 'within a reasonable time after the account is opened', NOT 'before or after' (that wording is 1026.220); post sentence does not claim 'before or after')",
+      "https://www.fdic.gov/news/press-releases/2024/fdic-survey-finds-96-percent-us-households-were-banked-2023 (SWAP: brief's /household-survey/2023-...-report URL never returned; press release snippet: 'Nearly half of banked households (48.3 percent) used mobile banking as their primary method')",
+      "https://www.consumerfinance.gov/rules-policy/regulations/1030/4/",
+      "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry (search-returned path, no .html)",
+      "https://csrc.nist.gov/pubs/sp/800/63/4/final (final 07/31/25, supersedes 800-63-3)",
+      "https://ofac.treasury.gov/faqs/246 (SWAP: /sanctions-list-search-tool never returned; FAQ 246 'How does Sanctions List Search work?' states fuzzy logic on the name field and the slider bar)",
+      "https://www.fincen.gov/system/files/2026-02/FinCEN-Order-CCDExceptiveRelief.pdf (FIN-2026-R001, Feb 13, 2026, 3 circumstances, waives 1010.230(b) at each opening)",
+      "https://ncua.gov/newsroom/press-release/2021/federal-and-state-regulators-release-updates-bsaaml-examination-manual (CIP section among 4 updated; 'The Manual itself does not establish requirements for banks')"
+    ],
+    "removedExternalLinks": [
+      "https://www.consumerfinance.gov/rules-policy/regulations/1030/3/ (verified; de-linked for the cap; sentence now attributes E-SIGN consent to Regulation DD, already linked via 1030.4, and no longer names 12 CFR 1030.3)",
+      "https://pages.nist.gov/800-63-4/sp800-63a/proofing/ (search returned https://pages.nist.gov/800-63-4/sp800-63a.html with the remote unattended definition; de-linked, NIST SP 800-63-4 stays linked)",
+      "https://pages.nist.gov/800-63-4-Implementation-Resources/ (not returned; injection/forged-media controls confirmed via pages.nist.gov/800-63-4/sp800-63a/ial-general/ snippets; de-linked)",
+      "31 CFR 1010.230 (verified at https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1010/subpart-B/section-1010.230; citation number removed from the sentence instead of linking, to stay at 8 externals; the linked FinCEN order states the 1010.230(b) requirement)"
+    ],
+    "internalLinks": ["/about/ (writer)", "/services/saas-products/saas-onboarding-design/ (word ~120)", "/blog/user-onboarding-automation/", "/blog/saas-onboarding/#where-does-saas-onboarding-end", "/industries/fintech/", "/services/saas-products/saas-onboarding-design/#how-does-the-saas-onboarding-design-process-work"],
+    "internalCountException": "7 body links incl. /about/ vs TOFU 8-12. Hub cap 2, no relevant case study (brief: Anyday/TradeZella show no KYC work), only 2 sibling posts, 1 industry page. Next allowed candidate if QA requires 8: pillar /services/saas-products/ ('SaaS product design'), which the brief marked override-only."
+  },
   "externalSources": [
     { "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.220", "why": "Primary (US, eCFR): CIP rule 31 CFR 1020.220: written risk-based CIP, four data points, verification timing and methods (VERIFY (a)(2)(ii) wording), customer notice (a)(5). H2 2–3, FAQ 2." },
     { "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/4/", "why": "Primary (CFPB): Regulation DD 12 CFR 1030.4, account disclosures before the account is opened; online openings. H2 2." },
