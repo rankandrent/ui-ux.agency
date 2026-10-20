@@ -23,17 +23,17 @@ draft: true
 qa: pending
 ---
 
-Know your customer (KYC) rules arrive as legal text, so when I chart an onboarding KYC process flow, I put the screens your customer sees on top and the bank's checks underneath, on one page. Take the Customer Identification Program (CIP) rule at [31 CFR 1020.220](https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.220). It asks a US bank for a name, a date of birth, an address and an identification number before an account opens.
+Know your customer (KYC) rules arrive as legal text, so I chart an onboarding KYC process flow with the screens your customer sees on top and the bank's checks underneath. Take the Customer Identification Program (CIP) rule in the Code of Federal Regulations (CFR), [31 CFR 1020.220](https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.220). It asks a US bank for a name, a date of birth, an address and an identification number before an account opens.
 
-On screen, that one sentence of regulation becomes 4 fields, 1 notice and at least 1 wait the customer can see. Many people will meet those screens on a phone: the Federal Deposit Insurance Corporation (FDIC) [2023 household survey](https://www.fdic.gov/news/press-releases/2024/fdic-survey-finds-96-percent-us-households-were-banked-2023) found that 48.3% of banked US households used mobile banking as their primary way to reach their accounts.
+On screen, that one sentence of regulation becomes 4 fields, 1 notice and at least 1 wait the customer can see. Many people will meet those screens on a phone. The Federal Deposit Insurance Corporation (FDIC) [2023 household survey](https://www.fdic.gov/news/press-releases/2024/fdic-survey-finds-96-percent-us-households-were-banked-2023) found that 48.3% of banked US households used mobile banking as their primary way to reach their accounts.
 
-I write as principal user experience (UX) designer for [ui-ux.agency, tkxel's design team](/about/), which has designed 200+ products since 2017. This post covers the customer lane: screens, waits, copy and the events you log. Your compliance team and counsel own the rules, and our [SaaS onboarding design](/services/saas-products/saas-onboarding-design/) work shapes the screens that sit on top of them.
+My part of the chart is the customer lane: screens, waits, copy and the events you log. I draw that lane as principal user experience (UX) designer for [ui-ux.agency, tkxel's design team](/about/), which has designed 200+ products since 2017. Your compliance team and counsel own the rules, and our [SaaS onboarding design](/services/saas-products/saas-onboarding-design/) work shapes the screens that sit on top of them.
 
 ## How does an onboarding KYC process flow run, end to end?
 
 **An onboarding KYC process flow runs in 9 steps from the first screen to a funded account, and one decision point after the checks splits it 4 ways.**
 
-The KYC onboarding process flow chart below is a swimlane flow chart with 2 lanes. The top lane holds the screens. The bottom lane holds the checks your bank or partner bank runs, and every check needs a visible state above it, even when that state only says "We're checking your details."
+The KYC onboarding process flow chart below is a swimlane flow chart with 2 lanes. The top lane holds the screens. The bottom lane holds the checks your bank or partner bank runs. Every check needs a visible state above it, even when that state only says "We're checking your details."
 
 ![Two-lane swimlane flow chart of an onboarding KYC process flow with 9 customer screens on top, the bank's matching checks below, 4 outcomes after the automated checks and a finish flag at the first funded account](/blog/onboarding-kyc-process-flow/onboarding-kyc-process-flow-swimlane.svg "Onboarding KYC process flow as a two-lane swimlane flow chart: 9 customer screens above the bank's checks, ending at the first funded account")
 
@@ -53,7 +53,7 @@ Top lane: what the customer sees. Bottom lane: what the bank or partner bank che
 
 </details>
 
-I end the chart at the first funded account, not at "approved." An approved account with no first deposit has given the customer nothing to use yet, so the finish flag sits on step 8 and step 9 runs in the background.
+I end the chart at the first funded account, not at the "approved" screen. An approved account with no first deposit has given the customer nothing to use yet, so the finish flag sits on step 8 and step 9 runs in the background.
 
 People often ask for the five stages of onboarding. Read the 9 steps as apply (steps 1–3), verify (4–5), decide (6), open (7) and fund (8). The same two lanes work for neobank onboarding, brokerage account opening or card program onboarding; only the rules in the bottom lane change. The first 3 steps are where the customer types, so start with what the rules ask for.
 
@@ -84,21 +84,23 @@ Table: Identity form fields with the rule, step and reason line for each
 
 </details>
 
-The CIP notice comes first. The rule requires notice of the identity requirements before an account opens and offers sample text headed "Important Information About Procedures for Opening a New Account." I place it as a short, readable screen or an inline block on step 1, never as a buried link.
+The CIP notice comes first. The rule requires notice of the identity requirements before an account opens. It offers sample text headed "Important Information About Procedures for Opening a New Account" for that notice. I place it as a short, readable screen or an inline block on step 1, never as a buried link.
 
-Regulation DD account disclosures go out before the account opens, and [12 CFR 1030.4](https://www.consumerfinance.gov/rules-policy/regulations/1030/4/) gives an account opened online no later mailing window. Regulation DD lets those disclosures go out electronically only under the consent rules of the Electronic Signatures in Global and National Commerce (E-SIGN) Act. So E-SIGN Act consent gets its own consent screen in step 2, before the first disclosure is sent.
+Regulation DD (Truth in Savings) account disclosures go to the customer before the account opens, and [12 CFR 1030.4](https://www.consumerfinance.gov/rules-policy/regulations/1030/4/) gives an account opened online no later mailing window. Regulation DD lets those disclosures go out electronically only under the consumer consent rules of the Electronic Signatures in Global and National Commerce (E-SIGN) Act. So E-SIGN Act consent gets its own consent screen in step 2, before the first disclosure is sent.
 
-Easy fields go first and the photo identification (ID) document last, with a progress bar and save and resume between steps. Within one application, Web Content Accessibility Guidelines (WCAG) 2.2 success criterion (SC) 3.3.7 [Redundant Entry](https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry), a Level A criterion, expects the form to fill in or offer what the customer already entered in the same process. Its security exception covers re-asking for a value such as the SSN. The criterion does not reach a return visit in a later session, so save and resume is a product decision on top of it. Typed data is the quick part; the camera step needs more design care.
+Easy fields go first and the photo identification (ID) document last, with camera guidance at capture, save and resume between steps and a progress bar. Within one application, Web Content Accessibility Guidelines (WCAG) 2.2 success criterion (SC) 3.3.7 [Redundant Entry](https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html) expects the form to fill in or offer what the customer already entered.
+
+Redundant Entry is a Level A criterion, and it makes an exception when re-entry is required for security. A security re-check of a value such as the SSN can still ask again. The criterion does not reach a return visit in a later session, so save and resume is a product decision on top of it. Typed data is the quick part; the camera step needs more design care.
 
 ## Where do document capture and the selfie fit in the flow?
 
 **In an onboarding KYC process flow, document capture and a selfie or liveness check follow the typed details, and only when risk rules or the identity vendor call for them.**
 
-The identity rule allows documentary verification, such as an unexpired government photo ID, and non-documentary verification, such as checking details against a consumer reporting agency or a public database. Which method runs for which customer is a risk decision for compliance.
+The identity rule allows documentary verification, such as an unexpired government photo ID, and non-documentary verification, such as checking details against a consumer reporting agency or a public database. The bank's risk-based procedures decide which method runs for which customer, and compliance owns those procedures.
 
-Banks and vendors often cite the National Institute of Standards and Technology (NIST) digital identity guidelines, [NIST SP 800-63-4](https://csrc.nist.gov/pubs/sp/800/63/4/final), final in July 2025 and superseding SP 800-63-3. Its SP 800-63A-4 volume covers identity proofing, and identity assurance level 2 (IAL2) proofing can run remotely. Remote unattended proofing is fully automated, with no proofing agent, on devices the provider does not control. NIST writes for federal agencies, so treat it as the reference model, not a bank rule.
+The National Institute of Standards and Technology (NIST) publishes digital identity guidelines, [NIST SP 800-63-4](https://csrc.nist.gov/pubs/sp/800/63/4/final), final in July 2025 and superseding SP 800-63-3. Its SP 800-63A-4 volume covers identity proofing, and identity assurance level 2 (IAL2) proofing can run remotely. Remote unattended proofing is fully automated, with no proofing agent, on devices the provider does not control. NIST writes for federal agencies, so treat it as the reference model, not a bank rule.
 
-Revision 4 adds controls for injection attacks and forged media. That threat is why vendors add a selfie and liveness check, and why the screen explains it in one line: "We match your face to your ID so no one else can open an account in your name."
+Revision 4 adds controls for injection attacks and forged media. A selfie and liveness check is one control against that threat. When your flow includes it, the screen explains it in one line: "We match your face to your ID so no one else can open an account in your name."
 
 ![Annotated phone screen of an ID document capture step with 6 numbered callouts for frame guide, glare warning, retake, accepted ID types, a no-camera path and progress with save](/blog/onboarding-kyc-process-flow/onboarding-kyc-process-flow-id-capture.svg "Annotated ID document capture screen: 6 callouts from the frame guide to the no-camera path and save")
 
@@ -113,9 +115,9 @@ Revision 4 adds controls for injection attacks and forged media. That threat is 
 
 </details>
 
-Callout 5 is the accessibility line of the identity verification flow. Some people have no working camera and some cannot pass a face match, so compliance and the vendor choose the alternative and the design puts it on the capture screen, not in a help article.
+Callout 5 is the accessibility line of the identity verification flow. Some people have no working camera and some cannot pass a face match. Compliance and the vendor choose the alternative and the design puts it on the capture screen, not in a help article.
 
-Capture runs inside your vendor's software development kit (SDK), so the design works within what the identity verification vendor SDK lets you change. We don't pick the vendor or set risk rules. Once the data and images are in, the checks run and the flow splits.
+Capture runs inside your vendor's software development kit (SDK), so the design works within what the identity verification vendor SDK lets you change. Vendor choice and risk rules stay with your team, not with us. Once the data and images are in, the checks run and the flow splits.
 
 ## How does the KYC flow branch after the checks?
 
@@ -144,15 +146,15 @@ Table: KYC outcomes with headline, next action and rule owner
 
 The decline screen needs a next step too: a contact route and any notice your counsel requires. I keep the tone plain and leave out reasons unless counsel approves the wording.
 
-Does your current flow send every non-approval to one "Something went wrong" screen? That gap is the kind of work we take on: we redesign sign-up, setup and the review states so new users reach their first result, and we compare activation before and after. Manual review is the outcome most products leave as a blank screen.
+Does your current flow send every non-approval to one "Something went wrong" screen? That gap is the kind of work we take on. We redesign sign-up, setup and the review states so new users reach their first result, and we compare activation before and after. Manual review is the outcome I design most carefully, because the customer waits there with nothing to do.
 
 ## What should the customer see while KYC review is pending?
 
 **While KYC review is pending, the customer sees what is being checked, how long it usually takes from your own data, what happens next and how they will hear back.**
 
-Nothing they entered should be lost, and every message links to the verification status screen. Timing is a compliance question first: the identity rule does not demand that every check finish before the account opens, but it does expect verification within a reasonable time after the account is opened, under risk-based procedures.
+Nothing they entered should be lost, and every message links to the verification status screen. Timing is a compliance question first, set by the bank's risk-based procedures. The identity rule does not demand that every check finish before the account opens, but it does expect verification within a reasonable time after the account is opened.
 
-Whether your program opens an account before checks finish is for compliance and your partner bank to decide. If it does, the screen states the limits plainly, such as "Deposits are on hold until we finish checking your details." The tracker below keeps timing as placeholders, because the only honest numbers come from your own review queue.
+Whether your program opens an account before checks finish is for compliance and your partner bank to decide. If it does, the screen states the limits in plain copy ("Deposits are on hold until we finish checking your details"). The tracker below keeps timing as placeholders, because the only honest numbers come from your own review queue.
 
 The table pairs each pending status with the screen copy and the message that goes out.
 
@@ -167,7 +169,7 @@ Table: Pending status tracker with screen copy and notifications
 
 Status changes reach the customer by email, text message or push. Our guide to [automated onboarding emails](/blog/user-onboarding-automation/) covers when a message should come from a person instead.
 
-After approval come the disclosures, passkey setup and the funding screen. NIST's Revision 4 integrates syncable authenticators such as synced passkeys, and WCAG 2.2 SC 3.3.8 Accessible Authentication (Minimum), at Level AA, rules out a login that depends on recalling a password or retyping a code with no paste or password-manager option. None of these states shows up on the chart most banks already have.
+After approval come the disclosures, passkey setup and the funding screen. NIST's Revision 4 integrates syncable authenticators such as synced passkeys. WCAG 2.2 SC 3.3.8 Accessible Authentication (Minimum), at Level AA, rules out a login that depends on recalling a password or retyping a code with no paste or password-manager option. None of these states shows up on the chart most banks already have.
 
 ## What a banking client onboarding process flow chart misses
 
@@ -203,15 +205,15 @@ Disagreements show up where the lanes meet: a check with no screen above it, or 
 
 **The client onboarding KYC process flow for a business adds the legal entity's details and its beneficial owners, whom the bank verifies under the customer due diligence (CDD) rule.**
 
-The CDD rule, one of the Bank Secrecy Act (BSA) rules, has banks identify and verify the beneficial owners of legal entity customers. On February 13, 2026, the Financial Crimes Enforcement Network (FinCEN) issued [Order FIN-2026-R001](https://www.fincen.gov/system/files/2026-02/FinCEN-Order-CCDExceptiveRelief.pdf), "Exceptive Relief from Requirement to Identify and Verify Beneficial Owners at Each Account Opening."
+The CDD rule, one of the Bank Secrecy Act (BSA) rules, has banks identify and verify the beneficial owners of legal entity customers. On February 13, 2026, the Financial Crimes Enforcement Network (FinCEN) issued [Order FIN-2026-R001](https://www.fincen.gov/system/files/2026-02/FinCEN-Order-CCDExceptiveRelief.pdf), which grants relief from identifying and verifying beneficial owners at each account opening.
 
-Under that order, a bank can limit owner verification to 3 moments: the business's first account opening, cases where it has reason to doubt information it already holds and points its risk-based ongoing due diligence sets. For your flow, a returning limited liability company (LLC) opening a second account can confirm the owners on file instead of retyping them, if your bank adopts the relief. That is the bank's call, so design both paths.
+Under that order, a bank can limit owner verification to 3 moments. The 3 are the business's first account opening, cases where the bank has reason to doubt information it already holds and points its risk-based ongoing due diligence sets. For your flow, a returning limited liability company (LLC) opening a second account can confirm the owners on file instead of retyping them, if your bank adopts the relief. That is the bank's call, so design both paths.
 
-Business account onboarding, also called know your business (KYB), needs three patterns that a consumer flow never uses:
+Business account onboarding, also called know your business (KYB), needs three patterns built around its owners:
 
 - **Owner list:** each beneficial owner appears as a row with a status, so the applicant sees who is done.
-- **Owner invite:** each owner gets a link to finish their own identity step, because owners type their own SSN and capture their own ID.
-- **Pending tracker:** the beneficial owner form shows which person is still outstanding, so the application never stalls silently.
+- **Owner invite:** each owner gets a link to finish their own identity step, so owners can type their own SSN and capture their own ID when your bank's procedures ask for that.
+- **Owner reminders:** the beneficial owner form shows which owner is still outstanding and lets the applicant resend the invite, so the application never stalls silently.
 
 Whatever the account type, you only know the flow works if you log each step.
 
@@ -233,7 +235,9 @@ Table: KYC onboarding events and the metrics they feed
 | Pending | Review started and review decided, each with a timestamp. | Time in pending. |
 | Funding | First deposit posted. | Time to funded account. |
 
-I leave benchmark values out on purpose, because published abandonment rates come from vendor surveys with different methods. Your own baseline from the first 2 weeks of logging is the number to beat, compared before and after each change. Numbers show where people stop; the compliance review decides what you can change.
+I leave benchmark values out on purpose, because published abandonment rates come from vendor surveys with different methods. Your own baseline is the number to beat. Take the applications started in the first 2 weeks of logging and read them once each has had time to reach a decision and a first deposit. Then compare before and after each change.
+
+Numbers show where people stop; the compliance review decides what you can change.
 
 ## How do you turn the flow chart into signed-off screens?
 
@@ -248,9 +252,9 @@ I agree on ownership before the first wireframe:
 
 Compliance reads screens the way examiners read programs. The [Federal Financial Institutions Examination Council (FFIEC) BSA/AML Examination Manual](https://ncua.gov/newsroom/press-release/2021/federal-and-state-regulators-release-updates-bsaaml-examination-manual) updated its customer identification section in February 2021, and it guides examiners without setting new requirements.
 
-In our [fintech UX design](/industries/fintech/) work, annotated Figma files mark each regulated screen, such as the identity notice, consent and disclosures, so your compliance team and counsel can sign off on one file. To [redesign the sign-up and review screens with our team](/services/saas-products/saas-onboarding-design/#how-does-the-saas-onboarding-design-process-work), plan on 3 to 6 weeks across 4 steps, from funnel review to release and measurement.
+Before compliance review, I test the clickable prototype with new users, step-up, review and decline screens included, so the copy compliance signs is copy people understand. In our [fintech UX design](/industries/fintech/) work, one annotated Figma file flags every regulated screen, such as disclosures, consent and risk text. Your compliance team and counsel review and sign off on that one file. To [redesign the sign-up and review screens with our team](/services/saas-products/saas-onboarding-design/#how-does-the-saas-onboarding-design-process-work), plan on 3 to 6 weeks across 4 steps, from funnel review to release and measurement.
 
-I'd draw your own two-lane chart before anyone opens a design file, because every empty box in the top lane is a screen your customers will otherwise meet as a blank.
+I'd draw your own two-lane chart before anyone opens a design file, because each empty box in the top lane becomes a blank screen for your customers.
 
 ## FAQs
 
@@ -268,7 +272,7 @@ No, the federal identity rule itself does not require one, because it allows doc
 
 ### Can customers save a KYC application and finish it later?
 
-Yes, and the design should make that easy. Keep what they entered, as WCAG 2.2 SC 3.3.7 Redundant Entry expects. Re-ask only what security requires, such as a masked Social Security number, and send a link back to the exact step.
+Yes. Keep what they entered between visits as a product decision, because WCAG 2.2 SC 3.3.7 Redundant Entry covers re-entry only within one process, not a return in a later session. Send a link back to the exact step.
 
 ### Who decides the KYC rules, the designer or the compliance team?
 

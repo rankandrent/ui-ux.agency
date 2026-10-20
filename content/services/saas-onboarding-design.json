@@ -43,7 +43,7 @@
       "answer": "<strong>Our SaaS onboarding design covers 6 parts of the first-run experience:</strong>",
       "items": [
         { "title": "Sign-up.", "body": "Short forms, single sign-on and clear plan choices that do not block the first session." },
-        { "title": "Account setup.", "body": "Only the questions the product needs now; the rest moves to later." },
+        { "title": "Account setup.", "body": "Only the questions the product needs now; the rest moves to later. Fintech sign-ups add identity checks at this step; see <a href=\"/blog/onboarding-kyc-process-flow/#what-does-the-kyc-process-flow-collect-and-in-what-order\">how a KYC process flow orders them</a>." },
         { "title": "Team invites.", "body": "Invite flows timed for the moment a user has something worth sharing." },
         { "title": "Empty states.", "body": "Sample data, templates and one clear next action on every empty screen." },
         { "title": "Guided first task.", "body": "A checklist or short tour that leads to the first real result." },
