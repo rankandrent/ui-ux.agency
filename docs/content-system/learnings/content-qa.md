@@ -102,3 +102,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 
 - 2026-10-19 (chatbot-design): Check the fact-checker's replacement text for banned hub phrases before merging; rerun the hub-phrase grep on the merged copy.
 - 2026-10-19: Walk each "No" exit of a decision flow through every later gate (a guided bot with no person could never pass the handoff gate).
+
+- 2026-10-20 (onboarding-kyc-process-flow): semantic-score.mjs strips a mid-name parenthetical with its spaces ("Regulation DDaccount disclosures"), and EAV values with citation numbers pass only when every number appears. Run each missing attribute through the scorer's logic before prescribing fixes; report unreachable ones as a brief issue.
+- 2026-10-20: Run the 8-gram check against content/industries/*.json and the hub JSON on the combined QA + fact-check copy, and paraphrase fact-check text taken from a site file.
+- 2026-10-20: The scorer splits sentences only at punctuation + space + capital, so `."` followed by text, lists, non-question H2s and Table: captions count as long sentences; fix real run-ons and report the rest as scorer artefacts.

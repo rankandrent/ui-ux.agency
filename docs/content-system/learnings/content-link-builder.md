@@ -62,3 +62,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-19: When over the 5-external cap with several W3C pages, keep the one that carries a number (4.5:1) and cite the other success criterion by name; use the WCAG22 Understanding path when the post frames WCAG 2.2.
 - 2026-10-19: Read each backlink old→new string as a full sentence and rewrite repeated words before handing it back.
 - 2026-10-19: When you drop an external link to save the link budget, either keep the URL or stop naming the source; a named source without a link fails QA.
+
+- 2026-10-20 (onboarding-kyc-process-flow): For agency tools and survey reports, cite the FAQ or press release whose snippet states the claim (OFAC /faqs/246, FDIC press release) and keep the anchor naming the tool or survey.
+- 2026-10-20: When linking a WCAG criterion, check its scope notes (same process, same session) and limit the linked sentence to that scope; flag unlinked copies to the fact-checker.
+- 2026-10-20: For CFR sections with parallel rules in other parts, confirm wording against the exact part and section cited (bank CIP 1020.220 says "after", not "before or after").

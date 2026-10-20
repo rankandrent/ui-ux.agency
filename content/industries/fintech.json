@@ -84,7 +84,7 @@
   "solutions": [
     {
       "title": "KYC and account opening",
-      "body": "To cut KYC drop-off, we put easy fields first and the ID document last, with a progress bar, save-and-resume, camera guidance for document capture and a \"we're reviewing\" state with expected timing. Screens follow your identity vendor's software development kit (SDK); we don't pick the vendor or set risk rules. See <a href=\"/services/saas-products/saas-onboarding-design/\">SaaS onboarding design</a>."
+      "body": "To cut KYC drop-off, we put easy fields first and the ID document last, with a progress bar, save-and-resume, camera guidance for document capture and a \"we're reviewing\" state with expected timing. Screens follow your identity vendor's software development kit (SDK); we don't pick the vendor or set risk rules. See <a href=\"/services/saas-products/saas-onboarding-design/\">SaaS onboarding design</a>, or walk through the 9 steps of our <a href=\"/blog/onboarding-kyc-process-flow/\">KYC onboarding process flow chart</a>."
     },
     {
       "title": "Payments, transfers and payouts",

@@ -91,3 +91,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-19 (chatbot-design): When an audit says to leave a keyword to the hub but the orchestrator assigns it, compare Ahrefs parent topics first; if they differ, both pages can coexist — record it and protect the hub with a phrase ban, a hub→post link and a post-publish monitor.
 - 2026-10-19: Before setting a new silo's funnel stage, grep content/case-studies for the hub's entity; if nothing matches, the MOFU template CTA will show an off-topic client, so prefer TOFU or BOFU and say why.
 - 2026-10-19: When an audit flags site-wide repetition, add an audit_<date>_rules line to fingerprintCheck that passes or fails each flagged pattern, so QA can check them directly.
+
+- 2026-10-20 (onboarding-kyc-process-flow): Re-read the exact warehouse row for every keyword named in the task; orchestrator figures can be cluster sums. Record the corrected figure in rejectedCandidates or dataSource.
+- 2026-10-20: When a cluster's top-scoring keyword barely passes the relevance gate, take the sibling with higher measured volume and buyer intent as primary; keep the high-TP one as a secondary with its own H2 and record the swap in primaryChoice.
+- 2026-10-20: The on-page script ignores keyword words of 3 letters or fewer ("KYC"); count keyword-share H2s word by word before writing the salience note.

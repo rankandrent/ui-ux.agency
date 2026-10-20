@@ -106,3 +106,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-19 (chatbot-design): For panels with a top bubble and a bottom-pinned button, row height is the largest per-panel bubble+button total (not tallest bubble + tallest button); a per-row width search with a minimum panel width fits 7 panels in 2 rows at 26px.
 - 2026-10-19: When transcript markers run in a different order from scorecard rows, match them with icons instead of crossing connector lines; rotate a scorecard (fields as rows) to fit 3 tasks × 6 fields.
 - 2026-10-19: When image lines already sit under the markers, tell the orchestrator to delete the markers instead of swapping, or images appear twice.
+
+- 2026-10-20 (onboarding-kyc-process-flow): Before drawing, measure the full panel text in the best layout; if it is over the canvas, keep the post's lane direction and draw exact panel substrings (assert label in panel item), then tell the orchestrator which panel parts the image omits.
+- 2026-10-20: Run a separate panel ⊇ image check (join wrapped <text> lines, match against the panel) next to the image ⊇ panel check; it catches node labels like "AUTOMATED CHECKS".
+- 2026-10-20: When an outcome node label collides with column headers, draw it as a full-height vertical bar with rotated text and arrows into each card.

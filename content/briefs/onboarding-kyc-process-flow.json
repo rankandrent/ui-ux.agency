@@ -1,0 +1,479 @@
+{
+  "slug": "onboarding-kyc-process-flow",
+  "keyword": "onboarding kyc process flow",
+  "secondary": [
+    "banking client onboarding process flow chart",
+    "kyc onboarding process flow chart",
+    "bank customer onboarding process flow",
+    "client onboarding kyc process flow"
+  ],
+  "metaKeywordVariants": ["kyc onboarding flow", "digital account opening flow", "kyc process flow chart", "digital customer onboarding", "identity verification flow"],
+  "intent": "Informational, process how-to with some commercial investigation (Ahrefs intents for 'onboarding kyc process flow': informational + commercial). Searchers: (a) fintech, neobank, brokerage and banking-as-a-service product teams designing a digital account-opening flow with identity checks, and (b) bank operations/compliance staff documenting an internal process. Page 1 for the KYC query (WebSearch 2026-10-20) is identity-vendor guides (seon.io, idenfy, zyphe, mozn, srmtech), Oracle product docs and a workflow vendor; all describe the CHECKS (collect data, validate, screen, risk-score, approve/escalate) and none show the customer's SCREENS, wait states or failure paths. Page 1 for the banking chart query (Ahrefs SERP 2026-10-19) mixes the same angle (fenergo, docbyte, signicat, moodys, ncino) with internal-process templates (slideteam PPT, rocketlane CS process; WebSearch adds process.st and coordinatehq templates). RELEVANCE GATE: PASS with a product framing. The SERP is not purely internal SOP charts: fenergo, docbyte and signicat frame digital customer onboarding around abandonment and friction, and a design-agency layer already exists one query away (theskinsfactory 'fintech onboarding UX design' and 'KYC onboarding drop-off', shuftipro 'reduce KYC drop-off UX fixes'). We write the product team's version: the same flow chart with a customer-screen lane above the check lane.",
+  "volume": 50,
+  "kd": 0,
+  "trafficPotential": 400,
+  "cpc": null,
+  "parentTopic": "kyc onboarding",
+  "clusterVolume": 170,
+  "clusterVolumeNote": "Primary + secondaries with measured rows: 50 + 30 + 40 + 30 + 20 = 170. Do not present it as the page's volume. The orchestrator's '230' for 'client onboarding process flow chart' is the blog-opportunities sumVolume of 2 rows (150 + 80 'onboarding flow chart'); that keyword is rejected here (see rejectedCandidates).",
+  "dataSource": "Ahrefs US, raw rows in docs/content-system/warehouse/2026-10-19-terms-onboarding-flow.json (pulled 2026-10-19): 'onboarding kyc process flow' 50 / KD 0 / CPC null / parent 'kyc onboarding' / TP 400 / intents informational + commercial; 'banking client onboarding process flow chart' 30 / KD 1 / CPC 350 cents / parent 'digital customer onboarding' / TP 1,100; 'kyc onboarding process flow chart' 40 / KD 0 / TP 10 (own parent); 'bank customer onboarding process flow' 30 / KD null; 'client onboarding kyc process flow' 20 / KD null. SERP for the banking query: docs/content-system/warehouse/2026-10-19-serp-banking-client-onboarding-process-flow-chart.json. No warehouse SERP file for the KYC query; its page 1 comes from WebSearch on 2026-10-20. Semrush called once on 2026-10-20: no_api_units. No GSC export (docs/data/gsc/latest.json missing). AHREFS_API_KEY could not be used: this run had no shell (Read/Write/Grep/WebSearch/WebFetch only), so no live Ahrefs call; the warehouse file is the Ahrefs pull of 2026-10-19. DEVIATION from the 2026-10-12 owner rule (Semrush or GSC): measured Ahrefs volume used, as accepted in every saas-onboarding-design and chatbot-design precedent. 'kyc onboarding' (the parent topic) and 'digital customer onboarding' have NO row in any warehouse file, so they are lexical variants only, with no volume claimed. WebFetch returned ENOTFOUND for docbyte.com, resources.fenergo.com and uiuxdesignservices.us; competitor coverage comes from search snippets.",
+  "dataSourceDate": "2026-10-20",
+  "primaryChoice": "Swapped the orchestrator's main 'banking client onboarding process flow chart' (30, KD 1, TP 1,100) for its sibling 'onboarding kyc process flow' (50, KD 0, TP 400) as the primary, and kept the banking phrase as the lead secondary with its own H2. Reasons: (1) higher measured volume and the only cluster row Ahrefs flags as commercial; (2) the relevance gate: 'banking client onboarding' in Google's eyes leans to institutional/back-office process (slideteam PPT, process.st corporate-banking template, coordinatehq, rocketlane CS process), while the KYC query returns pages about the customer-facing identity flow, which is where a product team buys design; (3) lesson 2026-10-18: prefer the sibling with equal or higher volume. Trade-off: the banking row's TP 1,100 belongs to its parent 'digital customer onboarding'; the post still targets that parent through the H2 'What does a banking client onboarding process flow chart leave out?', the lexical variant 'digital customer onboarding' and the swimlane chart, so the TP upside is kept as a secondary bet. If the orchestrator insists on the banking phrase as primary, swap keyword and the first secondary, keep the outline, and change the title to 'Banking client onboarding process flow chart, with every screen' (60 chars).",
+  "score": 78.1,
+  "scoreNote": "Opportunity score of the 'kyc onboarding' entry. The ledger job used the 'digital customer onboarding' entry (96.8, expectedMonthlyTraffic 330); this brief serves both entries.",
+  "expectedMonthlyTraffic": 120,
+  "opportunity": "docs/content-system/blog-opportunities.json: topic 'digital customer onboarding' (main 'banking client onboarding process flow chart', score 96.8, expectedMonthlyTraffic 330, format 'step-by-step guide (ordered steps + worked example)', serp.avgDr 71, weakResults 3, ui-ux.agency position 100) and topic 'kyc onboarding' (main 'onboarding kyc process flow', score 78.1, expectedMonthlyTraffic 120, same format). Ledger run 2026-10-20 job: 'banking client onboarding process flow chart (cluster: kyc / client onboarding process flow)', angle 'digital account-opening and KYC flow for fintech product teams'.",
+  "hub": "saas-onboarding-design",
+  "hubUrl": "/services/saas-products/saas-onboarding-design/",
+  "hubUrlVerified": "content/services/saas-onboarding-design.json (category 'SaaS products'); same URL linked from content/industries/fintech.json line 87 and content/blog/saas-onboarding.md line 48; pillar slug 'saas-products' at content/pillars.ts line 108.",
+  "pillar": "saas-products",
+  "services": ["saas-onboarding-design"],
+  "industries": ["fintech"],
+  "author": "ahmad-ullah",
+  "authorWhy": "Ahmad Ullah is Principal UX Designer (content/home.ts line 203; content/authors.json bio empty). A regulated, branching flow with four outcomes, wait states and a compliance sign-off is senior flow-architecture work, which fits the most senior UX role. Rotation: last used on product-discovery (2026-10-15), 4 posts ago. Rejected: Saliha Shahzad (chatbot-design, yesterday), Sahar Asif (how-to-design-an-mvp, 2026-10-18), Shahmir Farooq (saas-homepage-design, 2026-10-17; communication design fits less), Faizan Khan and Talha Saleem (already wrote this silo's two posts; a third byline in one silo spreads authorship).",
+  "funnel": "tofu",
+  "funnelWhy": "Silo count (published, frontmatter): saas-onboarding = mofu, user-onboarding-automation = mofu. So TOFU 0% (target 50), MOFU 100% (target 30), BOFU 0% (target 20). TOFU is furthest below target (-50 vs BOFU -20). The SERP agrees: vendor process explainers and templates, no cost, pricing or agency pages, so TOFU (lesson 2026-10-06). TOFU minimum service-support is 3; this topic scores 3 (see serviceSupportWhy). Next post in this silo: BOFU (the hub owns cost, parts, process, tours-vs-tasks, mistakes and 4 FAQs; test 'onboarding audit' / 'onboarding redesign rfp' style buyer queries) or the audit's MOFU 'user onboarding metrics'.",
+  "serviceSupport": 3,
+  "serviceSupportWhy": "A fintech product team charting its KYC account-opening flow is planning work our SaaS onboarding design service and the fintech page's 'KYC and account opening' solution sell (sign-up, setup, save-and-resume, review states, first funded account). Not a 4: a large share of searchers for the chart phrasings are bank operations and compliance analysts documenting internal procedures, who never buy product design. The post filters for the buyer by drawing the customer-screen lane and by saying plainly that compliance owns the rules.",
+  "title": "Onboarding KYC process flow: a flow chart for digital account opening",
+  "metaTitle": "Onboarding KYC Process Flow: A Flow Chart, Screen by Screen",
+  "metaDescription": "Onboarding KYC process flow for fintech product teams: chart all 9 steps from sign-up to funded account, with the pending, retry and manual review screens.",
+  "centralEntity": "onboarding KYC process flow",
+  "sourceContext": "ui-ux.agency (the design team of tkxel, Reston, VA, since 2017, 200+ products designed) writes as the product design team that draws and designs the customer side of digital account opening for US fintech SaaS, neobank and banking-as-a-service products. We design the screens, states and copy; the client's compliance team, BSA officer, partner bank and identity vendor own the rules, risk scoring and vendor choice. The post gives a product team the full flow chart and the design decisions at each step, without legal advice and without restating the hub's package, process, tours-vs-tasks table, mistakes or price.",
+  "entities": [
+    "know your customer (KYC)",
+    "Customer Identification Program (CIP)",
+    "Financial Crimes Enforcement Network (FinCEN)",
+    "Bank Secrecy Act (BSA)",
+    "customer due diligence (CDD)",
+    "beneficial owners",
+    "enhanced due diligence (EDD)",
+    "Office of Foreign Assets Control (OFAC) sanctions screening",
+    "FFIEC BSA/AML Examination Manual",
+    "NIST SP 800-63-4 (SP 800-63A-4 identity proofing)",
+    "identity assurance level (IAL2)",
+    "document capture",
+    "selfie and liveness check",
+    "identity verification vendor SDK",
+    "manual review",
+    "Regulation DD (Truth in Savings) account disclosures",
+    "E-SIGN Act consent",
+    "WCAG 2.2 (SC 3.3.7 Redundant Entry, SC 3.3.8 Accessible Authentication)",
+    "passkeys",
+    "partner bank (banking-as-a-service)",
+    "first deposit / funded account",
+    "swimlane flow chart",
+    "FDIC"
+  ],
+  "attributes": [
+    "number of steps from sign-up to funded account (9 in our chart)",
+    "data collected and why (the four CIP data points)",
+    "order of fields (easy first, ID document last)",
+    "verification method (documentary vs non-documentary)",
+    "outcomes after the checks (approve, step-up, manual review, decline)",
+    "review timing and the pending state",
+    "save-and-resume behavior",
+    "disclosure and consent timing (before the account opens)",
+    "business-account variant (beneficial owners)",
+    "accessibility level (WCAG 2.2 AA)",
+    "measurement (step completion, manual review rate, time to funded account)",
+    "ownership split (compliance, vendor, design)"
+  ],
+  "ngrams": [
+    "onboarding kyc process flow",
+    "kyc process flow",
+    "kyc onboarding process flow chart",
+    "banking client onboarding process flow chart",
+    "bank customer onboarding process flow",
+    "client onboarding kyc process flow",
+    "digital customer onboarding",
+    "account opening",
+    "identity verification",
+    "customer identification program",
+    "document capture",
+    "manual review",
+    "save and resume",
+    "beneficial owners",
+    "sanctions screening",
+    "funded account",
+    "compliance team"
+  ],
+  "eav": [
+    { "attribute": "CIP minimum data (root)", "value": "name, date of birth, address and an identification number (for a US person, a taxpayer identification number) before the account is opened", "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.220 (31 CFR 1020.220(a)(2)(i)); also stated on content/industries/fintech.json challenge 'Identity checks sit inside sign-up'. Fact-checker: confirm the TIN wording on eCFR." },
+    { "attribute": "CIP program basis", "value": "a written, risk-based CIP that sits inside the bank's anti-money laundering (AML) program and reflects the methods of opening accounts the bank offers", "source": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.220 ; https://www.law.cornell.edu/cfr/text/31/1020.220" },
+    { "attribute": "verification timing", "value": "identity is verified within a reasonable time before or after the account is opened, to the extent reasonable and practicable", "source": "31 CFR 1020.220(a)(2)(ii) via the eCFR URL above. VERIFY: wording seen only in secondary summaries this run; if the eCFR text differs, use its exact wording or drop the 'after' half." },
+    { "attribute": "verification methods", "value": "documentary (an unexpired government photo ID) and non-documentary (checking data against a consumer reporting agency or public database), chosen by the bank's risk-based procedures", "source": "31 CFR 1020.220(a)(2)(ii)(A)–(B) via eCFR. VERIFY wording; the 2002 proposed rule (fincen.gov) confirms non-documentary methods for accounts opened online." },
+    { "attribute": "CIP notice", "value": "customers must be able to view a notice of the identification requirements before opening an account; the rule offers sample text headed 'Important Information About Procedures for Opening a New Account', and a website notice or application language qualifies", "source": "31 CFR 1020.220(a)(5) via eCFR (search snippets quote (a)(5)(i)–(iii))" },
+    { "attribute": "examiner view", "value": "the FFIEC BSA/AML Examination Manual's CIP section (updated February 2021) tells examiners how to assess a bank's CIP; the manual instructs examiners and does not itself set requirements", "source": "https://ncua.gov/newsroom/press-release/2021/federal-and-state-regulators-release-updates-bsaaml-examination-manual ; FDIC copy of the section: https://www.fdic.gov/news/financial-institution-letters/2021/fil21012b.pdf" },
+    { "attribute": "account disclosures timing", "value": "Truth in Savings account disclosures go to the customer before the account is opened or a service is provided, whichever is earlier; for an account opened online they must be delivered before opening", "source": "https://www.consumerfinance.gov/rules-policy/regulations/1030/4/ (12 CFR 1030.4)" },
+    { "attribute": "electronic disclosures consent", "value": "Regulation DD disclosures may be delivered electronically subject to the E-SIGN Act's consumer consent provisions (15 U.S.C. 7001 et seq.)", "source": "https://www.consumerfinance.gov/rules-policy/regulations/1030/3/ (12 CFR 1030.3)" },
+    { "attribute": "sanctions screening match", "value": "OFAC's Sanctions List Search uses fuzzy name matching with a confidence slider, and OFAC gives no recommended threshold; the free tool is for individual lookups, not automated screening, and does not replace due diligence", "source": "https://ofac.treasury.gov/sanctions-list-search-tool ; https://ofac.treasury.gov/faqs/287" },
+    { "attribute": "business accounts: beneficial owners", "value": "for legal entity customers, banks identify and verify beneficial owners under the CDD rule (31 CFR 1010.230); since FinCEN's order of February 13, 2026 (FIN-2026-R001) this is required only when the entity first opens an account, when facts call earlier information into question, or as the bank's risk-based ongoing due diligence requires", "source": "https://www.fincen.gov/system/files/2026-02/FinCEN-Order-CCDExceptiveRelief.pdf" },
+    { "attribute": "identity proofing standard", "value": "NIST SP 800-63-4, final in July 2025, supersedes SP 800-63-3 and splits into 63-4, 63A-4 (identity proofing and enrollment), 63B-4 (authentication) and 63C-4 (federation)", "source": "https://csrc.nist.gov/pubs/sp/800/63/4/final" },
+    { "attribute": "remote proofing", "value": "IAL2 identity proofing can be performed remotely or on-site; 'remote unattended' proofing is fully automated with no proofing agent, on devices the provider does not control", "source": "https://pages.nist.gov/800-63-4/sp800-63a/introduction ; https://pages.nist.gov/800-63-4/sp800-63a/proofing/ . NIST guidance is written for federal agencies; present it as the reference model banks and vendors cite, not as a bank rule." },
+    { "attribute": "forged media", "value": "Revision 4 adds controls for injection attacks and forged media such as deepfakes, and integrates syncable authenticators (synced passkeys)", "source": "https://pages.nist.gov/800-63-4-Implementation-Resources/" },
+    { "attribute": "save and resume (accessibility)", "value": "WCAG 2.2 SC 3.3.7 Redundant Entry (Level A): information the user already entered in the same process is auto-populated or selectable, except when re-entry is essential, needed for security, or no longer valid", "source": "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html" },
+    { "attribute": "account login (accessibility)", "value": "WCAG 2.2 SC 3.3.8 Accessible Authentication (Minimum), Level AA: no step demands recalling a password or transcribing a code unless paste, a password manager or another alternative works", "source": "content/industries/fintech.json challenge 'Login is an accessibility test too' (link the fintech page; no W3C URL for 3.3.8 appeared in this run's searches)" },
+    { "attribute": "mobile context (US)", "value": "48.3% of banked US households used mobile banking as their primary access method in 2023", "source": "https://fdic.gov/household-survey/2023-fdic-national-survey-unbanked-and-underbanked-households-report (denominator is BANKED households, not all households)" },
+    { "attribute": "our field order (rare)", "value": "easy fields first and the ID document last, with a progress bar, save-and-resume, camera guidance for document capture and a 'we're reviewing' state with expected timing", "source": "content/industries/fintech.json solution 'KYC and account opening'" },
+    { "attribute": "ownership split (rare)", "value": "screens follow the identity vendor's SDK; the design team does not pick the vendor or set risk rules; compliance, counsel and auditors decide compliance", "source": "content/industries/fintech.json (KYC solution + FAQ 'Can UX design make a fintech product compliant on its own?')" },
+    { "attribute": "timeline with a team (rare)", "value": "SaaS onboarding design runs in 4 steps over 3 to 6 weeks: funnel review, user interviews, redesign and prototype, release and measure", "source": "content/services/saas-onboarding-design.json (link the process section; do not rebuild it)" },
+    { "attribute": "two-lane chart (unique)", "value": "one flow chart with the customer's screens in the top lane and the bank's checks in the bottom lane, so every check has a visible screen state above it (waiting, retry, review, decline)", "source": "ui-ux.agency method; SERP gap: every ranking chart draws only the check lane" },
+    { "attribute": "finish line (unique)", "value": "the KYC flow ends at the first funded account, not at 'approved', because an approved account with no deposit has not reached first value", "source": "ui-ux.agency method; ties to the activation-event rule in /blog/saas-onboarding/#where-does-saas-onboarding-end and the fintech page CTA 'before the first deposit'" }
+  ],
+  "skipgrams": [
+    ["identity", "verification"],
+    ["document", "capture"],
+    ["manual", "review"],
+    ["pending", "status"],
+    ["CIP", "notice"],
+    ["beneficial", "owners"],
+    ["sanctions", "screening"],
+    ["save", "resume"],
+    ["first", "deposit"],
+    ["flow chart", "screens"],
+    ["disclosures", "before"],
+    ["compliance team", "sign off"],
+    ["selfie", "liveness"],
+    ["decline", "next step"]
+  ],
+  "lexical": {
+    "synonyms": ["KYC onboarding flow", "KYC process flow", "digital account opening flow", "identity verification flow", "KYC onboarding workflow"],
+    "hypernyms": ["digital customer onboarding", "user onboarding", "fintech UX design", "account opening", "compliance workflow"],
+    "hyponyms": ["consumer checking account opening", "business account onboarding (KYB)", "neobank onboarding", "brokerage account opening", "earned wage access wallet sign-up", "card program onboarding"],
+    "meronyms": ["CIP notice", "consent screen", "identity form", "SSN field", "document capture screen", "selfie and liveness step", "verification status screen", "manual review queue", "decline screen", "funding screen", "passkey setup", "beneficial owner form"]
+  },
+  "keywordCarrier": {
+    "primary": "Bare noun string in odd order; always carry it with an article or a determiner: 'an onboarding KYC process flow', 'the onboarding KYC process flow', 'your onboarding KYC process flow'. Never stack a noun after it ('onboarding KYC process flow chart/screen/design' is BANNED; write 'the chart of your onboarding KYC process flow'). First sentence (Ahmad's voice, within the first 60 words): 'When I chart an onboarding KYC process flow, I put the customer's screens on top and the bank's checks underneath, on one page.' H1 opens with 'Onboarding KYC process flow:'. Required in: metaTitle (first words), description (first words), first meta keyword, H1, first 60 words.",
+    "density": "Word share as QA measures it: max uses = 0.02 × body words ÷ 4. For 2,300–2,600 body words that is at most 11–13 exact uses; aim for 8–10. Vary with 'KYC process flow', 'the flow', 'account opening' and the lexical relations. Alt text does not count.",
+    "secondary": {
+      "banking client onboarding process flow chart": "Carrier with an article as a subject or object: 'A banking client onboarding process flow chart usually stops at the bank's checks.' Used in the H2 'What does a banking client onboarding process flow chart leave out?' and the first sentence under it. Never followed by another noun.",
+      "kyc onboarding process flow chart": "'The KYC onboarding process flow chart below…' once in the first H2's intro sentence, once in the FAQ 'What are the steps involved in the bank client onboarding process?'",
+      "bank customer onboarding process flow": "'In a bank customer onboarding process flow for a consumer checking account, …' once, in the data-collection section.",
+      "client onboarding kyc process flow": "Carried in the H2 'How does the client onboarding KYC process flow change for business accounts?' and its first sentence ('The client onboarding KYC process flow for a business adds…')."
+    },
+    "metaTitle": "Onboarding KYC Process Flow: A Flow Chart, Screen by Screen (59 chars)",
+    "h1": "Onboarding KYC process flow: a flow chart for digital account opening (69 chars)",
+    "description": "Use as written (155 chars, keyword first, TOFU payoff ending, no apostrophe, no consultation CTA per audit 2026-10-19): 'Onboarding KYC process flow for fintech product teams: chart all 9 steps from sign-up to funded account, with the pending, retry and manual review screens.' Subject check: the reader charts; 'the pending, retry and manual review screens' belong to the 9 steps.",
+    "metaKeywords": ["onboarding kyc process flow", "kyc onboarding process flow chart", "banking client onboarding process flow chart", "bank customer onboarding process flow", "client onboarding kyc process flow", "digital customer onboarding"],
+    "hubAnchorBan": "Never use 'SaaS onboarding design' as a keyword phrase in the title, H1, metaTitle, description, any H2/H3 or alt text; it appears only as link anchor text to the hub (at most twice). Never use 'fintech UX design', 'KYC onboarding UX', 'banking UX design', 'fintech app design' (fintech industry page keywords) or 'finance UI UX design' / 'fintech UI UX design' (fintech page + probable sister-site industries/finance terms) as phrases in title, H1, meta or headings; 'fintech UX design' may appear once as anchor text to /industries/fintech/. Never write 'saas onboarding' as a phrase (owned by /blog/saas-onboarding/) or 'user onboarding automation' (owned by the sibling)."
+  },
+  "questions": [
+    "What are the steps involved in the bank client onboarding process? (PAA, warehouse SERP)",
+    "What are the different stages of client onboarding? (PAA)",
+    "What are the 5 stages of the onboarding process? (PAA; answer by mapping our 9 steps to 5 stages, do not adopt a third-party 5-stage model)",
+    "What does the KYC process flow look like?",
+    "Which details does a US bank need to open an account?",
+    "Can a bank open the account before identity is verified?",
+    "Does a KYC flow need a selfie or liveness check?",
+    "What should the customer see while KYC is under manual review?",
+    "How is KYC onboarding different for a business account?",
+    "Can customers save a KYC application and finish it later?",
+    "Who decides the KYC rules: compliance, the vendor or the designer?",
+    "What is the difference between KYC and CIP?"
+  ],
+  "serpGaps": [
+    "Every ranking chart draws only the check lane (collect → validate → screen → risk-score → approve/escalate: seon, idenfy, zyphe, mozn, oracle). None draws the screens the customer sees above each check. Our signature visual is a two-lane swimlane: screens on top, checks below.",
+    "Wait and failure states are missing: no ranking page designs the pending state, the step-up request, the retry after a blurry ID, or the decline screen. We give each of the 4 outcomes its headline, next action and timing source.",
+    "US frame is thin or absent: the vendor guides are global (EU/UK AMLD, generic 'jurisdiction varies'). We tie each step to the US rule that creates it: CIP's four data points and notice (31 CFR 1020.220), Regulation DD disclosure timing and E-SIGN consent, OFAC screening, the CDD beneficial-owner rule and FinCEN's February 13, 2026 relief, NIST SP 800-63A-4.",
+    "No page says who owns what: we split decisions between compliance/partner bank, identity vendor and design, which is the honest scope of a design engagement.",
+    "Back-office charts (slideteam, process.st, coordinatehq, rocketlane) end at 'account created'. Our chart ends at the first funded account, the fintech activation event.",
+    "Business accounts are lumped in with consumers. We give the client onboarding KYC process flow for a legal entity its own section with the 2026 beneficial-owner relief as a concrete UX change (do not re-ask owners when an existing business opens a second account, if compliance confirms).",
+    "Accessibility is absent from every ranking page: save-and-resume under WCAG 2.2 SC 3.3.7, a non-camera alternative path for document capture, and accessible login under SC 3.3.8.",
+    "Measurement stops at 'reduce abandonment' with vendor statistics. We name the events to log per step (no invented benchmarks)."
+  ],
+  "contentModules": {
+    "title": "Onboarding KYC process flow: a flow chart for digital account opening",
+    "subtitle": "The 9 steps from sign-up to a funded account, drawn as two lanes: the screens your customer sees and the checks your bank or partner bank runs, with the waiting, retry, review and decline states most charts leave out.",
+    "intro": "Rule-to-screen translation opener (see variety.introStyle): first sentence carries the keyword in Ahmad's voice (keywordCarrier.primary). Second and third sentences translate one US rule into interface: the CIP's four data points become four fields, one notice and at least one wait the customer can see. One sentence on why it matters for a product team (FDIC 48.3% of banked households bank on mobile first). One sentence scoping the post: this is the customer side; compliance owns the rules. First UP link to the hub inside the first 300 words (anchor 'SaaS onboarding design'). No blockquote, no hypothetical-company story in the intro, no question opener, no definition sentence as the first line.",
+    "dataModules": [
+      { "type": "two-lane swimlane flow chart (image + astext ol)", "h2": "H2 1", "what": "9 numbered steps; top lane = screen names, bottom lane = checks; one decision diamond at step 5 with 4 exits; finish flag at 'first funded account'." },
+      { "type": "field → rule → reason card (image + astext table)", "h2": "H2 2", "what": "Rows: legal name, date of birth, residential address, SSN/TIN, email/phone, consent to e-disclosures. Columns: rule that asks for it | where in the flow | the one-line reason shown to the user." },
+      { "type": "annotated capture screen (image + astext ul)", "h2": "H2 3", "what": "Phone frame of an ID capture step with 6 callouts: frame guide, glare/blur warning, retake, which ID types work, 'no camera? use another way' path, progress and save." },
+      { "type": "outcome map (image + astext table)", "h2": "H2 4", "what": "4 outcomes (approved, step-up, manual review, declined): screen headline | what the customer can do next | who sets the timing/copy (compliance/vendor/product)." },
+      { "type": "status tracker states (text table)", "h2": "H2 5", "what": "Pending-state copy and notifications by elapsed time; timing values come from the team's own vendor/ops data, written as placeholders like '[your median review time]'." },
+      { "type": "ops chart vs product chart split (image + astext table)", "h2": "H2 6", "what": "Left: what a back-office chart shows (checks, approvals, systems). Right: what the product chart adds (screens, states, exits, re-entry, analytics events, disclosures)." },
+      { "type": "event-to-metric list (text table)", "h2": "H2 8", "what": "Step | event to log | metric it feeds (step completion, ID retry rate, manual review rate, time in pending, time to funded account). No benchmark values." }
+    ]
+  },
+  "outline": [
+    {
+      "h2": "How does an onboarding KYC process flow run, end to end?",
+      "answerHint": "**An onboarding KYC process flow runs in 9 steps, from the first screen to a funded account: notice and eligibility, contact and consent, identity details, document and selfie capture, automated checks, an outcome, credentials, funding and ongoing monitoring.** (Chart-first H2; not a definition.)",
+      "points": [
+        "One sentence introduces the KYC onboarding process flow chart below (secondary carrier), then the swimlane image (visual 1) + astext ol of the 9 steps with lane labels.",
+        "Explain the two lanes in 2–3 sentences: every check in the bottom lane needs a visible state in the top lane.",
+        "Name the finish line: first funded account (eav 'finish line'); approval alone is not first value.",
+        "Map the PAA '5 stages' question here in one sentence (apply, verify, decide, open, fund) as a reading aid; do not adopt any vendor's 5-stage model.",
+        "Bridge: 'The first four steps are where the customer types; start with what the rules ask for.'"
+      ]
+    },
+    {
+      "h2": "Which details does the KYC process flow collect, and in what order?",
+      "answerHint": "**A US KYC process flow collects at least name, date of birth, address and an identification number such as a Social Security number, and I order the screens easy first and ID document last.**",
+      "points": [
+        "CIP four data points (eav 1) and that the bank's written, risk-based CIP decides the rest (eav 2). 'bank customer onboarding process flow' carrier sentence here.",
+        "Field → rule → reason card (visual 2 + astext table).",
+        "CIP notice before opening (eav 5): design it as a short, readable screen or an inline line on the application, not a buried link.",
+        "Regulation DD disclosures before opening and E-SIGN consent for electronic delivery (eav 7–8): place consent before the first disclosure is sent.",
+        "Easy-first order and save-and-resume (eav 'our field order'); WCAG 2.2 SC 3.3.7 Redundant Entry for a resumed application (eav 14). Note the security exception (the SSN field may be masked and not re-shown).",
+        "Expand abbreviations on first use: Customer Identification Program (CIP), Social Security number (SSN), taxpayer identification number (TIN).",
+        "Bridge: 'Typed data is the cheap part. The camera step is where most products lose people (say it as method, not as a statistic).'"
+      ]
+    },
+    {
+      "h2": "Where do document capture and the selfie check fit in the KYC flow?",
+      "answerHint": "**Document capture and a selfie or liveness check come after the typed details, and only when the bank's risk rules or the identity vendor ask for them; the CIP rule itself allows documentary and non-documentary verification.**",
+      "points": [
+        "Documentary vs non-documentary verification (eav 4; VERIFY wording).",
+        "NIST SP 800-63-4 final July 2025, 63A-4 covers identity proofing; IAL2 can be remote; 'remote unattended' defined (eav 11–12). Present NIST as the reference model, not a bank mandate.",
+        "Forged media and injection attacks in Revision 4 (eav 13): why vendors add liveness, and why the UI should explain the selfie in one line.",
+        "Annotated capture screen (visual 3 + astext).",
+        "Accessibility: a path for users without a working camera or who cannot pass a face match; who decides that path (compliance/vendor), what design shows.",
+        "Screens follow the vendor SDK; we don't pick the vendor (eav 'ownership split').",
+        "Bridge: 'Once the data and images are in, the checks run, and the flow splits.'"
+      ]
+    },
+    {
+      "h2": "How should the onboarding KYC process flow branch after the checks?",
+      "answerHint": "**After the automated checks, the onboarding KYC process flow splits into four outcomes, approved, step-up, manual review or declined, and each outcome needs its own screen with one next action.**",
+      "points": [
+        "What runs in the check lane: identity verification against data sources, sanctions screening, fraud signals; enhanced due diligence (EDD) for higher risk. Keep it short; the rules are the bank's.",
+        "OFAC fuzzy matching and confidence threshold (eav 9): a near match is why a sanctions check can send a legitimate customer to review; the threshold is compliance's decision, never the designer's.",
+        "Outcome map (visual 4 + astext table).",
+        "Decline copy: what the customer can do next (contact route, adverse-action or other required notices decided by counsel; no legal claims in the post).",
+        "LEAD ANGLE 1 at the end of this section (see leadAngle).",
+        "Bridge: 'Manual review is the outcome most products leave as a blank screen.'"
+      ]
+    },
+    {
+      "h2": "What should the customer see while KYC review is pending?",
+      "answerHint": "**While KYC review is pending, the customer should see what is being checked, how long it usually takes from your own data, what happens next and how they will hear back, and nothing they already entered should be lost.**",
+      "points": [
+        "Verification timing under CIP: within a reasonable time before or after opening (eav 3, VERIFY). Design consequence: some programs open a limited account first; that is a compliance decision; the UI must show the limits plainly if they do.",
+        "Status tracker states as a text table with placeholder timings ('[your median review time]'); no invented durations.",
+        "Notifications: email/SMS/push when status changes; one sentence linking the sibling post on automated onboarding emails and when a person takes over (sideways link).",
+        "After approval: credentials (passkeys as syncable authenticators per NIST rev. 4, eav 13) and accessible login (SC 3.3.8, link the fintech page), then the funding screen as the last step.",
+        "Bridge: 'All of this is invisible on the chart most banks already have.'"
+      ]
+    },
+    {
+      "h2": "What does a banking client onboarding process flow chart leave out?",
+      "answerHint": "**A banking client onboarding process flow chart usually maps the bank's checks, approvals and systems, and leaves out the customer's screens, wait states, exits, re-entry points and the events a product team measures.**",
+      "points": [
+        "Ops chart vs product chart split (visual 5 + astext table).",
+        "Why both are needed: operations and compliance own the bottom lane; product owns the top lane; disagreements show up where the lanes meet.",
+        "'digital customer onboarding' used once as the umbrella term (lexical; no volume claim).",
+        "One sentence: back-office templates end at 'account created'; ours ends at the funded account.",
+        "Bridge: 'Business accounts add a second person to verify, sometimes several.'"
+      ]
+    },
+    {
+      "h2": "How does the client onboarding KYC process flow change for business accounts?",
+      "answerHint": "**The client onboarding KYC process flow for a business adds the legal entity's details and its beneficial owners, and since February 13, 2026 FinCEN lets banks skip re-verifying owners each time an existing business customer opens another account, unless facts or the bank's risk procedures call for it.**",
+      "points": [
+        "CDD rule: beneficial owners of legal entity customers (eav 10).",
+        "FinCEN order FIN-2026-R001 (eav 10): three circumstances. Design consequence: a returning business opening a second account can confirm existing owner data instead of retyping it, if the bank adopts the relief; the bank decides.",
+        "Beneficial owner form patterns: add-another-owner list, invite an owner to complete their own identity step, show who is still pending.",
+        "Hyponym H3s allowed: 'Consumer account' vs 'Business account (KYB)'.",
+        "Bridge: 'Whatever the account type, you'll only know the flow works if you log each step.'"
+      ]
+    },
+    {
+      "h2": "How do you measure where customers drop out of the KYC flow?",
+      "answerHint": "**Measure the KYC flow by logging one event per step and tracking step completion, ID retry rate, manual review rate, time in pending and time to funded account, before and after each change.**",
+      "points": [
+        "Event-to-metric list (text table, no benchmark values).",
+        "Activation event for a money product = first funded account; sideways link to /blog/saas-onboarding/#where-does-saas-onboarding-end for how to choose an activation event.",
+        "Hub measurement facts only: activation rate, time to first value, before and after (hub FAQ). Do not quote vendor abandonment statistics (see notes DO NOT USE).",
+        "Bridge: 'Numbers tell you where; the compliance review tells you what you're allowed to change.'"
+      ]
+    },
+    {
+      "h2": "How do you turn the flow chart into screens your compliance team signs off?",
+      "answerHint": "**Turn the flow chart into screens by annotating each regulated screen (notice, consent, disclosure, decline) in one shared design file, agreeing who owns each decision, and testing the prototype with real users before compliance review.**",
+      "points": [
+        "Ownership split table in prose or a short ul: compliance/BSA officer and partner bank (rules, thresholds, notices), identity vendor (SDK, capture, liveness), product/design (order, copy, states, accessibility), engineering (events).",
+        "Annotated Figma files reviewed by compliance (fintech page benefit 'Compliance comments in one file'); link /industries/fintech/ with anchor 'fintech UX design' once.",
+        "Our hub process in one sentence with link (3 to 6 weeks, 4 steps; eav 'timeline'); do not rebuild the steps.",
+        "LEAD ANGLE 2 here, then Ahmad's first-person recommendation in one sentence (no label, no 'Bottom line' H2).",
+        "Second UP link to the hub with a varied anchor (e.g. 'redesign the sign-up and review screens with our team')."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "What are the steps involved in the bank client onboarding process?", "a": "Nine steps on the KYC onboarding process flow chart: notice and eligibility, contact and e-disclosure consent, identity details, document and selfie capture (when required), automated checks, an outcome, credentials, funding and ongoing monitoring. Banks group them differently; the order of data, checks and outcome stays the same." },
+    { "q": "What is the difference between KYC and CIP?", "a": "KYC is the umbrella practice of knowing who a customer is and what risk they bring; the Customer Identification Program is the specific US rule (31 CFR 1020.220) for collecting and verifying identity at account opening. Customer due diligence and enhanced due diligence continue after it." },
+    { "q": "Does a KYC flow need a selfie or liveness check?", "a": "No, not by the CIP rule itself, which allows documentary and non-documentary verification. Many banks and identity vendors add a selfie or liveness step on risk grounds; that is the compliance team's call, and the design should explain the step in one line and offer an alternative path." },
+    { "q": "Can customers save a KYC application and finish it later?", "a": "Yes, and they should be able to. Keep the data they entered (WCAG 2.2 SC 3.3.7 Redundant Entry), re-ask only what security requires, such as a masked Social Security number, and tell them where to resume." },
+    { "q": "Who decides the KYC rules, the designer or the compliance team?", "a": "The compliance team, BSA officer and partner bank decide the rules, thresholds and notices; the identity vendor supplies the capture and checks; the designer decides order, copy, states and accessibility. Our designs go to compliance review in annotated files; we do not give legal advice." }
+  ],
+  "internalTargets": [
+    { "href": "/services/saas-products/saas-onboarding-design/", "anchor": "SaaS onboarding design", "priority": "required", "where": "Intro, inside the first 300 words. Hub link 1 of 2.", "verified": "content/services/saas-onboarding-design.json; URL also used in content/industries/fintech.json line 87" },
+    { "href": "/services/saas-products/saas-onboarding-design/#how-does-the-saas-onboarding-design-process-work", "anchor": "redesign the sign-up and review screens with our team", "priority": "required", "where": "Last H2, the sentence on our 3 to 6 week process. Hub link 2 of 2. If the link builder counts fragments as the same target, use the plain hub URL here.", "verified": "hub h2 'How does the SaaS onboarding design process work?' → sectionId() lowercase, non-alphanumerics to '-'" },
+    { "href": "/services/saas-products/saas-onboarding-design/#how-much-does-saas-onboarding-design-cost", "anchor": "what onboarding design costs", "priority": "skip", "why": "TOFU post: the template's checklist CTA is the conversion path; the hub price would also suggest a KYC-specific price the site does not publish (fintech FAQ: 'There is no separate fintech price')." },
+    { "href": "/industries/fintech/", "anchor": "fintech UX design", "priority": "required", "where": "Last H2 (annotated files for compliance review) or H2 5 (accessible login, SC 3.3.8). One link only. Industry page, not a service hub, so it does not count toward the cross-hub cap.", "verified": "content/industries/fintech.json (slug 'fintech', anchor 'fintech UX design')" },
+    { "href": "/blog/saas-onboarding/#where-does-saas-onboarding-end", "anchor": "choose the activation event", "priority": "required", "where": "H2 'How do you measure where customers drop out of the KYC flow?' Sideways link (same silo).", "verified": "content/blog/saas-onboarding.md line 84 'Where does SaaS onboarding end?' → slugify() in lib/blog.ts; the hub FAQ already links the same fragment" },
+    { "href": "/blog/user-onboarding-automation/", "anchor": "automated onboarding emails", "priority": "required", "where": "H2 'What should the customer see while KYC review is pending?', the notifications point. Sideways link (same silo).", "verified": "content/blog/user-onboarding-automation.md (services[0] = saas-onboarding-design)" },
+    { "href": "/services/saas-products/", "anchor": "SaaS product design", "priority": "skip", "why": "Pillar link adds little here; keep the link count lean for a TOFU post. Override only if QA needs one more internal link." },
+    { "href": "/case-studies/anyday-app/", "anchor": "Anyday App", "priority": "skip", "why": "The case study shows wallet load, instant payouts, dashboards and cashback; it shows no sign-up, identity check, KYC, PCI or SOC 2 work. Linking it from a KYC post would imply work it does not document. Mention nothing about it." },
+    { "href": "/case-studies/tradezella/", "anchor": "TradeZella", "priority": "skip", "why": "Trading-journal dashboard redesign; no account opening or KYC. Its only onboarding line ('No onboarding guide') is already used by /blog/saas-onboarding/." },
+    { "href": "/contact/", "anchor": "contact", "priority": "skip", "why": "TOFU: RULES.md step 6 keeps conversion links lean; audit 2026-10-19 limits consultation CTAs." }
+  ],
+  "backlinkSuggestions": [
+    {
+      "source": "content/blog/user-onboarding-automation.md line 45 (section 'What is user onboarding automation (and what isn't)?')",
+      "target": "/blog/onboarding-kyc-process-flow/",
+      "anchor": "the onboarding KYC process flow",
+      "priority": "required",
+      "why": "Same silo (sideways link allowed). The sibling currently calls financial client onboarding 'compliance work rather than product guidance', which contradicts the new post's premise; the added sentence reconciles the two and passes relevance from an indexed page.",
+      "old": "- **Client onboarding in financial services:** identity checks and account opening, which is compliance work rather than product guidance.",
+      "new": "- **Client onboarding in financial services:** identity checks and account opening, which is compliance work rather than product guidance. The screens on top of those checks still need design, and our guide to the [onboarding KYC process flow](/blog/onboarding-kyc-process-flow/) charts them step by step.",
+      "linkBuilderNote": "2026-10-20: re-verified old string at line 45 (exact). Reworded: the old 'we chart them in [the onboarding KYC process flow]' made the flow itself sound like the page; anchor is now 'onboarding KYC process flow'."
+    },
+    {
+      "source": "content/industries/fintech.json → solutions → 'KYC and account opening' → body (line 87)",
+      "target": "/blog/onboarding-kyc-process-flow/",
+      "anchor": "KYC onboarding process flow chart",
+      "priority": "required",
+      "why": "The industry page's KYC paragraph is the strongest topical source on the site; the post goes one level deeper (9 steps, 4 outcomes, pending state). Industry page → post is allowed (silo rules restrict links inside posts). The anchor is a measured secondary (40/mo), not the fintech page's own 'kyc onboarding ux'.",
+      "old": "See <a href=\\\"/services/saas-products/saas-onboarding-design/\\\">SaaS onboarding design</a>.",
+      "new": "See <a href=\\\"/services/saas-products/saas-onboarding-design/\\\">SaaS onboarding design</a>, or walk through the 9 steps of our <a href=\\\"/blog/onboarding-kyc-process-flow/\\\">KYC onboarding process flow chart</a>.",
+      "escapeNote": "fintech.json stores HTML inside a JSON string, so href quotes appear in the file as backslash + quote. The old string occurs exactly once in the file (grep count 1)."
+    },
+    {
+      "source": "content/services/saas-onboarding-design.json → section 'Which parts of SaaS onboarding design do we cover?' → item 'Account setup.' (line 46)",
+      "target": "/blog/onboarding-kyc-process-flow/",
+      "anchor": "how a KYC process flow orders them",
+      "priority": "required",
+      "why": "Hub → post (silo rule: the pillar/hub links down to its posts). List item bodies render HTML (components/sections/SemanticSections.tsx lines 175/198/215 use <Html>). Varied anchor, not exact match.",
+      "old": "{ \"title\": \"Account setup.\", \"body\": \"Only the questions the product needs now; the rest moves to later.\" },",
+      "new": "{ \"title\": \"Account setup.\", \"body\": \"Only the questions the product needs now; the rest moves to later. Fintech sign-ups add identity checks at this step; see <a href=\\\"/blog/onboarding-kyc-process-flow/#what-does-the-kyc-process-flow-collect-and-in-what-order\\\">how a KYC process flow orders them</a>.\" },",
+      "linkBuilderNote": "2026-10-20: added the section jump (slugify of H2 'What does the KYC process flow collect, and in what order?'), since 'orders them' matches that section, not the chart at the top."
+    }
+  ],
+  "related": {
+    "linkBuilderDate": "2026-10-20",
+    "externalLinks": [
+      "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.220 (ecfr.gov-restricted search: TIN for a US person, notice before opening + sample heading, documentary/non-documentary; bank text says verification 'within a reasonable time after the account is opened', NOT 'before or after' (that wording is 1026.220); post sentence does not claim 'before or after')",
+      "https://www.fdic.gov/news/press-releases/2024/fdic-survey-finds-96-percent-us-households-were-banked-2023 (SWAP: brief's /household-survey/2023-...-report URL never returned; press release snippet: 'Nearly half of banked households (48.3 percent) used mobile banking as their primary method')",
+      "https://www.consumerfinance.gov/rules-policy/regulations/1030/4/",
+      "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry (search-returned path, no .html)",
+      "https://csrc.nist.gov/pubs/sp/800/63/4/final (final 07/31/25, supersedes 800-63-3)",
+      "https://ofac.treasury.gov/faqs/246 (SWAP: /sanctions-list-search-tool never returned; FAQ 246 'How does Sanctions List Search work?' states fuzzy logic on the name field and the slider bar)",
+      "https://www.fincen.gov/system/files/2026-02/FinCEN-Order-CCDExceptiveRelief.pdf (FIN-2026-R001, Feb 13, 2026, 3 circumstances, waives 1010.230(b) at each opening)",
+      "https://ncua.gov/newsroom/press-release/2021/federal-and-state-regulators-release-updates-bsaaml-examination-manual (CIP section among 4 updated; 'The Manual itself does not establish requirements for banks')"
+    ],
+    "removedExternalLinks": [
+      "https://www.consumerfinance.gov/rules-policy/regulations/1030/3/ (verified; de-linked for the cap; sentence now attributes E-SIGN consent to Regulation DD, already linked via 1030.4, and no longer names 12 CFR 1030.3)",
+      "https://pages.nist.gov/800-63-4/sp800-63a/proofing/ (search returned https://pages.nist.gov/800-63-4/sp800-63a.html with the remote unattended definition; de-linked, NIST SP 800-63-4 stays linked)",
+      "https://pages.nist.gov/800-63-4-Implementation-Resources/ (not returned; injection/forged-media controls confirmed via pages.nist.gov/800-63-4/sp800-63a/ial-general/ snippets; de-linked)",
+      "31 CFR 1010.230 (verified at https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1010/subpart-B/section-1010.230; citation number removed from the sentence instead of linking, to stay at 8 externals; the linked FinCEN order states the 1010.230(b) requirement)"
+    ],
+    "internalLinks": ["/about/ (writer)", "/services/saas-products/saas-onboarding-design/ (word ~120)", "/blog/user-onboarding-automation/", "/blog/saas-onboarding/#where-does-saas-onboarding-end", "/industries/fintech/", "/services/saas-products/saas-onboarding-design/#how-does-the-saas-onboarding-design-process-work"],
+    "internalCountException": "7 body links incl. /about/ vs TOFU 8-12. Hub cap 2, no relevant case study (brief: Anyday/TradeZella show no KYC work), only 2 sibling posts, 1 industry page. Next allowed candidate if QA requires 8: pillar /services/saas-products/ ('SaaS product design'), which the brief marked override-only."
+  },
+  "externalSources": [
+    { "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.220", "why": "Primary (US, eCFR): CIP rule 31 CFR 1020.220: written risk-based CIP, four data points, verification timing and methods (VERIFY (a)(2)(ii) wording), customer notice (a)(5). H2 2–3, FAQ 2." },
+    { "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/4/", "why": "Primary (CFPB): Regulation DD 12 CFR 1030.4, account disclosures before the account is opened; online openings. H2 2." },
+    { "url": "https://www.consumerfinance.gov/rules-policy/regulations/1030/3/", "why": "Primary (CFPB): 12 CFR 1030.3, electronic delivery subject to E-SIGN consent. H2 2." },
+    { "url": "https://ofac.treasury.gov/sanctions-list-search-tool", "why": "Primary (US Treasury): fuzzy matching, confidence slider, no recommended threshold. H2 4." },
+    { "url": "https://www.fincen.gov/system/files/2026-02/FinCEN-Order-CCDExceptiveRelief.pdf", "why": "Primary (FinCEN): order FIN-2026-R001, February 13, 2026, beneficial-owner verification limited to 3 circumstances. H2 7." },
+    { "url": "https://csrc.nist.gov/pubs/sp/800/63/4/final", "why": "Primary (NIST): SP 800-63-4 final, July 2025, supersedes 800-63-3, four volumes. H2 3." },
+    { "url": "https://pages.nist.gov/800-63-4/sp800-63a/proofing/", "why": "Primary (NIST): identity proofing overview, remote unattended proofing definition. H2 3." },
+    { "url": "https://pages.nist.gov/800-63-4-Implementation-Resources/", "why": "Primary (NIST): revision 4 adds injection-attack and forged-media controls and syncable authenticators. H2 3 and H2 5." },
+    { "url": "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html", "why": "Primary (W3C): SC 3.3.7 Redundant Entry, Level A, with exceptions. H2 2, FAQ 4." },
+    { "url": "https://fdic.gov/household-survey/2023-fdic-national-survey-unbanked-and-underbanked-households-report", "why": "Primary (FDIC): 48.3% of banked US households used mobile banking as primary access in 2023. Intro. Say 'banked households'." },
+    { "url": "https://ncua.gov/newsroom/press-release/2021/federal-and-state-regulators-release-updates-bsaaml-examination-manual", "why": "Primary (NCUA, joint FFIEC agencies release): CIP section of the FFIEC BSA/AML Examination Manual updated February 2021; manual instructs examiners. Optional, one sentence in H2 2 or FAQ 2." }
+  ],
+  "visuals": [
+    { "type": "two-lane swimlane flow chart", "file": "onboarding-kyc-process-flow-swimlane.svg", "idea": "Wide horizontal chart: top lane 'What the customer sees' (9 screen tiles), bottom lane 'What the bank checks' (matching check tiles), dashed connectors between lanes, a decision diamond at step 5 fanning to 4 outcome chips, finish flag 'first funded account'. Text panel: the 9 steps as an ordered list with lane labels." },
+    { "type": "field → rule → reason card", "file": "onboarding-kyc-process-flow-field-reasons.svg", "idea": "A stacked form mock where each field has a margin tag naming the rule (CIP, Reg DD/E-SIGN, product) and the one-line reason shown to the user. Text panel: the same as a table (field | rule | where | reason line)." },
+    { "type": "annotated capture screen", "file": "onboarding-kyc-process-flow-id-capture.svg", "idea": "Phone frame of an ID capture step with 6 numbered callouts (frame guide, glare/blur warning, retake, accepted ID types, no-camera alternative, progress + save). Text panel: the 6 callouts as a list." },
+    { "type": "outcome map", "file": "onboarding-kyc-process-flow-outcomes.svg", "idea": "One check node splitting into 4 cards (approved, step-up, manual review, declined), each card showing headline, next action and the owner of its rules. Not a yes/no diamond chain (used by chatbot-design and how-to-design-an-mvp). Text panel: table outcome | headline | next action | owner." },
+    { "type": "ops chart vs product chart split", "file": "onboarding-kyc-process-flow-ops-vs-product.svg", "idea": "Same 5 steps drawn twice side by side: left a plain back-office chart (boxes and approvals), right the product version with added states, exits, re-entry and event pins highlighted. Text panel: table 'Back-office chart shows | Product chart adds'." }
+  ],
+  "visualCountNote": "5 inline visuals (audit 2026-10-19: avoid always 6). The status tracker table (H2 5), the beneficial-owner patterns (H2 7) and the event-to-metric table (H2 8) stay as text.",
+  "leadAngle": "Moment 1: end of H2 4 (outcomes). The reader has just seen four outcomes, each needing a headline, a next action and an owner, and realizes their current flow has one 'Something went wrong' screen. Offer, hub facts only: we redesign sign-up, setup and the review states so new users reach their first result, and measure activation before and after (link the hub). Moment 2: last H2, when the chart has to become screens compliance will sign: one 'we' sentence on annotated design files reviewed by the client's compliance team (fintech page fact) and our 3 to 6 week process (hub). Closing CTA (TOFU template): the checklist. No free audit, no price in the body, no claim that we pick identity vendors, set risk rules, give legal advice, or that we have shipped a KYC flow for a named client.",
+  "variety": {
+    "type": "Article",
+    "introStyle": "Rule-to-screen translation: the first sentence carries the keyword (Ahmad charting two lanes), then one US rule (CIP's four data points) is translated into the interface it creates (four fields, a notice, a wait). Device = regulation text turned into UI inventory. Used before (do not repeat): buyer scenario, myth, data point with source, question, definition, mini case, contrarian take, timed first-run log (blockquote), kill-list decision log (blockquote), itemized receipt, misfiring rule, try-this-now exercise, originator quote, three-question inline list. No blockquote, no stat-led first sentence, no hypothetical company in the intro.",
+    "h2Frames": ["how it runs (chart first)", "which details + order", "where (capture fits)", "how it branches", "what to show (pending)", "what X leaves out (ops vs product)", "how it changes (business accounts)", "how to measure", "how to get sign-off (closing)", "FAQs"],
+    "sectionOrder": "chart → data and order → capture → branching → waiting → ops-chart gap → business variant → measurement → sign-off (closing, no 'Bottom line') → FAQs. First H2 is the artefact (the flow chart), not a definition and not a 'Step 1' decision.",
+    "visualTypes": ["two-lane swimlane flow chart", "form with rule margin tags", "annotated phone capture screen", "four-card outcome map", "side-by-side ops vs product chart"],
+    "ctaAngle": "chart your own two-lane flow → TOFU checklist (template CTA). Not 'book a free consultation', not 'pass the 8 gates', not 'send your funnel/brief/RFP'.",
+    "listStyle": "one ordered 9-step list (astext), rule-tagged field table, callout list, outcome table, placeholder-timing status table, event-to-metric table",
+    "closingRule": "Closing H2 is the compliance sign-off section; end it with one first-person recommendation sentence from Ahmad, no label ('My recommendation:' banned), no 'Bottom line' H2.",
+    "metaDescriptionEnding": "Ends on the payoff ('with the pending, retry and manual review screens'), not a consultation CTA.",
+    "differsFrom": "Last 3 site-wide: chatbot-design (2026-10-19, Checklist, 'Step N:' H2s with gates), how-to-design-an-mvp (2026-10-18, Guide), saas-homepage-design (2026-10-17, Guide). Silo: saas-onboarding (Guide, definition-first, 5-stage process map, 12-point audit), user-onboarding-automation (Guide, definition + 'what isn't', 2x2, rule anatomy, handoff ladder). Nearest structural relative: chatbot-design (step-by-step how-to). Do NOT reuse from it: 'Step N:' H2 prefixes, pass-gate lines, a closing checklist H2, the payroll/restaurant example, the yes/no decision-flow look. Nearest topical relative: saas-onboarding. Do NOT reuse its stage map visual, 'Where does … end?' wording beyond the link, the scheduling-SaaS example, the 12-point audit, the first-session log. From user-onboarding-automation do NOT reuse the handoff ladder or the analytics-SaaS example."
+  },
+  "fingerprintCheck": {
+    "vs_chatbot-design": "Differs on type (Article vs Checklist), intro (rule-to-screen vs three-question list), H2 frames (no Step N), section order, visuals (swimlane, tagged form, phone anatomy, outcome cards, split chart vs decision flow, ticket card, state strip, scorecard), CTA angle, list style. 7 of 7.",
+    "vs_how-to-design-an-mvp": "Differs on type, intro, frames, order (no definition, no Bottom line), visuals (5 vs 6), CTA (TOFU checklist vs consultation), list style. 7 of 7.",
+    "vs_saas-homepage-design": "7 of 7.",
+    "vs_silo_saas-onboarding": "Differs on type, intro, frames, order, visuals, CTA, list style; shares the onboarding domain only. 7 of 7.",
+    "vs_silo_user-onboarding-automation": "7 of 7; shared notification topic limited to one sentence + sideways link.",
+    "audit_2026-10-19_rules": "Type not Guide and not last-3 Checklist (PASS: Article); first H2 is the chart, not a definition (PASS); 5 visuals, not 6 (PASS); description ends on the payoff, no 'Book a free consultation' (PASS); closing H2 is not 'Bottom line' nor 'Have an AI or … to design?' (PASS).",
+    "result": "PASS"
+  },
+  "overlapCheck": {
+    "method": "Outline-level (no shell this run). Compared planned H2s/FAQs with every heading and FAQ in content/services/saas-onboarding-design.json, content/industries/fintech.json, content/blog/saas-onboarding.md, content/blog/user-onboarding-automation.md and content/home.ts. QA runs the 5-gram body script on the draft and against the `beats` page.",
+    "headingOverlap": "Closest pairs: H2 1 'How does an onboarding KYC process flow run, end to end?' vs saas-onboarding 'What does the SaaS onboarding process look like?' (different subject, different frame word); H2 8 measurement vs saas-onboarding 'Where does SaaS onboarding end?' (handled by a link, not a restatement); fintech FAQ 'Can you design our KYC and identity verification flow?' vs our H2 2–4 (the fintech FAQ is a 3-sentence service answer; the post goes to step and state level and links back).",
+    "intentOverlap": "Grep of content/ for 'kyc|account opening|identity verification|know your customer' outside fintech.json returned nothing. fintech.json owns 'fintech UX design' (anchor), 'kyc onboarding ux', 'banking ux design', 'fintech app design' in keywords[]; the post targets process-flow phrasing with a different Ahrefs parent ('kyc onboarding' / 'digital customer onboarding'). The hub owns 'SaaS onboarding design', parts, process, tours-vs-tasks, mistakes, cost.",
+    "residualRisk": "Medium-low: H2 2 field order restates the fintech page's 'easy fields first, ID last' sentence (allowed as one cited line, then deeper). If Google starts ranking /industries/fintech/ for 'kyc onboarding process flow' or the post for 'kyc onboarding ux', see notes POST-PUBLISH MONITOR.",
+    "result": "PASS at outline level."
+  },
+  "sisterSiteCheck": {
+    "status": "UNVERIFIED",
+    "evidence": "WebFetch https://uiuxdesignservices.us/sitemap.xml returned ENOTFOUND (2026-10-20). No shell, so the curl route was unavailable. WebSearch 'site:uiuxdesignservices.us finance' and '\"uiuxdesignservices.us\" industries finance' returned no pages from the domain. docs/content-system/sister-site.json lists city URLs only. The orchestrator reports the sister has industries/finance; that page would target 'finance UI UX design'-type terms, not KYC process-flow terms, so intent overlap is unlikely, but unmeasured.",
+    "qaStep": "Before publishing run: curl -sS https://uiuxdesignservices.us/sitemap.xml | grep -iE 'financ|fintech|bank|kyc|onboard'. Fetch any match and fail the post above 2% 5-gram overlap; confirm the sister does not target 'kyc onboarding', 'account opening' or 'onboarding process flow'. No links between the sites."
+  },
+  "rejectedCandidates": [
+    { "keyword": "banking client onboarding process flow chart (30, KD 1, TP 1,100, parent 'digital customer onboarding')", "why": "Kept as lead secondary with its own H2, not primary: lower volume than the KYC sibling and its SERP leans to institutional/back-office templates (relevance gate). See primaryChoice." },
+    { "keyword": "client onboarding process flow chart (150, KD 0, TP 90, parent 'onboarding process flowchart') / onboarding flow chart (80) / client onboarding process flow (250, KD 11, parent 'customer onboarding best practices') / client onboarding process flow template (250)", "why": "Generic service-business and customer-success intent (coordinatehq, process.st, slideteam, rocketlane): agencies and CS teams charting kickoff-to-go-live. Service-support 1–2 for a product-design buyer, and it overlaps /blog/saas-onboarding/ 'User vs customer onboarding' (customer onboarding = CSM program). The orchestrator's 230 is the 2-row sum (150 + 80)." },
+    { "keyword": "customer onboarding process flow (150, KD 4, TP 1,900, parent 'what is customer onboarding')", "why": "Parent is the generic 'what is customer onboarding' (customer success); /blog/saas-onboarding/ already answers user vs customer onboarding (audit 2026-10-19 flagged the same overlap)." },
+    { "keyword": "saas customer onboarding process flow (200, KD 0, parent 'saas onboarding')", "why": "Parent 'saas onboarding' is owned by /blog/saas-onboarding/; cannibalisation." },
+    { "keyword": "kyc onboarding process flow chart (40, TP 10)", "why": "Same intent as the primary with lower volume; secondary." },
+    { "keyword": "user onboarding metrics (orchestrator: 130 / KD 4)", "why": "Fallback alternative named by the orchestrator; not needed because the KYC topic passes the relevance gate. Data correction: the warehouse row is 80 / KD 1 / TP 350 (parent 'customer onboarding metrics'); 130 appears to be a 2-row cluster sum (audit table). Keep it as the silo's next MOFU candidate." },
+    { "keyword": "merchant onboarding process flow (30) / merchant onboarding process flow chart (30)", "why": "Payments-processor underwriting (KYB for merchants); no KD/TP rows; narrower audience. Candidate for a later fintech post." },
+    { "keyword": "employee / new hire / physician / vendor / supplier / partner onboarding process flow", "why": "HR and procurement intent; off-audience (service-support 1)." },
+    { "keyword": "stripe connect onboarding flow (60) / revolut onboarding flow (40) / robinhood onboarding flow (20)", "why": "Branded intent; a teardown post could cite them later, but naming a brand's KYC flow needs first-hand screenshots we do not have." }
+  ],
+  "beats": "https://seon.io/resources/kyc-onboarding/",
+  "beatsNote": "Ranks on page 1 for the primary (WebSearch 2026-10-20); 5-step check-lane flow (capture, validate, screen PEP/sanctions, risk level, approve/escalate EDD). Not fetched (no shell; WebFetch failed on every vendor domain tried this run). QA: run curl -sSI -A 'Mozilla/5.0' on it before the overlap check; if it redirects off-topic, use https://idenfy.com/blog/kyc-onboarding/ instead.",
+  "competitorPagesStudied": [
+    { "url": "https://seon.io/resources/kyc-onboarding/", "seen": "KYC onboarding as the checks between sign-up and approval; 5-step flow; core data name, DOB, address, contact, national ID; photo ID and proof of address; 'requirements vary by jurisdiction'.", "misses": "Customer screens, wait/decline states, US rule mapping, accessibility, business-account owner relief, measurement events." },
+    { "url": "https://idenfy.com/blog/kyc-onboarding/", "seen": "'I Find Out How KYC Onboarding Works So You Don't Have to' (vendor, first-person tone).", "misses": "Snippet-level only; vendor angle." },
+    { "url": "https://www.fenergo.com/blogs/customer-onboarding-expectations-vs-reality", "seen": "Ahrefs #1 for the banking query (DR 72, 12 RD), 'Digital Customer Onboarding in Banking: The Roadmap to KYC' (Jan 2026 per search); CRM/API integration + secure portal; minimal manual entry and real-time progress updates; abandonment statistics.", "misses": "No screen-level design; statistics are vendor survey figures (DO NOT USE). resources.fenergo.com URL in the warehouse; www.fenergo.com URL in search: check which resolves." },
+    { "url": "https://www.docbyte.com/digital-customer-onboarding/", "seen": "Ahrefs #3, '9 Steps of the Digital Customer Onboarding Process', sitelink 'Onboarding Process Flow Chart'.", "misses": "Not fetchable (ENOTFOUND); its 9-step count matches ours by coincidence. Writer: our 9 steps come from the CIP/Reg DD/funding sequence above; do not open or mirror docbyte's list; QA checks heading-order overlap against it too." },
+    { "url": "https://www.signicat.com/blog/mastering-customer-onboarding-in-banking", "seen": "Ahrefs #7; onboarding as the start of the relationship: data, identity checks, risk assessment, account setup; digital expected.", "misses": "Vendor overview, EU-leaning." },
+    { "url": "https://www.theskinsfactory.com/uiux-design-blog/kyc-onboarding-drop-off", "seen": "Design-agency competitor (WebSearch 2026-10-20): abandonment clusters at document upload, biometric and review stages; silent wait reads as rejection; poor capture guidance.", "misses": "No US rule mapping, no business accounts, no measurement plan. Originality: do not mirror its 'where users drop off' framing or wording; QA also checks 5-gram overlap against it." },
+    { "url": "https://www.process.st/templates/corporate-banking-onboarding-process/", "seen": "About 20-step corporate banking template (financial statements, credit proposal, risk profiling, document package, online banking setup).", "misses": "Internal SOP; evidence for the ops-vs-product H2 only." }
+  ],
+  "competitorsJsonHandback": {
+    "note": "Not written to docs/content-system/competitors.json (task instruction). Orchestrator: append these.",
+    "domains": [
+      { "domain": "seon.io", "kind": "identity/fraud vendor blog", "silos": ["saas-onboarding-design"], "seenFor": ["onboarding kyc process flow"], "source": "WebSearch 2026-10-20" },
+      { "domain": "fenergo.com", "kind": "CLM vendor blog", "silos": ["saas-onboarding-design"], "seenFor": ["banking client onboarding process flow chart"], "source": "Ahrefs SERP warehouse 2026-10-19" },
+      { "domain": "docbyte.com", "kind": "document/onboarding vendor blog", "silos": ["saas-onboarding-design"], "seenFor": ["banking client onboarding process flow chart"], "source": "Ahrefs SERP warehouse 2026-10-19" },
+      { "domain": "signicat.com", "kind": "identity vendor blog", "silos": ["saas-onboarding-design"], "seenFor": ["banking client onboarding process flow chart"], "source": "Ahrefs SERP warehouse 2026-10-19" },
+      { "domain": "theskinsfactory.com", "kind": "UI/UX agency blog", "silos": ["saas-onboarding-design"], "seenFor": ["kyc onboarding ux / drop-off"], "source": "WebSearch 2026-10-20" }
+    ],
+    "topPost": { "domain": "seon.io", "url": "https://seon.io/resources/kyc-onboarding/", "title": "KYC Onboarding: Process, Requirements, and Best Practices", "keywords": ["onboarding kyc process flow", "kyc onboarding"], "estTraffic": null, "silo": "saas-onboarding-design", "status": "briefed", "brief": "content/briefs/onboarding-kyc-process-flow.json" }
+  },
+  "clustersHandback": "clusters.json has no owner for Ahrefs parent topics 'kyc onboarding', 'digital customer onboarding' or 'kyc onboarding process flow chart' (grep found no 'kyc' in clusters.json). Orchestrator, after publish: add { parentTopic: 'kyc onboarding', owner: '/blog/onboarding-kyc-process-flow/', keywords: ['onboarding kyc process flow (50, KD 0)', 'kyc onboarding process flow chart (40, KD 0)', 'client onboarding kyc process flow (20)', 'bank customer onboarding process flow (30)'] } and { parentTopic: 'digital customer onboarding', owner: '/blog/onboarding-kyc-process-flow/ (secondary bet)', keywords: ['banking client onboarding process flow chart (30, KD 1, TP 1,100)'] }. Mark both blog-opportunities entries ('digital customer onboarding' 96.8 and 'kyc onboarding' 78.1) done after publish. Keep 'onboarding process flowchart' (client onboarding process flow chart 150, onboarding flow chart 80) unowned/rejected (CS intent).",
+  "notes": [
+    "RELEVANCE GATE RESULT: PASS with framing. Audit 2026-10-19 skipped banking/KYC onboarding as 'compliance, off-audience'; the orchestrator overrode it with the product-team angle. This brief keeps the post on the customer lane (screens, states, copy, accessibility, measurement) and says plainly that compliance owns the rules. If the owner disagrees, the fallback is 'user onboarding metrics' (80 / KD 1 / TP 350, warehouse), MOFU.",
+    "CONSISTENCY with live pages: (1) fintech.json says 'easy fields first and the ID document last', 'save-and-resume', 'we're reviewing state with expected timing', 'Screens follow your identity vendor's SDK; we don't pick the vendor or set risk rules': the post must agree. (2) user-onboarding-automation.md line 45 calls financial client onboarding 'compliance work rather than product guidance': backlink #1 reconciles it; if the orchestrator skips #1, the writer must not contradict that sentence head-on (say 'the rules are compliance work; the screens are design work'). (3) Hub measures by activation rate, time to first value and day-7 return; the post's finish line (funded account) is the fintech activation event, consistent with the hub FAQ.",
+    "SCOPE (stay quiet): no claim that we have designed a KYC, PCI or SOC 2 flow for a named client. Neither fintech case study (TradeZella, Anyday App) shows sign-up, identity checks or account opening: no DOWN link, no client results, no mini case. Do not say we build, integrate or choose identity vendors; do not give legal advice; do not say what a specific bank 'must' do beyond the cited rule text.",
+    "PRICE: the post states no price. fintech.json FAQ says there is no separate fintech price; the hub's $15,000–$45,000 is for SaaS onboarding design. Do not imply a KYC flow costs that.",
+    "DO NOT USE (vendor or unsourced, seen in SERP/snippets): Fenergo 'one in five onboarding applications abandoned' and '$3.3 billion a year', '10% average abandonment', '70% of companies lost clients', '$22.75bn' lost to slow onboarding, '18 percent of banks rely on manual KYC' (2019); Shufti Pro citing McKinsey 'up to 40% fewer drop-offs'; vp0 '71% of apps leak data'; any 'KYC takes N minutes/seconds' vendor claim; the vendor-blog claim that NIST IAL2 has a non-biometric pathway (only state it if the fact-checker confirms it in SP 800-63A-4 text); the Zephyr '28-screen' case study.",
+    "FACT-CHECKER FLAGS: (1) 31 CFR 1020.220(a)(2)(ii): confirm the 'reasonable time before or after the account is opened' wording and the documentary/non-documentary split on eCFR; if different, use eCFR wording. (2) TIN wording in (a)(2)(i) for US persons (and alternatives for non-US persons; the post covers US persons only). (3) FinCEN order number FIN-2026-R001 vs law-firm 'Order No. 2026-01': use the fincen.gov PDF's number. (4) NIST SP 800-63-4 date: CSRC says July 2025 (fintech.json says 'final, 2025', consistent). (5) Regulation DD 1030.4: confirm the online-opening delivery wording. (6) OFAC FAQ 287 wording on automated use.",
+    "POST-PUBLISH MONITOR: if /industries/fintech/ starts ranking for 'kyc onboarding process flow' or the post for 'kyc onboarding ux' / 'fintech ux design', confirm backlink #2 is live and the post's hubAnchorBan is respected; the fintech page keeps 'kyc onboarding ux'.",
+    "ABBREVIATIONS to expand on first use: know your customer (KYC), Customer Identification Program (CIP), Financial Crimes Enforcement Network (FinCEN), Bank Secrecy Act (BSA), anti-money laundering (AML), customer due diligence (CDD), enhanced due diligence (EDD), Office of Foreign Assets Control (OFAC), Social Security number (SSN), taxpayer identification number (TIN), National Institute of Standards and Technology (NIST), identity assurance level (IAL), Web Content Accessibility Guidelines (WCAG), software development kit (SDK), Federal Financial Institutions Examination Council (FFIEC), Federal Deposit Insurance Corporation (FDIC), Consumer Financial Protection Bureau (CFPB), know your business (KYB).",
+    "VOICE: first person by Ahmad Ullah for method and judgment ('When I chart…', 'I put the ID document last'). 'We' only for hub and fintech-page facts (field order, save-and-resume, review state, vendor SDK, annotated files, 3 to 6 weeks, activation measured before and after). No invented anecdotes, clients, timings or rates; pending-state timings are placeholders for the reader's own data.",
+    "US FRAME: US rules only (CIP, CDD, OFAC, Reg DD, E-SIGN, NIST, WCAG 2.2 AA with ADA context if needed). Example accounts: a US consumer checking account and a US LLC business account, no hypothetical company names needed. American spelling (behavior, color, labeled, prioritize). GDPR/AMLD only as 'if you also onboard EU customers', preferably omitted.",
+    "ENTITY SALIENCE: 'KYC' and 'onboarding' must lead; cap rival entities at about 6 uses each: 'CIP', 'compliance team', 'identity vendor', 'manual review', 'beneficial owners'. The on-page script counts an H2 toward the 40% share when it holds a keyword word longer than 3 letters ('onboarding', 'process', 'flow'; 'KYC' is 3 letters and does NOT count). H2s 1, 2, 3, 4, 6, 7, 8 and 9 hold 'onboarding', 'process' or 'flow'; H2 5 ('What should the customer see while KYC review is pending?') holds none. Share = 8 of 9 = 89%, well above 40%; do not force a keyword word into H2 5.",
+    "FUNNEL TEMPLATE NOTE: frontmatter industries [fintech] may pull TradeZella/Anyday into related-case-study rails; that is acceptable as industry context, but the body must not cite them for KYC."
+  ]
+}

@@ -42,7 +42,7 @@ Below: what to automate, how a rule is built, when email or a person takes over,
 In practice it's rule-based onboarding. Search results for the phrase mix in 3 other jobs, so I rule them out first:
 
 - **Employee onboarding:** human resources (HR) and information technology (IT) teams set up accounts, equipment and paperwork for new hires. It's an internal process with its own tools.
-- **Client onboarding in financial services:** identity checks and account opening, which is compliance work rather than product guidance.
+- **Client onboarding in financial services:** identity checks and account opening, which is compliance work rather than product guidance. The screens on top of those checks still need design, and our guide to the [onboarding KYC process flow](/blog/onboarding-kyc-process-flow/) charts them step by step.
 - **Tenant provisioning:** engineering creates a new customer's environment and admin account, and no user ever sees it.
 
 What gets automated is the layer on top of the product. That layer holds in-app guidance (checklists, tooltips, short tours, empty-state prompts), automated onboarding emails and alerts that route a user to a person. Sign-up, setup and empty states sit under every rule, and a rule can only point at them.

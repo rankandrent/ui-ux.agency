@@ -107,6 +107,24 @@
         "/services/ai-products/ (pillar card: support and operations teams)",
         "/services/ai-products/ai-ux-design-agency/ (blank-prompt paralysis card)"
       ]
+    },
+    {
+      "slug": "onboarding-kyc-process-flow",
+      "hub": "saas-onboarding-design",
+      "keyword": "onboarding kyc process flow",
+      "date": "2026-10-20",
+      "images": 5,
+      "internalLinks": 6,
+      "externalLinks": 8,
+      "qaLoops": 1,
+      "factLoops": 2,
+      "semanticScore": 94,
+      "opportunityScore": 96.8,
+      "backlinks": [
+        "/blog/user-onboarding-automation/ (financial services client onboarding line)",
+        "/industries/fintech/ (KYC and account opening card)",
+        "/services/saas-products/saas-onboarding-design/ (account setup step)"
+      ]
     }
   ],
   "audits": [
@@ -221,6 +239,25 @@
         "design tools, ai design generator, ai design tools, product discovery platform (tool roundups)",
         "ai for product design (tool-led intent; revisit with a buyer angle)",
         "hubs with a post in the last 3 days: saas-onboarding-design, saas-design-agency, mvp-design-agency"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "goal": "daily post: highest-scoring relevant topic",
+      "jobs": [
+        {
+          "hub": "saas-onboarding-design",
+          "keyword": "banking client onboarding process flow chart (cluster: kyc / client onboarding process flow)",
+          "score": 96.8,
+          "format": "step-by-step guide",
+          "angle": "digital account-opening and KYC flow for fintech product teams"
+        }
+      ],
+      "skipped": [
+        "off-audience AI use-case topics",
+        "product discovery variants (fold into /blog/product-discovery/)",
+        "tool roundups",
+        "hubs with a post in the last 3 days: saas-design-agency, mvp-design-agency, chatbot-ui-design"
       ]
     }
   ]

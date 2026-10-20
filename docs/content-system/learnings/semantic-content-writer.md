@@ -162,3 +162,8 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-19: Check every brief FAQ question against the banned hub-phrase list for headings, not only the H2s.
 - 2026-10-19: An H2 holding only part of the central entity doesn't count for salience; decide which sections carry the full phrase in the bold answer and count those toward the density cap.
 - 2026-10-19: An inserted line with no blank line before it merges into the paragraph above (became 5 sentences); FAQ answers need a ≤ 45-word budget from the first draft.
+
+- 2026-10-20 (onboarding-kyc-process-flow): A regulation acronym used as a table label reached 16 uses against 8 for the central entity. In rule-tagged tables and panels use a generic label after the acronym's first use, and keep the 3 strongest rival entities below the central entity's count.
+- 2026-10-20: When search snippets disagree on a rule's text, write only the part every version shares, don't quote it, and flag it (curl law.cornell.edu works when eCFR blocks the container).
+- 2026-10-20: Plan hyponyms as one "the same chart works for X, Y or Z" sentence and synonyms/hypernyms as one contrast sentence before drafting; the first pass covered only 59% of lexical terms.
+- 2026-10-20: Every clause in a bold answer needs its own paragraph in the body; don't end a sentence on a quote followed by more text in the same paragraph.
