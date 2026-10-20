@@ -1,0 +1,27 @@
+[
+  {
+    "marker": "<!-- visual: Wide two-lane swimlane flow chart. Top lane label \"What the customer sees\" with 9 screen tiles; bottom lane label \"What the bank checks\" with the matching check tiles; dashed connectors between lanes; a decision diamond at step 5 fanning to 4 outcome chips (approved, step-up, manual review, declined) at step 6; finish flag \"first funded account\" on step 8; step 9 drawn faded after the flag as background monitoring. File onboarding-kyc-process-flow-swimlane.svg -->",
+    "markdown": "![Two-lane swimlane flow chart of an onboarding KYC process flow with 9 customer screens on top, the bank's matching checks below, 4 outcomes after the automated checks and a finish flag at the first funded account](/blog/onboarding-kyc-process-flow/onboarding-kyc-process-flow-swimlane.svg \"Onboarding KYC process flow as a two-lane swimlane flow chart: 9 customer screens above the bank's checks, ending at the first funded account\")"
+  },
+  {
+    "marker": "<!-- visual: Stacked mobile form mock for a hypothetical neobank checking account with 6 fields; each field has a margin tag naming the rule (identity rule, E-SIGN Act via Regulation DD, product) and the one-line reason shown under the field. File onboarding-kyc-process-flow-field-reasons.svg -->",
+    "markdown": "![Mobile identity form for a hypothetical neobank with margin tags naming the rule behind each field and the one-line reason the customer reads](/blog/onboarding-kyc-process-flow/onboarding-kyc-process-flow-field-reasons.svg \"Identity form field card for a hypothetical neobank: the rule behind each field and the reason line the customer reads\")"
+  },
+  {
+    "marker": "<!-- visual: Phone frame of the hypothetical neobank's ID capture step (step 4 of 9) with 6 numbered callouts: frame guide, glare and blur warning, retake with reason, accepted ID types, \"No camera? Use another way\" link, progress and save. File onboarding-kyc-process-flow-id-capture.svg -->",
+    "markdown": "![Annotated phone screen of an ID document capture step with 6 numbered callouts for frame guide, glare warning, retake, accepted ID types, a no-camera path and progress with save](/blog/onboarding-kyc-process-flow/onboarding-kyc-process-flow-id-capture.svg \"Annotated ID document capture screen: 6 callouts from the frame guide to the no-camera path and save\")"
+  },
+  {
+    "marker": "<!-- visual: Outcome map, not a yes/no diamond chain. One \"automated checks\" node splits into 4 cards (approved, step-up, manual review, declined); each card shows the screen headline, the customer's next action and who owns its rules. File onboarding-kyc-process-flow-outcomes.svg -->",
+    "markdown": "![Outcome map where one automated check node splits into 4 cards for approved, step-up, manual review and declined, each with a headline, next action and rule owner](/blog/onboarding-kyc-process-flow/onboarding-kyc-process-flow-outcomes.svg \"KYC outcome map: approved, step-up, manual review and declined, each with its headline, next action and owner\")"
+  },
+  {
+    "marker": "<!-- visual: The same 5 steps drawn twice side by side. Left: a plain back-office chart (boxes, approvals, systems) ending at \"account created\". Right: the product version with highlighted additions: pending state, decline exit, save-and-resume re-entry, event pins and the consent screen, ending at \"first funded account\". File onboarding-kyc-process-flow-ops-vs-product.svg -->",
+    "markdown": "![Side-by-side comparison of a back-office onboarding chart ending at account created and a product chart that adds waits, exits, re-entry points, events and disclosures and ends at the first funded account](/blog/onboarding-kyc-process-flow/onboarding-kyc-process-flow-ops-vs-product.svg \"Back-office onboarding chart vs product chart: what the product version adds, from waits and exits to the first funded account\")"
+  },
+  {
+    "frontmatter": {
+      "image": "/blog/onboarding-kyc-process-flow/cover.svg"
+    }
+  }
+]

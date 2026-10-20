@@ -18,6 +18,7 @@ takeaways:
   - "After the automated checks the flow splits 4 ways (approved, step-up, manual review, declined), and each outcome needs its own screen."
   - "The chart ends at the first funded account, because approval alone gives the customer nothing to use."
   - "Compliance sets the rules, the identity vendor runs the checks and design owns order, copy, states and accessibility."
+image: /blog/onboarding-kyc-process-flow/cover.svg
 draft: true
 qa: pending
 ---
@@ -33,8 +34,6 @@ I write as principal user experience (UX) designer for [ui-ux.agency, tkxel's de
 **An onboarding KYC process flow runs in 9 steps from the first screen to a funded account, and one decision point after the checks splits it 4 ways.**
 
 The KYC onboarding process flow chart below is a swimlane flow chart with 2 lanes. The top lane holds the screens. The bottom lane holds the checks your bank or partner bank runs, and every check needs a visible state above it, even when that state only says "We're checking your details."
-
-<!-- visual: Wide two-lane swimlane flow chart. Top lane label "What the customer sees" with 9 screen tiles; bottom lane label "What the bank checks" with the matching check tiles; dashed connectors between lanes; a decision diamond at step 5 fanning to 4 outcome chips (approved, step-up, manual review, declined) at step 6; finish flag "first funded account" on step 8; step 9 drawn faded after the flag as background monitoring. File onboarding-kyc-process-flow-swimlane.svg -->
 
 ![Two-lane swimlane flow chart of an onboarding KYC process flow with 9 customer screens on top, the bank's matching checks below, 4 outcomes after the automated checks and a finish flag at the first funded account](/blog/onboarding-kyc-process-flow/onboarding-kyc-process-flow-swimlane.svg "Onboarding KYC process flow as a two-lane swimlane flow chart: 9 customer screens above the bank's checks, ending at the first funded account")
 
@@ -65,8 +64,6 @@ People often ask for the five stages of onboarding. Read the 9 steps as apply (s
 For a US person, the identification number is a taxpayer identification number (TIN), which for most consumers is the Social Security number (SSN). The rule also has each bank keep a written, risk-based identity program inside its anti-money laundering (AML) program, and that program decides anything beyond the minimum.
 
 In a bank customer onboarding process flow for consumer checking account opening, those points become the identity form. Say you run a hypothetical neobank that opens checking accounts through a partner bank. Its field card tags every field with the rule behind it and the line the customer reads.
-
-<!-- visual: Stacked mobile form mock for a hypothetical neobank checking account with 6 fields; each field has a margin tag naming the rule (identity rule, E-SIGN Act via Regulation DD, product) and the one-line reason shown under the field. File onboarding-kyc-process-flow-field-reasons.svg -->
 
 ![Mobile identity form for a hypothetical neobank with margin tags naming the rule behind each field and the one-line reason the customer reads](/blog/onboarding-kyc-process-flow/onboarding-kyc-process-flow-field-reasons.svg "Identity form field card for a hypothetical neobank: the rule behind each field and the reason line the customer reads")
 
@@ -103,8 +100,6 @@ Banks and vendors often cite the National Institute of Standards and Technology 
 
 Revision 4 adds controls for injection attacks and forged media. That threat is why vendors add a selfie and liveness check, and why the screen explains it in one line: "We match your face to your ID so no one else can open an account in your name."
 
-<!-- visual: Phone frame of the hypothetical neobank's ID capture step (step 4 of 9) with 6 numbered callouts: frame guide, glare and blur warning, retake with reason, accepted ID types, "No camera? Use another way" link, progress and save. File onboarding-kyc-process-flow-id-capture.svg -->
-
 ![Annotated phone screen of an ID document capture step with 6 numbered callouts for frame guide, glare warning, retake, accepted ID types, a no-camera path and progress with save](/blog/onboarding-kyc-process-flow/onboarding-kyc-process-flow-id-capture.svg "Annotated ID document capture screen: 6 callouts from the frame guide to the no-camera path and save")
 
 <details class="astext"><summary>Show as text</summary>
@@ -130,13 +125,11 @@ The check lane runs identity verification against data sources, fraud signals an
 
 Sanctions checks are one reason a legitimate customer lands in review. [OFAC's Sanctions List Search](https://ofac.treasury.gov/faqs/246) uses fuzzy logic on names, with a slider that sets how close a match must be. A near match on a common name can trigger review, and where the threshold sits is a compliance decision, never the designer's.
 
-<!-- visual: Outcome map, not a yes/no diamond chain. One "automated checks" node splits into 4 cards (approved, step-up, manual review, declined); each card shows the screen headline, the customer's next action and who owns its rules. File onboarding-kyc-process-flow-outcomes.svg -->
-
 ![Outcome map where one automated check node splits into 4 cards for approved, step-up, manual review and declined, each with a headline, next action and rule owner](/blog/onboarding-kyc-process-flow/onboarding-kyc-process-flow-outcomes.svg "KYC outcome map: approved, step-up, manual review and declined, each with its headline, next action and owner")
 
 <details class="astext"><summary>Show as text</summary>
 
-The table compares the 4 outcomes by the headline the customer reads, the action offered and who sets the rules behind it.
+The table compares the 4 outcomes of the automated checks by the headline the customer reads, the action offered and who sets the rules behind it.
 
 Table: KYC outcomes with headline, next action and rule owner
 
@@ -157,7 +150,7 @@ Does your current flow send every non-approval to one "Something went wrong" scr
 
 **While KYC review is pending, the customer sees what is being checked, how long it usually takes from your own data, what happens next and how they will hear back.**
 
-Nothing they entered should be lost, and every message links to the verification status screen. Timing is a compliance question first: the identity rule does not demand that every check finish before the account opens, but it does expect verification within a reasonable time, under risk-based procedures.
+Nothing they entered should be lost, and every message links to the verification status screen. Timing is a compliance question first: the identity rule does not demand that every check finish before the account opens, but it does expect verification within a reasonable time after the account is opened, under risk-based procedures.
 
 Whether your program opens an account before checks finish is for compliance and your partner bank to decide. If it does, the screen states the limits plainly, such as "Deposits are on hold until we finish checking your details." The tracker below keeps timing as placeholders, because the only honest numbers come from your own review queue.
 
@@ -181,8 +174,6 @@ After approval come the disclosures, passkey setup and the funding screen. NIST'
 **A banking client onboarding process flow chart usually maps checks, approvals and systems, and leaves out the screens, waits, exits and re-entry points a customer meets.**
 
 Back-office templates are written for operations staff, so they stop at "account created." The product version runs to the funded account and adds the events a product team measures.
-
-<!-- visual: The same 5 steps drawn twice side by side. Left: a plain back-office chart (boxes, approvals, systems) ending at "account created". Right: the product version with highlighted additions: pending state, decline exit, save-and-resume re-entry, event pins and the consent screen, ending at "first funded account". File onboarding-kyc-process-flow-ops-vs-product.svg -->
 
 ![Side-by-side comparison of a back-office onboarding chart ending at account created and a product chart that adds waits, exits, re-entry points, events and disclosures and ends at the first funded account](/blog/onboarding-kyc-process-flow/onboarding-kyc-process-flow-ops-vs-product.svg "Back-office onboarding chart vs product chart: what the product version adds, from waits and exits to the first funded account")
 
