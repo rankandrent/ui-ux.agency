@@ -222,6 +222,25 @@
         "ai for product design (tool-led intent; revisit with a buyer angle)",
         "hubs with a post in the last 3 days: saas-onboarding-design, saas-design-agency, mvp-design-agency"
       ]
+    },
+    {
+      "date": "2026-10-20",
+      "goal": "daily post: highest-scoring relevant topic",
+      "jobs": [
+        {
+          "hub": "saas-onboarding-design",
+          "keyword": "banking client onboarding process flow chart (cluster: kyc / client onboarding process flow)",
+          "score": 96.8,
+          "format": "step-by-step guide",
+          "angle": "digital account-opening and KYC flow for fintech product teams"
+        }
+      ],
+      "skipped": [
+        "off-audience AI use-case topics",
+        "product discovery variants (fold into /blog/product-discovery/)",
+        "tool roundups",
+        "hubs with a post in the last 3 days: saas-design-agency, mvp-design-agency, chatbot-ui-design"
+      ]
     }
   ]
 }
