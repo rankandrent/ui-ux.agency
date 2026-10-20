@@ -508,6 +508,40 @@
       "visuals": 4,
       "example": "hypothetical payroll and scheduling SaaS for US restaurant groups",
       "date": "2026-10-19"
+    },
+    {
+      "slug": "onboarding-kyc-process-flow",
+      "hub": "saas-onboarding-design",
+      "type": "Article",
+      "funnel": "tofu",
+      "introStyle": "rule-to-screen opener",
+      "h2Frames": [
+        "end-to-end flow",
+        "what to collect and in what order",
+        "document and selfie capture",
+        "branching after checks",
+        "pending review screens",
+        "what ops flow charts miss",
+        "business accounts",
+        "drop-off measurement",
+        "flow chart to signed-off screens",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "How does an onboarding KYC process flow run, end to end?",
+        "What does the KYC process flow collect, and in what order?",
+        "Where do document capture and the selfie fit in the flow?",
+        "How does the KYC flow branch after the checks?",
+        "What should the customer see while KYC review is pending?",
+        "What a banking client onboarding process flow chart misses",
+        "Client onboarding KYC process flow for business accounts",
+        "How do you measure drop-off in the KYC onboarding flow?",
+        "How do you turn the flow chart into signed-off screens?",
+        "FAQs"
+      ],
+      "visuals": 5,
+      "example": "hypothetical neobank",
+      "date": "2026-10-20"
     }
   ]
 }

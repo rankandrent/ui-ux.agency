@@ -19,8 +19,8 @@ takeaways:
   - "The chart ends at the first funded account, because approval alone gives the customer nothing to use."
   - "Compliance sets the rules, the identity vendor runs the checks and design owns order, copy, states and accessibility."
 image: /blog/onboarding-kyc-process-flow/cover.svg
-draft: true
-qa: pending
+draft: false
+qa: pass
 ---
 
 Know your customer (KYC) rules arrive as legal text, so I chart an onboarding KYC process flow with the screens your customer sees on top and the bank's checks underneath. Take the Customer Identification Program (CIP) rule in the Code of Federal Regulations (CFR), [31 CFR 1020.220](https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1020/subpart-B/section-1020.220). It asks a US bank for a name, a date of birth, an address and an identification number before an account opens.

@@ -111,3 +111,10 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-19 (chatbot-design): When a newer survey edition replaces an old figure, write the replacement in the new edition's own question wording and age bracket (Pew 2026: "use" ChatGPT, ages 18–29).
 - 2026-10-19: A California bill "held under submission" in year one of a two-year session can still move in year two; search leginfo and news for second-year actions before calling it dead.
 - 2026-10-19: In each "we/our" sentence, diff the adjectives and nouns describing deliverables or test material against the service file's words, not only the numbers ("every system state", "recorded model answers", "jobs" vs "intents").
+
+- 2026-10-20 (onboarding-kyc-process-flow): When the body scopes a standard's coverage, grep every FAQ and takeaway naming that standard and fail any that applies it outside that scope.
+- 2026-10-20: For every "because" clause in a regulated-flow pattern list, find which provision says who must supply the data; if none does, rewrite it as a design choice ("when your bank's procedures ask for it").
+- 2026-10-20 (method): When .gov hosts fail via WebFetch, domain-limited WebSearch returning exact URLs and quoted text is acceptable; for a FinCEN order, the agency's news release plus two agreeing law-firm write-ups is TRUE but reported as a secondary-source check.
+- 2026-10-20 (loop 2): When a fix must keep a brief term word for word, write the replacement around that term so QA doesn't need to rewrite it.
+- 2026-10-20: When a fix reuses a sentence from a site JSON, paraphrase it (keep nouns, change shape) so the 8-word overlap check passes, and note supporting line numbers.
+- 2026-10-20: For sequence claims about agency method ("before X review"), cite the process-step order as evidence, not one sentence.
