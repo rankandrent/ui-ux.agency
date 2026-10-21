@@ -1,4 +1,4 @@
-# Fact-check: ux-design-for-saas (loop 1)
+# Fact-check: ux-design-for-saas (loop 1, SUPERSEDED by Loop 2 below)
 
 Post: `content/blog/ux-design-for-saas.md` (author `faizan-khan`, dated 2026-10-21) · Checked 2026-10-21
 
@@ -112,4 +112,70 @@ Post: `content/blog/ux-design-for-saas.md` (author `faizan-khan`, dated 2026-10-
 - Lines 181 and 278 also feed the brief's LEGAL FRAME (brief l.483). If the brief outline or any takeaway draft repeats "online cancel … for contracts from July 1, 2025", update it to the same-medium framing.
 - Triage-grid SVG: add the "Metric to pull" column, or drop it from the text panel and visuals marker, so image and panel match (layout rule, not a fact failure).
 
-VERDICT: FAIL
+VERDICT (loop 1, superseded): FAIL
+
+---
+
+## Loop 2 (2026-10-21, current)
+
+Scope: only text changed by QA (`content/briefs/ux-design-for-saas.qa.md`; old → new in `sx-tools/fixes.json`, 38 replacements), plus the three backlink sentences that now point to this post. Line numbers refer to the post as it stands now. WebFetch still fails with `getaddrinfo ENOTFOUND` (re-tried www.w3.org). No external URL or external fact changed in substance, so the loop 1 domain-restricted search evidence still applies. Rewritten sentences that cite external sources were re-checked against that loop 1 quoted text.
+
+### Loop 1 items resolved
+
+| Fix | Post line now | Status | Note |
+|---|---|---|---|
+| F1 | 19 | RESOLVED (as written) | Same-medium framing, AB 2863, July 1, 2025 |
+| F2 | 183 | RESOLVED (as written) | Online cancel is presented as existing law; same-medium as the amendment |
+| F3 | 280 | RESOLVED (changed) | "AB 2863 adds a same-medium rule for contracts from July 1, 2025." Shortening "entered into, amended or extended on or after" to "from" matches takeaway F1 and the full scope is in the body (l.183). TRUE |
+| F4 | 28 | RESOLVED (as written) | home.ts l.206: "Sr. Product Designer" |
+| F5 | 66 | RESOLVED (as written) | Own-words definition, no NN/g wording left |
+| F6 | 86 | RESOLVED (as written) | "the TradeZella case study reports", 40% / 25% as in tradezella.md |
+| F7 | 115 | RESOLVED (changed) | Link dropped; "one score with a separate view for each level" plus org/department/individual and My Digno Score, all per digno.md l.63, 75–79, 83, 87. "Role-level" claim gone. TRUE |
+| F8 | 117 | RESOLVED (as written) | Paraphrases hub l.45 |
+| F9 | 121 | RESOLVED (as written) | Matches NN/g's four tasks |
+| F10 | 138 | RESOLVED (merged) | "fail first" removed; now "In dense tables I check row actions and icon buttons against WCAG 2.2 before anything else." (author method) |
+| F11 | 140 | RESOLVED (as written) | Qualifiers restored per mass-media-co.md l.33, l.92 |
+| F12 | 162 | RESOLVED (changed: split) | "I design …" (method) + "All four belong to the plans-and-billing part of our SaaS design work." Hub l.46 lists all four items under that part. TRUE |
+| F13 | 193 | RESOLVED (as written) | Comparison claim removed |
+| F14 | 230 | RESOLVED (changed: split) | Security review = SSO, SCIM, audit logs, SOC 2 (enterprise.json l.64, l.91, l.170). "Federal buyers also ask for Section 508 conformance." matches enterprise.json l.68 (federal procurement, Revised 508 Standards). It sits after the admin-console sentence, so it no longer reads as part of the security review. TRUE |
+| F15 | 260 | RESOLVED (as written) | |
+| F16 | 272 | RESOLVED (as written) | |
+| F17 | 284 | RESOLVED (as written) | |
+
+All 17 resolved. The loop 1 triage-grid advisory is also resolved: the text panel and header (l.244–248) no longer have a "Metric to pull" column, which matches the SVG (columns: Surface, Symptom you can see, First fix, Your rating).
+
+### New or changed text (QA)
+
+| # | Line | Claim | Verdict | Source |
+|---|---|---|---|---|
+| L2-1 | 26 | Intro: paying customer opens the same screens weekly; hub lists six parts; four of the five left after sign-up/onboarding are post-week-one screens; fifth is a design system, "their shared kit" | TRUE | Same facts as loop 1 #1 (saas-design-agency.json l.40–47); the opener is author framing ("where I judge") |
+| L2-2 | 68, 82 | Dashboard weak version: every metric at once, all the same size; panel "12 equal metric cards with no hierarchy" | TRUE | `ux-design-for-saas-dashboard-teardown.svg`: the weak frame holds exactly 12 identical cards (3 × 4) and its aria-label reads "12 equal metric cards with no hierarchy" |
+| L2-3 | 94 | "The US NIST glossary describes RBAC as access in which permissions attach to roles rather than to individual identities. Roles can also inherit permissions through a hierarchy." | TRUE | https://csrc.nist.gov/glossary/term/role_based_access_control (loop 1 quote: "identified with roles rather than with individual subject identities … inherited through a role hierarchy"). NIST is a US agency |
+| L2-4 | 123 | Split: "NN/g names these four tasks. NN/g adds that tables suit comparison …" | TRUE | https://www.nngroup.com/articles/data-tables/ (loop 1 #14) |
+| L2-5 | 138 | "SC 2.5.8 in WCAG 2.2 sets a Level AA minimum for pointer targets. A target needs at least 24 × 24 CSS pixels, unless a smaller one has enough spacing around it; the criterion lists a few more exceptions." | TRUE | https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html (loop 1 #16): AA, 24 by 24 CSS px, five exceptions, Spacing being one, so four more ("a few") |
+| L2-6 | 154 | Settings weak version: "one long page where a theme toggle sits beside Delete workspace"; destructive actions "make people retype the object's name to confirm" | TRUE (author method) | Illustrative weak version and the author's own pattern; no external claim |
+| L2-7 | 156 | "Every paying account eventually opens one page, the plan" | TRUE (author framing) | A generalization about accounts, not about every user; it is consistent with l.181 (members often cannot upgrade). No number or source claim |
+| L2-8 | 162 | "a usage meter per limit" | TRUE (author method) | Wording change only |
+| L2-9 | 177 | Plan-limit panel: "a red Limit reached banner that offers no next step. For members, the message ends in an Ask your admin to upgrade button." | TRUE | `ux-design-for-saas-plan-limit.svg` has the text "Limit reached", "The weak version is a red banner … offers no next step" and "Ask your admin to upgrade"; visuals.json l.15 marker matches |
+| L2-10 | 214 | Retention bold: "and stays quiet otherwise" cut | TRUE | Wording only |
+| L2-11 | 236 | Triage bold shortened | TRUE | Wording only |
+| L2-12 | 238, 244 | Metrics come from "the map at the top"; panel: "each surface's metric is in the surface map at the top of this post"; rate R/A/G | TRUE | The surface-map table (l.46–54) holds one failure metric per surface, all 7 rows; the triage SVG has R/A/G swatch columns |
+| L2-13 | 284 | FAQ 5: "along with the surface-map metric for the surface you changed" | TRUE | Same surface-map table (l.46–54) |
+
+### Backlinks to this post
+
+| Source | Sentence | Verdict | Check |
+|---|---|---|---|
+| `content/services/saas-design-agency.json` l.25 | "our teardown of UX design for SaaS shows where roles, plan limits and billing go wrong after onboarding" | TRUE | The post has a roles H2 (l.90), a billing/plan-limit H2 with a plan-limit weak-vs-strong figure (l.158–181), and it explicitly covers the period after onboarding (l.26, l.32) |
+| `content/pillars.ts` l.179 | "To choose one, rate each in-product surface first." → `/blog/ux-design-for-saas/#how-do-you-rate-your-own-ux-design-for-saas` | TRUE | H2 l.234 "How do you rate your own UX design for SaaS?" slugs to that id; the section rates each of the 7 surfaces red/amber/green |
+| `content/blog/saas-homepage-design.md` l.194 | "Dashboards, roles and billing are the in-product surfaces behind that promise, each with its own teardown." | TRUE | All three are in-product surfaces in the post's map (l.48–52), and each has its own H2 that sets a weak version against a strong one (l.62, l.90, l.158). The sentence is in third person (no "I" about Faizan's post) |
+
+### Honesty (loop 2)
+
+No new clients, results, testimonials, awards, certifications, team members or offices. The Digno link was dropped, which is fine because Digno still appears as plain text. The only biography line (l.28) matches home.ts l.206 and about.md l.9. The capability lines (l.117, l.162, l.260) match the hub and pillars.ts.
+
+### Fixes required (loop 2)
+
+None.
+
+VERDICT: PASS

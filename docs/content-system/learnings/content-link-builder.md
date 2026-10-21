@@ -66,3 +66,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-20 (onboarding-kyc-process-flow): For agency tools and survey reports, cite the FAQ or press release whose snippet states the claim (OFAC /faqs/246, FDIC press release) and keep the anchor naming the tool or survey.
 - 2026-10-20: When linking a WCAG criterion, check its scope notes (same process, same session) and limit the linked sentence to that scope; flag unlinked copies to the fact-checker.
 - 2026-10-20: For CFR sections with parallel rules in other parts, confirm wording against the exact part and section cited (bank CIP 1020.220 says "after", not "before or after").
+
+- 2026-10-21 (ux-design-for-saas): When the only primary page whose search results show a date is a PDF (FTC ANPRM notice), cite the PDF over a law firm; leave out exact days that no result shows.
+- 2026-10-21: Rebuild every backlink section link from the draft's current H2 with slugify() before handing back old→new strings; H2s change after the brief.
+- 2026-10-21: A backlink sentence names only the topics the target post actually covers.

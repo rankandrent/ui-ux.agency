@@ -95,3 +95,9 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-20 (onboarding-kyc-process-flow): Re-read the exact warehouse row for every keyword named in the task; orchestrator figures can be cluster sums. Record the corrected figure in rejectedCandidates or dataSource.
 - 2026-10-20: When a cluster's top-scoring keyword barely passes the relevance gate, take the sibling with higher measured volume and buyer intent as primary; keep the high-TP one as a secondary with its own H2 and record the swap in primaryChoice.
 - 2026-10-20: The on-page script ignores keyword words of 3 letters or fewer ("KYC"); count keyword-share H2s word by word before writing the salience note.
+
+- 2026-10-21 (ux-design-for-saas): When asked for a shape outside the frontmatter type list ("Framework", "Teardown"), map it to the valid value not used recently and record it in variety.typeNote.
+- 2026-10-21: Mark another silo's posts as skip with the RULES.md reason; use that silo's hub as the single cross-hub link and flag the conflict.
+- 2026-10-21: Before choosing MOFU, check which case study relatedCaseStudies() will show and read its result line; prefer TOFU/BOFU if it is a business figure unrelated to UX.
+- 2026-10-21: When a keyword's parent topic is a brand (e.g. "saasui"), run the overlap check against all of that domain's pages on the topic.
+- 2026-10-21: Phrase legal "value" lines as "the amendment adds X", not the whole statute next to the new date; writers copy them into takeaways and FAQs.

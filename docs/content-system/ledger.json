@@ -125,6 +125,24 @@
         "/industries/fintech/ (KYC and account opening card)",
         "/services/saas-products/saas-onboarding-design/ (account setup step)"
       ]
+    },
+    {
+      "slug": "ux-design-for-saas",
+      "hub": "saas-design-agency",
+      "keyword": "ux design for saas",
+      "date": "2026-10-21",
+      "images": 5,
+      "internalLinks": 9,
+      "externalLinks": 8,
+      "qaLoops": 1,
+      "factLoops": 2,
+      "semanticScore": 94,
+      "opportunityScore": 80.4,
+      "backlinks": [
+        "/services/saas-products/saas-design-agency/ (SaaS-specific patterns paragraph)",
+        "/services/saas-products/ (pillar FAQ: one part of our SaaS product)",
+        "/blog/saas-homepage-design/ (Digno promise line)"
+      ]
     }
   ],
   "audits": [

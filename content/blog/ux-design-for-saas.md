@@ -19,8 +19,8 @@ takeaways:
   - "California's Automatic Renewal Law, amended by AB 2863 for contracts from July 1, 2025, requires cancellation in the same medium the consumer used to sign up."
   - "Rate each surface red, amber or green and fix the reddest one first; one surface can be a project on its own."
 image: /blog/ux-design-for-saas/cover.svg
-draft: true
-qa: pending
+draft: false
+qa: pass
 ---
 
 A paying customer of a software as a service (SaaS) product opens the same screens every week, and those screens are where I judge user experience (UX) work. So UX design for SaaS, as I review it, starts after the first-run flow. Our [SaaS design agency](/services/saas-products/saas-design-agency/) lists six parts it designs for a subscription product. Take sign-up and onboarding off that list, and four of the five parts left are screens used long after week one; the fifth, a design system, is their shared kit.
