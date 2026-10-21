@@ -176,7 +176,7 @@ export const pillars: Pillar[] = [
     faqHeading: "SaaS product design FAQs",
     faqs: [
       { q: "Do you design B2B and B2C SaaS products?", a: "Yes. Most of our SaaS work is B2B software with roles and permissions, and we also design self-serve B2C subscription apps." },
-      { q: "Can you work on one part of our SaaS product?", a: "Yes. Onboarding, a dashboard, billing or a single workflow are common starting points." },
+      { q: "Can you work on one part of our SaaS product?", a: "Yes. Onboarding, a dashboard, billing or a single workflow are common starting points. To choose one, <a href=\"/blog/ux-design-for-saas/#how-do-you-rate-your-own-ux-design-for-saas\">rate each in-product surface</a> first." },
       { q: "Do you build a design system for our SaaS product?", a: "Yes. Larger projects include a Figma component library with tokens that match your front-end code." },
       { q: "How do you measure SaaS product design results?", a: "We agree 2 or 3 metrics at kick-off, such as activation rate or time to first value, and compare them before and after release." },
     ],

@@ -22,7 +22,7 @@
       "h2": "What does a SaaS design agency do?",
       "format": "paragraph",
       "answer": "<strong>A SaaS design agency designs every screen a customer touches between the free trial and the renewal, and measures that work against activation and retention.</strong> It is product design for software that earns its revenue month after month.",
-      "body": "<p>SaaS products have patterns most other software lacks: trials, seats, roles, permissions, usage limits, plan upgrades and invoices. Each pattern is a place where users get stuck or leave. Our designers study where trial users stop, then design the shortest path to the first moment of value. For products that already have paying customers and an aging interface, the work becomes a <a href=\"/services/saas-products/saas-product-redesign/\">SaaS product redesign</a>.</p>",
+      "body": "<p>SaaS products have patterns most other software lacks: trials, seats, roles, permissions, usage limits, plan upgrades and invoices. Each pattern is a place where users get stuck or leave, and our <a href=\"/blog/ux-design-for-saas/\">teardown of UX design for SaaS</a> shows where roles, plan limits and billing go wrong after onboarding. Our designers study where trial users stop, then design the shortest path to the first moment of value. For products that already have paying customers and an aging interface, the work becomes a <a href=\"/services/saas-products/saas-product-redesign/\">SaaS product redesign</a>.</p>",
       "image": {
         "src": "/images/services/saas-design-agency.svg",
         "alt": "SaaS dashboard layout with a sidebar, an onboarding checklist at 3 of 5 steps, a usage chart and a plan upgrade card",

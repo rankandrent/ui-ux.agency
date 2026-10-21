@@ -16,16 +16,16 @@ takeaways:
   - "Seven in-product surfaces keep or lose a paying customer after onboarding, from the dashboard to the retention loops."
   - "Pair each surface with one failure metric from your own analytics or support queue, such as access requests for roles."
   - "A plan-limit message answers four things in order: what stopped, what still works, what it costs to continue and who approves."
-  - "California's amended Automatic Renewal Law lets consumers who signed up online cancel online, for contracts from July 1, 2025."
+  - "California's Automatic Renewal Law, amended by AB 2863 for contracts from July 1, 2025, requires cancellation in the same medium the consumer used to sign up."
   - "Rate each surface red, amber or green and fix the reddest one first; one surface can be a project on its own."
 image: /blog/ux-design-for-saas/cover.svg
 draft: true
 qa: pending
 ---
 
-When I review user experience (UX) work on software as a service (SaaS) products, I judge UX design for SaaS by the screens a paying customer opens every week, not by the first-run flow. Our [SaaS design agency](/services/saas-products/saas-design-agency/) lists six parts it designs for a subscription product. Take sign-up and onboarding off that list, and four of the five parts left are screens people use long after their first week. The fifth, a design system, is the kit those screens share.
+A paying customer of a software as a service (SaaS) product opens the same screens every week, and those screens are where I judge user experience (UX) work. So UX design for SaaS, as I review it, starts after the first-run flow. Our [SaaS design agency](/services/saas-products/saas-design-agency/) lists six parts it designs for a subscription product. Take sign-up and onboarding off that list, and four of the five parts left are screens used long after week one; the fifth, a design system, is their shared kit.
 
-The [ui-ux.agency team at tkxel](/about/) has designed 200+ products since 2017, and I'm one of its senior product designers. This teardown splits in-product UX into seven surfaces and sets a weak version against a strong one for each, with the metric that shows the surface failing. The first-run flow belongs to onboarding, and [the promise your homepage makes](/blog/saas-homepage-design/) has its own guide, so neither is repeated here. The last section turns the seven surfaces into a triage grid you can fill in.
+The [ui-ux.agency team at tkxel](/about/) has designed 200+ products since 2017, and I work on that team as a senior product designer. This teardown splits in-product UX into seven surfaces and sets a weak version against a strong one for each, with the metric that shows the surface failing. The first-run flow belongs to onboarding, and [the promise your homepage makes](/blog/saas-homepage-design/) has its own guide, so neither is repeated here. The last section turns the seven surfaces into a triage grid you can fill in.
 
 ## Which surfaces decide UX design for SaaS after onboarding?
 
@@ -63,7 +63,7 @@ A returning user lands on the home screen first, so I start there.
 
 **In UX design for SaaS, a dashboard first answers one question at a glance: is my work on track, and what do I do next?**
 
-A dashboard is a set of data visualizations in a single-page view, built to give at-a-glance information people can act on quickly. Length and position, as in bar and line charts, are processed preattentively, before conscious attention starts. So status numbers belong in those forms, and secondary metrics wait one click away.
+A dashboard gathers the charts and numbers a person checks most often onto one screen, so status reads at a glance and the next step comes quickly. Length and position, as in bar and line charts, are processed preattentively, before conscious attention starts. So status numbers belong in those forms, and secondary metrics wait one click away.
 
 The weak version puts every metric on screen at once, all at the same size. The strong one leads with status, then what changed since the last visit, then up to 3 next actions, with detail on demand.
 
@@ -79,9 +79,11 @@ The 5 callouts on the strong version:
 4. **Drill-down link:** detail on demand, off the first screen.
 5. **Bar and line charts for status:** numbers read by length and position.
 
+The weak version shows 12 equal metric cards with no hierarchy.
+
 </details>
 
-[TradeZella's dashboard redesign](/case-studies/tradezella/) shows the move from crowded to focused. The case study describes a busy interface that hid the metrics traders cared about most. We pulled ratios such as win rate and profit factor into compact widgets and let each trader pick and arrange their own. Across the whole web and mobile redesign, with dashboard analytics as its main focus, TradeZella reports 40% more user interaction and 25% higher user retention.
+[TradeZella's dashboard redesign](/case-studies/tradezella/) shows the move from crowded to focused. The case study describes a busy interface that hid the metrics traders cared about most. We moved ratios like win rate and profit factor into small widgets and let each trader choose and arrange their own. Across the whole web and mobile redesign, with dashboard analytics as its main focus, the TradeZella case study reports 40% more user interaction and 25% higher user retention.
 
 The user interface (UI) layer of color, type and density matters in SaaS UI UX design only once the screen asks the right question. Write that question for your main role in one line before you move a single dashboard widget. An answer that is right for an admin can be wrong for a guest, which brings in roles.
 
@@ -89,7 +91,7 @@ The user interface (UI) layer of color, type and density matters in SaaS UI UX d
 
 **In UX design for SaaS, roles change what each person sees and can do on one screen, and a blocked action explains why and offers a way to request access.**
 
-The [National Institute of Standards and Technology (NIST) glossary](https://csrc.nist.gov/glossary/term/role_based_access_control) describes role-based access control (RBAC) as access in which permissions attach to roles rather than to individual identities. Roles can also inherit permissions through a hierarchy. So I design permissions UX per role. I draw one screen once for an admin, once for a member and once for a guest, then test it with a role switcher in the prototype.
+The US [National Institute of Standards and Technology (NIST) glossary](https://csrc.nist.gov/glossary/term/role_based_access_control) describes role-based access control (RBAC) as access in which permissions attach to roles rather than to individual identities. Roles can also inherit permissions through a hierarchy. So I design permissions UX per role. I draw one screen once for an admin, once for a member and once for a guest, then test it with a role switcher in the prototype.
 
 ![The same SaaS project screen seen by an admin, a member and a guest, plus a no-permission state with the admin's avatar and a Request access button, each beside what the role sees, can do and meets when blocked](/blog/ux-design-for-saas/ux-design-for-saas-role-lens.svg "Roles and permissions in a SaaS interface: one screen through three roles and a request-access state")
 
@@ -110,15 +112,15 @@ Table: One SaaS project screen by role, with the blocked state
 
 I hide modules a role can never use, because a control nobody can unlock is noise. I disable a control with a one-line reason when the person can get access by asking. When a permission is missing, the screen offers to request access from a named admin, so the request-access screen reaches a person instead of a generic error.
 
-[Digno's three-level scores](/case-studies/digno/) show role-level views at product scale. Digno computes one score at the organization, department and individual level, and each employee's My Digno Score page explains the factors behind the number. The organization overview, the department pages and the personal score page each serve one level.
+Digno's three-level scores show one score with a separate view for each level. Digno computes that score at the organization, department and individual level, and each employee's My Digno Score page explains the factors behind the number.
 
-Does your product show one "Access denied" page to every role? That gap is the roles and settings work our team designs: admin, member and guest views, permissions, integrations and audit logs. We agree on 2 or 3 metrics at kick-off to judge it. Roles decide which rows a person sees; the table decides whether they can work with them.
+Does your product show one "Access denied" page to every role? That gap is the roles and settings work our team designs: views for admins, members and guests, plus permissions, integrations and audit logs. We agree on 2 or 3 metrics at kick-off to judge it. Roles decide which rows a person sees; the table decides whether they can work with them.
 
 ## Which 4 jobs must SaaS data tables support?
 
-**SaaS data tables work when they support the jobs people bring to them: find records, compare them, view or edit one row and act on many rows at once.**
+**SaaS data tables work when they support four jobs: find records, compare them, view, edit or add one row and act on one record or many at once.**
 
-In [its article on data tables](https://www.nngroup.com/articles/data-tables/), Nielsen Norman Group (NN/g) names these four tasks and says tables suit comparison, because people see two data points at once without holding them in working memory. Two details carry most of the weight in my data table design. A readable record identifier sits in the first column, and a side panel opens one row while the table stays in view.
+In [its article on data tables](https://www.nngroup.com/articles/data-tables/), Nielsen Norman Group (NN/g) names these four tasks. NN/g adds that tables suit comparison, because people see two data points at once without holding them in working memory. Two details carry most of the weight in my data table design. A readable record identifier sits in the first column, and a side panel opens one row while the table stays in view.
 
 The matrix below pairs each task with the pattern that serves it and the symptom that shows it failing.
 
@@ -133,9 +135,9 @@ Table: Data table tasks, the pattern that serves each and the failure symptom
 
 In my tables, a batch actions toolbar appears as soon as rows are selected, and people leave batch mode by canceling or deselecting every row. I ship a data table with bulk actions only when that toolbar shows how many rows are selected, so nobody deletes records they cannot see.
 
-[Web Content Accessibility Guidelines (WCAG) 2.2 Success Criterion 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html) sets pointer targets at Level AA to at least 24 × 24 Cascading Style Sheets (CSS) pixels, or enough spacing around smaller ones, with listed exceptions. Row actions and icon buttons in dense tables are where WCAG 2.2 targets fail first, so I check them before anything else.
+[Success Criterion 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html) in version 2.2 of the Web Content Accessibility Guidelines (WCAG) sets a Level AA minimum for pointer targets. A target needs at least 24 × 24 Cascading Style Sheets (CSS) pixels, unless a smaller one has enough spacing around it; the criterion lists a few more exceptions. In dense tables I check row actions and icon buttons against WCAG 2.2 before anything else.
 
-The [Mass Media Co. order platform](/case-studies/mass-media-co/) shows tables and workflow designed together. Order work had been spread across tools that did not talk to each other. On the new order screen, the team combines services, channels and data products into one order, and the estimated cost updates as items are added. For the whole platform revamp, the case study reports order processing efficiency up 30% and an order processing error rate of 2+, reduced from 25%.
+The [Mass Media Co. order platform](/case-studies/mass-media-co/) shows tables and workflow designed together. Order work used to be spread over several disconnected tools. On the new order screen, one order can mix data processing services and digital channels with data products, and the cost estimate refreshes with each added item. For the whole platform revamp, the case study reports order processing efficiency up 30% and an order processing error rate of 2+, reduced from 25%.
 
 Saved views and column choices live somewhere, and that somewhere is settings.
 
@@ -149,15 +151,15 @@ In [his article on progressive disclosure](https://www.nngroup.com/articles/prog
 - **Workspace settings:** integrations, defaults and shared views, because a change here affects the whole team.
 - **Admin controls:** members, roles, security and billing access, because only an admin can carry the risk of a change.
 
-Products with dozens of controls need a settings search, so people type a setting's name instead of guessing its section. Destructive actions such as deleting a workspace or removing a member sit apart from everyday options. They ask the user to type the object's name to confirm, and they stay reversible for a set period where the data model allows.
+The weak version is one long page where a theme toggle sits beside Delete workspace. Products with dozens of controls need a settings search, so people type a setting's name instead of guessing its section. Destructive actions such as deleting a workspace or removing a member sit apart from everyday options. They make people retype the object's name to confirm, and they stay reversible for a set period where the data model allows.
 
-Sort your current settings into those three groups before you redraw a single page. One setting every subscriber eventually opens is the plan, and that is where SaaS UX touches revenue.
+Sort your current settings into those three groups before you redraw a single page. Every paying account eventually opens one page, the plan, and that is where SaaS UX touches revenue.
 
 ## How should SaaS billing, plan limits and cancellation work?
 
 **SaaS billing screens show the plan, usage against its limits and the next charge, turn a limit into a clear choice and let people cancel the way they signed up.**
 
-Good billing UX puts the current plan, a usage meter for each of the usage limits, the next charge with its date, invoice history and the payment method on one screen. I show the usage meter before the limit, at a warning threshold you choose, so the limit never arrives as a surprise. Our plans-and-billing work treats upgrade prompts, usage limits, invoices and the cancellation flow as one path, because the customer walks it as one.
+Good billing UX puts the current plan, a usage meter per limit, the next charge with its date, invoice history and the payment method on one screen. I show the usage meter before the limit, at a warning threshold you choose, so the limit never arrives as a surprise. I design upgrade prompts, usage limits, invoices and the cancellation flow as one path, because the customer walks it as one. All four belong to the plans-and-billing part of our SaaS design work.
 
 When someone hits one of the plan limits, the message answers four questions in a fixed order.
 
@@ -172,13 +174,13 @@ The four parts of a plan-limit message, in order:
 3. **What it costs to continue:** the plan upgrade or add-on and its price.
 4. **Who can approve it:** the user, or a named approver who receives a request.
 
-The weak version is a red banner that says the limit was reached and offers no next step.
+The weak version is a red Limit reached banner that offers no next step. For members, the message ends in an Ask your admin to upgrade button.
 
 </details>
 
 In business-to-business (B2B) products, the member who hits a plan limit often cannot upgrade. So the upgrade prompt routes a request to the admin instead of opening a checkout page.
 
-Cancellation has US rules behind it. For consumer subscriptions, [Assembly Bill (AB) 2863](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2863) amended the California Automatic Renewal Law for contracts entered into, amended or extended on or after July 1, 2025. A consumer who accepted the offer online must be able to cancel online, and cancellation must be available in the same medium used to sign up.
+Cancellation has US rules behind it. For consumer subscriptions, [Assembly Bill (AB) 2863](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2863) amended the California Automatic Renewal Law for contracts entered into, amended or extended on or after July 1, 2025. The law already lets a consumer who accepted the offer online cancel online, and the amendment adds that cancellation must be available in the same medium the consumer used to sign up.
 
 Federally, the Eighth Circuit vacated the Federal Trade Commission (FTC) click-to-cancel rule on July 8, 2025, as the FTC recounts in [its March 2026 advance notice of proposed rulemaking](https://www.ftc.gov/system/files/ftc_gov/pdf/p064202negativeoptionruleanprm.pdf). The Restore Online Shoppers' Confidence Act (ROSCA) still applies, and the FTC reads it as [requiring clear terms, express informed consent and an easy way to stop the recurring charge](https://www.ftc.gov/business-guidance/blog/2019/03/recipe-rosca-violation). Counsel decides which rules cover your contracts; design makes the cancel path easy to find on the billing page.
 
@@ -188,7 +190,7 @@ A limit message is a system state, and so are the blank, slow and broken screens
 
 **Good UX design for SaaS gives every state a returning user hits, from an empty filter to a failed sync, two things: what happened and the next action.**
 
-NN/g's [guidelines for empty states in complex applications](https://www.nngroup.com/articles/empty-state-interface-design/) give a blank container 3 jobs. It should tell people what the system is doing, help them learn the feature and hand them a shortcut into the main task. Most advice stops at the first-run screen, but a returning user meets more empty states than a new one: a filter that matches nothing, records someone deleted, a sync that failed.
+NN/g's [guidelines for empty states in complex applications](https://www.nngroup.com/articles/empty-state-interface-design/) give a blank container 3 jobs. It should tell people what the system is doing, help them learn the feature and hand them a shortcut into the main task. Empty states are not only a first-run problem: a returning user meets them too, in a filter that matches nothing, records someone deleted or a sync that failed.
 
 The matrix below lists each state a returning user can hit, what they need to know and the one action to offer.
 
@@ -209,7 +211,7 @@ First-run empty states and setup checklists belong to [SaaS onboarding design](/
 
 ## Which retention loops bring SaaS users back?
 
-**Retention loops bring SaaS users back when each message points to new work that matters to them, such as a mention, an approval or a changed number, and stays quiet otherwise.**
+**Retention loops bring SaaS users back when each message points to new work that matters to them, such as a mention, an approval or a changed number.**
 
 I pick between an indicator, a validation and a notification by the type of information, its urgency and whether the user has to act. Each notification gets an urgency level before it gets a channel. Action-required events, such as an approval waiting, interrupt in the product and by email. Passive events collect in a notification center and a weekly digest.
 
@@ -225,37 +227,37 @@ In B2B products every surface has two readers, the person who pays and the perso
 
 For roles, the admin reads an audit log of who changed what, next to members, roles and single sign-on (SSO) in the admin console. For tables, teams turn shared filters into saved views and exports, so one person's setup becomes the team's report. For billing, finance needs invoices it can file, and upgrades wait for approval, which is why the limit message names an approver.
 
-Enterprise buyers add a security review of SSO, System for Cross-domain Identity Management (SCIM) provisioning, audit logs, System and Organization Controls 2 (SOC 2) evidence and Section 508 conformance. That review shapes [admin consoles that pass security reviews](/industries/enterprise/), a layer that sits on top of the surfaces above.
+Enterprise buyers add a security review of SSO, System for Cross-domain Identity Management (SCIM) provisioning, audit logs and System and Organization Controls 2 (SOC 2) evidence. That review shapes [admin consoles that pass security reviews](/industries/enterprise/), a layer that sits on top of the surfaces above. Federal buyers also ask for Section 508 conformance.
 
 In business-to-consumer (B2C) products one person is buyer and user at once, so the consumer cancellation rules in the billing section bite harder. Write down who pays and who works in your product before you score anything. With seven surfaces and two readers, UX design for SaaS needs a way to choose where to start.
 
 ## How do you rate your own UX design for SaaS?
 
-**Rate your own UX design for SaaS by marking each of the 7 surfaces red, amber or green on one visible symptom and one metric, then fix the reddest surface first.**
+**Rate your own UX design for SaaS by marking each of the 7 surfaces red, amber or green on one symptom and one metric, then fix the reddest first.**
 
-Pull each metric from your analytics and support tickets, then watch 3 users work through each surface in recorded sessions. A row turns red when the symptom shows up in those sessions and the metric moves the wrong way. It turns amber when only one of the two does, and green when neither does.
+Pull each surface's metric from the map at the top, using your analytics and support tickets, then watch 3 users work through each surface in recorded sessions. A row turns red when the symptom shows up in those sessions and the metric moves the wrong way. It turns amber when only one of the two does, and green when neither does.
 
 ![Triage grid for UX design for SaaS: seven in-product surfaces, each with a visible symptom, a first fix and blank red, amber and green swatches to rate it](/blog/ux-design-for-saas/ux-design-for-saas-triage-grid.svg "Triage grid for UX design for SaaS: rate each in-product surface red, amber or green")
 
 <details class="astext"><summary>Show as text</summary>
 
-This table lists each surface with the symptom to look for, the metric to pull and the first fix. The last column is yours to fill in.
+This table lists each surface with the symptom to look for and the first fix; each surface's metric is in the surface map at the top of this post. The last column is yours to fill in: mark each row red (R), amber (A) or green (G).
 
 Table: Triage grid for rating seven in-product surfaces
 
-| Surface | Symptom you can see | Metric to pull | First fix | Your rating |
-|---|---|---|---|---|
-| Dashboard. | Users open other tools to check status. | Return visits to the home screen. | Lead with status, change and next actions. | |
-| Roles and permissions. | Tickets asking who can do what. | Access requests and permission tickets. | Add a request-access screen that names the approver. | |
-| Data tables. | Exports to spreadsheets for filtering. | Task time and bulk-action use. | Add saved views and a bulk action toolbar. | |
-| Settings. | Users ask support where a setting lives. | Settings-related tickets. | Split personal, workspace and admin settings. | |
-| Plans and billing. | Surprise at the limit or the charge. | Upgrade starts and completed cancellations. | Add a usage meter and a four-part limit message. | |
-| System states. | Blank screens and lost input. | Recovery after an error. | Give each state a message and one action. | |
-| Retention loops. | Notifications muted or ignored. | Weekly active use and retention. | Tie each message to new work for that user. | |
+| Surface | Symptom you can see | First fix | Your rating |
+|---|---|---|---|
+| Dashboard. | Users open other tools to check status. | Lead with status, change and next actions. | |
+| Roles and permissions. | Tickets asking who can do what. | Add a request-access screen that names the approver. | |
+| Data tables. | Exports to spreadsheets for filtering. | Add saved views and a bulk action toolbar. | |
+| Settings. | Users ask support where a setting lives. | Split personal, workspace and admin settings. | |
+| Plans and billing. | Surprise at the limit or the charge. | Add a usage meter and a four-part limit message. | |
+| System states. | Blank screens and lost input. | Give each state a message and one action. | |
+| Retention loops. | Notifications muted or ignored. | Tie each message to new work for that user. | |
 
 </details>
 
-A project can start with one surface. In our [SaaS product design](/services/saas-products/) work, onboarding, a dashboard, billing or a single workflow are common starting points. When three or more rows come up red, look at a full engagement across [the six product parts we design](/services/saas-products/saas-design-agency/#what-does-our-saas-design-agency-deliver).
+A project can start with one surface. In our [SaaS product design](/services/saas-products/) work, common first projects are onboarding, a dashboard, billing or one workflow. When three or more rows come up red, look at a full engagement across [the six product parts we design](/services/saas-products/saas-design-agency/#what-does-our-saas-design-agency-deliver).
 
 I'd fill in the grid with whoever reads your support tickets, then fix the reddest row before you redesign anything else.
 
@@ -267,7 +269,7 @@ Yes. Subscription software adds patterns most web apps lack, such as trials, sea
 
 ### Which surface should we fix first after onboarding?
 
-Fix the surface your triage grid marks reddest, where the symptom shows in sessions and the metric moves the wrong way. One surface can be a project on its own, and a dashboard, billing or a single workflow are common starting points.
+Fix the surface your triage grid marks reddest, where the symptom shows in sessions and the metric moves the wrong way. One surface can be a project on its own; a dashboard, billing or one workflow often comes first.
 
 ### Should every role see the same home screen?
 
@@ -275,8 +277,8 @@ No. Each role sees the status and next actions it can act on, and modules a role
 
 ### Which US rules shape SaaS cancellation screens?
 
-For consumer subscriptions, California's amended Automatic Renewal Law requires online cancellation when the customer signed up online, for contracts entered into, amended or extended from July 1, 2025. The FTC's click-to-cancel rule was vacated in July 2025, but ROSCA still applies.
+For consumer subscriptions, California's Automatic Renewal Law lets people who signed up online cancel online, and AB 2863 adds a same-medium rule for contracts from July 1, 2025. The FTC's click-to-cancel rule was vacated in July 2025, but ROSCA still applies.
 
 ### How do you measure in-product UX after launch?
 
-Pick 2 or 3 metrics before work starts; we usually agree on activation rate, time to first value and trial-to-paid conversion at kick-off. Compare them before and after release, along with the grid metric for the surface you changed.
+Pick 2 or 3 metrics before work starts; at kick-off we usually settle on time to first value, activation rate and trial-to-paid conversion. Compare them before and after release, along with the surface-map metric for the surface you changed.
