@@ -1,0 +1,478 @@
+{
+  "slug": "ux-design-for-saas",
+  "keyword": "ux design for saas",
+  "secondary": [
+    "b2b saas design",
+    "saas ux",
+    "ux for saas",
+    "saas ui ux design",
+    "saas ux design patterns"
+  ],
+  "metaKeywordVariants": ["ux design saas", "ux saas", "saas ux design", "saas ux best practices", "in-product ux"],
+  "intent": "Informational with commercial investigation (Ahrefs intents for 'ux design for saas': informational + commercial). Page 1 (WebSearch 2026-10-21): practitioner guides (heymarvin.com/resources/saas-ux-design, ramotion.com/blog/saas-ux-design, wearetenet.com/blog/saas-ux-design, solutelabs saas-ux-research) mixed with Dribbble service listings (3 of 9 results). The Ahrefs parent topic is 'saasui', the brand of saasui.design, a curated SaaS UI pattern library whose blog runs one pattern post per surface (permissions, settings, billing, usage limits). Searchers: SaaS founders, product managers and design leads who want to know what good SaaS UX looks like in their own product; a share are designers learning the craft. The guides are principle lists (clarity, consistency, feedback, onboarding first, dashboards as cards). None walks a product team through the screens a PAYING customer uses every week, surface by surface, with a metric per surface. That is our angle: in-product UX after onboarding.",
+  "volume": 150,
+  "kd": 5,
+  "trafficPotential": 400,
+  "cpc": 250,
+  "cpcUnit": "cents (Ahrefs)",
+  "parentTopic": "saasui",
+  "clusterVolume": 450,
+  "clusterVolumeNote": "Primary + secondaries with measured Ahrefs rows: 150 (ux design for saas) + 200 (b2b saas design) + 100 (saas ux) = 450, plus 'ux for saas' 150 (no KD row), 'saas ui ux design' 60 and 'saas ux design patterns' 40. Do not present any sum as the page's volume. Orchestrator figures checked against the exact rows: 'saas ui design' cluster 240 is the blog-opportunities sumVolume of 3 rows (ux saas 150 + saas ui ux design 60 + saas ui/ux 30); 'b2b saas design' 350 is 2 rows (b2b saas design 200 + b2b saas website design 150); 'ux saas' 150/KD 0, 'saas ux' 100/KD 7 and 'ux design for saas' 150/KD 5/TP 400 are exact single rows.",
+  "dataSource": "Ahrefs US rows in docs/content-system/warehouse/2026-10-19-terms-saas-ux.json (pulled 2026-10-19): 'ux design for saas' 150 / KD 5 / CPC 250 / parent 'saasui' / TP 400 / informational + commercial; 'ux design saas' 200 / KD 1 / TP 400 / parent 'saas design services'; 'ux saas' 150 / KD 0 / TP 350 / parent 'saas ui design'; 'saas ux design' 150 / KD 0 / TP 20 / parent 'saas designers'; 'ux for saas' 150 / KD null; 'saas ux' 100 / KD 7 / TP 250 / parent 'saas ux design'; 'saas ui ux design' 60 / KD 5 / TP 400 / parent 'saas ui design'; 'saas ux design patterns' 40 / KD null. 'b2b saas design' 200 / KD 0 / CPC 300 / TP 100 / own parent from docs/content-system/warehouse/2026-10-19-terms-saas-design.json. No warehouse SERP file exists for any of these keywords; page 1 comes from WebSearch on 2026-10-21. Semrush called once on 2026-10-21: no_api_units. No GSC export (docs/data/gsc/latest.json missing). AHREFS_API_KEY not used: this run had no shell (Read/Write/Grep/Glob/WebSearch/WebFetch only); the warehouse file is the Ahrefs pull of 2026-10-19. DEVIATION from the 2026-10-12 owner rule (Semrush or GSC): measured Ahrefs volume used, as in every 2026-10-15 to 2026-10-20 brief. WebFetch returned ENOTFOUND for every competitor domain tried (ramotion.com, heymarvin.com, wearetenet.com, saasui.design, adamfard.com) and for uiuxdesignservices.us; competitor coverage comes from search snippets.",
+  "dataSourceDate": "2026-10-21",
+  "primaryChoice": "Primary 'ux design for saas' (150, KD 5, TP 400) over the siblings. (1) 'b2b saas design' has more volume (200, KD 0) but TP 100 vs 400, a narrower audience (B2B only), and 2 of the 9 page-1 results for it are Dribbble listings and a website-design guide (designmonks 'b2b saas website design best practices'), which pulls toward the homepage post. It is kept as the lead secondary with its own H2 (hyponym). (2) 'ux design saas' (200, KD 1, TP 400) is the same words in broken order, and its parent topic is 'saas design services', a commercial service SERP that sits on the hub's intent. It goes into meta keywords only. (3) 'ux saas' (150, KD 0) has no grammatical carrier; meta keywords only. (4) 'saas ux design' (150, KD 0) has TP 20 and the parent 'saas designers' (hiring intent), and the sister site's /services/saas-ux-design/ probably targets it; one body use at most. 'ux design for saas' has a natural carrier, the highest TP among grammatical phrasings, and a parent topic owned by a pattern library rather than a service page. That makes it the safest informational target next to the commercial hub.",
+  "score": 80.4,
+  "expectedMonthlyTraffic": 120,
+  "opportunity": "docs/content-system/blog-opportunities.json: topic 'saasui' (main 'ux design for saas', score 80.4, expectedMonthlyTraffic 120, format 'complete guide (definition, process, examples, checklist)', no serp block). Siblings served as secondaries: 'saas ui design' (main 'ux saas', 75.6), 'b2b saas design' (75.4), 'saas ux design' (main 'saas ux', 72.5), 'saas designers' (main 'saas ux design', 68.9). Ledger run 2026-10-21 job: 'ux design for saas (cluster: saas ui design, ux saas, saas ux design)'. Format deviation: the opportunity says 'complete guide'. Recent types (Guide, Guide, Checklist, Article) and the orchestrator ask for a different shape, so this is a surface-by-surface teardown (frontmatter type: Comparison). It still covers the guide modules: process (per surface), examples (case studies), checklist (triage grid).",
+  "hub": "saas-design-agency",
+  "hubUrl": "/services/saas-products/saas-design-agency/",
+  "hubUrlVerified": "content/services/saas-design-agency.json (category 'SaaS products'); pillar slug 'saas-products' at content/pillars.ts line 108; same URL linked from content/case-studies/tradezella.md line 109 and content/blog/saas-homepage-design.md line 30.",
+  "pillar": "saas-products",
+  "services": ["saas-design-agency"],
+  "industries": [],
+  "industriesWhy": "Leave empty. [enterprise] would pull Digno/Mass Media into the rail by industry and make the post read as enterprise UX (the industry page's keyword). [fintech] would frame it around TradeZella only.",
+  "author": "faizan-khan",
+  "authorWhy": "Faizan Khan is Sr. Product Designer (content/home.ts line 206; authors.json bio empty). In-product UX (dashboards, roles, tables, billing, states) is core product-design work. Rotation: last byline saas-onboarding (2026-10-13), 7 posts ago. Rejected: Ahmad Ullah (onboarding-kyc-process-flow, yesterday), Saliha Shahzad (chatbot-design, 2026-10-19), Sahar Asif (how-to-design-an-mvp, 2026-10-18; KAM role fits procurement topics), Shahmir Farooq (wrote this silo's only post, 2026-10-17; communication design), Talha Saleem (Senior UI/UX Designer, 2026-10-16; would also fit, second choice).",
+  "funnel": "tofu",
+  "funnelWhy": "Silo count (published frontmatter, services[0] = saas-design-agency): saas-homepage-design = mofu. TOFU 0% (target 50), MOFU 100% (target 30), BOFU 0% (target 20). TOFU is furthest below target (-50 vs BOFU -20). firstPostsPerSilo asks for 1 BOFU + 1 MOFU, but the SERP has no cost, pricing or agency-comparison pages (guides plus Dribbble listings), so it is not BOFU (lesson 2026-10-06). The minimum service-support for TOFU is 3; this topic scores 4. MOFU CTA RISK (orchestrator asked to flag it): if anyone switches funnel to mofu, app/blog/[slug]/page.tsx lines 107–121 show cases[0] from relatedCaseStudies(), sorted date-desc with Digno, Mass Media Co. and Vocable tied on 2026-10-09. The probable first card is Digno ('See how we did this for Digno: Overall revenue up 5x'), a business result the case study does not attribute to UX. TOFU shows the checklist CTA and avoids this. Next post in this silo: BOFU. The hub owns cost, deliverables, process and vs in-house, so test a buyer-action query such as 'saas design agency rfp / brief', 'saas ux audit' or 'saas design partner sprint' (warehouse 2026-10-14 SERP file exists).",
+  "serviceSupport": 4,
+  "serviceSupportWhy": "A founder or PM who searches 'ux design for saas' and finds their dashboard, roles, billing or tables scoring red is the buyer of the hub's deliverables 'Dashboards and reports', 'Roles and settings', 'Plans and billing' and 'Core workflows' (hub section 2). Not a 5: part of the audience are designers learning SaaS patterns.",
+  "title": "UX design for SaaS: a teardown of the 7 surfaces users live in",
+  "metaTitle": "UX Design for SaaS: 7 In-Product Surfaces, Torn Down",
+  "metaDescription": "UX design for SaaS after onboarding: dashboards, roles, settings, billing, tables and empty states torn down, plus a triage grid to rate yours.",
+  "centralEntity": "UX design for SaaS",
+  "sourceContext": "ui-ux.agency (the design team of tkxel, Reston, VA, since 2017, 200+ products designed) writes as the product designers who design the screens a paying SaaS customer uses every week: dashboards, roles and permissions, data tables, settings, plans and billing, system states and the loops that bring users back. Written for US SaaS founders and product teams. Onboarding and the marketing site are covered elsewhere and only linked. The post must not restate the hub's 6-part deliverable list, 4-step process, agency-vs-in-house table or price.",
+  "entities": [
+    "software as a service (SaaS)",
+    "UX design for SaaS",
+    "B2B SaaS design",
+    "dashboard",
+    "role-based access control (RBAC)",
+    "National Institute of Standards and Technology (NIST)",
+    "data table",
+    "batch actions",
+    "IBM Carbon Design System",
+    "settings",
+    "progressive disclosure",
+    "Nielsen Norman Group (NN/g)",
+    "usage limits",
+    "plan upgrade",
+    "California Automatic Renewal Law (AB 2863)",
+    "Federal Trade Commission (FTC) click-to-cancel rule",
+    "Restore Online Shoppers' Confidence Act (ROSCA)",
+    "empty state",
+    "notifications",
+    "WCAG 2.2",
+    "retention",
+    "activation rate",
+    "single sign-on (SSO)",
+    "audit log",
+    "TradeZella",
+    "Mass Media Co.",
+    "Digno"
+  ],
+  "attributes": [
+    "number of in-product surfaces (7 in our framework)",
+    "one metric per surface",
+    "the at-a-glance question a dashboard answers",
+    "role-based visibility (what each role sees and can do)",
+    "denied-state recovery path (request access)",
+    "the 4 data table tasks",
+    "disclosure depth in settings (2 levels at most)",
+    "plan-limit message order (what stopped, what still works, cost to continue, who approves)",
+    "cancellation path (same medium as sign-up)",
+    "state coverage (empty, loading, partial, error, no permission)",
+    "notification urgency and type",
+    "target size (24 × 24 CSS pixels at WCAG 2.2 AA)"
+  ],
+  "ngrams": [
+    "ux design for saas",
+    "saas ux",
+    "b2b saas design",
+    "ux for saas",
+    "saas ui ux design",
+    "saas ux design patterns",
+    "in-product surfaces",
+    "roles and permissions",
+    "data tables",
+    "plan limits",
+    "usage limits",
+    "empty states",
+    "bulk actions",
+    "saved views",
+    "request access",
+    "retention loop",
+    "paying customer",
+    "activation rate"
+  ],
+  "eav": [
+    { "attribute": "scope (root)", "value": "UX design for SaaS covers every screen a subscriber touches between the trial and the renewal; this post covers the 7 surfaces after onboarding: dashboards, roles and permissions, data tables, settings, plans and billing, system states, retention loops", "source": "ui-ux.agency framework; hub abstract and section 1 ('every screen a customer touches between the free trial and the renewal')" },
+    { "attribute": "SaaS-specific patterns (root)", "value": "trials, seats, roles, permissions, usage limits, plan upgrades and invoices; each is a place where users get stuck or leave", "source": "content/services/saas-design-agency.json section 1 body" },
+    { "attribute": "deliverable parts (root)", "value": "6 parts: sign-up and onboarding, core workflows, dashboards and reports, roles and settings, plans and billing, design system (link, do not list)", "source": "content/services/saas-design-agency.json section 'What does our SaaS design agency deliver?'" },
+    { "attribute": "success metrics (root)", "value": "2 or 3 metrics agreed at kick-off, usually activation rate, time to first value and trial-to-paid conversion, compared before and after launch", "source": "hub FAQ 'How do you measure SaaS design success?'" },
+    { "attribute": "dashboard (root)", "value": "a collection of data visualizations in a single-page view that gives at-a-glance information users act on quickly; position and length (line and bar charts) are processed preattentively", "source": "https://www.nngroup.com/articles/dashboards-preattentive/" },
+    { "attribute": "roles and permissions (root)", "value": "in RBAC, permissions attach to roles rather than to individual identities, and can be inherited through a role hierarchy", "source": "https://csrc.nist.gov/glossary/term/role_based_access_control" },
+    { "attribute": "data table tasks (root)", "value": "4 tasks: find records that match criteria, compare data, view/edit/add a single row, take actions on records; a readable record identifier in the first column; side panels keep the table in view", "source": "https://www.nngroup.com/articles/data-tables/ (April 2022)" },
+    { "attribute": "batch actions", "value": "a batch action toolbar appears when rows are selected; the user can cancel or deselect to leave batch mode", "source": "https://carbondesignsystem.com/components/data-table/usage/" },
+    { "attribute": "settings depth", "value": "progressive disclosure moves advanced or rarely used options to a secondary screen; more than 2 disclosure levels make users get lost", "source": "https://www.nngroup.com/articles/progressive-disclosure/ (Jakob Nielsen, December 3, 2006)" },
+    { "attribute": "empty states", "value": "3 guidelines: communicate system status, provide learning cues, offer direct pathways; avoid a 'No records' placeholder while data is still loading", "source": "https://www.nngroup.com/articles/empty-state-interface-design/ (September 19, 2021)" },
+    { "attribute": "notifications", "value": "indicators (passive, contextual), validations (tied to one input, user must act) and notifications (system events, action-required or passive); choose by information type, urgency and whether the user must act", "source": "https://www.nngroup.com/articles/indicators-validations-notifications/ (Kim Flaherty, January 2024)" },
+    { "attribute": "target size", "value": "WCAG 2.2 SC 2.5.8 Target Size (Minimum), Level AA: pointer targets at least 24 × 24 CSS pixels, or enough spacing, with listed exceptions; matters for row actions and icon buttons in dense tables", "source": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html" },
+    { "attribute": "cancellation (California, consumer subscriptions)", "value": "AB 2863 amended California's Automatic Renewal Law for contracts entered into, amended or extended on or after July 1, 2025: a consumer who enrolled online must be able to cancel online, in the same medium; express affirmative consent; annual reminder", "source": "https://btlaw.com/en/insights/alerts/2025/california-expands-automatic-renewal-law-new-requirements-now-in-effect (US law firm summary; secondary: true; the chaptered statute did not appear in this run's searches)" },
+    { "attribute": "cancellation (federal)", "value": "the Eighth Circuit vacated the FTC's click-to-cancel rule on July 8, 2025, before its July 14 effective date; the FTC still enforces cancellation practices under ROSCA", "source": "https://www.morganlewis.com/pubs/2025/07/ftcs-click-to-cancel-rule-vacated-ahead-of-planned-july-14-effective-date (US law firm; secondary: true). Do NOT state the status of any 2026 FTC rulemaking: sources disagree." },
+    { "attribute": "dashboard proof (rare)", "value": "TradeZella: a crowded interface hid the key metrics; the redesign put ratios such as win rate and profit factor in compact widgets, let each trader choose and arrange widgets, and added a mentor mode comparing mentees' cumulative P&L; results +40% user interaction, +25% user retention", "source": "content/case-studies/tradezella.md (do not attribute the results to one surface alone)" },
+    { "attribute": "table and workflow proof (rare)", "value": "Mass Media Co.: order work spread across tools that did not talk to each other became one platform; the order screen updates the estimated cost as items are added; one dashboard covers open tasks, sales operations and recent tasks; order processing efficiency +30%, error rate 2+, reduced from 25%", "source": "content/case-studies/mass-media-co.md (quote the error-rate line exactly as the case study states it)" },
+    { "attribute": "role-level views proof (rare)", "value": "Digno computes its score at 3 levels (organization, department, individual employee); each employee's My Digno Score page explains the factors behind the number", "source": "content/case-studies/digno.md (do not cite Digno's revenue, profit or ROI figures: business results, not UX results)" },
+    { "attribute": "starting point (rare)", "value": "a SaaS team can start with one part: onboarding, a dashboard, billing or a single workflow are common starting points", "source": "content/pillars.ts FAQ 'Can you work on one part of our SaaS product?'" },
+    { "attribute": "surface → metric map (unique)", "value": "dashboard → return visits to the home screen; roles → access requests and permission tickets; tables → task time and bulk-action use; settings → settings-related tickets; billing → upgrade starts and completed cancellations; states → recovery after an error; loops → weekly active use and retention", "source": "ui-ux.agency method (no benchmark values; the reader fills in their own numbers)" },
+    { "attribute": "plan-limit message order (unique)", "value": "4 answers in order: what stopped, what still works, what it costs to continue, who can approve it (in B2B the member who hits the limit often cannot upgrade, so the screen routes a request to the admin)", "source": "ui-ux.agency method; joins the roles and billing surfaces, which SERP pages treat separately" }
+  ],
+  "skipgrams": [
+    ["dashboard", "at a glance"],
+    ["roles", "permissions"],
+    ["permission", "request access"],
+    ["data table", "bulk actions"],
+    ["filters", "saved views"],
+    ["empty state", "next step"],
+    ["plan limit", "upgrade"],
+    ["cancel", "online"],
+    ["settings", "workspace"],
+    ["notification", "urgency"],
+    ["retention", "weekly"],
+    ["admin", "audit log"],
+    ["activation", "retention"]
+  ],
+  "lexical": {
+    "synonyms": ["SaaS UX", "UX for SaaS", "SaaS UI UX design", "in-product UX", "SaaS user experience"],
+    "hypernyms": ["user experience design", "product design", "software design", "interaction design"],
+    "hyponyms": ["B2B SaaS design", "SaaS dashboard design", "admin console design", "billing UX", "permissions UX", "data table design", "vertical SaaS UX", "product-led growth UX"],
+    "meronyms": ["dashboard widget", "role switcher", "request-access screen", "filter bar", "saved view", "bulk action toolbar", "side panel", "settings navigation", "usage meter", "upgrade prompt", "invoice history", "cancellation flow", "empty state", "loading skeleton", "error message", "notification center", "weekly digest", "audit log"]
+  },
+  "keywordCarrier": {
+    "primary": "Noun phrase that works as subject or object: 'UX design for SaaS is judged…', 'good UX design for SaaS keeps…', 'UX design for SaaS products' (one 'products' compound allowed, no other stacked nouns: 'UX design for SaaS teardown/project/checklist' is BANNED). First sentence (Faizan's voice, within the first 60 words): 'When I review UX design for SaaS products, I spend most of my time on the screens a paying customer opens every week, not on the first-run flow.' H1 and metaTitle open with 'UX design for SaaS:'.",
+    "density": "Word share as QA measures it: max uses = 0.02 × body words ÷ 4. For 2,800–3,200 body words that is at most 14–16 exact uses; aim for 9–12. Vary with 'SaaS UX', 'in-product UX', 'the surface' and the lexical relations. Alt text does not count.",
+    "secondary": {
+      "b2b saas design": "Carried in the H2 'How does B2B SaaS design change roles, tables and billing?' and its first sentence ('B2B SaaS design adds a second reader to every surface: …'). Max 3 uses. Never followed by another noun ('B2B SaaS design project/agency' is BANNED).",
+      "saas ux": "Noun phrase: 'Most SaaS UX problems after onboarding sit in…' or 'the SaaS UX of your billing page'. 2–3 uses.",
+      "ux for saas": "Once, in H2 1 or H2 8: 'Good UX for SaaS earns the next login, not just the first one.'",
+      "saas ui ux design": "Once, in the dashboard or states section: 'In SaaS UI UX design, the interface layer (color, type, density) only works when…'.",
+      "saas ux design patterns": "Once, in H2 1: 'The SaaS UX design patterns below are grouped by surface, not by principle.' This is the ONLY allowed use of the string 'saas ux design' (sister-site risk, see sisterSiteCheck)."
+    },
+    "metaTitle": "UX Design for SaaS: 7 In-Product Surfaces, Torn Down (52 chars)",
+    "h1": "UX design for SaaS: a teardown of the 7 surfaces users live in (62 chars)",
+    "description": "Use as written (143 chars, keyword first, TOFU payoff ending, no consultation ask, no apostrophe): 'UX design for SaaS after onboarding: dashboards, roles, settings, billing, tables and empty states torn down, plus a triage grid to rate yours.' Subject check: 'yours' = your surfaces (the list just before it); the triage grid is the H2 10 visual.",
+    "metaKeywords": ["ux design for saas", "b2b saas design", "saas ux", "ux for saas", "saas ui ux design", "ux design saas", "ux saas"],
+    "hubAnchorBan": "Never use 'SaaS design agency' as a phrase in title, H1, metaTitle, description, any H2/H3 or alt text. It appears only as link anchor text to the hub (at most twice). Never use 'SaaS product design' (pillar anchor) except as anchor text to /services/saas-products/ (once). Never use 'enterprise UX' / 'enterprise UX design' (industry page keyword, and its metaTitle contains 'UX Design for SaaS') as a phrase in headings. 'Enterprise' may appear in body text, plus one link to /industries/enterprise/ with a non-exact anchor. Never write 'saas onboarding', 'saas homepage design', 'saas product redesign' or 'saas dashboard design' as phrases in headings (owned by other pages or reserved for a future post)."
+  },
+  "questions": [
+    "What is SaaS UX design? (SERP: every guide opens with it; answer in H2 1's first sentence through the surfaces, never as a definition H2)",
+    "Why is UX important for SaaS? (retention of subscription revenue; answer in the intro and H2 8, no unsourced %)",
+    "What makes good SaaS UX after onboarding?",
+    "What should a SaaS dashboard show first?",
+    "How do you design roles and permissions in a SaaS product?",
+    "What should users see when they lack permission?",
+    "How do you design data tables for SaaS?",
+    "How should a SaaS app show plan limits and upgrades?",
+    "Do SaaS products have to let users cancel online?",
+    "How is B2B SaaS design different from B2C?",
+    "What are SaaS UX design patterns?",
+    "How do you measure SaaS UX?"
+  ],
+  "serpGaps": [
+    "Ranking guides (heymarvin, ramotion, tenet, 925studios 2026 founders' guide) are organized by PRINCIPLE (clarity, consistency, feedback, minimalism) and lean on onboarding. None is organized by the SURFACE a paying customer uses each week. Our structure: 7 in-product surfaces, each with a weak-vs-strong teardown and one metric.",
+    "No ranking page gives a metric per surface. We pair every surface with the number that shows it is failing (no benchmarks invented; the reader fills in their own).",
+    "saasui.design (parent-topic owner) has separate pattern posts for permissions, settings, billing and usage limits, and never joins them. We connect roles and billing: in B2B the member who hits a plan limit often cannot upgrade, so the limit screen must route a request to the admin.",
+    "No ranking page mentions US cancellation rules. We give one paragraph on California's AB 2863 (online cancellation for consumer subscriptions, contracts from July 1, 2025) and the vacated FTC click-to-cancel rule (ROSCA still enforced), framed as design consequences, not legal advice.",
+    "Accessibility in dense SaaS screens is missing: WCAG 2.2 target size (24 × 24 CSS px) for row actions and icon buttons.",
+    "Guides stop at 'design good empty states' for first-run. We cover the empty, loading, partial, error and no-permission states a RETURNING user hits (filters with no results, deleted data, failed sync). First-run empty states are linked to the onboarding service.",
+    "No ranking page shows real in-product before/after work. We use TradeZella (dashboard widgets, mentor mode), Mass Media Co. (one order screen, live estimated cost) and Digno (3-level scores), with only the facts the case studies state.",
+    "The guides end with generic 'hire experts'. We end with a triage grid that tells a team which ONE surface to fix first, which matches the pillar fact that a project can start with one part."
+  ],
+  "contentModules": {
+    "title": "UX design for SaaS: a teardown of the 7 surfaces users live in",
+    "subtitle": "Onboarding gets a user in. Seven surfaces decide whether they stay: dashboards, roles and permissions, data tables, settings, plans and billing, system states and retention loops. Each one torn down, weak against strong, with the metric that shows it is failing.",
+    "intro": "Scope-subtraction opener (see variety.introStyle). Sentence 1 carries the keyword in Faizan's voice (keywordCarrier.primary). Sentence 2 subtracts: the hub's own deliverable list has 6 parts and sign-up and onboarding is only one of them, so most of what a subscriber pays for sits elsewhere (link 'SaaS design agency' to the hub = UP link 1, within the first 150 words). Sentence 3 names the 7 surfaces this post tears down and says the homepage and first-run flow are covered elsewhere (one sideways link to /blog/saas-homepage-design/ with anchor 'the promise your homepage makes'). Sentence 4: what the reader gets (a teardown per surface + a triage grid). No question opener, no statistic first, no hypothetical company, no blockquote, no definition sentence.",
+    "dataModules": [
+      { "type": "surface map (image + astext table)", "h2": "H2 1", "what": "7 surfaces arranged around one product frame. Each tile: surface name, the job it does for a paying customer, the one metric that shows it failing. Text panel: table surface | job | metric." },
+      { "type": "before/after dashboard teardown (image + astext ul)", "h2": "H2 2", "what": "Two wireframes side by side: 'every metric at once' vs 'status, change, next action'. 5 numbered callouts on the strong side. Text panel: the 5 callouts." },
+      { "type": "role lens triptych (image + astext table)", "h2": "H2 3", "what": "One project screen seen by admin, member and guest, plus a 4th frame: the no-permission state with 'request access from <admin name>'. Text panel: table role | sees | can do | when blocked." },
+      { "type": "table task matrix (text table only)", "h2": "H2 4", "what": "NN/g's 4 table tasks × the pattern that serves each (filter bar + saved views, frozen header + identifier column, side panel, selection + batch toolbar) × the failure symptom. Text table, no image." },
+      { "type": "plan-limit message anatomy (image + astext ol)", "h2": "H2 6", "what": "Dead-end limit banner vs a 4-part limit message (what stopped, what still works, cost to continue, who approves), with the member→admin request path. Text panel: ordered list of the 4 parts + the weak version in one line." },
+      { "type": "state matrix (text table only)", "h2": "H2 7", "what": "Rows: empty (never used), empty (filtered to nothing), loading, partial data, error/failed sync, no permission. Columns: what the user needs to know | the one action to offer. Text table." },
+      { "type": "triage heat-map grid (image + astext table)", "h2": "H2 10", "what": "7 surfaces as rows × 3 columns (symptom you can see, metric to pull, first fix); the reader marks each row red, amber or green. Text panel: the same table with an empty 'your rating' column." }
+    ]
+  },
+  "outline": [
+    {
+      "h2": "Which in-product surfaces decide UX design for SaaS after onboarding?",
+      "answerHint": "**Seven in-product surfaces decide whether UX design for SaaS keeps a paying customer: the dashboard, roles and permissions, data tables, settings, plans and billing, system states and retention loops.** (Framework-first H2, not a definition.)",
+      "points": [
+        "One sentence on why these surfaces and not principles: a subscriber pays every month for the weekly work, so each surface needs its own test. Use 'ux for saas' carrier here or in H2 8.",
+        "Surface map (visual 1) + astext table: surface | job | metric (eav 'surface → metric map').",
+        "'The SaaS UX design patterns below are grouped by surface, not by principle.' (only use of 'saas ux design').",
+        "One sentence that sign-up and first run are a separate service (forward reference; link comes in H2 7).",
+        "Bridge: 'The first screen a returning user sees is the dashboard, so start there.'"
+      ]
+    },
+    {
+      "h2": "What should a SaaS dashboard answer before anything else?",
+      "answerHint": "**A SaaS dashboard should answer one question at a glance, 'is my work on track, and what do I do next?', before it shows any secondary metric.**",
+      "points": [
+        "NN/g definition and preattentive point (eav 'dashboard'): bars and lines read faster than gauges and tables for status.",
+        "Weak vs strong teardown (visual 2 + astext): weak = every metric at once; strong = status, change since last visit, next action, drill-down on demand. Hub fact: 'Home screens that show status, usage and next actions instead of every metric at once' (rephrase, do not paste).",
+        "Mini proof: TradeZella (link /case-studies/tradezella/): crowded interface hid key metrics; compact widgets for win rate and profit factor; traders choose and arrange widgets; results +40% user interaction and +25% retention, stated as results of the whole dashboard redesign.",
+        "'saas ui ux design' carrier sentence fits here (interface layer only works when the question is right).",
+        "Keep it to one section: 'saas dashboard design' is reserved for a future post (blog-opportunities 'saas dashboard', 30/mo, TP 350). No chart-type catalog, no KPI list.",
+        "Bridge: 'A dashboard that is right for an admin can be wrong for a guest, which is the next surface.'"
+      ]
+    },
+    {
+      "h2": "How should roles and permissions show up in a SaaS interface?",
+      "answerHint": "**Roles and permissions should change what each person sees and can do on the same screen, and a blocked action should explain why and offer a way to request access, never a dead end.**",
+      "points": [
+        "NIST RBAC (eav 'roles and permissions'): permissions attach to roles, so the UI is designed per role, not per user.",
+        "Role lens triptych (visual 3 + astext table): admin / member / guest + no-permission state with request access.",
+        "Hide vs disable: hide modules a role can never use; disable with a reason when the user could get access. Show who the admin is.",
+        "Digno (link /case-studies/digno/): one score shown at 3 levels, organization, department, individual, with a personal page that explains the factors. Use as the example of role-level views; no revenue figures.",
+        "LEAD ANGLE 1 at the end of this section (see leadAngle).",
+        "Bridge: 'Roles decide which rows a person sees; the table decides whether they can work with them.'"
+      ]
+    },
+    {
+      "h2": "How do SaaS data tables handle finding, comparing, editing and bulk actions?",
+      "answerHint": "**SaaS data tables work when they support the 4 jobs users bring to them: find records, compare them, open or edit one row, and act on many rows at once.**",
+      "points": [
+        "NN/g 4 tasks (eav 'data table tasks'); readable identifier in the first column; side panel keeps the table in view.",
+        "Table task matrix (text table, data module 4).",
+        "Carbon batch toolbar appears on selection (eav 'batch actions'); saved views and filter bars for repeat work.",
+        "WCAG 2.2 SC 2.5.8: row actions and icon buttons at 24 × 24 CSS px minimum or spaced (eav 'target size').",
+        "Mass Media Co. (link /case-studies/mass-media-co/): separate tools → one platform; order screen updates estimated cost as items are added; results 30% order processing efficiency and the error-rate line exactly as stated ('2+, reduced from 25%').",
+        "Bridge: 'Saved views and column choices live somewhere, and that somewhere is settings.'"
+      ]
+    },
+    {
+      "h2": "Where do settings belong in UX design for SaaS?",
+      "answerHint": "**Settings in UX design for SaaS belong in three clearly separated places: personal preferences, workspace settings and admin controls, each no more than two levels deep.**",
+      "points": [
+        "Progressive disclosure, 2 levels max (eav 'settings depth').",
+        "Personal (notifications, theme, profile) vs workspace (integrations, defaults) vs admin (members, roles, security, billing access). Settings search for products with many controls (method, no number).",
+        "Destructive actions (delete workspace, remove member): separated, confirmed with the object name, and reversible where possible (method).",
+        "Hub fact: 'Roles and settings' deliverable covers admin, member and guest views, permissions, integrations and audit logs (paraphrase in one clause, link only if not already linked).",
+        "Bridge: 'One setting every subscriber eventually opens is the plan, and that is where SaaS UX touches revenue.'"
+      ]
+    },
+    {
+      "h2": "How should SaaS billing, plan limits and cancellation screens work?",
+      "answerHint": "**SaaS billing screens should show the current plan, usage against its limits and the next charge plainly, turn a limit into a clear choice, and let people cancel the way they signed up.**",
+      "points": [
+        "Plan-limit message anatomy (visual 5 + astext ol): what stopped, what still works, cost to continue, who approves (eav 'plan-limit message order'). Usage meter BEFORE the limit (warn early).",
+        "B2B twist in one sentence: the member who hits the limit often cannot pay; route a request to the admin (forward-links H2 9).",
+        "Invoice history and payment method as the reassurance layer (method).",
+        "US rules as design consequences (eav 'cancellation' rows): California AB 2863 for consumer subscriptions (online sign-up → online cancellation, contracts on/after July 1, 2025); FTC click-to-cancel rule vacated July 8, 2025; ROSCA still enforced. One sentence: 'counsel decides what applies to your contracts; design makes the path findable.' No legal advice, no claim about B2B applicability.",
+        "Hub fact: 'Plans and billing' covers pricing pages, upgrade prompts, usage limits, invoices and cancellation flows (paraphrase).",
+        "Bridge: 'A limit message is a system state; so are the blank, slow and broken screens covered next.'"
+      ]
+    },
+    {
+      "h2": "What do empty, loading and error states owe a returning SaaS user?",
+      "answerHint": "**Every state a returning user can hit, from an empty filter result to a failed sync, owes them two things: what is happening and the one action that moves them on.**",
+      "points": [
+        "NN/g 3 empty-state guidelines (eav 'empty states'), including no 'No records' while still loading.",
+        "State matrix (text table, data module 6): empty (never used), empty (filtered), loading, partial, error/failed sync, no permission.",
+        "First-run empty states and setup checklists belong to the onboarding service: one cross-hub link here, anchor 'SaaS onboarding design' → /services/saas-products/saas-onboarding-design/ (the post's only cross-hub link). Do NOT restate first-run patterns.",
+        "Errors: say what failed and keep the user's input (method; link nothing extra).",
+        "Bridge: 'States tell a user what just happened; loops give them a reason to come back tomorrow.'"
+      ]
+    },
+    {
+      "h2": "Which retention loops bring SaaS users back without nagging?",
+      "answerHint": "**Retention loops bring SaaS users back when each message points to new work that matters to them, such as a mention, an approval or a change in their numbers, and stays quiet otherwise.**",
+      "points": [
+        "NN/g indicators/validations/notifications (eav 'notifications'): choose by type, urgency and whether the user must act; a notification center plus a weekly digest for passive events.",
+        "Loops that come from the product's own data (method): assigned task, approval waiting, score/metric change, saved view with new rows. Examples from cases, facts only: TradeZella mentor mode (coach compares mentees' cumulative P&L), Mass Media Co. creative task cards with owner, due date and progress, Digno's personal score page tracking the score over time.",
+        "Metric: weekly active use and retention; tie to the hub's activation-and-retention framing (hub metaDescription/abstract). No unsourced retention statistics.",
+        "Bridge: 'In B2B products every one of these surfaces has two readers, the person who pays and the person who works.'"
+      ]
+    },
+    {
+      "h2": "How does B2B SaaS design change roles, tables and billing?",
+      "answerHint": "**B2B SaaS design adds a second reader to every surface: the admin or buyer who controls seats, security and invoices, next to the member who does the daily work.**",
+      "points": [
+        "Hyponym H2 for 'b2b saas design' (carrier in the first sentence).",
+        "Roles: admin console (members, roles, SSO, audit log); tables: shared saved views and exports; billing: seats, invoices for finance, upgrade approval by the admin (connect to H2 6).",
+        "Enterprise-grade security reviews (SSO, SCIM, audit logs, SOC 2 evidence, Section 508) are one sentence + one link to /industries/enterprise/ with anchor 'admin consoles that pass security reviews'. Do NOT rebuild the enterprise page's role-permission matrix or its SOC 2/508 content.",
+        "B2C contrast in one sentence: a single person is buyer and user, so cancellation and plan rules for consumers (H2 6) bite harder.",
+        "Bridge: 'With seven surfaces and two readers, you need a way to choose where to start.'"
+      ]
+    },
+    {
+      "h2": "How do you rate your own UX design for SaaS, surface by surface?",
+      "answerHint": "**Rate your own UX design for SaaS by marking each of the 7 surfaces red, amber or green on one visible symptom and one metric, then fix the reddest surface first.**",
+      "points": [
+        "Triage heat-map grid (visual 7 = image 5) + astext table with an empty 'your rating' column.",
+        "How to fill it in 30 minutes is NOT allowed (unsourced). Say instead: pull each metric from your analytics and support tickets, and watch 3 sessions per surface (method).",
+        "Pillar fact: one surface can be a project; onboarding, a dashboard, billing or a single workflow are common starting points (link /services/saas-products/ with anchor 'SaaS product design', once).",
+        "LEAD ANGLE 2 here, then the second UP link to the hub with a varied anchor (e.g. 'the six product parts we design', to /services/saas-products/saas-design-agency/#what-does-our-saas-design-agency-deliver; plain hub URL if fragments count as the same target).",
+        "Close with Faizan's one-sentence first-person recommendation, no label, no 'Bottom line' H2."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "Is UX design for SaaS different from designing other web apps?", "a": "Yes. Subscription software adds patterns most web apps lack, such as trials, seats, roles, usage limits, plan upgrades and invoices, and each one is a point where a paying customer either moves on or leaves (hub section 1 fact). Keep it to 2–3 sentences." },
+    { "q": "Which SaaS surface should we fix first after onboarding?", "a": "The one your triage grid marks reddest: the surface with the worst metric and the most support tickets. Pillar fact: one surface can be a project, and onboarding, a dashboard, billing or a single workflow are common starting points." },
+    { "q": "Should every role see the same SaaS dashboard?", "a": "No. Each role should see the status and next actions it can act on; modules a role can never use stay hidden. Digno shows one score at organization, department and individual level, each with its own view." },
+    { "q": "Which US rules shape SaaS cancellation screens?", "a": "For consumer subscriptions, California's Automatic Renewal Law as amended by AB 2863 requires online cancellation when the customer signed up online, for contracts from July 1, 2025. The FTC's click-to-cancel rule was vacated in July 2025, but the FTC still enforces ROSCA. Your counsel decides what applies; design makes the cancel path findable." },
+    { "q": "How do you measure UX design for SaaS after launch?", "a": "Agree 2 or 3 metrics at kick-off, such as activation rate, time to first value and trial-to-paid conversion, and compare them before and after release (hub FAQ). Add the per-surface metric from the triage grid for the surface you changed." }
+  ],
+  "internalTargets": [
+    { "href": "/services/saas-products/saas-design-agency/", "anchor": "SaaS design agency", "priority": "required", "where": "Intro sentence 2, within the first 150 words. Hub link 1 of 2.", "verified": "content/services/saas-design-agency.json; URL used in content/case-studies/tradezella.md line 109" },
+    { "href": "/services/saas-products/saas-design-agency/#what-does-our-saas-design-agency-deliver", "anchor": "the six product parts we design", "priority": "conditional", "blocker": "link-builder one-link-per-target rule (lesson 2026-10-16). If fragments count separately, link here in H2 10; if not, use the plain hub URL for this second UP link.", "where": "H2 10, lead angle 2. Hub link 2 of 2.", "verified": "hub h2 'What does our SaaS design agency deliver?' → sectionId() in components/sections/SemanticSections.tsx lines 9–14" },
+    { "href": "/services/saas-products/", "anchor": "SaaS product design", "priority": "required", "where": "H2 10, the pillar fact that one surface can be a project. Pillar, not a service hub: does not count toward the cross-hub cap.", "verified": "content/pillars.ts line 108 (slug 'saas-products'); linked from content/blog/saas-homepage-design.md line 224" },
+    { "href": "/blog/saas-homepage-design/", "anchor": "the promise your homepage makes", "priority": "required", "where": "Intro sentence 3. Sideways link (same silo, services[0] = saas-design-agency).", "verified": "content/blog/saas-homepage-design.md (services: [saas-design-agency], draft: false)" },
+    { "href": "/services/saas-products/saas-onboarding-design/", "anchor": "SaaS onboarding design", "priority": "required", "where": "H2 7 (first-run empty states). The post's ONE cross-hub link (RULES.md).", "verified": "content/services/saas-onboarding-design.json; same link used by the sibling content/blog/saas-homepage-design.md line 165" },
+    { "href": "/case-studies/tradezella/", "anchor": "TradeZella's dashboard redesign", "priority": "required", "where": "H2 2. DOWN link (case study lists saas-design-agency).", "verified": "content/case-studies/tradezella.md services include saas-design-agency" },
+    { "href": "/case-studies/mass-media-co/", "anchor": "Mass Media Co. order platform", "priority": "required", "where": "H2 4. DOWN link.", "verified": "content/case-studies/mass-media-co.md services include saas-design-agency" },
+    { "href": "/case-studies/digno/", "anchor": "Digno's three-level scores", "priority": "required", "where": "H2 3. DOWN link. Anchor must differ from the enterprise page's 'Digno's three-level performance scores'.", "verified": "content/case-studies/digno.md services include saas-design-agency" },
+    { "href": "/industries/enterprise/", "anchor": "admin consoles that pass security reviews", "priority": "required", "where": "H2 9. Industry page: does not count toward the cross-hub cap. Never anchor 'enterprise UX'.", "verified": "content/industries/enterprise.json (slug 'enterprise')" },
+    { "href": "/blog/saas-onboarding/", "anchor": "(orchestrator suggestion)", "priority": "skip", "why": "services[0] = saas-onboarding-design: another silo's post. RULES.md 'Never link to another silo's posts'. The onboarding hub link in H2 7 covers the handoff. Override only if the owner accepts. CONFLICT with the orchestrator instruction 'link out to onboarding posts'; flagged in the report." },
+    { "href": "/blog/onboarding-kyc-process-flow/", "anchor": "(orchestrator suggestion)", "priority": "skip", "why": "Same reason: another silo's post (saas-onboarding-design). Override only if the owner accepts." },
+    { "href": "/services/saas-products/saas-product-redesign/", "anchor": "SaaS product redesign", "priority": "skip", "why": "Would be a second cross-hub link (cap 1, used by the onboarding hub). The TradeZella and Mass Media Co. case studies already link it. Override only if the owner accepts." },
+    { "href": "/contact/", "anchor": "contact", "priority": "skip", "why": "TOFU: RULES.md step 6 keeps conversion links lean; audit 2026-10-19 limits consultation CTAs." }
+  ],
+  "backlinkSuggestions": [
+    {
+      "source": "content/services/saas-design-agency.json → section 'What does a SaaS design agency do?' → body (line 25)",
+      "target": "/blog/ux-design-for-saas/",
+      "anchor": "UX design for SaaS, surface by surface",
+      "priority": "required",
+      "why": "Hub → post (the pillar/hub links down to its posts). The sentence names the exact patterns the post tears down (trials, seats, roles, permissions, usage limits, plan upgrades, invoices). The old string occurs once in the file.",
+      "old": "Each pattern is a place where users get stuck or leave. Our designers study where trial users stop,",
+      "new": "Each pattern is a place where users get stuck or leave; our guide to <a href=\\\"/blog/ux-design-for-saas/\\\">UX design for SaaS, surface by surface</a> shows what each one needs. Our designers study where trial users stop,",
+      "escapeNote": "The hub stores HTML inside a JSON string, so href quotes appear in the file as backslash + quote (same as the existing <a href=\\\"/services/saas-products/saas-product-redesign/\\\"> in that body)."
+    },
+    {
+      "source": "content/pillars.ts → saas-products FAQ 'Can you work on one part of our SaaS product?' (line 179)",
+      "target": "/blog/ux-design-for-saas/",
+      "anchor": "rate each in-product surface",
+      "priority": "required",
+      "why": "Pillar → post. The FAQ names onboarding, a dashboard, billing or a single workflow; the post's triage grid tells the reader which one to start with. Pillar FAQ answers already render HTML (the AI pillar FAQ at line 101 holds an <a>).",
+      "old": "a: \"Yes. Onboarding, a dashboard, billing or a single workflow are common starting points.\" },",
+      "new": "a: \"Yes. Onboarding, a dashboard, billing or a single workflow are common starting points. To choose one, <a href=\\\"/blog/ux-design-for-saas/#how-do-you-rate-your-own-ux-design-for-saas-surface-by-surface\\\">rate each in-product surface</a> first.\" },",
+      "escapeNote": "pillars.ts is TypeScript with double-quoted strings, so the file text is href=\\\"…\\\" (backslash + quote). Fragment = slugify() of H2 10; if the writer changes H2 10, update the fragment or drop it."
+    },
+    {
+      "source": "content/blog/saas-homepage-design.md line 194 (section 'How does SaaS homepage design carry into the product?', Digno paragraph)",
+      "target": "/blog/ux-design-for-saas/",
+      "anchor": "the in-product surfaces behind that promise",
+      "priority": "required",
+      "why": "Same silo, sideways (allowed). The paragraph has just moved from the homepage to Digno's dashboard and score pages, the exact hand-off into the new post. The source is an indexed, published post.",
+      "old": "Name the product screen that proves your own headline, the way the score pages prove Digno's.",
+      "new": "Name the product screen that proves your own headline, the way the score pages prove Digno's. Dashboards, roles and billing are [the in-product surfaces behind that promise](/blog/ux-design-for-saas/), each with its own teardown.",
+      "authorNote": "The sentence is in Shahmir Farooq's post, so it avoids 'I' about Faizan's post."
+    }
+  ],
+  "externalSources": [
+    { "url": "https://www.nngroup.com/articles/dashboards-preattentive/", "why": "Primary (NN/g, US): dashboard definition, at-a-glance, preattentive position and length. H2 2." },
+    { "url": "https://csrc.nist.gov/glossary/term/role_based_access_control", "why": "Primary (NIST): RBAC, permissions attached to roles, inheritance through a role hierarchy. H2 3." },
+    { "url": "https://www.nngroup.com/articles/data-tables/", "why": "Primary (NN/g): 4 data table tasks, identifier column, side panels, batch actions. H2 4." },
+    { "url": "https://carbondesignsystem.com/components/data-table/usage/", "why": "Primary (IBM Carbon, US): batch action toolbar appears on row selection. H2 4. Optional if the external cap (8) is reached." },
+    { "url": "https://www.nngroup.com/articles/progressive-disclosure/", "why": "Primary (NN/g, Nielsen 2006): defer advanced options; more than 2 levels and users get lost. H2 5." },
+    { "url": "https://www.nngroup.com/articles/empty-state-interface-design/", "why": "Primary (NN/g, 2021): 3 empty-state guidelines. H2 7." },
+    { "url": "https://www.nngroup.com/articles/indicators-validations-notifications/", "why": "Primary (NN/g, January 2024): indicators vs validations vs notifications, chosen by type, urgency and required action. H2 8." },
+    { "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html", "why": "Primary (W3C): SC 2.5.8, 24 × 24 CSS px at AA, spacing exception. H2 4." },
+    { "url": "https://btlaw.com/en/insights/alerts/2025/california-expands-automatic-renewal-law-new-requirements-now-in-effect", "why": "US law firm alert (Barnes & Thornburg, July 2025): AB 2863 in effect, online cancellation in the same medium, contracts on/after July 1, 2025. H2 6, FAQ 4.", "secondary": true, "country": "US", "primaryNote": "No leginfo.legislature.ca.gov URL for AB 2863 appeared in this run's searches. Fact-checker: if a search returns the chaptered bill page (Chapter 515, Statutes of 2024), swap to it; otherwise this US outlet stands." },
+    { "url": "https://www.morganlewis.com/pubs/2025/07/ftcs-click-to-cancel-rule-vacated-ahead-of-planned-july-14-effective-date", "why": "US law firm (Morgan Lewis, July 2025): Eighth Circuit vacated the FTC click-to-cancel rule before July 14, 2025; ROSCA enforcement continues (also in gtlaw.com and alston.com alerts). H2 6, FAQ 4.", "secondary": true, "country": "US", "primaryNote": "Court order not searched. Do not state any 2026 FTC rulemaking status (sources disagree: 'reopened March 2026' vs petition comments due January 2, 2026)." }
+  ],
+  "visuals": [
+    { "type": "surface map (framework ring)", "file": "ux-design-for-saas-surface-map.svg", "idea": "A product window in the center, 7 tiles around it (dashboard, roles and permissions, data tables, settings, plans and billing, system states, retention loops), each tile with its job and a small metric chip. A faded 'sign-up and first run' tile sits outside the ring, labeled 'covered by onboarding'. Text panel: table surface | job | metric." },
+    { "type": "before/after annotated wireframe pair", "file": "ux-design-for-saas-dashboard-teardown.svg", "idea": "Left: a dashboard with 12 equal cards and no hierarchy. Right: a status line, 'changed since your last visit', 3 next-action items and a drill-down link, with 5 numbered callouts. Text panel: the 5 callouts as a list." },
+    { "type": "role lens triptych + denied state", "file": "ux-design-for-saas-role-lens.svg", "idea": "The same project screen 3 times (admin, member, guest) with modules shown, disabled with a reason, or hidden; a 4th frame shows 'You need Editor access' with the admin's name and a Request access button. Text panel: table role | sees | can do | when blocked." },
+    { "type": "message anatomy, weak vs strong", "file": "ux-design-for-saas-plan-limit.svg", "idea": "Top: a red 'Limit reached' banner, a dead end. Bottom: a 4-part message (what stopped, what still works, cost to continue, who approves) with a usage meter and a 'Ask your admin to upgrade' path for members. Text panel: ordered list of the 4 parts." },
+    { "type": "triage heat-map grid", "file": "ux-design-for-saas-triage-grid.svg", "idea": "7 rows (surfaces) × columns: symptom you can see | metric to pull | first fix | your rating (red/amber/green swatches left blank to fill). Not a scorecard with points (chatbot-design used a scorecard). Text panel: the same table with an empty rating column." }
+  ],
+  "visualCountNote": "5 inline visuals (orchestrator: 4–5; audit 2026-10-19: avoid always 6). The table task matrix (H2 4) and the state matrix (H2 7) stay as text tables.",
+  "leadAngle": "Moment 1: end of H2 3 (roles and permissions). The reader has just seen the same screen through three roles and a denied state with a request path, and realizes their product shows one 'Access denied' page to everyone. Offer, hub facts only: our team designs roles and settings (admin, member and guest views, permissions, integrations, audit logs) alongside dashboards and billing, and agrees 2 or 3 metrics at kick-off (no hub link at this moment: the intro already holds UP link 1; mention the service in plain text). Moment 2: H2 10, when the triage grid shows two or three red rows. 'We' sentence: a project can start with one surface (pillar fact), and a full product engagement covers the six parts we design (second UP link). Closing CTA (TOFU template): the checklist. No price in the body, no free audit offer, no 'book a consultation', no claim that we build or code the product.",
+  "variety": {
+    "type": "Comparison",
+    "typeNote": "Orchestrator asked for 'Framework or Teardown/Comparison'. 'Framework' is not a valid frontmatter type (RULES.md enum: Guide | Article | Checklist | Comparison). Comparison is the only enum value not used in the last 4 posts (Guide, Guide, Checklist, Article). The shape is a surface-by-surface teardown: each surface gets weak against strong.",
+    "introStyle": "Scope subtraction: sentence 1 carries the keyword in Faizan's voice; sentence 2 subtracts onboarding from the hub's own 6-part deliverable list, so the post's scope follows from a fact rather than a claim. Device = arithmetic on our own service scope. Used before (do not repeat): buyer scenario, myth, data point with source, question, definition, mini case, contrarian take, timed first-run log (blockquote), kill-list decision log (blockquote), itemized receipt, misfiring rule, try-this-now exercise, originator quote, three-question inline list, rule-to-screen translation. No blockquote, no statistic first, no hypothetical company, no question opener.",
+    "h2Frames": ["which surfaces (framework map first)", "what to answer first (dashboard)", "how to show (roles)", "how to handle 4 jobs (tables)", "where it belongs (settings)", "how it should work (billing + US rules)", "what it owes (states)", "which loops (retention)", "how it changes (B2B hyponym)", "how to rate (triage, closing)", "FAQs"],
+    "sectionOrder": "framework map → 7 surface teardowns in the order a returning user meets them (dashboard → roles → tables → settings → billing → states → loops) → B2B variant → self-triage (closing, no 'Bottom line') → FAQs. First H2 is the artefact (the surface map), not a definition and not 'Step 1'.",
+    "visualTypes": ["framework ring surface map", "before/after annotated wireframe pair", "role lens triptych", "weak vs strong message anatomy", "triage heat-map grid"],
+    "ctaAngle": "rate your 7 surfaces in the triage grid → TOFU checklist (template CTA). Not 'book a free consultation', not 'send your brief/RFP/funnel', not 'pass the gates', not 'chart your flow'.",
+    "listStyle": "surface | job | metric table, numbered callouts, role table, ordered 4-part message, two text matrices (table tasks, states), heat-map table with an empty rating column",
+    "closingRule": "Closing H2 is the triage section; end with one first-person recommendation sentence from Faizan, no label ('My recommendation:' banned), no 'Bottom line' H2, no 'Have a … to design?' H2.",
+    "metaDescriptionEnding": "Ends on the payoff ('plus a triage grid to rate yours'), not a consultation ask.",
+    "differsFrom": "Last 3 site-wide: onboarding-kyc-process-flow (2026-10-20, Article, rule-to-screen intro, swimlane), chatbot-design (2026-10-19, Checklist, 'Step N:' H2s, scorecard), how-to-design-an-mvp (2026-10-18, Guide, quote opener, definition first). Silo: saas-homepage-design (Guide, try-this-now intro, definition-first H2, promise ledger, mistakes table, 'Bottom line'). Nearest structural relative by type: mobile-app-design-agency-vs-freelancer (Comparison). Do NOT reuse from it: provider matrix, skill coverage map, twin timeline, decision tree, quote line-item sheet, 'When should you hire X, and when Y?' frame. Nearest topical relatives: saas-homepage-design (do NOT reuse the promise ledger, section stack, CTA decision tree, AI meeting-notes example, plumbing-invoicing example, the Digno website paragraph) and saas-onboarding (do NOT reuse the admin-vs-member swimlane, the 12-point audit, the scheduling-tool example, the first-session log)."
+  },
+  "fingerprintCheck": {
+    "vs_onboarding-kyc-process-flow": "Differs on type (Comparison vs Article), intro (scope subtraction vs rule-to-screen), H2 frames, section order, visuals (ring, wireframe pair, triptych, message anatomy, heat-map vs swimlane, tagged form, phone anatomy, outcome cards, split chart), CTA angle, list style. 7 of 7.",
+    "vs_chatbot-design": "Differs on type, intro, frames (no Step N), order, visuals (heat-map grid, not a scorecard), CTA, list style. 7 of 7.",
+    "vs_how-to-design-an-mvp": "Differs on type, intro, frames (no definition first), order (no Bottom line), visuals (5 vs 6), CTA (TOFU checklist vs consultation), list style. 7 of 7.",
+    "vs_silo_saas-homepage-design": "Differs on type (Comparison vs Guide), intro, frames (no definition, no mistakes table), order, visuals, CTA (TOFU vs MOFU consultation), list style. Shares the Digno client only, with different facts (3-level scores vs website). 7 of 7.",
+    "vs_type_relative_mobile-app-design-agency-vs-freelancer": "Same type only. Different subject (surfaces, not providers), intro, frames, visuals and CTA.",
+    "audit_2026-10-19_rules": "Type not Guide and not last-3 Checklist/Article (PASS: Comparison); first H2 is the framework map, not a definition (PASS); 5 visuals, not 6 (PASS); description ends on the payoff with no consultation ask (PASS); closing H2 is the triage section, not 'Bottom line' nor 'Have a … to design?' (PASS).",
+    "result": "PASS"
+  },
+  "overlapCheck": {
+    "method": "Outline-level (no shell this run). Compared planned H2s/FAQs with every heading and FAQ in content/services/saas-design-agency.json, saas-onboarding-design.json, saas-product-redesign.json, content/pillars.ts (saas-products), content/industries/enterprise.json and fintech.json, content/blog/saas-homepage-design.md and saas-onboarding.md. QA runs the 5-gram body script on the draft and against the `beats` page.",
+    "headingOverlap": "Closest pairs: H2 1 vs hub 'What does our SaaS design agency deliver?' (the hub lists 6 deliverables as a service offer; the post maps 7 surfaces with metrics and links the hub list instead of restating it). H2 3 vs enterprise 'Role-permission matrix first' (enterprise covers the matrix process for SSO/SCIM organizations; the post covers on-screen role states for any SaaS and links enterprise for security reviews). H2 7 vs saas-onboarding-design 'Which parts … do we cover?' (first-run empty states; the post covers returning-user states and links the onboarding hub). H2 10 vs pillar 'Which SaaS product design service fits your stage?' (the pillar maps problem → service; the post maps surface → symptom → metric → first fix).",
+    "intentOverlap": "Grep of content/ for 'ux design for saas|saas ux|ux for saas|b2b saas design': no title, H1, keyword or metaTitle targets these phrases. Only hit: content/industries/enterprise.json metaTitle 'Enterprise UX Design for SaaS, AI and Internal Tools' contains the substring 'UX Design for SaaS'; its anchor/keyword is 'enterprise UX', so different intent (see notes POST-PUBLISH MONITOR). 'B2B SaaS design' appears only as a list item in content/locations/ux-agency-minneapolis.json and in brief hyponym arrays (no page targets it; fintech.json does not contain it). The hub owns 'saas design agency', 'saas ux design agency' (600) and 'saas ui ux design agency' (150) per clusters.json.",
+    "residualRisk": "Medium-low. (1) The hub abstract and the post both say 'every screen between trial and renewal'. The post must phrase its scope differently and link. (2) The roles section next to the enterprise page: keep the security-review layer to one sentence + link. (3) The dashboard section must stay one section so a later 'saas dashboard design' post is still possible.",
+    "result": "PASS at outline level."
+  },
+  "sisterSiteCheck": {
+    "status": "UNVERIFIED",
+    "evidence": "WebFetch https://uiuxdesignservices.us/sitemap.xml and /services/saas-ux-design/ both returned ENOTFOUND (2026-10-21). No shell, so the curl route was unavailable. WebSearch 'uiuxdesignservices.us saas ux design' returned no page from the domain. docs/content-system/sister-site.json lists city URLs only. The orchestrator reports the sister has /services/saas-ux-design/ and /industries/saas/. Judging by the URL, that service page targets 'saas ux design' (150, TP 20) and probably 'saas ux design agency' (commercial). Our primary 'ux design for saas' (parent 'saasui', informational) is a different string with a different parent topic, but the words are close.",
+    "mitigation": "'saas ux design' appears once in the body only (inside 'saas ux design patterns'), never in title, H1, metaTitle, description, H2/H3 or meta keywords; no 'saas ux design agency/services' phrasing anywhere; no link to the sister site.",
+    "qaStep": "Before publishing run: curl -sS https://uiuxdesignservices.us/sitemap.xml | grep -iE 'saas|dashboard|b2b'. Then curl -sS https://uiuxdesignservices.us/services/saas-ux-design/ and https://uiuxdesignservices.us/industries/saas/: read their <title>/H1. If either targets 'ux design for saas' or 'ux for saas', STOP and report to the owner (two sites on one keyword). Fail the post above 2% 5-gram overlap with either page."
+  },
+  "rejectedCandidates": [
+    { "keyword": "b2b saas design (200, KD 0, TP 100, own parent)", "why": "Kept as lead secondary with its own H2, not primary: TP 100 vs 400, B2B-only audience, page 1 mixes Dribbble listings and a website-design guide. The orchestrator's 350 is the 2-row sum incl. 'b2b saas website design' (150, TP 20), which is website intent covered by /blog/saas-homepage-design/." },
+    { "keyword": "ux design saas (200, KD 1, TP 400, parent 'saas design services')", "why": "Same words as the primary in broken order (no grammatical carrier), and its parent topic is a commercial service SERP next to the hub. Meta keyword only." },
+    { "keyword": "ux saas (150, KD 0, TP 350, parent 'saas ui design')", "why": "No grammatical carrier. Meta keyword only. The orchestrator's 'saas ui design cluster' 240 is the 3-row sum (150 + 60 + 30)." },
+    { "keyword": "saas ux design (150, KD 0, TP 20, parent 'saas designers')", "why": "TP 20 and a designer-hiring parent topic. Probably the target of the sister site's /services/saas-ux-design/. One body use only." },
+    { "keyword": "saas ux (100, KD 7, TP 250, parent 'saas ux design')", "why": "Secondary (2–3 uses). Its parent is the sister-risk phrase, so it is not primary." },
+    { "keyword": "saas ui design (100, KD 47) / saas ui/ux (30, KD 26)", "why": "KD too high for a young silo; UI-only intent." },
+    { "keyword": "saas ux design agency (600) / saas ux design company (250) / saas ui ux design agency (150) / saas ui/ux design services (150) / hire saas ux consultants (80)", "why": "Hub-owned commercial terms (clusters.json owner /services/saas-products/saas-design-agency/). Cannibalisation." },
+    { "keyword": "saas dashboard design (30, TP 350) / saas dashboard ux best practices (20) / saas dashboard design trends 2025/2026 (200/150)", "why": "Reserved for a dedicated future post; the dashboard here is one section. Trend-year queries are not buyer intent." },
+    { "keyword": "saas onboarding ux (30) / fix saas onboarding drop offs ux (20)", "why": "Owned by the saas-onboarding-design silo (/blog/saas-onboarding/)." },
+    { "keyword": "clarity in saas ux design (90) / ux design for saas growth (80) / saas ux best practices (30) / best ui/ux practices for b2b saas platforms (30)", "why": "No KD/TP rows (Ahrefs only volume). Used as lexical variants, not as volume claims." },
+    { "keyword": "best ux design companies for saas products (100) / top ui/ux agency for b2b saas platforms (100) and other 'best/top agency' lists", "why": "Listicle/vendor-ranking intent. A list post would rank us against ourselves and would read as self-promotion. It belongs, if anywhere, to a BOFU agency-choice post (deferred in competitors.json)." },
+    { "keyword": "remote saas ux designer jobs (70) / saas ux designer jobs (50)", "why": "Job-seeker intent, service-support 1." }
+  ],
+  "beats": "https://saasui.design/blog/saas-ux-design",
+  "beatsNote": "Ahrefs parent topic 'saasui' (the domain's brand) means saasui.design gets most of this query family's traffic. Its /blog/saas-ux-design page appeared in WebSearch for 'heymarvin saas ux design what is saas ux design principles' (2026-10-21). Not fetched (ENOTFOUND). QA: run curl -sSI -A 'Mozilla/5.0' on it first; if it redirects off-topic or 404s, use https://heymarvin.com/resources/saas-ux-design (page 1 for the primary) as `beats`. Also run the 5-gram check against saasui's surface posts (/blog/saas-permissions-roles-ux-patterns, /blog/saas-billing-subscription-ux-patterns, /blog/saas-usage-quota-limits-ux-patterns, /blog/saas-settings-page-ux-patterns): the post covers the same surfaces.",
+  "competitorPagesStudied": [
+    { "url": "https://heymarvin.com/resources/saas-ux-design", "seen": "Page 1 for the primary. Principle list that opens with a frictionless first-use experience; responsive across desktop/tablet/phone; integration points easy to find; research first.", "misses": "No surface-by-surface structure, no metrics, no billing/permission/table guidance, no US rules." },
+    { "url": "https://www.ramotion.com/blog/saas-ux-design/", "seen": "Page 1 for the primary and 'ux saas'. Retention framing, quick registration, support access, role-aware navigation, guided onboarding, dashboards.", "misses": "Onboarding-heavy; nothing on billing, plan limits, cancellation, table tasks or states for returning users." },
+    { "url": "https://wearetenet.com/blog/saas-ux-design", "seen": "Page 1. Minimal two-color palette advice, prototyping and journey mapping. Its sibling onboarding post argues for role-based onboarding flows.", "misses": "Visual-style advice; no metric per surface." },
+    { "url": "https://www.925studios.co/blog/2026-03-16-saas-ux-design-the-complete-guide-for-founders-in-2026", "seen": "2026 founders' guide: dashboards as the central hub, card layouts, 'five core patterns' (progressive onboarding, information hierarchy, empty state design, contextual guidance, feedback loops).", "misses": "Pattern list without roles, billing, tables or US rules. Originality: do NOT adopt a 'five core patterns' list or its card-layout claim." },
+    { "url": "https://saasui.design/blog/saas-ux-design and saasui surface posts (permissions, billing, usage limits, settings)", "seen": "Pattern library by surface: limit as a route forward (what happened, why, options), permission denial with a request-access state, billing that reassures rather than sells, settings as a hub of small unrelated tasks.", "misses": "Posts are separate. None joins roles with billing (member can't pay), none gives metrics or US cancellation rules, none shows real before/after client work. Originality: see notes DO NOT MIRROR." },
+    { "url": "https://adamfard.com/blog/b2b-saas-ux-design and https://www.saasui.design/blog/b2b-saas-design", "seen": "Page 1 for 'b2b saas design': buyer approves, admin trusts, user opens it daily; data-dense surfaces (dashboards, tables, settings, permissions); role-based dashboards and progressive disclosure as 2026 trends (procreator).", "misses": "No US security/accessibility frame and no worked client examples. Originality: do NOT reuse the 'buyers approve, admins trust, users open' triad wording." }
+  ],
+  "competitorsJsonHandback": {
+    "note": "Not written to docs/content-system/competitors.json (task instruction). Orchestrator: append these.",
+    "domains": [
+      { "domain": "saasui.design", "kind": "SaaS UI pattern library + blog", "silos": ["saas-design-agency"], "seenFor": ["ux design for saas (parent topic 'saasui')", "b2b saas design", "saas permissions/billing/settings/usage-limit ux patterns"], "source": "Ahrefs warehouse 2026-10-19 + WebSearch 2026-10-21" },
+      { "domain": "heymarvin.com", "kind": "research-tool vendor resources", "silos": ["saas-design-agency"], "seenFor": ["ux design for saas"], "source": "WebSearch 2026-10-21" },
+      { "domain": "wearetenet.com", "kind": "agency blog", "silos": ["saas-design-agency", "saas-onboarding-design"], "seenFor": ["ux design for saas", "saas onboarding ux best practices"], "source": "WebSearch 2026-10-21" },
+      { "domain": "adamfard.com", "kind": "agency blog", "silos": ["saas-design-agency"], "seenFor": ["b2b saas design", "examples of b2b saas designs"], "source": "WebSearch 2026-10-21" },
+      { "domain": "ramotion.com", "kind": "agency blog", "silos": ["saas-design-agency", "design-system-services"], "seenFor": ["ux design for saas", "ux saas"], "source": "WebSearch 2026-10-21 (domain already listed for design-system-services; add the silo)" }
+    ],
+    "topPost": { "domain": "saasui.design", "url": "https://saasui.design/blog/saas-ux-design", "title": "SaaS UX design (title not fetched)", "keywords": ["ux design for saas", "saas ux"], "estTraffic": null, "silo": "saas-design-agency", "status": "briefed", "brief": "content/briefs/ux-design-for-saas.json" }
+  },
+  "clustersHandback": "clusters.json has no owner for the Ahrefs parent topic 'saasui' (grep 2026-10-21; the only SaaS UX entry is the hub-owned agency cluster). Orchestrator, after publish: add { parentTopic: 'saasui', owner: '/blog/ux-design-for-saas/', keywords: ['ux design for saas (150, KD 5, TP 400)', 'ux for saas (150)', 'saas ux (100, KD 7)', 'saas ui ux design (60, KD 5)', 'saas ux design patterns (40)'] } and { parentTopic: 'b2b saas design', owner: '/blog/ux-design-for-saas/ (secondary bet)', keywords: ['b2b saas design (200, KD 0, TP 100)'] }. Keep 'saas design services' (parent of 'ux design saas', 'saas ux design company', 'saas ux ui design and development') with the hub. Mark blog-opportunities entries 'saasui' (80.4) done after publish; 'b2b saas design' (75.4), 'saas ui design' (75.6) and 'saas ux design' (72.5) as served-as-secondary. 'b2b saas website design' (150) stays with /blog/saas-homepage-design/.",
+  "notes": [
+    "CANNIBALISATION GUARDS: (1) Hub: do not restate its 6-part deliverable list as a list, its 4-step process, the agency-vs-in-house table, the product-type cards or any price; link instead. Rephrase the hub's 'every screen between the free trial and the renewal' scope. (2) /blog/saas-homepage-design/: one intro sentence + link; no homepage, pricing-page or sign-up content. (3) Onboarding silo: no first-run flow, setup checklist, product tour or activation-event content; the onboarding hub link in H2 7 is the hand-off. (4) /industries/enterprise/: one sentence + link for SSO/SCIM/audit/SOC 2/Section 508; no role-permission matrix process. (5) Future 'saas dashboard design' post: dashboard stays one section.",
+    "ORCHESTRATOR CONFLICT: the task says 'link out to onboarding/homepage posts'. The homepage post is same-silo (linked). /blog/saas-onboarding/ and /blog/onboarding-kyc-process-flow/ belong to the saas-onboarding-design silo, and RULES.md forbids linking another silo's posts. They are marked skip; the onboarding HUB link replaces them. Owner can override.",
+    "CASE STUDIES (exact facts only): TradeZella: crowded interface hid key metrics; hard to learn; no onboarding guide (do NOT use this line, the onboarding silo already uses it); web and mobile inconsistent; compact widgets for win rate and profit factor; trader-arranged widgets; mentor mode; +40% user interaction, +25% user retention, +30% new customers, 4.7 Trustpilot. Mass Media Co.: separate tools → one platform; order screen updates estimated cost as items are added; single dashboard for open tasks, sales operations, recent tasks; creative task cards with owner, due date, progress; order processing efficiency +30%; 'order processing error rate 2+, reduced from 25%' (quote as written, do not convert to a percentage drop); task completion +3%. Digno: score at organization, department and individual level; My Digno Score page explains factors and trend. DO NOT use Digno's revenue 5x, 126% profits, 13:1 ROI or '50% scaling' (business results, not UX), nor any Vocable figure. Do not attribute any result to one surface alone. No quotes or testimonials (none of these three has a client quote).",
+    "DO NOT MIRROR (saasui.design and other competitors' wording): 'a route forward, not a dead end', 'reassure rather than sell', 'graceful denial', 'hub of many small, unrelated tasks', 'buyers approve, admins trust, users open', 'five core patterns', 'activation velocity'. Express the ideas in our own structure (4-part limit message with an approver, role lens, state matrix).",
+    "DO NOT USE (unsourced figures seen in SERP snippets): 'strong UX yields up to 400% higher conversion' (vendor blog), 'every $1 in UX returns $100', '88% of users won't return after a bad experience', any '% of SaaS churn is caused by UX' claim, Dribbble listing prices ('from $3,500', '$5,000 one month'), any 'users decide in N seconds' figure.",
+    "LEGAL FRAME (H2 6, FAQ 4): consumer subscriptions only for AB 2863; do not say whether it applies to B2B contracts; do not state a 2026 FTC rule status; 'counsel decides, design makes the path findable'. Federal: ROSCA still enforced. American spelling. GDPR only as 'if you also sell in the EU', preferably omitted.",
+    "ENTITY SALIENCE: 'UX design for SaaS' exact 9–12 uses; all 10 H2s hold 'SaaS' or 'design', so the 40% keyword-H2 share is met (on-page script counts keyword words longer than 3 letters: 'design', 'SaaS'). Rival entities capped at about 6 uses each: 'dashboard', 'roles', 'permissions', 'data table', 'billing', 'settings', 'admin'. Central entity in the H2 or first sentence of at least 5 of 10 sections (H2 1, 5, 10 carry it; put it in the first sentence of H2 2 or H2 8 too).",
+    "VOICE: first person by Faizan Khan for method and judgment ('When I review…', 'I hide modules a role can never use'). 'We' only for hub, pillar and case-study facts. No invented anecdotes, clients, timings or rates. Examples beyond the 3 case studies are hypothetical and labeled ('Say your product has…').",
+    "POST-PUBLISH MONITOR: (a) if Google ranks /industries/enterprise/ for 'ux design for saas' (its metaTitle contains 'UX Design for SaaS'), confirm the enterprise → post path or consider a hub-banking link; (b) if the hub starts ranking for 'ux design for saas' or the post for 'saas design agency', check that backlink #1 is live and the hubAnchorBan holds; (c) sister site: see sisterSiteCheck.qaStep.",
+    "ABBREVIATIONS to expand on first use: software as a service (SaaS), user experience (UX), user interface (UI), business-to-business (B2B), business-to-consumer (B2C), role-based access control (RBAC), National Institute of Standards and Technology (NIST), Nielsen Norman Group (NN/g), Web Content Accessibility Guidelines (WCAG), single sign-on (SSO), System for Cross-domain Identity Management (SCIM), Federal Trade Commission (FTC), Restore Online Shoppers' Confidence Act (ROSCA), profit and loss (P&L), key performance indicator (KPI)."
+  ]
+}
