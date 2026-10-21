@@ -343,11 +343,11 @@
     {
       "source": "content/services/saas-design-agency.json → section 'What does a SaaS design agency do?' → body (line 25)",
       "target": "/blog/ux-design-for-saas/",
-      "anchor": "UX design for SaaS, surface by surface",
+      "anchor": "teardown of UX design for SaaS",
       "priority": "required",
-      "why": "Hub → post (the pillar/hub links down to its posts). The sentence names the exact patterns the post tears down (trials, seats, roles, permissions, usage limits, plan upgrades, invoices). The old string occurs once in the file.",
+      "why": "Hub → post (the pillar/hub links down to its posts). The sentence just named roles, usage limits, plan upgrades and invoices, which the post tears down. Link builder 2026-10-21: rewritten so it does not claim the post covers every pattern (trials and seats are not torn down) and so 'Our' does not open two sentences in a row. Old string re-checked: occurs once, line 25. Section 1 is format 'paragraph', which renders `body` as HTML.",
       "old": "Each pattern is a place where users get stuck or leave. Our designers study where trial users stop,",
-      "new": "Each pattern is a place where users get stuck or leave; our guide to <a href=\\\"/blog/ux-design-for-saas/\\\">UX design for SaaS, surface by surface</a> shows what each one needs. Our designers study where trial users stop,",
+      "new": "Each pattern is a place where users get stuck or leave, and our <a href=\\\"/blog/ux-design-for-saas/\\\">teardown of UX design for SaaS</a> shows where roles, plan limits and billing go wrong after onboarding. Our designers study where trial users stop,",
       "escapeNote": "The hub stores HTML inside a JSON string, so href quotes appear in the file as backslash + quote (same as the existing <a href=\\\"/services/saas-products/saas-product-redesign/\\\"> in that body)."
     },
     {
@@ -357,8 +357,8 @@
       "priority": "required",
       "why": "Pillar → post. The FAQ names onboarding, a dashboard, billing or a single workflow; the post's triage grid tells the reader which one to start with. Pillar FAQ answers already render HTML (the AI pillar FAQ at line 101 holds an <a>).",
       "old": "a: \"Yes. Onboarding, a dashboard, billing or a single workflow are common starting points.\" },",
-      "new": "a: \"Yes. Onboarding, a dashboard, billing or a single workflow are common starting points. To choose one, <a href=\\\"/blog/ux-design-for-saas/#how-do-you-rate-your-own-ux-design-for-saas-surface-by-surface\\\">rate each in-product surface</a> first.\" },",
-      "escapeNote": "pillars.ts is TypeScript with double-quoted strings, so the file text is href=\\\"…\\\" (backslash + quote). Fragment = slugify() of H2 10; if the writer changes H2 10, update the fragment or drop it."
+      "new": "a: \"Yes. Onboarding, a dashboard, billing or a single workflow are common starting points. To choose one, <a href=\\\"/blog/ux-design-for-saas/#how-do-you-rate-your-own-ux-design-for-saas\\\">rate each in-product surface</a> first.\" },",
+      "escapeNote": "pillars.ts is TypeScript with double-quoted strings, so the file text is href=\\\"…\\\" (backslash + quote), same as the line 101 and 256 FAQ links. Fragment re-checked 2026-10-21 by the link builder: the draft's H2 10 is 'How do you rate your own UX design for SaaS?', and slugify() in lib/blog.ts gives 'how-do-you-rate-your-own-ux-design-for-saas' (the old '-surface-by-surface' suffix no longer exists). Old string re-checked: line 179. Note: pillar faqs[].a also feeds FAQPage schema."
     },
     {
       "source": "content/blog/saas-homepage-design.md line 194 (section 'How does SaaS homepage design carry into the product?', Digno paragraph)",
@@ -368,7 +368,7 @@
       "why": "Same silo, sideways (allowed). The paragraph has just moved from the homepage to Digno's dashboard and score pages, the exact hand-off into the new post. The source is an indexed, published post.",
       "old": "Name the product screen that proves your own headline, the way the score pages prove Digno's.",
       "new": "Name the product screen that proves your own headline, the way the score pages prove Digno's. Dashboards, roles and billing are [the in-product surfaces behind that promise](/blog/ux-design-for-saas/), each with its own teardown.",
-      "authorNote": "The sentence is in Shahmir Farooq's post, so it avoids 'I' about Faizan's post."
+      "authorNote": "The sentence is in Shahmir Farooq's post, so it avoids 'I' about Faizan's post. Link builder 2026-10-21: old string re-checked at line 194 (exact match, once). The new sentence names three surfaces the post covers (dashboard H2 2, roles H2 3, billing H2 6); no repeated words with the sentence before it apart from 'promise', which picks up the paragraph's 'scoring promise'."
     }
   ],
   "externalSources": [
@@ -380,9 +380,20 @@
     { "url": "https://www.nngroup.com/articles/empty-state-interface-design/", "why": "Primary (NN/g, 2021): 3 empty-state guidelines. H2 7." },
     { "url": "https://www.nngroup.com/articles/indicators-validations-notifications/", "why": "Primary (NN/g, January 2024): indicators vs validations vs notifications, chosen by type, urgency and required action. H2 8." },
     { "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html", "why": "Primary (W3C): SC 2.5.8, 24 × 24 CSS px at AA, spacing exception. H2 4." },
-    { "url": "https://btlaw.com/en/insights/alerts/2025/california-expands-automatic-renewal-law-new-requirements-now-in-effect", "why": "US law firm alert (Barnes & Thornburg, July 2025): AB 2863 in effect, online cancellation in the same medium, contracts on/after July 1, 2025. H2 6, FAQ 4.", "secondary": true, "country": "US", "primaryNote": "No leginfo.legislature.ca.gov URL for AB 2863 appeared in this run's searches. Fact-checker: if a search returns the chaptered bill page (Chapter 515, Statutes of 2024), swap to it; otherwise this US outlet stands." },
-    { "url": "https://www.morganlewis.com/pubs/2025/07/ftcs-click-to-cancel-rule-vacated-ahead-of-planned-july-14-effective-date", "why": "US law firm (Morgan Lewis, July 2025): Eighth Circuit vacated the FTC click-to-cancel rule before July 14, 2025; ROSCA enforcement continues (also in gtlaw.com and alston.com alerts). H2 6, FAQ 4.", "secondary": true, "country": "US", "primaryNote": "Court order not searched. Do not state any 2026 FTC rulemaking status (sources disagree: 'reopened March 2026' vs petition comments due January 2, 2026)." }
+    { "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2863", "why": "Primary (California Legislature, bill text, Chapter 515, Statutes of 2024): amendments apply to contracts entered into, amended or extended on or after July 1, 2025; cancellation available in the same medium used to sign up. H2 6. Replaces the btlaw.com alert (link builder 2026-10-21, leginfo-restricted search)." },
+    { "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/p064202negativeoptionruleanprm.pdf", "why": "Primary (FTC ANPRM, March 2026): 'On July 8, 2025 ... the United States Court of Appeals for the Eighth Circuit vacated the amended Rule' (Custom Communications v. FTC). H2 6. Replaces the Morgan Lewis alert (link builder 2026-10-21, ftc.gov-restricted search; WebFetch ENOTFOUND). The HTML press release (/news-events/news/press-releases/2026/03/ftc-seeks-public-comment-response-advance-notice-proposed-rulemaking-regarding-negative-option) showed 'the vacated 2024 Rule' but no July 8 date in snippets, so the PDF is cited." },
+    { "url": "https://www.ftc.gov/business-guidance/blog/2019/03/recipe-rosca-violation", "why": "Primary (FTC business blog): ROSCA's three duties (clear disclosure of material terms, express informed consent, simple way to stop recurring charges). H2 6. Same URL as /blog/saas-homepage-design/." }
   ],
+  "removedExternalLinks": [
+    { "url": "https://www.nngroup.com/articles/dashboards-preattentive/", "verified": "2026-10-21 nngroup.com-restricted search (definition, at-a-glance, length and 2D position)", "action": "De-linked to keep 8 externals; sentence reworded without naming NN/g (general definition plus preattentive processing)." },
+    { "url": "https://carbondesignsystem.com/components/data-table/usage/", "verified": "2026-10-21 carbondesignsystem.com-restricted search (cancel button or deselect all exits batch mode)", "action": "De-linked; IBM Carbon no longer named; sentence turned into Faizan's method ('In my tables, a batch actions toolbar appears...'). Entity 'IBM Carbon Design System' dropped from the body." },
+    { "url": "https://www.nngroup.com/articles/indicators-validations-notifications/", "verified": "2026-10-21 nngroup.com-restricted search (type of information, urgency, whether the user must act)", "action": "De-linked; sentence turned into Faizan's method without naming NN/g." }
+  ],
+  "linkBuilderNotes": {
+    "date": "2026-10-21",
+    "internal": "10 body links (TOFU 8–12): hub x2 (intro anchor 'SaaS design agency' at ~word 25; H2 10 fragment #what-does-our-saas-design-agency-deliver, verified against sectionId()), /about/, /blog/saas-homepage-design/ (same silo), /case-studies/tradezella/, /case-studies/digno/, /case-studies/mass-media-co/, /services/saas-products/saas-onboarding-design/ (the one cross-hub link), /industries/enterprise/, /services/saas-products/ (pillar). Case studies are 3, above the 1–2 bucket: kept because the brief marks all three required and each is the only source of the facts in its section (TradeZella 40%/25%, Mass Media Co. 30% and '2+, reduced from 25%', Digno three-level scores). If QA enforces 2, drop the Digno link and keep its facts as plain text.",
+    "external": "8 links: NIST RBAC glossary, NN/g data tables, NN/g progressive disclosure, W3C SC 2.5.8 (WCAG22 Understanding), NN/g empty states, leginfo AB 2863, FTC ANPRM PDF, FTC ROSCA blog. Fallback to 5 if QA applies the default cap: keep NIST, W3C, leginfo, FTC ANPRM, FTC ROSCA; de-link the three NN/g pages only together with rewording that drops the NN/g name."
+  },
   "visuals": [
     { "type": "surface map (framework ring)", "file": "ux-design-for-saas-surface-map.svg", "idea": "A product window in the center, 7 tiles around it (dashboard, roles and permissions, data tables, settings, plans and billing, system states, retention loops), each tile with its job and a small metric chip. A faded 'sign-up and first run' tile sits outside the ring, labeled 'covered by onboarding'. Text panel: table surface | job | metric." },
     { "type": "before/after annotated wireframe pair", "file": "ux-design-for-saas-dashboard-teardown.svg", "idea": "Left: a dashboard with 12 equal cards and no hierarchy. Right: a status line, 'changed since your last visit', 3 next-action items and a drill-down link, with 5 numbered callouts. Text panel: the 5 callouts as a list." },

@@ -64,7 +64,7 @@ A returning user lands on the home screen first, so I start there.
 
 **In UX design for SaaS, a dashboard first answers one question at a glance: is my work on track, and what do I do next?**
 
-[Nielsen Norman Group (NN/g) describes dashboards](https://www.nngroup.com/articles/dashboards-preattentive/) as collections of data visualizations in a single-page view that give at-a-glance information people can act on quickly. <!-- source: https://www.nngroup.com/articles/dashboards-preattentive/ --> The same article covers preattentive processing: length and position, as in bar and line charts, are read before conscious attention starts. So status numbers belong in those forms, and secondary metrics wait one click away.
+A dashboard is a set of data visualizations in a single-page view, built to give at-a-glance information people can act on quickly. Length and position, as in bar and line charts, are processed preattentively, before conscious attention starts. So status numbers belong in those forms, and secondary metrics wait one click away.
 
 The weak version puts every metric on screen at once, all at the same size. The strong one leads with status, then what changed since the last visit, then up to 3 next actions, with detail on demand.
 
@@ -92,7 +92,7 @@ The user interface (UI) layer of color, type and density matters in SaaS UI UX d
 
 **In UX design for SaaS, roles change what each person sees and can do on one screen, and a blocked action explains why and offers a way to request access.**
 
-The [National Institute of Standards and Technology (NIST) glossary](https://csrc.nist.gov/glossary/term/role_based_access_control) describes role-based access control (RBAC) as access in which permissions attach to roles rather than to individual identities. <!-- source: https://csrc.nist.gov/glossary/term/role_based_access_control --> Roles can also inherit permissions through a hierarchy. So I design permissions UX per role. I draw one screen once for an admin, once for a member and once for a guest, then test it with a role switcher in the prototype.
+The [National Institute of Standards and Technology (NIST) glossary](https://csrc.nist.gov/glossary/term/role_based_access_control) describes role-based access control (RBAC) as access in which permissions attach to roles rather than to individual identities. Roles can also inherit permissions through a hierarchy. So I design permissions UX per role. I draw one screen once for an admin, once for a member and once for a guest, then test it with a role switcher in the prototype.
 
 <!-- visual: role lens triptych plus denied state. The same project screen 3 times (admin, member, guest), with each module shown, hidden or disabled with a one-line reason. A 4th frame shows a "You need Editor access" message with the admin's name and a Request access button. -->
 
@@ -123,7 +123,7 @@ Does your product show one "Access denied" page to every role? That gap is the r
 
 **SaaS data tables work when they support the jobs people bring to them: find records, compare them, view or edit one row and act on many rows at once.**
 
-[NN/g's article on data tables](https://www.nngroup.com/articles/data-tables/) names these four tasks and argues that tables beat cards for comparison, because people see adjacent values without holding them in memory. <!-- source: https://www.nngroup.com/articles/data-tables/ --> Two details carry most of the weight in my data table design. A readable record identifier sits in the first column, and a side panel opens one row while the table stays in view.
+In [its article on data tables](https://www.nngroup.com/articles/data-tables/), Nielsen Norman Group (NN/g) names these four tasks and says tables suit comparison, because people see two data points at once without holding them in working memory. Two details carry most of the weight in my data table design. A readable record identifier sits in the first column, and a side panel opens one row while the table stays in view.
 
 The matrix below pairs each task with the pattern that serves it and the symptom that shows it failing.
 
@@ -136,9 +136,9 @@ Table: Data table tasks, the pattern that serves each and the failure symptom
 | View, edit or add one row. | A side panel that keeps the table in view. | Users lose their place after every edit. |
 | Act on records. | Row selection plus a bulk action toolbar. | Users repeat the same action row by row. |
 
-The [IBM Carbon Design System's data table guidance](https://carbondesignsystem.com/components/data-table/usage/) shows a batch actions toolbar when rows are selected, and users leave batch mode by canceling or deselecting. <!-- source: https://carbondesignsystem.com/components/data-table/usage/ --> I ship a data table with bulk actions only when that toolbar shows how many rows are selected, so nobody deletes records they cannot see.
+In my tables, a batch actions toolbar appears as soon as rows are selected, and people leave batch mode by canceling or deselecting every row. I ship a data table with bulk actions only when that toolbar shows how many rows are selected, so nobody deletes records they cannot see.
 
-[Web Content Accessibility Guidelines (WCAG) 2.2 Success Criterion 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html) sets pointer targets at Level AA to at least 24 × 24 Cascading Style Sheets (CSS) pixels, or enough spacing around smaller ones, with listed exceptions. <!-- source: https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html --> Row actions and icon buttons in dense tables are where WCAG 2.2 targets fail first, so I check them before anything else.
+[Web Content Accessibility Guidelines (WCAG) 2.2 Success Criterion 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html) sets pointer targets at Level AA to at least 24 × 24 Cascading Style Sheets (CSS) pixels, or enough spacing around smaller ones, with listed exceptions. Row actions and icon buttons in dense tables are where WCAG 2.2 targets fail first, so I check them before anything else.
 
 The [Mass Media Co. order platform](/case-studies/mass-media-co/) shows tables and workflow designed together. Order work had been spread across tools that did not talk to each other. On the new order screen, the team combines services, channels and data products into one order, and the estimated cost updates as items are added. For the whole platform revamp, the case study reports order processing efficiency up 30% and an order processing error rate of 2+, reduced from 25%.
 
@@ -148,7 +148,7 @@ Saved views and column choices live somewhere, and that somewhere is settings.
 
 **Settings belong in three separate places (personal preferences, workspace settings and admin controls), each no more than two levels deep.**
 
-In [his article on progressive disclosure](https://www.nngroup.com/articles/progressive-disclosure/), Jakob Nielsen of NN/g moves advanced or rarely used options to a secondary screen. <!-- source: https://www.nngroup.com/articles/progressive-disclosure/ --> He warns that designs with more than 2 disclosure levels usually have low usability, because users get lost moving between levels. That is my depth cap for settings navigation.
+In [his article on progressive disclosure](https://www.nngroup.com/articles/progressive-disclosure/), Jakob Nielsen of NN/g moves advanced or rarely used options to a secondary screen. He warns that designs with more than 2 disclosure levels usually have low usability, because users get lost moving between levels. That is my depth cap for settings navigation.
 
 - **Personal preferences:** notifications, theme and profile, because each person changes them only for themselves.
 - **Workspace settings:** integrations, defaults and shared views, because a change here affects the whole team.
@@ -185,9 +185,9 @@ The weak version is a red banner that says the limit was reached and offers no n
 
 In business-to-business (B2B) products, the member who hits a plan limit often cannot upgrade. So the upgrade prompt routes a request to the admin instead of opening a checkout page.
 
-Cancellation has US rules behind it. For consumer subscriptions, [Assembly Bill (AB) 2863](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2863) amended the California Automatic Renewal Law for contracts entered into, amended or extended on or after July 1, 2025. <!-- source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2863 --> A consumer who accepted the offer online must be able to cancel online, and cancellation must be available in the same medium used to sign up.
+Cancellation has US rules behind it. For consumer subscriptions, [Assembly Bill (AB) 2863](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2863) amended the California Automatic Renewal Law for contracts entered into, amended or extended on or after July 1, 2025. A consumer who accepted the offer online must be able to cancel online, and cancellation must be available in the same medium used to sign up.
 
-Federally, the Eighth Circuit vacated the Federal Trade Commission (FTC) click-to-cancel rule on July 8, 2025, as [Morgan Lewis reported](https://www.morganlewis.com/pubs/2025/07/ftcs-click-to-cancel-rule-vacated-ahead-of-planned-july-14-effective-date). <!-- source: https://www.morganlewis.com/pubs/2025/07/ftcs-click-to-cancel-rule-vacated-ahead-of-planned-july-14-effective-date --> The Restore Online Shoppers' Confidence Act (ROSCA) still applies, and the FTC reads it as [requiring clear terms, express informed consent and an easy way to stop the recurring charge](https://www.ftc.gov/business-guidance/blog/2019/03/recipe-rosca-violation). <!-- source: https://www.ftc.gov/business-guidance/blog/2019/03/recipe-rosca-violation --> Counsel decides which rules cover your contracts; design makes the cancel path easy to find on the billing page.
+Federally, the Eighth Circuit vacated the Federal Trade Commission (FTC) click-to-cancel rule on July 8, 2025, as the FTC recounts in [its March 2026 advance notice of proposed rulemaking](https://www.ftc.gov/system/files/ftc_gov/pdf/p064202negativeoptionruleanprm.pdf). The Restore Online Shoppers' Confidence Act (ROSCA) still applies, and the FTC reads it as [requiring clear terms, express informed consent and an easy way to stop the recurring charge](https://www.ftc.gov/business-guidance/blog/2019/03/recipe-rosca-violation). Counsel decides which rules cover your contracts; design makes the cancel path easy to find on the billing page.
 
 A limit message is a system state, and so are the blank, slow and broken screens covered next.
 
@@ -195,7 +195,7 @@ A limit message is a system state, and so are the blank, slow and broken screens
 
 **Good UX design for SaaS gives every state a returning user hits, from an empty filter to a failed sync, two things: what happened and the next action.**
 
-NN/g's [guidelines for empty states in complex applications](https://www.nngroup.com/articles/empty-state-interface-design/) give a blank container 3 jobs. <!-- source: https://www.nngroup.com/articles/empty-state-interface-design/ --> It should tell people what the system is doing, help them learn the feature and hand them a shortcut into the main task. Most advice stops at the first-run screen, but a returning user meets more empty states than a new one: a filter that matches nothing, records someone deleted, a sync that failed.
+NN/g's [guidelines for empty states in complex applications](https://www.nngroup.com/articles/empty-state-interface-design/) give a blank container 3 jobs. It should tell people what the system is doing, help them learn the feature and hand them a shortcut into the main task. Most advice stops at the first-run screen, but a returning user meets more empty states than a new one: a filter that matches nothing, records someone deleted, a sync that failed.
 
 The matrix below lists each state a returning user can hit, what they need to know and the one action to offer.
 
@@ -218,7 +218,7 @@ First-run empty states and setup checklists belong to [SaaS onboarding design](/
 
 **Retention loops bring SaaS users back when each message points to new work that matters to them, such as a mention, an approval or a changed number, and stays quiet otherwise.**
 
-[NN/g's comparison of indicators, validations and notifications](https://www.nngroup.com/articles/indicators-validations-notifications/) picks between them by the type of information, its urgency and whether the user has to act. <!-- source: https://www.nngroup.com/articles/indicators-validations-notifications/ --> Each notification gets an urgency level before it gets a channel. Action-required events, such as an approval waiting, interrupt in the product and by email. Passive events collect in a notification center and a weekly digest.
+I pick between an indicator, a validation and a notification by the type of information, its urgency and whether the user has to act. Each notification gets an urgency level before it gets a channel. Action-required events, such as an approval waiting, interrupt in the product and by email. Passive events collect in a notification center and a weekly digest.
 
 The best retention loop comes from the product's own data: a task assigned to you, an approval waiting, a score that moved or a saved view with new rows. In TradeZella's mentor mode, a coach compares the cumulative profit and loss of every mentee in one view. Mass Media Co.'s creative task cards name the owner, the due date and the progress. Digno's personal score page tracks each employee's score over time.
 
@@ -264,7 +264,7 @@ Table: Triage grid for rating seven in-product surfaces
 
 </details>
 
-A project can start with one surface. In our [SaaS product design](/services/saas-products/) work, onboarding, a dashboard, billing or a single workflow are common starting points. When three or more rows come up red, look at a full engagement across [the six product parts we design](/services/saas-products/saas-design-agency/#what-does-our-saas-design-agency-deliver). <!-- link: second UP link to the SaaS design agency service; if the link builder counts the fragment as the same target as the intro link, switch to the plain service URL -->
+A project can start with one surface. In our [SaaS product design](/services/saas-products/) work, onboarding, a dashboard, billing or a single workflow are common starting points. When three or more rows come up red, look at a full engagement across [the six product parts we design](/services/saas-products/saas-design-agency/#what-does-our-saas-design-agency-deliver).
 
 I'd fill in the grid with whoever reads your support tickets, then fix the reddest row before you redesign anything else.
 
