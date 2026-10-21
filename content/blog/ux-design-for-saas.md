@@ -18,6 +18,7 @@ takeaways:
   - "A plan-limit message answers four things in order: what stopped, what still works, what it costs to continue and who approves."
   - "California's amended Automatic Renewal Law lets consumers who signed up online cancel online, for contracts from July 1, 2025."
   - "Rate each surface red, amber or green and fix the reddest one first; one surface can be a project on its own."
+image: /blog/ux-design-for-saas/cover.svg
 draft: true
 qa: pending
 ---
@@ -34,9 +35,7 @@ I group the work by surface rather than by principle because a subscriber pays e
 
 The map below pairs each surface with its job and the number that shows it failing.
 
-<!-- visual: framework ring surface map. A product window in the center with 7 tiles around it (dashboard, roles and permissions, data tables, settings, plans and billing, system states, retention loops). Each tile shows the surface name, its job for a paying customer and a small metric chip. A faded tile outside the ring reads "sign-up and first run, covered by onboarding". No benchmark values on the chips. -->
-
-![Surface map of UX design for SaaS: seven in-product surfaces around a product window, each tile with its job and failure metric, with sign-up and first run outside the ring](/blog/ux-design-for-saas/ux-design-for-saas-surface-map.svg "Surface map of UX design for SaaS: seven in-product surfaces, each with its job and failure metric")
+![Surface map of UX design for SaaS: a product window listing seven in-product surfaces, each row with its job and failure metric, with sign-up and first run outside the window](/blog/ux-design-for-saas/ux-design-for-saas-surface-map.svg "Surface map of UX design for SaaS: seven in-product surfaces, each with its job and failure metric")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -68,8 +67,6 @@ A dashboard is a set of data visualizations in a single-page view, built to give
 
 The weak version puts every metric on screen at once, all at the same size. The strong one leads with status, then what changed since the last visit, then up to 3 next actions, with detail on demand.
 
-<!-- visual: before/after annotated wireframe pair. Left, weak: a SaaS dashboard with 12 equal cards and no hierarchy. Right, strong: a status line, a "changed since your last visit" block, 3 next-action items and a drill-down link, with 5 numbered callouts on the strong side. No real product names. -->
-
 ![Before and after SaaS dashboard wireframes: a weak dashboard with 12 equal metric cards beside a strong dashboard with a status line, changes since the last visit, three next actions and a drill-down link](/blog/ux-design-for-saas/ux-design-for-saas-dashboard-teardown.svg "SaaS dashboard teardown: every metric at once against status, change and next actions")
 
 <details class="astext"><summary>Show as text</summary>
@@ -94,9 +91,7 @@ The user interface (UI) layer of color, type and density matters in SaaS UI UX d
 
 The [National Institute of Standards and Technology (NIST) glossary](https://csrc.nist.gov/glossary/term/role_based_access_control) describes role-based access control (RBAC) as access in which permissions attach to roles rather than to individual identities. Roles can also inherit permissions through a hierarchy. So I design permissions UX per role. I draw one screen once for an admin, once for a member and once for a guest, then test it with a role switcher in the prototype.
 
-<!-- visual: role lens triptych plus denied state. The same project screen 3 times (admin, member, guest), with each module shown, hidden or disabled with a one-line reason. A 4th frame shows a "You need Editor access" message with the admin's name and a Request access button. -->
-
-![The same SaaS project screen seen by an admin, a member and a guest, plus a fourth frame showing a no-permission state with the admin's name and a Request access button](/blog/ux-design-for-saas/ux-design-for-saas-role-lens.svg "Roles and permissions in a SaaS interface: one screen through three roles and a request-access state")
+![The same SaaS project screen seen by an admin, a member and a guest, plus a no-permission state with the admin's avatar and a Request access button, each beside what the role sees, can do and meets when blocked](/blog/ux-design-for-saas/ux-design-for-saas-role-lens.svg "Roles and permissions in a SaaS interface: one screen through three roles and a request-access state")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -165,8 +160,6 @@ Sort your current settings into those three groups before you redraw a single pa
 Good billing UX puts the current plan, a usage meter for each of the usage limits, the next charge with its date, invoice history and the payment method on one screen. I show the usage meter before the limit, at a warning threshold you choose, so the limit never arrives as a surprise. Our plans-and-billing work treats upgrade prompts, usage limits, invoices and the cancellation flow as one path, because the customer walks it as one.
 
 When someone hits one of the plan limits, the message answers four questions in a fixed order.
-
-<!-- visual: message anatomy, weak against strong. Top: a red "Limit reached" banner with no next step. Bottom: a 4-part limit message (what stopped, what still works, cost to continue, who approves) with a usage meter above it and an "Ask your admin to upgrade" path for members. -->
 
 ![Weak and strong SaaS plan-limit messages: a dead-end Limit reached banner above a four-part message with a usage meter and a path for members to ask an admin to upgrade](/blog/ux-design-for-saas/ux-design-for-saas-plan-limit.svg "SaaS plan-limit message anatomy: a dead-end banner against a four-part message with an approver")
 
@@ -242,9 +235,7 @@ In business-to-consumer (B2C) products one person is buyer and user at once, so 
 
 Pull each metric from your analytics and support tickets, then watch 3 users work through each surface in recorded sessions. A row turns red when the symptom shows up in those sessions and the metric moves the wrong way. It turns amber when only one of the two does, and green when neither does.
 
-<!-- visual: triage heat-map grid. 7 rows (the surfaces) by 4 columns: symptom you can see, metric to pull, first fix, your rating. The rating column holds blank red, amber and green swatches to fill in. Not a scorecard with points. -->
-
-![Triage grid for UX design for SaaS: seven in-product surfaces, each with a visible symptom, a metric to pull, a first fix and blank red, amber and green swatches to rate it](/blog/ux-design-for-saas/ux-design-for-saas-triage-grid.svg "Triage grid for UX design for SaaS: rate each in-product surface red, amber or green")
+![Triage grid for UX design for SaaS: seven in-product surfaces, each with a visible symptom, a first fix and blank red, amber and green swatches to rate it](/blog/ux-design-for-saas/ux-design-for-saas-triage-grid.svg "Triage grid for UX design for SaaS: rate each in-product surface red, amber or green")
 
 <details class="astext"><summary>Show as text</summary>
 
