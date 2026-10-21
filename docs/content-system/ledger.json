@@ -259,6 +259,23 @@
         "tool roundups",
         "hubs with a post in the last 3 days: saas-design-agency, mvp-design-agency, chatbot-ui-design"
       ]
+    },
+    {
+      "date": "2026-10-21",
+      "goal": "daily post: highest-scoring relevant topic",
+      "jobs": [
+        {
+          "hub": "saas-design-agency",
+          "keyword": "ux design for saas (cluster: saas ui design, ux saas, saas ux design)",
+          "score": 80.4,
+          "format": "complete guide"
+        }
+      ],
+      "skipped": [
+        "saas website design, web design for saas (covered by /blog/saas-homepage-design/)",
+        "off-audience AI use-case topics; product discovery variants (fold into existing post); tool roundups",
+        "hubs with a post in the last 3 days: mvp-design-agency, chatbot-ui-design, saas-onboarding-design"
+      ]
     }
   ]
 }
