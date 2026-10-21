@@ -90,7 +90,7 @@ The user interface (UI) layer of color, type and density matters in SaaS UI UX d
 
 ## How should roles and permissions show in a SaaS interface?
 
-**Roles and permissions should change what each person sees and can do on the same screen, and a blocked action should explain why and offer a way to request access.**
+**In UX design for SaaS, roles change what each person sees and can do on one screen, and a blocked action explains why and offers a way to request access.**
 
 The [National Institute of Standards and Technology (NIST) glossary](https://csrc.nist.gov/glossary/term/role_based_access_control) describes role-based access control (RBAC) as access in which permissions attach to roles rather than to individual identities. <!-- source: https://csrc.nist.gov/glossary/term/role_based_access_control --> Roles can also inherit permissions through a hierarchy. So I design permissions UX per role. I draw one screen once for an admin, once for a member and once for a guest, then test it with a role switcher in the prototype.
 
