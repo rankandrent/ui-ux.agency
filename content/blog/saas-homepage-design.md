@@ -191,7 +191,7 @@ Copy can be fixed alone in an afternoon; a missing first-run path can't. Found c
 
 For [Digno](/case-studies/digno/), a human resources (HR) tech SaaS with an artificial intelligence (AI) scoring engine, we delivered both the website and the web app. Its homepage leads with "Employee Scoring made Easy", walks visitors through how Digno works and invites them to try it free. One team shaped the promise and the product it points to.
 
-The product keeps that scoring promise on its main screens. The organization dashboard puts the company health score and a leaderboard on one screen, and each employee gets a My Digno Score page that explains the factors behind the number. Name the product screen that proves your own headline, the way the score pages prove Digno's.
+The product keeps that scoring promise on its main screens. The organization dashboard puts the company health score and a leaderboard on one screen, and each employee gets a My Digno Score page that explains the factors behind the number. Name the product screen that proves your own headline, the way the score pages prove Digno's. Dashboards, roles and billing are [the in-product surfaces behind that promise](/blog/ux-design-for-saas/), each with its own teardown.
 
 B2B homepages add a twist: the person who signs up isn't always the one who signs the contract.
 

@@ -110,3 +110,8 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-20 (onboarding-kyc-process-flow): Before drawing, measure the full panel text in the best layout; if it is over the canvas, keep the post's lane direction and draw exact panel substrings (assert label in panel item), then tell the orchestrator which panel parts the image omits.
 - 2026-10-20: Run a separate panel ⊇ image check (join wrapped <text> lines, match against the panel) next to the image ⊇ panel check; it catches node labels like "AUTOMATED CHECKS".
 - 2026-10-20: When an outcome node label collides with column headers, draw it as a full-height vertical bar with rotated text and arrows into each card.
+
+- 2026-10-21 (ux-design-for-saas): A "ring" of 7 items each with a sentence-long job and metric can't fit 1200×750 at 26px; draw the list inside the metaphor's frame (product window with sidebar names and job + chip rows) and put the "outside" item in the title band.
+- 2026-10-21: When two images in one post carry the same column, drop it from the denser image and tell the writer to cut it from that panel; don't shrink text.
+- 2026-10-21: chromium --headless --screenshot clips height when the window is short; use H ≥ 600 or Playwright element screenshots before judging the bottom edge.
+- 2026-10-21: A before/after image's text panel must cover both sides (the weak side is often forgotten); a dropped table column also comes out of the panel and its intro.

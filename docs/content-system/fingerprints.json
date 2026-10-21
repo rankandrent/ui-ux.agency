@@ -542,6 +542,42 @@
       "visuals": 5,
       "example": "hypothetical neobank",
       "date": "2026-10-20"
+    },
+    {
+      "slug": "ux-design-for-saas",
+      "hub": "saas-design-agency",
+      "type": "Comparison",
+      "funnel": "tofu",
+      "introStyle": "subtracting onboarding from the deliverable list, opening on the paying customer",
+      "h2Frames": [
+        "surface map",
+        "dashboard",
+        "roles and permissions",
+        "data tables",
+        "settings",
+        "billing, plan limits, cancellation",
+        "returning-user states",
+        "retention loops",
+        "B2B variant",
+        "triage grid",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "Which surfaces decide UX design for SaaS after onboarding?",
+        "What should a SaaS dashboard answer first?",
+        "How should roles and permissions show in a SaaS interface?",
+        "Which 4 jobs must SaaS data tables support?",
+        "Where do settings belong in UX design for SaaS?",
+        "How should SaaS billing, plan limits and cancellation work?",
+        "What do empty, loading and error states owe returning users?",
+        "Which retention loops bring SaaS users back?",
+        "How does B2B SaaS design change roles, tables and billing?",
+        "How do you rate your own UX design for SaaS?",
+        "FAQs"
+      ],
+      "visuals": 5,
+      "example": "weak vs strong version per in-product surface",
+      "date": "2026-10-21"
     }
   ]
 }

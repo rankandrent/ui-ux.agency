@@ -118,3 +118,10 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-20 (loop 2): When a fix must keep a brief term word for word, write the replacement around that term so QA doesn't need to rewrite it.
 - 2026-10-20: When a fix reuses a sentence from a site JSON, paraphrase it (keep nouns, change shape) so the 8-word overlap check passes, and note supporting line numbers.
 - 2026-10-20: For sequence claims about agency method ("before X review"), cite the process-step order as evidence, not one sentence.
+
+- 2026-10-21 (ux-design-for-saas): For "amended law X requires Y for contracts from date D", check whether Y existed before the amendment; if so, name only what the amendment added (CA online cancellation predates AB 2863; AB 2863 added the same-medium rule).
+- 2026-10-21: When a list follows a category noun ("security review of"), check each item belongs to that category in the source page (Section 508 is procurement, not security).
+- 2026-10-21: For every entry in removedExternalLinks, compare the surviving sentence with the source's wording; if near-verbatim, rewrite it or credit the source.
+- 2026-10-21 (loop 2): When QA splits a list sentence, check the moved item now sits next to a subject it is true for and that "That review…" still points at the right noun.
+- 2026-10-21: Check panel counts/labels QA writes ("12 equal metric cards") against the SVG's shapes or aria-label, not only its <text> nodes.
+- 2026-10-21: A backlink saying "each with its own section" is true only if every named item has its own H2 in the target post.

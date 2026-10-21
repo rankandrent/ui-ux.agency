@@ -125,6 +125,24 @@
         "/industries/fintech/ (KYC and account opening card)",
         "/services/saas-products/saas-onboarding-design/ (account setup step)"
       ]
+    },
+    {
+      "slug": "ux-design-for-saas",
+      "hub": "saas-design-agency",
+      "keyword": "ux design for saas",
+      "date": "2026-10-21",
+      "images": 5,
+      "internalLinks": 9,
+      "externalLinks": 8,
+      "qaLoops": 1,
+      "factLoops": 2,
+      "semanticScore": 94,
+      "opportunityScore": 80.4,
+      "backlinks": [
+        "/services/saas-products/saas-design-agency/ (SaaS-specific patterns paragraph)",
+        "/services/saas-products/ (pillar FAQ: one part of our SaaS product)",
+        "/blog/saas-homepage-design/ (Digno promise line)"
+      ]
     }
   ],
   "audits": [
@@ -258,6 +276,23 @@
         "product discovery variants (fold into /blog/product-discovery/)",
         "tool roundups",
         "hubs with a post in the last 3 days: saas-design-agency, mvp-design-agency, chatbot-ui-design"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "goal": "daily post: highest-scoring relevant topic",
+      "jobs": [
+        {
+          "hub": "saas-design-agency",
+          "keyword": "ux design for saas (cluster: saas ui design, ux saas, saas ux design)",
+          "score": 80.4,
+          "format": "complete guide"
+        }
+      ],
+      "skipped": [
+        "saas website design, web design for saas (covered by /blog/saas-homepage-design/)",
+        "off-audience AI use-case topics; product discovery variants (fold into existing post); tool roundups",
+        "hubs with a post in the last 3 days: mvp-design-agency, chatbot-ui-design, saas-onboarding-design"
       ]
     }
   ]

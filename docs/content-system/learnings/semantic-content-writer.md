@@ -167,3 +167,9 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-20: When search snippets disagree on a rule's text, write only the part every version shares, don't quote it, and flag it (curl law.cornell.edu works when eCFR blocks the container).
 - 2026-10-20: Plan hyponyms as one "the same chart works for X, Y or Z" sentence and synonyms/hypernyms as one contrast sentence before drafting; the first pass covered only 59% of lexical terms.
 - 2026-10-20: Every clause in a bold answer needs its own paragraph in the body; don't end a sentence on a quote followed by more text in the same paragraph.
+
+- 2026-10-21 (ux-design-for-saas): In a surface-by-surface teardown, surface nouns pile up ("dashboard" 20, "admin" 23 vs 9 keyword uses). Pick stand-ins ("home screen", "weak/strong version", "approver") before drafting.
+- 2026-10-21: Word targets can conflict (instructions, owner, brief); for a 10-H2 brief with 5 panels and 2 open tables plan ~2,700 open words and report the conflict.
+- 2026-10-21: When the keyword holds two abbreviations, expand both in an opening clause and keep the unbroken keyword in the main clause of the same sentence.
+- 2026-10-21: Grep the same author's earlier intros before drafting; don't reuse their opening scaffold.
+- 2026-10-21: When citing an amended law, separate the amendment's new duty from rights the law already gave; never tie the older right to the amendment's start date.
