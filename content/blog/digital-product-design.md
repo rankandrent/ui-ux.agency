@@ -24,7 +24,7 @@ qa: pending
 
 On the last day of a digital product design project, I hand a founder eight things, and only one of them is a set of finished screens. The other seven explain why those screens exist, what users proved and how engineers should build them. Most guides to the term describe a job title, so I'll describe the hand-over instead.
 
-Here the term means software: web and mobile apps, software as a service (SaaS) platforms and artificial intelligence (AI) features. It does not mean physical goods or templates sold online. I'm a senior designer at ui-ux.agency, [the design practice inside tkxel](/about/)<!-- link: /about/ (already linked, credibility phrase) -->, and our team has designed 200+ products since 2017. The list below is how I package that work for founders who hire our product design agency<!-- link: /services/startups/product-design-agency/ (hub link 1 of 2) -->.
+Here the term means software: web and mobile apps, software as a service (SaaS) platforms and artificial intelligence (AI) features. It does not mean physical goods or templates sold online. I'm a senior designer at ui-ux.agency, [the design practice inside tkxel](/about/), and our team has designed 200+ products since 2017. The list below is how I package that work for founders who hire our [product design agency](/services/startups/product-design-agency/).
 
 Below, I work backward from that hand-over to the process, the handoff to engineers and a way to judge the work before you pay for it.
 
@@ -94,7 +94,7 @@ I write all four into a one-page problem brief. The metric is usually activation
 
 Research turns those four from guesses into findings. In user research, interviews explain why people act, an analytics review shows where they stall and a survey shows how many share the problem.
 
-[Elia Wellness, a learning app for adults over 50](/case-studies/elia-wellness/)<!-- link: /case-studies/elia-wellness/ (already linked, DOWN link 1) -->, shows how limits shape the work early. Designing for older learners set the rules: plain navigation, readable layouts and, on tablets, a pre-course questionnaire with large tap targets and simple rating scales.
+[Elia Wellness, a learning app for adults over 50](/case-studies/elia-wellness/), shows how limits shape the work early. Designing for older learners set the rules: plain navigation, readable layouts and, on tablets, a pre-course questionnaire with large tap targets and simple rating scales.
 
 Write your four decisions on one page before you brief any designer. The rest of the process raises the evidence behind them.
 
@@ -118,7 +118,7 @@ The five rungs, each with its artifact, test and pass signal:
 
 </details>
 
-Usability testing at rung four is the cheapest place to be wrong, because a failed task means a revision in Figma, not code that has to be rewritten. I build flows and prototypes in Figma, run workshops in FigJam and run remote tests in Maze. Our own stage lengths sit in our four-stage plan<!-- link: /services/startups/product-design-agency/#how-does-our-product-design-agency-plan-the-work (conditional: link only if fragments count as a separate target; otherwise leave plain text) -->, so I won't repeat them here.
+Usability testing at rung four is the cheapest place to be wrong, because a failed task means a revision in Figma, not code that has to be rewritten. I build flows and prototypes in Figma, run workshops in FigJam and run remote tests in Maze. Our own stage lengths depend on scope, so I won't list them here.
 
 Find the highest rung your evidence has reached, and start the work one rung above it. The last rung is where design meets the people who build the product.
 
@@ -147,7 +147,7 @@ Design tokens are named values, such as a brand color or a spacing step, that ma
 
 During the build, each design QA review happens inside the sprint: a designer checks every built screen against the specs before the ticket closes. We are part of tkxel, which builds software, so one contract can cover design and software development when you want both. Teams with their own engineers get annotated Figma files, components and specs instead, and our designers join their sprint reviews until the design is live.
 
-Mass Media Co. shows the joined-up version. Its orders ran through separate tools that never shared data, and one partner reworked both the workflow and the software, from user interviews and flows to web and mobile app design. The case study reports a 30% increase in order processing efficiency on the merged platform.
+Mass Media Co. shows the joined-up version. Its orders ran through separate tools that never shared data, and one partner reworked both the workflow and the software, from user interviews and flows to web and mobile app design. The [Mass Media Co. case study](/case-studies/mass-media-co/) reports a 30% increase in order processing efficiency on the merged platform.
 
 Before you sign off on a build, ask to see this packet. What goes into it changes when the product runs on a model or a subscription.
 
@@ -159,9 +159,9 @@ For an AI product, I add four surfaces to the state sheet: the prompt input, the
 
 A SaaS product turns business rules into screens. Trials, seats, roles, plan limits and invoices all need designed states, such as what a viewer sees when an admin-only action is blocked. SaaS and AI work is a core focus for our team, so these states join my checklist at the first flow.
 
-Accessibility work targets WCAG 2.2 level AA for US products, with the Americans with Disabilities Act (ADA) and Section 508 in mind. The [Web Content Accessibility Guidelines](https://www.w3.org/WAI/news/2023-10-05/wcag22rec) (WCAG) 2.2 became a W3C Recommendation on October 5, 2023 and added 9 success criteria, including a minimum target size for taps and clicks. <!-- source: https://www.w3.org/WAI/news/2023-10-05/wcag22rec -->
+Accessibility work targets WCAG 2.2 level AA for US products, with the Americans with Disabilities Act (ADA) and Section 508 in mind. The [Web Content Accessibility Guidelines](https://www.w3.org/WAI/news/2023-10-05/wcag22rec/) (WCAG) 2.2 became a W3C Recommendation on October 5, 2023 and added 9 success criteria, including a minimum target size for taps and clicks.
 
-Platforms add their own rules. On iOS I follow the [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/), Apple's guidance on layout, typography and accessibility. On Android and Flutter I follow [Material Design 3](https://m3.material.io/get-started), Google's open system with guidance and components for Android, Flutter and the web. <!-- source: https://m3.material.io/get-started -->
+Platforms add their own rules. On iOS I follow the [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines), Apple's guidance on layout, components and accessibility. On Android and Flutter I follow [Material Design 3](https://m3.material.io/get-started), Google's system of UX guidance, reusable components and open-source code, with libraries for Android, Flutter and the web.
 
 Add these states to your own list before any designer quotes the work. Next, here is how the pieces looked in products we shipped.
 
@@ -182,7 +182,7 @@ Table: Four shipped products by starting point, design scope and stated result
 
 The thread through all four is simple: each project started from a written problem and ended with a number the client tracks. None of those numbers is a design result alone, because product, content and operations moved them too.
 
-On [the Parents Connect community platform](/case-studies/parents-connect/)<!-- link: /case-studies/parents-connect/ (already linked, DOWN link 2) -->, the work began with research into what parents expect from an online community. That is the second rung of the ladder above.
+On [the Parents Connect community platform](/case-studies/parents-connect/), the work began with research into what parents expect from an online community. That is the second rung of the ladder above.
 
 In any portfolio, look for the written problem and the tracked number first; that is where judging a design team starts.
 
@@ -200,7 +200,7 @@ I'd run these seven checks against a proposal, a portfolio piece or your own pro
 - **Accessibility:** pass if the work names a target, such as WCAG 2.2 AA, and shows how it was checked.
 - **Design QA:** pass if a designer reviews built screens during the sprints, not only at the end.
 
-The checks reward measured design for a reason. In McKinsey's study of 300 publicly listed companies over five years, the top quartile on the [McKinsey Design Index](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/the-business-value-of-design) had 32 percentage points higher revenue growth and 56 percentage points higher total returns to shareholders than industry peers. <!-- source: https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/the-business-value-of-design --> The study shows correlation, not cause, and its sample is global, but measuring design performance is one of the index's themes, which is what these checks test.
+The checks reward measured design for a reason. In McKinsey's study of 300 publicly listed companies over five years, the top quartile on the [McKinsey Design Index](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-business-value-of-design) had 32 percentage points higher revenue growth and 56 percentage points higher total returns to shareholders (TRS) growth than industry counterparts over the period as a whole. The study shows correlation, not cause, and its sample is global, but measuring design performance is one of the index's themes, which is what these checks test.
 
 Found two or three fails? Our engagements are built to close exactly those gaps: a senior product designer leads each one through to release, and design QA runs inside your sprints. If the gaps sit in your own product, the next question is what to buy first.
 
@@ -226,7 +226,7 @@ Table: First purchase by the evidence you hold
 
 </details>
 
-Door two is our MVP design<!-- link: /services/startups/mvp-design-agency/ (the one cross-hub link) --> package, built for founders who still need a first version. Door three is where our team keeps research, UX, UI and the component library together, and the service page explains what a product design engagement costs<!-- link: /services/startups/product-design-agency/#how-much-does-a-product-design-agency-cost (hub link 2 of 2) -->. Our guide to startup product design<!-- link: /services/startups/ (pillar) --> shows the same choice by company stage.
+Door two is our [MVP design](/services/startups/mvp-design-agency/) package, built for founders who still need a first version. Door three is where our team keeps research, UX, UI and the component library together, and the service page sets out our four-stage plan and [what a product design engagement costs](/services/startups/product-design-agency/#how-much-does-a-product-design-agency-cost). Our guide to [startup product design](/services/startups/) shows the same choice by company stage.
 
 If you already employ designers, our team usually takes research and the design system, and yours keep the day-to-day feature work. Run the seven checks first, then pick the door that matches your evidence.
 
@@ -248,7 +248,7 @@ No. Design ends with specs, screen states, components and design QA during the b
 
 ### How long does product design for software take?
 
-Length depends on the evidence you hold: discovery for one product area takes weeks, while a full product with a component library takes months. Our stage plan gives our own timings, and most projects kick off 1 to 2 weeks after the proposal is signed.
+Length depends on the evidence you hold: discovery for one product area takes weeks, while a full product with a component library takes months. Our service page sets out our own stage timings, and most projects kick off 1 to 2 weeks after the proposal is signed.
 
 ### Can one designer handle the whole job at a startup?
 
