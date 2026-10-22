@@ -1,7 +1,7 @@
 ---
 title: "Digital product design: what it delivers, from idea to release"
 metaTitle: "Digital Product Design: What It Is and What It Delivers"
-description: "Digital product design explained from the buyer side: the 8 artifacts you should get, how design hands off to development and how to judge the work."
+description: "Digital product design from the buyer side: the 8 artifacts you should get and how design hands off to development. Run the 7 checks before you pay."
 date: 2026-10-22
 updated: 2026-10-22
 contributors: [umar-sarwar]
@@ -25,15 +25,15 @@ qa: pending
 
 On the last day of a digital product design project, I hand a founder eight things, and only one of them is a set of finished screens. The other seven explain why those screens exist, what users proved and how engineers should build them. Most guides to the term describe a job title, so I'll describe the hand-over instead.
 
-Here the term means software: web and mobile apps, software as a service (SaaS) platforms and artificial intelligence (AI) features. It does not mean physical goods or templates sold online. I'm a senior designer at ui-ux.agency, [the design practice inside tkxel](/about/), and our team has designed 200+ products since 2017. The list below is how I package that work for founders who hire our [product design agency](/services/startups/product-design-agency/).
+Here the term means software: web and mobile apps, software as a service (SaaS) platforms and artificial intelligence (AI) features. It does not mean physical goods or templates sold online. As a senior designer at ui-ux.agency, [the design practice inside tkxel](/about/), I draw on a team record of 200+ products designed since 2017. The list below is how I package that work for founders who hire our [product design agency](/services/startups/product-design-agency/).
 
-Below, I work backward from that hand-over to the process, the handoff to engineers and a way to judge the work before you pay for it.
+From that hand-over I work backward to the process, the handoff to engineers and a way to judge the work before you pay for it.
 
-## What does digital product design actually deliver?
+## Which artifacts does digital product design hand over?
 
 **Digital product design is the work of choosing what a software product does, how people move through it and how each screen looks, and it delivers eight artifacts.**
 
-The design team tests those choices with users before and during the build, and it owns the outcome, not just the screens. I hand the eight over in a fixed order, and each one answers a single question for a single reader. Once handed over, the files, research and components belong to your company.
+The design team tests those choices with users before and during the build, and it owns the outcome, not just the screens. I hand the eight over in a fixed order, and each one answers a single question for a single reader. After the hand-over, your company owns the files, the research and the components outright.
 
 ![Eight hand-over cards of digital product design stacked in a folder, from problem brief to developer handoff specs, each with the question it answers and its reader](/blog/digital-product-design/digital-product-design-artifact-ledger.svg "Digital product design artifact ledger: eight hand-over cards with the question each answers")
 
@@ -56,13 +56,13 @@ Table: Eight hand-over artifacts, the question each answers and who reads it
 
 </details>
 
-Two of these go missing most often. The problem brief names the problem and the success metric before design starts, so the release has a target to hit. Screen states are the empty, loading, error and no-permission versions of a screen. An empty state, for example, tells a new user what to add first; without it, engineers invent that screen under deadline.
+I check two of these first. The problem brief names the problem and the success metric before design starts, so the release has a target to hit. Screen states are the empty, loading, error and no-permission versions of a screen. An empty state, for example, tells a new user what to add first; without it, engineers invent that screen under deadline.
 
 Job posts usually call the person who produces these a product designer, and the title tells you less than the artifacts do. The same eight apply to SaaS product design, AI product design, mobile app design, web app design, minimum viable product (MVP) design and design system design; only the weight of each one shifts. Ask any team which of the eight it hands over; those artifacts are also what separates this discipline from narrower design work.
 
 ## How is digital product design different from UX and UI?
 
-**User experience (UX) design shapes the flow and user interface (UI) design shapes the screen; product design for software spans both, then adds choosing the problem and measuring the release.**
+**User experience (UX) design shapes how the flow works and user interface (UI) design shapes how the screen looks; product design also picks the problem and measures the release.**
 
 I draw the difference as one bar. User experience design covers moving from task to task, while user interface design covers each screen's layout, type and color; the full span starts earlier and ends later.
 
@@ -85,7 +85,7 @@ Table: Design disciplines compared by question, output and measure
 
 Is it the same as product design? For software, yes: you'll also hear it called software product design or simply product design. Without the word "digital", product design also covers physical objects, and industrial design applies the same research and testing methods to material instead of code. "Digital products to sell", such as templates, ebooks and courses, is another meaning of the words and has nothing to do with this work.
 
-All of these sit under user-centered design, which grew out of human-computer interaction research. Within product development, only the full-span discipline owns the stretch before any screen exists, and I'd spend your first week there.
+UI, UX and product design for software all sit under user-centered design, which grew out of human-computer interaction research. Within product development, only the full-span discipline owns the stretch before any screen exists, and I'd spend your first week there.
 
 ## Which decisions come before anyone draws a screen?
 
@@ -99,11 +99,11 @@ Research turns those four from guesses into findings. In user research, intervie
 
 Write your four decisions on one page before you brief any designer. The rest of the process raises the evidence behind them.
 
-## How does the digital product design process run?
+## What does each step of the digital product design process prove?
 
-**The process runs as a ladder of evidence: an assumption, then interview patterns, a walked-through flow, a prototype tested with 5 to 8 users and a measured release.**
+**Each step of the process raises the evidence: an assumption, then interview patterns, a walked-through flow, a prototype tested with 5 to 8 users and a measured release.**
 
-I treat it as a ladder rather than a list of phases because each step has to earn the next. Every rung has an artifact, a test and a pass signal, and work moves up only when the signal shows.
+I treat the process as a ladder rather than a list of phases because each step has to earn the next. Every rung has an artifact, a test and a pass signal, and work moves up only when the signal shows.
 
 ![Five-rung evidence ladder of the digital product design process, from assumption to measured release, with the artifact, test and pass signal for each rung](/blog/digital-product-design/digital-product-design-evidence-ladder.svg "Digital product design process as an evidence ladder with five rungs")
 
@@ -119,13 +119,13 @@ The five rungs, each with its artifact, test and pass signal:
 
 </details>
 
-Usability testing at rung four is the cheapest place to be wrong, because a failed task means a revision in Figma, not code that has to be rewritten. I build flows and prototypes in Figma, run workshops in FigJam and run remote tests in Maze. Our own stage lengths depend on scope, so I won't list them here.
+Usability testing at rung four catches a failed task while the fix is still a revision in Figma, not code that has to be rewritten. I build flows and prototypes in Figma, run workshops in FigJam and run remote tests in Maze.
 
 Find the highest rung your evidence has reached, and start the work one rung above it. The last rung is where design meets the people who build the product.
 
 ## How do digital product design and development fit together?
 
-**Digital product design and development meet at the handoff: designers deliver specs, every screen state, components and tokens, then stay in the sprints for design QA until release.**
+**Digital product design and development meet at the handoff: designers deliver specs, screen states, components and tokens, then stay for design quality assurance (QA) until release.**
 
 I assemble the packet as one folder, because a handoff only works when engineers can build from it without a meeting to explain it.
 
@@ -146,9 +146,9 @@ What goes into the handoff packet:
 
 Design tokens are named values, such as a brand color or a spacing step, that match variables in the front-end code. A change in one token then reaches every screen that uses it. Storybook shows the design system as live components engineers can inspect, so nobody rebuilds a button from a screenshot.
 
-During the build, each design QA review happens inside the sprint: a designer checks every built screen against the specs before the ticket closes. We are part of tkxel, which builds software, so one contract can cover design and software development when you want both. Teams with their own engineers get annotated Figma files, components and specs instead, and our designers join their sprint reviews until the design is live.
+During the build, each design QA review happens inside the sprint: a designer checks built screens against the specs at sprint reviews. We are part of tkxel, which builds software, so one contract can cover design and software development when you want both. Teams with their own engineers get annotated Figma files, components and specs instead, and our designers join their sprint reviews until the design is live.
 
-Mass Media Co. shows the joined-up version. Its orders ran through separate tools that never shared data, and one partner reworked both the workflow and the software, from user interviews and flows to web and mobile app design. The [Mass Media Co. case study](/case-studies/mass-media-co/) reports a 30% increase in order processing efficiency on the merged platform.
+Mass Media Co. shows design reworking a whole workflow, not one screen. Its orders ran through separate tools that did not share data, and the client wanted a single partner to rethink its workflow and its software. Our scope ran from user interviews and flows to web and mobile app design. The client's stated result sits with three others in the examples table below.
 
 Before you sign off on a build, ask to see this packet. What goes into it changes when the product runs on a model or a subscription.
 
@@ -160,9 +160,9 @@ For an AI product, I add four surfaces to the state sheet: the prompt input, the
 
 A SaaS product turns business rules into screens. Trials, seats, roles, plan limits and invoices all need designed states, such as what a viewer sees when an admin-only action is blocked. SaaS and AI work is a core focus for our team, so these states join my checklist at the first flow.
 
-Accessibility work targets WCAG 2.2 level AA for US products, with the Americans with Disabilities Act (ADA) and Section 508 in mind. The [Web Content Accessibility Guidelines](https://www.w3.org/WAI/news/2023-10-05/wcag22rec/) (WCAG) 2.2 became a W3C Recommendation on October 5, 2023 and added 9 success criteria, including a minimum target size for taps and clicks.
+For US products, I aim accessibility work at level AA under the Web Content Accessibility Guidelines (WCAG), with Section 508 and the Americans with Disabilities Act (ADA) in mind. [WCAG 2.2](https://www.w3.org/WAI/news/2023-10-05/wcag22rec/), the current version, became a World Wide Web Consortium (W3C) Recommendation on October 5, 2023 and added 9 success criteria, including a minimum target size for taps and clicks.
 
-Platforms add their own rules. On iOS I follow the [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines), Apple's guidance on layout, components and accessibility. On Android and Flutter I follow [Material Design 3](https://m3.material.io/get-started), Google's system of UX guidance, reusable components and open-source code, with libraries for Android, Flutter and the web.
+Platforms add their own rules. On iOS I follow the [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines), Apple's guidance on layout, components and accessibility. On Android and Flutter I follow [Material Design 3](https://m3.material.io/get-started), Google's system of UX guidance, reusable components and open-source code. Its libraries for Android (Jetpack Compose) and Flutter are actively updated, while its web components library is in maintenance mode.
 
 Add these states to your own list before any designer quotes the work. Next, here is how the pieces looked in products we shipped.
 
@@ -177,11 +177,11 @@ Table: Four shipped products by starting point, design scope and stated result
 | Client | Starting point | What design delivered | Result as stated |
 |---|---|---|---|
 | Elia Wellness. | An idea for a wellness learning platform for adults over 50. | Strategy, a website, a web app and a mobile app. | 40% more user registrations. |
-| Parents Connect. | A mission to bring parents worldwide onto one platform. | Discovery and stakeholder interviews, a revamp, UX design and visual design for web and mobile. | 45% more forum participation and 10% more average time on the platform. |
-| Anyday. | A first release that was hard to navigate, for employees and employers. | Strategy, a revamp, web and mobile apps and a website, with real-time transfers and simpler navigation. | Employee satisfaction up 40%, which the case study ties to immediate access to wages. |
+| Parents Connect. | A mission to bring parents worldwide onto one platform. | Discovery and stakeholder interviews, a revamp, brand work, visual design and UX design for web and mobile. | 45% more forum participation and 10% more average time on the platform. |
+| Anyday. | A [fintech wallet](/industries/fintech/) for employees and employers whose first release was hard to navigate. | Strategy, a revamp, web and mobile apps and a website, with real-time transfers and simpler navigation. | Employee satisfaction up 40%, credited to immediate access to wages. |
 | Mass Media Co. | Order work spread across separate tools. | A discovery workshop, user flows and one merged platform for web and mobile. | 30% higher order processing efficiency. |
 
-The thread through all four is simple: each project started from a written problem and ended with a number the client tracks. None of those numbers is a design result alone, because product, content and operations moved them too.
+The thread through all four is simple: each case study names the problem first and ends with a stated result. Read each number as the client's result after the redesign, not as a design result alone.
 
 On [the Parents Connect community platform](/case-studies/parents-connect/), the work began with research into what parents expect from an online community. That is the second rung of the ladder above.
 
@@ -201,9 +201,9 @@ I'd run these seven checks against a proposal, a portfolio piece or your own pro
 - **Accessibility:** pass if the work names a target, such as WCAG 2.2 AA, and shows how it was checked.
 - **Design QA:** pass if a designer reviews built screens during the sprints, not only at the end.
 
-The checks reward measured design for a reason. In McKinsey's study of 300 publicly listed companies over five years, the top quartile on the [McKinsey Design Index](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-business-value-of-design) had 32 percentage points higher revenue growth and 56 percentage points higher total returns to shareholders (TRS) growth than industry counterparts over the period as a whole. The study shows correlation, not cause, and its sample is global, but measuring design performance is one of the index's themes, which is what these checks test.
+The checks reward measured design for a reason. In McKinsey's study of 300 publicly listed companies over five years, the top quartile on the [McKinsey Design Index](https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-business-value-of-design) had 32 percentage points higher revenue growth and 56 percentage points higher total returns to shareholders (TRS) growth than industry counterparts over the period as a whole. The study shows correlation, not cause, and its sample spans multiple countries, not only the US. Measuring design performance is one of the index's four themes, and that is what these checks test.
 
-Found two or three fails? Our engagements are built to close exactly those gaps: a senior product designer leads each one through to release, and design QA runs inside your sprints. If the gaps sit in your own product, the next question is what to buy first.
+Found two or three fails? In our product design engagements, a senior product designer leads the work from discovery to release, and our designers run design QA in your sprints. If the gaps sit in your own product, the next question is what to buy first.
 
 ## Which digital product design work should you buy first?
 
@@ -229,9 +229,9 @@ Table: First purchase by the evidence you hold
 
 Door two is our [MVP design](/services/startups/mvp-design-agency/) package, built for founders who still need a first version. Door three is where our team keeps research, UX, UI and the component library together, and the service page sets out our four-stage plan and [what a product design engagement costs](/services/startups/product-design-agency/#how-much-does-a-product-design-agency-cost). Our guide to [startup product design](/services/startups/) shows the same choice by company stage.
 
-If you already employ designers, our team usually takes research and the design system, and yours keep the day-to-day feature work. Run the seven checks first, then pick the door that matches your evidence.
+If you already employ designers, our team often leads research and the design system, while yours keep the day-to-day feature work. Run the seven checks first, then pick the door that matches your evidence.
 
-If I could give a founder one rule, it would be this: buy the smallest step that lifts your evidence one rung, and get its artifacts in writing before you sign.
+My advice is to buy the smallest step that lifts your evidence one rung and to get its artifacts in writing before you sign.
 
 ## FAQs
 
@@ -241,15 +241,15 @@ It is the work of deciding what a software product does, how people use it and h
 
 ### Does the word "digital" change the product designer role?
 
-No. In most US job posts the two titles describe the same software role. The real difference is from a UI UX designer: a product designer also chooses which problem to solve and how to measure the fix.
+No. For software, "digital product designer" and "product designer" name the same role; "digital" only rules out physical products. What sets it apart from a UI or UX specialist is the wider span: picking the problem first and checking the metric after release.
 
-### Does product design include writing the code?
+### Do product designers write the code?
 
 No. Design ends with specs, screen states, components and design QA during the build, and engineers write the code. Because our team is part of tkxel, one contract can cover both design and development when you need them.
 
-### How long does product design for software take?
+### What sets the timeline for product design for software?
 
-Length depends on the evidence you hold: discovery for one product area takes weeks, while a full product with a component library takes months. Our service page sets out our own stage timings, and most projects kick off 1 to 2 weeks after the proposal is signed.
+Length depends on the evidence you hold: discovery for one product area takes weeks, while a full product with a component library takes months. Most of our projects begin within 1 to 2 weeks once the proposal is signed.
 
 ### Can one designer handle the whole job at a startup?
 

@@ -72,7 +72,7 @@ A daily card and a weekly chart show learners how far they have come, which make
 
 ## What the finished platform includes
 
-The finished product joins an LMS and a wellness tracker in one place. As an [MVP design agency](/services/startups/mvp-design-agency/), we took it from first idea to a working product with these parts:
+The finished product joins an LMS and a wellness tracker in one place, and the project covered [the full span of digital product design](/blog/digital-product-design/#what-does-digital-product-design-look-like-when-shipped), with strategy, a website, a web app and a mobile app. As an [MVP design agency](/services/startups/mvp-design-agency/), we took it from first idea to a working product with these parts:
 
 - **Authoring tools** for building lessons, modules and tutorials.
 - **Challenges and progress tracking** that keep learners active.
