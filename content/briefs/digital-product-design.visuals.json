@@ -1,0 +1,27 @@
+[
+  {
+    "marker": "<!-- visual: digital-product-design-artifact-ledger.svg | stacked hand-over cards: 8 cards stacked in hand-over order like a folder being filled; each card shows the artifact name, the question it answers and its reader (founder, product manager, engineers). Alt: Eight stacked hand-over cards of digital product design, from problem brief to developer handoff specs, each with its question and reader. Caption: Digital product design artifact ledger: eight hand-over cards with the question each answers -->",
+    "markdown": "![Eight hand-over cards of digital product design stacked in a folder, from problem brief to developer handoff specs, each with the question it answers and its reader](/blog/digital-product-design/digital-product-design-artifact-ledger.svg \"Digital product design artifact ledger: eight hand-over cards with the question each answers\")"
+  },
+  {
+    "marker": "<!-- visual: digital-product-design-span-bar.svg | span bar: one horizontal bar from which problem to measured after release; brackets above it for UI design (screen), UX design (flow) and digital product design (full span); two grey chips off the bar for physical product design and digital products to sell. Alt: Span bar comparing UI design, UX design and digital product design from choosing the problem to measuring the release. Caption: Digital product design span bar: how far UI design, UX design and product design reach -->",
+    "markdown": "![Span bar comparing UI design, UX design and digital product design from choosing the problem to checking it worked, with industrial design off the bar and each discipline's question, output and measure](/blog/digital-product-design/digital-product-design-span-bar.svg \"Digital product design span bar: how far UI design, UX design and product design reach\")"
+  },
+  {
+    "marker": "<!-- visual: digital-product-design-evidence-ladder.svg | evidence ladder: 5 rungs rising left to right: assumption, interview patterns, flow walkthrough, prototype tested with 5 to 8 users, measured release; each rung labeled with its artifact, its test and its pass signal. Alt: Five-rung evidence ladder of the digital product design process, from assumption to measured release, with the artifact, test and pass signal for each rung. Caption: Digital product design process as an evidence ladder with five rungs -->",
+    "markdown": "![Five-rung evidence ladder of the digital product design process, from assumption to measured release, with the artifact, test and pass signal for each rung](/blog/digital-product-design/digital-product-design-evidence-ladder.svg \"Digital product design process as an evidence ladder with five rungs\")"
+  },
+  {
+    "marker": "<!-- visual: digital-product-design-handoff-packet.svg | handoff packet anatomy: an open folder with labeled tabs for annotated UI screens, the state sheet (empty, loading, error, no permission), component library and tokens, Storybook docs, acceptance notes and the design QA checklist; an arrow from the folder to sprint review. Alt: Open handoff folder from digital product design to development with six labeled tabs and an arrow to sprint review. Caption: Digital product design handoff packet: the six tabs engineers open on day one -->",
+    "markdown": "![Open handoff folder from digital product design to development with six labeled tabs and an arrow to sprint reviews](/blog/digital-product-design/digital-product-design-handoff-packet.svg \"Digital product design handoff packet: the six tabs engineers open on day one\")"
+  },
+  {
+    "marker": "<!-- visual: digital-product-design-first-purchase.svg | three-door routing map: a start node reading What evidence do you have today? opening onto three doors (no tested problem to discovery; tested problem, no product to MVP design; live product turning into a patchwork to product design engagement). Doors, not a branching tree. Alt: Three-door routing map for a first digital product design purchase: discovery, MVP design or a product design engagement by the evidence you hold. Caption: First digital product design purchase by the evidence you hold today -->",
+    "markdown": "![Three-door routing map for a first digital product design purchase: discovery, MVP design or a product design engagement by the evidence you hold](/blog/digital-product-design/digital-product-design-first-purchase.svg \"First digital product design purchase by the evidence you hold today\")"
+  },
+  {
+    "frontmatter": {
+      "image": "/blog/digital-product-design/cover.svg"
+    }
+  }
+]

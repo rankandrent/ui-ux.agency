@@ -18,6 +18,7 @@ takeaways:
   - "Evidence should rise at every step, and in our process a clickable prototype is tested with 5 to 8 users before engineers build it."
   - "Judge design work by its proof: a written metric, real research, a tested prototype, every screen state and a handoff engineers can build from."
   - "Buy the step your evidence calls for: discovery, MVP design or an ongoing product design engagement."
+image: /blog/digital-product-design/cover.svg
 draft: true
 qa: pending
 ---
@@ -34,7 +35,7 @@ Below, I work backward from that hand-over to the process, the handoff to engine
 
 The design team tests those choices with users before and during the build, and it owns the outcome, not just the screens. I hand the eight over in a fixed order, and each one answers a single question for a single reader. Once handed over, the files, research and components belong to your company.
 
-<!-- visual: digital-product-design-artifact-ledger.svg | stacked hand-over cards: 8 cards stacked in hand-over order like a folder being filled; each card shows the artifact name, the question it answers and its reader (founder, product manager, engineers). Alt: Eight stacked hand-over cards of digital product design, from problem brief to developer handoff specs, each with its question and reader. Caption: Digital product design artifact ledger: eight hand-over cards with the question each answers -->
+![Eight hand-over cards of digital product design stacked in a folder, from problem brief to developer handoff specs, each with the question it answers and its reader](/blog/digital-product-design/digital-product-design-artifact-ledger.svg "Digital product design artifact ledger: eight hand-over cards with the question each answers")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -65,7 +66,7 @@ Job posts usually call the person who produces these a product designer, and the
 
 I draw the difference as one bar. User experience design covers moving from task to task, while user interface design covers each screen's layout, type and color; the full span starts earlier and ends later.
 
-<!-- visual: digital-product-design-span-bar.svg | span bar: one horizontal bar from which problem to measured after release; brackets above it for UI design (screen), UX design (flow) and digital product design (full span); two grey chips off the bar for physical product design and digital products to sell. Alt: Span bar comparing UI design, UX design and digital product design from choosing the problem to measuring the release. Caption: Digital product design span bar: how far UI design, UX design and product design reach -->
+![Span bar comparing UI design, UX design and digital product design from choosing the problem to checking it worked, with industrial design off the bar and each discipline's question, output and measure](/blog/digital-product-design/digital-product-design-span-bar.svg "Digital product design span bar: how far UI design, UX design and product design reach")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -104,7 +105,7 @@ Write your four decisions on one page before you brief any designer. The rest of
 
 I treat it as a ladder rather than a list of phases because each step has to earn the next. Every rung has an artifact, a test and a pass signal, and work moves up only when the signal shows.
 
-<!-- visual: digital-product-design-evidence-ladder.svg | evidence ladder: 5 rungs rising left to right: assumption, interview patterns, flow walkthrough, prototype tested with 5 to 8 users, measured release; each rung labeled with its artifact, its test and its pass signal. Alt: Five-rung evidence ladder of the digital product design process, from assumption to measured release, with the artifact, test and pass signal for each rung. Caption: Digital product design process as an evidence ladder with five rungs -->
+![Five-rung evidence ladder of the digital product design process, from assumption to measured release, with the artifact, test and pass signal for each rung](/blog/digital-product-design/digital-product-design-evidence-ladder.svg "Digital product design process as an evidence ladder with five rungs")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -128,7 +129,7 @@ Find the highest rung your evidence has reached, and start the work one rung abo
 
 I assemble the packet as one folder, because a handoff only works when engineers can build from it without a meeting to explain it.
 
-<!-- visual: digital-product-design-handoff-packet.svg | handoff packet anatomy: an open folder with labeled tabs for annotated UI screens, the state sheet (empty, loading, error, no permission), component library and tokens, Storybook docs, acceptance notes and the design QA checklist; an arrow from the folder to sprint review. Alt: Open handoff folder from digital product design to development with six labeled tabs and an arrow to sprint review. Caption: Digital product design handoff packet: the six tabs engineers open on day one -->
+![Open handoff folder from digital product design to development with six labeled tabs and an arrow to sprint reviews](/blog/digital-product-design/digital-product-design-handoff-packet.svg "Digital product design handoff packet: the six tabs engineers open on day one")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -210,7 +211,7 @@ Found two or three fails? Our engagements are built to close exactly those gaps:
 
 I route on evidence rather than funding stage, because the evidence decides which artifacts you are missing.
 
-<!-- visual: digital-product-design-first-purchase.svg | three-door routing map: a start node reading What evidence do you have today? opening onto three doors (no tested problem to discovery; tested problem, no product to MVP design; live product turning into a patchwork to product design engagement). Doors, not a branching tree. Alt: Three-door routing map for a first digital product design purchase: discovery, MVP design or a product design engagement by the evidence you hold. Caption: First digital product design purchase by the evidence you hold today -->
+![Three-door routing map for a first digital product design purchase: discovery, MVP design or a product design engagement by the evidence you hold](/blog/digital-product-design/digital-product-design-first-purchase.svg "First digital product design purchase by the evidence you hold today")
 
 <details class="astext"><summary>Show as text</summary>
 
