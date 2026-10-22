@@ -70,3 +70,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-21 (ux-design-for-saas): When the only primary page whose search results show a date is a PDF (FTC ANPRM notice), cite the PDF over a law firm; leave out exact days that no result shows.
 - 2026-10-21: Rebuild every backlink section link from the draft's current H2 with slugify() before handing back old→new strings; H2s change after the brief.
 - 2026-10-21: A backlink sentence names only the topics the target post actually covers.
+
+- 2026-10-22 (digital-product-design): Before accepting a skipped case study, search the draft for an unlinked "the case study"/"the report"; link it when its file lists the hub in services, and report the override.
+- 2026-10-22: For consulting-firm articles, search a quoted phrase limited to the firm's domain, cite the URL returned and copy the metric's own noun ("TRS growth").
+- 2026-10-22: When a fragment marker is cut for the hub cap, check FAQs for sentences pointing at the same page and flag them.

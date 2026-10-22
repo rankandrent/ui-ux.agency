@@ -19,8 +19,8 @@ takeaways:
   - "Judge design work by its proof: a written metric, real research, a tested prototype, every screen state and a handoff engineers can build from."
   - "Buy the step your evidence calls for: discovery, MVP design or an ongoing product design engagement."
 image: /blog/digital-product-design/cover.svg
-draft: true
-qa: pending
+draft: false
+qa: pass
 ---
 
 On the last day of a digital product design project, I hand a founder eight things, and only one of them is a set of finished screens. The other seven explain why those screens exist, what users proved and how engineers should build them. Most guides to the term describe a job title, so I'll describe the hand-over instead.

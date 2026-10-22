@@ -143,6 +143,25 @@
         "/services/saas-products/ (pillar FAQ: one part of our SaaS product)",
         "/blog/saas-homepage-design/ (Digno promise line)"
       ]
+    },
+    {
+      "slug": "digital-product-design",
+      "hub": "product-design-agency",
+      "keyword": "digital product design",
+      "date": "2026-10-22",
+      "images": 5,
+      "internalLinks": 8,
+      "externalLinks": 4,
+      "qaLoops": 1,
+      "factLoops": 2,
+      "semanticScore": 94,
+      "opportunityScore": 72.8,
+      "notes": "sister site has /services/digital-product-design-services/ (commercial); owner informed",
+      "backlinks": [
+        "/services/startups/product-design-agency/ (what a product design agency does)",
+        "/services/startups/ (why startup product design needs its own approach)",
+        "/case-studies/elia-wellness/ (finished product line)"
+      ]
     }
   ],
   "audits": [

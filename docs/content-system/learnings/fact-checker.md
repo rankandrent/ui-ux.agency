@@ -125,3 +125,9 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-21 (loop 2): When QA splits a list sentence, check the moved item now sits next to a subject it is true for and that "That review…" still points at the right noun.
 - 2026-10-21: Check panel counts/labels QA writes ("12 equal metric cards") against the SVG's shapes or aria-label, not only its <text> nodes.
 - 2026-10-21: A backlink saying "each with its own section" is true only if every named item has its own H2 in the target post.
+
+- 2026-10-22 (digital-product-design): When a case study illustrates a section, check that its scope covers what the section is about (e.g. development), not only that its figures match.
+- 2026-10-22: A sentence claiming our service "closes exactly those gaps" from the post's own rubric is a scope claim; score the service page against every check and fail "exactly/all" if any has no site source.
+- 2026-10-22 (method): For "libraries for X, Y and Z" in a design system, check each platform's current status on the vendor's develop pages; a frozen library is OUTDATED.
+- 2026-10-22 (loop 2): When a backlink says "each step/item", compare the list in the linking sentence with the list in the target section, not just the target H2.
+- 2026-10-22: When QA moves a figure from prose to a table, check the table row against its source and that any pointer sentence's count matches the table.

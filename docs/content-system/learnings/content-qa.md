@@ -109,3 +109,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 
 - 2026-10-21 (ux-design-for-saas): After any panel column change (dropping a column to match an image), grep the post for that column's noun; other sentences may still point at it.
 - 2026-10-21: leginfo bill text returns a Cloudflare challenge to curl; calmatters.digitaldemocracy.org bill pages carry the same Legislative Counsel's Digest and work with curl.
+
+- 2026-10-22 (digital-product-design): Fact-check fixes plus QA rewrites dropped the semantic score from 94 to 75; rerun semantic-score on the merged copy, find any lost lexical item or value and reword the fix.
+- 2026-10-22: When a fix touches a standards expansion (WCAG/ADA), rerun the 8-gram check against all posts and location JSONs after each attempt; change the words around the name, not the name.
+- 2026-10-22: Extract the sister page's question headings and compare their shapes with our H2s and FAQs, not only n-grams.

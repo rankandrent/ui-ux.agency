@@ -101,3 +101,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-21: Before choosing MOFU, check which case study relatedCaseStudies() will show and read its result line; prefer TOFU/BOFU if it is a business figure unrelated to UX.
 - 2026-10-21: When a keyword's parent topic is a brand (e.g. "saasui"), run the overlap check against all of that domain's pages on the topic.
 - 2026-10-21: Phrase legal "value" lines as "the amendment adds X", not the whole statute next to the new date; writers copy them into takeaways and FAQs.
+
+- 2026-10-22 (digital-product-design): Take TP from the exact warehouse row, never from the opportunity entry (blog-opportunities trafficPotential can hold the primary's volume); log mismatches in clusterVolumeNote.
+- 2026-10-22: When the sister site can't be fetched, grep content/briefs/*.qa.md for "Sister site" for known sister slugs; if one matches the primary, make the sister check a publish blocker with a stop condition on its title/H1 and ban the commercial variants in the post.
+- 2026-10-22: When a "hire a <role>" page owns "What does a <role> do?", a "what is <discipline>" post answers through deliverables, not the person.

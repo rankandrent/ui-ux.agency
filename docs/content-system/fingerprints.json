@@ -578,6 +578,40 @@
       "visuals": 5,
       "example": "weak vs strong version per in-product surface",
       "date": "2026-10-21"
+    },
+    {
+      "slug": "digital-product-design",
+      "hub": "product-design-agency",
+      "type": "Guide",
+      "funnel": "tofu",
+      "introStyle": "the project's last day: what the founder holds",
+      "h2Frames": [
+        "artifacts handed over",
+        "vs UX and UI",
+        "decisions before screens",
+        "what each step proves",
+        "design and development",
+        "AI or subscription products",
+        "shipped examples",
+        "judging the work",
+        "what to buy first",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "Which artifacts does digital product design hand over?",
+        "How is digital product design different from UX and UI?",
+        "Which decisions come before anyone draws a screen?",
+        "What does each step of the digital product design process prove?",
+        "How do digital product design and development fit together?",
+        "What changes when the product runs on AI or a subscription?",
+        "What does digital product design look like when shipped?",
+        "How do you judge design work before you pay for it?",
+        "Which digital product design work should you buy first?",
+        "FAQs"
+      ],
+      "visuals": 5,
+      "example": "buyer-side artifact ledger",
+      "date": "2026-10-22"
     }
   ]
 }
