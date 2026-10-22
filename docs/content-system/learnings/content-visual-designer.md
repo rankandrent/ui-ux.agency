@@ -115,3 +115,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-21: When two images in one post carry the same column, drop it from the denser image and tell the writer to cut it from that panel; don't shrink text.
 - 2026-10-21: chromium --headless --screenshot clips height when the window is short; use H ≥ 600 or Playwright element screenshots before judging the bottom edge.
 - 2026-10-21: A before/after image's text panel must cover both sides (the weak side is often forgotten); a dropped table column also comes out of the panel and its intro.
+
+- 2026-10-22 (digital-product-design): When every row's longest cell fits the full width on one line, draw name+chip / question card rows instead of table columns (an 8×3 ledger fit as 8 two-line cards).
+- 2026-10-22: Build axis/bar labels from a panel cell split in reading order and assert the joined segments equal the cell, so the labels are exact panel text.
+- 2026-10-22: The panel ⊇ image check must strip <tspan> tags inside <text> before matching.

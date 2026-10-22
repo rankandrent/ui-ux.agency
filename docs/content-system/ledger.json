@@ -143,6 +143,25 @@
         "/services/saas-products/ (pillar FAQ: one part of our SaaS product)",
         "/blog/saas-homepage-design/ (Digno promise line)"
       ]
+    },
+    {
+      "slug": "digital-product-design",
+      "hub": "product-design-agency",
+      "keyword": "digital product design",
+      "date": "2026-10-22",
+      "images": 5,
+      "internalLinks": 8,
+      "externalLinks": 4,
+      "qaLoops": 1,
+      "factLoops": 2,
+      "semanticScore": 94,
+      "opportunityScore": 72.8,
+      "notes": "sister site has /services/digital-product-design-services/ (commercial); owner informed",
+      "backlinks": [
+        "/services/startups/product-design-agency/ (what a product design agency does)",
+        "/services/startups/ (why startup product design needs its own approach)",
+        "/case-studies/elia-wellness/ (finished product line)"
+      ]
     }
   ],
   "audits": [
@@ -293,6 +312,23 @@
         "saas website design, web design for saas (covered by /blog/saas-homepage-design/)",
         "off-audience AI use-case topics; product discovery variants (fold into existing post); tool roundups",
         "hubs with a post in the last 3 days: mvp-design-agency, chatbot-ui-design, saas-onboarding-design"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "goal": "daily post: highest-scoring relevant topic",
+      "jobs": [
+        {
+          "hub": "product-design-agency",
+          "keyword": "digital product design",
+          "score": 72.8,
+          "format": "complete guide"
+        }
+      ],
+      "skipped": [
+        "design tools, ai design generator, ai design tools, ai for product design (tool-led intent)",
+        "mvp ux design (covered by /blog/how-to-design-an-mvp/); how to build a minimum viable product (same intent as that post)",
+        "hubs with a post in the last 3 days: chatbot-ui-design, saas-onboarding-design, saas-design-agency"
       ]
     }
   ]

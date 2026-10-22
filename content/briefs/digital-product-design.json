@@ -1,0 +1,442 @@
+{
+  "slug": "digital-product-design",
+  "keyword": "digital product design",
+  "secondary": [
+    "what is digital product design",
+    "digital product design and development",
+    "digital product design process",
+    "digital product design examples"
+  ],
+  "metaKeywordVariants": ["product design digital", "digital product design strategy", "digital product designer", "software product design"],
+  "intent": "Informational with a commercial layer (Ahrefs intents for 'digital product design': informational + commercial; parent topic is the keyword itself). Page 1 (Ahrefs SERP 2026-10-19, warehouse file) is mostly career and education: the AI overview cites Pratt's certificate, Boldare's 'Digital Product Designer: Skills & Responsibilities', Indeed (US and UK career advice), Berklee's role page, Coursera, two YouTube career videos, Figma's 'What is Product Design' and Boldare's ultimate guide. Organic: boldare (designer role), pratt.edu, reddit, indeed, dribbble tag page, Wikipedia, ramotion. All four People Also Ask questions are career questions (what does a digital product designer do, how much do they make, how to become one) plus one off-topic ('top 10 digital products to sell'). Our searchers: founders, PMs and design leads at US AI/SaaS startups who hear the term in agency proposals and want to know what they would actually get. A share are students and job seekers; the post does not serve them (no career, salary or course content). Our angle: digital product design from the BUYER side, as a set of deliverables and decisions.",
+  "volume": 1300,
+  "kd": 2,
+  "trafficPotential": 400,
+  "cpc": 300,
+  "cpcUnit": "cents (Ahrefs)",
+  "parentTopic": "digital product design",
+  "clusterVolume": 1780,
+  "clusterVolumeNote": "Exact rows (Ahrefs US, 2026-10-19 terms file): 'digital product design' 1,300 / KD 2 / TP 400; 'what is digital product design' 250 / KD 0 / TP 0; 'digital product design and development' 150 / KD 4 / TP 200; 'product design digital' 80 / KD 5 / TP 200. 1,780 is the blog-opportunities sumVolume of these 4 rows, not the page's volume. CONFLICTS: (1) blog-opportunities.json gives 'trafficPotential': 1300 for the topic, but the primary's exact row says TP 400; 1,300 is the volume, so use TP 400. (2) The 2026-10-14 terms file had 'what is digital product design' at 200; the 2026-10-19 file says 250 (latest used). The orchestrator's three figures match the 2026-10-19 rows exactly. Not in the cluster but in the same file: 'digital product design process' 100 / KD 7 / parent 'product design' / TP 3,000; 'digital product design examples' 80 / KD 1 / TP 30.",
+  "dataSource": "Ahrefs US rows in docs/content-system/warehouse/2026-10-19-terms-digital-product-design.json (pulled 2026-10-19) and the SERP in docs/content-system/warehouse/2026-10-19-serp-digital-product-design.json. Semrush called once on 2026-10-22: no_api_units. No GSC export (docs/data/gsc/latest.json missing). AHREFS_API_KEY not used: this run had no shell (Read/Write/Grep/Glob/WebSearch/WebFetch only), so the 2026-10-19 warehouse pull is the Ahrefs source. DEVIATION from the 2026-10-12 owner rule (Semrush or GSC): measured Ahrefs volume used, as in every brief since 2026-10-15. WebFetch returned ENOTFOUND for boldare.com and uiuxdesignservices.us; competitor coverage comes from WebSearch snippets on 2026-10-22.",
+  "dataSourceDate": "2026-10-22",
+  "primaryChoice": "Primary 'digital product design' (1,300, KD 2, TP 400) over 'what is digital product design' (250, KD 0, TP 0). The 'what is' row has the same parent topic and TP 0 (Google answers it in the AI overview), so it goes in the metaTitle ('What It Is') and one FAQ. 'digital product design and development' (150, KD 4) is informational with the same parent and gets its own H2. Lesson 2026-10-18 (question sibling with equal or higher volume) does not apply: the question form has less volume.",
+  "score": 72.8,
+  "expectedMonthlyTraffic": 390,
+  "opportunity": "docs/content-system/blog-opportunities.json: topic 'digital product design' (hub product-design-agency, score 72.8, expectedMonthlyTraffic 390, format 'complete guide (definition, process, examples, checklist)'). Ledger run 2026-10-22. Modules mapped: definition → H2 1 bold answer (not a definition-first opener); process → H2 4 evidence ladder; examples → H2 7 case table; checklist → H2 8 pass/fail checks.",
+  "hub": "product-design-agency",
+  "hubUrl": "/services/startups/product-design-agency/",
+  "hubUrlVerified": "content/services/product-design-agency.json (category 'Startups & product'); pillar slug 'startups' at content/pillars.ts line 185; URL linked in content/pillars.ts line 207, content/home.ts line 150 and four case studies (elia-wellness line 97, anyday-app line 79, parents-connect line 75).",
+  "pillar": "startups",
+  "services": ["product-design-agency"],
+  "industries": [],
+  "industriesWhy": "Leave empty. [healthcare] would frame the post around Elia Wellness and pull the healthcare industry rail; [fintech] would do the same with Anyday. The post is cross-industry.",
+  "author": "talha-saleem",
+  "authorWhy": "Talha Saleem is Senior UI/UX Designer (content/home.ts line 205; authors.json bio empty). The post covers research-to-UI deliverables and handoff, which is hands-on product design work. Rotation: last byline user-onboarding-automation (2026-10-16), 6 posts ago. Rejected: Faizan Khan (Sr. Product Designer, the best role match, but wrote ux-design-for-saas yesterday; second choice if the owner prefers role over rotation), Ahmad Ullah (2026-10-20), Saliha Shahzad (2026-10-19), Sahar Asif (2026-10-18; KAM role fits procurement topics), Shahmir Farooq (communication design, 2026-10-17).",
+  "funnel": "tofu",
+  "funnelWhy": "Silo count (services[0] = product-design-agency): 0 published posts, so this is the first post in the silo. funnel.json asks a new silo to start with 1 BOFU + 1 MOFU, but page 1 is definitions, career pages and courses with no cost, pricing or agency-comparison page, so it is TOFU (lesson 2026-10-06: the SERP sets the stage). TOFU minimum service-support is 3; this topic scores 4. MOFU CTA CHECK (orchestrator asked): relatedCaseStudies() (lib/content.ts line 240) filters case studies by the post's services and keeps the date-desc order from load() (line 110). Five case studies share 2026-10-09, so for this silo the first card is the first file among those dated 2026-10-09 that list product-design-agency. If readMarkdown returns files alphabetically, that is anyday-app ('Employee satisfaction up 40%', a business result tied to instant wage access, not to design). Digno ('revenue up 5x') does not list product-design-agency, so it would not show. Neither is a fitting design proof, so TOFU (checklist CTA) is right. Next posts this silo needs: BOFU then MOFU. The hub owns cost, services, process and 'vs a UI design studio'. Test 'product design agency vs freelancer/in-house' carefully (hire-product-designer owns 'product designer for hire vs freelance vs full-time'), or a buyer-action query such as 'product design retainer vs project' or 'product design proposal'.",
+  "serviceSupport": 4,
+  "serviceSupportWhy": "A founder who searches 'digital product design' to understand what an agency would hand them is weighing the hub's engagement (research, UX, UI, design systems, build support). Not a 5: a large share of the query's searchers are job seekers and students (PAA and AI-overview sources are career pages), and the post deliberately does not serve them.",
+  "title": "Digital product design: what it delivers, from idea to release",
+  "metaTitle": "Digital Product Design: What It Is and What It Delivers",
+  "metaDescription": "Digital product design explained from the buyer side: the 8 artifacts you should get, how design hands off to development and how to judge the work.",
+  "centralEntity": "digital product design",
+  "sourceContext": "ui-ux.agency (the design team of tkxel, Reston, VA, since 2017, 200+ digital products designed) explains digital product design to US AI and SaaS founders as the people who deliver it: the artifacts a team should receive, the decisions behind them, how design hands off to engineering, and how to judge the work. It sells the product design agency engagement but never restates the hub's services list, 4-stage plan, studio comparison table or price.",
+  "entities": [
+    "digital product design",
+    "digital product",
+    "user experience (UX) design",
+    "user interface (UI) design",
+    "industrial design",
+    "user research",
+    "user flow",
+    "information architecture",
+    "wireframe",
+    "clickable prototype",
+    "usability testing",
+    "design system",
+    "design tokens",
+    "Figma",
+    "Storybook",
+    "design QA",
+    "software development",
+    "tkxel",
+    "minimum viable product (MVP)",
+    "software as a service (SaaS)",
+    "AI product",
+    "WCAG 2.2",
+    "Apple Human Interface Guidelines",
+    "Material Design 3",
+    "McKinsey Design Index"
+  ],
+  "attributes": [
+    "the 8 artifacts a project hands over",
+    "the question each artifact answers",
+    "scope compared with UX and UI design",
+    "the success metric agreed before design starts",
+    "evidence level at each process step",
+    "prototype test size (5 to 8 users)",
+    "handoff contents (specs, states, components, tokens)",
+    "design QA during the build",
+    "screen states covered (empty, loading, error, no permission)",
+    "accessibility level (WCAG 2.2 AA)",
+    "platform guidelines followed (iOS, Android, web)",
+    "the right first purchase by evidence level"
+  ],
+  "ngrams": [
+    "digital product design",
+    "digital product",
+    "digital product design and development",
+    "digital product design process",
+    "what is digital product design",
+    "digital product design examples",
+    "problem brief",
+    "user flows",
+    "clickable prototype",
+    "usability test",
+    "design system",
+    "developer handoff",
+    "design QA",
+    "success metric",
+    "screen states",
+    "web and mobile"
+  ],
+  "eav": [
+    { "attribute": "definition (root)", "value": "deciding what a software product should do, how it should work and how it should look, then testing those decisions with users before and during the build; the design team owns the outcome, not only the screens", "source": "ui-ux.agency wording for the post (must differ from the hub abstract 'plans, designs and tests digital products from strategy to release'); outcome framing from hub table 'owns outcomes such as activation and retention'" },
+    { "attribute": "scope (root)", "value": "software products: web apps, mobile apps, SaaS platforms and AI features; not physical products and not 'digital products to sell' such as templates or ebooks", "source": "SERP disambiguation (PAA 'What are the top 10 digital products to sell?' in warehouse 2026-10-19 SERP); Wikipedia lead (secondary, do not link): mainly products produced through software engineering" },
+    { "attribute": "deliverables (root)", "value": "8 artifacts: problem brief, research synthesis, user flows and information architecture, wireframes, tested clickable prototype with findings, final UI with all screen states, design system (components + tokens), developer handoff specs with design QA", "source": "ui-ux.agency method; hub services list and stage outputs (link, do not restate)" },
+    { "attribute": "difference from UX and UI (root)", "value": "UX design shapes how a flow works; UI design shapes how a screen looks; digital product design also decides which problem to solve and how to measure the result after release", "source": "content/services/hire-product-designer.json FAQ 'What is the difference between a product designer and a UI UX designer?'" },
+    { "attribute": "process (root)", "value": "evidence rises step by step: assumption → interview patterns → flow walkthrough → prototype tested with 5 to 8 users → live release measured against the agreed metric", "source": "ui-ux.agency method; '5 to 8 users' from hub stage 'Concept and validation'; stage durations live on the hub (deep link #how-does-our-product-design-agency-plan-the-work, do not restate)" },
+    { "attribute": "tools (root)", "value": "Figma for design and prototypes, FigJam for workshops, Maze for remote tests, Storybook for design system documentation", "source": "content/services/product-design-agency.json FAQ 'Which tools does your product design team use?'" },
+    { "attribute": "design and development (root)", "value": "design ends in specs, states, components and design QA during sprints; ui-ux.agency is the design team of tkxel, a software engineering company, so design and development can run in one contract", "source": "hub FAQ 'Does your product design agency also build the product?'; content/home.ts line 240 FAQ 'Is ui-ux.agency part of tkxel?'" },
+    { "attribute": "start time (rare)", "value": "most projects start within 1 to 2 weeks of a signed proposal", "source": "hub FAQ 'How quickly can a product design project start?'" },
+    { "attribute": "working with in-house designers (rare)", "value": "the agency often leads research and the design system while in-house designers own day-to-day feature work", "source": "hub FAQ 'Can you work with our in-house designers?'" },
+    { "attribute": "AI product states (rare)", "value": "AI products add prompt inputs, generated answers, source previews and correction flows, tested with real model output", "source": "content/services/hire-product-designer.json FAQ 'Can I hire a product designer for an AI product?'" },
+    { "attribute": "accessibility (rare)", "value": "WCAG 2.2 became a W3C Recommendation on October 5, 2023 and adds 9 success criteria over WCAG 2.1, with more guidance for touch input; US teams use AA as the working target (ADA, Section 508)", "source": "https://www.w3.org/WAI/news/2023-10-05/wcag22rec" },
+    { "attribute": "platform guidelines (rare)", "value": "iOS work follows Apple's Human Interface Guidelines (layout, typography, materials, accessibility); Android and Flutter work follows Material Design 3, Google's design system with UX guidance and component implementations for Android, Flutter and the web", "source": "https://developer.apple.com/design/human-interface-guidelines/ ; https://m3.material.io/get-started" },
+    { "attribute": "business value of design (rare)", "value": "in McKinsey's 2018 study of 300 publicly listed companies over 5 years, top-quartile McKinsey Design Index scorers grew revenue 32 percentage points faster and shareholder returns 56 percentage points faster than industry peers; correlational, global sample, three industries (consumer goods, retail banking, medical technology)", "source": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-business-value-of-design (write 'percentage points', never '32% higher')" },
+    { "attribute": "in-house designer cost (rare)", "value": "BLS Occupational Outlook: median annual pay for web and digital interface designers, about $104,000 (May 2025) — VERIFY on the live page before use; cached copies show $98,090 (May 2024)", "source": "https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm (snippet only; fact-checker confirms the figure and the data month or the writer drops it)" },
+    { "attribute": "end-to-end proof (rare)", "value": "Elia Wellness: scope was strategy and the path from idea to product, plus the website, web app and mobile app; an LMS for adults over 50 with a 7-dimension wellness score; tablet questionnaire with big tap areas and simple rating scales; +40% user registrations, 30+ boost in wellness scores among active users", "source": "content/case-studies/elia-wellness.md" },
+    { "attribute": "research-first revamp proof (rare)", "value": "Parents Connect: discovery and stakeholder interviews, product revamp, UX design, brand and visual design for web and mobile; +45% forum participation, +10% average time on the platform", "source": "content/case-studies/parents-connect.md" },
+    { "attribute": "two-audience proof (rare)", "value": "Anyday: product revamp, strategy, web app, mobile app and website for employees and employers; first release was hard to navigate; real-time transfers and simpler navigation; employee satisfaction +40% (the case study ties it to immediate access to wages)", "source": "content/case-studies/anyday-app.md (do not present the 40% as a design result alone)" },
+    { "attribute": "artifact ledger (unique)", "value": "each artifact answers one question for one reader: problem brief → 'what are we solving and how will we know?' (founder); flows → 'what path does the user take?' (PM); prototype findings → 'did users get through?' (team); specs → 'what exactly do we build?' (engineers)", "source": "ui-ux.agency method (SERP gap: competitors list disciplines, not hand-overs)" },
+    { "attribute": "buy-first routing (unique)", "value": "no tested problem → discovery; tested problem, no product → MVP design; live product turning into a patchwork → a product design engagement", "source": "ui-ux.agency method; hub section 1 (MVP package for founders who still need one) and pillar stage table (link, do not restate)" }
+  ],
+  "skipgrams": [
+    ["problem", "success metric"],
+    ["user flows", "wireframes"],
+    ["prototype", "usability test"],
+    ["design system", "components"],
+    ["tokens", "front-end"],
+    ["handoff", "engineers"],
+    ["design QA", "sprint"],
+    ["UX", "UI"],
+    ["research", "interviews"],
+    ["screen states", "error"],
+    ["web", "mobile"],
+    ["accessibility", "WCAG"],
+    ["design", "development"]
+  ],
+  "lexical": {
+    "synonyms": ["product design for software", "software product design", "digital product design work", "product design"],
+    "hypernyms": ["design", "product development", "user-centered design", "human-computer interaction"],
+    "hyponyms": ["SaaS product design", "AI product design", "mobile app design", "web app design", "MVP design", "design system design"],
+    "meronyms": ["problem brief", "research synthesis", "user flow", "information architecture", "wireframe", "clickable prototype", "usability test findings", "UI screen", "empty state", "error state", "component library", "design tokens", "handoff specs", "design QA review"]
+  },
+  "keywordCarrier": {
+    "primary": "Noun phrase as subject or object: 'Digital product design decides…', 'good digital product design hands you…', 'a digital product design project' (one 'project' compound allowed in the first sentence; no other stacked nouns: 'digital product design team/agency/services/company/studio/firm/consultancy' are BANNED anywhere except inside link anchor text written by the link builder). First sentence (Talha's voice, within the first 60 words): 'On the last day of a digital product design project, I hand a founder eight things, and only one of them is a set of finished screens.' H1 and metaTitle open with 'Digital product design:'.",
+    "density": "Word share as QA measures it: max uses = 0.02 × body words ÷ 3. For 2,300–2,700 body words that is at most 15–18 exact uses; aim for 10–13 (about 1.2–1.5%). Secondary phrases that contain the primary count toward it. Vary with 'product design', 'the design work', 'the artifacts' and the lexical relations. Alt text does not count.",
+    "secondary": {
+      "what is digital product design": "FAQ 1 question 'What is digital product design, in one sentence?' and the metaTitle's 'What It Is'. Do not open the post or any H2 with it.",
+      "digital product design and development": "Carried in the H2 'How do digital product design and development fit together?' and its first sentence ('Digital product design and development meet at the handoff: …'). Max 2 uses.",
+      "digital product design process": "Once, H2 4 first or second sentence: 'The digital product design process I run is a ladder of evidence, not a list of phases.' Keep the process to one section: 'product design process' (900, KD 24, TP 2,500) is reserved for a future post.",
+      "digital product design examples": "Once, H2 7 body: 'The digital product design examples below come from our own case studies, with only the results each one states.' Not in a heading (the separate opportunity 'digital product design examples', score 47.2, is served as secondary)."
+    },
+    "metaTitle": "Digital Product Design: What It Is and What It Delivers (55 chars)",
+    "h1": "Digital product design: what it delivers, from idea to release (62 chars)",
+    "description": "Use as written (148 chars, keyword first, ends on the payoff 'how to judge the work', no consultation ask, no apostrophe): 'Digital product design explained from the buyer side: the 8 artifacts you should get, how design hands off to development and how to judge the work.' Pronoun check: none.",
+    "metaKeywords": ["digital product design", "what is digital product design", "digital product design and development", "digital product design process", "product design digital", "digital product design examples"],
+    "hubPhrasePlan": "The hub owns the commercial phrases: 'product design agency' (anchor, 1,000, KD 49), 'digital product design agency' (1,100, KD 51, parent 'product design agency'), 'digital product design firms/firm/company/services/studio/consultancy'. In the post these never appear in title, H1, metaTitle, description, any H2/H3, alt text or meta keywords. 'product design agency' appears only as link anchor text to the hub (at most twice). The hub keeps 'digital product design' only in its summary/sourceContext (current state); do not add the bare phrase to the hub's metaTitle or H2s. The hub → post link (backlinkSuggestions #1) uses an informational anchor so Google sees which page answers 'what it is'. Sister-site guard: the bare strings 'digital product design services' and 'digital product design service' are banned everywhere in the post (see sisterSiteCheck)."
+  },
+  "questions": [
+    "What is digital product design? (answer inside H2 1's bold answer, not as the opener)",
+    "What does a digital product designer do? (PAA; answer through deliverables in H2 1 and the role note in FAQ 2; no career advice)",
+    "How is digital product design different from UX and UI design?",
+    "Is digital product design the same as product design?",
+    "What does a digital product design project deliver?",
+    "What happens before anyone designs screens?",
+    "What are the steps of the digital product design process?",
+    "How do design and development work together?",
+    "What changes for AI and SaaS products?",
+    "What are examples of digital product design?",
+    "How do you judge digital product design work before hiring?",
+    "Does digital product design include development?"
+  ],
+  "serpGaps": [
+    "Page 1 is written for designers and students: the AI overview cites Pratt, Berklee, Indeed (US and UK), Coursera and two YouTube career videos; every PAA is a career question. No ranking page explains the discipline to the person who BUYS it. Our post is organized around what a founder receives.",
+    "Competitor guides (Boldare ultimate guide, Ramotion, Flatirons, SoluteLabs, UXPin) list disciplines and generic phases (research, ideate, prototype, test). None lists the hand-over artifacts and the question each one answers. Our H2 1 is an artifact ledger.",
+    "No page shows how evidence should rise through the process. Our process section is an evidence ladder with a test at each rung (5 to 8 users at the prototype rung, from the hub).",
+    "The 'design and development' variant is covered by development shops that sell build work. None describes what the handoff packet must contain (states, tokens, specs) or design QA during sprints. Our H2 5 does.",
+    "No page addresses AI-product states (generated answers, source previews, correction flows) or US accessibility (WCAG 2.2 AA, ADA, Section 508) as part of the definition. We cover both in one section.",
+    "No page gives a buyer a way to judge design work before paying. We give pass/fail checks and then a routing to the right first purchase.",
+    "Examples on page 1 are Dribbble shots and portfolio galleries. Ours are four shipped case studies with the scope and the result each one states."
+  ],
+  "contentModules": {
+    "title": "Digital product design: what it delivers, from idea to release",
+    "subtitle": "What a founder should receive from digital product design: eight artifacts, the decisions behind them, a clean handoff to engineering, and a way to judge the work before you pay for it.",
+    "intro": "End-state inventory opener (see variety.introStyle). Sentence 1 carries the keyword in Talha's voice (keywordCarrier.primary). Sentence 2 says what most explanations miss: they describe the job title, not what you receive. Sentence 3 names the scope (web and mobile software, SaaS and AI features; not physical products, not templates to sell). Sentence 4 links UP to the hub within the first 150 words (anchor 'product design agency' or a variant) with one 'we' fact: 200+ digital products designed since 2017. No question opener, no statistic first, no hypothetical company, no blockquote, no definition sentence.",
+    "dataModules": [
+      { "type": "artifact ledger (image + astext table)", "h2": "H2 1", "what": "8 artifacts in hand-over order. Columns: artifact | question it answers | who uses it. Text panel: same table." },
+      { "type": "span bar (image + astext table)", "h2": "H2 2", "what": "A horizontal bar from 'which problem' to 'measured after release'; UI design covers the screen segment, UX design the flow segment, digital product design the full span; physical product design and 'digital products to sell' sit off the bar. Text panel: table discipline | question owned | typical output | measured by." },
+      { "type": "evidence ladder (image + astext ol)", "h2": "H2 4", "what": "5 rungs from assumption to measured release; each rung shows the artifact, the test and the pass signal. Text panel: ordered list." },
+      { "type": "handoff packet anatomy (image + astext ul)", "h2": "H2 5", "what": "An open folder: annotated screens, state sheet (empty, loading, error, no permission), component library + tokens, Storybook docs, acceptance notes, design QA checklist. Text panel: list." },
+      { "type": "case table (text table only)", "h2": "H2 7", "what": "client | starting point | what design delivered | result as stated. Four rows: Elia Wellness, Parents Connect, Anyday, Mass Media Co." },
+      { "type": "pass/fail checks (text list only)", "h2": "H2 8", "what": "7 checks, each as 'pass if…' lines. No scorecard, no points." },
+      { "type": "three-door routing map (image + astext table)", "h2": "H2 9", "what": "Start: 'What evidence do you have today?' → three doors: no tested problem → discovery; tested problem, no product → MVP design; live product, growing patchwork → product design engagement. Text panel: table." }
+    ]
+  },
+  "outline": [
+    {
+      "h2": "What does digital product design actually deliver?",
+      "answerHint": "**Digital product design is the work of deciding what a software product should do, how it should work and how it should look, and it delivers 8 tested artifacts, from a problem brief to developer-ready specs.** (The definition sits inside the deliverables answer; the section is about the hand-over, not the term.)",
+      "points": [
+        "Artifact ledger (visual 1 + astext table): problem brief, research synthesis, user flows and information architecture, wireframes, tested clickable prototype with findings, final UI with all screen states, design system (components + tokens), developer handoff specs with design QA (eav 'deliverables', 'artifact ledger').",
+        "One sentence each on the two artifacts founders most often do not get: the problem brief with its success metric, and the screen states.",
+        "Role note in one sentence: the person who does this work is often titled 'product designer' in job posts; the title matters less than the artifacts.",
+        "Bridge: 'Those artifacts are also how you tell digital product design apart from narrower design work.'"
+      ]
+    },
+    {
+      "h2": "How is digital product design different from UX design, UI design and physical product design?",
+      "answerHint": "**Digital product design covers the whole span from choosing the problem to measuring the release, while UX design shapes the flow and UI design shapes the screen.**",
+      "points": [
+        "Span bar (visual 2 + astext table): discipline | question owned | typical output | measured by (eav 'difference from UX and UI', hire-product-designer FAQ fact, rephrased).",
+        "Physical/industrial product design: same methods, different material; one sentence. 'Digital products to sell' (templates, ebooks, courses) is a different meaning of the words; one sentence, no link.",
+        "Do NOT rebuild the hub's 'Product design agency vs a UI design studio' table (that compares providers; this compares disciplines).",
+        "Bridge: 'The widest part of that span is the part before any screen exists.'"
+      ]
+    },
+    {
+      "h2": "Which decisions come before anyone draws a screen?",
+      "answerHint": "**Four decisions come first: the problem worth solving, the user who has it, the metric that will prove the fix, and the constraints the product has to live within.**",
+      "points": [
+        "Problem brief contents in prose (no new table): problem, primary user, success metric (activation, retention or a task metric), constraints (platforms, compliance, budget, deadline).",
+        "Elia Wellness (DOWN link /case-studies/elia-wellness/): designing for adults over 50 set the constraints early: plain navigation, readable layouts, a tablet questionnaire with big tap areas and simple rating scales. Facts only from the case study.",
+        "Research methods named once with what each settles: interviews (why), analytics review (where), survey (how many). Hub services list item 'User research' (do not restate the list).",
+        "Bridge: 'Once those four are written down, the process becomes a matter of raising the evidence behind them.'"
+      ]
+    },
+    {
+      "h2": "How does the digital product design process move from idea to release?",
+      "answerHint": "**The digital product design process moves from idea to release by raising the evidence at each step, from an assumption to interview patterns, a walked-through flow, a prototype tested with 5 to 8 users and, finally, a measured release.**",
+      "points": [
+        "Evidence ladder (visual 3 + astext ol); eav 'process'. Carrier for 'digital product design process' in sentence 1 or 2.",
+        "What 'pass' looks like at each rung (method): e.g. at the prototype rung, most testers finish the core task without help; at the release rung, the agreed metric moves.",
+        "Our timings: one sentence + deep link to the hub's 4-stage plan (#how-does-our-product-design-agency-plan-the-work). Do NOT list stage names or week ranges.",
+        "Tools in one clause: Figma, FigJam, Maze (hub FAQ).",
+        "Bridge: 'The last rung is where design meets the people who build it.'"
+      ]
+    },
+    {
+      "h2": "How do digital product design and development fit together?",
+      "answerHint": "**Digital product design and development meet at the handoff: design delivers specs, every screen state, components and tokens, then stays in the sprints for design QA until the release is live.**",
+      "points": [
+        "Handoff packet anatomy (visual 4 + astext ul).",
+        "Tokens match front-end code; Storybook documents the components (hub FAQ tool list; home.ts design-system line 95 paraphrased).",
+        "Design QA: designers review built screens against specs during sprints (hub 'Build support' + stage 'Delivery'), stated as method.",
+        "tkxel fact: design and development can run in one contract; teams that already have engineers get annotated Figma files and sprint reviews (home.ts FAQ lines 240, 243). No claim that the designers write code.",
+        "Mass Media Co. in one sentence as text only (no link): one partner rethought the workflow and the software, with user interviews, IA, web and mobile app design; +30% order processing efficiency.",
+        "Bridge: 'What goes into that packet changes when the product runs on a model or a subscription.'"
+      ]
+    },
+    {
+      "h2": "What changes when the product runs on AI or a subscription?",
+      "answerHint": "**AI and SaaS products add states that a brochure-style app never has: generated answers that can be wrong, sources to show, corrections to capture, and roles, plans and limits that change what each user sees.**",
+      "points": [
+        "AI: prompt inputs, generated answers, source previews, correction flows, tested with real model output (eav 'AI product states'); add loading and failure states for model calls (method).",
+        "SaaS: trials, seats, roles, plan limits, invoices as product surfaces (method; no link to the SaaS silo's posts).",
+        "Accessibility and platforms: WCAG 2.2 AA as the US working target (ADA, Section 508), W3C Recommendation October 5, 2023 with 9 new criteria; iOS follows Apple HIG, Android/Flutter follows Material Design 3 (eav rows). Link W3C, Apple, Material once each.",
+        "Hub card 'Built for SaaS and AI' paraphrased in one clause (no new link).",
+        "Bridge: 'Here is how those pieces looked in products we shipped.'"
+      ]
+    },
+    {
+      "h2": "What does digital product design look like in shipped products?",
+      "answerHint": "**In shipped products, digital product design shows up as a narrower first version, clearer paths for each audience and a measured change after launch, as our Elia Wellness, Parents Connect, Anyday and Mass Media Co. work shows.**",
+      "points": [
+        "Carrier for 'digital product design examples' in the body (keywordCarrier.secondary).",
+        "Case table (text): client | starting point | what design delivered | result as stated. Elia Wellness (idea to product; website, web app, mobile app; +40% registrations), Parents Connect (research-first revamp; web and mobile; +45% forum participation), Anyday (confusing first release, two audiences; employee satisfaction +40%, which the case study ties to immediate wage access), Mass Media Co. (separate tools merged into one platform; +30% order processing efficiency).",
+        "One 'we' sentence on the common thread: each started from a written problem and ended with a number the client tracks. Do not attribute any result to design alone.",
+        "DOWN link 2: Parents Connect (/case-studies/parents-connect/). Elia was linked in H2 3; Anyday and Mass Media Co. stay plain text (case-study link bucket).",
+        "Bridge: 'Portfolios like these are also where you start judging a design team.'"
+      ]
+    },
+    {
+      "h2": "How do you judge design work before you pay for it?",
+      "answerHint": "**Judge design work by the evidence behind it: a written problem and metric, research the team actually ran, a prototype that real users tested, every screen state designed, and a handoff your engineers can build from.**",
+      "points": [
+        "7 pass/fail checks (text list): problem + metric stated; research artifacts shown; prototype test findings with participant count; states (empty, loading, error, no permission) in the files; design system with tokens; accessibility target named (WCAG 2.2 AA); design QA during the build.",
+        "McKinsey data point (eav 'business value of design'): 32 and 56 percentage points over 5 years for top-quartile design practice, 300 listed companies, correlational, global sample. One sentence on why: the top quartile treats design as measured work, which is what the checks test.",
+        "LEAD ANGLE 1 at the end of this section (see leadAngle).",
+        "Bridge: 'If the checks show gaps in your own product, the next question is what to buy first.'"
+      ]
+    },
+    {
+      "h2": "Which digital product design work should you buy first?",
+      "answerHint": "**Buy the step that matches your evidence: discovery if the problem is untested, MVP design if the problem is tested but there is no product, and an ongoing product design engagement if a live product is turning into a patchwork.**",
+      "points": [
+        "Three-door routing map (visual 5 + astext table); eav 'buy-first routing'.",
+        "Door 2 links the MVP package (/services/startups/mvp-design-agency/, anchor 'MVP design', the post's ONE cross-hub link). Door 3 = UP link 2 to the hub (anchor variant, or the cost section fragment #how-much-does-a-product-design-agency-cost if the link builder counts fragments separately). Pillar /services/startups/ once (anchor 'startup product design') for the stage view; do not restate its stage table.",
+        "Hub facts allowed in one sentence each: projects start within 1 to 2 weeks of a signed proposal; we often lead research and the design system while in-house designers own feature work.",
+        "LEAD ANGLE 2 here, then close with Talha's one-sentence first-person recommendation (no label, no 'Bottom line' H2)."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "What is digital product design, in one sentence?", "a": "Digital product design decides what a software product does, how it works and how it looks, and tests those decisions with users before and during the build. 2 sentences max; the second names the 8 artifacts as a payoff." },
+    { "q": "Is a digital product designer the same as a product designer?", "a": "Yes, in most US job posts the two titles mean the same software role. Add the difference from a UI UX designer (hire-product-designer FAQ fact, rephrased): a product designer also decides which problem to solve and how to measure it. No salary or career advice." },
+    { "q": "Does digital product design include development?", "a": "No. Design ends with specs, states, components and design QA during the build; engineers write the code. Our team is part of tkxel, so design and development can run in one contract when you need both (hub FAQ)." },
+    { "q": "How long does digital product design take?", "a": "It depends on the evidence you already have: discovery for one product area is weeks, a full product with a design system is months. Point to the hub's stage plan for our timings (link only if the link builder allows a 3rd hub link; otherwise plain text 'our stage plan'). Most projects start within 1 to 2 weeks of a signed proposal." },
+    { "q": "Can one designer handle digital product design for a startup?", "a": "Yes, for a narrow scope such as one flow or a first prototype; research, a design system, web and mobile together usually need more than one person. If the BLS figure is verified, add the median pay for web and digital interface designers as an input for in-house cost. No link to /services/hire-product-designer/ (cross-hub cap)." }
+  ],
+  "internalTargets": [
+    { "href": "/services/startups/product-design-agency/", "anchor": "product design agency", "priority": "required", "where": "Intro sentence 4, within the first 150 words. Hub link 1 of 2.", "verified": "content/services/product-design-agency.json; URL in content/pillars.ts line 207 and content/home.ts line 150" },
+    { "href": "/services/startups/product-design-agency/#how-does-our-product-design-agency-plan-the-work", "anchor": "our four-stage plan", "priority": "conditional", "blocker": "link-builder one-link-per-target rule (lesson 2026-10-16). If fragments count separately, link here in H2 4; if not, write 'our four-stage plan' as plain text.", "where": "H2 4", "verified": "hub h2 'How does our product design agency plan the work?' → sectionId() in components/sections/SemanticSections.tsx lines 9–14; section id rendered at line 120" },
+    { "href": "/services/startups/product-design-agency/#how-much-does-a-product-design-agency-cost", "anchor": "what a product design engagement costs", "priority": "required", "where": "H2 9, door 3. Hub link 2 of 2 (use the plain hub URL if fragments count as the same target and the H2 4 fragment was used).", "verified": "hub h2 'How much does a product design agency cost?' → sectionId()" },
+    { "href": "/services/startups/", "anchor": "startup product design", "priority": "required", "where": "H2 9. Pillar, not a service hub: does not count toward the cross-hub cap.", "verified": "content/pillars.ts line 185 (slug 'startups'), anchor field line 188" },
+    { "href": "/services/startups/mvp-design-agency/", "anchor": "MVP design", "priority": "required", "where": "H2 9, door 2. The post's ONE cross-hub link (RULES.md).", "verified": "content/services/mvp-design-agency.json; same URL in the hub section 1 body and home.ts line 244" },
+    { "href": "/case-studies/elia-wellness/", "anchor": "Elia Wellness, a learning app for adults over 50", "priority": "required", "where": "H2 3. DOWN link (case study lists product-design-agency).", "verified": "content/case-studies/elia-wellness.md services: [mvp-design-agency, product-design-agency]" },
+    { "href": "/case-studies/parents-connect/", "anchor": "the Parents Connect community platform", "priority": "required", "where": "H2 7. DOWN link.", "verified": "content/case-studies/parents-connect.md services: [product-design-agency, hire-ui-ux-designers]" },
+    { "href": "/case-studies/anyday-app/", "anchor": "(none)", "priority": "skip", "why": "Case-study link bucket (2 per post); Anyday stays plain text in the H2 7 table. Its quote is from a customer of the client (lesson 2026-10-11): never present it as a testimonial." },
+    { "href": "/case-studies/mass-media-co/", "anchor": "(none)", "priority": "skip", "why": "Same bucket reason; plain text in H2 5 and H2 7. Already linked from three SaaS-silo pages." },
+    { "href": "/about/", "anchor": "the design team of tkxel", "priority": "required", "where": "H2 5, the one-contract sentence.", "verified": "content/pages/about.md" },
+    { "href": "/services/hire-product-designer/", "anchor": "(none)", "priority": "skip", "why": "Would be a second cross-hub link (cap 1, used by MVP design). It owns 'What does a product designer do?' and 'Product designer for hire vs freelance vs full-time'; the post must not answer those again. Override only if the owner accepts." },
+    { "href": "/services/hire-ui-ux-designers/", "anchor": "(none)", "priority": "skip", "why": "Cross-hub cap; the hub's cost section already links it." },
+    { "href": "/case-studies/nitro/", "anchor": "(none)", "priority": "skip", "why": "Web3/NFT racing game, off-audience for AI/SaaS founders; its headline result is a $5M raise, a business result, not a design result." },
+    { "href": "/contact/", "anchor": "(none)", "priority": "skip", "why": "TOFU: RULES.md step 6 keeps conversion links lean; orchestrator: no consultation ask." }
+  ],
+  "backlinkSuggestions": [
+    {
+      "source": "content/services/product-design-agency.json → section 'What does a product design agency do?' → body (line 30)",
+      "target": "/blog/digital-product-design/",
+      "anchor": "what digital product design hands your team",
+      "priority": "required",
+      "why": "Hub → post (the hub links down to its posts and tells Google which page answers the informational query). The sentence describes the single view of the whole product, which the post breaks into 8 artifacts. Old string occurs once (line 30). Section format 'paragraph' renders `body` as HTML.",
+      "old": "Our designers keep a single view of the whole product: who uses it, which jobs matter most and which screens need work next.",
+      "new": "Our designers keep a single view of the whole product: who uses it, which jobs matter most and which screens need work next. Our guide to <a href=\\\"/blog/digital-product-design/\\\">what digital product design hands your team</a> lists the artifacts behind that view.",
+      "escapeNote": "The hub stores HTML inside a JSON string, so href quotes appear in the file as backslash + quote, as in the existing <a href=\\\"/services/startups/mvp-design-agency/\\\"> later in the same body."
+    },
+    {
+      "source": "content/pillars.ts → startups section 'Why does startup product design need its own approach?' → body (line 207)",
+      "target": "/blog/digital-product-design/",
+      "anchor": "the artifacts each step should hand you",
+      "priority": "required",
+      "why": "Pillar → post. The paragraph walks sprint → MVP → product design, which matches the post's routing section. The body is a single-quoted TS string, so the href uses plain double quotes like the three links already in it. Old string occurs once (line 207).",
+      "old": "After launch, our <a href=\"/services/startups/product-design-agency/\">product design agency</a> team keeps research, UX and UI moving with the roadmap.</p>",
+      "new": "After launch, our <a href=\"/services/startups/product-design-agency/\">product design agency</a> team keeps research, UX and UI moving with the roadmap. Before you choose, check <a href=\"/blog/digital-product-design/\">the artifacts each step should hand you</a>.</p>",
+      "escapeNote": "No backslashes in the TS file: the body is wrapped in single quotes ('<p>…</p>'), so the inner double quotes are literal. In this JSON brief they appear as \\\" only because JSON needs them escaped."
+    },
+    {
+      "source": "content/case-studies/elia-wellness.md line 75 (section 'What the finished platform includes')",
+      "target": "/blog/digital-product-design/",
+      "anchor": "the full span of digital product design",
+      "priority": "required",
+      "why": "Case study → post. Elia is the post's main end-to-end example (strategy, website, web app, mobile app); case studies already link blog posts (nitro.md line 74 links /blog/product-discovery/). Old string occurs once, at the start of line 75.",
+      "old": "The finished product joins an LMS and a wellness tracker in one place.",
+      "new": "The finished product joins an LMS and a wellness tracker in one place, and the project covered [the full span of digital product design](/blog/digital-product-design/), from strategy to the website, web app and mobile app.",
+      "authorNote": "Restates only the case study's own scope line (line 29); no new claim. Check the sentence after it ('As an MVP design agency, we took it…') still reads naturally."
+    }
+  ],
+  "externalSources": [
+    { "url": "https://www.w3.org/WAI/news/2023-10-05/wcag22rec", "why": "Primary (W3C): WCAG 2.2 a W3C Recommendation on October 5, 2023; new criteria incl. touch input. H2 6." },
+    { "url": "https://developer.apple.com/design/human-interface-guidelines/", "why": "Primary (Apple, US): HIG index (layout, typography, materials, accessibility). H2 6. The search returned the index as '…/human-interface-guidelines.md'; fact-checker confirms the HTML URL resolves." },
+    { "url": "https://m3.material.io/get-started", "why": "Primary (Google, US): Material Design 3, UX guidance and components for Android, Flutter and the web. H2 6." },
+    { "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-business-value-of-design", "why": "Primary (McKinsey, US firm; global sample): 300 listed companies, 5 years, 32 and 56 percentage points. H2 8. Label 'percentage points' and 'correlation'." },
+    { "url": "https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm", "why": "Primary (US BLS): median pay for web and digital interface designers. FAQ 5 only. CONDITIONAL: snippet gave about $104,000 (May 2025); use only after the fact-checker confirms the figure and data month on the live page, else drop the sentence." },
+    { "url": "https://www.figma.com/resource-library/what-is-product-design/", "why": "Primary (Figma, US): product design overview; AI-overview sitelink in the warehouse SERP 2026-10-19. Optional context for H2 2; cite only a statement confirmed on the page." }
+  ],
+  "visuals": [
+    { "type": "artifact ledger (stacked hand-over cards)", "file": "digital-product-design-artifact-ledger.svg", "idea": "8 cards stacked in hand-over order like a folder being filled, each with the artifact name, the question it answers and the reader (founder, PM, engineers). Text panel: table artifact | question | who uses it." },
+    { "type": "span bar", "file": "digital-product-design-span-bar.svg", "idea": "One horizontal bar from 'which problem' to 'measured after release'. Brackets above it: UI design (screen), UX design (flow), digital product design (full span). Two grey chips off the bar: 'physical product design' and 'digital products to sell'. Text panel: table discipline | question owned | output | measured by." },
+    { "type": "evidence ladder", "file": "digital-product-design-evidence-ladder.svg", "idea": "5 rungs rising left to right: assumption → interview patterns → flow walkthrough → prototype tested with 5 to 8 users → measured release. Each rung: artifact, test, pass signal. Text panel: ordered list." },
+    { "type": "handoff packet anatomy", "file": "digital-product-design-handoff-packet.svg", "idea": "An open folder with labeled tabs: annotated screens, state sheet (empty, loading, error, no permission), components + tokens, Storybook docs, acceptance notes, design QA checklist; an arrow to 'sprint review'. Text panel: list." },
+    { "type": "three-door routing map", "file": "digital-product-design-first-purchase.svg", "idea": "A start node 'What evidence do you have today?' opening onto three doors (no tested problem → discovery; tested problem, no product → MVP design; live product turning into a patchwork → product design engagement). Doors, not a branching tree. Text panel: table evidence | first purchase | what you get." }
+  ],
+  "visualCountNote": "5 inline visuals (orchestrator: 4–5). The case table (H2 7) and the pass/fail checks (H2 8) stay as text.",
+  "leadAngle": "Moment 1: end of H2 8. The reader has run the 7 checks against their own product or a proposal and found gaps (no problem brief, no tested prototype, no states in the files). Offer, hub facts only: every engagement is led by a senior product designer who stays from discovery to release, and design QA runs in your sprints (hub 'Why startups choose' cards + 'Build support'); plain text, no hub link at this moment. Moment 2: H2 9, door 3 (live product turning into a patchwork): 'we' sentence that our product design engagement keeps research, UX, UI and the design system in one team, with UP link 2 to the hub cost section. Closing CTA (TOFU template): the checklist. No price in the body, no 'book a consultation', no free audit offer.",
+  "variety": {
+    "type": "Guide",
+    "typeNote": "Last 3 site-wide types: Comparison (ux-design-for-saas), Article (onboarding-kyc-process-flow), Checklist (chatbot-design). Guide was last used 4 posts ago (how-to-design-an-mvp) and fits the 'complete guide' opportunity format. Structure differs from every previous Guide: no definition-first H2, artifact-led order, no 'Bottom line', no mistakes table.",
+    "introStyle": "End-state inventory: sentence 1 starts on the last day of a project and counts what the founder holds (8 things, only one of them screens); the post then works backward. Device = hand-over count. Used before (do not repeat): buyer scenario, myth, data point with source, question, definition, mini case, contrarian take, timed first-run log (blockquote), kill-list decision log (blockquote), itemized receipt, misfiring rule, try-this-now exercise, originator quote, three-question inline list, rule-to-screen translation, scope subtraction. No blockquote, no statistic first, no hypothetical company, no question opener, no definition sentence.",
+    "h2Frames": ["what it delivers (artifact ledger, definition inside the bold answer)", "how it differs (span)", "which decisions first", "how the process moves (evidence ladder)", "how design and development fit (handoff)", "what changes for AI/SaaS (+ accessibility, platforms)", "what it looks like shipped (case table)", "how to judge (pass/fail)", "which to buy first (routing, closing)", "FAQs"],
+    "sectionOrder": "artifacts → boundaries → pre-screen decisions → process as evidence → handoff → AI/SaaS specifics → shipped examples → judging → first purchase (closing) → FAQs.",
+    "visualTypes": ["stacked hand-over cards", "span bar", "evidence ladder", "handoff packet anatomy", "three-door routing map"],
+    "ctaAngle": "run the 7 checks on your product or proposal, then pick the door that matches your evidence → TOFU checklist (template CTA). Not 'book a free consultation', not 'send your brief/RFP', not 'rate your surfaces', not 'pass the gates'.",
+    "listStyle": "artifact | question | reader table, discipline span table, ordered evidence rungs, packet list, case table, 'pass if…' lines, evidence → purchase routing table",
+    "closingRule": "Closing H2 is the routing section; end with one first-person recommendation sentence from Talha, no label ('My recommendation:' banned), no 'Bottom line' H2, no 'Have a … to design?' H2.",
+    "metaDescriptionEnding": "Ends on 'how to judge the work' (a payoff), not a consultation ask and not 'plus a … to rate yours' (yesterday's ending).",
+    "differsFrom": "Last 3 site-wide: ux-design-for-saas (Comparison, scope-subtraction intro, surface ring, triage heat-map), onboarding-kyc-process-flow (Article, rule-to-screen intro, swimlane), chatbot-design (Checklist, 'Step N:' H2s, scorecard). Silo: none (first post). Nearest structural relatives by type: how-to-design-an-mvp (Guide; do NOT reuse its quote opener, definition-first H2 'What does it mean to design an MVP?', 5-user test thresholds section, dog-groomer example, 'Bottom line') and product-discovery (Guide; do NOT reuse its four-risks frame, Double Diamond, exit-gate checklist, property-management example). Nearest topical relative: the hub itself (do NOT rebuild its 6-service list, 4-stage list, studio comparison table or price)."
+  },
+  "fingerprintCheck": {
+    "vs_ux-design-for-saas": "Differs on type (Guide vs Comparison), intro (end-state inventory vs scope subtraction), H2 frames, section order, visuals (cards, span bar, ladder, packet, doors vs ring, wireframe pair, triptych, message anatomy, heat-map), CTA angle, list style. 7 of 7.",
+    "vs_onboarding-kyc-process-flow": "Differs on type, intro, frames, order, visuals, CTA, list style. 7 of 7.",
+    "vs_chatbot-design": "Differs on type, intro, frames (no 'Step N'), order, visuals (no scorecard: checks are text 'pass if' lines), CTA, list style. 7 of 7.",
+    "vs_type_relative_how-to-design-an-mvp": "Same type (Guide). Differs on intro, first H2 (artifacts, not definition), section order, visuals, CTA (TOFU vs MOFU), closing (routing vs 'Bottom line'). 6 of 7.",
+    "audit_2026-10-19_rules": "Not a definition-first opener: the definition sits inside H2 1's bold answer under a deliverables question (PASS); 5 visuals, not 6 (PASS); description ends on a payoff with no consultation ask, and differs from yesterday's ending (PASS); closing H2 is the routing section, not 'Bottom line' nor 'Have a … to design?' (PASS).",
+    "result": "PASS"
+  },
+  "overlapCheck": {
+    "method": "Outline-level (no shell this run). Compared planned H2s and FAQs with content/services/product-design-agency.json, hire-product-designer.json, mvp-design-agency.json (keyword/anchor), content/pillars.ts (startups), content/home.ts and the 8 published posts.",
+    "headingOverlap": "Closest pairs: H2 1 vs hub 'What does a product design agency do?' and hire-product-designer 'What does a product designer do?' (the hub describes the agency's job and the hire page the person's job; the post lists hand-over artifacts and answers through them, and its H2 avoids 'designer' as subject). H2 2 vs hub 'Product design agency vs a UI design studio' (providers vs disciplines; no shared table rows). H2 4 vs hub 'How does our product design agency plan the work?' (stages with weeks vs evidence rungs; deep link, no stage names). H2 9 vs pillar 'Which startup product design service fits your stage?' (funding stage vs evidence held; links the pillar). FAQ 2 vs hire-product-designer FAQ 'difference between a product designer and a UI UX designer' (one rephrased clause only).",
+    "intentOverlap": "Grep of content/ for 'digital product design': only the hub's summary and sourceContext (no title, H1, keyword, metaTitle or H2) and two location briefs. No page targets the phrase. The hub's commercial intent ('product design agency', 'digital product design agency' 1,100, parent 'product design agency') differs from the post's parent topic ('digital product design', informational).",
+    "residualRisk": "Medium-low. (1) Google could rank the hub for 'digital product design' because its summary uses the phrase; backlink #1 and the hubPhrasePlan protect the split. (2) H2 1 next to the hire page's 'What does a product designer do?': keep the answer on artifacts, not on the person. (3) H2 4 must stay one section so a later 'product design process' post (900, KD 24) remains possible.",
+    "result": "PASS at outline level."
+  },
+  "sisterSiteCheck": {
+    "status": "UNVERIFIED — RISK",
+    "fetchStatus": "FAILED: WebFetch https://uiuxdesignservices.us/sitemap.xml → ENOTFOUND (2026-10-22). WebSearch 'site:uiuxdesignservices.us product design' and 'uiuxdesignservices.us digital product design services' returned no page from the domain.",
+    "evidence": "content/briefs/chatbot-design.qa.md line 25 (QA's curl, 2026-10-19) lists a sister page named 'digital-product-design' among the pages it checked. A GoodFirms listing (https://www.goodfirms.co/company/ui-ux-design-services, Reston VA, '200+ digital products since 2017') says that company offers 'digital product design'. So the sister very probably has a service page at /services/digital-product-design/, likely targeting 'digital product design services' (350, KD 3) or the bare 'digital product design' (1,300).",
+    "mitigation": "Our page is an informational guide with a different angle (buyer's artifacts), different headings and no service wording. Banned in the post: 'digital product design services', 'digital product design service', 'digital product design agency/company/studio/firm/consultancy'. No link to the sister site. Do not reuse any wording from it.",
+    "qaStep": "PUBLISH BLOCKER: run curl -sS https://uiuxdesignservices.us/sitemap.xml | grep -iE 'digital|product'. Then curl -sS https://uiuxdesignservices.us/services/digital-product-design/ and read its <title> and H1. If its title or H1 targets the bare phrase 'digital product design' (not '… services/agency'), STOP and report to the owner: two owner sites would compete for the same 1,300/mo head term, and the owner decides which site keeps it. Otherwise fail the post above 2% 5-gram overlap with that page."
+  },
+  "rejectedCandidates": [
+    { "keyword": "what is digital product design (250, KD 0, TP 0)", "why": "Lower volume and TP 0 (AI overview answers it). Kept as metaTitle phrase + FAQ 1." },
+    { "keyword": "digital product design agency (1,100, KD 51, parent 'product design agency') / digital product design firms (150, KD 34) / digital product design firm (30, KD 70) / digital product design company (400, KD 7, parent 'work and co') / digital product design studio (150, KD 46) / digital product design consultancy (150, KD 5)", "why": "Commercial agency terms: hub-owned (clusters.json 'product design agency'). Cannibalisation." },
+    { "keyword": "digital product design services (350, KD 3) / digital product design service (60)", "why": "Commercial service intent next to the hub and probably the sister site's page target. Banned in the post." },
+    { "keyword": "digital product design process (100, KD 7, parent 'product design', TP 3,000)", "why": "Its parent is 'product design' (a different topic, TP 3,000). One body use only; 'product design process' (900, KD 24) is reserved for a future process post in this silo." },
+    { "keyword": "digital product design examples (80, KD 1, TP 30)", "why": "Separate opportunity (score 47.2, 'examples gallery') with TP 30, too thin for its own post. Served as a secondary in H2 7." },
+    { "keyword": "digital product design and development services (150, parent 'digital product development company') / digital product design and development company (90) / agency (100)", "why": "Development-vendor commercial intent; ui-ux.agency sells design. Not used." },
+    { "keyword": "digital product design courses (50) / jobs (40) / portfolio (20) / 'how much do digital product designers make' (PAA)", "why": "Career intent, service-support 1." },
+    { "keyword": "digital product design uitop (250) / work & co digital product design (20)", "why": "Branded queries for other companies." },
+    { "keyword": "digital twin product design (70) / digital product passport design (40) / product design digital sketching (80)", "why": "Different topics (engineering, EU product passports, sketching)." }
+  ],
+  "beats": "https://www.boldare.com/blog/digital-product-design-the-ultimate-guide/",
+  "beatsNote": "Agency guide cited as an AI-overview sitelink in the warehouse SERP (2026-10-19); the same domain holds organic #2 with its designer-role page. Not fetched (ENOTFOUND), and WebSearch could not surface its text. QA: run curl -sSI -A 'Mozilla/5.0' on it first (lesson 2026-10-16); if it redirects off-topic or 404s, use https://www.ramotion.com/blog/digital-product-design/ (organic #10, agency) as `beats`. Also run the 5-gram check against https://www.indeed.com/career-advice/career-development/what-is-digital-product-design (organic #6).",
+  "competitorPagesStudied": [
+    { "url": "https://www.boldare.com/blog/digital-product-design-the-ultimate-guide/", "seen": "Title only (AI-overview sitelink). Boldare job posts describe its stages as prototype, MVP, product-market fit and scaling.", "misses": "Unknown body; QA fetches it. Originality: do NOT adopt a prototype/MVP/PMF/scaling stage frame." },
+    { "url": "https://www.boldare.com/blog/what-does-digital-product-designer-do/", "seen": "Organic #2: the designer's skills and responsibilities (career angle).", "misses": "Written for designers, not buyers." },
+    { "url": "https://www.indeed.com/career-advice/career-development/what-is-digital-product-design", "seen": "Organic #6: definition and components (career advice).", "misses": "No hand-over artifacts, no handoff, no examples of shipped work." },
+    { "url": "https://www.ramotion.com/blog/digital-product-design/", "seen": "Organic #10: principles, process, impact; sitelinks 'Defining Digital Product Design' and 'Core Elements'.", "misses": "Definition-first; no buyer checks, no AI states, no US accessibility frame." },
+    { "url": "https://en.wikipedia.org/wiki/Digital_product_design", "seen": "Organic #8: 'iterative design process used to solve a functional problem with a formal solution'; a subset of product design; often titled 'product designer' in job posts.", "misses": "Encyclopedic. Originality: do NOT paraphrase the 'functional problem with a formal solution' line." },
+    { "url": "https://flatirons.com/blog/what-is-digital-product-design", "seen": "US agency 'ultimate guide' (2024): role of product designers, process steps, tools, trends; aligning with business goals and technical constraints.", "misses": "Generic phase list, no deliverable ledger, no evaluation checks." }
+  ],
+  "competitorsJsonHandback": {
+    "note": "Not written to docs/content-system/competitors.json (task instruction). Orchestrator: append these.",
+    "domains": [
+      { "domain": "boldare.com", "kind": "agency blog", "silos": ["product-design-agency"], "seenFor": ["digital product design (organic #2 designer-role page, AI-overview sitelink ultimate guide)"], "source": "Ahrefs warehouse SERP 2026-10-19" },
+      { "domain": "ramotion.com", "kind": "agency blog", "silos": ["product-design-agency"], "seenFor": ["digital product design (organic #10)"], "source": "Ahrefs warehouse SERP 2026-10-19 (domain already listed for other silos; add the silo)" },
+      { "domain": "flatirons.com", "kind": "agency blog (US)", "silos": ["product-design-agency"], "seenFor": ["what is digital product design"], "source": "WebSearch 2026-10-22" }
+    ],
+    "topPost": { "domain": "boldare.com", "url": "https://www.boldare.com/blog/digital-product-design-the-ultimate-guide/", "title": "Digital Product Design - the Ultimate Guide | Boldare", "keywords": ["digital product design", "what is digital product design"], "estTraffic": null, "silo": "product-design-agency", "status": "briefed", "brief": "content/briefs/digital-product-design.json" }
+  },
+  "clustersHandback": "clusters.json has no owner for the parent topic 'digital product design' (grep 2026-10-22: only 'product design agency' and 'hire product designer'). Orchestrator, after publish: add { parentTopic: 'digital product design', owner: '/blog/digital-product-design/', keywords: ['digital product design (1300, KD 2, TP 400)', 'what is digital product design (250, KD 0)', 'digital product design and development (150, KD 4)', 'product design digital (80, KD 5)'] }. Add 'digital product design agency (1100, KD 51)' and 'digital product design firms/firm' to the hub-owned 'product design agency' cluster. Mark blog-opportunities 'digital product design' (72.8) done after publish and 'digital product design examples' (47.2) served-as-secondary. Keep 'digital product design consultancy' (62.1) and 'digital product design studio' as hub-owned (commercial), not blog topics.",
+  "notes": [
+    "CANNIBALISATION GUARDS: (1) Hub: do not restate its 6-service list, the 4-stage plan with weeks, the 'vs a UI design studio' table, the 4 'why startups choose' cards as a list, or any price; link instead. Rephrase, never copy, the hub abstract ('plans, designs and tests digital products from strategy to release'). (2) hire-product-designer: do not answer 'What does a product designer do?', 'When should you hire a product designer?' or the freelance/full-time comparison; H2 1 stays on artifacts. (3) Pillar /services/startups/: do not rebuild the stage table; link it. (4) Future 'product design process' post: process stays one section.",
+    "CASE STUDIES (exact facts only): Elia Wellness: LMS for adults over 50; scope 'strategy and the path from idea to product, plus the website, the web app and the mobile app'; five core experiences; seven wellness dimensions in one score; lessons built from text, image, video and challenge blocks; tablet pre-questionnaire with big tap areas and simple rating scales; +40% user registrations; 30+ boost in wellness scores among active users. Do NOT use its quote as a testimonial about design (it thanks the team for 'building'; lesson 2026-10-11). Parents Connect: discovery and stakeholder interviews, product revamp, UX design, brand and visual design; began with research on what parents want; web and mobile; +45% forum participation, +10% average time on the platform. Anyday: product revamp, strategy, web app, mobile app and website; first version hard to navigate; real-time transfers and simplified navigation; two audiences (employees, employers); employee satisfaction +40% 'thanks to immediate access to wages'. Do NOT use the $51,000, 14 hours or the Boston Pizza quote (customer of the client). Mass Media Co.: separate order tools → one platform; discovery workshop with stakeholders and end users defined product, strategy, IA and user flows; +30% order processing efficiency. Never attribute a result to design alone. Do NOT use Nitro ($5M raise), Digno or Vocable figures.",
+    "DO NOT USE (unsourced or misquoted figures): 'design-led companies grow 32% faster' (McKinsey says percentage points, over 5 years, top quartile, correlation); any 'every $1 in UX returns $100'; any '88% of users won't return'; Dribbble or marketplace prices; BLS pay unless the fact-checker verifies it on the live page; any '% of startups fail because of design' claim.",
+    "DO NOT MIRROR: Wikipedia's 'iterative design process used to solve a functional problem with a formal solution'; Boldare's prototype/MVP/product-market-fit/scaling stages; 'blend of art and science' (SoluteLabs); 'usability and desirability' pairing seen in SERP snippets.",
+    "ENTITY SALIENCE: 'digital product design' exact 10–13 uses; H2s 1, 2, 4, 5, 7 and 9 carry it (6 of 9 = 67%, above 40%). Rival entities capped at about 6 uses each: 'UX', 'UI', 'prototype', 'design system', 'handoff', 'MVP'. Use 'digital product design' as the subject of the first sentence in at least 5 of 9 sections. Do not let 'product design agency' compete (anchor only, at most twice).",
+    "VOICE: first person by Talha Saleem for method and judgment ('When I hand over a prototype, I attach…'). 'We' only for hub, home.ts, about and case-study facts. No invented anecdotes, clients, timings or rates. Examples beyond the 4 case studies are hypothetical and labeled ('Say you run a scheduling app…'). American spelling.",
+    "POST-PUBLISH MONITOR: (a) if Google ranks the hub for 'digital product design' or 'what is digital product design', check that backlink #1 is live and the hubPhrasePlan holds; (b) if the post starts ranking for 'digital product design agency' or 'product design agency', remove any hub-anchor phrase outside links; (c) sister site: see sisterSiteCheck.qaStep (publish blocker).",
+    "ABBREVIATIONS to expand on first use: user experience (UX), user interface (UI), information architecture (IA), minimum viable product (MVP), software as a service (SaaS), artificial intelligence (AI) only if needed, Web Content Accessibility Guidelines (WCAG), Americans with Disabilities Act (ADA), Human Interface Guidelines (HIG), quality assurance (QA), learning management system (LMS), U.S. Bureau of Labor Statistics (BLS)."
+  ]
+}

@@ -173,3 +173,8 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-21: When the keyword holds two abbreviations, expand both in an opening clause and keep the unbroken keyword in the main clause of the same sentence.
 - 2026-10-21: Grep the same author's earlier intros before drafting; don't reuse their opening scaffold.
 - 2026-10-21: When citing an amended law, separate the amendment's new duty from rights the law already gave; never tie the older right to the amendment's start date.
+
+- 2026-10-22 (digital-product-design): Attach link markers straight to the anchor with no space before punctuation, or the rendered sentence keeps a stray space.
+- 2026-10-22: Grep the brief's capped rival entities after the first draft and rename list/panel labels ("click-through test", "component library") before touching prose.
+- 2026-10-22: FAQ headings with a role noun can contain the keyword as a substring ("digital product designer"); reword with a stand-in and count substring uses against the cap.
+- 2026-10-22: Check headings against the sister page's headings and FAQs before handoff; test any superlative about one step against the post's own ladder.
