@@ -16,8 +16,8 @@
     "markdown": "![Scatter chart of 14 product discovery techniques by low, medium and high cost against evidence, rising up and to the right, with the prototype usability test ringed as the design sprint](/blog/product-discovery-techniques/product-discovery-techniques-cost-evidence.svg \"Cost against evidence: where each of the 14 product discovery techniques sits\")"
   },
   {
-    "marker": "<!-- visual: product-discovery-techniques-workshop-bundle.svg | type: workshop bundle trays | idea: four trays side by side (task mapping, use case ranking, concept sketching, test and plan), each holding technique chips from the matrix; small day labels 1 to 2, 3 to 4, 5 to 7, 8 to 10; not a timeline bar | alt: Four workshop trays showing which product discovery techniques each step of the AI discovery workshop runs | caption: AI discovery workshop trays: the techniques each of the four steps runs -->",
-    "markdown": "![Four workshop trays showing the days, the product discovery techniques and the output of each step of the AI discovery workshop](/blog/product-discovery-techniques/product-discovery-techniques-workshop-bundle.svg \"AI discovery workshop trays: the techniques each of the four steps runs\")"
+    "marker": "<!-- visual: product-discovery-techniques-workshop-bundle.svg | type: workshop bundle trays | idea: four trays side by side (task mapping, use case ranking, concept sketching, test and plan), each holding technique chips from the matrix; small day labels 1 to 2, 3 to 4, 5 to 7, 8 to 10; not a timeline bar | alt: Four workshop trays showing the days, the methods and the output of each step of the AI discovery workshop | caption: AI discovery workshop trays: what each of the four steps runs -->",
+    "markdown": "![Four workshop trays showing the days, the methods and the output of each step of the AI discovery workshop](/blog/product-discovery-techniques/product-discovery-techniques-workshop-bundle.svg \"AI discovery workshop trays: what each of the four steps runs\")"
   },
   {
     "frontmatter": {
