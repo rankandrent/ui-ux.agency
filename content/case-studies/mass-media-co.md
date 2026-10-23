@@ -40,7 +40,7 @@ MMC wanted one partner to rethink both the workflow and the software. We joined 
 
 ## How we approached the revamp
 
-We began with a discovery workshop, because the redesign had to serve MMC's business goals first. Stakeholders and end users joined us to define the product, set the strategy, and map the information architecture and user flows. That workshop is one of the [discovery techniques that test value before a build](/blog/product-discovery-techniques/#which-techniques-test-value-risk-before-anything-is-built).
+We began with a discovery workshop, because the redesign had to serve MMC's business goals first. Stakeholders and end users joined us to define the product, set the strategy, and map the information architecture and user flows. Group sessions like this one can sit beside the one-to-one interviews in our list of [discovery techniques that test value before a build](/blog/product-discovery-techniques/#which-techniques-test-value-risk-before-anything-is-built).
 
 That work led to an omnichannel platform covering every marketing touchpoint, organized around five experiences.
 

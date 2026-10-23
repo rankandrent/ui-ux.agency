@@ -74,3 +74,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-22 (digital-product-design): Before accepting a skipped case study, search the draft for an unlinked "the case study"/"the report"; link it when its file lists the hub in services, and report the override.
 - 2026-10-22: For consulting-firm articles, search a quoted phrase limited to the firm's domain, cite the URL returned and copy the metric's own noun ("TRS growth").
 - 2026-10-22: When a fragment marker is cut for the hub cap, check FAQs for sentences pointing at the same page and flag them.
+
+- 2026-10-23 (product-discovery-techniques): For a publisher's tool or template, cite the asset URL search returns (e.g. Strategyzer Test Card PDF) over an unconfirmed blog path, and quote only labels the snippet shows.
+- 2026-10-23: Check each number on the exact URL being linked; if it lives on a sibling page from the same publisher, reword to the linked page's claim.
+- 2026-10-23: Move a source link from a generic method name onto the number claim it supports.

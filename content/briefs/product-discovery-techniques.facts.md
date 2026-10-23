@@ -2,11 +2,15 @@
 
 Post: `content/blog/product-discovery-techniques.md` (draft, 2026-10-23). Checker run 2026-10-23.
 
+> **Loop 1 (below) is SUPERSEDED by Loop 2 at the end of this file.** Use Loop 2's verdict and fixes.
+
+## Loop 1 (superseded)
+
 **Method note.** WebFetch failed with `getaddrinfo ENOTFOUND` for www.svpg.com, www.producttalk.org and www.nngroup.com, so it was not used after that. Every external claim below was checked with **WebSearch limited to the source's domain** (svpg.com, producttalk.org, nngroup.com, strategyzer.com, gv.com, amplitude.com/optimizely.com, hhs.gov, oag.ca.gov/cppa.ca.gov). The search returned the exact URL the post links, along with supporting text. Every linked URL matches the search result on host and path (www. included). The Strategyzer Test Card PDF came back as the top hit for its four field labels.
 
 Site files checked: `content/services/ai-product-discovery-workshop.json`, `content/services/design-sprint.json`, `content/case-studies/mass-media-co.md` (L43), `content/case-studies/tradezella.md` (L88–92), `content/pages/about.md`, `content/home.ts` L201, `content/authors.json`, `content/blog/product-discovery.md` (anchor target), all 6 SVGs in `public/blog/product-discovery-techniques/`, `content/briefs/product-discovery-techniques.visuals.json`.
 
-## Claims
+### Claims
 
 | # | Line | Claim | Verdict | Source |
 |---|---|---|---|---|
@@ -51,7 +55,7 @@ Site files checked: `content/services/ai-product-discovery-workshop.json`, `cont
 | 39 | value-ladder.svg | Rung tags and order | WRONG (see #11) | Fixed by text in F3; the SVG can stay as drawn once F3b explains rung 1. |
 | 40 | workshop-bundle.svg | Title, tray 1 output | WRONG (see #32, #33) | F8f, F9 |
 
-## Fixes (exact replacement text)
+### Fixes (exact replacement text)
 
 All replacements are paraphrased. None shares an 8-word run with the hub JSON, the case studies, about.md or `content/blog/product-discovery.md`. The longest shared run with the hub is 6 words ("a clickable concept with realistic model output").
 
@@ -122,7 +126,7 @@ with
 
 **F9, L215 and workshop-bundle.svg tray 1.** Replace "A task map of jobs, pain points and data per task." with "A task map: main tasks, pain points and data per task." In the SVG, the tray 1 output lines become: "A task map:" / "main tasks, pain" / "points and" / "data per task" (same x and y values as the current four lines). Make the same change in the aria-label ("a task map of jobs, pain points…" → "a task map: main tasks, pain points…").
 
-## Links
+### Links
 
 | Link | Loads (search-verified) | Supports its sentence |
 |---|---|---|
@@ -135,5 +139,88 @@ with
 | https://assets.strategyzer.com/assets/resources/the-test-card.pdf | Yes | Yes |
 | https://www.gv.com/sprint/ | Yes | Yes |
 | Internal: /about/, hub, hub#fragment, /blog/product-discovery/ (+ fragment), /case-studies/mass-media-co/, /case-studies/tradezella/, /services/startups/design-sprint/, /services/ai-products/ | Files exist (brief-verified slugs; sibling H2 L170 confirms fragment) | Yes |
+
+Loop 1 verdict (superseded): VERDICT: FAIL
+
+---
+
+## Loop 2 (2026-10-23)
+
+Scope: only text changed since loop 1 (QA edits and the pasted fixes), the 6 SVGs in `public/blog/product-discovery-techniques/`, and the 3 new backlink sentences. Method: WebFetch not used (failed in loop 1); domain-limited WebSearch returning the exact URL, as in loop 1. SVG text read from `<text>`/`<title>`/aria-label; scatter positions read from `<circle>` coordinates.
+
+### Loop 1 items
+
+| Fix | Where now | Status |
+|---|---|---|
+| F1 | L36 | Resolved, word for word. |
+| F2 | L67 | Resolved, word for word. |
+| F3a | Takeaway 2 (L17) | Resolved, word for word. |
+| F3b (QA wording) | L71 "Five … test value risk; four of them sit on a ladder that climbs from past records to what people say and click, with pricing on top." | Resolved, TRUE. The value section names 5 techniques (interviews, analytics review, OST, survey, fake door); 4 of them are ladder rungs 1–4 (analytics, interviews, survey, fake door); rung 5 is the pricing test. Order matches the ladder SVG (rung y-coordinates 582 → 202). |
+| F3c | L73 | Resolved; inserted before the image lead-in. |
+| F3d | L95 | Resolved, word for word. |
+| F4 | L93 | Resolved, word for word. |
+| F5 (QA wording) | L115 | Resolved, TRUE. Scope triggers kept: HIPAA tied to "a health care provider, health plan or other covered entity, or by its business associate" (https://www.hhs.gov/hipaa/for-professionals/faq/who-must-comply-with-hipaa-privacy-standards/index.html); CCPA tied to "If your company meets the … CCPA thresholds" (https://oag.ca.gov/privacy/ccpa). "the CCPA, which the California Privacy Rights Act (CPRA) amended": TRUE. Prop 24 (CPRA, November 2020) amended the CCPA rather than replacing it, effective January 1, 2023 (https://oag.ca.gov/privacy/ccpa ; https://cppa.ca.gov/faq.html). |
+| F6 | L123 | Applied, TRUE (SVPG lists customer acquisition). |
+| F7 | L137 | Resolved, matches hub step 3 "top 1 or 2 use cases". |
+| F8a | Takeaway 5 (L20) | Resolved, word for word. |
+| F8b (QA wording) | L201 "two of these product discovery techniques anchor one workshop of 5 to 10 days" | Resolved, TRUE (interviews + prototype usability test; hub "5 to 10 working days"). |
+| F8c | L205 | Resolved. |
+| F8d | L207 | Resolved. |
+| F8e (QA wording) | L226 | "We run the four steps as one workshop" is resolved. **New sentence "By the end of the 10 days, you leave with the fourth tray's three outputs." is WRONG, see L2-1.** |
+| F8f | SVG `<title>` and headline "What each of the four steps runs"; aria-label "each holding the method that step runs"; post alt and caption L209; visuals.json L19–20 | Resolved in all four places. |
+| F8g | `content/briefs/product-discovery-techniques.json` | Partly open (stale record, no publish impact): L195 (`visuals` tray idea: "interviews + analytics review", "scoring + data audit", "Wizard of Oz-style prototype"), L284 (bridge "four of these techniques fit into one short workshop") and L386 (`ctaAngle` "the workshop runs four of them") still carry the wrong count. serpGaps no longer matches. The orchestrator should update these 3 lines. |
+| F9 | Panel L219; SVG tray 1 lines "A task map:" / "main tasks," / "pain points and" / "data per task"; aria-label | Resolved in all three places (line breaks differ from my loop-1 suggestion; the wording is the same). |
+
+### New or changed text checked
+
+| # | Line | Claim | Verdict | Source |
+|---|---|---|---|---|
+| L2a | 4 (description) | "14 methods with time, sample size and pass signal" | TRUE | Text table L48–63: all 14 rows have Time, Sample and Pass signal cells. |
+| L2b | 36 | Cagan rewrite: value risk (buy or choose to use), usability risk (work out how to use it), feasibility risk (time, skills, technology), business viability (sales, legal, monetization, brand); owners PM / designer / engineering | TRUE | https://www.svpg.com/four-big-risks/ (same claims as loop 1 #5–#6, now worded closer to the source) |
+| L2c | 38 | "assumption testing is the evidence side of product management, and it borrows from user research, user-centered design and experimentation" | TRUE (editorial framing) | No figure or attribution; the author's description. |
+| L2d | 38, 44 | "the matrix below shows each technique's risk and planning time"; panel "The image shows each technique's risk band and planning time" | TRUE | toolkit-matrix.svg columns TESTS / TECHNIQUE / TIME only; 14 rows; times match the table row for row. Alt L40 also says "with the planning time for each technique". |
+| L2e | 75, 79–83 | Ladder alt "each rung tagged attitudinal, behavioral or money"; panel tags | TRUE | value-ladder.svg tags: rung 1 Behavioral, 2 Attitudinal, 3 Attitudinal, 4 Behavioral, 5 Money; matches panel L79–83. |
+| L2f | 89 | OST link | TRUE | https://www.producttalk.org/glossary-discovery-opportunity-solution-tree/ (loop 1 #13: outcome, opportunities, solutions, assumption tests) |
+| L2g | 127 | "Features built on machine learning need two more techniques, because the same input can return a different answer on each run." | TRUE (hedged) | "can" keeps it true: sampled generative models return different outputs for the same input; deterministic models do not, and the sentence does not claim they all do. |
+| L2h | 147, 151, 158 | Test card panel header "Strategyzer test card, filled for an AI shift-swap suggestion"; "Set before launch" stamp | TRUE | test-card.svg eyebrow "STRATEGYZER TEST CARD, FILLED", title "AI shift-swap suggestion", stamp "SET BEFORE LAUNCH", badge "Hypothetical example". Field labels match the Strategyzer PDF (loop 1 #26). |
+| L2i | 170, 174–195 | Scatter: order weakest → strongest, cost bands, design sprint ring, "Move up and to the right only after a pass", "Positions are relative, not measured" | TRUE | cost-evidence.svg circle cy values fall monotonically in exactly the table's order (604 → 188). Bands: Low x 153–467 (7 circles at 184–340), Medium 473–797 (5 circles at 492–580), High 803–1117 (Wizard of Oz 930, Pricing 970); this matches the Cost column. Dashed ring (x 556–1091, y 239–283) surrounds the prototype usability test row with the "Design sprint" pill. Arrow pill text and "Relative, not measured" are present. |
+| L2j | 199 | GV sprint "ending on Friday with customer interviews where the team watches people try the mockup" | TRUE | https://www.gv.com/sprint/ (Friday: interview customers and learn by watching them react to the prototype). "Mockup" = the realistic prototype; no sample count claimed. |
+| L2k | 201 | Torres continuous discovery link; "the product trio (a PM, a designer and an engineer) talks with customers every week" | TRUE | https://www.producttalk.org/glossary-discovery-continuous-discovery/ ("weekly touchpoints with customers by the team building the product"; trio "product manager, design lead, and tech lead"). URL returned exactly by a producttalk.org search. |
+| L2l | 209–222 + workshop SVG | Panel and new SVG: title "What each of the four steps runs"; tray days, runs and outputs | TRUE | Hub L42–45 and deliverables L53–57: days 1–2 / 3–4 / 5–7 / 8–10; "4 to 6 users"; scores incl. data readiness; "clickable concept with realistic model output"; "5 users"; task map "main tasks, pain points" and data per task. SVG `<text>` matches the panel cell for cell. |
+| L2m | 226 | "By the end of the 10 days, you leave with the fourth tray's three outputs." | WRONG | The same post (L20, L201, L205) and the hub (L40 "5 to 10 working days"; L87 "A one-week workshop … sits near $8,000") say the workshop runs 5 to 10 days. "The 10 days" says every workshop runs 10. **L2-1** |
+| L2n | 234 | FAQ 1 "starting with the riskiest assumption, the one that would kill the idea" | TRUE (method) | Consistent with L166 and the sibling guide's stage 4. |
+
+### Backlinks into the post
+
+| # | File | Sentence | Verdict | Reason |
+|---|---|---|---|---|
+| B1 | `content/services/ai-product-discovery-workshop.json` L25 | "…a separate toolkit lists product discovery techniques matched to the risk each one tests." | TRUE | Every one of the 14 techniques has a "Tests" column entry (L48–63) and a risk band in the matrix SVG. |
+| B2 | `content/blog/product-discovery.md` L112 | "Our toolkit of product discovery techniques lists the time, sample size and pass signal for each one." | TRUE | All 14 rows of the post's table carry Time, Sample and Pass signal (L48–63). |
+| B3 | `content/case-studies/mass-media-co.md` L43 | "That workshop is one of the discovery techniques that test value before a build." | WRONG | The post's value section names five value techniques (interviews, analytics review, OST, one-question survey, fake door; bold L71 and matrix rows), and a workshop is not one of them. The post says only "Group sessions can sit beside one-to-one interviews" (L93). The case study itself describes product definition, strategy, IA and user flows, not a demand test (loop 1 #15 / F4 reasoning). **L2-2** |
+
+Note (not blocking, outside this loop's scope): the same case-study line now opens "We began with a discovery workshop, because the redesign had to serve MMC's business goals first." Nothing else in `mass-media-co.md` states that reason. If it was added with the backlink, the orchestrator should confirm it against the client record or cut the "because" clause.
+
+### Loop 2 fixes (exact replacement text)
+
+**L2-1, post L226.** Replace
+"By the end of the 10 days, you leave with the fourth tray's three outputs."
+with
+"When the workshop ends, you leave with the fourth tray's three outputs."
+
+**L2-2, `content/case-studies/mass-media-co.md` L43.** Replace
+"That workshop is one of the [discovery techniques that test value before a build](/blog/product-discovery-techniques/#which-techniques-test-value-risk-before-anything-is-built)."
+with
+"Group sessions like this one can sit beside the one-to-one interviews in our list of [discovery techniques that test value before a build](/blog/product-discovery-techniques/#which-techniques-test-value-risk-before-anything-is-built)."
+(Supported by post L87, where customer interviews are a value technique, and L93: "Group sessions can sit beside one-to-one interviews.")
+
+**L2-3 (stale records, no publish impact).** In `content/briefs/product-discovery-techniques.json`, update L195 (tray chips: step 1 "customer interviews", step 2 "use-case scoring with a data readiness check", step 3 "clickable concept with realistic model output, close kin of a Wizard of Oz prototype", step 4 "5-user prototype usability test"), L284 (bridge → "For an AI feature, two of these product discovery techniques anchor one workshop of 5 to 10 days.") and L386 (`ctaAngle` "runs four of them" → "anchors two of them").
+
+### Links (loop 2)
+
+| Link | Loads (search-verified) | Supports its sentence |
+|---|---|---|
+| https://www.producttalk.org/glossary-discovery-opportunity-solution-tree/ (new) | Yes (loop 1 search) | Yes |
+| https://www.producttalk.org/glossary-discovery-continuous-discovery/ (new) | Yes (exact URL returned 2026-10-23) | Yes |
+| All loop 1 links | Unchanged | Yes (the F1 clause is fixed) |
 
 VERDICT: FAIL

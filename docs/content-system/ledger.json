@@ -162,6 +162,24 @@
         "/services/startups/ (why startup product design needs its own approach)",
         "/case-studies/elia-wellness/ (finished product line)"
       ]
+    },
+    {
+      "slug": "product-discovery-techniques",
+      "hub": "ai-product-discovery-workshop",
+      "keyword": "product discovery techniques",
+      "date": "2026-10-23",
+      "images": 5,
+      "internalLinks": 9,
+      "externalLinks": 10,
+      "qaLoops": 1,
+      "factLoops": 2,
+      "semanticScore": 100,
+      "opportunityScore": 78.8,
+      "backlinks": [
+        "/services/ai-products/ai-product-discovery-workshop/ (what is an AI product discovery workshop)",
+        "/blog/product-discovery/ (stage 4: test the riskiest assumptions)",
+        "/case-studies/mass-media-co/ (discovery workshop line)"
+      ]
     }
   ],
   "audits": [

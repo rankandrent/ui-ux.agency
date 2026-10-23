@@ -178,3 +178,8 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-22: Grep the brief's capped rival entities after the first draft and rename list/panel labels ("click-through test", "component library") before touching prose.
 - 2026-10-22: FAQ headings with a role noun can contain the keyword as a substring ("digital product designer"); reword with a stand-in and count substring uses against the cap.
 - 2026-10-22: Check headings against the sister page's headings and FAQs before handoff; test any superlative about one step against the post's own ladder.
+
+- 2026-10-23 (product-discovery-techniques): When a sibling post cites the same primary source, grep the sibling's paraphrase before drafting; the first draft shared two 8-word runs with it.
+- 2026-10-23: Run the hedge grep on brief-suggested sentences before pasting them ("could kill the idea").
+- 2026-10-23: In a technique toolkit, table cells inflate rival-entity counts; give panels stand-in nouns ("research notes", "user conversations") before writing, and put each technique's planning time in prose as digit + unit.
+- 2026-10-23: When paraphrasing a primary source's list (Cagan's four risks, HIPAA/CCPA expansions), check sibling and sister pages for the same sentence shape; two posts paraphrasing one source converge.

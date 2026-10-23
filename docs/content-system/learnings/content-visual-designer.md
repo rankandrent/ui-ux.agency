@@ -119,3 +119,9 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-22 (digital-product-design): When every row's longest cell fits the full width on one line, draw name+chip / question card rows instead of table columns (an 8×3 ledger fit as 8 two-line cards).
 - 2026-10-22: Build axis/bar labels from a panel cell split in reading order and assert the joined segments equal the cell, so the labels are exact panel text.
 - 2026-10-22: The panel ⊇ image check must strip <tspan> tags inside <text> before matching.
+
+- 2026-10-23 (product-discovery-techniques): When rows × pitch already fill the height, sum the widest cell of each candidate column and keep only columns whose maxima fit the card width on one line; report the rest as a panel split.
+- 2026-10-23: For a scatter whose panel has only a categorical axis, take the other axis from the panel's row order, assert it agrees with the post's other rankings and label it "Relative, not measured".
+- 2026-10-23: A brute-force width search minimizing the sum of the largest line counts per row can cut tray/column layouts' height enough to drop the canvas size without shrinking text.
+- 2026-10-23: When a fact-check changes a table/tray cell, rerun the width search with the new text before redrawing; a longer cell can push the bottom edge over the limit.
+- 2026-10-23: Image labels like rung tags, stamps and rings must also appear in the text panel when the image is first delivered.

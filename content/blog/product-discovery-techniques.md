@@ -19,8 +19,8 @@ takeaways:
   - "Plan 5 users per prototype round and about 15 participants for a card sort, the numbers Nielsen Norman Group publishes."
   - "Our AI discovery workshop runs customer interviews and a 5-user prototype test, two of the 14 techniques, inside 5 to 10 working days."
 image: /blog/product-discovery-techniques/cover.svg
-draft: true
-qa: pending
+draft: false
+qa: pass
 ---
 
 Most product discovery techniques work fine; teams get burned when they pick one that answers a different question from the one that can kill the idea. Say a team runs a polished usability test of a new reporting screen with 5 users, and every one finishes the task. The screen ships and sits unused: the test proved people can use it, while the open question was whether anyone needed it.
@@ -223,7 +223,7 @@ Table: Workshop steps, with what each step runs and produces
 
 </details>
 
-We run the four steps as one workshop: your product lead, a business owner and someone from engineering or data join for about 2 hours a day. By the end of the 10 days, you leave with the fourth tray's three outputs. If you continue, the concept moves into our [AI product design](/services/ai-products/) work.
+We run the four steps as one workshop: your product lead, a business owner and someone from engineering or data join for about 2 hours a day. When the workshop ends, you leave with the fourth tray's three outputs. If you continue, the concept moves into our [AI product design](/services/ai-products/) work.
 
 Before your next round, I'd write one open risk, one technique and one pass signal on a single card, and run nothing that lacks all three.
 

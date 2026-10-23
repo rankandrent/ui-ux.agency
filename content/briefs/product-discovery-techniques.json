@@ -192,7 +192,7 @@
       { "type": "say → do → pay ladder (image + astext ol)", "h2": "H2 2", "what": "Value techniques ordered by strength of evidence: analytics/support review (what already happened), interviews (what they say about the past), one-question survey (what many say), fake door (what they click), pricing test or pre-order (what they pay, links forward to H2 5)." },
       { "type": "filled test card (image + astext list)", "h2": "H2 7", "what": "One hypothetical test card: We believe that… / To verify, we will… / And measure… / We are right if… Example: B2B scheduling SaaS, fake door for an AI shift-swap suggestion." },
       { "type": "cost vs evidence scatter (image + astext table)", "h2": "H2 8", "what": "x = cost/effort, y = strength of evidence; each of the 14 techniques plotted as a dot with its name; the design sprint drawn as a bracket around prototype + interviews. Text panel: technique | relative cost | evidence strength | run it when." },
-      { "type": "workshop bundle trays (image + astext table)", "h2": "H2 9", "what": "The hub's 4 workshop steps as 4 trays, each holding the technique chips it runs (task mapping → interviews + analytics review; use-case ranking → scoring + data audit; concept → Wizard of Oz-style prototype with realistic model output; test → 5-user prototype test). Not a timeline (the sibling already has a two-week timeline)." }
+      { "type": "workshop bundle trays (image + astext table)", "h2": "H2 9", "what": "The hub's 4 workshop steps as 4 trays, each holding what that step runs (task mapping → customer interviews; use-case ranking → use-case scoring with a data readiness check; concept → clickable concept with realistic model output, close kin of a Wizard of Oz prototype; test → 5-user prototype test); only 2 are matrix techniques as written. Not a timeline (the sibling already has a two-week timeline)." }
     ]
   },
   "outline": [
@@ -281,7 +281,7 @@
         "Cost vs evidence scatter (visual 4 + astext table).",
         "Design sprint as a bundle: 5 days, map → sketch → decide → prototype → test with 5 target customers (GV link); the ONE cross-hub link to /services/startups/design-sprint/ (anchor 'design sprint'). Do not rebuild the hub's day table or the sprint vs discovery table.",
         "Continuous habit: one sentence that weekly customer touch points keep techniques running after the first round; link the sibling's agile section (conditional fragment) rather than explaining dual-track.",
-        "Bridge: 'For an AI feature, four of these techniques fit into one short workshop.'"
+        "Bridge: 'For an AI feature, two of these techniques anchor one short workshop.'"
       ]
     },
     {
@@ -383,7 +383,7 @@
     "h2Frames": ["which fits each risk (matrix)", "which test value (say→do→pay)", "how to test usability", "which settle feasibility/data", "how to check viability", "which change for AI", "how to set a pass signal (test card)", "in what order (cost vs evidence)", "how they fit one workshop (bundle)", "FAQs"],
     "sectionOrder": "matrix → value → usability → feasibility → viability → AI → pass signals → order → workshop bundle (closing) → FAQs. Risk-by-risk, not stage-by-stage (the sibling is stage-by-stage).",
     "visualTypes": ["toolkit matrix", "say→do→pay ladder", "filled test card", "cost vs evidence scatter", "workshop bundle trays"],
-    "ctaAngle": "pick one technique per open risk and write its pass signal → for AI features, the workshop runs four of them (MOFU template: consultation + hub summary + price). Not 'run the exit gate', not 'run the 7 checks', not 'send your brief'.",
+    "ctaAngle": "pick one technique per open risk and write its pass signal → for AI features, the workshop anchors two of them (MOFU template: consultation + hub summary + price). Not 'run the exit gate', not 'run the 7 checks', not 'send your brief'.",
     "listStyle": "risk-banded matrix table, ordered evidence ladder, 4-field card, cost/evidence table, step → techniques table; prose 'trap:' line closing each risk section",
     "closingRule": "Closing H2 is the workshop bundle section; end with one first-person recommendation sentence from Sahar, no label ('My recommendation:' banned), no 'Bottom line' H2 (orchestrator), no 'Have a … to design?' H2.",
     "metaDescriptionEnding": "Ends on the payoff 'so every test ends in a decision' — not a consultation ask, and different from yesterday's 'Run the 7 checks before you pay.'",
