@@ -18,6 +18,7 @@ takeaways:
   - "Write the pass signal on a test card before the test runs, so nobody can move the bar once the data arrives."
   - "Plan 5 users per prototype round and about 15 participants for a card sort, the numbers Nielsen Norman Group publishes."
   - "Our AI discovery workshop runs 4 of the 14 techniques in 5 to 10 working days."
+image: /blog/product-discovery-techniques/cover.svg
 draft: true
 qa: pending
 ---
@@ -36,7 +37,7 @@ If you need the definition and stages first, start with [our product discovery g
 
 Teams call these discovery methods, discovery tests, validation techniques or assumption tests. Whatever the label, they are the evidence side of product management, and they borrow from user research, user-centered design and experimentation. Product discovery methods differ in cost and in strength of evidence, so the matrix gives each technique its time, sample, output and the pass signal I set before running it. Times and samples are my planning values; the published sample sizes are cited in the usability section.
 
-<!-- visual: product-discovery-techniques-toolkit-matrix.svg | type: toolkit matrix | idea: 14 technique rows grouped under 5 colored bands (value, usability, feasibility, viability, AI); columns time, sample, output, pass signal; reads like a field kit sheet | alt: Toolkit matrix of 14 product discovery techniques grouped by the risk each tests, with time, sample, output and pass signal for each | caption: Product discovery techniques toolkit matrix: 14 methods grouped by the risk each one tests -->
+![Toolkit matrix of 14 product discovery techniques grouped under five risk bands, value, usability, feasibility, viability and AI answers, with the planning time for each technique](/blog/product-discovery-techniques/product-discovery-techniques-toolkit-matrix.svg "Product discovery techniques toolkit matrix: 14 methods grouped by the risk each one tests")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -71,7 +72,7 @@ Value comes first in the matrix because most teams skip it, so start your plan t
 
 [Nielsen Norman Group (NN/g)](https://www.nngroup.com/articles/which-ux-research-methods/) maps 20 user experience (UX) research methods on 3 dimensions, and the first one splits attitudinal from behavioral: what people say against what they do. I rank value evidence on that line and add one rung above it, money. The ladder shows the order.
 
-<!-- visual: product-discovery-techniques-value-ladder.svg | type: say, do, pay ladder | idea: 5 rungs rising in evidence strength with technique names: past behavior (analytics, tickets), what they say (interviews), what many say (one-question survey), what they click (fake door), what they pay (pricing test); side label attitudinal to behavioral; not the artifact ladder of digital-product-design | alt: Say, do, pay ladder ranking value techniques from analytics review and customer interviews up to a fake door test and a pricing test | caption: Say, do, pay ladder: value techniques ranked by strength of evidence -->
+![Say, do, pay ladder ranking value techniques from analytics and support-ticket review and customer interviews up to a fake door test and a pricing test, each rung tagged attitudinal, behavioral or money](/blog/product-discovery-techniques/product-discovery-techniques-value-ladder.svg "Say, do, pay ladder: value techniques ranked by strength of evidence")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -143,7 +144,7 @@ No designer free to fake a believable model this week? In our workshop, designer
 
 Say you run a B2B scheduling software as a service (SaaS) product for US restaurant groups and want to test an AI shift-swap suggestion. Here is the card, filled in before the fake door goes live.
 
-<!-- visual: product-discovery-techniques-test-card.svg | type: filled test card | idea: one index card with 4 labeled fields filled for the hypothetical AI shift-swap suggestion (we believe, to verify we will, and measure, we are right if), a stamp reading set before launch and a label reading hypothetical | alt: Filled test card for a hypothetical AI shift-swap suggestion with hypothesis, test, metric and pass criteria set before launch | caption: Filled test card for a hypothetical AI shift-swap fake door test -->
+![Filled test card for a hypothetical AI shift-swap suggestion with hypothesis, test, metric and pass criteria, stamped set before launch](/blog/product-discovery-techniques/product-discovery-techniques-test-card.svg "Filled test card for a hypothetical AI shift-swap fake door test")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -164,7 +165,7 @@ The bar is the team's own choice, not an industry benchmark. A result that lands
 
 Each rung of stronger evidence costs more to buy, in money, time or goodwill. Analytics review and user conversations sit low on both axes; a pricing test sits at the top right. I move up and to the right only after a pass, which keeps weak ideas from eating a big budget.
 
-<!-- visual: product-discovery-techniques-cost-evidence.svg | type: cost vs evidence scatter | idea: x axis cost and effort low to high, y axis strength of evidence weak to strong; 14 labeled dots; a bracket marking the design sprint bundle around prototype test and interviews; an arrow reading move up and right only after a pass; not a quadrant card | alt: Scatter chart of 14 product discovery techniques by cost and effort against strength of evidence, with the design sprint bracketed | caption: Cost against evidence: where each of the 14 product discovery techniques sits -->
+![Scatter chart of 14 product discovery techniques by low, medium and high cost against evidence, rising up and to the right, with the prototype usability test ringed as the design sprint](/blog/product-discovery-techniques/product-discovery-techniques-cost-evidence.svg "Cost against evidence: where each of the 14 product discovery techniques sits")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -201,7 +202,7 @@ After the first round, the techniques keep running. Teresa Torres's product trio
 
 Each tray below holds the matrix techniques that one workshop step runs, with the days the [four workshop steps](/services/ai-products/ai-product-discovery-workshop/#what-happens-during-the-ai-product-discovery-workshop) take.
 
-<!-- visual: product-discovery-techniques-workshop-bundle.svg | type: workshop bundle trays | idea: four trays side by side (task mapping, use case ranking, concept sketching, test and plan), each holding technique chips from the matrix; small day labels 1 to 2, 3 to 4, 5 to 7, 8 to 10; not a timeline bar | alt: Four workshop trays showing which product discovery techniques each step of the AI discovery workshop runs | caption: AI discovery workshop trays: the techniques each of the four steps runs -->
+![Four workshop trays showing the days, the product discovery techniques and the output of each step of the AI discovery workshop](/blog/product-discovery-techniques/product-discovery-techniques-workshop-bundle.svg "AI discovery workshop trays: the techniques each of the four steps runs")
 
 <details class="astext"><summary>Show as text</summary>
 
