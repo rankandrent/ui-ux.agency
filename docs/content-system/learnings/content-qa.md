@@ -113,3 +113,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-22 (digital-product-design): Fact-check fixes plus QA rewrites dropped the semantic score from 94 to 75; rerun semantic-score on the merged copy, find any lost lexical item or value and reword the fix.
 - 2026-10-22: When a fix touches a standards expansion (WCAG/ADA), rerun the 8-gram check against all posts and location JSONs after each attempt; change the words around the name, not the name.
 - 2026-10-22: Extract the sister page's question headings and compare their shapes with our H2s and FAQs, not only n-grams.
+
+- 2026-10-23 (product-discovery-techniques): Before merging a replacement bold answer that counts items ("the other N"), map each counted item to the image and table rows.
+- 2026-10-23: onpage only measures brief entities; count generic rivals (\bAI\b, prototypes?, model) over the body incl. panels and require the keyword to lead; recount after swapping synonyms.
+- 2026-10-23: Always curl sister pages and run the 8-word check, not only the 5-word percentage (0.43% overlap still hid two 8-word runs).

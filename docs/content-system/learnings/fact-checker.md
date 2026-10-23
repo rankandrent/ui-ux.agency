@@ -131,3 +131,10 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-22 (method): For "libraries for X, Y and Z" in a design system, check each platform's current status on the vendor's develop pages; a frozen library is OUTDATED.
 - 2026-10-22 (loop 2): When a backlink says "each step/item", compare the list in the linking sentence with the list in the target section, not just the target H2.
 - 2026-10-22: When QA moves a figure from prose to a table, check the table row against its source and that any pointer sentence's count matches the table.
+
+- 2026-10-23 (product-discovery-techniques): "Runs N of our M techniques" is a count claim; map each service step to a matrix row by name (a "close kin" step or different criteria doesn't count) and recount title, takeaway, H2 bold, bridge and SVG title together.
+- 2026-10-23: When a post ranks evidence on a named axis (say → do), check each rung's tag against that axis; fix contradictions with one explaining sentence rather than relabelling against the source's taxonomy.
+- 2026-10-23: Data-law clauses must carry the law's scope trigger (HIPAA covered entity/business associate; CCPA business thresholds), or they are overbroad.
+- 2026-10-23 (loop 2): When QA adds a definite article to a duration ("the 10 days"), check it against every range the post and service page give; "the" + the upper end of a range is WRONG.
+- 2026-10-23: When a backlink says "X is one of the [list]", check X appears by name in the target section's list; otherwise use a relation the target states ("can sit beside").
+- 2026-10-23 (method): Check scatter placement from <circle> cx/cy against the band rectangles, not from where the <text> starts.

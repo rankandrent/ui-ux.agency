@@ -162,6 +162,24 @@
         "/services/startups/ (why startup product design needs its own approach)",
         "/case-studies/elia-wellness/ (finished product line)"
       ]
+    },
+    {
+      "slug": "product-discovery-techniques",
+      "hub": "ai-product-discovery-workshop",
+      "keyword": "product discovery techniques",
+      "date": "2026-10-23",
+      "images": 5,
+      "internalLinks": 9,
+      "externalLinks": 10,
+      "qaLoops": 1,
+      "factLoops": 2,
+      "semanticScore": 100,
+      "opportunityScore": 78.8,
+      "backlinks": [
+        "/services/ai-products/ai-product-discovery-workshop/ (what is an AI product discovery workshop)",
+        "/blog/product-discovery/ (stage 4: test the riskiest assumptions)",
+        "/case-studies/mass-media-co/ (discovery workshop line)"
+      ]
     }
   ],
   "audits": [
@@ -329,6 +347,23 @@
         "design tools, ai design generator, ai design tools, ai for product design (tool-led intent)",
         "mvp ux design (covered by /blog/how-to-design-an-mvp/); how to build a minimum viable product (same intent as that post)",
         "hubs with a post in the last 3 days: chatbot-ui-design, saas-onboarding-design, saas-design-agency"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "goal": "daily post: highest-scoring relevant topic",
+      "jobs": [
+        {
+          "hub": "ai-product-discovery-workshop",
+          "keyword": "product discovery techniques",
+          "score": 78.8,
+          "format": "complete guide"
+        }
+      ],
+      "skipped": [
+        "tool roundups and off-audience AI use-case topics",
+        "product discovery process/phase/framework (fold into /blog/product-discovery/)",
+        "hubs with a post in the last 3 days: saas-onboarding-design, saas-design-agency, product-design-agency"
       ]
     }
   ]

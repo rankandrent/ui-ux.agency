@@ -1,0 +1,27 @@
+[
+  {
+    "marker": "<!-- visual: product-discovery-techniques-toolkit-matrix.svg | type: toolkit matrix | idea: 14 technique rows grouped under 5 colored bands (value, usability, feasibility, viability, AI); columns time, sample, output, pass signal; reads like a field kit sheet | alt: Toolkit matrix of 14 product discovery techniques grouped by the risk each tests, with time, sample, output and pass signal for each | caption: Product discovery techniques toolkit matrix: 14 methods grouped by the risk each one tests -->",
+    "markdown": "![Toolkit matrix of 14 product discovery techniques grouped under five risk bands, value, usability, feasibility, viability and AI answers, with the planning time for each technique](/blog/product-discovery-techniques/product-discovery-techniques-toolkit-matrix.svg \"Product discovery techniques toolkit matrix: 14 methods grouped by the risk each one tests\")"
+  },
+  {
+    "marker": "<!-- visual: product-discovery-techniques-value-ladder.svg | type: say, do, pay ladder | idea: 5 rungs rising in evidence strength with technique names: past behavior (analytics, tickets), what they say (interviews), what many say (one-question survey), what they click (fake door), what they pay (pricing test); side label attitudinal to behavioral; not the artifact ladder of digital-product-design | alt: Say, do, pay ladder ranking value techniques from analytics review and customer interviews up to a fake door test and a pricing test | caption: Say, do, pay ladder: value techniques ranked by strength of evidence -->",
+    "markdown": "![Say, do, pay ladder ranking value techniques from analytics and support-ticket review and customer interviews up to a fake door test and a pricing test, each rung tagged attitudinal, behavioral or money](/blog/product-discovery-techniques/product-discovery-techniques-value-ladder.svg \"Say, do, pay ladder: value techniques ranked by strength of evidence\")"
+  },
+  {
+    "marker": "<!-- visual: product-discovery-techniques-test-card.svg | type: filled test card | idea: one index card with 4 labeled fields filled for the hypothetical AI shift-swap suggestion (we believe, to verify we will, and measure, we are right if), a stamp reading set before launch and a label reading hypothetical | alt: Filled test card for a hypothetical AI shift-swap suggestion with hypothesis, test, metric and pass criteria set before launch | caption: Filled test card for a hypothetical AI shift-swap fake door test -->",
+    "markdown": "![Filled test card for a hypothetical AI shift-swap suggestion with hypothesis, test, metric and pass criteria, stamped set before launch](/blog/product-discovery-techniques/product-discovery-techniques-test-card.svg \"Filled test card for a hypothetical AI shift-swap fake door test\")"
+  },
+  {
+    "marker": "<!-- visual: product-discovery-techniques-cost-evidence.svg | type: cost vs evidence scatter | idea: x axis cost and effort low to high, y axis strength of evidence weak to strong; 14 labeled dots; a bracket marking the design sprint bundle around prototype test and interviews; an arrow reading move up and right only after a pass; not a quadrant card | alt: Scatter chart of 14 product discovery techniques by cost and effort against strength of evidence, with the design sprint bracketed | caption: Cost against evidence: where each of the 14 product discovery techniques sits -->",
+    "markdown": "![Scatter chart of 14 product discovery techniques by low, medium and high cost against evidence, rising up and to the right, with the prototype usability test ringed as the design sprint](/blog/product-discovery-techniques/product-discovery-techniques-cost-evidence.svg \"Cost against evidence: where each of the 14 product discovery techniques sits\")"
+  },
+  {
+    "marker": "<!-- visual: product-discovery-techniques-workshop-bundle.svg | type: workshop bundle trays | idea: four trays side by side (task mapping, use case ranking, concept sketching, test and plan), each holding technique chips from the matrix; small day labels 1 to 2, 3 to 4, 5 to 7, 8 to 10; not a timeline bar | alt: Four workshop trays showing the days, the methods and the output of each step of the AI discovery workshop | caption: AI discovery workshop trays: what each of the four steps runs -->",
+    "markdown": "![Four workshop trays showing the days, the methods and the output of each step of the AI discovery workshop](/blog/product-discovery-techniques/product-discovery-techniques-workshop-bundle.svg \"AI discovery workshop trays: what each of the four steps runs\")"
+  },
+  {
+    "frontmatter": {
+      "image": "/blog/product-discovery-techniques/cover.svg"
+    }
+  }
+]

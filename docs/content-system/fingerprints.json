@@ -612,6 +612,40 @@
       "visuals": 5,
       "example": "buyer-side artifact ledger",
       "date": "2026-10-22"
+    },
+    {
+      "slug": "product-discovery-techniques",
+      "hub": "ai-product-discovery-workshop",
+      "type": "Checklist",
+      "funnel": "mofu",
+      "introStyle": "a test that passed while answering the wrong risk",
+      "h2Frames": [
+        "techniques by risk (matrix)",
+        "value techniques (ladder)",
+        "usability before code",
+        "feasibility",
+        "viability",
+        "AI-feature techniques",
+        "pass signal (test card)",
+        "order (cost vs evidence)",
+        "workshop bundle",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "Which product discovery techniques fit each risk?",
+        "Which techniques test value risk before anything is built?",
+        "How do you test usability before engineers write code?",
+        "Which product discovery techniques settle feasibility?",
+        "How do you check business viability early?",
+        "Which product discovery techniques change for AI features?",
+        "How do you set a pass signal before a test runs?",
+        "In what order should you run product discovery techniques?",
+        "How do these techniques fit into one AI discovery workshop?",
+        "FAQs"
+      ],
+      "visuals": 5,
+      "example": "hypothetical AI shift-swap test card for a B2B scheduling product",
+      "date": "2026-10-23"
     }
   ]
 }

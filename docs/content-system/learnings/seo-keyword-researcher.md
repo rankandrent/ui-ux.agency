@@ -105,3 +105,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-22 (digital-product-design): Take TP from the exact warehouse row, never from the opportunity entry (blog-opportunities trafficPotential can hold the primary's volume); log mismatches in clusterVolumeNote.
 - 2026-10-22: When the sister site can't be fetched, grep content/briefs/*.qa.md for "Sister site" for known sister slugs; if one matches the primary, make the sister check a publish blocker with a stop condition on its title/H1 and ban the commercial variants in the post.
 - 2026-10-22: When a "hire a <role>" page owns "What does a <role> do?", a "what is <discipline>" post answers through deliverables, not the person.
+
+- 2026-10-23 (product-discovery-techniques): Before taking an opportunity, read the parent_topic of every row in its keywords[]; if a row the site already owns points to the new primary, ban that phrase in the new post outside one link anchor, add a sibling → post backlink and a ranking-swap monitor note.
+- 2026-10-23: When no case study lists the hub and the post has no industries, the MOFU template falls back to consultation + hub price, so MOFU is safe; keep the price out of the body.
+- 2026-10-23: When a title carries a count, put the exact itemized list in keywordCarrier and name the bundles excluded from it.

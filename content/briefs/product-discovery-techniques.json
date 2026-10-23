@@ -1,0 +1,458 @@
+{
+  "slug": "product-discovery-techniques",
+  "keyword": "product discovery techniques",
+  "secondary": [
+    "software product discovery",
+    "product discovery methods",
+    "b2b product discovery"
+  ],
+  "metaKeywordVariants": ["product discovery techniques", "product discovery methods", "software product discovery", "product discovery tools and techniques", "assumption testing techniques", "b2b product discovery"],
+  "intent": "Informational, commercial-investigation layer for teams planning the work (Ahrefs intents for 'product discovery techniques': informational only; parent topic is the keyword itself). Page 1 (WebSearch 2026-10-23; no Ahrefs SERP file for this keyword in the warehouse) is a field of numbered listicles from tool vendors and agencies: heymarvin.com, decode.agency ('7 key product discovery techniques', Jan 2024), usertesting.com ('11 product discovery techniques'), zeda.io, tcgen.com, plane.so ('Product discovery methods every PM should know'), productboard.com ('top product discovery techniques') and upsilonit.com ('15 Effective Product Discovery Techniques and Frameworks'). Searchers: PMs, founders and design leads at US AI/SaaS startups who already know what discovery is and now need to pick a method for the risk in front of them. Our angle: a toolkit that matches each technique to the risk it tests, with time, sample size, output and pass signal.",
+  "volume": 350,
+  "kd": 4,
+  "trafficPotential": 200,
+  "cpc": 80,
+  "cpcUnit": "cents (Ahrefs)",
+  "parentTopic": "product discovery techniques",
+  "clusterVolume": 650,
+  "clusterVolumeNote": "Exact rows (Ahrefs US, docs/content-system/warehouse/2026-10-19-terms-product-discovery.json): 'product discovery techniques' 350 / KD 4 / CPC 80 / parent 'product discovery techniques' / TP 200. 'product discovery process' 300 / KD 3 / TP 200 (its parent topic is ALSO 'product discovery techniques'). The orchestrator's ~650/mo is the blog-opportunities sumVolume of those two rows, not the page's volume; the opportunity's trafficPotential 350 is not the primary's TP (row says 200). Other rows used: 'software product discovery' 100 / KD 0 / parent 'product discovery techniques' / TP 300; 'b2b product discovery' 90 / KD 0 / no parent / no TP. 'product discovery methods' has NO row in the 2026-10-14 or 2026-10-19 files: lexical variant and meta keyword only, no volume claimed.",
+  "dataSource": "Ahrefs US rows in docs/content-system/warehouse/2026-10-19-terms-product-discovery.json (pulled 2026-10-19). Semrush keyword_research called once on 2026-10-23: no_api_units. No GSC export (docs/data/gsc/latest.json missing). AHREFS_API_KEY not used: this run had no shell (Read/Write/Grep/Glob/WebSearch/WebFetch only), so the 2026-10-19 warehouse pull is the Ahrefs source. DEVIATION from the 2026-10-12 owner rule (Semrush or GSC): measured Ahrefs volume used, as in every brief since 2026-10-15. No warehouse SERP file exists for this keyword; page-1 composition comes from WebSearch on 2026-10-23. WebFetch returned ENOTFOUND for usertesting.com, plane.so, productboard.com and uiuxdesignservices.us; competitor coverage comes from search snippets.",
+  "dataSourceDate": "2026-10-23",
+  "primaryChoice": "Primary 'product discovery techniques' (350, KD 4, TP 200). 'product discovery process' (300) shares its parent topic but is owned by /blog/product-discovery/ (tags, H2 'What are the stages of the product discovery process?'); it is banned as a phrase in this post's title, H1, metaTitle, description, H2s and meta keywords, and may appear only as link anchor text to the sibling (max 1). 'software product discovery' (100, TP 300, same parent) is the best secondary: one body carrier in the intro. Lesson 2026-10-18 (question sibling) does not apply: no 'how to'/'what are' techniques row exists.",
+  "score": 78.8,
+  "expectedMonthlyTraffic": 105,
+  "opportunity": "docs/content-system/blog-opportunities.json: topic 'product discovery techniques' (hub ai-product-discovery-workshop, score 78.8, sumVolume 650, expectedMonthlyTraffic 105, format 'complete guide (definition, process, examples, checklist)'). Ledger run 2026-10-23. Audit 2026-10-19 line 90 calls it a 'distinct methods intent next to the existing guide' and folds only process/phase into /blog/product-discovery/. Modules mapped: definition → none (no definition H2; the sibling owns it); process → H2 8 order of techniques (not stages); examples → H2 2/3 case lines + hypothetical test card; checklist → H2 1 toolkit matrix (the checklist-style core).",
+  "hub": "ai-product-discovery-workshop",
+  "hubUrl": "/services/ai-products/ai-product-discovery-workshop/",
+  "hubUrlVerified": "content/services/ai-product-discovery-workshop.json (category 'AI products'); pillar slug 'ai-products' in content/pillars.ts line 30; same URL linked in content/blog/product-discovery.md line 34 and content/pillars.ts line 52.",
+  "pillar": "ai-products",
+  "services": ["ai-product-discovery-workshop"],
+  "industries": [],
+  "industriesWhy": "Leave empty. The toolkit is cross-industry; adding [fintech] or [enterprise] would only change the case-study rail, and no case study lists this hub.",
+  "author": "sahar-asif",
+  "authorWhy": "Sahar Asif is Senior Manager UX (content/home.ts line 201). A research-methods toolkit fits a UX lead (RULES.md: research → a UX lead). Rotation: last byline how-to-design-an-mvp (2026-10-18), 5 posts ago. Rejected: Ahmad Ullah (Principal UX Designer, best role match, but wrote the sibling product-discovery post and onboarding-kyc on 2026-10-20; two discovery posts by one author would read as one voice repeating itself), Talha Saleem (yesterday), Faizan Khan (2026-10-21), Saliha Shahzad (2026-10-19), Shahmir Farooq (communication design).",
+  "funnel": "mofu",
+  "funnelWhy": "Silo count (services[0] = ai-product-discovery-workshop): 1 published post (product-discovery, TOFU) = 100% TOFU, 0% MOFU (target 30), 0% BOFU (target 20). MOFU is furthest below target (30 points). Page 1 is method listicles for teams choosing how to run the work, which funnel.json calls MOFU ('teams comparing approaches or planning the work'); no cost, pricing or agency page ranks, so BOFU does not fit this SERP (lesson 2026-10-06). MOFU minimum service-support 4; this topic scores 4. TEMPLATE CTA CHECK (orchestrator asked): app/blog/[slug]/page.tsx line 107 shows a case study only when relatedCaseStudies(p)[0] exists. relatedCaseStudies() (lib/content.ts line 240) matches on services or industries; NO case study lists ai-product-discovery-workshop and the post has industries: [], so cases is empty. The MOFU CTA therefore falls back to 'Want senior designers to handle this for you?' + the hub summary + 'Typical investment: $8,000–$20,000' + 'Get a free consultation' + hub link. That is on-topic (no off-topic client result), so MOFU is safe. Because the template already shows the price, the body states no price. Next post this silo needs: BOFU (e.g. 'product discovery workshop agenda/cost' style buyer query; check 'product discovery services' 450 is hub-owned first).",
+  "serviceSupport": 4,
+  "serviceSupportWhy": "A founder or PM choosing between interviews, fake doors, Wizard of Oz tests and spikes is about to run discovery, and the hub sells exactly that run for AI features (task mapping, use-case ranking, concept with realistic model output, 5-user test). Not a 5: many searchers are PMs who will run the techniques themselves, and the post must serve them fully.",
+  "title": "Product discovery techniques: 14 methods and the risk each one tests",
+  "metaTitle": "Product Discovery Techniques: 14 Methods Matched to Risk",
+  "metaDescription": "Product discovery techniques matched to the risk they test: 14 methods with the time, sample size and pass signal for each, so every test ends in a decision.",
+  "centralEntity": "product discovery techniques",
+  "sourceContext": "ui-ux.agency (the design team of tkxel, Reston, VA, 200+ products designed since 2017) writes for US AI and SaaS founders and product teams as the people who run these techniques in client discovery work. The post is a toolkit: which technique tests which risk (value, usability, feasibility, viability, plus AI-specific checks), how long it takes, how many people it needs, what it produces and what result counts as a pass. It sells the AI product discovery workshop, but it never restates the sibling post's definition, stages, agile track, phase length, two-week plan, exit-gate checklist or in-house-vs-partner section.",
+  "entities": [
+    "product discovery techniques",
+    "product discovery",
+    "Marty Cagan",
+    "Silicon Valley Product Group (SVPG)",
+    "Teresa Torres",
+    "opportunity solution tree",
+    "assumption testing",
+    "customer interview",
+    "one-question survey",
+    "fake door test",
+    "prototype usability test",
+    "card sorting",
+    "tree testing",
+    "engineering spike",
+    "data audit",
+    "pricing test",
+    "Wizard of Oz prototype",
+    "evaluation set",
+    "test card",
+    "Strategyzer",
+    "design sprint",
+    "Google Ventures (GV)",
+    "Nielsen Norman Group (NN/g)",
+    "product trio",
+    "Figma"
+  ],
+  "attributes": [
+    "risk tested (value, usability, feasibility, viability, AI-specific)",
+    "time to run",
+    "sample size",
+    "output",
+    "pass signal set before the test",
+    "strength of evidence (what people say vs what they do vs what they pay)",
+    "cost and effort",
+    "who runs it",
+    "when in discovery it fits",
+    "AI-feature variant",
+    "trap that makes it mislead"
+  ],
+  "ngrams": [
+    "product discovery techniques",
+    "software product discovery",
+    "product discovery methods",
+    "riskiest assumption",
+    "value risk",
+    "usability risk",
+    "feasibility risk",
+    "business viability",
+    "customer interviews",
+    "opportunity solution tree",
+    "fake door test",
+    "prototype test",
+    "card sorting",
+    "tree testing",
+    "engineering spike",
+    "Wizard of Oz",
+    "test card",
+    "pass signal",
+    "sample size",
+    "design sprint"
+  ],
+  "eav": [
+    { "attribute": "what the techniques are for (root)", "value": "each technique buys evidence against one risk; Cagan lists four: value (will customers buy or choose to use it), usability (can users figure it out), feasibility (can engineers build it with the time, skills and technology they have) and business viability (does it work for sales, legal, monetization and brand)", "source": "https://svpg.com/four-big-risks/" },
+    { "attribute": "risk owners (root)", "value": "the product manager owns value and viability risk, the product designer owns usability risk, and engineering judges feasibility", "source": "https://svpg.com/four-big-risks/ (the sibling post states this too; one clause only, do not rebuild its risk table)" },
+    { "attribute": "assumption categories (root)", "value": "Teresa Torres sorts assumptions into five categories: desirability, viability, feasibility, usability and ethical; teams test single assumptions, not whole ideas", "source": "https://www.producttalk.org/glossary-discovery-assumption/ ; https://www.producttalk.org/glossary-discovery-assumption-testing/" },
+    { "attribute": "say vs do (root)", "value": "NN/g places 20 UX research methods on 3 dimensions; the first is attitudinal vs behavioral, what people say versus what they do", "source": "https://www.nngroup.com/articles/which-ux-research-methods/" },
+    { "attribute": "customer interviews (root)", "value": "4 to 6 users per user group, about 45 minutes each, asking about the last time the problem happened; output: patterns and quotes; pass: most users describe the problem with a recent real instance, unprompted", "source": "4 to 6 users from the hub step 'Task mapping (days 1–2)'; question style and pass rule are ui-ux.agency method" },
+    { "attribute": "opportunity solution tree (root)", "value": "four levels: desired outcome at the root, then opportunities, then solutions, then assumption tests", "source": "https://www.producttalk.org/glossary-discovery-opportunity-solution-tree/" },
+    { "attribute": "usability test sample (root)", "value": "5 users per round; Nielsen and Landauer estimated one user reveals about 31% of usability problems, and each extra user mostly repeats what earlier users showed", "source": "https://nngroup.com/articles/why-you-only-need-to-test-with-5-users/ (fact-checker: confirm the 31% figure on the page; do not write '85%' unless the page states it)" },
+    { "attribute": "card sorting sample (rare)", "value": "15 participants reach a 0.90 correlation in Tullis and Wood's data; NN/g recommends 15 for most projects and 30 only for large, well-funded ones", "source": "https://www.nngroup.com/articles/card-sorting-how-many-users-to-test/" },
+    { "attribute": "tree testing (rare)", "value": "a task-based test of whether people can find items in a proposed navigation hierarchy, run before launch; sample: VERIFY (a secondary guide attributes about 50 per tree to NN/g; use only if the NN/g page states it)", "source": "https://nngroup.com/articles/tree-testing/" },
+    { "attribute": "fake door test (rare)", "value": "a button, banner or page that looks like a live feature; clicking it leads to an honest 'not built yet' page, often with a waitlist; clicks show curiosity, not commitment", "source": "https://amplitude.com/explore/experiment/painted-door-testing" },
+    { "attribute": "engineering spike (rare)", "value": "a short, timeboxed build on real inputs that answers one feasibility question; output: known unknowns and an estimate; I give it 1 to 2 days", "source": "ui-ux.agency method; SVPG ties feasibility to engineering (four-big-risks)" },
+    { "attribute": "Wizard of Oz prototype (rare)", "value": "a moderated method where a user works with an interface that looks autonomous but is fully or partly controlled by a hidden person; suited to conversational UIs and interfaces built on learning algorithms", "source": "https://www.nngroup.com/articles/wizard-of-oz/" },
+    { "attribute": "evaluation set (rare)", "value": "a set of real inputs with a written definition of a good answer, scored before design starts; pass: the answers clear the bar the team wrote down", "source": "ui-ux.agency method; hub concept step uses 'realistic model output'" },
+    { "attribute": "test card (rare)", "value": "4 fields: hypothesis ('We believe that…'), test, metric, and criteria ('We are right if…'), written before the test runs", "source": "https://www.strategyzer.com/library/validate-your-ideas-with-the-test-card" },
+    { "attribute": "design sprint (rare)", "value": "a 5-day process (map, sketch, decide, prototype, test) for answering a critical question with a prototype tested by 5 target customers on Friday", "source": "https://gv.com/sprint/ ; content/services/design-sprint.json" },
+    { "attribute": "case: discovery workshop (unique)", "value": "Mass Media Co.: a discovery workshop where stakeholders and end users defined the product, set the strategy and mapped the information architecture and user flows; the revamp later reported +30% order processing efficiency", "source": "content/case-studies/mass-media-co.md lines 43, 98 (do not attribute the 30% to the workshop alone)" },
+    { "attribute": "case: test with target users (unique)", "value": "TradeZella: stakeholder sessions first, user flows redrawn around the widgets traders open most, and traders tested the design before it went live", "source": "content/case-studies/tradezella.md lines 88–92 (do not attribute +40% interaction to testing alone)" },
+    { "attribute": "toolkit rule (unique)", "value": "one open risk, one technique, one pass signal written before the test; cheapest evidence first, strongest (behavior, money) before a build", "source": "ui-ux.agency method (SERP gap: listicles give no pass signals or order)" },
+    { "attribute": "workshop mapping (unique)", "value": "our AI discovery workshop runs 4 steps over 5 to 10 working days: task mapping with 4 to 6 user interviews, use-case scoring on user value, data readiness, cost and risk of wrong answers, a clickable concept with realistic model output, then a 5-user test", "source": "content/services/ai-product-discovery-workshop.json section 'What happens during…' (link, do not copy the step bodies)" }
+  ],
+  "skipgrams": [
+    ["technique", "risk"],
+    ["interviews", "patterns"],
+    ["prototype", "5 users"],
+    ["card sorting", "15"],
+    ["fake door", "waitlist"],
+    ["spike", "feasibility"],
+    ["data", "permission"],
+    ["Wizard of Oz", "model"],
+    ["hypothesis", "criteria"],
+    ["pass signal", "before"],
+    ["say", "do"],
+    ["viability", "pricing"],
+    ["evidence", "cost"]
+  ],
+  "lexical": {
+    "synonyms": ["product discovery methods", "discovery methods", "discovery tests", "validation techniques", "assumption tests"],
+    "hypernyms": ["product discovery", "product management", "user research", "user-centered design", "experimentation"],
+    "hyponyms": ["customer interview", "one-question survey", "fake door test", "prototype usability test", "card sorting", "tree testing", "engineering spike", "data audit", "pricing test", "Wizard of Oz prototype", "evaluation set", "design sprint"],
+    "meronyms": ["hypothesis", "metric", "pass signal", "sample", "recruit", "interview guide", "prototype", "task script", "waitlist page", "evaluation rubric", "decision log"]
+  },
+  "keywordCarrier": {
+    "primary": "Plain noun phrase; use as subject or object ('Product discovery techniques differ in…', 'pick product discovery techniques by risk'). No stacked nouns after it ('product discovery techniques toolkit/list/guide' banned except in link anchors written by the link builder). First sentence (Sahar's voice, within the first 60 words) must contain 'product discovery techniques'; suggested: 'Most product discovery techniques work fine; teams get burned when they pick one that answers a different question from the one that could kill the idea.' H1 and metaTitle open with 'Product discovery techniques' / 'Product Discovery Techniques'.",
+    "density": "Word share as QA measures it: max uses = 0.02 × body words ÷ 3. For 2,300–2,600 body words that is at most 15–17 exact uses; aim for 10–13 (about 1.3–1.5%). Vary with 'discovery methods', 'the techniques', 'each method', 'tests' and the lexical relations. Alt text does not count.",
+    "secondary": {
+      "software product discovery": "Once in the intro (sentences 2–4): 'In software product discovery, the risk decides the method, not the team's habit.' Not in a heading.",
+      "product discovery methods": "Once in H2 1 body or FAQ 2 as a plain synonym ('Product discovery methods and UX research methods overlap…'). No volume claimed.",
+      "b2b product discovery": "FAQ 5 question carries it: 'Which techniques work for B2B product discovery with few customers?' Once more max in its answer."
+    },
+    "metaTitle": "Product Discovery Techniques: 14 Methods Matched to Risk (56 chars)",
+    "h1": "Product discovery techniques: 14 methods and the risk each one tests (68 chars)",
+    "description": "Use as written (157 chars, keyword first, ends on the payoff 'every test ends in a decision', no consultation ask, no apostrophe): 'Product discovery techniques matched to the risk they test: 14 methods with the time, sample size and pass signal for each, so every test ends in a decision.' Pronoun check: 'they' → 'product discovery techniques' (correct); 'each' → each method (correct).",
+    "metaKeywords": ["product discovery techniques", "product discovery methods", "software product discovery", "b2b product discovery", "assumption testing techniques"],
+    "count14": "The number 14 in the title must match the toolkit matrix exactly: value 5 (customer interviews, analytics and support-ticket review, opportunity solution tree, one-question survey, fake door test), usability 3 (prototype usability test, card sorting, tree testing), feasibility 2 (engineering spike, data audit), viability 2 (stakeholder viability review, pricing test), AI 2 (Wizard of Oz prototype, evaluation set). The design sprint is a bundle (H2 8), not counted.",
+    "siblingPhrasePlan": "The sibling /blog/product-discovery/ owns 'product discovery', 'product discovery process', 'product discovery phase', 'product discovery process in agile', 'how to do product discovery' and 'product discovery checklist'. None of these may appear in this post's title, H1, metaTitle, description, H2/H3s, alt text or meta keywords. 'product discovery process' may appear once as link anchor to the sibling. The hub owns 'AI product discovery workshop', 'product discovery workshop', 'product discovery services': only as link anchor text to the hub (max 2), never in headings."
+  },
+  "questions": [
+    "Which product discovery technique should I use for which risk?",
+    "What are the main product discovery techniques? (PAA-style; answered by the toolkit matrix)",
+    "How many users do I need for each technique?",
+    "How long does each technique take?",
+    "How do I test demand before building anything?",
+    "How do I test usability before code?",
+    "How do I check feasibility and data readiness early?",
+    "How do I check business viability and pricing early?",
+    "Which techniques work for AI features?",
+    "How do I decide in advance what counts as a pass?",
+    "In what order should techniques run?",
+    "Are product discovery techniques the same as UX research methods?",
+    "Is a fake door test honest?",
+    "Which techniques work for B2B products with few customers?"
+  ],
+  "serpGaps": [
+    "Every page-1 result is a numbered list (7, 11, 15 techniques) grouped by discovery phase or by nothing. Only plane.so ties methods to the four risks, and none gives time, sample size, output and a pass signal per technique. Our H2 1 matrix does, for all 14.",
+    "No ranking page says what result counts as a pass before the test runs. We add the test card (Strategyzer's hypothesis/test/metric/criteria) with a filled hypothetical example.",
+    "No ranking page separates what people say from what they do (NN/g's attitudinal vs behavioral dimension) when it ranks demand evidence. Our value section orders techniques on a say → do → pay ladder.",
+    "No ranking page covers AI-feature techniques (Wizard of Oz with model-like output, an evaluation set on real inputs). Our H2 6 does, with NN/g as the source.",
+    "No ranking page gives an order for running techniques (cheap and weak first, expensive and strong before the build). Our H2 8 plots cost against strength of evidence and places the design sprint as a bundle.",
+    "Vendor listicles (UserTesting, Productboard, Zeda, Plane) end on their own tool. Ours ends on what each technique hands to design and how a facilitated AI discovery workshop anchors two of them."
+  ],
+  "contentModules": {
+    "title": "Product discovery techniques: 14 methods and the risk each one tests",
+    "subtitle": "A toolkit for product teams: pick the technique that answers the risk that could kill the idea, with its time, sample size, output and pass signal.",
+    "intro": "Wrong-instrument opener (see variety.introStyle): sentence 1 carries the keyword (keywordCarrier.primary). Sentences 2–3: a hypothetical in one or two plain sentences — say a team runs a polished 5-user prototype test, every user finishes the task, and the feature still flops because nobody needed it: the test answered usability while the open risk was value. Sentence 4 carries 'software product discovery'. Sentence 5 links UP to the hub within the first 150 words (anchor variant, e.g. 'AI product discovery workshop') with one 'we' fact from the hub (we test the top concept with 5 users). Then one line linking the sibling for the basics ('If you need the definition and stages first, start with [our product discovery guide](/blog/product-discovery/).'). No blockquote, no statistic first, no question opener, no definition sentence, no credential sentence of the shape 'I'm a <role> at ui-ux.agency…' (QA flagged it on 2026-10-22).",
+    "dataModules": [
+      { "type": "toolkit matrix (image + astext table)", "h2": "H2 1", "what": "14 rows grouped by risk. Columns: technique | risk | time | sample | output | pass signal. The checklist-style core of the post." },
+      { "type": "say → do → pay ladder (image + astext ol)", "h2": "H2 2", "what": "Value techniques ordered by strength of evidence: analytics/support review (what already happened), interviews (what they say about the past), one-question survey (what many say), fake door (what they click), pricing test or pre-order (what they pay, links forward to H2 5)." },
+      { "type": "filled test card (image + astext list)", "h2": "H2 7", "what": "One hypothetical test card: We believe that… / To verify, we will… / And measure… / We are right if… Example: B2B scheduling SaaS, fake door for an AI shift-swap suggestion." },
+      { "type": "cost vs evidence scatter (image + astext table)", "h2": "H2 8", "what": "x = cost/effort, y = strength of evidence; each of the 14 techniques plotted as a dot with its name; the design sprint drawn as a bracket around prototype + interviews. Text panel: technique | relative cost | evidence strength | run it when." },
+      { "type": "workshop bundle trays (image + astext table)", "h2": "H2 9", "what": "The hub's 4 workshop steps as 4 trays, each holding what that step runs (task mapping → customer interviews; use-case ranking → use-case scoring with a data readiness check; concept → clickable concept with realistic model output, close kin of a Wizard of Oz prototype; test → 5-user prototype test); only 2 are matrix techniques as written. Not a timeline (the sibling already has a two-week timeline)." }
+    ]
+  },
+  "outline": [
+    {
+      "h2": "Which product discovery technique fits each risk?",
+      "answerHint": "**Match the technique to the risk that could kill the idea: interviews and fake doors for value, prototype tests for usability, spikes and data audits for feasibility, and reviews and pricing tests for viability.**",
+      "points": [
+        "Toolkit matrix (visual 1 + astext table, all 14 rows; keywordCarrier.count14). Time and sample values: interviews 4 to 6 users, 45 min each (hub + method); prototype test 5 users (NN/g); card sort 15 (NN/g); spike 1 to 2 days (method); others as method with no invented statistics.",
+        "Four risks named in one clause with SVPG link (eav 'what the techniques are for'); link the sibling's risk section instead of explaining ownership again (internalTargets fragment).",
+        "Torres's fifth category (ethical) in one sentence: for AI features it is where the wrong-answer question lives.",
+        "'Product discovery methods' carrier here or in FAQ 2.",
+        "Bridge: 'Value comes first in the matrix because it is the risk most teams skip.'"
+      ]
+    },
+    {
+      "h2": "Which techniques test value risk before anything is built?",
+      "answerHint": "**Five techniques test value risk, and they differ in what they measure: what users already did, what they say, what many say, what they click and, last, what they pay.**",
+      "points": [
+        "Say → do → pay ladder (visual 2 + astext ol). NN/g attitudinal vs behavioral (eav 'say vs do').",
+        "Customer interviews: ask about the last time the problem happened, not 'would you use'; 4 to 6 per user group; pass rule (method).",
+        "Analytics and support-ticket review: free evidence you already own; output: frequency of the problem.",
+        "Opportunity solution tree (Torres, 4 levels): turns interview notes into opportunities, then assumption tests; one paragraph, link producttalk.",
+        "One-question survey: sizes a pattern that interviews found; needs traffic (B2B caveat → FAQ 5).",
+        "Fake door test (Amplitude): honest follow-up page, waitlist; trap: clicks show curiosity, not commitment; set the click-through bar before launch (forward link to H2 7).",
+        "Mass Media Co. (DOWN link 1): a discovery workshop where stakeholders and end users defined the product and mapped the IA and user flows — a group form of interview and mapping; facts only from the case study.",
+        "Bridge: 'Once users want it, the question becomes whether they can use it.'"
+      ]
+    },
+    {
+      "h2": "How do you test usability before engineers write code?",
+      "answerHint": "**Test usability with a clickable prototype and 5 users per round, and use card sorting and tree testing when the risk is where things live rather than how a screen works.**",
+      "points": [
+        "Prototype usability test: 5 users, Figma prototype, task script, pass = most users finish the core task without help (method); NN/g 31% per user (eav, VERIFY).",
+        "Card sorting: 15 participants (NN/g); output: groupings and labels users expect.",
+        "Tree testing: findability in a proposed hierarchy before launch (NN/g); do not state a sample unless verified.",
+        "TradeZella (DOWN link 2): stakeholder sessions, user flows redrawn around the features traders open most, traders tested the design before it went live. Do not attribute the +40% to testing alone; if a result is quoted, use the case study's own wording.",
+        "Trap: testing with colleagues or friends instead of the target user.",
+        "Bridge: 'A prototype that tests well can still be unbuildable, which is the next risk.'"
+      ]
+    },
+    {
+      "h2": "Which product discovery techniques settle feasibility and data?",
+      "answerHint": "**Two techniques settle feasibility: an engineering spike that runs real inputs through a quick build, and a data audit that checks the data exists, can be reached, may be used and is labeled.**",
+      "points": [
+        "Engineering spike: owner engineering, 1 to 2 days (method), output known unknowns + estimate; pass = the one question answered on real inputs.",
+        "Data audit: one row per use case; permission is a US legal question (CCPA/CPRA, HIPAA for health data) — one clause, link the sibling's AI section rather than restating its data-readiness section.",
+        "Trap: prototyping before the spike, so the team tests a concept engineering cannot ship.",
+        "Bridge: 'Buildable and usable still leaves the business question.'"
+      ]
+    },
+    {
+      "h2": "How do you check business viability while the idea is still cheap?",
+      "answerHint": "**Check viability with a stakeholder review of sales, finance, legal and support constraints, and with a pricing test that asks users to commit money or a seat before you build.**",
+      "points": [
+        "Stakeholder viability review: 30–60 minute walkthrough of the concept with sales, finance, legal, support (method); SVPG lists go-to-market, legal, cost to acquire, monetization and brand as viability concerns (eav).",
+        "Pricing test: price on the fake-door or landing page, a pre-order or a paid pilot letter for B2B (method); strongest value evidence on the ladder.",
+        "AI cost per call as a viability input (one sentence; sibling covers the check).",
+        "Bridge: 'AI features need two more techniques, because the answer changes every time.'"
+      ]
+    },
+    {
+      "h2": "Which product discovery techniques change for AI features?",
+      "answerHint": "**AI features add two techniques: a Wizard of Oz prototype, where a hidden person plays the model so users react to realistic answers, and an evaluation set that scores real model output against a written bar before design starts.**",
+      "points": [
+        "Wizard of Oz (NN/g definition; suited to conversational UIs and learning algorithms); 5 users; tell participants afterward (ethics, one clause).",
+        "Evaluation set: real inputs + written good answer + score (method); pass = clears the bar the team wrote.",
+        "Wrong-answer harm: link the sibling's AI checks section (#what-changes-in-product-discovery-for-ai-features); do not restate the five checks or the precision/recall paragraph.",
+        "LEAD ANGLE 1 here (see leadAngle).",
+        "Bridge: 'Every technique above only works if you decide what counts as a pass before it runs.'"
+      ]
+    },
+    {
+      "h2": "How do you set a pass signal before a test runs?",
+      "answerHint": "**Write a test card before the test: the hypothesis, the technique, the metric and the result that would prove you right, so the team cannot move the bar after the data comes in.**",
+      "points": [
+        "Strategyzer test card, 4 fields (eav); visual 3 filled with a hypothetical (B2B scheduling SaaS for US clinics or restaurants, AI shift-swap suggestion, fake door, click-through bar set in advance). Label as hypothetical; invent no benchmark: the bar is the team's own choice.",
+        "Torres: test assumptions, not ideas (one sentence, link assumption-testing glossary).",
+        "Unclear result = retest, not pass (method; do not reuse the sibling's 'unknown counts as a no' wording).",
+        "Bridge: 'With pass signals written, the next decision is which test to run first.'"
+      ]
+    },
+    {
+      "h2": "In what order should you run product discovery techniques?",
+      "answerHint": "**Run the cheapest technique that could kill the idea first, and save expensive, strong evidence such as pricing tests and full prototypes for ideas that already passed.**",
+      "points": [
+        "Cost vs evidence scatter (visual 4 + astext table).",
+        "Design sprint as a bundle: 5 days, map → sketch → decide → prototype → test with 5 target customers (GV link); the ONE cross-hub link to /services/startups/design-sprint/ (anchor 'design sprint'). Do not rebuild the hub's day table or the sprint vs discovery table.",
+        "Continuous habit: one sentence that weekly customer touch points keep techniques running after the first round; link the sibling's agile section (conditional fragment) rather than explaining dual-track.",
+        "Bridge: 'For an AI feature, two of these techniques anchor one short workshop.'"
+      ]
+    },
+    {
+      "h2": "How do these techniques fit into one AI discovery workshop?",
+      "answerHint": "**Our AI discovery workshop anchors two of these techniques in sequence over 5 to 10 working days: user interviews, use-case scoring with a data check, a concept with realistic model output and a 5-user test.**",
+      "points": [
+        "Workshop bundle trays (visual 5 + astext table); eav 'workshop mapping'. Paraphrase, do not copy the hub step bodies. UP link 2 to the hub (fragment #what-happens-during-the-ai-product-discovery-workshop, conditional; plain hub URL otherwise).",
+        "Who joins: product lead, engineering or data lead, business owner, about 2 hours a day (hub FAQ).",
+        "What you leave with in one sentence: a tested concept, a risk register and a scoped plan (hub deliverables; names only, no list rebuild).",
+        "No price in the body (the MOFU template shows it).",
+        "LEAD ANGLE 2, then close with Sahar's one-sentence first-person recommendation, no label, no 'Bottom line' H2."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "How many product discovery techniques should one round use?", "a": "Two or three: one for each risk still open, starting with the one that could kill the idea. More techniques in one round slow the decision without adding much evidence." },
+    { "q": "Are product discovery techniques the same as UX research methods?", "a": "No. They overlap on interviews, surveys and usability tests, but discovery also needs feasibility and viability tests such as spikes, data audits and pricing tests. NN/g's framework places 20 UX research methods on 3 dimensions; carry 'product discovery methods' here if not used in H2 1." },
+    { "q": "Is a fake door test honest to users?", "a": "Yes, if the page behind the door says plainly that the feature is not built yet and offers a waitlist or a way to give feedback. Hiding that, or charging for something that does not exist, damages trust." },
+    { "q": "Can you run product discovery techniques without a designer?", "a": "Yes for interviews, analytics review, surveys and spikes. Prototype tests and Wizard of Oz sessions need someone who can build a believable prototype quickly, which is where a design team helps." },
+    { "q": "Which techniques work for B2B product discovery with few customers?", "a": "Interviews, Wizard of Oz or concierge-style pilots and paid pilot letters, because they work with a handful of accounts. Surveys, fake doors and A/B tests need traffic that a young B2B product rarely has." }
+  ],
+  "internalTargets": [
+    { "href": "/services/ai-products/ai-product-discovery-workshop/", "anchor": "AI product discovery workshop", "priority": "required", "where": "Intro, within the first 150 words. Hub link 1 of 2.", "verified": "content/services/ai-product-discovery-workshop.json; URL in content/blog/product-discovery.md line 34 and content/pillars.ts line 52" },
+    { "href": "/services/ai-products/ai-product-discovery-workshop/#what-happens-during-the-ai-product-discovery-workshop", "anchor": "the four workshop steps", "priority": "conditional", "blocker": "link-builder one-link-per-target rule (lesson 2026-10-16). If fragments count separately, link here in H2 9; if not, use the plain hub URL in H2 9 as hub link 2.", "where": "H2 9", "verified": "hub h2 'What happens during the AI product discovery workshop?' → sectionId() (components/sections/SemanticSections.tsx)" },
+    { "href": "/blog/product-discovery/", "anchor": "our product discovery guide", "priority": "required", "where": "Intro, after the hub link (sibling, same silo).", "verified": "content/blog/product-discovery.md (draft: false, services[0] = ai-product-discovery-workshop)" },
+    { "href": "/blog/product-discovery/#which-four-risks-does-product-discovery-test", "anchor": "who owns each of the four risks", "priority": "conditional", "blocker": "one-link-per-target rule; if fragments do not count separately, write it as plain text.", "where": "H2 1", "verified": "slugify('Which four risks does product discovery test?') in lib/blog.ts line 6" },
+    { "href": "/blog/product-discovery/#what-changes-in-product-discovery-for-ai-features", "anchor": "the five extra checks an AI feature needs", "priority": "conditional", "blocker": "same rule; this fragment is the most useful of the three, so prefer it if only one fragment is allowed.", "where": "H2 6", "verified": "slugify('What changes in product discovery for AI features?'); the same fragment is already linked from content/pillars.ts line 101" },
+    { "href": "/blog/product-discovery/#how-does-product-discovery-work-in-agile", "anchor": "running discovery beside delivery", "priority": "skip", "why": "Third fragment into the sibling would be link clutter (RULES.md step 9); mention the weekly customer habit in plain text in H2 8." },
+    { "href": "/services/startups/design-sprint/", "anchor": "design sprint", "priority": "required", "where": "H2 8. The post's ONE cross-hub link (RULES.md).", "verified": "content/services/design-sprint.json (category 'Startups & product'); same URL in content/blog/product-discovery.md line 166" },
+    { "href": "/services/ai-products/", "anchor": "AI product design", "priority": "required", "where": "H2 9 or the closing sentence (pillar, not a service hub; does not count toward the cross-hub cap).", "verified": "content/pillars.ts line 30 (slug 'ai-products'), anchor line 33" },
+    { "href": "/case-studies/mass-media-co/", "anchor": "the Mass Media Co. platform revamp", "priority": "required", "where": "H2 2 (discovery workshop with stakeholders and end users). DOWN link 1. Note: no case study lists this hub; Mass Media is used for the technique it describes, as the sibling used Digno and Vocable.", "verified": "content/case-studies/mass-media-co.md line 43" },
+    { "href": "/case-studies/tradezella/", "anchor": "TradeZella's trading journal redesign", "priority": "required", "where": "H2 3 (traders tested the design before it went live). DOWN link 2.", "verified": "content/case-studies/tradezella.md lines 88–92" },
+    { "href": "/case-studies/digno/", "anchor": "(none)", "priority": "skip", "why": "Already used by the sibling post for the same 'requirements from stakeholders and end users' point; vary (orchestrator instruction)." },
+    { "href": "/case-studies/vocable/", "anchor": "(none)", "priority": "skip", "why": "Already used by the sibling post; vary." },
+    { "href": "/case-studies/nitro/", "anchor": "(none)", "priority": "skip", "why": "Web3 racing game, off-audience for AI/SaaS founders; it already links the sibling post." },
+    { "href": "/services/ai-products/ai-ux-design-agency/", "anchor": "(none)", "priority": "skip", "why": "Would be a second cross-hub link (cap 1, used by design sprint). Override only if the owner accepts." },
+    { "href": "/services/ai-products/chatbot-ui-design/", "anchor": "(none)", "priority": "skip", "why": "Cross-hub cap. Do not link /blog/chatbot-design/ either (another silo's post)." },
+    { "href": "/contact/", "anchor": "(none)", "priority": "skip", "why": "MOFU template adds the consultation CTA; orchestrator: no consultation ask in the meta description, and RULES.md step 6 keeps conversion links lean." }
+  ],
+  "backlinkSuggestions": [
+    {
+      "source": "content/services/ai-product-discovery-workshop.json → section 'What is an AI product discovery workshop?' → body (line 25)",
+      "target": "/blog/product-discovery-techniques/",
+      "anchor": "product discovery techniques matched to the risk each one tests",
+      "priority": "required",
+      "why": "Hub → post (the hub links down to every silo post). The sentence already points to the sibling for the wider practice; the new clause names only what the new post covers (techniques matched to risks). Old string occurs once in the file.",
+      "old": "Our guide to <a href=\\\"/blog/product-discovery/\\\">how product discovery works for any feature</a> covers the wider practice.",
+      "new": "Our guide to <a href=\\\"/blog/product-discovery/\\\">how product discovery works for any feature</a> covers the wider practice, and a separate toolkit lists <a href=\\\"/blog/product-discovery-techniques/\\\">product discovery techniques matched to the risk each one tests</a>.",
+      "escapeNote": "The hub stores HTML inside a JSON string, so href quotes appear in the file as backslash + quote (\\\"), exactly as in the existing sibling link in the same body."
+    },
+    {
+      "source": "content/blog/product-discovery.md → '### 4. Test the riskiest assumptions' (line 112)",
+      "target": "/blog/product-discovery-techniques/",
+      "anchor": "time, sample size and pass signal for each technique",
+      "priority": "required",
+      "why": "Sibling → new post (same silo, sideways link). The sentence names two techniques; the added sentence points to the toolkit and names only what it covers. Old string occurs once.",
+      "old": "A prototype test with real users checks value and usability, while a feasibility spike checks the build.",
+      "new": "A prototype test with real users checks value and usability, while a feasibility spike checks the build. The toolkit of product discovery techniques gives the [time, sample size and pass signal for each technique](/blog/product-discovery-techniques/).",
+      "authorNote": "Check the sentence after it ('The test block gets 2 days…') still follows naturally. If the post's H2 1 heading changes, the target stays the bare URL (no fragment)."
+    },
+    {
+      "source": "content/case-studies/mass-media-co.md → 'How we approached the revamp' (line 43)",
+      "target": "/blog/product-discovery-techniques/#which-techniques-test-value-risk-before-anything-is-built",
+      "anchor": "discovery techniques that test value before a build",
+      "priority": "required",
+      "why": "Case study → post. The post cites this exact workshop in its value section; case studies already link blog posts (nitro.md line 74 → /blog/product-discovery/, elia-wellness.md → /blog/digital-product-design/). Fragment rebuilt with slugify() from the planned H2 2 'Which techniques test value risk before anything is built?'. Old string occurs once.",
+      "old": "Stakeholders and end users joined us to define the product, set the strategy, and map the information architecture and user flows.",
+      "new": "Stakeholders and end users joined us to define the product, set the strategy, and map the information architecture and user flows. It is one of the [discovery techniques that test value before a build](/blog/product-discovery-techniques/#which-techniques-test-value-risk-before-anything-is-built).",
+      "fragmentRule": "Apply AFTER the post is final. If QA or the writer renames H2 2, rebuild the fragment with slugify() from the published heading, or drop the fragment and link the bare URL."
+    }
+  ],
+  "externalSources": [
+    { "url": "https://svpg.com/four-big-risks/", "why": "Primary (SVPG, US): the four risks, their owners and the viability concerns (go-to-market, legal, monetization, brand). H2 1, H2 5." },
+    { "url": "https://www.producttalk.org/glossary-discovery-opportunity-solution-tree/", "why": "Primary (Teresa Torres, US): the four levels of the opportunity solution tree. H2 2." },
+    { "url": "https://www.producttalk.org/glossary-discovery-assumption/", "why": "Primary: five assumption categories incl. ethical. H2 1." },
+    { "url": "https://www.producttalk.org/glossary-discovery-assumption-testing/", "why": "Primary: test assumptions, not whole ideas; prototype tests and one-question surveys among test types. H2 2, H2 7." },
+    { "url": "https://www.nngroup.com/articles/which-ux-research-methods/", "why": "Primary (NN/g, US): 20 methods on 3 dimensions; attitudinal vs behavioral = say vs do. H2 2, FAQ 2." },
+    { "url": "https://nngroup.com/articles/why-you-only-need-to-test-with-5-users/", "why": "Primary (NN/g): 5 users per round; one user reveals about 31% of problems (fact-checker confirms the figure on the page). H2 3." },
+    { "url": "https://www.nngroup.com/articles/card-sorting-how-many-users-to-test/", "why": "Primary (NN/g): 15 participants, 0.90 correlation. H2 3." },
+    { "url": "https://nngroup.com/articles/tree-testing/", "why": "Primary (NN/g): tree testing checks findability in a proposed hierarchy. H2 3. No sample size unless the page states it." },
+    { "url": "https://www.nngroup.com/articles/wizard-of-oz/", "why": "Primary (NN/g): Wizard of Oz definition and fit for conversational UIs and learning algorithms. H2 6." },
+    { "url": "https://amplitude.com/explore/experiment/painted-door-testing", "why": "US vendor explainer (Amplitude) for fake/painted door mechanics. H2 2. Cite the mechanics only, not any vendor statistic." },
+    { "url": "https://www.strategyzer.com/library/validate-your-ideas-with-the-test-card", "why": "Primary (Strategyzer, originator of the Test Card; Swiss company — label not needed for a method). H2 7." },
+    { "url": "https://gv.com/sprint/", "why": "Primary (GV, US): the 5-day sprint. H2 8." }
+  ],
+  "visuals": [
+    { "type": "toolkit matrix", "file": "product-discovery-techniques-toolkit-matrix.svg", "idea": "14 technique rows grouped under 5 colored risk bands (value, usability, feasibility, viability, AI); columns time | sample | output | pass signal. Reads like a field kit sheet. Text panel: the same table." },
+    { "type": "say → do → pay ladder", "file": "product-discovery-techniques-value-ladder.svg", "idea": "A ladder of 5 rungs rising in evidence strength: past behavior (analytics, tickets) → what they say (interviews) → what many say (one-question survey) → what they click (fake door) → what they pay (pricing test). Side label 'attitudinal → behavioral'. Text panel: ordered list." },
+    { "type": "filled test card", "file": "product-discovery-techniques-test-card.svg", "idea": "One index card with 4 labeled fields filled for a hypothetical AI shift-swap suggestion in a B2B scheduling SaaS (we believe / to verify we will / and measure / we are right if), with a 'set before launch' stamp. Text panel: 4-line list. Label 'hypothetical' on the card." },
+    { "type": "cost vs evidence scatter", "file": "product-discovery-techniques-cost-evidence.svg", "idea": "Scatter plot: x = cost and effort (low → high), y = strength of evidence (weak → strong); 14 labeled dots; a bracket marking the design sprint bundle (prototype + 5-user test); an arrow 'run upward and rightward only after a pass'. Not a quadrant card (the sibling used a 4-quadrant risk card). Text panel: table technique | cost | evidence | run it when." },
+    { "type": "workshop bundle trays", "file": "product-discovery-techniques-workshop-bundle.svg", "idea": "Four trays side by side (task mapping, use-case ranking, concept, test), each holding technique chips from the matrix; small 'days' label on each tray from the hub (1–2, 3–4, 5–7, 8–10). Not a timeline bar. Text panel: table step | techniques it runs | output." }
+  ],
+  "visualCountNote": "5 inline visuals (orchestrator: 4–5). No sixth; the AI section and viability section stay as prose.",
+  "leadAngle": "Moment 1: end of H2 6. The reader sees that AI techniques need a believable prototype with model-like answers and an evaluation bar, which most product teams cannot build in a week without a designer. Offer (hub facts only): our designers turn the top AI use case into a clickable concept with realistic model output and test it with 5 users. Plain text, no link at this moment. Moment 2: H2 9, after the bundle visual: 'we' sentence on running the four techniques as one workshop with your product, engineering or data and business leads for about 2 hours a day, with UP link 2. Template MOFU CTA falls back to consultation + hub summary + price (no case study matches this hub). No price in the body, no 'book a consultation' in the body or description.",
+  "variety": {
+    "type": "Checklist",
+    "typeNote": "Recent site-wide types (newest first): Guide (digital-product-design), Comparison (ux-design-for-saas), Article (onboarding-kyc-process-flow), Checklist (chatbot-design, 4 posts ago), Guide. Silo: Guide (product-discovery). Checklist fits a field-kit toolkit whose core is one matrix with pass signals. It must NOT reuse chatbot-design's 'Step N:' H2 prefixes, its 8-gate checklist H2 or its scorecard.",
+    "introStyle": "Wrong-instrument pairing: sentence 1 states the post's thesis with the keyword; sentences 2–3 give a one-line hypothetical where a passed test answered the wrong risk. Device = a passed test paired with the risk it never touched (no blockquote log, no list, no stat, no quote, no question, no definition, no credential sentence). Used before (do not repeat): buyer scenario, myth, data point, question, definition, mini case, contrarian take, timed first-run log (blockquote), kill-list decision log (blockquote), itemized receipt, misfiring rule, try-this-now exercise, originator quote, three-question inline list, rule-to-screen translation, scope subtraction, end-state inventory.",
+    "h2Frames": ["which fits each risk (matrix)", "which test value (say→do→pay)", "how to test usability", "which settle feasibility/data", "how to check viability", "which change for AI", "how to set a pass signal (test card)", "in what order (cost vs evidence)", "how they fit one workshop (bundle)", "FAQs"],
+    "sectionOrder": "matrix → value → usability → feasibility → viability → AI → pass signals → order → workshop bundle (closing) → FAQs. Risk-by-risk, not stage-by-stage (the sibling is stage-by-stage).",
+    "visualTypes": ["toolkit matrix", "say→do→pay ladder", "filled test card", "cost vs evidence scatter", "workshop bundle trays"],
+    "ctaAngle": "pick one technique per open risk and write its pass signal → for AI features, the workshop anchors two of them (MOFU template: consultation + hub summary + price). Not 'run the exit gate', not 'run the 7 checks', not 'send your brief'.",
+    "listStyle": "risk-banded matrix table, ordered evidence ladder, 4-field card, cost/evidence table, step → techniques table; prose 'trap:' line closing each risk section",
+    "closingRule": "Closing H2 is the workshop bundle section; end with one first-person recommendation sentence from Sahar, no label ('My recommendation:' banned), no 'Bottom line' H2 (orchestrator), no 'Have a … to design?' H2.",
+    "metaDescriptionEnding": "Ends on the payoff 'so every test ends in a decision' — not a consultation ask, and different from yesterday's 'Run the 7 checks before you pay.'",
+    "differsFrom": "Last 3 site-wide: digital-product-design (Guide, end-state inventory, artifact ledger, evidence ladder, routing doors), ux-design-for-saas (Comparison, scope subtraction, surface ring, triage), onboarding-kyc-process-flow (Article, rule-to-screen, swimlane). Silo: product-discovery (Guide, kill-list blockquote, four-risk quadrant card, stage band, dual-track loop, AI check grid, two-week timeline, exit gate, in-house vs partner, 'Bottom line'). Nearest structural relative by type: chatbot-design (Checklist; do NOT reuse 'Step N:' H2s, the 8-gate checklist, the scorecard, the three-question intro). Nearest visual relative: digital-product-design's evidence ladder — the value ladder here must be drawn as say→do→pay rungs with technique names, not artifact rungs, and labeled differently."
+  },
+  "fingerprintCheck": {
+    "vs_digital-product-design": "Differs on type (Checklist vs Guide), intro (wrong-instrument vs end-state inventory), H2 frames, section order, visuals (matrix, value ladder, test card, scatter, trays vs ledger cards, span bar, evidence ladder, packet, doors), CTA angle, list style. 7 of 7 (ladder shape shared, content and labels differ).",
+    "vs_ux-design-for-saas": "7 of 7.",
+    "vs_onboarding-kyc-process-flow": "7 of 7.",
+    "vs_silo_product-discovery": "Differs on type, intro, frames (risk-by-risk techniques vs definition/stages/agile/phase/plan), order, visuals (no quadrant, no timeline, no gate), CTA (workshop bundle vs exit gate), list style. 7 of 7.",
+    "vs_type_relative_chatbot-design": "Same type (Checklist). Differs on intro, H2 frames (no 'Step N'), order, visuals (no scorecard), CTA, closing. 6 of 7.",
+    "audit_2026-10-19_rules": "No definition-first H2 (H2 1 is a matching question; PASS); 5 visuals, not 6 (PASS); description ends on a payoff with no consultation ask (PASS); closing H2 is the workshop bundle, not 'Bottom line' nor 'Have a … to design?' (PASS).",
+    "result": "PASS"
+  },
+  "overlapCheck": {
+    "method": "Outline-level (no shell this run). Compared planned H2s/FAQs with content/blog/product-discovery.md (all H2s and FAQs), content/services/ai-product-discovery-workshop.json, design-sprint.json, content/pillars.ts (ai-products) and the 10 other posts.",
+    "headingOverlap": "Closest pairs: H2 1 'Which product discovery technique fits each risk?' vs sibling 'Which four risks does product discovery test?' (sibling defines the risks; this post assigns techniques; no rows shared with the sibling's risk table — its 'cheapest test' column names 4 tests, the matrix names 14 with time/sample/pass). H2 6 vs sibling 'What changes in product discovery for AI features?' (sibling: 5 checks; post: 2 techniques; deep link instead of restating). H2 8 vs sibling 'How do you do product discovery in two weeks?' and 'How long should a product discovery phase last?' (order by cost/evidence, not a calendar; no day counts except the GV sprint's 5 days). H2 9 vs hub 'What happens during the AI product discovery workshop?' (hub lists steps; post maps techniques onto them; paraphrase only). FAQ 'Is a fake door test honest?' and 'B2B with few customers' have no counterpart anywhere.",
+    "intentOverlap": "Grep of content/ for 'technique': no title, keyword, metaTitle or H2 uses 'product discovery techniques'. The sibling's tags include 'product discovery process' and 'how to do product discovery' but not techniques/methods. Ahrefs puts 'product discovery process' under the parent topic 'product discovery techniques', so Google may treat the two pages as close: the siblingPhrasePlan bans the process phrase here, and backlink #2 tells Google which page owns techniques.",
+    "residualRisk": "Medium. (1) Parent-topic link between 'process' and 'techniques' could make Google swap the two pages for either query; monitor both after publish. (2) H2 1 and H2 6 sit next to sibling sections; keep them on techniques. (3) Do not reuse the sibling's 4-to-6 users / 5-user / 2-day spike sentences word for word; state the numbers in new sentences.",
+    "result": "PASS at outline level."
+  },
+  "sisterSiteCheck": {
+    "status": "UNVERIFIED — QA STEP REQUIRED",
+    "fetchStatus": "FAILED: WebFetch https://uiuxdesignservices.us/sitemap.xml → ENOTFOUND (2026-10-23). WebSearch 'site:uiuxdesignservices.us discovery' returned no page from the domain. Repo evidence: earlier QA reports saw a sister blog list of 10 posts (saas-homepage-design.qa.md line 24) and service pages /services/saas-ux-design/, /services/digital-product-design-services/, /services/ui-ux-design-services-for-startups/; no known discovery or research page.",
+    "mitigation": "Toolkit angle with risk-banded matrix, question headings in our own words, no service wording. Banned in the post: 'product discovery services', 'product discovery workshop' as a heading phrase, 'UX research services', 'discovery phase services'. No link to the sister site.",
+    "qaStep": "Run curl -sS https://uiuxdesignservices.us/sitemap.xml | grep -iE 'discover|research|workshop|technique|method|sprint'. For every match, curl the page and (a) compare its H2/H3 question headings with ours (fail any heading that matches word-for-word or differs by one word, e.g. 'What are product discovery techniques?'), (b) run the 5-gram overlap (fail above 2%). If a sister page's title or H1 targets 'product discovery techniques' or 'product discovery methods', STOP and report to the owner as a publish blocker."
+  },
+  "rejectedCandidates": [
+    { "keyword": "product discovery process (300, KD 3, parent 'product discovery techniques', TP 200)", "why": "Owned by /blog/product-discovery/ (tags + stages H2); audit 2026-10-19 folds it into that post. Banned as a phrase here except one link anchor." },
+    { "keyword": "product discovery framework (150, KD 3, TP 300) / frameworks (100)", "why": "Separate opportunity (score 81.8) with its own parent topic; a future post can compare frameworks (OST, Double Diamond, dual-track, JTBD). This post names the OST only as a technique and never calls itself a framework." },
+    { "keyword": "continuous product discovery (150, parent 'continuous discovery habits', TP 250)", "why": "Own parent topic (Torres's book). One plain-text sentence in H2 8; future post candidate." },
+    { "keyword": "product discovery questions (150, KD 0, TP 100)", "why": "Own parent topic; a future 'interview questions' post. This post gives at most one example interview prompt, no question list." },
+    { "keyword": "digital product discovery (150, KD 0, TP 30)", "why": "TP 30 and sits next to /blog/digital-product-design/ (product-design-agency silo). Not used." },
+    { "keyword": "product discovery tool (150) / software (200) / platform (400) / ai tools for product discovery (150)", "why": "Tool-roundup intent (ledger skips tool roundups); tools appear only inside techniques (Figma, Maze)." },
+    { "keyword": "product discovery workshop (450) / services (450) / software product discovery services (250)", "why": "Hub-owned commercial terms (clusters.json line 104)." },
+    { "keyword": "product discovery template (150, KD 0, TP 70)", "why": "Template intent; the filled test card is a partial answer, but the post does not target it." },
+    { "keyword": "ecommerce/conversational/personalized product discovery", "why": "Retail search meaning of 'product discovery', off-audience." }
+  ],
+  "beats": "https://www.usertesting.com/blog/product-discovery-techniques",
+  "beatsNote": "US research-platform blog ranking on page 1 with '11 product discovery techniques to help your team succeed'. Not fetched (ENOTFOUND). QA: run curl -sSI -A 'Mozilla/5.0' on it first (lesson 2026-10-16); if it redirects off-topic or 404s, use https://www.productboard.com/blog/top-product-discovery-techniques/ as `beats`. Also run the 5-gram check against https://plane.so/blog/product-discovery-methods-every-pm-should-know (the only page that maps methods to the four risks; do NOT mirror its value/usability/feasibility/viability section order or examples).",
+  "competitorPagesStudied": [
+    { "url": "https://www.usertesting.com/blog/product-discovery-techniques", "seen": "Title only: '11 product discovery techniques to help your team succeed' (page 1).", "misses": "Per snippet field: no risk mapping, sample, time or pass signal; vendor ends on its platform. Originality: do not adopt an 11-item list or its order." },
+    { "url": "https://plane.so/blog/product-discovery-methods-every-pm-should-know", "seen": "Maps methods to Cagan's risks: value (interviews, feedback analysis, usage data), usability (prototypes, usability testing), feasibility (engineering conversations, spikes), viability (business model, brand, stakeholders); notes teams gravitate to usability.", "misses": "No time, sample, output or pass signal; no AI techniques; no test card; no order." },
+    { "url": "https://www.productboard.com/blog/top-product-discovery-techniques/", "seen": "Title only (page 1).", "misses": "Unknown body; vendor post." },
+    { "url": "https://decode.agency/article/product-discovery-techniques/", "seen": "'7 key product discovery techniques' (Jan 26, 2024, 14-min read); technique 1 brainstorming and ideation.", "misses": "Starts with ideation, not risk; dated." },
+    { "url": "https://www.upsilonit.com/blog/effective-product-discovery-techniques-and-frameworks", "seen": "'15 Effective Product Discovery Techniques and Frameworks' (title).", "misses": "Mixes frameworks and techniques; unknown depth." },
+    { "url": "https://heymarvin.com/resources/product-discovery-techniques", "seen": "Page 1 #1 in WebSearch; research-repository vendor.", "misses": "Snippet-level only: user research, problem framing, competitor research, personas/journey maps, prototyping, sprints — the generic set." }
+  ],
+  "competitorsJsonHandback": {
+    "note": "Not written to docs/content-system/competitors.json (task instruction). Orchestrator: append these.",
+    "domains": [
+      { "domain": "usertesting.com", "kind": "research platform blog (US)", "silos": ["ai-product-discovery-workshop"], "seenFor": ["product discovery techniques"], "source": "WebSearch 2026-10-23" },
+      { "domain": "plane.so", "kind": "PM tool blog", "silos": ["ai-product-discovery-workshop"], "seenFor": ["product discovery techniques", "product discovery methods four risks"], "source": "WebSearch 2026-10-23" },
+      { "domain": "productboard.com", "kind": "PM tool blog (US)", "silos": ["ai-product-discovery-workshop"], "seenFor": ["product discovery techniques"], "source": "WebSearch 2026-10-23 (also an AI-overview sitelink for 'product discovery', warehouse 2026-10-14)" },
+      { "domain": "decode.agency", "kind": "agency blog", "silos": ["ai-product-discovery-workshop"], "seenFor": ["product discovery techniques"], "source": "WebSearch 2026-10-23" },
+      { "domain": "heymarvin.com", "kind": "research tool blog", "silos": ["ai-product-discovery-workshop"], "seenFor": ["product discovery techniques"], "source": "WebSearch 2026-10-23" }
+    ],
+    "topPost": { "domain": "usertesting.com", "url": "https://www.usertesting.com/blog/product-discovery-techniques", "title": "11 product discovery techniques to help your team succeed", "keywords": ["product discovery techniques"], "estTraffic": null, "silo": "ai-product-discovery-workshop", "status": "briefed", "brief": "content/briefs/product-discovery-techniques.json" }
+  },
+  "clustersHandback": "After publish: add { parentTopic: 'product discovery techniques', owner: '/blog/product-discovery-techniques/', keywords: ['product discovery techniques (350, KD 4, TP 200)', 'software product discovery (100, KD 0, TP 300)'] } and record that 'product discovery process (300)' shares this parent but stays owned by /blog/product-discovery/. Mark blog-opportunities 'product discovery techniques' (78.8) done. Keep 'product discovery framework' (81.8), 'continuous product discovery' and 'product discovery questions' open as future silo posts.",
+  "notes": [
+    "CANNIBALISATION GUARDS: (1) Sibling /blog/product-discovery/: do not define product discovery, list stages, explain dual-track agile, set phase length, give a two-week day plan, rebuild the four-risk table, the 5 AI checks, the exit-gate checklist, the property-management example or the in-house vs partner section. Link instead (internalTargets). (2) Hub: do not copy the 4 step bodies, the 5 deliverables list or the price; paraphrase in one sentence each and link. (3) design-sprint hub: no day-by-day table, no 'sprint vs discovery phase' table; one sentence + link.",
+    "CASE STUDIES (exact facts only): Mass Media Co.: 'We began with a discovery workshop, because the redesign had to serve MMC's business goals first. Stakeholders and end users joined us to define the product, set the strategy, and map the information architecture and user flows.' Results (if quoted, as stated): order processing efficiency +30%; error rate from 25% to 2+. TradeZella: 'We started with discovery and ended with trader testing. Stakeholder sessions first showed us TradeZella's long-term vision'; user flows redrawn around the widgets and features traders open most; 'traders tested it before it went live'. Results: +40% user interaction, +25% retention, +30% new customers. Never attribute a result to one technique. Do NOT use Digno, Vocable (sibling used them) or Nitro. No case study lists this hub: do not call either one 'an AI discovery workshop project'.",
+    "DO NOT USE: '5 users find 85% of problems' unless the fact-checker finds it on the NN/g page; 'about 50 participants per tree test' unless the NN/g page states it; any vendor click-through benchmark for fake doors; any '% of features are rarely used' statistic; Productboard or UserTesting survey numbers; the Rework '500 teams' figure about Torres.",
+    "DO NOT MIRROR: plane.so's risk-by-risk method lists and its 'teams gravitate toward usability' line; heymarvin's generic sequence (research → framing → competitors → personas → prototyping → sprints); decode.agency's 'brainstorming first' order; any numbered 'N techniques' H2 list.",
+    "ENTITY SALIENCE: 'product discovery techniques' exact 10–13 uses; H2s 1, 4, 6 and 8 carry the exact phrase (4 of 9 = 44%), and all 9 carry 'techniques' or a keyword word for the on-page script. Rival entities capped at about 6 uses each: 'prototype', 'interview', 'risk', 'AI', 'fake door'. 'product discovery' alone (sibling keyword) at most 5 uses outside the exact phrase.",
+    "VOICE: first person by Sahar Asif for method and judgment ('When a team brings me an AI idea, I ask which risk is still open…'). 'We' only for hub, home.ts and case-study facts. Every number not in eav is either method stated as 'I' or dropped. Hypotheticals labeled ('Say you run a scheduling app for US clinics…'). American spelling; US examples.",
+    "HONESTY: the fake door FAQ and section must say the follow-up page discloses that the feature is not built; never suggest collecting payment for a feature that does not exist. Wizard of Oz: say participants are told afterward.",
+    "POST-PUBLISH MONITOR: (a) if Google ranks /blog/product-discovery/ for 'product discovery techniques' or this post for 'product discovery process', check backlink #2 is live and the siblingPhrasePlan holds; (b) sister site: see sisterSiteCheck.qaStep.",
+    "ABBREVIATIONS to expand on first use: Silicon Valley Product Group (SVPG), Nielsen Norman Group (NN/g), Google Ventures (GV), artificial intelligence (AI), software as a service (SaaS), business-to-business (B2B), information architecture (IA), California Consumer Privacy Act (CCPA) / California Privacy Rights Act (CPRA), Health Insurance Portability and Accountability Act (HIPAA), product manager (PM)."
+  ]
+}
