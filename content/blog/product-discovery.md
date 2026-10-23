@@ -109,7 +109,7 @@ Teresa Torres' opportunity solution tree organizes what you heard: the desired o
 
 ### 4. Test the riskiest assumptions
 
-Assumption testing pays off when you test the assumption that would kill the idea first. A prototype test with real users checks value and usability, while a feasibility spike checks the build. The test block gets 2 days and ends in results marked passed, failed or unclear.
+Assumption testing pays off when you test the assumption that would kill the idea first. A prototype test with real users checks value and usability, while a feasibility spike checks the build. Our [toolkit of product discovery techniques](/blog/product-discovery-techniques/) lists the time, sample size and pass signal for each one. The test block gets 2 days and ends in results marked passed, failed or unclear.
 
 ### 5. Decide
 

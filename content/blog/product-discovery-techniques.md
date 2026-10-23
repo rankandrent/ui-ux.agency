@@ -1,7 +1,7 @@
 ---
 title: "Product discovery techniques: 14 methods and the risk each one tests"
 metaTitle: "Product Discovery Techniques: 14 Methods Matched to Risk"
-description: "Product discovery techniques matched to the risk they test: 14 methods with the time, sample size and pass signal for each, so every test ends in a decision."
+description: "Product discovery techniques matched to the risk they test: 14 methods with time, sample size and pass signal. Fill in a test card before you run one."
 date: 2026-10-23
 updated: 2026-10-23
 contributors: [umar-sarwar]
@@ -14,16 +14,16 @@ keyword: "product discovery techniques"
 funnel: mofu
 takeaways:
   - "Pick product discovery techniques by the open risk: value, usability, feasibility, viability or, for AI features, the quality of model answers."
-  - "Value evidence gets stronger as it moves from what people say to what they do to what they pay, and its cost rises with it."
+  - "Value evidence about a new offer gets stronger as it moves from what people say to what they click to what they pay, and its cost rises with it."
   - "Write the pass signal on a test card before the test runs, so nobody can move the bar once the data arrives."
   - "Plan 5 users per prototype round and about 15 participants for a card sort, the numbers Nielsen Norman Group publishes."
-  - "Our AI discovery workshop runs 4 of the 14 techniques in 5 to 10 working days."
+  - "Our AI discovery workshop runs customer interviews and a 5-user prototype test, two of the 14 techniques, inside 5 to 10 working days."
 image: /blog/product-discovery-techniques/cover.svg
 draft: true
 qa: pending
 ---
 
-Most product discovery techniques work fine; teams get burned when they pick one that answers a different question from the one that can kill the idea. Say a team runs a polished prototype test of a new reporting screen with 5 users, and every one finishes the task. The screen ships and sits unused: the test proved people can use it, while the open question was whether anyone needed it.
+Most product discovery techniques work fine; teams get burned when they pick one that answers a different question from the one that can kill the idea. Say a team runs a polished usability test of a new reporting screen with 5 users, and every one finishes the task. The screen ships and sits unused: the test proved people can use it, while the open question was whether anyone needed it.
 
 In software product discovery, the risk decides the method, not the team's habit. I check that match first whenever I review a discovery plan at [ui-ux.agency, part of tkxel](/about/), where designers have worked on 200+ products since 2017. For artificial intelligence (AI) features, our [AI product discovery workshop](/services/ai-products/ai-product-discovery-workshop/) keeps the same order: interviews and a data-readiness score come before a concept meets 5 users.
 
@@ -33,15 +33,15 @@ If you need the definition and stages first, start with [our product discovery g
 
 **Match product discovery techniques to the risk that would sink the idea: interviews and fake doors for value, prototype tests for usability, spikes for feasibility and pricing tests for viability.**
 
-[Marty Cagan](https://www.svpg.com/four-big-risks/), who founded the Silicon Valley Product Group (SVPG), names four risks: value (will customers buy or choose it), usability (can they figure it out), feasibility (can engineers build it given their time, skills and tools) and business viability (does it work for sales, legal, monetization and brand). He gives value and viability to the product manager (PM), usability to the designer and feasibility to engineering. [Teresa Torres](https://www.producttalk.org/glossary-discovery-assumption/) sorts assumptions into five categories: desirability, viability, feasibility, usability and ethical. The ethical category asks whether the idea causes harm, and for model-driven features it holds the cost of a wrong answer.
+[Marty Cagan](https://www.svpg.com/four-big-risks/), who founded the Silicon Valley Product Group (SVPG), splits product risk four ways: value risk (would customers buy it or choose to use it), usability risk (can users work out how to use it), feasibility risk (can engineers build it with their time, skills and technology) and business viability (does it suit sales, legal, monetization and brand). He gives value and viability to the product manager (PM), usability to the designer and feasibility to engineering. [Teresa Torres](https://www.producttalk.org/glossary-discovery-assumption/) sorts assumptions into five categories: desirability, viability, feasibility, usability and ethical. The ethical category asks whether the idea causes harm, and for model-driven features I file the cost of a wrong answer under it.
 
-Teams call these discovery methods, discovery tests, validation techniques or assumption tests. Whatever the label, they are the evidence side of product management, and they borrow from user research, user-centered design and experimentation. Product discovery methods differ in cost and in strength of evidence, so the matrix gives each technique its time, sample, output and the pass signal I set before running it. Times and samples are my planning values; the published sample sizes are cited in the usability section.
+Teams call these discovery methods, discovery tests, validation techniques or assumption tests. Whatever the label, assumption testing is the evidence side of product management, and it borrows from user research, user-centered design and experimentation. Product discovery methods differ in cost and in strength of evidence, so the matrix below shows each technique's risk and planning time, and the table under it adds the sample, output and pass signal I set before running it. Times and samples are my planning values; the published sample sizes are cited in the usability section.
 
 ![Toolkit matrix of 14 product discovery techniques grouped under five risk bands, value, usability, feasibility, viability and AI answers, with the planning time for each technique](/blog/product-discovery-techniques/product-discovery-techniques-toolkit-matrix.svg "Product discovery techniques toolkit matrix: 14 methods grouped by the risk each one tests")
 
 <details class="astext"><summary>Show as text</summary>
 
-This table lists the 14 techniques grouped by what they test, with my planning time, sample, output and pass signal for each.
+The image shows each technique's risk band and planning time; this table adds my sample, output and pass signal for each of the 14.
 
 Table: Product discovery techniques grouped by what they test, with time, sample, output and pass signal
 
@@ -64,41 +64,41 @@ Table: Product discovery techniques grouped by what they test, with time, sample
 
 </details>
 
-Value comes first in the matrix because most teams skip it, so start your plan there.
+Value comes first in the matrix because a usable, buildable feature that nobody needs still fails, so start your plan there.
 
 ## Which techniques test value risk before anything is built?
 
-**Five product discovery techniques test value risk, and the stronger ones move from what people say toward what they actually do.**
+**Five product discovery techniques test value risk; four of them sit on a ladder that climbs from past records to what people say and click, with pricing on top.**
 
-[Nielsen Norman Group (NN/g)](https://www.nngroup.com/articles/which-ux-research-methods/) maps 20 user experience (UX) research methods on 3 dimensions, and the first one splits attitudinal from behavioral: what people say against what they do. I rank value evidence on that line and add one rung above it, money. The ladder shows the order.
+[Nielsen Norman Group (NN/g)](https://www.nngroup.com/articles/which-ux-research-methods/) maps 20 user experience (UX) research methods on 3 dimensions, and the first one splits attitudinal from behavioral: what people say against what they do. I rank value evidence on that line and add one rung above it, money. Analytics review sits on the bottom rung even though it records behavior, because it shows the problem exists, not that anyone wants your answer to it. The ladder shows the order.
 
 ![Say, do, pay ladder ranking value techniques from analytics and support-ticket review and customer interviews up to a fake door test and a pricing test, each rung tagged attitudinal, behavioral or money](/blog/product-discovery-techniques/product-discovery-techniques-value-ladder.svg "Say, do, pay ladder: value techniques ranked by strength of evidence")
 
 <details class="astext"><summary>Show as text</summary>
 
-1. What already happened: analytics and support-ticket review.
-2. What users say about the past: customer interviews.
-3. What many users say: a one-question survey.
-4. What users click: a fake door test.
-5. What buyers pay: a pricing test (see the viability section).
+1. What already happened (behavioral): analytics and support-ticket review.
+2. What users say about the past (attitudinal): customer interviews.
+3. What many users say (attitudinal): a one-question survey.
+4. What users click (behavioral): a fake door test.
+5. What buyers pay (money): a pricing test (see the viability section).
 
 </details>
 
 Customer interviews come first in most of my plans. My interview guide asks about the last time the problem happened, never "would you use this?", and I talk to 4 to 6 users per user group for about 45 minutes each. Interviews produce patterns and quotes, and they pass when most people describe a recent, real instance unprompted. For a model-driven idea, I add one question: where would a wrong answer hurt you?
 
-Analytics and support-ticket review costs nothing new, because you already own the records. It shows how often the problem appears, which is past behavior rather than a promise. An opportunity solution tree then turns research notes into a map with four levels: the desired outcome at the root, then opportunities, then solutions, then assumption tests. The tree stops a team from testing a solution no user problem asked for, and updating it takes me about 2 hours after each round of conversations.
+Analytics and support-ticket review costs nothing new, because you already own the records. It shows how often the problem appears, which is past behavior rather than a promise. An [opportunity solution tree](https://www.producttalk.org/glossary-discovery-opportunity-solution-tree/) then turns research notes into a map with four levels: the desired outcome at the root, opportunities below it, solutions under each opportunity and assumption tests at the leaves. That map keeps a team from testing a solution no user problem asked for, and updating it takes me about 2 hours after each round of conversations.
 
 A one-question survey sizes a pattern the conversations surfaced, with a single question inside the product for 1 to 2 weeks. It needs traffic, which young business-to-business (B2B) products rarely have (the FAQs cover that case). A fake door test puts a button, banner or page in the product that looks like a live feature. A click opens an honest page that says the feature is not built yet and offers a waitlist.
 
-Clicks show curiosity, not commitment, so I set the click-through bar before launch and keep the door live for 1 to 2 weeks. Group formats work too. For [the Mass Media Co. platform revamp](/case-studies/mass-media-co/), we began with a discovery workshop where stakeholders and end users worked with us on the product definition, the strategy, the information architecture (IA) and the user flows.
+Clicks show curiosity, not commitment, so I set the click-through bar before launch and keep the door live for 1 to 2 weeks. Group sessions can sit beside one-to-one interviews. For [the Mass Media Co. platform revamp](/case-studies/mass-media-co/), we began with a discovery workshop where stakeholders and end users worked with us on the product definition, the strategy, the information architecture (IA) and the user flows.
 
-Trap: asking people whether they would use a feature. The answer is attitudinal and optimistic, so it sits at the bottom of the ladder. Once users want the feature, the next question is whether they can use it.
+Trap: asking people whether they would use a feature. The answer is attitudinal and optimistic, so it ranks below every rung on the ladder. Once users want the feature, the next question is whether they can use it.
 
 ## How do you test usability before engineers write code?
 
 **Test usability with a clickable prototype and 5 users per round; use card sorting or tree testing when the doubt is where things live, not how screens work.**
 
-A prototype usability test needs a clickable Figma file, a task script and target users. In [Jakob Nielsen's analysis](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/), one user reveals about 31% of usability problems on average across many projects, and each added user mostly repeats what earlier users showed. That is why I test a prototype with 5 users per round, fix what they hit and test again. The pass signal: most users finish the core task without help.
+A prototype usability test needs a clickable Figma file, a task script and target users. In [Jakob Nielsen's analysis](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/), one user reveals about 31% of usability problems on average across many projects, and each added user mostly repeats what earlier users showed. That is why I run 5 users per round, fix what they hit and test again. The pass signal: most users finish the core task without help.
 
 Card sorting asks people to group and name content cards, which shows the labels they expect. For card sorting, [NN/g recommends 15 participants](https://www.nngroup.com/articles/card-sorting-how-many-users-to-test/) for most projects, because Tullis and Wood's data reached a 0.90 correlation at that size. Tree testing runs the reverse check: people get tasks and try to find items in a proposed menu hierarchy. It shows whether a structure works before anyone draws screens on it.
 
@@ -112,7 +112,7 @@ Trap: testing with teammates or friends who already know the product. They finis
 
 An engineering spike tests one feasibility question with a timeboxed build, such as "can we parse these scanned invoices fast enough?" Engineering owns it and I give it 1 to 2 days; it returns known unknowns plus an estimate. It passes when the one question gets an answer on real inputs, not on tidy sample files.
 
-A data audit takes me 2 to 3 days; it gives each use case one row and asks four questions: does the data exist, can the product reach it, is this use permitted and is it labeled? Data without permission for the new use fails the audit even when it sits in your warehouse. In the US that is a legal question as much as a technical one: health records fall under the Health Insurance Portability and Accountability Act (HIPAA). California customers' data falls under the California Consumer Privacy Act (CCPA), as amended by the California Privacy Rights Act (CPRA).
+A data audit takes me 2 to 3 days; it gives each use case one row and asks four questions: does the data exist, can the product reach it, is this use permitted and is it labeled? Data without permission for the new use fails the audit even when it sits in your warehouse. In the US that is a legal question as much as a technical one: health records held by a health care provider, health plan or other covered entity, or by its business associate, fall under HIPAA (the Health Insurance Portability and Accountability Act). If your company meets the California Consumer Privacy Act (CCPA) thresholds, California residents' personal information falls under the CCPA, which the California Privacy Rights Act (CPRA) amended.
 
 Trap: prototyping before the spike, so users fall for a concept engineering cannot ship. Buildable and usable still leaves the business question, so book the viability check next.
 
@@ -120,11 +120,11 @@ Trap: prototyping before the spike, so users fall for a concept engineering cann
 
 **Check viability with a stakeholder review of sales, finance, legal and support constraints, and with a pricing test that asks buyers to commit before you build.**
 
-Cagan's viability concerns cover fit with go-to-market and sales channels, partner contracts and legal compliance, monetization and the brand promise. I walk the concept past sales, finance, legal and support leads in one session of 30 to 60 minutes, and I log each blocker with its owner. For a model-backed feature, the cost per model call joins that review, because a feature people love can still lose money at volume.
+Cagan's viability concerns include go-to-market and sales channels, partner contracts and legal compliance, the cost of acquiring customers, monetization and the brand promise. I walk the concept past sales, finance, legal and support leads in one session of 30 to 60 minutes, and I log each blocker with its owner. For a model-backed feature, the cost per model call joins that review, because a feature people love can still lose money at volume.
 
 A pricing test is the top rung of the value ladder. Viability and pricing meet here: a buyer who signs at your price has told you more than any conversation. I run it for 2 weeks: a price on the fake door's waitlist page, a request for a signed letter of intent or a paid pilot that bills only once the pilot starts. Never take payment for a feature that does not exist.
 
-Trap: inviting legal at the end, when the concept has fans and changing it costs a redesign. AI features need two more techniques, because the answer changes every time the model runs.
+Trap: inviting legal at the end, when the concept has fans and changing it costs a redesign. Features built on machine learning need two more techniques, because the same input can return a different answer on each run.
 
 ## Which product discovery techniques change for AI features?
 
@@ -134,7 +134,7 @@ NN/g describes the [Wizard of Oz method](https://www.nngroup.com/articles/wizard
 
 An evaluation set is a batch of real inputs, each with a written definition of a good answer, scored before design starts; building one takes me 2 to 3 days. My evaluation rubric names the failures that matter most, such as a confident wrong answer in a refund decision. The pass signal is the bar the team wrote down; if the model misses it, no interface will rescue the feature. Our guide lists [the five extra checks an AI feature needs](/blog/product-discovery/#what-changes-in-product-discovery-for-ai-features), so I won't repeat them here.
 
-No designer free to fake a believable model this week? In our workshop, designers build the leading use case into a clickable concept that shows realistic model output, then put it in front of 5 users. Every technique above only works if you decide what counts as a pass before it runs.
+No designer free to fake a believable model this week? In our workshop, designers build a clickable concept for the one or two highest-ranked use cases, fill it with realistic model output and put it in front of 5 users. Every one of these product discovery techniques only works if you decide what counts as a pass before it runs.
 
 ## How do you set a pass signal before a test runs?
 
@@ -148,16 +148,18 @@ Say you run a B2B scheduling software as a service (SaaS) product for US restaur
 
 <details class="astext"><summary>Show as text</summary>
 
-Hypothetical example, B2B scheduling product for restaurant groups:
+Strategyzer test card, filled for an AI shift-swap suggestion. Hypothetical example, B2B scheduling product for restaurant groups:
 
 - We believe that: managers want the schedule to suggest who can cover a dropped shift.
 - To verify that, we will: show a "Suggest a swap" button on the shift screen for 2 weeks, leading to a not-built-yet page with a waitlist.
 - And measure: the share of managers who see the button and click it, and waitlist sign-ups.
 - We are right if: clicks and sign-ups reach the number the team wrote on this card before launch.
 
+The card carries a "Set before launch" stamp.
+
 </details>
 
-The bar is the team's own choice, not an industry benchmark. A result that lands just under it is a retest with a sharper design, never a quiet pass. I record every call in a decision log with its card attached, so the next round starts from evidence. With pass signals written, the next decision is which test to run first.
+The bar is the team's own choice, not an industry benchmark. A result that lands just under it is a retest with a sharper design, never a quiet pass. I record every call in a decision log with its card attached, so the next round starts from evidence. With pass signals written, the next decision is which of the product discovery techniques to run first.
 
 ## In what order should you run product discovery techniques?
 
@@ -169,9 +171,9 @@ Each rung of stronger evidence costs more to buy, in money, time or goodwill. An
 
 <details class="astext"><summary>Show as text</summary>
 
-This table places each technique by relative cost, the kind of evidence it gives and the moment to run it.
+This table lists the 14 techniques in the chart's order, from the weakest evidence at the bottom to the strongest at the top, with relative cost and the moment to run each.
 
-Table: The 14 techniques by cost, evidence and when to run them
+Table: The 14 techniques from weakest to strongest evidence, with cost and when to run them
 
 | Technique | Cost | Evidence | Run it when |
 |---|---|---|---|
@@ -184,42 +186,44 @@ Table: The 14 techniques by cost, evidence and when to run them
 | Stakeholder viability review. | Low. | Expert judgment. | A concept exists to show. |
 | Engineering spike. | Medium. | What the build does. | One technical doubt blocks the plan. |
 | Data audit. | Medium. | What the data allows. | A feature depends on data. |
-| Evaluation set. | Medium. | What the model does. | An AI feature is planned. |
+| Evaluation set. | Medium. | What the model does. | A machine-learning feature is planned. |
 | Fake door test. | Medium. | What people click. | Users described the problem. |
 | Prototype usability test. | Medium. | What people do on screens. | The flow is drawn. |
 | Wizard of Oz prototype. | High. | What people do with AI answers. | The evaluation set passed. |
 | Pricing test. | High. | What people pay. | Value and usability passed. |
 
+The chart rings the prototype usability test as the design sprint, and its arrow reads "Move up and to the right only after a pass." Positions are relative, not measured.
+
 </details>
 
-A [design sprint](/services/startups/design-sprint/) bundles several techniques into 5 days. The [Google Ventures (GV) sprint](https://www.gv.com/sprint/) moves through map, sketch, decide, prototype and test, ending on Friday with customer interviews where the team watches people react to the prototype. I use one when a team faces a critical question and has a concept clear enough to mock up.
+A [design sprint](/services/startups/design-sprint/) bundles several techniques into 5 days. The [Google Ventures (GV) sprint](https://www.gv.com/sprint/) moves through map, sketch, decide, prototype and test, ending on Friday with customer interviews where the team watches people try the mockup. I use one when a team faces a critical question and has a concept clear enough to mock up.
 
-After the first round, the techniques keep running. Teresa Torres's product trio (a PM, a designer and an engineer) holds a customer conversation every week, so the patterns stay current. For an AI feature, four of these techniques fit into one short workshop.
+After the first round, the techniques keep running. In [Teresa Torres's continuous discovery](https://www.producttalk.org/glossary-discovery-continuous-discovery/), the product trio (a PM, a designer and an engineer) talks with customers every week, so the patterns stay current. For an AI feature, two of these product discovery techniques anchor one workshop of 5 to 10 days.
 
 ## How do these techniques fit into one AI discovery workshop?
 
-**Our AI discovery workshop runs four of these techniques over 5 to 10 working days: interviews, use-case scoring with a data check, a realistic concept and a 5-user test.**
+**Our AI discovery workshop spreads four steps across 5 to 10 working days: customer interviews, use-case scoring with a data check, a realistic concept and a 5-user test.**
 
-Each tray below holds the matrix techniques that one workshop step runs, with the days the [four workshop steps](/services/ai-products/ai-product-discovery-workshop/#what-happens-during-the-ai-product-discovery-workshop) take.
+Each tray below holds one of the [four workshop steps](/services/ai-products/ai-product-discovery-workshop/#what-happens-during-the-ai-product-discovery-workshop) with its days, what it runs and its output; only the first and last trays use a matrix technique as written.
 
-![Four workshop trays showing the days, the product discovery techniques and the output of each step of the AI discovery workshop](/blog/product-discovery-techniques/product-discovery-techniques-workshop-bundle.svg "AI discovery workshop trays: the techniques each of the four steps runs")
+![Four workshop trays showing the days, the methods and the output of each step of the AI discovery workshop](/blog/product-discovery-techniques/product-discovery-techniques-workshop-bundle.svg "AI discovery workshop trays: what each of the four steps runs")
 
 <details class="astext"><summary>Show as text</summary>
 
-This table maps each workshop step to its days, the techniques it runs and what it produces.
+This table maps each workshop step to its days, the method it runs and what it produces.
 
-Table: AI discovery workshop steps and the techniques each one runs
+Table: Workshop steps, with what each step runs and produces
 
-| Workshop step | Days | Techniques it runs | Output |
+| Workshop step | Days | What it runs | Output |
 |---|---|---|---|
-| Task mapping. | Days 1–2. | Customer interviews with 4 to 6 users. | A task map of jobs, pain points and data per task. |
+| Task mapping. | Days 1–2. | Customer interviews with 4 to 6 users. | A task map: main tasks, pain points and data per task. |
 | Use case ranking. | Days 3–4. | Use-case scoring with a data readiness check. | A ranked use case list. |
 | Concept sketching. | Days 5–7. | A clickable concept with realistic model output, close kin of a Wizard of Oz prototype. | A concept ready to test. |
-| Test and plan. | Days 8–10. | Prototype usability test with 5 users. | A tested concept, a risk register and a scoped plan. |
+| Test and plan. | Days 8–10. | Prototype usability test with 5 users. | A tested concept, plus a risk register and a scoped plan. |
 
 </details>
 
-We run the four as one workshop: your product lead, a business owner and someone from engineering or data join for about 2 hours a day. You leave with a tested concept, a risk register and a scoped plan. If you continue, the concept moves into our [AI product design](/services/ai-products/) work.
+We run the four steps as one workshop: your product lead, a business owner and someone from engineering or data join for about 2 hours a day. By the end of the 10 days, you leave with the fourth tray's three outputs. If you continue, the concept moves into our [AI product design](/services/ai-products/) work.
 
 Before your next round, I'd write one open risk, one technique and one pass signal on a single card, and run nothing that lacks all three.
 
@@ -227,7 +231,7 @@ Before your next round, I'd write one open risk, one technique and one pass sign
 
 ### How many product discovery techniques should one round use?
 
-Two or three, one for each question still open, starting with the one that would kill the idea. More techniques in a single round slow the decision and rarely add evidence that changes it.
+Two or three, one for each question still open, starting with the riskiest assumption, the one that would kill the idea. More techniques in a single round slow the decision and rarely add evidence that changes it.
 
 ### Are product discovery techniques the same as UX research methods?
 
@@ -239,7 +243,7 @@ Yes, when the page behind the door says plainly that the feature is not built ye
 
 ### Can you run product discovery techniques without a designer?
 
-Yes, for user conversations, analytics review, surveys and spikes. Prototype tests and Wizard of Oz sessions need someone who can build a believable mockup in days, which is where a design team earns its place.
+Yes, for user conversations, analytics review, surveys and spikes. Usability tests and Wizard of Oz sessions need someone who can build a believable mockup in days, which is where a design team earns its place.
 
 ### Which techniques work for B2B product discovery with few customers?
 

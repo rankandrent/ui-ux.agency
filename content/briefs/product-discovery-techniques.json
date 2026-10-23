@@ -181,7 +181,7 @@
     "No ranking page separates what people say from what they do (NN/g's attitudinal vs behavioral dimension) when it ranks demand evidence. Our value section orders techniques on a say → do → pay ladder.",
     "No ranking page covers AI-feature techniques (Wizard of Oz with model-like output, an evaluation set on real inputs). Our H2 6 does, with NN/g as the source.",
     "No ranking page gives an order for running techniques (cheap and weak first, expensive and strong before the build). Our H2 8 plots cost against strength of evidence and places the design sprint as a bundle.",
-    "Vendor listicles (UserTesting, Productboard, Zeda, Plane) end on their own tool. Ours ends on what each technique hands to design and how a facilitated AI discovery workshop bundles four of them."
+    "Vendor listicles (UserTesting, Productboard, Zeda, Plane) end on their own tool. Ours ends on what each technique hands to design and how a facilitated AI discovery workshop anchors two of them."
   ],
   "contentModules": {
     "title": "Product discovery techniques: 14 methods and the risk each one tests",
@@ -286,7 +286,7 @@
     },
     {
       "h2": "How do these techniques fit into one AI discovery workshop?",
-      "answerHint": "**Our AI discovery workshop runs four of these techniques in sequence over 5 to 10 working days: user interviews, use-case scoring with a data check, a concept with realistic model output and a 5-user test.**",
+      "answerHint": "**Our AI discovery workshop anchors two of these techniques in sequence over 5 to 10 working days: user interviews, use-case scoring with a data check, a concept with realistic model output and a 5-user test.**",
       "points": [
         "Workshop bundle trays (visual 5 + astext table); eav 'workshop mapping'. Paraphrase, do not copy the hub step bodies. UP link 2 to the hub (fragment #what-happens-during-the-ai-product-discovery-workshop, conditional; plain hub URL otherwise).",
         "Who joins: product lead, engineering or data lead, business owner, about 2 hours a day (hub FAQ).",
