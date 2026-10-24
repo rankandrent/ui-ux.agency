@@ -18,6 +18,7 @@ takeaways:
   - "Rank setup steps by users lost, not by percentage, before you pick a screen to redesign."
   - "Report time to value as a median plus its slow tail, because a few multi-day accounts distort the average."
   - "Prove a redesign with a concurrent split, or compare sign-up cohorts only after every activation window has closed."
+image: /blog/user-onboarding-metrics/cover.svg
 draft: true
 qa: pending
 ---
@@ -32,7 +33,7 @@ That backward walk is how [SaaS onboarding design](/services/saas-products/saas-
 
 These six are a slice of product analytics, and of SaaS metrics in general, narrowed to user onboarding. I read the metrics tree from the top down. Start at the root that moved, go down one level, follow the branch that moved most and stop at the leaf beneath it.
 
-<!-- visual: metrics tree (user-onboarding-metrics-tree.svg). Top-down tree. Root in gray labeled lagging: trial-to-paid conversion. Level 2: activation rate and first-week retention. Level 3 under activation rate: sign-up completion rate, setup completion rate (with step drop-off rate as its child) and time to value. Leaf chips name the screens each number implicates: sign-up form; setup wizard; the single setup step losing the most users; empty state, first task and invite flow; second-session prompt. Small read-downward arrow. Caption: User onboarding metrics as a tree, read from the lagging outcome down to the screen to fix -->
+![Metrics tree with trial-to-paid conversion as the gray lagging root, activation rate and first-week retention below it, then sign-up completion rate, setup completion rate with step drop-off rate, and time to value, each linked to the onboarding screen it points to](/blog/user-onboarding-metrics/user-onboarding-metrics-tree.svg "User onboarding metrics as a tree, read from the lagging outcome down to the screen to fix")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -58,7 +59,7 @@ A tree only helps if every team computes each number the same way.
 
 Change any one of those choices and the number moves with no change in the product. Call them onboarding KPIs, activation metrics, onboarding funnel metrics or new-user metrics; the label matters far less than the formula behind it.
 
-<!-- visual: comparison card table (user-onboarding-metrics-comparison.svg). 6 horizontal cards, one per metric, each showing formula, denominator, window, start and end event and a small screen icon on the right. Colored left edge per tree level (level 2 for activation rate and first-week retention, level 3 for the rest). Not a plain grid. Caption: The 6 user onboarding metrics compared by formula, denominator, window and events -->
+![Six comparison cards, one per user onboarding metric, showing its denominator, time window and start and end events, with a colored left edge for its level in the metrics tree](/blog/user-onboarding-metrics/user-onboarding-metrics-comparison.svg "The 6 user onboarding metrics compared by denominator, window and events")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -129,7 +130,7 @@ Mixpanel, Amplitude and GA4 all build these funnels, and Microsoft Clarity adds 
 
 I rank steps by users lost, not by percentage. Say 1,000 users reach step 2 and 10% leave, while 50 users open an optional branch and 40% leave. Step 2 loses 100 users and the branch loses 20 users, so step 2 gets redesigned first despite its smaller relative loss.
 
-<!-- visual: symptom to screen diagnosis map (user-onboarding-metrics-drop-off-diagnosis.svg). Left column: 6 small funnel-shape thumbnails showing the data pattern (one cliff, slow staircase, cliff after a plug icon, cliff at an envelope, phone-only cliff, cliff at a card icon). Arrows lead to the implicated screen and the first fix to test. Caption: Drop-off patterns mapped to the onboarding screen they implicate and the first fix to test -->
+![Drop-off diagnosis map with six small funnel thumbnails, such as one cliff, a slow staircase and cliffs at an integration, email, mobile or payment step, each pointing to the onboarding screen it implicates and the first fix to test](/blog/user-onboarding-metrics/user-onboarding-metrics-drop-off-diagnosis.svg "Drop-off patterns mapped to the onboarding screen they implicate and the first fix to test")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -174,7 +175,7 @@ Speed and reach still do not tell you whether first value stuck.
 
 I count retention in the first week as any session after the sign-up day, up to 7 days out. Crossing it with activation gives four groups, and each one sends you to a different screen.
 
-<!-- visual: 2x2 quadrant (user-onboarding-metrics-activation-retention-2x2.svg). x axis: activated within window (no, yes). y axis: returned in first week (no, yes). Each quadrant shows a short name, what it means and which screen to open first. Axes labeled with the two metrics; not an automate or keep-human matrix. Caption: Activation rate crossed with first-week retention, with the screen each quadrant points to -->
+![Two-by-two grid crossing activated or did not activate with returned or did not return in the first week, naming each group, what it means and the screen to open first](/blog/user-onboarding-metrics/user-onboarding-metrics-activation-retention-2x2.svg "Activation rate crossed with first-week retention, with the screen each quadrant points to")
 
 <details class="astext"><summary>Show as text</summary>
 
@@ -215,7 +216,7 @@ User onboarding metrics prove nothing on a plain before-and-after chart, because
 
 A concurrent comparison removes most of that noise. New sign-ups are split at random, and a holdout group keeps the current screen while the redesign goes to everyone else in the same weeks. I check guardrail metrics beside the target, such as support tickets from new accounts and first-week retention, so a faster setup that confuses people later does not pass. For message rules rather than screens, see how to run [holdout groups for onboarding messages](/blog/user-onboarding-automation/#how-do-you-measure-user-onboarding-automation).
 
-<!-- visual: cohort read timeline (user-onboarding-metrics-cohort-read.svg). Horizontal timeline of 3 weekly sign-up cohorts, each with its 7-day activation window shaded. A redesigned-screen release flag between cohort 1 and cohort 2. A read-here marker placed only after the last window closes. A side lane shows a concurrent 50/50 split as the stronger option. Illustrative, no data; not a two-curve lift chart. Caption: Reading sign-up cohorts after a redesigned onboarding screen ships, with a concurrent split as the stronger option -->
+![Illustrative timeline of three weekly sign-up groups with their 7-day activation windows, the redesigned screen shipping after the first week, the read placed after the last window closes and a concurrent 50/50 split lane, above five numbered steps](/blog/user-onboarding-metrics/user-onboarding-metrics-cohort-read.svg "Reading sign-up cohorts after a redesigned onboarding screen ships, with a concurrent split as the stronger option")
 
 <details class="astext"><summary>Show as text</summary>
 
