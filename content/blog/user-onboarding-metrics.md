@@ -125,7 +125,7 @@ Mixpanel, Amplitude and GA4 all build these funnels, and Microsoft Clarity adds 
 
 ## Where does drop-off by step point to a redesign?
 
-**Drop-off by step points to the screen that loses the most users in absolute numbers; one spike means fix a field, while a slow leak means cut steps.**
+**Among user onboarding metrics, drop-off by step points to the screen losing the most users in absolute numbers; a spike means fix a field, a slow leak means cut steps.**
 
 I rank steps by users lost, not by percentage. Say 1,000 users reach step 2 and 10% leave, while 50 users open an optional branch and 40% leave. Step 2 loses 100 users and the branch loses 20 users, so step 2 gets redesigned first despite its smaller relative loss.
 
