@@ -33,7 +33,7 @@ A funnel review of drop-off from sign-up to first value is the first step of [Sa
 
 These six are a slice of product analytics, and of SaaS metrics in general, narrowed to user onboarding. I read the metrics tree from the top down. Start at the root that moved, go down one level, follow the branch that moved most and stop at the leaf beneath it.
 
-![Metrics tree with trial-to-paid conversion as the gray lagging root, activation rate and first-week retention below it, then sign-up completion rate, time to value and setup completion rate with step drop-off rate beneath it, each linked to the onboarding screen it points to](/blog/user-onboarding-metrics/user-onboarding-metrics-tree.svg "User onboarding metrics as a tree, read from the lagging outcome down to the screen to fix")
+![Metrics tree with trial-to-paid conversion as the gray lagging root, activation rate and first-week retention below it, then sign-up completion rate, setup completion rate with step drop-off rate beneath it, and time to value, each linked to the onboarding screen it points to](/blog/user-onboarding-metrics/user-onboarding-metrics-tree.svg "User onboarding metrics as a tree, read from the lagging outcome down to the screen to fix")
 
 <details class="astext"><summary>Show as text</summary>
 
