@@ -1,0 +1,453 @@
+{
+  "slug": "user-onboarding-metrics",
+  "keyword": "user onboarding metrics",
+  "secondary": [
+    "user onboarding analytics",
+    "in-app analytics for user onboarding"
+  ],
+  "metaKeywordVariants": ["user onboarding metrics", "user onboarding analytics", "in-app analytics for user onboarding", "onboarding activation rate", "time to value", "onboarding KPIs"],
+  "intent": "Informational with a commercial-investigation layer (Ahrefs intents for both rows: informational + commercial). Page 1 (WebSearch 2026-10-24; no warehouse SERP file for this keyword) is a field of SaaS-vendor listicles: usermaven.com ('user onboarding metrics'), whatfix.com ('10 Must-Track User Onboarding Metrics & KPIs (2024)'), chameleon.io ('User Onboarding Metrics, KPIs, and Benchmarks', March 26, 2024, 8 metrics), mixpanel.com ('Top 9 user onboarding metrics'), clickup.com, appcues.com (two pages: '8 user onboarding metrics and KPIs' and a May 2026 'complete guide'), guideflow.com. Every one lists 8–15 metrics with a formula and ends on its own tool. Searchers: SaaS founders, PMs and design leads at US companies who have onboarding data and want to know which numbers matter and what to do when one is bad. Our angle (SERP gap): a metrics tree that traces each number back to the screen it implicates, so the reader knows which onboarding screen to redesign first.",
+  "volume": 80,
+  "kd": 1,
+  "trafficPotential": 350,
+  "cpc": null,
+  "parentTopic": "customer onboarding metrics",
+  "clusterVolume": 130,
+  "clusterVolumeNote": "Exact rows (Ahrefs US, docs/content-system/warehouse/2026-10-19-terms-user-onboarding.json, identical in the 2026-10-14 file): 'user onboarding metrics' line 470: 80 / KD 1 / CPC null / parent 'customer onboarding metrics' / TP 350. 'user onboarding analytics' line 769: 50 / KD 7 / CPC null / parent 'customer onboarding metrics' / TP 150. The opportunity's sumVolume 130 is the 2-row sum, not the page volume; its trafficPotential 350 matches the primary row this time. 'in-app analytics for user onboarding' line 721: 60 / KD null / no parent / no TP (same file). 'customer onboarding metrics' (the parent topic) has NO row in any warehouse or keywords file: lexical variant only, no volume claimed. 'fix saas onboarding drop offs ux' (2026-10-19-terms-saas-ux.json line 849): 20 / no KD / no parent: lexical only.",
+  "parentTopicCheck": "Both cluster rows point to 'customer onboarding metrics'. No keyword the site already owns points here: 'user onboarding automation' → parent 'onboarding automation'; 'onboarding kyc process flow' → 'kyc onboarding'; 'ux design for saas' → 'saasui'; 'saas onboarding' has no 2026-10-19 row. clusters.json and competitors.json have no 'onboarding metric' entry. The parent topic's own SERP (WebSearch 2026-10-24: dock.us, onramp.us, arrows.to, under.io, supademo, mailchimp, docebo) is customer-success onboarding (time to go-live, CSAT, NRR), a different reader; that is why the parent is not the primary.",
+  "dataSource": "Ahrefs US rows in docs/content-system/warehouse/2026-10-19-terms-user-onboarding.json (pulled 2026-10-19). Semrush keyword_research called once on 2026-10-24: no_api_units. No GSC export (docs/data/gsc/latest.json missing). AHREFS_API_KEY not used: this run had no shell (Read/Write/Grep/Glob/WebSearch/WebFetch only), so the 2026-10-19 warehouse pull is the Ahrefs source. DEVIATION from the 2026-10-12 owner rule (Semrush or GSC): measured Ahrefs volume used, as in every brief since 2026-10-15. WebFetch returned ENOTFOUND for mixpanel.com, appcues.com, chameleon.io and uiuxdesignservices.us; competitor coverage comes from search snippets.",
+  "dataSourceDate": "2026-10-24",
+  "primaryChoice": "Primary 'user onboarding metrics' (80, KD 1, TP 350): highest volume and TP in the cluster, plain noun phrase, product-team SERP. 'user onboarding analytics' (50, KD 7, TP 150, same parent) becomes the secondary with its own H2 (instrumentation), because its SERP (amplitude.com/guides/measure-user-onboarding, contentsquare glossary, guideflow) is about setting up tracking, not about which numbers to read. 'in-app analytics for user onboarding' (60, no parent) rides in the same H2 body. 'customer onboarding metrics' (parent, no row, customer-success SERP) appears once, in an FAQ that separates the two. Lesson 2026-10-18 (question sibling): no 'what are/how to measure user onboarding metrics' row exists.",
+  "score": 73.3,
+  "expectedMonthlyTraffic": 105,
+  "opportunity": "docs/content-system/blog-opportunities.json line 2556: topic 'customer onboarding metrics' (hub saas-onboarding-design, main 'user onboarding metrics', score 73.3, sumVolume 130, trafficPotential 350, avgKd 4, expectedMonthlyTraffic 105, format 'complete guide (definition, process, examples, checklist)'). Ledger run 2026-10-24. Earlier briefs parked it as the silo's next candidate (onboarding-kyc-process-flow.json line 437; user-onboarding-automation.json line 385). Modules mapped: definition → H2 2 comparison table (formula, window, events; not a definition-first H2); process → H2 4 event spec + H2 9 proving a change; examples → hypothetical traces in the intro and H2 5, TradeZella symptom line in H2 6; checklist → H2 5 symptom → screen diagnosis map.",
+  "hub": "saas-onboarding-design",
+  "hubUrl": "/services/saas-products/saas-onboarding-design/",
+  "hubUrlVerified": "content/services/saas-onboarding-design.json (category 'SaaS products'); pillar slug 'saas-products' in content/pillars.ts line 108; same URL linked from content/blog/saas-onboarding.md line 48 and user-onboarding-automation.md line 34.",
+  "pillar": "saas-products",
+  "services": ["saas-onboarding-design"],
+  "industries": [],
+  "industriesWhy": "Leave empty. Metrics apply across SaaS; adding [fintech] would put TradeZella in the related rail and pull the post toward the KYC sibling.",
+  "author": "ahmad-ullah",
+  "authorWhy": "Ahmad Ullah is Principal UX Designer (content/home.ts line 203). Reading analytics to find the failing screen is UX research work (RULES.md: research → a UX lead). Rotation: last byline onboarding-kyc-process-flow (2026-10-20), 4 posts ago. He wrote that post's drop-off measurement H2, so he can link to it in his own voice instead of restating it. Rejected: Sahar Asif (bylined yesterday), Talha Saleem (2026-10-22, also wrote the automation sibling's holdout section: same author on holdouts twice), Faizan Khan (2026-10-21; wrote the saas-onboarding sibling that defines the three hub metrics, so his voice would repeat that section), Saliha Shahzad (UI/UX Designer, weaker fit for analytics), Shahmir Farooq (communication design).",
+  "funnel": "tofu",
+  "funnelWhy": "Silo count (services[0] = saas-onboarding-design, 3 published): saas-onboarding mofu, user-onboarding-automation mofu, onboarding-kyc-process-flow tofu = 33% TOFU (target 50, gap 17), 67% MOFU (target 30, over), 0% BOFU (target 20, gap 20). BOFU is furthest below, but page 1 for this keyword is all vendor how-to and listicle pages, which is TOFU (lesson 2026-10-06: set the stage from the SERP). The orchestrator chose by opportunity score. TOFU minimum service-support 3; this topic scores 4. After publish the silo is 50% TOFU / 50% MOFU / 0% BOFU, so the next post in this silo must be BOFU. TEMPLATE CTA CHECK: app/blog/[slug]/page.tsx line 97: TOFU shows the free checklist (email capture), never a case study. relatedCaseStudies() (lib/content.ts line 240) would return nothing anyway: no case study lists saas-onboarding-design and industries is empty. So no off-topic client result can appear.",
+  "serviceSupport": 4,
+  "serviceSupportWhy": "A team measuring onboarding has already noticed a weak number. The tree in this post ends on a screen (sign-up form, setup wizard, empty state, invite flow). That is exactly what the hub redesigns, and the hub's first step is a one-week funnel review of the same numbers. Not a 5: many readers are analysts or PMs who only want the formulas, and the post must serve them fully.",
+  "title": "User onboarding metrics: 6 numbers that point to the screen to fix",
+  "metaTitle": "User Onboarding Metrics: 6 Numbers That Point to the Fix",
+  "metaDescription": "User onboarding metrics for SaaS teams: 6 definitions, the events behind them and a metrics tree that tells you which onboarding screen to redesign first.",
+  "centralEntity": "user onboarding metrics",
+  "sourceContext": "ui-ux.agency (the design team of tkxel, Reston, VA, 200+ products designed since 2017) writes for US SaaS founders and product teams as the designers who read their onboarding funnel before redesigning it. The post treats user onboarding metrics as a diagnostic: each number is defined precisely (formula, denominator, window, start and end events) and then traced to the screen it implicates. It sells SaaS onboarding design (funnel review → interviews → redesign → measure). It never restates the saas-onboarding sibling's activation-event method, the automation sibling's holdout table or the KYC sibling's event table.",
+  "entities": [
+    "user onboarding metrics",
+    "user onboarding analytics",
+    "activation rate",
+    "activation event",
+    "time to value",
+    "sign-up completion rate",
+    "setup completion rate",
+    "step drop-off rate",
+    "first-week retention",
+    "trial-to-paid conversion",
+    "cohort",
+    "holdout group",
+    "A/B test",
+    "funnel exploration",
+    "Google Analytics 4 (GA4)",
+    "Mixpanel",
+    "Amplitude",
+    "Microsoft Clarity",
+    "session recordings",
+    "HEART framework",
+    "Goals-Signals-Metrics",
+    "Kerry Rodden",
+    "Nielsen Norman Group (NN/g)",
+    "empty state",
+    "setup wizard",
+    "invited member"
+  ],
+  "attributes": [
+    "formula",
+    "denominator (who counts as a starter)",
+    "time window",
+    "start and end events",
+    "segment split (role, plan, acquisition channel, platform)",
+    "median vs average and the slow tail",
+    "absolute vs relative drop-off",
+    "screen the metric points to",
+    "leading vs lagging",
+    "comparison method (cohort before/after vs concurrent holdout)",
+    "guardrail metric",
+    "baseline"
+  ],
+  "ngrams": [
+    "user onboarding metrics",
+    "user onboarding analytics",
+    "in-app analytics for user onboarding",
+    "activation rate",
+    "time to value",
+    "sign-up completion",
+    "setup completion",
+    "drop-off by step",
+    "first-week retention",
+    "activation window",
+    "metrics tree",
+    "sign-up cohort",
+    "holdout group",
+    "session recordings",
+    "funnel exploration",
+    "trial-to-paid conversion",
+    "HEART framework",
+    "goals, signals and metrics"
+  ],
+  "eav": [
+    { "attribute": "what the metrics are for (root)", "value": "user onboarding metrics measure how many new sign-ups reach first value, how fast and whether they come back; read as a tree, each one points to a stretch of screens", "source": "ui-ux.agency method (SERP gap); hub abstract: 'measures the work by activation rate and time to first value'" },
+    { "attribute": "the metric set (root)", "value": "6 numbers: sign-up completion rate, setup completion rate, step drop-off rate, time to value, activation rate, first-week retention; trial-to-paid conversion sits above them as the lagging outcome; holdout lift is a comparison method, not a seventh metric", "source": "ui-ux.agency method; hub FAQ names activation rate, time to first value and day-7 return rate" },
+    { "attribute": "sign-up completion rate (root)", "value": "accounts created ÷ users who opened the sign-up form, per channel; points to the form, SSO options and email verification timing", "source": "ui-ux.agency method (formula is arithmetic, no benchmark)" },
+    { "attribute": "setup completion rate (root)", "value": "users who finish the last required setup step ÷ accounts created, read within the activation window; points to the setup wizard", "source": "ui-ux.agency method" },
+    { "attribute": "step drop-off rate (root)", "value": "(users at step n − users at step n+1) ÷ users at step n; rank steps by users lost (absolute), not by percentage, because a 10% loss on a busy step can outweigh a 40% loss on a rare branch", "source": "ui-ux.agency method; GA4 funnel exploration reports step-to-step abandonment" },
+    { "attribute": "time to value (root)", "value": "median time from account created to the first value event among users who reached it, reported with the share who never reached it inside the window; the slow tail (90th percentile) points to waits on data, integrations or teammates", "source": "ui-ux.agency method; the sibling's 'time to first value' definition (minutes for self-serve, days when data is needed) — link, do not restate" },
+    { "attribute": "activation rate (root)", "value": "users who reach the activation event within the activation window ÷ the sign-up cohort; the window should be shorter than the trial", "source": "content/blog/saas-onboarding.md #where-does-saas-onboarding-end (link for the event choice; one sentence here)" },
+    { "attribute": "first-week retention (root)", "value": "share of a sign-up cohort who come back for a session on days 2–7; the hub's day-7 return rate is the stricter version (a session 7 days later)", "source": "hub FAQ (day-7 return rate) + ui-ux.agency method; FLAG for writer: name the hub term once so the two read as one family" },
+    { "attribute": "HEART framework (rare)", "value": "5 categories from Google: Happiness, Engagement, Adoption, Retention and Task success; teams pick the categories that matter for the project, not all five", "source": "https://research.google.com/pubs/archive/36299.pdf ; https://library.gv.com/how-to-choose-the-right-ux-metrics-for-your-product-5f46359ab5be" },
+    { "attribute": "Goals-Signals-Metrics (rare)", "value": "state the goal first, then the user behavior (signal) that shows progress, then the number that tracks it; for onboarding: goal 'new users get a first result alone' → signal 'first value event logged' → metric 'activation rate within 7 days'", "source": "same Google paper and GV article (process); the onboarding example is ui-ux.agency method" },
+    { "attribute": "open vs closed funnels (rare)", "value": "in a GA4 closed funnel users must enter at step 1; an open funnel lets them join at any step; a user who skips a step falls out of the later steps", "source": "https://support.google.com/analytics/answer/9327974?hl=en" },
+    { "attribute": "analytics vs research (rare)", "value": "analytics show what users do at low cost but not why; pair a drop-off number with session recordings or interviews before choosing a fix", "source": "https://www.nngroup.com/articles/quantitative-user-research-methods/ (fact-checker: confirm the 'low cost, hard to analyze' wording on the page before quoting)" },
+    { "attribute": "event properties (rare)", "value": "every onboarding event carries role (admin or invited member), plan, acquisition channel, platform and step index, so any metric can be split by segment", "source": "ui-ux.agency method" },
+    { "attribute": "B2B account vs user level (rare)", "value": "B2B products read activation at two levels: workspace activated (admin reached first value) and member activated (an invited member completed a first assigned task)", "source": "ui-ux.agency method; the sibling's admin/member paths section (link)" },
+    { "attribute": "proving a redesign (unique)", "value": "compare sign-up cohorts only after the activation window has closed for every user in them; run a concurrent A/B or holdout on the redesigned screen where traffic allows, because before/after cohorts mix in channel and seasonal changes", "source": "ui-ux.agency method; hub step 'Release and measure (1 week)… help set up an A/B test where possible and compare activation before and after'" },
+    { "attribute": "our funnel review (unique)", "value": "the first week of our onboarding redesign measures drop-off from sign-up to first value in your analytics and watches new-user session recordings; week 2 interviews 5 to 8 recent sign-ups, activated and lost", "source": "content/services/saas-onboarding-design.json process steps 1–2" },
+    { "attribute": "analytics access (unique)", "value": "read access to Mixpanel, Amplitude or Google Analytics 4 shows where new users drop off", "source": "hub FAQ 'Do you need access to our analytics?'" },
+    { "attribute": "case: slow time to productivity (unique)", "value": "TradeZella listed 'Hard to learn. New users took long to get productive.' and 'No onboarding guide' among four UX problems before the redesign; the whole web and mobile redesign later reported +25% user retention and +40% user interaction", "source": "content/case-studies/tradezella.md lines 41–43, 104–105 (do not attribute either result to onboarding alone)" }
+  ],
+  "skipgrams": [
+    ["activation", "time to value"],
+    ["drop-off", "step"],
+    ["sign-up", "completion rate"],
+    ["setup", "completion"],
+    ["cohort", "window"],
+    ["holdout", "redesign"],
+    ["event", "funnel"],
+    ["median", "time to value"],
+    ["segment", "role"],
+    ["screen", "redesign"],
+    ["session recordings", "drop-off"],
+    ["HEART", "adoption"],
+    ["goals", "signals"],
+    ["retention", "first week"]
+  ],
+  "lexical": {
+    "synonyms": ["onboarding KPIs", "onboarding metrics", "activation metrics", "onboarding funnel metrics", "new-user metrics"],
+    "hypernyms": ["product analytics", "user experience metrics", "SaaS metrics", "user onboarding"],
+    "hyponyms": ["sign-up completion rate", "setup completion rate", "step drop-off rate", "time to value", "activation rate", "first-week retention", "invite acceptance rate", "trial-to-paid conversion", "customer onboarding metrics"],
+    "meronyms": ["event", "event property", "sign-up cohort", "activation window", "denominator", "funnel step", "segment", "baseline", "holdout group", "dashboard"]
+  },
+  "keywordCarrier": {
+    "primary": "Plain noun phrase; use as subject or object ('User onboarding metrics only help when…', 'read user onboarding metrics as a tree'). No stacked nouns after it ('user onboarding metrics dashboard/guide/tree' banned; write 'a dashboard of user onboarding metrics'). The first sentence (within the first 60 words, Ahmad's voice) contains 'user onboarding metrics'. H1 and metaTitle open with the keyword.",
+    "density": "Word share as QA measures it: max uses = 0.02 × body words ÷ 3. For 2,200–2,500 body words that is at most 14–16 exact uses; aim for 10–13. Vary with 'onboarding numbers', 'these metrics', 'each number' and the lexical relations. Alt text does not count.",
+    "secondary": {
+      "user onboarding analytics": "H2 4 heading carries it ('Which events does user onboarding analytics need first?') and its first bold sentence uses it once more. Max 3 uses in the post.",
+      "in-app analytics for user onboarding": "Once in H2 4 body: 'In-app analytics for user onboarding only work when every path into a step fires the same event.' Not in a heading."
+    },
+    "metaTitle": "User Onboarding Metrics: 6 Numbers That Point to the Fix (56 chars)",
+    "h1": "User onboarding metrics: 6 numbers that point to the screen to fix (66 chars)",
+    "description": "Use as written (154 chars, keyword first, ends on the payoff 'which onboarding screen to redesign first', no consultation ask, no apostrophe): 'User onboarding metrics for SaaS teams: 6 definitions, the events behind them and a metrics tree that tells you which onboarding screen to redesign first.' Pronoun check: 'them' → the 6 definitions' metrics (correct); 'that' → a metrics tree (correct).",
+    "metaKeywords": ["user onboarding metrics", "user onboarding analytics", "in-app analytics for user onboarding", "onboarding activation rate", "onboarding KPIs"],
+    "count6": "The number 6 in the title must match H2 2's table exactly: (1) sign-up completion rate, (2) setup completion rate, (3) step drop-off rate, (4) time to value, (5) activation rate, (6) first-week retention. Excluded and named as such: trial-to-paid conversion (the lagging outcome at the tree's root), holdout lift (a comparison method, H2 9), invite acceptance rate (B2B split, H2 8), guardrails such as support tickets and survey scores (H2 3).",
+    "siblingPhrasePlan": "Banned in title, H1, metaTitle, description, H2/H3s, alt text and meta keywords: 'saas onboarding' (sibling keyword; allowed only as link anchor), 'SaaS onboarding design' (hub anchor; link anchor only, max 2), 'user onboarding automation' (sibling keyword; link anchor only), 'onboarding KYC process flow' (link anchor only), 'activation event' as a heading phrase (sibling owns how to choose it), 'aha moment', 'day-7 return rate' as a heading (hub/sibling term; one body mention to tie it to first-week retention)."
+  },
+  "questions": [
+    "Which user onboarding metrics should a SaaS team track?",
+    "How do you calculate activation rate, time to value and setup completion?",
+    "What is the difference between onboarding completion and activation?",
+    "Which events do I need to log before these metrics work?",
+    "Where in the funnel should I look first when activation drops?",
+    "Should time to value be a median or an average?",
+    "What does it mean when activation is high but users do not come back?",
+    "How do B2B products measure onboarding for admins and invited members?",
+    "How do I prove a redesigned onboarding screen improved the numbers?",
+    "How long should I wait before reading the results of an onboarding change?",
+    "How are customer onboarding metrics different from user onboarding metrics?",
+    "Which tools track user onboarding analytics?",
+    "Should NPS or CSAT count as an onboarding metric?"
+  ],
+  "serpGaps": [
+    "Every page-1 result is a vendor listicle (8, 9, 10, 15 metrics) that defines each number and stops. None traces a bad number back to the screen that caused it. Our H2 1 metrics tree and H2 5 symptom → screen map do.",
+    "No ranking page specifies the events, properties and windows behind each formula, so two teams computing 'activation rate' get different numbers. Our H2 2 table gives denominator, window and start/end events for all 6; H2 4 gives the event spec.",
+    "No ranking page reads two metrics together. Our H2 7 crosses activation with first-week retention in a 2×2, and each quadrant names a different screen problem.",
+    "Listicles treat time to value as one average. Our H2 6 splits the median from the slow tail and ties the tail to data imports, integrations and teammate waits.",
+    "No ranking page separates admin and invited-member metrics for B2B products (H2 8).",
+    "Vendor pages quote first-party benchmarks (activation medians, '80% lost in 3 days') and close on their tool. We quote no benchmark, explain why (every product defines activation differently) and close on proving a redesign against a holdout or a clean cohort.",
+    "Only general UX sources mention Google's HEART framework; none of the onboarding listicles uses Goals-Signals-Metrics to pick the 3 numbers a dashboard should show (H2 3)."
+  ],
+  "contentModules": {
+    "title": "User onboarding metrics: 6 numbers that point to the screen to fix",
+    "subtitle": "Define each number precisely, log the events behind it and trace a weak result back to the onboarding screen that caused it.",
+    "intro": "Backward-trace opener (see variety.introStyle). Sentence 1 carries the keyword and Ahmad's view, e.g. 'User onboarding metrics earn their place only when a bad number leads you to a specific screen.' Sentences 2–4: one hypothetical traced backward in plain prose with arrows written as words: say a US invoicing SaaS sees trial-to-paid slip; activation fell with it; setup completion fell; the loss sits on step 3, which asks for a CSV of past invoices. Sentence 5: one 'we' line from the hub (our onboarding work starts with a week of reading this funnel and watching new-user session recordings) with UP link 1 within the first 150 words. Sentence 6: point to the sibling for choosing the activation event (internalTargets). No blockquote, no list, no statistic, no question, no definition sentence, no credential sentence of the shape 'I'm a <role> at ui-ux.agency…'.",
+    "dataModules": [
+      { "type": "metrics tree (image + astext nested list)", "h2": "H2 1", "what": "Root: trial-to-paid conversion (lagging). Level 2: activation rate and first-week retention. Level 3 under activation: sign-up completion, setup completion (with step drop-off beneath it), time to value. Leaves: the screen each number implicates (sign-up form; setup wizard steps; empty state and first task; invite flow; second-session prompt)." },
+      { "type": "comparison table (image + astext table)", "h2": "H2 2", "what": "6 rows. Columns: metric | formula | denominator | window | start → end event | screen it points to. Row headers in column 1; 'Table:' caption line above." },
+      { "type": "event spec table (astext-style markdown table, no image)", "h2": "H2 4", "what": "Columns: event | when it fires | required properties | feeds which metric. ~7 rows (sign_up_started, account_created, setup_step_completed with step index, setup_completed, first_value_reached, session_started, invite_accepted). Hypothetical event names, labeled as an example naming scheme." },
+      { "type": "symptom → screen diagnosis map (image + astext table)", "h2": "H2 5", "what": "Columns: pattern in the data | screen it implicates | first fix to test | confirm with. ~6 rows (spike at one field; steady loss across many steps; drop after an integration step; drop at email verification; mobile-only drop; drop after a plan or payment step)." },
+      { "type": "2×2 quadrant (image + astext table)", "h2": "H2 7", "what": "Axes: activated within window (yes/no) × returned in first week (yes/no). Quadrants named by what they mean and which screen to look at." }
+    ]
+  },
+  "outline": [
+    {
+      "h2": "Which user onboarding metrics point to a screen you can redesign?",
+      "answerHint": "**Six user onboarding metrics point to screens: sign-up completion, setup completion, step drop-off, time to value, activation rate and first-week retention, arranged as a tree under trial-to-paid conversion.**",
+      "points": [
+        "Metrics tree (visual 1 + astext nested list). Explain reading direction: start at the root that moved, go down one level at a time, stop at the leaf that moved most.",
+        "Why trial-to-paid sits at the root but is not in the 6: it lags by the whole trial and mixes in pricing, sales and billing.",
+        "One sentence that a leaf is a stretch of screens, not a single metric owner; name the screens.",
+        "Bridge: 'A tree only works if every team computes each number the same way.'"
+      ]
+    },
+    {
+      "h2": "How do the 6 user onboarding metrics compare, formula by formula?",
+      "answerHint": "**The 6 metrics differ in their denominator, their window and the two events they sit between, and those three choices decide whether a number can be compared from month to month.**",
+      "points": [
+        "Comparison table (visual 2 + astext table; keywordCarrier.count6). Values from eav rows; activation and time to value link to the sibling for choosing the event (one link, not restated).",
+        "Onboarding completion vs activation: completing a checklist is not activation; one paragraph, answers PAA 'difference' question.",
+        "First-week retention vs the hub's day-7 return rate (one sentence).",
+        "Denominator trap: count users who started the step, not all sign-ups, for step metrics; count the whole sign-up cohort for activation.",
+        "Bridge: 'With six candidates on the table, the next decision is which three earn a place on the dashboard.'"
+      ]
+    },
+    {
+      "h2": "How do HEART and goals-signals-metrics narrow user onboarding metrics to three?",
+      "answerHint": "**Google's HEART framework and its goals-signals-metrics process narrow the list: name the onboarding goal, pick the behavior that shows progress, and keep only the numbers that track that behavior.**",
+      "points": [
+        "HEART 5 categories in one sentence; onboarding leans on Adoption, Task success and Retention (Google paper, GV article; Kerry Rodden named once).",
+        "Goals-Signals-Metrics worked for onboarding (eav example). Result: one outcome metric (activation rate), one speed metric (time to value), one quality metric (first-week retention); the other three become diagnostic drill-downs.",
+        "Happiness (NPS/CSAT) and support tickets as guardrails, asked after first value, not before (FAQ 5 expands).",
+        "Do not reuse ux-design-for-saas's 'at kick-off we usually settle on…' sentence.",
+        "Bridge: 'None of these numbers exists until the events behind them fire from every path.'"
+      ]
+    },
+    {
+      "h2": "Which events does user onboarding analytics need first?",
+      "answerHint": "**User onboarding analytics needs one event per meaningful step, each carrying the same properties (role, plan, channel, platform and step index), plus a first-value event that fires from every path into it.**",
+      "points": [
+        "Event spec table (data module 3; hypothetical event names).",
+        "Carrier sentence for 'in-app analytics for user onboarding' (keywordCarrier.secondary).",
+        "Paths that skip the UI (import, API, admin-created accounts) must still fire the event; one sentence and a plain-text pointer to the automation sibling's misfire example — do not retell it.",
+        "Open vs closed funnels in GA4 (eav, support.google.com link): use closed funnels for first-run setup, open for optional steps.",
+        "Tools in one line: Mixpanel, Amplitude, GA4 for funnels; Microsoft Clarity for session recordings (home.ts tools list). No ranking.",
+        "Bridge: 'Once the funnel is trustworthy, drop-off by step tells you where to look.'"
+      ]
+    },
+    {
+      "h2": "Where does drop-off by step point to a screen to redesign?",
+      "answerHint": "**Drop-off by step points to the screen where the most users leave in absolute numbers, and the shape of the loss (one spike or a slow leak) tells you whether to fix one field or cut steps.**",
+      "points": [
+        "Symptom → screen diagnosis map (visual 3 + astext table).",
+        "Absolute vs relative loss (eav step drop-off).",
+        "Analytics say where, not why: watch 10–20 session recordings of users who left at that step before choosing the fix — FLAG: '10–20' is method ('I watch…'), not a sourced figure; NN/g link for analytics vs research.",
+        "Regulated flows: link the KYC sibling's measurement section for ID retries and pending time; do not rebuild its table.",
+        "LEAD ANGLE 1 here (see leadAngle).",
+        "Bridge: 'Drop-off counts who leaves; time to value shows how long the ones who stay are kept waiting.'"
+      ]
+    },
+    {
+      "h2": "What does time to value show that activation rate hides?",
+      "answerHint": "**Time to value shows how long activated users waited, and its slow tail exposes the screens that block on data, integrations or teammates even when activation rate looks healthy.**",
+      "points": [
+        "Median plus 90th percentile plus share never reached (eav). Why not the average: a few multi-day accounts drag it.",
+        "Hypothetical histogram described in prose (no visual): two humps = two paths (sample data vs real import).",
+        "Screens the tail points to: empty states, import, integration connect, invite waits; link sibling's empty-state guidance only if not already linked (one sibling link per target rule).",
+        "TradeZella (DOWN link): 'Hard to learn. New users took long to get productive.' listed before the redesign; the whole web and mobile redesign later reported +25% retention. Do not attribute it to onboarding alone; do not reuse the sibling's 'No onboarding guide' sentence as the lead fact.",
+        "Bridge: 'Speed and reach still do not tell you whether first value stuck.'"
+      ]
+    },
+    {
+      "h2": "How should you read activation rate and first-week retention together?",
+      "answerHint": "**Read activation and first-week retention as a 2×2: users who activate but do not return point to a weak activation event or second-session prompt, and users who return without activating point to setup or empty states.**",
+      "points": [
+        "2×2 quadrant (visual 4 + astext table). Quadrants: activated + returned (healthy), activated + not returned (event too shallow → sibling link to choosing the event, or second-session prompt), not activated + returned (interested but stuck → setup, empty state), neither (sign-up promise mismatch or wrong audience; check acquisition channel split).",
+        "Read by sign-up cohort, only after the 7-day window closes for the whole cohort.",
+        "Bridge: 'In a B2B product, each quadrant splits again by role.'"
+      ]
+    },
+    {
+      "h2": "Which user onboarding metrics change for B2B admins and invited members?",
+      "answerHint": "**B2B user onboarding metrics split at two levels: workspace activation for the admin who set up the account and member activation for each invited user, plus the invite acceptance rate that connects them.**",
+      "points": [
+        "Account vs user level (eav). Invite acceptance rate = invites accepted ÷ invites sent (method; excluded from the 6, named in count6).",
+        "Why a member's time to value should be shorter than the admin's (they skip setup); link the sibling's admin/member section instead of describing the paths.",
+        "SSO and domain-joined members: they never see sign-up, so leave them out of the sign-up completion denominator.",
+        "Bridge: 'Once the numbers point at a screen and you redesign it, you need proof the change worked.'"
+      ]
+    },
+    {
+      "h2": "How do you prove a redesigned onboarding screen moved the number?",
+      "answerHint": "**Prove it with a concurrent A/B test or holdout on the redesigned screen where traffic allows, or with sign-up cohorts compared only after every user's activation window has closed.**",
+      "points": [
+        "Before/after cohort pitfalls: channel mix, seasonality, pricing changes; read the same segment split as the baseline.",
+        "Concurrent comparison: redesigned screen vs current screen for randomly split new sign-ups; guardrails (support tickets, first-week retention) checked too. Link the automation sibling's holdout section for message rules; do NOT re-cite Braze or its 1–15% figure, do not rebuild its metric table.",
+        "No minimum sample number unless sourced; say 'small B2B trials rarely have the traffic for an A/B test, so a clean cohort read plus 5 to 8 interviews is the honest fallback' (interview count from the hub).",
+        "Hub fact: our release-and-measure week helps set up an A/B test where possible and compares activation before and after (UP link 2, fragment conditional).",
+        "LEAD ANGLE 2, then close with Ahmad's one-sentence first-person recommendation, no label, no 'Bottom line' H2."
+      ]
+    }
+  ],
+  "faqs": [
+    { "q": "How many user onboarding metrics should a dashboard show?", "a": "Three on the main view: activation rate, time to value and first-week retention. Keep sign-up completion, setup completion and step drop-off one click down as diagnostics, because they explain a change rather than measure success." },
+    { "q": "Is onboarding completion the same as activation?", "a": "No. Completion means a user finished your checklist or tour; activation means they reached the action that predicts they will stay. A user can tick every box and never get value, so track both and trust activation." },
+    { "q": "How are customer onboarding metrics different from user onboarding metrics?", "a": "Customer onboarding metrics track a people-led program, such as time from signed contract to go-live and kickoff-to-training time. User onboarding metrics track what each user does alone in the product. Link the sibling's user vs customer section (fragment conditional)." },
+    { "q": "Which tools track user onboarding analytics?", "a": "Product analytics tools such as Mixpanel, Amplitude or Google Analytics 4 build the funnels; Microsoft Clarity adds session recordings that show why users leave. Onboarding tools such as Appcues, Userpilot or Pendo report on their own guides, not on your screens. No ranking, no pricing." },
+    { "q": "Should NPS or CSAT count as an onboarding metric?", "a": "Yes, as a guardrail, not a target. HEART files them under Happiness. Ask after the user reaches first value; a survey before it measures the sign-up form, not the product." }
+  ],
+  "internalTargets": [
+    { "href": "/services/saas-products/saas-onboarding-design/", "anchor": "onboarding redesign", "priority": "required", "where": "Intro, within the first 150 words. Hub link 1 of 2. Anchor must not be the bare hub phrase as a keyword; 'SaaS onboarding design' allowed as anchor only.", "verified": "content/services/saas-onboarding-design.json; URL used in content/blog/saas-onboarding.md line 48" },
+    { "href": "/services/saas-products/saas-onboarding-design/#how-does-the-saas-onboarding-design-process-work", "anchor": "our four-step onboarding process", "priority": "conditional", "blocker": "link-builder one-link-per-target rule (lesson 2026-10-16). If fragments count separately, link here in H2 9; otherwise use the plain hub URL in H2 9 as hub link 2.", "where": "H2 9", "verified": "hub h2 'How does the SaaS onboarding design process work?' → sectionId() (components/sections/SemanticSections.tsx)" },
+    { "href": "/blog/saas-onboarding/#where-does-saas-onboarding-end", "anchor": "how to choose the activation event", "priority": "required", "where": "Intro sentence 6 or H2 2 (one placement). Sibling, same silo.", "verified": "slugify('Where does SaaS onboarding end?') (lib/blog.ts line 6); same fragment linked from the hub FAQ and onboarding-kyc-process-flow.md line 224" },
+    { "href": "/blog/saas-onboarding/#how-should-b2b-saas-onboarding-treat-admins-and-members", "anchor": "separate admin and member paths", "priority": "conditional", "blocker": "one-link-per-target rule for /blog/saas-onboarding/; if only one fragment is allowed, keep the activation-event link and write this as plain text.", "where": "H2 8", "verified": "slugify('How should B2B SaaS onboarding treat admins and members?')" },
+    { "href": "/blog/saas-onboarding/#user-vs-customer-onboarding-which-are-you-fixing", "anchor": "(none)", "priority": "skip", "why": "Third fragment into the same sibling is clutter (RULES.md step 9). FAQ 3 states the difference in plain text." },
+    { "href": "/blog/user-onboarding-automation/#how-do-you-measure-user-onboarding-automation", "anchor": "holdout groups for onboarding messages", "priority": "required", "where": "H2 9. Sibling, same silo.", "verified": "slugify('How do you measure user onboarding automation?') (user-onboarding-automation.md line 268)" },
+    { "href": "/blog/onboarding-kyc-process-flow/#how-do-you-measure-drop-off-in-the-kyc-onboarding-flow", "anchor": "drop-off in a regulated KYC flow", "priority": "required", "where": "H2 5. Sibling, same silo.", "verified": "slugify('How do you measure drop-off in the KYC onboarding flow?') (onboarding-kyc-process-flow.md line 220)" },
+    { "href": "/case-studies/tradezella/", "anchor": "TradeZella's trading journal redesign", "priority": "required", "where": "H2 6. DOWN link (the only case study that names an onboarding problem).", "verified": "content/case-studies/tradezella.md lines 41–43, 104–105" },
+    { "href": "/services/saas-products/", "anchor": "SaaS product design", "priority": "required", "where": "H2 9 or the closing paragraph (pillar, not a service hub; does not count toward the cross-hub cap).", "verified": "content/pillars.ts line 108 (slug 'saas-products'); same URL in saas-onboarding.md line 285" },
+    { "href": "/services/saas-products/saas-product-redesign/", "anchor": "phased SaaS product redesign", "priority": "skip", "why": "Optional cross-hub link is not needed: the post stays on onboarding screens. Override only if the writer adds a 'problems beyond onboarding' line; it would be the ONE cross-hub link." },
+    { "href": "/blog/ux-design-for-saas/", "anchor": "(none)", "priority": "skip", "why": "Another silo's post (saas-design-agency); RULES.md forbids cross-silo post links." },
+    { "href": "/blog/saas-homepage-design/", "anchor": "(none)", "priority": "skip", "why": "Another silo's post (saas-design-agency); the 'neither' quadrant mentions the sign-up promise in plain text only." },
+    { "href": "/contact/", "anchor": "(none)", "priority": "skip", "why": "TOFU template adds the checklist CTA; orchestrator: no consultation ask in the description; RULES.md step 6." }
+  ],
+  "backlinkSuggestions": [
+    {
+      "source": "content/services/saas-onboarding-design.json → section 'SaaS onboarding design FAQs' → FAQ 'How do you measure SaaS onboarding success?' (line 99)",
+      "target": "/blog/user-onboarding-metrics/",
+      "anchor": "trace a weak number back to the screen behind it",
+      "priority": "required",
+      "why": "Hub → post (the hub links down to every silo post) at the exact place the hub answers the measurement question; hands the metrics intent to the post. The new clause names only what the post covers. Old string occurs once in the file.",
+      "old": "Here is how to <a href=\\\"/blog/saas-onboarding/#where-does-saas-onboarding-end\\\">choose the activation event</a> those numbers depend on.</p>",
+      "new": "Here is how to <a href=\\\"/blog/saas-onboarding/#where-does-saas-onboarding-end\\\">choose the activation event</a> those numbers depend on, and how to <a href=\\\"/blog/user-onboarding-metrics/\\\">trace a weak number back to the screen behind it</a>.</p>",
+      "escapeNote": "The hub stores HTML inside a JSON string, so href quotes appear in the file as backslash + quote (\\\"), exactly as in the existing link in the same answer."
+    },
+    {
+      "source": "content/blog/saas-onboarding.md → '## Where does SaaS onboarding end?' → paragraph 'Three numbers follow.' (line 88)",
+      "target": "/blog/user-onboarding-metrics/",
+      "anchor": "formulas, windows and the screen each number points to",
+      "priority": "required",
+      "why": "Sibling → post. This paragraph defines the three hub metrics briefly; the link sends readers who need the full metric set to the new owner of the metrics intent and tells Google which page owns it. Old string occurs once in content/.",
+      "old": "**Day-7 return rate** is the share of new sign-ups who come back for another session 7 days later; it shows whether first value turned into a habit.",
+      "new": "**Day-7 return rate** is the share of new sign-ups who come back for another session 7 days later; it shows whether first value turned into a habit. For all six onboarding numbers, see their [formulas, windows and the screen each number points to](/blog/user-onboarding-metrics/).",
+      "authorNote": "Check the next paragraph ('Only one stage comes after the activation event…') still follows. Bare URL, no fragment."
+    },
+    {
+      "source": "content/blog/user-onboarding-automation.md → '## How do you measure user onboarding automation?' → paragraph after the metrics table (line 302)",
+      "target": "/blog/user-onboarding-metrics/#what-does-time-to-value-show-that-activation-rate-hides",
+      "anchor": "how to read each of these numbers",
+      "priority": "required",
+      "why": "Sibling → post. The sentence names the three outcome metrics without defining them; the link points to the post that defines and reads them. Old string occurs once in content/.",
+      "old": "For the outcome row, I use the 3 metrics we track in our onboarding projects: activation rate, time to first value and day-7 return rate.",
+      "new": "For the outcome row, I use the 3 metrics we track in our onboarding projects: activation rate, time to first value and day-7 return rate ([how to read each of these numbers](/blog/user-onboarding-metrics/)).",
+      "fragmentRule": "Use the bare URL as written in `new` (a fragment to one H2 would under-sell a link about all three metrics). The `target` fragment above is informational only; if the link builder prefers a fragment, rebuild it with slugify() from the published H2 6."
+    }
+  ],
+  "externalSources": [
+    { "url": "https://research.google.com/pubs/archive/36299.pdf", "why": "Primary (Google, Rodden, Hutchinson and Fu, CHI 2010): HEART categories and the Goals-Signals-Metrics process. H2 3." },
+    { "url": "https://research.google/pubs/measuring-the-user-experience-on-a-large-scale-user-centered-metrics-for-web-applications/", "why": "Primary publication page for the same paper (use if the PDF link is disallowed by the link checker). H2 3." },
+    { "url": "https://library.gv.com/how-to-choose-the-right-ux-metrics-for-your-product-5f46359ab5be", "why": "Primary (Kerry Rodden, GV, US): pick only the HEART categories that matter; goals before metrics. H2 3." },
+    { "url": "https://support.google.com/analytics/answer/9327974?hl=en", "why": "Primary (Google Analytics Help): open vs closed funnels; users who skip a step fall out of later steps. H2 4." },
+    { "url": "https://www.nngroup.com/articles/quantitative-user-research-methods/", "why": "Primary (NN/g, US): analytics show what users do at low cost but are hard to analyze; pair with research for the why. H2 5. Fact-checker confirms wording on the page." }
+  ],
+  "sourcesDoNotUse": [
+    "Mixpanel '2024 Product Benchmarks: median B2B activation 36%' (seen only via guideflow, unverified, vendor first-party).",
+    "'The average app loses 80% of users within 3 days' (attributed to Mixpanel by getmonetizely; unverified).",
+    "Appcues '124% increase in activation rates' (vendor case snippet).",
+    "ProfitWell '12–21% higher willingness to pay' (secondhand via a customer-onboarding page).",
+    "Usermaven '560 of 800 users = 70%' worked example (do not copy their example numbers).",
+    "Userpilot 37.5% activation benchmark (already used by the saas-onboarding sibling FAQ; do not repeat).",
+    "Braze global control group 1–15% (already cited by the automation sibling; link that section instead).",
+    "Any 'good activation rate' or 'good time to value' benchmark: the post states none and says why."
+  ],
+  "visuals": [
+    { "type": "metrics tree", "file": "user-onboarding-metrics-tree.svg", "idea": "Top-down tree: trial-to-paid conversion (gray, 'lagging') → activation rate and first-week retention → sign-up completion, setup completion (with step drop-off as a child), time to value → leaf chips naming screens (sign-up form, setup wizard, empty state + first task, invite flow, second-session prompt). A small 'read downward' arrow. Text panel: nested list." },
+    { "type": "comparison card table", "file": "user-onboarding-metrics-comparison.svg", "idea": "6 horizontal cards, one per metric, each with formula, denominator, window, start → end event and a screen icon on the right. Not a plain grid table: card rows with a colored left edge per tree level. Text panel: the same table." },
+    { "type": "symptom → screen diagnosis map", "file": "user-onboarding-metrics-drop-off-diagnosis.svg", "idea": "Left column: 6 small funnel-shape thumbnails showing the data pattern (one cliff, slow staircase, cliff after a plug icon, cliff at an envelope, phone-only cliff, cliff at a card icon). Arrows to the implicated screen and the first fix to test. Text panel: table pattern | screen | first fix | confirm with." },
+    { "type": "2×2 quadrant", "file": "user-onboarding-metrics-activation-retention-2x2.svg", "idea": "x = activated within window (no/yes), y = returned in first week (no/yes). Each quadrant: short name, what it means, which screen to open first. Not a decision matrix of automate/keep human (sibling) — label axes with the two metrics. Text panel: 4-row table." },
+    { "type": "cohort read timeline", "file": "user-onboarding-metrics-cohort-read.svg", "idea": "Horizontal timeline of 3 weekly sign-up cohorts, each with its 7-day activation window shaded; a 'read here' marker placed only after the last window closes; a redesigned-screen release flag between cohort 1 and 2; a side lane showing a concurrent 50/50 split as the stronger option. Illustrative, no data. Not a two-curve lift chart (the automation sibling has one). Text panel: ordered steps." }
+  ],
+  "visualCountNote": "5 inline visuals (orchestrator: 4–5). The event spec in H2 4 stays a markdown table without an image; the time-to-value histogram stays prose.",
+  "leadAngle": "Moment 1: end of H2 5. The reader has traced the loss to a sign-up form, a setup step or a blank first screen and realizes an overlay tool or a new email will not change that screen. Offer (hub facts only): the first week of our onboarding redesign reads this same funnel in your analytics and watches new-user session recordings; the second week interviews 5 to 8 recent sign-ups, activated and lost. Plain text, no link at this moment (hub link 1 is in the intro). Moment 2: H2 9, after the cohort-read visual: 'we' sentence that our release-and-measure week helps set up an A/B test where possible and compares activation before and after, with UP link 2. The TOFU template shows the free checklist; no price and no 'book a consultation' in the body or description.",
+  "variety": {
+    "type": "Comparison",
+    "typeNote": "Recent site-wide types (newest first): Checklist (product-discovery-techniques), Guide (digital-product-design), Comparison (ux-design-for-saas, 3 posts ago), Article (onboarding-kyc-process-flow). Silo: Article, Guide, Guide. The orchestrator asked for a comparison of metric definitions or a metrics tree; this post is both, and 'Comparison' is the valid frontmatter value that fits a post built around a 6-way formula comparison and a 2×2. It must NOT reuse ux-design-for-saas's surface-ring map, its weak/strong teardown pairs or its triage grid.",
+    "introStyle": "Backward trace: sentence 1 states the thesis with the keyword; sentences 2–4 walk one hypothetical number backward, level by level, to a single field on a single screen (prose with 'which led to'/'traced to', no arrows list). Device = a causal chain read from outcome to screen. Used before (do not repeat): buyer scenario, myth, data point, question, definition, mini case, contrarian take, timed first-run log (blockquote), kill-list decision log (blockquote), itemized receipt, misfiring rule, try-this-now exercise, originator quote, three-question inline list, rule-to-screen translation, scope subtraction, end-state inventory, wrong-instrument pairing.",
+    "h2Frames": ["which point to a screen (tree)", "how they compare (formula table)", "how a framework narrows them (HEART/GSM)", "which events (instrumentation)", "where drop-off points (diagnosis map)", "what time to value shows (median vs tail)", "how to read two together (2×2)", "which change for B2B (roles)", "how to prove a redesign (cohort/holdout)", "FAQs"],
+    "sectionOrder": "tree → formula comparison → choose three → instrument → drop-off → time to value → activation × retention → B2B split → prove the change (closing) → FAQs. Macro to micro, then back out to proof.",
+    "visualTypes": ["metrics tree", "comparison card table", "symptom → screen diagnosis map", "2×2 quadrant", "cohort read timeline"],
+    "ctaAngle": "trace your weakest leaf to its screen and prove the fix with a clean cohort → we read the same funnel in week one (TOFU template: free checklist). Not 'run the audit', not 'pick one technique per risk', not 'send us a recording'.",
+    "listStyle": "nested tree list, 6-row formula table, event spec table, pattern → screen table, quadrant table, ordered cohort steps; each section ends with a one-line bridge",
+    "closingRule": "Closing H2 is the proof section; end with one first-person recommendation sentence from Ahmad, no label ('My recommendation:' banned), no 'Bottom line' H2 (orchestrator), no 'Have a … to design?' H2.",
+    "metaDescriptionEnding": "Ends on the payoff 'which onboarding screen to redesign first': no consultation ask; different from yesterday's 'so every test ends in a decision'.",
+    "differsFrom": "Last 3 site-wide: product-discovery-techniques (Checklist, wrong-instrument intro, toolkit matrix, value ladder, test card, scatter, trays), digital-product-design (Guide, end-state inventory, ledger cards, evidence ladder, doors), ux-design-for-saas (Comparison, scope subtraction, surface ring, teardown pairs, triage grid). Silo last 3: onboarding-kyc-process-flow (Article, rule-to-screen, swimlane, field card, outcome map, event table), user-onboarding-automation (Guide, misfiring rule, 2×2 automate/human matrix, rule blueprint, handoff relay, holdout two-curve chart, 'Bottom line'), saas-onboarding (Guide, blockquote first-run log, process flow, straight-line sort, empty-state anatomy, audit grid, 'Bottom line'). Nearest structural relative: user-onboarding-automation (it also has a 2×2 and a holdout section) — this post's 2×2 crosses two metrics, not frequency × risk, and its proof visual is a cohort timeline, not a two-curve lift chart."
+  },
+  "fingerprintCheck": {
+    "vs_product-discovery-techniques": "Differs on type, intro, H2 frames, section order, visuals, CTA angle, list style. 7 of 7.",
+    "vs_digital-product-design": "7 of 7.",
+    "vs_ux-design-for-saas": "Same type (Comparison). Differs on intro, H2 frames, order, visuals (tree, card table, diagnosis map, 2×2, timeline vs surface ring and triage), CTA, list style. 6 of 7.",
+    "vs_silo_onboarding-kyc-process-flow": "7 of 7 (event table exists in both: this one is generic SaaS events with properties; KYC's is regulated steps — no shared rows).",
+    "vs_silo_user-onboarding-automation": "Differs on type, intro, frames, order, CTA, list style; visuals share the 2×2 form but not axes or content. 6 of 7.",
+    "vs_silo_saas-onboarding": "7 of 7.",
+    "audit_2026-10-19_rules": "No definition-first H2 (H2 1 is a 'which point to a screen' question; PASS); 5 visuals, not 6 (PASS); description ends on a payoff with no consultation ask (PASS); closing H2 is the proof section, not 'Bottom line' nor 'Have a … to design?' (PASS).",
+    "result": "PASS"
+  },
+  "overlapCheck": {
+    "method": "Outline-level (no shell this run). Compared planned H2s/FAQs with content/blog/saas-onboarding.md, user-onboarding-automation.md, onboarding-kyc-process-flow.md, ux-design-for-saas.md, saas-homepage-design.md and content/services/saas-onboarding-design.json (all H2s, FAQs and measurement sentences).",
+    "headingOverlap": "Closest pairs: H2 2 vs saas-onboarding 'Where does SaaS onboarding end?' (sibling defines 3 metrics in one paragraph and teaches how to pick the event; this post gives 6 formulas with denominators and windows and links for the event choice). H2 9 vs automation 'How do you measure user onboarding automation?' (sibling: lift of message rules vs a holdout, per-rule harm metrics, Braze; this post: proving a redesigned SCREEN with cohorts or an A/B split; no shared rows, no Braze). H2 5 vs KYC 'How do you measure drop-off in the KYC onboarding flow?' (KYC: regulated events and pending time; this post: generic drop-off patterns → screens; link, no table rows shared). H2 8 vs saas-onboarding 'How should B2B SaaS onboarding treat admins and members?' (sibling: paths and invite timing; this post: how the metrics split; link). FAQ 'Is onboarding completion the same as activation?' has no counterpart. Hub FAQ 'How do you measure SaaS onboarding success?' answers in one line and will link here (backlink 1).",
+    "intentOverlap": "No title, keyword, metaTitle or H2 in content/ uses 'onboarding metrics' or 'onboarding analytics' (grep 2026-10-24). Two earlier briefs explicitly reserved 'user onboarding metrics' for this post. The hub FAQ and three siblings mention activation rate, time to first value and day-7 return rate as outcomes only; backlinks 1–3 hand that intent to this post.",
+    "residualRisk": "Low–medium. (1) Google may rank /blog/saas-onboarding/ for 'user onboarding metrics' because its 'Where does SaaS onboarding end?' paragraph defines the three metrics; backlink 2 and the phrase ban counter it — monitor after publish. (2) H2 9 sits next to the automation sibling's holdout section; keep it on screens and cohorts. (3) Do not restate the sibling's activation-rate, time-to-first-value or day-7 sentences word for word; write new sentences with the formula.",
+    "bannedPhrases": ["Where does SaaS onboarding end", "12-point audit", "straight line", "stopwatch", "aha moment", "2,000 messages", "37.5%", "global control group", "trigger rate", "dismiss rate", "time to funded account", "at kick-off we usually settle on", "Bottom line", "My recommendation:"],
+    "result": "PASS at outline level."
+  },
+  "sisterSiteCheck": {
+    "status": "UNVERIFIED — QA STEP REQUIRED",
+    "fetchStatus": "FAILED: WebFetch https://uiuxdesignservices.us/sitemap.xml → ENOTFOUND (2026-10-24). The orchestrator's curl found no onboarding or metrics pages. Repo evidence: content/briefs/onboarding-kyc-process-flow.qa.md line 29 compared only a sister finance page.",
+    "mitigation": "Diagnostic metrics-tree angle, question headings in our own words, no service wording. Banned in the post: 'onboarding services', 'SaaS onboarding agency', 'UX metrics services'. No link to the sister site.",
+    "qaStep": "Run curl -sS https://uiuxdesignservices.us/sitemap.xml | grep -iE 'onboard|metric|analytic|activation|retention|kpi'. For every match, curl the page and (a) compare its H2/H3 headings with ours (fail any heading that matches word for word or differs by one word), (b) run the 5-gram overlap (fail above 2%). If a sister page's title or H1 targets 'user onboarding metrics' or 'onboarding metrics', STOP and report to the owner as a publish blocker."
+  },
+  "rejectedCandidates": [
+    { "keyword": "customer onboarding metrics (parent topic; no warehouse row)", "why": "No measured volume; SERP is customer-success onboarding (dock.us, onramp.us, arrows.to, under.io: time to go-live, CSAT, NRR), a CSM reader rather than a product team buying design. One FAQ mention only." },
+    { "keyword": "user onboarding analytics (50, KD 7, TP 150)", "why": "Lower volume and TP than the primary, same parent; its SERP is about setting up tracking. Kept as the secondary with its own H2." },
+    { "keyword": "in-app analytics for user onboarding (60, no KD, no parent)", "why": "No parent topic or TP; tool-leaning. Secondary carrier in H2 4 only." },
+    { "keyword": "fix saas onboarding drop offs ux (20)", "why": "Too small and keyword-stuffed as a phrase; its intent is served by H2 5. Lexical only." },
+    { "keyword": "user onboarding process (150, KD 27) / what is user onboarding (150)", "why": "Separate opportunity (score 73); process stages are owned by /blog/saas-onboarding/ ('What does the SaaS onboarding process look like?')." },
+    { "keyword": "user onboarding tools / best user onboarding tools (70)", "why": "Tool-roundup intent (ledger skips tool roundups)." }
+  ],
+  "beats": "https://usermaven.com/blog/user-onboarding-metrics",
+  "beatsNote": "Position 1 in WebSearch 2026-10-24 for 'user onboarding metrics'. Not fetched (WebFetch ENOTFOUND for vendor domains this run). QA: run curl -sSI -A 'Mozilla/5.0' on it first (lesson 2026-10-16); if it redirects off-topic or 404s, use https://mixpanel.com/blog/user-onboarding-metrics/ as `beats`. Also run the 5-gram check against https://chameleon.io/blog/user-onboarding-metrics and https://appcues.com/blog/user-onboarding-metrics-and-kpis. Do NOT adopt a numbered '8/9/10 metrics' H2 list, their early-vs-long-term split as section order, or their worked example numbers.",
+  "competitorPagesStudied": [
+    { "url": "https://usermaven.com/blog/user-onboarding-metrics", "seen": "Snippet: completion rate formula with a 560/800 = 70% worked example.", "misses": "No screen diagnosis, no event spec, product analytics vendor close." },
+    { "url": "https://mixpanel.com/blog/user-onboarding-metrics/", "seen": "'Top 9 user onboarding metrics': time to value first, then product adoption success rate (free-to-paid for trials).", "misses": "Snippet-level: no denominators/windows, no reading of two metrics together." },
+    { "url": "https://chameleon.io/blog/user-onboarding-metrics", "seen": "March 26, 2024, ~3,700 words; 8 metrics (completion, TTV, activation, free-to-paid, retention, satisfaction, tickets, churn); early vs long-term split.", "misses": "Dated; no screen mapping; benchmarks are vendor data." },
+    { "url": "https://appcues.com/blog/user-onboarding-metrics-and-kpis", "seen": "'8 user onboarding metrics and KPIs'; activation framed as the key metric; vendor case '124% increase'.", "misses": "Vendor close; no instrumentation or proof method." },
+    { "url": "https://whatfix.com/blog/?p=37710", "seen": "'10 Must-Track User Onboarding Metrics & KPIs (2024)': product adoption rate = new active users ÷ sign-ups.", "misses": "Dated list; no diagnosis." },
+    { "url": "https://www.guideflow.com/blog/user-onboarding-analytics-metrics", "seen": "2026: TTV, activation, early retention as the three highest-signal metrics; framework starts from the activation event; segment by persona and source.", "misses": "Closest competitor on analytics; no screen map, no B2B role split, no cohort-read rule." },
+    { "url": "https://www.amplitude.com/guides/measure-user-onboarding", "seen": "Ranks for 'user onboarding analytics'; vendor guide to measuring onboarding.", "misses": "Not fetched; vendor close." }
+  ],
+  "competitorsJsonHandback": {
+    "note": "Not written to docs/content-system/competitors.json (task instruction). Orchestrator: append these.",
+    "domains": [
+      { "domain": "usermaven.com", "kind": "product analytics vendor blog", "silos": ["saas-onboarding-design"], "seenFor": ["user onboarding metrics"], "source": "WebSearch 2026-10-24" },
+      { "domain": "chameleon.io", "kind": "onboarding tool blog (US)", "silos": ["saas-onboarding-design"], "seenFor": ["user onboarding metrics"], "source": "WebSearch 2026-10-24" },
+      { "domain": "mixpanel.com", "kind": "product analytics vendor blog (US)", "silos": ["saas-onboarding-design"], "seenFor": ["user onboarding metrics"], "source": "WebSearch 2026-10-24" },
+      { "domain": "guideflow.com", "kind": "onboarding tool blog", "silos": ["saas-onboarding-design"], "seenFor": ["user onboarding metrics", "user onboarding analytics"], "source": "WebSearch 2026-10-24" },
+      { "domain": "whatfix.com", "kind": "digital adoption platform blog (US)", "silos": ["saas-onboarding-design"], "seenFor": ["user onboarding metrics"], "source": "WebSearch 2026-10-24" }
+    ],
+    "topPost": { "domain": "usermaven.com", "url": "https://usermaven.com/blog/user-onboarding-metrics", "title": "user onboarding metrics", "keywords": ["user onboarding metrics"], "estTraffic": null, "silo": "saas-onboarding-design", "status": "briefed", "brief": "content/briefs/user-onboarding-metrics.json" }
+  },
+  "clustersHandback": "After publish: add { parentTopic: 'customer onboarding metrics', owner: '/blog/user-onboarding-metrics/', keywords: ['user onboarding metrics (80, KD 1, TP 350)', 'user onboarding analytics (50, KD 7, TP 150)'], note: 'parent topic itself has no row; its SERP is customer-success intent' }. Mark blog-opportunities 'customer onboarding metrics' (73.3) done. Next post in this silo: BOFU (silo is 0% BOFU).",
+  "notes": [
+    "CANNIBALISATION GUARDS: (1) /blog/saas-onboarding/: do not teach how to choose the activation event, do not retell the Slack 2,000-message example, the stopwatch audit, the 12-point grid or the Userpilot benchmark FAQ. Link the event section once. (2) /blog/user-onboarding-automation/: do not cite Braze, do not rebuild the trigger/dismiss/complaint table, do not use a 10% holdout example; link its measurement section once. (3) /blog/onboarding-kyc-process-flow/: no ID retry, manual review, pending-time or funded-account rows; link its measurement section once. (4) Hub: do not restate the price, the 4 step bodies word for word or the tours-vs-tasks table; paraphrase steps 1, 2 and 4 in one sentence each. (5) ux-design-for-saas and saas-homepage-design (another silo): do not link; do not reuse 'at kick-off we usually settle on…' or the homepage metrics table.",
+    "CASE STUDY (exact facts only): TradeZella, content/case-studies/tradezella.md: problems listed before the redesign include 'Hard to learn. New users took long to get productive.' and 'No onboarding guide. First-time traders had nothing to walk them through setup.' Results of the whole web and mobile redesign (dashboard analytics as the main focus): +40% user interaction, +25% user retention, +30% new customers. Never attribute a result to onboarding or to metrics work. No case study lists this hub; do not call TradeZella an onboarding project.",
+    "CONFLICT (terminology, low risk): the hub and saas-onboarding use 'day-7 return rate' (a session 7 days after sign-up); this post's sixth metric is 'first-week retention' (a session on days 2–7). Writer: name the hub's term once in H2 2 as the stricter version so readers see one family; do not claim the hub is wrong.",
+    "HONESTY: every formula is arithmetic or our method, stated as 'I compute…' or as a definition; no benchmark rates for any metric (say why once). Hypotheticals labeled ('Say you run an invoicing SaaS for US contractors…'). The 10–20 session recordings in H2 5 is Ahmad's method, stated in first person, not a sourced figure.",
+    "ENTITY SALIENCE: 'user onboarding metrics' exact 10–13 uses; H2s 1, 2, 3 and 8 carry the exact phrase and H2 4 carries 'user onboarding analytics' (5 of 9 H2s contain 'user onboarding'; 4 of 9 = 44% exact). Rival entities capped at about 7 uses each: 'activation rate', 'time to value', 'drop-off', 'first-week retention', 'screen'.",
+    "VOICE: first person by Ahmad Ullah for method and judgment ('When a client sends me their funnel, I start at the root that moved…'). 'We' only for hub, home.ts and case-study facts. American spelling; US example companies are hypothetical and labeled.",
+    "POST-PUBLISH MONITOR: (a) if Google ranks /blog/saas-onboarding/ or the hub for 'user onboarding metrics', check backlinks 1–2 are live and the phrase ban holds; (b) sister site: see sisterSiteCheck.qaStep.",
+    "ABBREVIATIONS to expand on first use: software as a service (SaaS), business-to-business (B2B), Google Analytics 4 (GA4), Nielsen Norman Group (NN/g), Net Promoter Score (NPS), customer satisfaction score (CSAT), single sign-on (SSO), application programming interface (API), comma-separated values (CSV), user experience (UX)."
+  ]
+}
