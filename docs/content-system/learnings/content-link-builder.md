@@ -78,3 +78,7 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-23 (product-discovery-techniques): For a publisher's tool or template, cite the asset URL search returns (e.g. Strategyzer Test Card PDF) over an unconfirmed blog path, and quote only labels the snippet shows.
 - 2026-10-23: Check each number on the exact URL being linked; if it lives on a sibling page from the same publisher, reword to the linked page's claim.
 - 2026-10-23: Move a source link from a generic method name onto the number claim it supports.
+
+- 2026-10-24 (user-onboarding-metrics): If a search doesn't confirm a byline, attribute the claim to the publication ("A GV Library article…") and keep the person's name only where a source shows it.
+- 2026-10-24: For an NN/g overview, reword the claim to that page's own wording instead of a framing summarized from related pages.
+- 2026-10-24: Give exact rewordings for unlinked "Our service page…/Our guide to…" sentences left pointing at capped pages, so QA can fix them in one step.

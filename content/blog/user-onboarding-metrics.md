@@ -19,8 +19,8 @@ takeaways:
   - "Report time to value as a median plus its slow tail, because a few multi-day accounts distort the average."
   - "Prove a redesign with a concurrent split, or compare sign-up cohorts only after every activation window has closed."
 image: /blog/user-onboarding-metrics/cover.svg
-draft: true
-qa: pending
+draft: false
+qa: pass
 ---
 
 User onboarding metrics earn their keep only when a weak number walks you back to one screen you can change. Picture an invoicing tool for US contractors, sold as software as a service (SaaS), where trial-to-paid conversion slips for 2 monthly cohorts in a row. I trace that slip backward one level at a time: it led to a lower activation rate, which traced to falling setup completion. Setup completion traced to step 3 of the setup wizard, a screen that asks for a comma-separated values (CSV) file of past invoices that most new users in this example do not have on hand.

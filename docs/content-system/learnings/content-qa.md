@@ -117,3 +117,6 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-23 (product-discovery-techniques): Before merging a replacement bold answer that counts items ("the other N"), map each counted item to the image and table rows.
 - 2026-10-23: onpage only measures brief entities; count generic rivals (\bAI\b, prototypes?, model) over the body incl. panels and require the keyword to lead; recount after swapping synonyms.
 - 2026-10-23: Always curl sister pages and run the 8-word check, not only the 5-word percentage (0.43% overlap still hid two 8-word runs).
+
+- 2026-10-24 (user-onboarding-metrics): When a panel column moves into an open table because the image doesn't draw it, use short row labels so the image's text isn't shown twice, then recheck the brief's word pairs.
+- 2026-10-24: Rerun semantic-score after each rival-entity trim; removing a phrase can break a skip-gram pair.

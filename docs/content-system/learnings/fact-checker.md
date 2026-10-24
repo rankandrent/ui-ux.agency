@@ -138,3 +138,9 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-23 (loop 2): When QA adds a definite article to a duration ("the 10 days"), check it against every range the post and service page give; "the" + the upper end of a range is WRONG.
 - 2026-10-23: When a backlink says "X is one of the [list]", check X appears by name in the target section's list; otherwise use a relation the target states ("can sit beside").
 - 2026-10-23 (method): Check scatter placement from <circle> cx/cy against the band rectangles, not from where the <text> starts.
+
+- 2026-10-24 (user-onboarding-metrics): "Rather than X alone" assumes X contributed; for any such credit clause about a case study, find X in its approach/redesign sections, else say the case study reports no X result.
+- 2026-10-24: When a post defines a hub-named metric, grep the site for a definition; if none, make it the author's reading, and check it fits the post's day-counting convention everywhere (table, prose, SVG text, aria-label).
+- 2026-10-24: Compare every metric→screen mapping across all graphics, panels and tables in a post and align them with the prose.
+- 2026-10-24 (loop 2): When a post defines a hub-named metric, grep every sibling post for that metric and check each definition against the post's day-counting rule (day 0 vs day 1).
+- 2026-10-24: For each item a backlink names, check every attribute the link text promises (formula, window, screen) exists in the target section for that item.

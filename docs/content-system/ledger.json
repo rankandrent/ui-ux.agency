@@ -180,6 +180,24 @@
         "/blog/product-discovery/ (stage 4: test the riskiest assumptions)",
         "/case-studies/mass-media-co/ (discovery workshop line)"
       ]
+    },
+    {
+      "slug": "user-onboarding-metrics",
+      "hub": "saas-onboarding-design",
+      "keyword": "user onboarding metrics",
+      "date": "2026-10-24",
+      "images": 5,
+      "internalLinks": 8,
+      "externalLinks": 4,
+      "qaLoops": 1,
+      "factLoops": 2,
+      "semanticScore": 94,
+      "opportunityScore": 73.3,
+      "backlinks": [
+        "/services/saas-products/saas-onboarding-design/ (FAQ: measuring onboarding success)",
+        "/blog/saas-onboarding/ (day-7 return rate line)",
+        "/blog/user-onboarding-automation/ (outcome-row metrics)"
+      ]
     }
   ],
   "audits": [

@@ -646,6 +646,40 @@
       "visuals": 5,
       "example": "hypothetical AI shift-swap test card for a B2B scheduling product",
       "date": "2026-10-23"
+    },
+    {
+      "slug": "user-onboarding-metrics",
+      "hub": "saas-onboarding-design",
+      "type": "Comparison",
+      "funnel": "tofu",
+      "introStyle": "walking one number backward to one screen",
+      "h2Frames": [
+        "metrics tree",
+        "6-metric comparison",
+        "HEART narrowing",
+        "events to log",
+        "drop-off by step",
+        "time to value vs activation",
+        "activation × retention 2×2",
+        "B2B changes",
+        "proving a redesign moved the number",
+        "FAQs"
+      ],
+      "sectionOrder": [
+        "Which user onboarding metrics point to a screen to fix?",
+        "How do the 6 user onboarding metrics compare?",
+        "How does HEART narrow user onboarding metrics to three?",
+        "Which events does user onboarding analytics need first?",
+        "Where does drop-off by step point to a redesign?",
+        "What does time to value show that activation rate hides?",
+        "How should you read activation with first-week retention?",
+        "Which user onboarding metrics change for B2B products?",
+        "How do you prove a redesigned screen moved the number?",
+        "FAQs"
+      ],
+      "visuals": 5,
+      "example": "hypothetical invoicing tool for US contractors",
+      "date": "2026-10-24"
     }
   ]
 }

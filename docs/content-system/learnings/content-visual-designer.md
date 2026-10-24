@@ -125,3 +125,8 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-23: A brute-force width search minimizing the sum of the largest line counts per row can cut tray/column layouts' height enough to drop the canvas size without shrinking text.
 - 2026-10-23: When a fact-check changes a table/tray cell, rerun the width search with the new text before redrawing; a longer cell can push the bottom edge over the limit.
 - 2026-10-23: Image labels like rung tags, stamps and rings must also appear in the text panel when the image is first delivered.
+
+- 2026-10-24 (user-onboarding-metrics): Key panel blocks by \((\S+?\.svg)\) when markers put the file name in parentheses, and assert all file names parsed before drawing.
+- 2026-10-24: The overlap check tests text against text, not lines; label series inside the first bar's segments and assert label width fits the segment.
+- 2026-10-24: Run a column-subset search first for wide tables, keep the columns the section's bold answer names, and report the rest as a panel split.
+- 2026-10-24: An image legend (e.g. "Level 2/3/4") needs a matching panel line; panel columns must equal the drawn columns.

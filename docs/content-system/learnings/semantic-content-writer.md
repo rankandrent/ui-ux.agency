@@ -183,3 +183,8 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-23: Run the hedge grep on brief-suggested sentences before pasting them ("could kill the idea").
 - 2026-10-23: In a technique toolkit, table cells inflate rival-entity counts; give panels stand-in nouns ("research notes", "user conversations") before writing, and put each technique's planning time in prose as digit + unit.
 - 2026-10-23: When paraphrasing a primary source's list (Cagan's four risks, HIPAA/CCPA expansions), check sibling and sister pages for the same sentence shape; two posts paraphrasing one source converge.
+
+- 2026-10-24 (user-onboarding-metrics): In metrics posts, denominator nouns ("cohort", "drop-off") outrun the keyword via table cells and panels; give them stand-in nouns before drafting and grep rival counts with marker lines excluded.
+- 2026-10-24: Rewrite every service-page step fact by changing both verb and object phrase, then check each 8-word window against the service JSON.
+- 2026-10-24: Expand abbreviations in render order, table cells included.
+- 2026-10-24: A sentence saying every metric depends on one decision must be true for each metric; don't reuse the "Say you run a … SaaS product for US …" intro shape.

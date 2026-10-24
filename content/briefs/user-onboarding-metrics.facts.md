@@ -1,5 +1,7 @@
 # Fact-check: user-onboarding-metrics
 
+> **Loop 1 below is SUPERSEDED by Loop 2 (end of file).** Kept for the record only.
+
 Post: `content/blog/user-onboarding-metrics.md` (draft, 2026-10-24). Checked 2026-10-24.
 
 **Method note.** WebFetch failed with `getaddrinfo ENOTFOUND` for every external host (research.google.com, library.gv.com, support.google.com, www.nngroup.com). I verified each source with a domain-restricted WebSearch that returned the exact URL the post uses plus supporting snippets. For library.gv.com the search returned the post's path with a Medium `?gi=` tracking parameter, which I treat as the same URL. Site facts were checked against the repo files named in each row.
@@ -93,5 +95,74 @@ with
 - No local office claims. No vendor benchmark numbers.
 - Every "we" sentence maps to a hub step (L156, L235) except L83 (F3) and L28 (F2).
 - The "200+ since 2017" figure is a team figure, as required.
+
+VERDICT: FAIL (loop 1, superseded)
+
+---
+
+# Loop 2 (2026-10-24)
+
+Scope: only text that changed after loop 1 (QA edits, as applied in the post at the time of checking), the regenerated tree and comparison SVGs, and the 3 backlink sentences. Unchanged text keeps its loop 1 verdict. WebFetch still fails with `ENOTFOUND` for every external host, so the Pendo and Userpilot checks used domain-restricted WebSearch (method lesson 2026-10-05). Line numbers refer to the current post.
+
+## Loop 1 items
+
+| Item | Status | Evidence |
+|---|---|---|
+| F1 tools FAQ (L279, shortened by QA): "Onboarding tools Appcues, Userpilot and Pendo report on their own guides; Pendo and Userpilot also offer product analytics, so check which events each one captures." | RESOLVED, TRUE | Pendo: https://www.pendo.io/product/analytics/ and https://support.pendo.io/hc/en-us/articles/22172817933595-Understand-user-behavior-with-reports (funnel and retention reports). Userpilot: https://userpilot.com/product/product-analytics/ and https://docs.userpilot.com/product-analytics/reports/funnels (funnels, retention cohorts; Growth tier and up, which "also offer" does not contradict). |
+| F2 (L28): "A funnel review of drop-off from sign-up to first value is the first step of SaaS onboarding design at ui-ux.agency…" | RESOLVED, TRUE | Hub L58: step 1 "Funnel review (1 week)", "We measure drop-off from sign-up to first value". The longest shared run is 6 words, under the 8-word limit. |
+| F3 (L98): day-7 return rate read "as a session on day 7 itself… the stricter member of the first-week retention family" | RESOLVED inside the post, TRUE | Hub FAQ L99 names the metric with no definition. Day 7 falls inside the post's days 2–7 window, so "stricter member" holds. A conflict with a sibling page remains; see F10. |
+| F4 window wording | RESOLVED, TRUE | Prose L206 "any session on days 2 to 7, with the sign-up day as day 1"; comparison table L79 "Days 2 to 7, with sign-up as day 1."; formula table L94 "a session on days 2 to 7 ÷ all new sign-ups"; comparison SVG text lines "Days 2 to 7, with" / "sign-up as day 1"; aria-label "window days 2 to 7, with sign-up as day 1". All agree. Also consistent: L52 "read within 7 days of sign-up", FAQ L287 "the return metric needs the same wait", and the 2×2 title. |
+| F5 (L198) TradeZella credit | RESOLVED, TRUE | tradezella.md L4/L35/L46/L100/L105: web and mobile, dashboard analytics as the main focus, results table "after the dashboard redesign", +25% retention. Services list has no onboarding work. |
+| F6 (L245) before-and-after | RESOLVED, TRUE | Pasted as written. No longer rules out the hub's L61 step. |
+| F7 (L194) "several days" | RESOLVED, TRUE | No unlabeled figure remains. |
+| F8 time-to-value screens | RESOLVED, TRUE | Panel L47, formula table L92, tree SVG text (x=620, y=574/604: "Screens: empty state, imports," / "integrations and invites") and tree aria-label all read "empty state, imports, integrations and invites". This matches the prose at L198 (empty state, import step, integration, invite). |
+
+## Changed text and graphics (new in loop 2)
+
+| # | Claim (line) | Verdict | Source / evidence |
+|---|---|---|---|
+| 31 | New intro (L26): invoicing tool for US contractors, SaaS, trial-to-paid slipping for 2 monthly cohorts, traced to activation, then setup completion, then step 3 CSV import "in this example" | TRUE (labeled hypothetical) | "Picture…" and "in this example" mark it as illustrative. US frame (RULES "US market"). The trace order (activation → setup completion → one step) matches the tree: setup completion sits under activation and step drop-off under setup completion. |
+| 32 | L28: "Activation rate, time to value and the activation window behind setup completion depend on one earlier decision" (the activation event) | TRUE (internal) | Activation rate's end event and time to value's end event are both the activation event (event table L134: first_value_reached = "the activation event"). Setup completion's window is "the activation window" (L75). |
+| 33 | L60: onboarding KPIs (key performance indicators) and other labels | TRUE | Correct expansion. No figures. |
+| 34 | L102: churn rate, feature adoption and monthly active users are "staples of vendor lists" and "describe the product after the first week" | TRUE (judgement) | Editorial scoping, with no figures or named vendor. |
+| 35 | Formula and screen table (L85–94), moved out of the panel | TRUE (method), consistent | Time to value formula now uses "all new sign-ups" for the never-reached share, which resolves the loop 1 row 25 note. Activation rate points to "First task and empty state". The tree draws activation rate as an inner node with no screen chip, so the two do not conflict. The 2×2 sends "returned, did not activate" to "setup wizard and empty state", which matches the activation and setup rows. |
+| 36 | Comparison table (L72–79) and comparison SVG | TRUE, consistent | All 6 rows (denominator, window, events) match cell for cell between the panel table, the SVG `<text>` nodes and the aria-label. Level legend (2: activation and retention; 3: sign-up, setup, time to value; 4: step drop-off) matches the tree's indentation (x=124 / 164 / 204). |
+| 37 | Tree SVG regenerated | TRUE, consistent | 6 nodes under the gray root. Screens: sign-up form; setup wizard; single setup step losing the most users; empty state, imports, integrations and invites; second-session prompt. These match the panel L42–48 and the formula table. Its "Screen: setup wizard" is consistent with table "Setup wizard."; sign-up completion's chip "sign-up form" is a subset of the table's "Sign-up form, single sign-on buttons and email verification" (not a conflict). |
+| 38 | "Confirm with" table (L173–182), moved out of the panel | TRUE (method) | Each row maps to a pattern in the diagnosis table (L158–165). Same 6 patterns, same order. |
+| 39 | 2×2 session-recording step (L227): "I filter session recordings to this group to see which step stops them" | TRUE (method) | First-person method. Consistent with L169 (10 to 20 recordings) and the hub's step 1 recordings. 2×2 SVG quadrants checked by coordinates: top row = Returned (y=262 label), left column = did not activate (x=376 label). Each quadrant's text matches the panel table L218–221. |
+| 40 | Closing (L265): "takes 3 to 6 weeks across 4 steps, and in its final week we help your team set up a split test where traffic allows and compare activation from before the release with activation after it" | TRUE | Hub L56 "4 steps over 3 to 6 weeks". L61 "Release and measure (1 week)" is the 4th and last step: "help set up an A/B test where possible and compare activation before and after". "Final week" follows from the step order and its 1-week length. No 8-word overlap. |
+| 41 | New description (L4) | TRUE | "6 definitions and the events behind them", then the tree down to a screen. Matches the body. |
+
+## Backlinks into this post
+
+| # | Sentence | Verdict | Evidence |
+|---|---|---|---|
+| 42 | `content/services/saas-onboarding-design.json` L99 FAQ "How do you measure SaaS onboarding success?": "…how to trace a weak number back to the screen behind it" | TRUE | That is the post's thesis (L26, H2 1, tree, formula table). |
+| 43 | `content/blog/saas-onboarding.md` L88: "For the full set of six, see each metric's formula, window and the screen it points to" | TRUE as a link sentence, but see F10 | The post gives all 6 formulas and screens (L87–94) and all 6 windows (L72–79). However, the sentence just before it in the same paragraph defines day-7 return rate as a session "7 days later". Under the post's convention (sign-up day = day 1), that lands on day 8, outside the first-week window the post calls this metric's "family" (L98). A reader who follows this link meets two definitions. |
+| 44 | `content/blog/user-onboarding-automation.md` L302: "activation rate, time to first value and day-7 return rate (formulas and windows for all three)" | WRONG (overstated) | Activation rate and time to value each have a formula and a window (L75–78, L92–93). Day-7 return rate appears only in L98 as a one-day window ("a session on day 7 itself"), with no formula in either table. "Formulas … for all three" is not met. See F11. |
+
+## Loop 2 fixes (exact replacement text)
+
+**F10 (`content/blog/saas-onboarding.md` L88, third sentence; the post needs no change).** Replace
+"**Day-7 return rate** is the share of new sign-ups who come back for another session 7 days later; it shows whether first value turned into a habit."
+with
+"**Day-7 return rate** is the share of new sign-ups who come back for another session on day 7, counting the sign-up day as day 1; it shows whether first value turned into a habit."
+Stale record: `content/briefs/user-onboarding-metrics.json` L334–335 and L446 still carry "7 days later" as saas-onboarding's definition.
+
+**F11 (`content/blog/user-onboarding-automation.md` L302, link text only).** Replace
+"([formulas and windows for all three](/blog/user-onboarding-metrics/#how-do-the-6-user-onboarding-metrics-compare))"
+with
+"([definitions and windows for all three](/blog/user-onboarding-metrics/#how-do-the-6-user-onboarding-metrics-compare))"
+(The anchor is right. The day-7 line, L98, sits inside that H2.)
+
+**Stale record (no change to the post):** `content/briefs/user-onboarding-metrics.visuals.json` line 3 still lists the tree leaf as "empty state, first task and invite flow". Update it to "empty state, imports, integrations and invites" so a re-render does not bring back F8.
+
+## Honesty check (loop 2)
+
+- No new clients, results, testimonials, awards, certifications, team members or offices.
+- Every "we/our" sentence maps to the hub: L28 → step 1; L98 → FAQ L99; L186 → steps 1–2; L265 → L56 and L61.
+- "200+ since 2017" stays a team figure.
+
+The post itself passes. F10 and F11 are one-line edits in sibling files that link to it.
 
 VERDICT: FAIL
