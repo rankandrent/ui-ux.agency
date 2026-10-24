@@ -299,7 +299,7 @@ Table: Metrics for measuring onboarding automation, rule by rule
 
 </details>
 
-For the outcome row, I use the 3 metrics we track in our onboarding projects: activation rate, time to first value and day-7 return rate. I compare each one with the holdout, reading activation within the first 7 days and again within 14 days.
+For the outcome row, I use the 3 metrics we track in our onboarding projects: activation rate, time to first value and day-7 return rate ([definitions and windows for all three](/blog/user-onboarding-metrics/#how-do-the-6-user-onboarding-metrics-compare)). I compare each one with the holdout, reading activation within the first 7 days and again within 14 days.
 
 I quote no benchmark rates for these, because they vary by product. Pause any rule whose dismissals or complaints climb. Sometimes the numbers say the rules make things worse.
 

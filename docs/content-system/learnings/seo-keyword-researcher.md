@@ -109,3 +109,8 @@ Each lesson: date, what happened (evidence), the rule to follow next time. Keep 
 - 2026-10-23 (product-discovery-techniques): Before taking an opportunity, read the parent_topic of every row in its keywords[]; if a row the site already owns points to the new primary, ban that phrase in the new post outside one link anchor, add a sibling → post backlink and a ranking-swap monitor note.
 - 2026-10-23: When no case study lists the hub and the post has no industries, the MOFU template falls back to consultation + hub price, so MOFU is safe; keep the price out of the body.
 - 2026-10-23: When a title carries a count, put the exact itemized list in keywordCarrier and name the bundles excluded from it.
+
+- 2026-10-24 (user-onboarding-metrics): When an opportunity's parent topic has no warehouse row, search it before treating it as the cluster head; if its SERP serves a different reader, keep the product-team child as primary and use the parent phrase in one separating FAQ.
+- 2026-10-24: When a sibling defines the hub's metrics in passing, aim a backlink at that exact sentence and log hub/post term mismatches ("day-7 return rate" vs "first-week retention") for the writer to resolve in one sentence.
+- 2026-10-24: When a title carries a count of metrics, list excluded nearby metrics and why in keywordCarrier.
+- 2026-10-24: Don't mark a description "use as written" when it ends on a payoff instead of a reader step; check the beats URL for redirects (usermaven now 308s to /blog/user-onboarding-kpis).
