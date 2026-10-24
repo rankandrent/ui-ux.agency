@@ -24,7 +24,7 @@ qa: pending
 
 User onboarding metrics earn their keep only when a weak number walks you back to one screen you can change. Say you run an invoicing software as a service (SaaS) product for US contractors, and trial-to-paid conversion slips for 2 monthly cohorts in a row. I trace that slip backward one level at a time: it led to a lower activation rate, which traced to falling setup completion. Setup completion traced to step 3 of the setup wizard, a screen that asks for a comma-separated values (CSV) file of past invoices that most new users in this example do not have on hand.
 
-That backward walk is how an onboarding redesign<!-- link: /services/saas-products/saas-onboarding-design/ (UP link 1) --> starts at ui-ux.agency, the design arm of tkxel<!-- link: /about/ (credibility line) -->, a team with 200+ products designed since 2017. Every number below depends on one earlier decision, so if your team has not settled it, first read how to choose the activation event<!-- link: /blog/saas-onboarding/#where-does-saas-onboarding-end -->. The rest of this comparison covers the 6 numbers, the events behind them and the proof that a redesigned screen moved one.
+That backward walk is how [SaaS onboarding design](/services/saas-products/saas-onboarding-design/) starts at [ui-ux.agency, the design arm of tkxel](/about/), a team with 200+ products designed since 2017. Every number below depends on one earlier decision, so if your team has not settled it, first read [how to choose the activation event](/blog/saas-onboarding/#where-does-saas-onboarding-end). The rest of this comparison covers the 6 numbers, the events behind them and the proof that a redesigned screen moved one.
 
 ## Which user onboarding metrics point to a screen to fix?
 
@@ -79,7 +79,7 @@ Table: The 6 user onboarding metrics compared, formula by formula
 
 The denominator trap catches most teams. For step metrics I count only users who started that funnel step; for activation and retention I count the whole sign-up cohort. Mix the two and a healthy setup step looks broken, because users who never reached it drag its rate down.
 
-Onboarding completion is not activation, since a finished checklist proves clicks, not value; the FAQs below give the full answer. Our onboarding service page tracks a day-7 return rate, a session exactly 7 days after sign-up, which is the stricter member of the first-week retention family.
+Onboarding completion is not activation, since a finished checklist proves clicks, not value; the FAQs below give the full answer. The day-7 return rate we track in onboarding projects, a session exactly 7 days after sign-up, is the stricter member of the first-week retention family.
 
 Four numbers stay off the list on purpose. Trial-to-paid conversion is the lagging root. Holdout lift is a way to compare, covered in the proof section. Invite acceptance rate is a business-to-business (B2B) split, and guardrails such as support tickets watch for harm.
 
@@ -89,7 +89,7 @@ With 6 candidates on the table, the next decision is which three earn a place on
 
 **Google's HEART framework and its goals, signals and metrics process narrow the list: state the onboarding goal, pick the behavior that shows progress and keep only numbers tracking it.**
 
-HEART stands for Happiness, Engagement, Adoption, Retention and Task success, five categories of user experience metrics from a [2010 Google paper by Kerry Rodden, Hilary Hutchinson and Xin Fu](https://research.google.com/pubs/archive/36299.pdf). <!-- source: https://research.google.com/pubs/archive/36299.pdf --> In her [GV article on picking the right metrics](https://library.gv.com/how-to-choose-the-right-ux-metrics-for-your-product-5f46359ab5be), Rodden advises using only the categories that matter for the product, not all five. <!-- source: https://library.gv.com/how-to-choose-the-right-ux-metrics-for-your-product-5f46359ab5be --> For onboarding I lean on Adoption, Task success and Retention.
+HEART stands for Happiness, Engagement, Adoption, Retention and Task success, five categories of user-centered metrics from a [2010 Google paper by Kerry Rodden, Hilary Hutchinson and Xin Fu](https://research.google.com/pubs/archive/36299.pdf). A [GV Library article on choosing UX metrics](https://library.gv.com/how-to-choose-the-right-ux-metrics-for-your-product-5f46359ab5be) advises picking only the categories most important for your project, not all five. For onboarding I lean on Adoption, Task success and Retention.
 
 The paper's Goals-Signals-Metrics process runs in that order. My onboarding version: the goal is "a new user gets a first result alone", the signal is a logged first value event and the metric is activation rate within 7 days. Run the same chain for speed and staying power and a dashboard of user onboarding metrics shrinks to three numbers.
 
@@ -117,9 +117,9 @@ Table: Example onboarding event spec and the metrics each event feeds
 | session_started | Any later session begins. | The shared properties. | First-week retention. |
 | invite_accepted | An invited member joins the workspace. | Role and inviter. | Invite acceptance rate. |
 
-Paths that skip the interface still count. Accounts created by import, by an API call or by an admin must fire account_created and first_value_reached with every event property filled, or they vanish from the funnel. Our guide to automating onboarding shows what one missing event does to triggered messages.
+Paths that skip the interface still count. Accounts created by import, by an API call or by an admin must fire account_created and first_value_reached with every event property filled, or they vanish from the funnel. One missing event can also misfire every triggered onboarding message built on it.
 
-In Google Analytics 4 (GA4), a [funnel exploration](https://support.google.com/analytics/answer/9327974?hl=en) can be closed, where users must enter at step 1, or open, where they can join at any step. A user who misses a step falls out of every later step. <!-- source: https://support.google.com/analytics/answer/9327974?hl=en --> I use closed funnels for required first-run setup and open funnels for optional steps.
+In Google Analytics 4 (GA4), a [funnel exploration](https://support.google.com/analytics/answer/9327974?hl=en) can be closed, where users must start at the first step, or open, where they can join at any step. A user who misses a step falls out of the funnel and is not counted in any later step. I use closed funnels for required first-run setup and open funnels for optional steps.
 
 Mixpanel, Amplitude and GA4 all build these funnels, and Microsoft Clarity adds session recordings. Once the funnel is trustworthy, drop-off by step tells you where to look.
 
@@ -148,9 +148,9 @@ Table: Loss patterns in the funnel, the screen each one implicates and the first
 
 </details>
 
-Analytics tell you where users leave, not why. Nielsen Norman Group (NN/g) [places analytics among the quantitative methods](https://www.nngroup.com/articles/quantitative-user-research-methods/), which count what users do and leave the reasons to qualitative research. <!-- source: https://www.nngroup.com/articles/quantitative-user-research-methods/ --> So before I choose a fix, I watch 10 to 20 session recordings at the drop-off step, filtered to users who left.
+Analytics tell you where users leave, not why. Nielsen Norman Group (NN/g) [lists analytics among the quantitative research methods](https://www.nngroup.com/articles/quantitative-user-research-methods/), the methods that put a number on a product's usability. So before I choose a fix, I watch 10 to 20 session recordings at the drop-off step, filtered to users who left.
 
-Identity checks add their own retry and pending numbers; see how to measure drop-off in a regulated know your customer (KYC) flow<!-- link: /blog/onboarding-kyc-process-flow/#how-do-you-measure-drop-off-in-the-kyc-onboarding-flow -->.
+Identity checks add their own retry and pending numbers; see how to [measure drop-off in a regulated know your customer (KYC) flow](/blog/onboarding-kyc-process-flow/#how-do-you-measure-drop-off-in-the-kyc-onboarding-flow).
 
 When the leak sits in a sign-up form, a setup step or a blank first screen, a tooltip layered on top leaves the screen itself untouched. That is where our onboarding work begins. In week 1 we read this same funnel in your analytics tool and review recordings of new users' sessions. In week 2 we interview 5 to 8 people who signed up recently, some activated and some lost.
 
@@ -164,7 +164,7 @@ I report median time to value, the 90th percentile and the share who never reach
 
 Say the invoicing product's histogram shows two humps. Most users reach first value in about 10 minutes with sample invoices, while a second group lands after 2 days, once their bookkeeper sends real data. Two humps mean two paths, and the slow hump is the one to redesign.
 
-The tail usually sits on an empty state with nothing to do while data loads, an import step, an integration that needs an admin or an invite the user waits on. TradeZella's trading journal redesign<!-- link: /case-studies/tradezella/ (DOWN link) --> started from a version of this tail: its case study lists "hard to learn" among four user experience (UX) problems, with new users taking long to get productive. The whole web and mobile redesign, centered on dashboard analytics, later reported 25% higher user retention, a result of the full product work rather than of onboarding alone.
+The tail usually sits on an empty state with nothing to do while data loads, an import step, an integration that needs an admin or an invite the user waits on. [TradeZella's trading journal redesign](/case-studies/tradezella/) started from a version of this tail: its case study lists "hard to learn" among four user experience (UX) problems, with new users taking long to get productive. The whole web and mobile redesign, centered on dashboard analytics, later reported 25% higher user retention, a result of the full product work rather than of onboarding alone.
 
 Speed and reach still do not tell you whether first value stuck.
 
@@ -203,7 +203,7 @@ In a B2B product, each quadrant splits again by role.
 
 Workspace activation means the admin reached first value. Member activation means an invited member completed a first assigned task. Invite acceptance rate is invites accepted ÷ invites sent, and it stays out of the core 6 because single-user products have no invites.
 
-A member's time to value should be shorter than the admin's, since the member skips setup. When it is not, members are landing on the admin's setup wizard or an empty workspace, and our guide shows how to separate admin and member paths<!-- link: /blog/saas-onboarding/#how-should-b2b-saas-onboarding-treat-admins-and-members (conditional, one-link-per-target rule) -->.
+A member's time to value should be shorter than the admin's, since the member skips setup. When it is not, members are landing on the admin's setup wizard or an empty workspace, a sign that admins and members need separate paths.
 
 Members who join through single sign-on (SSO) or a verified email domain never see sign-up, so leave them out of the sign-up completion denominator. Segment every chart by role before you compare months. Once the numbers point at a screen and you redesign it, you need proof the change worked.
 
@@ -213,7 +213,7 @@ Members who join through single sign-on (SSO) or a verified email domain never s
 
 User onboarding metrics prove nothing on a plain before-and-after chart, because it mixes the redesign with everything else that changed: a new ad channel, a holiday week or a pricing update. When I have to use one, I match the baseline's segment split and read each cohort only once its window has fully closed.
 
-A concurrent comparison removes most of that noise. New sign-ups are split at random, and a holdout group keeps the current screen while the redesign goes to everyone else in the same weeks. I check guardrail metrics beside the target, such as support tickets from new accounts and first-week retention, so a faster setup that confuses people later does not pass. For message rules rather than screens, see how to run holdout groups for onboarding messages<!-- link: /blog/user-onboarding-automation/#how-do-you-measure-user-onboarding-automation -->.
+A concurrent comparison removes most of that noise. New sign-ups are split at random, and a holdout group keeps the current screen while the redesign goes to everyone else in the same weeks. I check guardrail metrics beside the target, such as support tickets from new accounts and first-week retention, so a faster setup that confuses people later does not pass. For message rules rather than screens, see how to run [holdout groups for onboarding messages](/blog/user-onboarding-automation/#how-do-you-measure-user-onboarding-automation).
 
 <!-- visual: cohort read timeline (user-onboarding-metrics-cohort-read.svg). Horizontal timeline of 3 weekly sign-up cohorts, each with its 7-day activation window shaded. A redesigned-screen release flag between cohort 1 and cohort 2. A read-here marker placed only after the last window closes. A side lane shows a concurrent 50/50 split as the stronger option. Illustrative, no data; not a two-curve lift chart. Caption: Reading sign-up cohorts after a redesigned onboarding screen ships, with a concurrent split as the stronger option -->
 
@@ -231,7 +231,7 @@ Illustrative timeline, no real data.
 
 Small B2B trials rarely have the traffic for an A/B test. Then a clean cohort read plus interviews with recent sign-ups is the honest fallback, because the interviews explain a change the numbers are too small to settle.
 
-Our onboarding process<!-- link: /services/saas-products/saas-onboarding-design/#how-does-the-saas-onboarding-design-process-work (UP link 2; plain service URL if fragments count as the same target) --> runs 4 steps over 3 to 6 weeks, and in its last week we help your team set up a split test where traffic allows and compare activation from before the release with activation after it. The same tree-to-screen habit carries into the rest of a product through our SaaS product design<!-- link: /services/saas-products/ (pillar) --> work. I'd pick the weakest leaf on your own tree this week, redesign that one screen and judge it only on a cohort whose window has closed.
+[Our onboarding process](/services/saas-products/saas-onboarding-design/#how-does-the-saas-onboarding-design-process-work) runs 4 steps over 3 to 6 weeks, and in its last week we help your team set up a split test where traffic allows and compare activation from before the release with activation after it. The same tree-to-screen habit carries into the rest of a product through our [SaaS product design](/services/saas-products/) work. I'd pick the weakest leaf on your own tree this week, redesign that one screen and judge it only on a cohort whose window has closed.
 
 ## FAQs
 
