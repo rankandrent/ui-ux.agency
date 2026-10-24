@@ -85,7 +85,7 @@ A SaaS customer onboarding checklist from customer success covers kickoff to go-
 
 **Product onboarding ends at the activation event, the first action that predicts a user will stay, and every screen before it is judged by whether users get there.**
 
-Three numbers follow. **Activation rate** is the share of new sign-ups who reach that event within a set window, such as the first 7 days. **Time to first value** is the time from sign-up to the same event: minutes for a self-serve tool, days for a product that needs data first. **Day-7 return rate** is the share of new sign-ups who come back for another session 7 days later; it shows whether first value turned into a habit.
+Three numbers follow. **Activation rate** is the share of new sign-ups who reach that event within a set window, such as the first 7 days. **Time to first value** is the time from sign-up to the same event: minutes for a self-serve tool, days for a product that needs data first. **Day-7 return rate** is the share of new sign-ups who come back for another session 7 days later; it shows whether first value turned into a habit. For the full set of six, see [each metric's formula, window and the screen it points to](/blog/user-onboarding-metrics/).
 
 Only one stage comes after the activation event: the prompt that brings an activated user back for a second session. Some teams call the activation event the aha moment, the point where a user grasps the product's value; I don't, because analytics can log an action, not a feeling. Keep the activation window shorter than your free trial length, so a user who misses first value still has days left. Freemium onboarding has no trial clock, but I'd set the same window.
 
