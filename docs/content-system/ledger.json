@@ -365,6 +365,27 @@
         "product discovery process/phase/framework (fold into /blog/product-discovery/)",
         "hubs with a post in the last 3 days: saas-onboarding-design, saas-design-agency, product-design-agency"
       ]
+    },
+    {
+      "date": "2026-10-24",
+      "goal": "daily post: highest-scoring relevant topic",
+      "jobs": [
+        {
+          "hub": "saas-onboarding-design",
+          "keyword": "user onboarding metrics",
+          "score": 73.3,
+          "format": "complete guide"
+        }
+      ],
+      "skipped": [
+        "employee onboarding process flow, onboarding process flow (HR intent, off-audience)",
+        "client/customer onboarding process flow chart variants (customer-success / back-office intent; banking chart covered by onboarding-kyc-process-flow)",
+        "saas onboarding flow (owned by /blog/saas-onboarding/)",
+        "conversational ui / conversational ui design (hub-owned phrase for chatbot-ui-design)",
+        "user onboarding tools (tool roundup)",
+        "how to build a minimum viable product (same intent as /blog/how-to-design-an-mvp/)",
+        "hubs with a post in the last 3 days: saas-design-agency, product-design-agency, ai-product-discovery-workshop"
+      ]
     }
   ]
 }
